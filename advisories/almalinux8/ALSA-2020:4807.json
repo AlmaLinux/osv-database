@@ -1,0 +1,37 @@
+{
+  "id": "ALSA-2020:4807",
+  "summary": "Moderate: prometheus-jmx-exporter security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "prometheus-jmx-exporter"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.12.0-6.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2017-18640"
+  ],
+  "published": "2020-11-03T12:37:53Z",
+  "modified": "2021-11-12T10:20:56Z",
+  "details": "Prometheus JMX Exporter is a JMX to Prometheus exporter: a collector that can be configured to scrape and expose MBeans of a JMX target.\n\nSecurity Fix(es):\n\n* snakeyaml: Billion laughs attack via alias feature (CVE-2017-18640)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://vulners.com/cve/CVE-2017-18640",
+      "type": "REPORT"
+    }
+  ]
+}

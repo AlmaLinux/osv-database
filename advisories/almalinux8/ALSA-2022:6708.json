@@ -1,0 +1,130 @@
+{
+  "id": "ALSA-2022:6708",
+  "summary": "Important: thunderbird security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "thunderbird"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "102.3.0-3.el8_6.alma"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-3033",
+    "CVE-2022-40959",
+    "CVE-2022-40960",
+    "CVE-2022-40962",
+    "CVE-2022-3032",
+    "CVE-2022-3034",
+    "CVE-2022-36059",
+    "CVE-2022-40958",
+    "CVE-2022-40956",
+    "CVE-2022-40957"
+  ],
+  "published": "2022-09-26T00:00:00Z",
+  "modified": "2022-10-14T15:08:36Z",
+  "details": "Mozilla Thunderbird is a standalone mail and newsgroup client.\n\nThis update upgrades Thunderbird to version 102.3.0.\n\nSecurity Fix(es):\n\n* Mozilla: Leaking of sensitive information when composing a response to an HTML email with a META refresh tag (CVE-2022-3033)\n* Mozilla: Bypassing FeaturePolicy restrictions on transient pages (CVE-2022-40959)\n* Mozilla: Data-race when parsing non-UTF-8 URLs in threads (CVE-2022-40960)\n* Mozilla: Memory safety bugs fixed in Firefox 105 and Firefox ESR 102.3 (CVE-2022-40962)\n* Mozilla: Remote content specified in an HTML document that was nested inside an iframe's srcdoc attribute was not blocked (CVE-2022-3032)\n* Mozilla: An iframe element in an HTML email could trigger a network request (CVE-2022-3034)\n* Mozilla: Matrix SDK bundled with Thunderbird vulnerable to denial-of-service attack (CVE-2022-36059)\n* Mozilla: Bypassing Secure Context restriction for cookies with __Host and __Secure prefix (CVE-2022-40958)\n* Mozilla: Content-Security-Policy base-uri bypass (CVE-2022-40956)\n* Mozilla: Incoherent instruction cache when building WASM on ARM64 (CVE-2022-40957)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:6708",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-3032",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-3033",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-3034",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-36059",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-40956",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-40957",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-40958",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-40959",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-40960",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-40962",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2123255",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2123256",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2123257",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2123258",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2128792",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2128793",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2128794",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2128795",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2128796",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2128797",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2022-6708.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

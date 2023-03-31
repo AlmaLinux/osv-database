@@ -1,0 +1,174 @@
+{
+  "id": "ALSA-2022:4796",
+  "summary": "Important: nodejs:16 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-full-i18n"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:16.14.0-4.module_el8.6.0+2904+f21ad6f4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "npm"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:8.3.1-1.16.14.0.4.module_el8.6.0+2904+f21ad6f4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-nodemon"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.15-1.module_el8.6.0+2904+f21ad6f4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:16.14.0-4.module_el8.6.0+2904+f21ad6f4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-nodemon"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.15-1.module_el8.5.0+2605+45d748af"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-packaging"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "25-1.module_el8.5.0+2605+45d748af"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-docs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:16.14.0-4.module_el8.6.0+2904+f21ad6f4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:16.14.0-4.module_el8.6.0+2904+f21ad6f4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2021-43616"
+  ],
+  "published": "2022-05-30T07:22:47Z",
+  "modified": "2022-05-30T11:39:13Z",
+  "details": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nSecurity Fix(es):\n\n* npm: npm ci succeeds when package-lock.json doesn't match package.json (CVE-2021-43616)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2022-4796.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-43616",
+      "type": "REPORT"
+    }
+  ]
+}

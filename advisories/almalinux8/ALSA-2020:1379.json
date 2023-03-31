@@ -1,0 +1,117 @@
+{
+  "id": "ALSA-2020:1379",
+  "summary": "Important: container-tools:rhel8 security and bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "containernetworking-plugins"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.8.3-4.module_el8.5.0+2635+e4386a39"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python-podman-api"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.0-0.2.gitd0a45fe.module_el8.5.0+2635+e4386a39"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "cockpit-podman"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11-1.module_el8.5.0+2635+e4386a39"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "slirp4netns"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.4.2-3.git21fdece.module_el8.5.0+2635+e4386a39"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "udica"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.2.1-2.module_el8.5.0+2635+e4386a39"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2020-8608"
+  ],
+  "published": "2020-04-07T09:15:36Z",
+  "modified": "2020-04-07T09:15:25Z",
+  "details": "The container-tools module contains tools for working with containers, notably podman, buildah, skopeo, and runc.\n\nSecurity Fix(es):\n\n* QEMU: Slirp: potential OOB access due to unsafe snprintf() usages (CVE-2020-8608)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* useradd and groupadd fail under rootless Buildah and podman [stream-container-tools-rhel8-rhel-8.1.1] (BZ#1803495)\n\n* Podman support for FIPS Mode requires a bind mount inside the container [stream-container-tools-rhel8-rhel-8.1.1/buildah] (BZ#1804188)\n\n* Podman support for FIPS Mode requires a bind mount inside the container [stream-container-tools-rhel8-rhel-8.1.1/podman] (BZ#1804194)\n\n* fuse-overlayfs segfault [stream-container-tools-rhel8-rhel-8.1.1/fuse-overlayfs] (BZ#1805016)\n\n* buildah COPY command is slow when .dockerignore file is not present [stream-container-tools-rhel8-rhel-8.1.1/buildah] (BZ#1806119)",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2020-1379.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-8608",
+      "type": "REPORT"
+    }
+  ]
+}

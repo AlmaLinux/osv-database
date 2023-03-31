@@ -1,0 +1,60 @@
+{
+  "id": "ALSA-2019:3476",
+  "summary": "Moderate: squid:4 security and bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libecap"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.1-2.module_el8.6.0+2741+01592ae8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libecap-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.1-2.module_el8.6.0+2741+01592ae8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2019-13345"
+  ],
+  "published": "2019-11-05T17:50:00Z",
+  "modified": "2019-11-05T17:49:48Z",
+  "details": "Squid is a high-performance proxy caching server for web clients, supporting FTP, Gopher, and HTTP data objects.\n\nSecurity Fix(es):\n\n* squid: XSS via user_name or auth parameter in cachemgr.cgi (CVE-2019-13345)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2019-3476.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-13345",
+      "type": "REPORT"
+    }
+  ]
+}

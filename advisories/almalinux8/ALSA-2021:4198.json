@@ -1,0 +1,42 @@
+{
+  "id": "ALSA-2021:4198",
+  "summary": "Moderate: edk2 security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "edk2-ovmf"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20210527gite1999b264f1f-3.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2021-23840",
+    "CVE-2021-23841"
+  ],
+  "published": "2021-11-09T08:37:02Z",
+  "modified": "2021-11-12T10:20:56Z",
+  "details": "EDK (Embedded Development Kit) is a project to enable UEFI support for Virtual Machines. This package contains a sample 64-bit UEFI firmware for QEMU and KVM. \n\nThe following packages have been upgraded to a later upstream version: edk2 (20210527gite1999b264f1f). (BZ#1846481, BZ#1938238)\n\nSecurity Fix(es):\n\n* openssl: integer overflow in CipherUpdate (CVE-2021-23840)\n\n* openssl: NULL pointer dereference in X509_issuer_and_serial_hash() (CVE-2021-23841)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://vulners.com/cve/CVE-2021-23840",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-23841",
+      "type": "REPORT"
+    }
+  ]
+}

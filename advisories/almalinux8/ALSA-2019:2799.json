@@ -1,0 +1,184 @@
+{
+  "id": "ALSA-2019:2799",
+  "summary": "Important: nginx:1.14 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nginx"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.14.1-9.module_el8.3.0+2165+af250afe.alma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nginx-filesystem"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.14.1-9.module_el8.3.0+2165+af250afe.alma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nginx-mod-stream"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.14.1-9.module_el8.3.0+2165+af250afe.alma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nginx-mod-http-xslt-filter"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.14.1-9.module_el8.3.0+2165+af250afe.alma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nginx-mod-mail"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.14.1-9.module_el8.3.0+2165+af250afe.alma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nginx-mod-http-image-filter"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.14.1-9.module_el8.3.0+2165+af250afe.alma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nginx-all-modules"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.14.1-9.module_el8.3.0+2165+af250afe.alma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nginx-mod-http-perl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.14.1-9.module_el8.3.0+2165+af250afe.alma"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2019-9511",
+    "CVE-2019-9513",
+    "CVE-2019-9516"
+  ],
+  "published": "2019-09-17T08:45:10Z",
+  "modified": "2019-09-17T08:45:10Z",
+  "details": "Nginx is a web server and a reverse proxy server for HTTP, SMTP, POP3 (Post Office Protocol 3) and IMAP protocols, with a focus on high concurrency, performance and low memory usage. \n\nSecurity Fix(es):\n\n* HTTP/2: large amount of data request leads to denial of service (CVE-2019-9511)\n\n* HTTP/2: flood using PRIORITY frames resulting in excessive resource consumption (CVE-2019-9513)\n\n* HTTP/2: 0-length headers leads to denial of service (CVE-2019-9516)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2019-2799.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-9511",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-9513",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-9516",
+      "type": "REPORT"
+    }
+  ]
+}

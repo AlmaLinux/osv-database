@@ -1,0 +1,122 @@
+{
+  "id": "ALSA-2022:8008",
+  "summary": "Moderate: buildah security and bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "buildah-tests"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.27.0-2.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "buildah"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.27.0-2.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2021-20291",
+    "CVE-2021-33195",
+    "CVE-2021-33197",
+    "CVE-2021-33198",
+    "CVE-2022-27191",
+    "CVE-2022-2989",
+    "CVE-2022-2990"
+  ],
+  "published": "2022-11-15T00:00:00Z",
+  "modified": "2022-11-18T05:11:27Z",
+  "details": "The buildah package provides a tool for facilitating building OCI container images. Among other things, buildah enables you to: Create a working container, either from scratch or using an image as a starting point; Create an image, either from a working container or using the instructions in a Dockerfile; Build both Docker and OCI images. \n\nSecurity Fix(es):\n\n* containers/storage: DoS via malicious image (CVE-2021-20291)\n* golang: net: lookup functions may return invalid host names (CVE-2021-33195)\n* golang: net/http/httputil: ReverseProxy forwards connection headers if first one is empty (CVE-2021-33197)\n* golang: math/big.Rat: may cause a panic or an unrecoverable fatal error if passed inputs with very large exponents (CVE-2021-33198)\n* golang: crash in a golang.org/x/crypto/ssh server (CVE-2022-27191)\n* podman: possible information disclosure and modification (CVE-2022-2989)\n* buildah: possible information disclosure and modification (CVE-2022-2990)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:8008",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2021-20291",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2021-33195",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2021-33197",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2021-33198",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-27191",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-2989",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-2990",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1939485",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1989564",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1989570",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1989575",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2064702",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2121445",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2121453",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2022-8008.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

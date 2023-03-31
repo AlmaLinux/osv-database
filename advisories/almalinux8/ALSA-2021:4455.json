@@ -1,0 +1,37 @@
+{
+  "id": "ALSA-2021:4455",
+  "summary": "Low: python-pip security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3-pip"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.0.3-20.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2021-3572"
+  ],
+  "published": "2021-11-09T09:24:55Z",
+  "modified": "2021-11-12T10:20:56Z",
+  "details": "pip is a package management system used to install and manage software packages written in Python. Many packages can be found in the Python Package Index (PyPI). pip is a recursive acronym that can stand for either \"Pip Installs Packages\" or \"Pip Installs Python\". \n\nSecurity Fix(es):\n\n* python-pip: Incorrect handling of unicode separators in git references (CVE-2021-3572)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://vulners.com/cve/CVE-2021-3572",
+      "type": "REPORT"
+    }
+  ]
+}

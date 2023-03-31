@@ -1,0 +1,54 @@
+{
+  "id": "ALEA-2020:4732",
+  "summary": "new module: nodejs:14",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-packaging"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "23-3.module_el8.4.0+2522+3bd42762"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-nodemon"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.3-1.module_el8.4.0+2521+c668cc9f"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2020-11-03T12:31:26Z",
+  "modified": "2020-11-03T19:53:33Z",
+  "details": "This enhancement update adds the nodejs:14 module to AlmaLinux (BZ#1815402)\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALEA-2020-4732.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

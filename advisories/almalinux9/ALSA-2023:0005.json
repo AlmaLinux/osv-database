@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2023:0005",
+  "summary": "Important: bcel security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "bcel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.4.1-9.el9_1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-42920"
+  ],
+  "published": "2023-01-02T00:00:00Z",
+  "modified": "2023-01-04T07:42:29Z",
+  "details": "The Byte Code Engineering Library (Apache Commons BCEL) is intended to give users a convenient way to analyze, create, and manipulate (binary) Java class files (those ending with .class).\n\nSecurity Fix(es):\n\n* Apache-Commons-BCEL: arbitrary bytecode produced via out-of-bounds writing (CVE-2022-42920)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:0005",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-42920",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2142707",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-0005.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

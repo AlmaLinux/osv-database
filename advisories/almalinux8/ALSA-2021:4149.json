@@ -1,0 +1,107 @@
+{
+  "id": "ALSA-2021:4149",
+  "summary": "Moderate: python-pillow security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3-pillow"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.1-16.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2021-25287",
+    "CVE-2021-25288",
+    "CVE-2021-25290",
+    "CVE-2021-25292",
+    "CVE-2021-25293",
+    "CVE-2021-27921",
+    "CVE-2021-27922",
+    "CVE-2021-27923",
+    "CVE-2021-28675",
+    "CVE-2021-28676",
+    "CVE-2021-28677",
+    "CVE-2021-28678",
+    "CVE-2021-34552",
+    "CVE-2020-35653",
+    "CVE-2020-35655"
+  ],
+  "published": "2021-11-09T08:24:34Z",
+  "modified": "2021-11-12T10:20:56Z",
+  "details": "The python-pillow packages contain a Python image processing library that provides extensive file format support, an efficient internal representation, and powerful image-processing capabilities.\n\nSecurity Fix(es):\n\n* python-pillow: Out-of-bounds read in J2K image reader (CVE-2021-25287)\n\n* python-pillow: Out-of-bounds read in J2K image reader (CVE-2021-25288)\n\n* python-pillow: Negative-offset memcpy in TIFF image reader (CVE-2021-25290)\n\n* python-pillow: Regular expression DoS in PDF format parser (CVE-2021-25292)\n\n* python-pillow: Out-of-bounds read in SGI RLE image reader (CVE-2021-25293)\n\n* python-pillow: Excessive memory allocation in BLP image reader (CVE-2021-27921)\n\n* python-pillow: Excessive memory allocation in ICNS image reader (CVE-2021-27922)\n\n* python-pillow: Excessive memory allocation in ICO image reader (CVE-2021-27923)\n\n* python-pillow: Excessive memory allocation in PSD image reader (CVE-2021-28675)\n\n* python-pillow: Infinite loop in FLI image reader (CVE-2021-28676)\n\n* python-pillow: Excessive CPU use in EPS image reader (CVE-2021-28677)\n\n* python-pillow: Excessive looping in BLP image reader (CVE-2021-28678)\n\n* python-pillow: Buffer overflow in image convert function (CVE-2021-34552)\n\n* python-pillow: Buffer over-read in PCX image reader (CVE-2020-35653)\n\n* python-pillow: Buffer over-read in SGI RLE image reader (CVE-2020-35655)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://vulners.com/cve/CVE-2020-35653",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-35655",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-25287",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-25288",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-25290",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-25292",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-25293",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-27921",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-27922",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-27923",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-28675",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-28676",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-28677",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-28678",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-34552",
+      "type": "REPORT"
+    }
+  ]
+}

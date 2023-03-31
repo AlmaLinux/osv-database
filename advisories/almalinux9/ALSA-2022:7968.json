@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2022:7968",
+  "summary": "Low: virt-v2v security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "virt-v2v-bash-completion"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.0.7-6.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "virt-v2v"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.0.7-6.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-2211"
+  ],
+  "published": "2022-11-15T00:00:00Z",
+  "modified": "2022-11-18T05:33:13Z",
+  "details": "The virt-v2v package provides a tool for converting virtual machines to use the KVM (Kernel-based Virtual Machine) hypervisor or AlmaLinux Enterprise Virtualization. The tool modifies both the virtual machine image and its associated libvirt metadata. Also, virt-v2v can configure a guest to use VirtIO drivers if possible.\n\nSecurity Fix(es):\n\n* libguestfs: Buffer overflow in get_keys leads to DoS (CVE-2022-2211)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:7968",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-2211",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2100862",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2022-7968.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

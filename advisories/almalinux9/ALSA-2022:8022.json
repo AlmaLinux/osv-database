@@ -1,0 +1,87 @@
+{
+  "id": "ALSA-2022:8022",
+  "summary": "Moderate: qt5 security and bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "qt5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.15.3-1.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "qt5-srpm-macros"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.15.3-1.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "qt5-rpm-macros"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.15.3-1.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-25255"
+  ],
+  "published": "2022-11-15T00:00:00Z",
+  "modified": "2022-11-18T05:02:24Z",
+  "details": "The Qt5 libraries packages provide Qt 5, version 5 of the Qt cross-platform application framework.\n\nSecurity Fix(es):\n\n* qt: QProcess could execute a binary from the current working directory when not found in the PATH (CVE-2022-25255)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:8022",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-25255",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2055505",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2022-8022.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

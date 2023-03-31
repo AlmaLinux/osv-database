@@ -1,0 +1,74 @@
+{
+  "id": "ALSA-2019:4269",
+  "summary": "Important: container-tools:rhel8 security and bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "oci-umount"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.3.4-2.git87f9237.module_el8.3.0+2044+12421f43"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "oci-systemd-hook"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:0.1.15-2.git2d0b8a3.module_el8.3.0+2044+12421f43"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2019-9512",
+    "CVE-2019-9514",
+    "CVE-2019-16884"
+  ],
+  "published": "2019-12-17T09:19:28Z",
+  "modified": "2019-12-17T09:19:15Z",
+  "details": "The container-tools module contains tools for working with containers, notably podman, buildah, skopeo, and runc.\n\nSecurity Fix(es):\n\n* HTTP/2: flood using PING frames results in unbounded memory growth (CVE-2019-9512)\n\n* HTTP/2: flood using HEADERS frames results in unbounded memory growth (CVE-2019-9514)\n\n* runc: AppArmor/SELinux bypass with malicious image that specifies a volume at /proc (CVE-2019-16884)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* avc: podman run --security-opt label=type:svirt_qemu_net_t (BZ#1764318)\n\n* backport json-file logging support to 1.4.2 (BZ#1770176)\n\n* Selinux won't allow SCTP inter pod communication (BZ#1774382)",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2019-4269.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-16884",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-18466",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-9512",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-9514",
+      "type": "REPORT"
+    }
+  ]
+}

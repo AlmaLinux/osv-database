@@ -1,0 +1,54 @@
+{
+  "id": "ALEA-2022:1963",
+  "summary": "new module: log4j:2",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "jctools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.3.0-3.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "disruptor"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.4-2.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2022-05-10T08:09:49Z",
+  "modified": "2022-05-10T08:09:46Z",
+  "details": "This enhancement update adds the log4j:2 module to AlmaLinux\n(BZ#1937468)\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALEA-2022-1963.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

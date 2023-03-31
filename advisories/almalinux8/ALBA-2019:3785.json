@@ -1,0 +1,87 @@
+{
+  "id": "ALBA-2019:3785",
+  "summary": "libcacard bug fix and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libcacard-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3:2.7.0-2.el8_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libcacard-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3:2.7.0-2.el8_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libcacard"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3:2.7.0-2.el8_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libcacard"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3:2.7.0-2.el8_1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2019-11-07T12:02:04Z",
+  "modified": "2021-11-12T10:20:54Z",
+  "details": "The libcacard packages contain the Common Access Card (CAC) emulation library.\n\nThis update fixes the following bug:\n\n* Backport the patch removing key caching to unbreak libcacard for CI usage (BZ#1750477).\n\nUsers of libcacard are advised to upgrade to these updated packages, which fix this bug.",
+  "references": []
+}

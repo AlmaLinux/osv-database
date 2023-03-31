@@ -1,0 +1,56 @@
+{
+  "id": "ALSA-2020:1616",
+  "summary": "Low: irssi security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "irssi"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.1-3.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "irssi-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.1-3.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2019-13045"
+  ],
+  "published": "2020-04-28T08:56:59Z",
+  "modified": "2021-11-12T10:20:55Z",
+  "details": "Irssi is a modular IRC client with Perl scripting. \n\nSecurity Fix(es):\n\n* irssi: use after free when sending SASL login to server (CVE-2019-13045)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://vulners.com/cve/CVE-2019-13045",
+      "type": "REPORT"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "ALBA-2022:1032",
+  "summary": "tzdata bug fix and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "tzdata-java"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2022a-1.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2022-03-23T11:09:23Z",
+  "modified": "2022-03-28T21:39:13Z",
+  "details": "The tzdata packages contain data files with rules for various time zones.\n\nThe tzdata packages have been updated to version 2022a, which addresses recent\ntime zone changes. Notably:\n\n* In Palestine the daylight saving time (DST) starts on March 27, 2022, not on March 26.\n\n* The zdump -v command now outputs better failure information.\n\n* This update provides fixes for a code that read corrupted TZif data.",
+  "references": []
+}

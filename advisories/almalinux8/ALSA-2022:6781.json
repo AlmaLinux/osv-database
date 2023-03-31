@@ -1,0 +1,143 @@
+{
+  "id": "ALSA-2022:6781",
+  "summary": "Important: bind9.16 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "bind9.16-chroot"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "32:9.16.23-0.7.el8_6.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "bind9.16"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "32:9.16.23-0.7.el8_6.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "bind9.16-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "32:9.16.23-0.7.el8_6.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "bind9.16-license"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "32:9.16.23-0.7.el8_6.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "bind9.16-utils"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "32:9.16.23-0.7.el8_6.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-3080",
+    "CVE-2022-38177",
+    "CVE-2022-38178"
+  ],
+  "published": "2022-10-04T00:00:00Z",
+  "modified": "2022-10-14T16:12:11Z",
+  "details": "The Berkeley Internet Name Domain (BIND) is an implementation of the Domain Name System (DNS) protocols. BIND includes a DNS server (named); a resolver library (routines for applications to use when interfacing with DNS); and tools for verifying that the DNS server is operating correctly.\n\nSecurity Fix(es):\n\n* bind: BIND 9 resolvers configured to answer from cache with zero stale-answer-timeout may terminate unexpectedly (CVE-2022-3080)\n* bind: memory leak in ECDSA DNSSEC verification code (CVE-2022-38177)\n* bind: memory leaks in EdDSA DNSSEC verification code (CVE-2022-38178)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:6781",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-3080",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-38177",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-38178",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2128600",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2128601",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2128602",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2022-6781.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

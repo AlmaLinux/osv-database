@@ -1,0 +1,125 @@
+{
+  "id": "ALSA-2022:7970",
+  "summary": "Moderate: protobuf security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "protobuf"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.14.0-13.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "protobuf-lite"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.14.0-13.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "protobuf"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.14.0-13.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "python3-protobuf"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.14.0-13.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "protobuf-lite"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.14.0-13.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2021-22570"
+  ],
+  "published": "2022-11-15T00:00:00Z",
+  "modified": "2022-11-18T12:58:16Z",
+  "details": "The protobuf packages provide Protocol Buffers, Google's data interchange format. Protocol Buffers can encode structured data in an efficient yet extensible format, and provide a flexible, efficient, and automated mechanism for serializing structured data.\n\nSecurity Fix(es):\n\n* protobuf: Incorrect parsing of nullchar in the proto symbol leads to Nullptr dereference (CVE-2021-22570)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:7970",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2021-22570",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2049429",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2022-7970.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

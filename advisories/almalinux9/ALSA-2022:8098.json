@@ -1,0 +1,95 @@
+{
+  "id": "ALSA-2022:8098",
+  "summary": "Moderate: toolbox security and bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "toolbox-tests"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.0.99.3-5.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "toolbox"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.0.99.3-5.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-1705",
+    "CVE-2022-30630",
+    "CVE-2022-30631",
+    "CVE-2022-30632"
+  ],
+  "published": "2022-11-15T00:00:00Z",
+  "modified": "2022-11-18T04:15:33Z",
+  "details": "Toolbox is a tool for Linux operating systems, which allows the use of containerized command line environments. It is built on top of Podman and other standard container technologies from OCI.\n\nSecurity Fix(es):\n\n* golang: net/http: improper sanitization of Transfer-Encoding header (CVE-2022-1705)\n* golang: io/fs: stack exhaustion in Glob (CVE-2022-30630)\n* golang: compress/gzip: stack exhaustion in Reader.Read (CVE-2022-30631)\n* golang: path/filepath: stack exhaustion in Glob (CVE-2022-30632)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:8098",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-1705",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-30630",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-30631",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-30632",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2107342",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2107371",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2107374",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2107386",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2022-8098.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

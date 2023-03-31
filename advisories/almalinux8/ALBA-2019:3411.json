@@ -1,0 +1,49 @@
+{
+  "id": "ALBA-2019:3411",
+  "summary": "lttng-ust bug fix and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "lttng-ust"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.8.1-11.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "lttng-ust"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.8.1-11.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2019-11-05T17:42:56Z",
+  "modified": "2021-11-12T10:20:55Z",
+  "details": "This update fixes two issues in lttng-ust and subpackages.\n\nThere was a bad shebang in the /usr/bin/lttng-gen-tp utility that prevented users from executing it. This issue has been fixed.\n\nlttng-ust was only available for x86_64 architectures. lttng-ust is now available for all architectures supported on AlmaLinux.",
+  "references": []
+}

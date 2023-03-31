@@ -1,0 +1,49 @@
+{
+  "id": "ALBA-2022:0884",
+  "summary": "gdm bug fix and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gdm"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:40.0-15.el8_5.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gdm"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:40.0-15.el8_5.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2022-03-15T09:10:02Z",
+  "modified": "2022-03-16T22:22:38Z",
+  "details": "The GNOME Display Manager (GDM) provides the graphical login screen. The\nscreen is shown shortly after boot, after log out, and when switching the\ncurrent user.\n\nBug Fix(es) and Enhancement(s):\n\n* gdm crashed in ensure_display_for_seat(), can't login to the GUI\n(BZ#2036584)",
+  "references": []
+}

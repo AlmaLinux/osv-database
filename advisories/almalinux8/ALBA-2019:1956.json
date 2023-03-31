@@ -1,0 +1,54 @@
+{
+  "id": "ALBA-2019:1956",
+  "summary": "container-tools:rhel8 bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "oci-umount"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.3.4-2.git87f9237.module_el8.3.0+2044+12421f43"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "oci-systemd-hook"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:0.1.15-2.git2d0b8a3.module_el8.3.0+2044+12421f43"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2019-07-30T19:33:13Z",
+  "modified": "2019-07-30T19:33:12Z",
+  "details": "The container-tools module contains tools for working with containers, notably podman, buildah, skopeo, and runc.\n\nBug Fix(es):\n\n* podman exec rc-code needs to distinguish between stopped containers and non existing ones (BZ#1723470)\n\n* Performance Problems with Podman on systems with IO load (BZ#1724522)\n\n* podman exec leaks an exec_pid_<hash> file for every exec in tmpfs  (BZ#1731270)",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALBA-2019-1956.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

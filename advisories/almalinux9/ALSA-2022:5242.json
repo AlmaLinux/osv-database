@@ -1,0 +1,170 @@
+{
+  "id": "ALSA-2022:5242",
+  "summary": "Moderate: vim security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "vim-X11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:8.2.2637-16.el9_0.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "vim-common"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:8.2.2637-16.el9_0.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "vim-enhanced"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:8.2.2637-16.el9_0.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "vim-minimal"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:8.2.2637-16.el9_0.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "vim-filesystem"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:8.2.2637-16.el9_0.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-0554",
+    "CVE-2022-0943",
+    "CVE-2022-1420",
+    "CVE-2022-1621",
+    "CVE-2022-1629",
+    "CVE-2022-1154"
+  ],
+  "published": "2022-07-01T00:00:00Z",
+  "modified": "2022-07-21T17:37:24Z",
+  "details": "Vim (Vi IMproved) is an updated and improved version of the vi editor.\nSecurity Fix(es):\n* vim: Use of Out-of-range Pointer Offset in vim (CVE-2022-0554)\n* vim: Heap-based Buffer Overflow occurs in vim (CVE-2022-0943)\n* vim: Out-of-range Pointer Offset (CVE-2022-1420)\n* vim: heap buffer overflow (CVE-2022-1621)\n* vim: buffer over-read (CVE-2022-1629)\n* vim: use after free in utf_ptr2char (CVE-2022-1154)\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:5242",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-0554",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-0943",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-1154",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-1420",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-1621",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-1629",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2058483",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2064064",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2073013",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2077734",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2083924",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2083931",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2022-5242.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

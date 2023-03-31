@@ -1,0 +1,49 @@
+{
+  "id": "ALBA-2022:0363",
+  "summary": "gnome-control-center bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gnome-control-center-filesystem"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.28.2-29.el8_5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gnome-control-center"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.28.2-29.el8_5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2022-02-01T20:10:38Z",
+  "modified": "2022-02-02T11:55:08Z",
+  "details": "The gnome-control-center package contains configuration utilities for the GNOME desktop, which allow to configure accessibility options, desktop fonts, keyboard and mouse properties, sound setup, desktop theme and background, user interface properties, screen resolution, and other settings.\n\nBug Fix:\n\n* Wifi settings panel causes gnome-control-panel to hang (BZ#2024707)",
+  "references": []
+}

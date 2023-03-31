@@ -1,0 +1,94 @@
+{
+  "id": "ALSA-2022:1823",
+  "summary": "Moderate: mod_auth_openidc:2.3 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "cjose"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.6.1-2.module_el8.6.0+2868+44838709"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "cjose-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.6.1-2.module_el8.6.0+2868+44838709"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mod_auth_openidc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.7-11.module_el8.6.0+2868+44838709"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2021-32786",
+    "CVE-2021-32791",
+    "CVE-2021-32792",
+    "CVE-2021-39191"
+  ],
+  "published": "2022-05-10T06:30:32Z",
+  "modified": "2022-05-10T08:02:51Z",
+  "details": "The mod_auth_openidc is an OpenID Connect authentication module for Apache HTTP Server. It enables an Apache HTTP Server to operate as an OpenID Connect Relying Party and/or OAuth 2.0 Resource Server. \n\nSecurity Fix(es):\n\n* mod_auth_openidc: open redirect in oidc_validate_redirect_url() (CVE-2021-32786)\n\n* mod_auth_openidc: hardcoded static IV and AAD with a reused key in AES GCM encryption (CVE-2021-32791)\n\n* mod_auth_openidc: XSS when using OIDCPreservePost On (CVE-2021-32792)\n\n* mod_auth_openidc: open redirect due to target_link_uri parameter not validated (CVE-2021-39191)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2022-1823.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-32786",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-32791",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-32792",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-39191",
+      "type": "REPORT"
+    }
+  ]
+}

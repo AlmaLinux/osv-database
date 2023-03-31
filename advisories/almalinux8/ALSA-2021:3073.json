@@ -1,0 +1,89 @@
+{
+  "id": "ALSA-2021:3073",
+  "summary": "Moderate: nodejs:12 security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-packaging"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "17-3.module_el8.4.0+2521+c668cc9f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-packaging"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "17-3.module_el8.3.0+2023+d2377ea3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-nodemon"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.3-1.module_el8.4.0+2521+c668cc9f"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2021-23362",
+    "CVE-2021-27290",
+    "CVE-2021-22918"
+  ],
+  "published": "2021-08-10T12:00:47Z",
+  "modified": "2021-08-10T12:00:43Z",
+  "details": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nThe following packages have been upgraded to a later upstream version: nodejs (12.22.3). (BZ#1978201)\n\nSecurity Fix(es):\n\n* nodejs-hosted-git-info: Regular Expression denial of service via shortcutMatch in fromUrl() (CVE-2021-23362)\n\n* nodejs-ssri: Regular expression DoS (ReDoS) when parsing malicious SRI in strict mode (CVE-2021-27290)\n\n* libuv: out-of-bounds read in uv__idna_toascii() can lead to information disclosures or crashes (CVE-2021-22918)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2021-3073.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-22918",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-23362",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-27290",
+      "type": "REPORT"
+    }
+  ]
+}

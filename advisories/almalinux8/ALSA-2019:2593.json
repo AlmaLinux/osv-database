@@ -1,0 +1,60 @@
+{
+  "id": "ALSA-2019:2593",
+  "summary": "Important: squid:4 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libecap"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.1-2.module_el8.6.0+2741+01592ae8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libecap-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.1-2.module_el8.6.0+2741+01592ae8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2019-12527"
+  ],
+  "published": "2019-09-02T10:22:04Z",
+  "modified": "2019-09-02T10:22:04Z",
+  "details": "Squid is a high-performance proxy caching server for web clients, supporting FTP, Gopher, and HTTP data objects.\n\nSecurity Fix(es):\n\n* squid: heap-based buffer overflow in HttpHeader::getAuth (CVE-2019-12527)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2019-2593.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-12527",
+      "type": "REPORT"
+    }
+  ]
+}

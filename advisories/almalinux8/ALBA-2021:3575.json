@@ -1,0 +1,68 @@
+{
+  "id": "ALBA-2021:3575",
+  "summary": "gcc-toolset-10-binutils bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gcc-toolset-10-binutils-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.35-8.el8_4.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gcc-toolset-10-binutils-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.35-8.el8_4.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gcc-toolset-10-binutils"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.35-8.el8_4.4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2021-09-21T07:09:04Z",
+  "modified": "2021-11-12T10:20:56Z",
+  "details": "Binutils is a collection of binary utilities, including ar (for creating, modifying, and extracting from archives), as (a family of GNU assemblers), gprof (for displaying call graph profile data), ld (the GNU linker), nm (for listing symbols from object files), objcopy (for copying and translating object files), objdump (for displaying information from object files), ranlib (for generating an index for the contents of an archive), readelf (for displaying detailed information about binary files), size (for listing the section sizes of an object or archive file), strings (for listing printable strings from files), strip (for discarding symbols), and addr2line (for converting addresses to file and line). The gcc-toolset-10-binutils packages provide the GCC Toolset 10 version of binutils.\n\nBug fix:\n\n* Earlier, the Binutils linker provided by GCC Toolset 10 started to support a new kernel feature called \"secondary relocs\". However, the performance of the linker significantly decreased. With this update, the linker can bypass the secondary reloc support code if input files do not use this code. As a result, the Binutils linker performs normally when input files do not use\nsecondary relocs. (BZ#1978174)",
+  "references": []
+}

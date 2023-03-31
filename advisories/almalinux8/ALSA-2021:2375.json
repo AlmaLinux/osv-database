@@ -1,0 +1,104 @@
+{
+  "id": "ALSA-2021:2375",
+  "summary": "Important: postgresql:13 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "postgres-decoderbufs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.0-2.module_el8.5.0+2607+8c0fd184"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "postgres-decoderbufs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.0-2.module_el8.6.0+2760+1746ec94"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "pgaudit"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.0-1.module_el8.5.0+2607+8c0fd184"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "pgaudit"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.0-1.module_el8.6.0+2760+1746ec94"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2021-32027",
+    "CVE-2021-32028",
+    "CVE-2021-32029"
+  ],
+  "published": "2021-06-10T09:54:30Z",
+  "modified": "2021-12-22T08:23:18Z",
+  "details": "PostgreSQL is an advanced object-relational database management system (DBMS).\n\nThe following packages have been upgraded to a later upstream version: postgresql (13.3).\n\nSecurity Fix(es):\n\n* postgresql: Buffer overrun from integer overflow in array subscripting calculations (CVE-2021-32027)\n\n* postgresql: Memory disclosure in INSERT ... ON CONFLICT ... DO UPDATE (CVE-2021-32028)\n\n* postgresql: Memory disclosure in partitioned-table UPDATE ... RETURNING (CVE-2021-32029)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://vulners.com/cve/CVE-2021-32027",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-32028",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-32029",
+      "type": "REPORT"
+    }
+  ]
+}

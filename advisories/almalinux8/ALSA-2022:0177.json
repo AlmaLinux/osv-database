@@ -1,0 +1,56 @@
+{
+  "id": "ALSA-2022:0177",
+  "summary": "Important: gegl04 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gegl04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.4.4-6.el8_5.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gegl04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.4.4-6.el8_5.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2021-45463"
+  ],
+  "published": "2022-01-19T09:43:42Z",
+  "modified": "2022-01-20T12:29:34Z",
+  "details": "GEGL (Generic Graphics Library) is a graph-based image processing framework.\n\nSecurity Fix(es):\n\n* gegl: shell expansion via a crafted pathname (CVE-2021-45463)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://vulners.com/cve/CVE-2021-45463",
+      "type": "REPORT"
+    }
+  ]
+}

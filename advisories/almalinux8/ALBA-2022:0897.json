@@ -1,0 +1,30 @@
+{
+  "id": "ALBA-2022:0897",
+  "summary": "subscription-manager bug fix and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "subscription-manager-migration"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.28.21-5.el8_5.alma"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2022-03-15T09:12:22Z",
+  "modified": "2022-03-17T10:27:25Z",
+  "details": "The subscription-manager packages provide programs and libraries to allow\nusers to manage subscriptions and yum repositories from the AlmaLinux\nentitlement platform.\n\nBug Fix(es) and Enhancement(s):\n\n* Subscription manager sends redundant requests to the server in SCA mode\n(BZ#2044349)",
+  "references": []
+}

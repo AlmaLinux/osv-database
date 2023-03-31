@@ -1,0 +1,608 @@
+{
+  "id": "ALSA-2020:3732",
+  "summary": "Important: mysql:8.0 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mecab"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.996-1.module_el8.4.0+2532+b8928c02.9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mecab-ipadic-EUCJP"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.0.20070801-16.module_el8.4.0+2532+b8928c02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mecab-ipadic"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.0.20070801-16.module_el8.4.0+2532+b8928c02"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2020-14663",
+    "CVE-2020-14678",
+    "CVE-2020-14697",
+    "CVE-2020-2761",
+    "CVE-2020-2774",
+    "CVE-2020-2779",
+    "CVE-2020-2853",
+    "CVE-2020-14586",
+    "CVE-2020-14702",
+    "CVE-2019-2914",
+    "CVE-2019-2957",
+    "CVE-2019-2938",
+    "CVE-2019-2963",
+    "CVE-2019-2968",
+    "CVE-2019-3018",
+    "CVE-2020-2577",
+    "CVE-2020-2589",
+    "CVE-2020-2760",
+    "CVE-2020-2762",
+    "CVE-2020-2814",
+    "CVE-2020-2893",
+    "CVE-2020-2895",
+    "CVE-2020-14568",
+    "CVE-2020-14623",
+    "CVE-2020-14633",
+    "CVE-2020-14634",
+    "CVE-2019-2946",
+    "CVE-2020-2925",
+    "CVE-2019-2960",
+    "CVE-2020-2759",
+    "CVE-2020-2763",
+    "CVE-2020-14567",
+    "CVE-2019-2966",
+    "CVE-2019-2967",
+    "CVE-2019-2974",
+    "CVE-2019-2982",
+    "CVE-2019-2991",
+    "CVE-2019-2998",
+    "CVE-2020-2579",
+    "CVE-2020-2660",
+    "CVE-2020-2679",
+    "CVE-2020-2686",
+    "CVE-2020-2765",
+    "CVE-2020-2892",
+    "CVE-2020-2897",
+    "CVE-2020-2901",
+    "CVE-2020-2904",
+    "CVE-2020-2923",
+    "CVE-2020-2924",
+    "CVE-2020-2928",
+    "CVE-2020-14539",
+    "CVE-2020-14547",
+    "CVE-2020-14597",
+    "CVE-2020-14614",
+    "CVE-2020-14654",
+    "CVE-2020-14680",
+    "CVE-2020-14725",
+    "CVE-2019-2993",
+    "CVE-2019-3011",
+    "CVE-2019-2997",
+    "CVE-2020-2580",
+    "CVE-2019-3004",
+    "CVE-2020-2627",
+    "CVE-2020-2930",
+    "CVE-2020-14619",
+    "CVE-2019-3009",
+    "CVE-2020-2584",
+    "CVE-2020-14632",
+    "CVE-2020-2588",
+    "CVE-2020-2780",
+    "CVE-2020-14540",
+    "CVE-2020-14575",
+    "CVE-2020-14620",
+    "CVE-2020-2752",
+    "CVE-2020-2922",
+    "CVE-2020-14550",
+    "CVE-2020-2570",
+    "CVE-2020-2573",
+    "CVE-2020-2574",
+    "CVE-2020-2770",
+    "CVE-2020-2804",
+    "CVE-2020-2812",
+    "CVE-2020-2896",
+    "CVE-2020-14559",
+    "CVE-2020-2694",
+    "CVE-2020-2898",
+    "CVE-2020-2903",
+    "CVE-2020-2921",
+    "CVE-2020-2926",
+    "CVE-2020-14553",
+    "CVE-2020-14576",
+    "CVE-2020-14624",
+    "CVE-2020-14631",
+    "CVE-2020-14641",
+    "CVE-2020-14643",
+    "CVE-2020-14651",
+    "CVE-2020-14656",
+    "CVE-2019-2911"
+  ],
+  "published": "2020-09-14T12:23:24Z",
+  "modified": "2020-09-14T12:23:24Z",
+  "details": "MySQL is a multi-user, multi-threaded SQL database server. It consists of the MySQL server daemon (mysqld) and many client programs and libraries.\n\nThe following packages have been upgraded to a later upstream version: mysql (8.0.21).\n\nSecurity Fix(es):\n\n* mysql: Server: Security: Privileges multiple unspecified vulnerabilities (CVE-2020-14663, CVE-2020-14678, CVE-2020-14697, CVE-2020-2761, CVE-2020-2774, CVE-2020-2779, CVE-2020-2853, CVE-2020-14586, CVE-2020-14702)\n\n* mysql: Server: Security: Encryption multiple unspecified vulnerabilities (CVE-2019-2914, CVE-2019-2957)\n\n* mysql: InnoDB multiple unspecified vulnerabilities (CVE-2019-2938, CVE-2019-2963, CVE-2019-2968, CVE-2019-3018, CVE-2020-2577, CVE-2020-2589, CVE-2020-2760, CVE-2020-2762, CVE-2020-2814, CVE-2020-2893, CVE-2020-2895, CVE-2020-14568, CVE-2020-14623, CVE-2020-14633, CVE-2020-14634)\n\n* mysql: Server: PS multiple unspecified vulnerabilities (CVE-2019-2946, CVE-2020-2925)\n\n* mysql: Server: Replication multiple unspecified vulnerabilities (CVE-2019-2960, CVE-2020-2759, CVE-2020-2763, CVE-2020-14567)\n\n* mysql: Server: Optimizer multiple unspecified vulnerabilities (CVE-2019-2966, CVE-2019-2967, CVE-2019-2974, CVE-2019-2982, CVE-2019-2991, CVE-2019-2998, CVE-2020-2579, CVE-2020-2660, CVE-2020-2679, CVE-2020-2686, CVE-2020-2765, CVE-2020-2892, CVE-2020-2897, CVE-2020-2901, CVE-2020-2904, CVE-2020-2923, CVE-2020-2924, CVE-2020-2928, CVE-2020-14539, CVE-2020-14547, CVE-2020-14597, CVE-2020-14614, CVE-2020-14654, CVE-2020-14680, CVE-2020-14725)\n\n* mysql: Server: C API multiple unspecified vulnerabilities (CVE-2019-2993, CVE-2019-3011)\n\n* mysql: Server: DDL multiple unspecified vulnerabilities (CVE-2019-2997, CVE-2020-2580)\n\n* mysql: Server: Parser multiple unspecified vulnerabilities (CVE-2019-3004, CVE-2020-2627, CVE-2020-2930, CVE-2020-14619)\n\n* mysql: Server: Connection unspecified vulnerability (CVE-2019-3009)\n\n* mysql: Server: Options multiple unspecified vulnerabilities (CVE-2020-2584, CVE-2020-14632)\n\n* mysql: Server: DML multiple unspecified vulnerabilities (CVE-2020-2588, CVE-2020-2780, CVE-2020-14540, CVE-2020-14575, CVE-2020-14620)\n\n* mysql: C API multiple unspecified vulnerabilities (CVE-2020-2752, CVE-2020-2922, CVE-2020-14550, CVE-2020-2570, CVE-2020-2573, CVE-2020-2574)\n\n* mysql: Server: Logging unspecified vulnerability (CVE-2020-2770)\n\n* mysql: Server: Memcached unspecified vulnerability (CVE-2020-2804)\n\n* mysql: Server: Stored Procedure unspecified vulnerability (CVE-2020-2812)\n\n* mysql: Server: Information Schema multiple unspecified vulnerabilities (CVE-2020-2896, CVE-2020-14559, CVE-2020-2694)\n\n* mysql: Server: Charsets unspecified vulnerability (CVE-2020-2898)\n\n* mysql: Server: Connection Handling unspecified vulnerability (CVE-2020-2903)\n\n* mysql: Server: Group Replication Plugin unspecified vulnerability (CVE-2020-2921)\n\n* mysql: Server: Group Replication GCS unspecified vulnerability (CVE-2020-2926)\n\n* mysql: Server: Pluggable Auth unspecified vulnerability (CVE-2020-14553)\n\n* mysql: Server: UDF unspecified vulnerability (CVE-2020-14576)\n\n* mysql: Server: JSON unspecified vulnerability (CVE-2020-14624)\n\n* mysql: Server: Security: Audit unspecified vulnerability (CVE-2020-14631)\n\n* mysql: Server: Security: Roles multiple unspecified vulnerabilities (CVE-2020-14641, CVE-2020-14643, CVE-2020-14651)\n\n* mysql: Server: Locking unspecified vulnerability (CVE-2020-14656)\n\n* mysql: Information Schema unspecified vulnerability (CVE-2019-2911)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2020-3732.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-2911",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-2914",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-2938",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-2946",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-2957",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-2960",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-2963",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-2966",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-2967",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-2968",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-2974",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-2982",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-2991",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-2993",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-2997",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-2998",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-3004",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-3009",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-3011",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-3018",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-14539",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-14540",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-14547",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-14550",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-14553",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-14559",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-14567",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-14568",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-14575",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-14576",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-14586",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-14597",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-14614",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-14619",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-14620",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-14623",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-14624",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-14631",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-14632",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-14633",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-14634",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-14641",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-14643",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-14651",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-14654",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-14656",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-14663",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-14678",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-14680",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-14697",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-14702",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-14725",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-14799",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2570",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2573",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2574",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2577",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2579",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2580",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2584",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2588",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2589",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2627",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2660",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2679",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2686",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2694",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2752",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2759",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2760",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2761",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2762",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2763",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2765",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2770",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2774",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2779",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2780",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2804",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2812",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2814",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2853",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2892",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2893",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2895",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2896",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2897",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2898",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2901",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2903",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2904",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2921",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2922",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2923",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2924",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2925",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2926",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2928",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2930",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-1998",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-2006",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-2007",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-2009",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-2012",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-2016",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-2019",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-2020",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-2144",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-2160",
+      "type": "REPORT"
+    }
+  ]
+}

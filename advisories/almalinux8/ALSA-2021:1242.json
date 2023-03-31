@@ -1,0 +1,151 @@
+{
+  "id": "ALSA-2021:1242",
+  "summary": "Important: mariadb:10.3 and mariadb-devel:10.3 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "asio-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.8-7.module_el8.6.0+2867+72759d2f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "Judy-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.5-18.module_el8.6.0+3072+3c630e87"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "Judy"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.5-18.module_el8.6.0+2867+72759d2f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "asio-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.8-7.module_el8.6.0+3072+3c630e87"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "Judy-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.5-18.module_el8.6.0+2867+72759d2f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "Judy"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.5-18.module_el8.6.0+3072+3c630e87"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "Judy"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.5-18.module_el8.5.0+2632+14ced695"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2021-27928"
+  ],
+  "published": "2021-04-19T09:38:10Z",
+  "modified": "2022-04-28T12:47:02Z",
+  "details": "MariaDB is a multi-user, multi-threaded SQL database server that is binary compatible with MySQL. \n\nThe following packages have been upgraded to a later upstream version: mariadb (10.3.28), galera (25.3.32).\n\nSecurity Fix(es):\n\n* mariadb: writable system variables allows a database user with SUPER privilege to execute arbitrary code as the system mysql user (CVE-2021-27928)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://vulners.com/cve/CVE-2021-27928",
+      "type": "REPORT"
+    }
+  ]
+}

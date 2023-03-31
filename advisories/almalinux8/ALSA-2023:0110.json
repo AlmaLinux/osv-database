@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2023:0110",
+  "summary": "Moderate: sqlite security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "lemon"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.26.0-17.el8_7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-35737"
+  ],
+  "published": "2023-01-12T00:00:00Z",
+  "modified": "2023-01-16T11:22:54Z",
+  "details": "SQLite is a C library that implements an SQL database engine. A large subset of SQL92 is supported. A complete database is stored in a single disk file. The API is designed for convenience and ease of use. Applications that link against SQLite can enjoy the power and flexibility of an SQL database without the administrative hassles of supporting a separate database server.\n\nSecurity Fix(es):\n\n* sqlite: an array-bounds overflow if billions of bytes are used in a string argument to a C API (CVE-2022-35737)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:0110",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-35737",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2110291",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2023-0110.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

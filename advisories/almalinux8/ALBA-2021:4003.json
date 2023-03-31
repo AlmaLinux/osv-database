@@ -1,0 +1,30 @@
+{
+  "id": "ALBA-2021:4003",
+  "summary": "tzdata bug fix and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "tzdata-java"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2021e-1.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2021-10-26T21:03:44Z",
+  "modified": "2021-11-12T10:20:56Z",
+  "details": "The tzdata packages contain data files with rules for various time zones.\n\nThe tzdata packages have been updated to version 2021e, which addresses recent\ntime zone changes. Notably:\n\n* The Pacific/Fiji timezone has suspended daylight saving time (DST) for the 2021/2022 season.\n\n* The 'zic -r' command now marks unspecified timestamps with \"-00\".\n\n* Palestine will end daylight saving time (DST) on October 29, 2021 at 01:00, rather than the predicted October 30, 2021.\n\n(BZ#2015242, BZ#2015246, BZ#2016369)",
+  "references": []
+}

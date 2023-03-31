@@ -1,0 +1,30 @@
+{
+  "id": "ALBA-2019:0987",
+  "summary": "mariadb:10.3 bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "Judy"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.5-18.module_el8.5.0+2632+14ced695"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2019-05-07T03:40:49Z",
+  "modified": "2022-04-28T12:47:02Z",
+  "details": "MariaDB is a multi-user, multi-threaded SQL database server that is binary compatible with MySQL. \n\nBug Fix(es):\n\n* Altering table's column used in primary key causes data corruption (BZ#1702602)",
+  "references": []
+}

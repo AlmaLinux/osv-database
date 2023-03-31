@@ -1,0 +1,37 @@
+{
+  "id": "ALSA-2021:4315",
+  "summary": "Moderate: spamassassin security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "spamassassin"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.4-4.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2020-1946"
+  ],
+  "published": "2021-11-09T08:58:53Z",
+  "modified": "2021-11-12T10:20:56Z",
+  "details": "The SpamAssassin tool provides a way to reduce unsolicited commercial email (spam) from incoming email.\n\nSecurity Fix(es):\n\n* spamassassin: Malicious rule configuration files can be configured to run system commands (CVE-2020-1946)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://vulners.com/cve/CVE-2020-1946",
+      "type": "REPORT"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "ALSA-2022:0418",
+  "summary": "Important: varnish:6 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "varnish"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.8-1.module_el8.5.0+2620+03a0c2cc.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "varnish-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.8-1.module_el8.5.0+2620+03a0c2cc.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "varnish-docs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.8-1.module_el8.5.0+2620+03a0c2cc.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "varnish-modules"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.15.0-6.module_el8.5.0+2620+03a0c2cc"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-23959"
+  ],
+  "published": "2022-02-03T09:29:24Z",
+  "modified": "2022-02-04T16:49:12Z",
+  "details": "Varnish Cache is a high-performance HTTP accelerator. It stores web pages in memory so web servers don't have to create the same web page over and over again, giving the website a significant speed up.\n\nSecurity Fix(es):\n\n* varnish: HTTP/1 request smuggling vulnerability (CVE-2022-23959)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://vulners.com/cve/CVE-2022-23959",
+      "type": "REPORT"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "ALSA-2020:4497",
+  "summary": "Moderate: cyrus-sasl security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "cyrus-sasl-sql"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.27-5.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "cyrus-sasl-sql"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.27-5.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2019-19906"
+  ],
+  "published": "2020-11-03T12:10:00Z",
+  "modified": "2021-11-12T10:20:56Z",
+  "details": "The cyrus-sasl packages contain the Cyrus implementation of Simple Authentication and Security Layer (SASL). SASL is a method for adding authentication support to connection-based protocols.\n\nSecurity Fix(es):\n\n* cyrus-sasl: denial of service in _sasl_add_string function (CVE-2019-19906)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://vulners.com/cve/CVE-2019-19906",
+      "type": "REPORT"
+    }
+  ]
+}

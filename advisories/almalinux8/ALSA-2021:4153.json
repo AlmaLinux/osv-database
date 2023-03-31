@@ -1,0 +1,56 @@
+{
+  "id": "ALSA-2021:4153",
+  "summary": "Moderate: dnsmasq security and bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "dnsmasq-utils"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.79-19.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "dnsmasq"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.79-19.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2021-3448"
+  ],
+  "published": "2021-11-09T08:24:48Z",
+  "modified": "2021-11-12T10:20:56Z",
+  "details": "The dnsmasq packages contain Dnsmasq, a lightweight DNS (Domain Name Server) forwarder and DHCP (Dynamic Host Configuration Protocol) server.\n\nSecurity Fix(es):\n\n* dnsmasq: fixed outgoing port used when --server is used with an interface name (CVE-2021-3448)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://vulners.com/cve/CVE-2021-3448",
+      "type": "REPORT"
+    }
+  ]
+}

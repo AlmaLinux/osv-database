@@ -1,0 +1,68 @@
+{
+  "id": "ALBA-2022:1547",
+  "summary": "sanlock bug fix and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "sanlk-reset"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.8.4-2.el8_5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "sanlock"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.8.4-2.el8_5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3-sanlock"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.8.4-2.el8_5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2022-04-26T13:49:28Z",
+  "modified": "2022-04-27T15:05:20Z",
+  "details": "The sanlock packages provide a shared storage lock manager. Hosts with shared access to a block device or a file can use sanlock to synchronize their activities. VDSM and libvirt use sanlock to synchronize access to shared devices or files.\n\nBug Fix(es) and Enhancement(s):\n\n* sanlock lockspace stuck in 'ADD' for days (BZ#2066125)",
+  "references": []
+}

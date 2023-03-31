@@ -1,0 +1,86 @@
+{
+  "id": "ALSA-2023:0096",
+  "summary": "Moderate: dbus security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "dbus-x11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.12.8-23.el8_7.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "dbus-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.12.8-23.el8_7.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-42010",
+    "CVE-2022-42011",
+    "CVE-2022-42012"
+  ],
+  "published": "2023-01-12T00:00:00Z",
+  "modified": "2023-01-13T08:57:50Z",
+  "details": "D-Bus is a system for sending messages between applications. It is used both for the system-wide message bus service, and as a per-user-login-session messaging facility.\n\nSecurity Fix(es):\n\n* dbus: dbus-daemon crashes when receiving message with incorrectly nested parentheses and curly brackets (CVE-2022-42010)\n* dbus: dbus-daemon can be crashed by messages with array length inconsistent with element type (CVE-2022-42011)\n* dbus: `_dbus_marshal_byteswap` doesn't process fds in messages with \"foreign\" endianness correctly (CVE-2022-42012)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:0096",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-42010",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-42011",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-42012",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2133616",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2133617",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2133618",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2023-0096.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

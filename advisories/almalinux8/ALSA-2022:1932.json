@@ -1,0 +1,41 @@
+{
+  "id": "ALSA-2022:1932",
+  "summary": "Moderate: python-lxml security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3-lxml"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.2.3-4.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2021-43818"
+  ],
+  "published": "2022-05-10T08:08:19Z",
+  "modified": "2022-05-10T08:08:16Z",
+  "details": "lxml is an XML processing library providing access to libxml2 and libxslt libraries using the Python ElementTree API. \n\nSecurity Fix(es):\n\n* python-lxml: HTML Cleaner allows crafted and SVG embedded scripts to pass through (CVE-2021-43818)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2022-1932.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-43818",
+      "type": "REPORT"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "id": "ALSA-2022:6610",
+  "summary": "Important: kernel security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-debug-devel-matched"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-70.26.1.el9_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-doc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-70.26.1.el9_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-70.26.1.el9_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-devel-matched"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-70.26.1.el9_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-debug-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-70.26.1.el9_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "perf"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-70.26.1.el9_0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-34918",
+    "CVE-2022-2078"
+  ],
+  "published": "2022-09-20T00:00:00Z",
+  "modified": "2022-10-14T13:22:46Z",
+  "details": "The kernel packages contain the Linux kernel, the core of any Linux operating system.\n\nSecurity Fix(es):\n\n* kernel: heap overflow in nft_set_elem_init() (CVE-2022-34918)\n* kernel: vulnerability of buffer overflow in nft_set_desc_concat_parse() (CVE-2022-2078)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* RDMA/mlx5: Fix number of allocated XLT entries (BZ#2092270)\n* mlx5, Setup hanged when run test-route-nexthop-object.sh (BZ#2092535)\n* many call traces from unchecked MSR access error: WRMSR to 0x199 in amazon i4.32xlarge instance (BZ#2099417)\n* X86/platform/UV: Kernel Support Fixes for UV5 platform (BZ#2107732)\n* block layer: fixes for md sync slow and softlockup at blk_mq_sched_dispatch_requests [9.0.0.z] (BZ#2111395)\n* Fixes for NVMe/TCP dereferences an invalid, non-canonical pointer, kernel panic (BZ#2117755)\n* Adding missing nvme fix to AlmaLinux-9.1 (BZ#2117756)\n* nvme/tcp mistakenly uses blk_mq_tag_to_rq(nvme_tcp_tagset(queue) (BZ#2118698)\n* Important ice bug fixes (BZ#2119290)\n* Power 9/ppc64le Incorrect Socket(s) & \"Core(s) per socket\" reported by lscpu command. (BZ#2121719)\n\nEnhancement(s):\n\n* lscpu does not show all of the support AMX flags (amx_int8, amx_bf16)  (BZ#2108203)\n* ice: Driver Update (BZ#2108204)\n* iavf: Driver Update (BZ#2119477)\n* i40e: Driver Update (BZ#2119479)",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:6610",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-2078",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-34918",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2096178",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2104423",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2022-6610.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

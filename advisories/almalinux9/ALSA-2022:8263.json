@@ -1,0 +1,124 @@
+{
+  "id": "ALSA-2022:8263",
+  "summary": "Important: dpdk security and bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "dpdk-doc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:21.11.2-1.el9_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "dpdk-tools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:21.11.2-1.el9_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "dpdk"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:21.11.2-1.el9_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "dpdk-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:21.11.2-1.el9_1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-2132",
+    "CVE-2021-3839",
+    "CVE-2022-28199"
+  ],
+  "published": "2022-11-15T00:00:00Z",
+  "modified": "2022-11-18T01:14:45Z",
+  "details": "The dpdk packages provide the Data Plane Development Kit, which is a set of libraries and drivers for fast packet processing in the user space.\n\nSecurity Fix(es):\n\n* dpdk: DoS when a Vhost header crosses more than two descriptors and exhausts all mbufs (CVE-2022-2132)\n* DPDK: out-of-bounds read/write in vhost_user_set_inflight_fd() may lead to crash (CVE-2021-3839)\n* dpdk: error recovery in mlx5 driver not handled properly, allowing for denial of service (CVE-2022-28199)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:8263",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2021-3839",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-2132",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-28199",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2025882",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2099475",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2123549",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2022-8263.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

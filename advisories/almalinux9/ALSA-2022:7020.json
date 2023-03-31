@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2022:7020",
+  "summary": "Important: firefox security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "firefox"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "102.3.0-7.el9_0.alma"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-40674"
+  ],
+  "published": "2022-10-18T00:00:00Z",
+  "modified": "2022-10-19T12:27:23Z",
+  "details": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.\n\nThis update upgrades Firefox to version 102.3.0 ESR.\n\nSecurity Fix(es):\n\n* expat: a use-after-free in the doContent function in xmlparse.c (CVE-2022-40674)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:7020",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-40674",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2130769",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2022-7020.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

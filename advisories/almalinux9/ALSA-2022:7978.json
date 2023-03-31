@@ -1,0 +1,96 @@
+{
+  "id": "ALSA-2022:7978",
+  "summary": "Moderate: gimp security and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gimp-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.99.8-3.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gimp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.99.8-3.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gimp-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.99.8-3.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-30067",
+    "CVE-2022-32990"
+  ],
+  "published": "2022-11-15T00:00:00Z",
+  "modified": "2022-11-18T12:58:50Z",
+  "details": "The GIMP (GNU Image Manipulation Program) is an image composition and editing program. GIMP provides a large image manipulation toolbox, including channel operations and layers, effects, sub-pixel imaging and anti-aliasing, and conversions, all with multi-level undo.\n\nSecurity Fix(es):\n\n* gimp: buffer overflow through a crafted XCF file (CVE-2022-30067)\n* gimp: unhandled exception via a crafted XCF file may lead to DoS (CVE-2022-32990)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:7978",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-30067",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-32990",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2087591",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2103202",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2022-7978.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

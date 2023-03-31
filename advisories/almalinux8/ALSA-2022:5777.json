@@ -1,0 +1,67 @@
+{
+  "id": "ALSA-2022:5777",
+  "summary": "Important: firefox security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "firefox"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "91.12.0-2.el8_6.alma"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-2505",
+    "CVE-2022-36318",
+    "CVE-2022-36319"
+  ],
+  "published": "2022-08-01T00:00:00Z",
+  "modified": "2022-08-05T17:02:23Z",
+  "details": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.\nThis update upgrades Firefox to version 91.12.0 ESR.\nSecurity Fix(es):\n* Mozilla: Memory safety bugs fixed in Firefox 103 and 102.1 (CVE-2022-2505)\n* Mozilla: Directory indexes for bundled resources reflected URL parameters (CVE-2022-36318)\n* Mozilla: Mouse Position spoofing with CSS transforms (CVE-2022-36319)\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:5777",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-2505",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-36318",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-36319",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2111907",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2111908",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2111910",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2022-5777.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

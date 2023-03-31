@@ -1,0 +1,112 @@
+{
+  "id": "ALSA-2020:5499",
+  "summary": "Moderate: nodejs:12 security and bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-nodemon"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.3-1.module_el8.3.0+2023+d2377ea3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-nodemon"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.3-1.module_el8.3.0+2047+b07ac28e"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-packaging"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "17-3.module_el8.4.0+2521+c668cc9f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-packaging"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "17-3.module_el8.3.0+2023+d2377ea3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2020-7774",
+    "CVE-2020-8277",
+    "CVE-2020-15366"
+  ],
+  "published": "2020-12-15T16:03:21Z",
+  "modified": "2020-12-15T16:03:05Z",
+  "details": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nSecurity Fix(es):\n\n* nodejs-y18n: prototype pollution vulnerability (CVE-2020-7774)\n\n* c-ares: ares_parse_{a,aaaa}_reply() insufficient naddrttls validation DoS (CVE-2020-8277)\n\n* nodejs-ajv: prototype pollution via crafted JSON schema in ajv.validate function (CVE-2020-15366)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* yarn install crashes with nodejs:12 on aarch64 (BZ#1901045)",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2020-5499.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-15366",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-7608",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-7774",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-8277",
+      "type": "REPORT"
+    }
+  ]
+}

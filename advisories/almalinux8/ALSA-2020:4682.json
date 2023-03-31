@@ -1,0 +1,300 @@
+{
+  "id": "ALSA-2020:4682",
+  "summary": "Moderate: grafana security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "grafana-prometheus"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.7.4-3.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "grafana-elasticsearch"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.7.4-3.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "grafana-stackdriver"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.7.4-3.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "grafana-influxdb"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.7.4-3.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "grafana-mysql"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.7.4-3.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "grafana-azure-monitor"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.7.4-3.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "grafana-cloudwatch"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.7.4-3.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "grafana-opentsdb"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.7.4-3.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "grafana-mssql"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.7.4-3.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "grafana-loki"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.7.4-3.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "grafana"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.7.4-3.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "grafana-postgres"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.7.4-3.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "grafana-graphite"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.7.4-3.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2018-18624",
+    "CVE-2019-19499",
+    "CVE-2020-11110",
+    "CVE-2020-12052",
+    "CVE-2020-12245",
+    "CVE-2020-12458",
+    "CVE-2020-12459",
+    "CVE-2020-13430"
+  ],
+  "published": "2020-11-03T12:26:41Z",
+  "modified": "2021-11-12T10:20:56Z",
+  "details": "Grafana is an open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB. \n\nThe following packages have been upgraded to a later upstream version: grafana (6.7.4). (BZ#1807323)\n\nSecurity Fix(es):\n\n* grafana: XSS vulnerability via a column style on the \"Dashboard > Table Panel\" screen (CVE-2018-18624)\n\n* grafana: arbitrary file read via MySQL data source (CVE-2019-19499)\n\n* grafana: stored XSS (CVE-2020-11110)\n\n* grafana: XSS annotation popup vulnerability (CVE-2020-12052)\n\n* grafana: XSS via column.title or cellLinkTooltip (CVE-2020-12245)\n\n* grafana: information disclosure through world-readable /var/lib/grafana/grafana.db (CVE-2020-12458)\n\n* grafana: information disclosure through world-readable grafana configuration files (CVE-2020-12459)\n\n* grafana: XSS via the OpenTSDB datasource (CVE-2020-13430)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://vulners.com/cve/CVE-2018-18624",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-19499",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-11110",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-12052",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-12245",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-12458",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-12459",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-13430",
+      "type": "REPORT"
+    }
+  ]
+}

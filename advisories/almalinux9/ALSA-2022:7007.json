@@ -1,0 +1,190 @@
+{
+  "id": "ALSA-2022:7007",
+  "summary": "Moderate: java-1.8.0-openjdk security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "java-1.8.0-openjdk-javadoc-zip"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.8.0.352.b08-2.el9_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "java-1.8.0-openjdk-demo"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.8.0.352.b08-2.el9_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "java-1.8.0-openjdk-headless"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.8.0.352.b08-2.el9_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "java-1.8.0-openjdk-src"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.8.0.352.b08-2.el9_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "java-1.8.0-openjdk-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.8.0.352.b08-2.el9_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "java-1.8.0-openjdk"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.8.0.352.b08-2.el9_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "java-1.8.0-openjdk-javadoc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.8.0.352.b08-2.el9_0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-21626",
+    "CVE-2022-21628",
+    "CVE-2022-21619",
+    "CVE-2022-21624"
+  ],
+  "published": "2022-10-20T00:00:00Z",
+  "modified": "2022-10-21T08:42:48Z",
+  "details": "The java-1.8.0-openjdk packages provide the OpenJDK 8 Java Runtime Environment and the OpenJDK 8 Java Software Development Kit.\n\nSecurity Fix(es):\n\n* OpenJDK: excessive memory allocation in X.509 certificate parsing (Security, 8286533) (CVE-2022-21626)\n* OpenJDK: HttpServer no connection count limit (Lightweight HTTP Server, 8286918) (CVE-2022-21628)\n* OpenJDK: improper handling of long NTLM client hostnames (Security, 8286526) (CVE-2022-21619)\n* OpenJDK: insufficient randomization of JNDI DNS port numbers (JNDI, 8286910) (CVE-2022-21624)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:7007",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-21619",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-21624",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-21626",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-21628",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2133745",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2133753",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2133765",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2133769",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2022-7007.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

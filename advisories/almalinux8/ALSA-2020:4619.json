@@ -1,0 +1,37 @@
+{
+  "id": "ALSA-2020:4619",
+  "summary": "Moderate: frr security and bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "frr-contrib"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.0-10.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2020-12831"
+  ],
+  "published": "2020-11-03T12:21:03Z",
+  "modified": "2021-11-12T10:20:55Z",
+  "details": "FRRouting is free software that manages TCP/IP based routing protocols. It supports BGP4, OSPFv2, OSPFv3, ISIS, RIP, RIPng, PIM, NHRP, PBR, EIGRP and BFD. \n\nSecurity Fix(es):\n\n* frr: default permission issue eases information leaks (CVE-2020-12831)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://vulners.com/cve/CVE-2020-12831",
+      "type": "REPORT"
+    }
+  ]
+}

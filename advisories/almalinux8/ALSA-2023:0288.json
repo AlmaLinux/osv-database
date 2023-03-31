@@ -1,0 +1,112 @@
+{
+  "id": "ALSA-2023:0288",
+  "summary": "Important: firefox security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "firefox"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "102.7.0-1.el8_7.alma"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-46871",
+    "CVE-2023-23598",
+    "CVE-2023-23605",
+    "CVE-2023-23599",
+    "CVE-2023-23601",
+    "CVE-2023-23602",
+    "CVE-2022-46877",
+    "CVE-2023-23603"
+  ],
+  "published": "2023-01-23T00:00:00Z",
+  "modified": "2023-01-24T07:35:30Z",
+  "details": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.\n\nThis update upgrades Firefox to version 102.7.0 ESR.\n\nSecurity Fix(es):\n\n* Mozilla: libusrsctp library out of date (CVE-2022-46871)\n* Mozilla: Arbitrary file read from GTK drag and drop on Linux (CVE-2023-23598)\n* Mozilla: Memory safety bugs fixed in Firefox 109 and Firefox ESR 102.7 (CVE-2023-23605)\n* Mozilla: Malicious command could be hidden in devtools output (CVE-2023-23599)\n* Mozilla: URL being dragged from cross-origin iframe into same tab triggers navigation (CVE-2023-23601)\n* Mozilla: Content Security Policy wasn't being correctly applied to WebSockets in WebWorkers (CVE-2023-23602)\n* Mozilla: Fullscreen notification bypass (CVE-2022-46877)\n* Mozilla: Calls to <code>console.log</code> allowed bypasing Content Security Policy via format directive (CVE-2023-23603)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:0288",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-46871",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-46877",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-23598",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-23599",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-23601",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-23602",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-23603",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-23605",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2162336",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2162338",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2162339",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2162340",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2162341",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2162342",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2162343",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2162344",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2023-0288.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": "ALSA-2022:7178",
+  "summary": "Important: thunderbird security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "thunderbird"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "102.4.0-1.el9_0.alma"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-39249",
+    "CVE-2022-39250",
+    "CVE-2022-39251",
+    "CVE-2022-42927",
+    "CVE-2022-42928",
+    "CVE-2022-39236",
+    "CVE-2022-42929",
+    "CVE-2022-42932"
+  ],
+  "published": "2022-10-25T00:00:00Z",
+  "modified": "2022-10-26T06:48:26Z",
+  "details": "Mozilla Thunderbird is a standalone mail and newsgroup client.\n\nThis update upgrades Thunderbird to version 102.4.0.\n\nSecurity Fix(es):\n\n* Mozilla: Matrix SDK bundled with Thunderbird vulnerable to an impersonation attack by malicious server administrators (CVE-2022-39249)\n* Mozilla: Matrix SDK bundled with Thunderbird vulnerable to a device verification attack (CVE-2022-39250)\n* Mozilla: Matrix SDK bundled with Thunderbird vulnerable to an impersonation attack (CVE-2022-39251)\n* Mozilla: Same-origin policy violation could have leaked cross-origin URLs (CVE-2022-42927)\n* Mozilla: Memory Corruption in JS Engine (CVE-2022-42928)\n* Mozilla: Matrix SDK bundled with Thunderbird vulnerable to a data corruption issue (CVE-2022-39236)\n* Mozilla: Denial of Service via window.print (CVE-2022-42929)\n* Mozilla: Memory safety bugs fixed in Firefox ESR 102.4 and Thunderbird 102.4 (CVE-2022-42932)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:7178",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-39236",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-39249",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-39250",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-39251",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-42927",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-42928",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-42929",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-42932",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2135391",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2135393",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2135395",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2135396",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2136156",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2136157",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2136158",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2136159",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2022-7178.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

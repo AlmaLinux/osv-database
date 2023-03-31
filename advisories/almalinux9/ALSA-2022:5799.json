@@ -1,0 +1,235 @@
+{
+  "id": "ALSA-2022:5799",
+  "summary": "Important: go-toolset and golang security and bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "golang-src"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.17.12-1.el9_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "golang-race"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.17.12-1.el9_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "golang-tests"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.17.12-1.el9_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "golang-misc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.17.12-1.el9_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "golang-docs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.17.12-1.el9_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "golang-bin"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.17.12-1.el9_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "golang"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.17.12-1.el9_0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-30631",
+    "CVE-2022-1705",
+    "CVE-2022-1962",
+    "CVE-2022-28131",
+    "CVE-2022-30630",
+    "CVE-2022-30632",
+    "CVE-2022-30633",
+    "CVE-2022-30635",
+    "CVE-2022-32148"
+  ],
+  "published": "2022-08-01T00:00:00Z",
+  "modified": "2022-08-05T15:23:27Z",
+  "details": "Go Toolset provides the Go programming language tools and libraries. Go is alternatively known as golang. \nThe golang packages provide the Go programming language compiler.\nSecurity Fix(es):\n* golang: compress/gzip: stack exhaustion in Reader.Read (CVE-2022-30631)\n* golang: net/http: improper sanitization of Transfer-Encoding header (CVE-2022-1705)\n* golang: go/parser: stack exhaustion in all Parse* functions (CVE-2022-1962)\n* golang: encoding/xml: stack exhaustion in Decoder.Skip (CVE-2022-28131)\n* golang: io/fs: stack exhaustion in Glob (CVE-2022-30630)\n* golang: path/filepath: stack exhaustion in Glob (CVE-2022-30632)\n* golang: encoding/xml: stack exhaustion in Unmarshal (CVE-2022-30633)\n* golang: encoding/gob: stack exhaustion in Decoder.Decode (CVE-2022-30635)\n* golang: net/http/httputil: NewSingleHostReverseProxy - omit X-Forwarded-For not working (CVE-2022-32148)\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\nBug Fix(es):\n* Clean up dist-git patches (BZ#2109174)\n* Update Go to version 1.17.12 (BZ#2109183)",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:5799",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-1705",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-1962",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-28131",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-30630",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-30631",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-30632",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-30633",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-30635",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-32148",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2107342",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2107371",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2107374",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2107376",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2107383",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2107386",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2107388",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2107390",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2107392",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2022-5799.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

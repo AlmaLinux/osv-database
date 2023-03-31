@@ -1,0 +1,196 @@
+{
+  "id": "ALSA-2022:8054",
+  "summary": "Moderate: webkit2gtk3 security and bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "webkit2gtk3-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.36.7-1.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "webkit2gtk3-jsc-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.36.7-1.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "webkit2gtk3-jsc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.36.7-1.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "webkit2gtk3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.36.7-1.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-22624",
+    "CVE-2022-22628",
+    "CVE-2022-22629",
+    "CVE-2022-22662",
+    "CVE-2022-26700",
+    "CVE-2022-26709",
+    "CVE-2022-26710",
+    "CVE-2022-26716",
+    "CVE-2022-26717",
+    "CVE-2022-26719",
+    "CVE-2022-30293"
+  ],
+  "published": "2022-11-15T00:00:00Z",
+  "modified": "2022-11-18T23:18:51Z",
+  "details": "WebKitGTK is the port of the portable web rendering engine WebKit to the GTK platform.\n\nSecurity Fix(es):\n\n* webkitgtk: Use-after-free leading to arbitrary code execution (CVE-2022-22624)\n* webkitgtk: Use-after-free leading to arbitrary code execution (CVE-2022-22628)\n* webkitgtk: Buffer overflow leading to arbitrary code execution (CVE-2022-22629)\n* webkitgtk: Cookie management issue leading to sensitive user information disclosure (CVE-2022-22662)\n* webkitgtk: Memory corruption issue leading to arbitrary code execution (CVE-2022-26700)\n* webkitgtk: Use-after-free leading to arbitrary code execution (CVE-2022-26709)\n* webkitgtk: Use-after-free leading to arbitrary code execution (CVE-2022-26710)\n* webkitgtk: Memory corruption issue leading to arbitrary code execution (CVE-2022-26716)\n* webkitgtk: Use-after-free leading to arbitrary code execution (CVE-2022-26717)\n* webkitgtk: Memory corruption issue leading to arbitrary code execution (CVE-2022-26719)\n* webkitgtk: Heap buffer overflow in WebCore::TextureMapperLayer::setContentsLayer leading to arbitrary code execution (CVE-2022-30293)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:8054",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-22624",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-22628",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-22629",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-22662",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-26700",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-26709",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-26710",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-26716",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-26717",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-26719",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-30293",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2073893",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2073896",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2073899",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2082548",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2092732",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2092733",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2092734",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2092735",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2092736",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2104787",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2104789",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2022-8054.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

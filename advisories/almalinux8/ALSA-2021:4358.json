@@ -1,0 +1,66 @@
+{
+  "id": "ALSA-2021:4358",
+  "summary": "Moderate: glibc security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "glibc-utils"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "compat-libpthread-nonshared"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2021-35942",
+    "CVE-2021-27645",
+    "CVE-2021-33574"
+  ],
+  "published": "2021-11-09T09:08:59Z",
+  "modified": "2021-11-12T10:20:56Z",
+  "details": "The glibc packages provide the standard C libraries (libc), POSIX thread libraries (libpthread), standard math libraries (libm), and the name service cache daemon (nscd) used by multiple programs on the system. Without these libraries, the Linux system cannot function correctly.\n\nSecurity Fix(es):\n\n* glibc: Arbitrary read in wordexp() (CVE-2021-35942)\n\n* glibc: Use-after-free in addgetnetgrentX function in netgroupcache.c (CVE-2021-27645)\n\n* glibc: mq_notify does not handle separately allocated thread attributes (CVE-2021-33574)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://vulners.com/cve/CVE-2021-27645",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-33574",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-35942",
+      "type": "REPORT"
+    }
+  ]
+}

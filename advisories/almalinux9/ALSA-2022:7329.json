@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2022:7329",
+  "summary": "Moderate: lua security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "lua"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.4.2-4.el9_0.3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-33099"
+  ],
+  "published": "2022-11-02T00:00:00Z",
+  "modified": "2022-11-03T06:47:44Z",
+  "details": "The lua packages provide support for Lua, a powerful light-weight programming language designed for extending applications. Lua is also frequently used as a general-purpose, stand-alone language.\n\nSecurity Fix(es):\n\n* lua: heap buffer overflow in luaG_errormsg() in ldebug.c due to uncontrolled recursion in error handling (CVE-2022-33099)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:7329",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-33099",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2104427",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2022-7329.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

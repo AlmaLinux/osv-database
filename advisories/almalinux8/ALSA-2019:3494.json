@@ -1,0 +1,84 @@
+{
+  "id": "ALSA-2019:3494",
+  "summary": "Important: container-tools:1.0 security and bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "fuse-overlayfs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.3-5.module_el8.3.0+2044+12421f43"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "oci-umount"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.3.4-2.git87f9237.module_el8.3.0+2044+12421f43"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "oci-systemd-hook"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:0.1.15-2.git2d0b8a3.module_el8.3.0+2044+12421f43"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2019-14378",
+    "CVE-2019-10214"
+  ],
+  "published": "2019-11-05T17:52:13Z",
+  "modified": "2019-11-05T17:52:00Z",
+  "details": "The container-tools module contains tools for working with containers, notably podman, buildah, skopeo, and runc.\n\nSecurity Fix(es):\n\n* QEMU: slirp: heap buffer overflow during packet reassembly (CVE-2019-14378)\n\n* containers/image: not enforcing TLS when sending username+password credentials to token servers leading to credential disclosure (CVE-2019-10214)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2019-3494.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-10214",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-14378",
+      "type": "REPORT"
+    }
+  ]
+}

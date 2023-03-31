@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2022:8126",
+  "summary": "Moderate: ignition security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "ignition"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.14.0-1.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-1706"
+  ],
+  "published": "2022-11-15T00:00:00Z",
+  "modified": "2022-11-18T04:06:48Z",
+  "details": "Ignition is a utility used to manipulate systems during the initramfs. This includes partitioning disks, formatting partitions, writing files (regular files, systemd units, etc.), and configuring users. On first boot, Ignition reads its configuration from a source of truth (remote URL, network metadata service, hypervisor bridge, etc.) and applies the configuration.\n\nThe following packages have been upgraded to a later upstream version: ignition (2.14.0). (BZ#2090647)\n\nSecurity Fix(es):\n\n* ignition: configs are accessible from unprivileged containers in VMs running on VMware products (CVE-2022-1706)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:8126",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-1706",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2082274",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2022-8126.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

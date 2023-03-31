@@ -1,0 +1,37 @@
+{
+  "id": "ALSA-2021:4361",
+  "summary": "Moderate: NetworkManager security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "NetworkManager-cloud-setup"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.32.10-4.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2020-13529"
+  ],
+  "published": "2021-11-09T09:11:14Z",
+  "modified": "2021-11-12T10:20:56Z",
+  "details": "NetworkManager is a system network service that manages network devices and connections, attempting to keep active network connectivity when available. Its capabilities include managing Ethernet, wireless, mobile broadband (WWAN), and PPPoE devices, as well as providing VPN integration with a variety of different VPN services.\n\nThe following packages have been upgraded to a later upstream version: NetworkManager (1.32.10). (BZ#1934465)\n\nSecurity Fix(es):\n\n* systemd: DHCP FORCERENEW authentication not implemented can cause a system running the DHCP client to have its network reconfigured (CVE-2020-13529)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://vulners.com/cve/CVE-2020-13529",
+      "type": "REPORT"
+    }
+  ]
+}

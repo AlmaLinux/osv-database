@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2022:7959",
+  "summary": "Low: guestfs-tools security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "guestfs-tools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.48.2-5.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "virt-win-reg"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.48.2-5.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-2211"
+  ],
+  "published": "2022-11-15T00:00:00Z",
+  "modified": "2022-11-18T05:38:04Z",
+  "details": "guestfs-tools is a set of tools that can be used to make batch configuration changes to guests, get disk used/free statistics, perform backups and guest clones, change registry/UUID/hostname info, build guests from scratch, and much more.\n\nSecurity Fix(es):\n\n* libguestfs: Buffer overflow in get_keys leads to DoS (CVE-2022-2211)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:7959",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-2211",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2100862",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2022-7959.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "id": "ALSA-2020:0579",
+  "summary": "Important: nodejs:10 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-nodemon"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.3-1.module_el8.3.0+2023+d2377ea3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-nodemon"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.3-1.module_el8.3.0+2047+b07ac28e"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-packaging"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "17-3.module_el8.4.0+2521+c668cc9f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-packaging"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "17-3.module_el8.3.0+2023+d2377ea3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2019-15605",
+    "CVE-2019-15604",
+    "CVE-2019-15606",
+    "CVE-2019-16775",
+    "CVE-2019-16776",
+    "CVE-2019-16777"
+  ],
+  "published": "2020-02-25T07:57:02Z",
+  "modified": "2020-02-25T07:57:02Z",
+  "details": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language.\n\nThe following packages have been upgraded to a later upstream version: nodejs (10.19.0).\n\nSecurity Fix(es):\n\n* nodejs: HTTP request smuggling using malformed Transfer-Encoding header (CVE-2019-15605)\n\n* nodejs: Remotely trigger an assertion on a TLS server with a malformed certificate string (CVE-2019-15604)\n\n* nodejs: HTTP header values do not have trailing optional whitespace trimmed (CVE-2019-15606)\n\n* npm: Symlink reference outside of node_modules folder through the bin field upon installation (CVE-2019-16775)\n\n* npm: Arbitrary file write via constructed entry in the package.json bin field (CVE-2019-16776)\n\n* npm: Global node_modules Binary Overwrite (CVE-2019-16777)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2020-0579.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-15604",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-15605",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-15606",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-16775",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-16776",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-16777",
+      "type": "REPORT"
+    }
+  ]
+}

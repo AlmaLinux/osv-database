@@ -1,0 +1,75 @@
+{
+  "id": "ALSA-2021:4325",
+  "summary": "Moderate: lasso security and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "lasso"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.0-12.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "lasso-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.0-12.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "lasso"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.0-12.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2021-28091"
+  ],
+  "published": "2021-11-09T09:01:05Z",
+  "modified": "2021-11-12T10:20:56Z",
+  "details": "The lasso packages provide the Lasso library that implements the Liberty Alliance Single Sign-On standards, including the SAML and SAML2 specifications. It allows handling of the whole life-cycle of SAML-based federations and provides bindings for multiple languages.\n\nSecurity Fix(es):\n\n* lasso: XML signature wrapping vulnerability when parsing SAML responses (CVE-2021-28091)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://vulners.com/cve/CVE-2021-28091",
+      "type": "REPORT"
+    }
+  ]
+}

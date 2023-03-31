@@ -1,0 +1,37 @@
+{
+  "id": "ALSA-2021:4916",
+  "summary": "Important: mailman:2.1 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mailman"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3:2.1.29-12.module_el8.5.0+2602+327eb9f3.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2021-44227"
+  ],
+  "published": "2021-12-02T15:57:01Z",
+  "modified": "2021-12-03T11:06:49Z",
+  "details": "Mailman is a program used to help manage e-mail discussion lists.\n\nSecurity Fix(es):\n\n* mailman: CSRF token bypass allows to perform CSRF attacks and admin takeover (CVE-2021-44227)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://vulners.com/cve/CVE-2021-44227",
+      "type": "REPORT"
+    }
+  ]
+}

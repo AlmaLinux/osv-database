@@ -1,0 +1,90 @@
+{
+  "id": "ALSA-2020:4629",
+  "summary": "Moderate: libvpx security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libvpx"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.0-8.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libvpx"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.0-8.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libvpx-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.0-8.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2019-2126",
+    "CVE-2019-9232",
+    "CVE-2019-9371",
+    "CVE-2019-9433"
+  ],
+  "published": "2020-11-03T12:21:50Z",
+  "modified": "2021-11-12T10:20:56Z",
+  "details": "The libvpx packages provide the VP8 SDK, which allows the encoding and decoding of the VP8 video codec, commonly used with the WebM multimedia container file format.\n\nSecurity Fix(es):\n\n* libvpx: Double free in ParseContentEncodingEntry() in mkvparser.cc (CVE-2019-2126)\n\n* libvpx: Out of bounds read in vp8_norm table (CVE-2019-9232)\n\n* libvpx: Resource exhaustion after memory leak in mkvparser.cc (CVE-2019-9371)\n\n* libvpx: Use-after-free in vp8_deblock() in vp8/common/postproc.c (CVE-2019-9433)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://vulners.com/cve/CVE-2019-2126",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-9232",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-9371",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-9433",
+      "type": "REPORT"
+    }
+  ]
+}

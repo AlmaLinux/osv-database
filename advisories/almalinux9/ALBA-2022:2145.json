@@ -1,0 +1,92 @@
+{
+  "id": "ALBA-2022:2145",
+  "summary": "osbuild-composer bug fix and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "osbuild-composer-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "46.3-1.el9.alma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "osbuild-composer-worker"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "46.3-1.el9.alma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "osbuild-composer"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "46.3-1.el9.alma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "osbuild-composer-dnf-json"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "46.3-1.el9.alma"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2022-05-10T14:59:41Z",
+  "modified": "2022-05-10T14:59:38Z",
+  "details": "The osbuild-composer package is a service for building customized OS artifacts, such as virtual machine (VM) images and OSTree commits. Apart from building images for local usage, it can also upload images directly to cloud. The package is compatible with composer-cli and cockpit-composer clients.\n\nBug Fix(es) and Enhancement(s):\n\n* Building RHEL 8.6 with filesystem customizations will lead to incorrect LVM layout. (BZ#2079804)",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALBA-2022-2145.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

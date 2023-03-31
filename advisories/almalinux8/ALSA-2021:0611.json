@@ -1,0 +1,56 @@
+{
+  "id": "ALSA-2021:0611",
+  "summary": "Important: xterm security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "xterm-resize"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "331-1.el8_3.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "xterm"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "331-1.el8_3.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2021-27135"
+  ],
+  "published": "2021-02-18T14:32:15Z",
+  "modified": "2021-11-12T10:20:56Z",
+  "details": "The xterm program is a terminal emulator for the X Window System. It provides DEC VT102 and Tektronix 4014 compatible terminals for programs that can't use the window system directly.\n\nSecurity Fix(es):\n\n* xterm: crash when processing combining characters (CVE-2021-27135)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://vulners.com/cve/CVE-2021-27135",
+      "type": "REPORT"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "id": "ALSA-2022:6854",
+  "summary": "Moderate: gnutls and nettle security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gnutls-dane"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.7.6-12.el9_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gnutls-dane"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.7.6-12.el9_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gnutls-c++"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.7.6-12.el9_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gnutls-c++"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.7.6-12.el9_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gnutls-utils"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.7.6-12.el9_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gnutls-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.7.6-12.el9_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gnutls-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.7.6-12.el9_0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-2509"
+  ],
+  "published": "2022-10-11T00:00:00Z",
+  "modified": "2022-10-14T19:39:46Z",
+  "details": "The gnutls packages provide the GNU Transport Layer Security (GnuTLS) library, which implements cryptographic algorithms and protocols such as SSL, TLS, and DTLS.\n\nNettle is a cryptographic library that is designed to fit easily in almost any context: In crypto toolkits for object-oriented languages, such as C++, Python, or Pike, in applications like LSH or GNUPG, or even in kernel space.\n\nThe following packages have been upgraded to a later upstream version: gnutls (3.7.6), nettle (3.8).\n\nSecurity Fix(es):\n\n* gnutls: Double free during gnutls_pkcs7_verify. (CVE-2022-2509)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* [IBM 9.1] [P10] POWER10 performance enhancements for cryptography: nettle - incremental work (BZ#2102589)\n* Allow enabling KTLS in AlmaLinux 9.1 (BZ#2108532)\n* DES-CBC bag is decryptable under FIPS (BZ#2115314)\n* allow signature verification using RSA keys <2k in FIPS mode (BZ#2119770)",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:6854",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-2509",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2108977",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2022-6854.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

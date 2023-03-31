@@ -1,0 +1,108 @@
+{
+  "id": "ALSA-2021:0549",
+  "summary": "Moderate: nodejs:12 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-packaging"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "17-3.module_el8.4.0+2521+c668cc9f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-packaging"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "17-3.module_el8.3.0+2023+d2377ea3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-nodemon"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.3-1.module_el8.4.0+2521+c668cc9f"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2019-10746",
+    "CVE-2019-10747",
+    "CVE-2020-7754",
+    "CVE-2020-7788",
+    "CVE-2020-8265",
+    "CVE-2020-8287"
+  ],
+  "published": "2021-02-16T07:34:29Z",
+  "modified": "2021-02-16T13:03:05Z",
+  "details": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nThe following packages have been upgraded to a later upstream version: nodejs (12.20.1), nodejs-nodemon (2.0.3).\n\nSecurity Fix(es):\n\n* nodejs-mixin-deep: prototype pollution in function mixin-deep (CVE-2019-10746)\n\n* nodejs-set-value: prototype pollution in function set-value (CVE-2019-10747)\n\n* nodejs-npm-user-validate: improper input validation when validating user emails leads to ReDoS (CVE-2020-7754)\n\n* nodejs-ini: prototype pollution via malicious INI file (CVE-2020-7788)\n\n* nodejs: use-after-free in the TLS implementation (CVE-2020-8265)\n\n* nodejs: HTTP request smuggling via two copies of a header field in an http request (CVE-2020-8287)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2021-0549.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2018-3750",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-10746",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-10747",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-7754",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-7788",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-8265",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-8287",
+      "type": "REPORT"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "ALSA-2022:1801",
+  "summary": "Moderate: gfbgraph security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gfbgraph"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.2.4-1.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gfbgraph"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.2.4-1.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2021-39358"
+  ],
+  "published": "2022-05-10T06:27:52Z",
+  "modified": "2022-05-10T08:01:58Z",
+  "details": "GLib/GObject wrapper for the Facebook Graph API that integrates with GNOME Online Accounts.\n\nThe following packages have been upgraded to a later upstream version: gfbgraph (0.2.4). (BZ#1997941)\n\nSecurity Fix(es):\n\n* gfbgraph: missing TLS certificate verification (CVE-2021-39358)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2022-1801.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-39358",
+      "type": "REPORT"
+    }
+  ]
+}

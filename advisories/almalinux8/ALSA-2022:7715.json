@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2022:7715",
+  "summary": "Moderate: libxml2 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libxml2-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.7-15.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libxml2-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.7-15.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2016-3709"
+  ],
+  "published": "2022-11-08T00:00:00Z",
+  "modified": "2022-11-11T20:48:27Z",
+  "details": "The libxml2 library is a development toolbox providing the implementation of various XML standards.\n\nSecurity Fix(es):\n\n* libxml2: Incorrect server side include parsing can lead to XSS (CVE-2016-3709)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:7715",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2016-3709",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2112766",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2022-7715.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

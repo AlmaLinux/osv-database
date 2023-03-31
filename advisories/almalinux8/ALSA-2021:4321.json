@@ -1,0 +1,37 @@
+{
+  "id": "ALSA-2021:4321",
+  "summary": "Moderate: linuxptp security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "linuxptp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.1-1.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2021-3571"
+  ],
+  "published": "2021-11-09T09:00:47Z",
+  "modified": "2021-11-12T10:20:56Z",
+  "details": "The linuxptp packages provide Precision Time Protocol (PTP) implementation for Linux according to IEEE standard 1588 for Linux. The dual design goals are to provide a robust implementation of the standard and to use the most relevant and modern Application Programming Interfaces (API) offered by the Linux kernel. \n\nThe following packages have been upgraded to a later upstream version: linuxptp (3.1.1). (BZ#1895005)\n\nSecurity Fix(es):\n\n* linuxptp: wrong length of one-step follow-up in transparent clock (CVE-2021-3571)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://vulners.com/cve/CVE-2021-3571",
+      "type": "REPORT"
+    }
+  ]
+}

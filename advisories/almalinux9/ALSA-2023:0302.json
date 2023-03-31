@@ -1,0 +1,114 @@
+{
+  "id": "ALSA-2023:0302",
+  "summary": "Moderate: libtiff security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libtiff-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.4.0-5.el9_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libtiff"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.4.0-5.el9_1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-2056",
+    "CVE-2022-2057",
+    "CVE-2022-2058",
+    "CVE-2022-2519",
+    "CVE-2022-2953",
+    "CVE-2022-2520",
+    "CVE-2022-2521"
+  ],
+  "published": "2023-01-23T00:00:00Z",
+  "modified": "2023-01-24T11:36:45Z",
+  "details": "The libtiff packages contain a library of functions for manipulating Tagged Image File Format (TIFF) files.\n\nSecurity Fix(es):\n\n* LibTiff: DoS from Divide By Zero Error (CVE-2022-2056, CVE-2022-2057, CVE-2022-2058)\n* libtiff: Double free or corruption in rotateImage() function at tiffcrop.c (CVE-2022-2519)\n* libtiff: tiffcrop: heap-buffer-overflow in extractImageSection in tiffcrop.c (CVE-2022-2953)\n* libtiff: Assertion fail in rotateImage() function at tiffcrop.c (CVE-2022-2520)\n* libtiff: Invalid pointer free operation in TIFFClose() at tif_close.c (CVE-2022-2521)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:0302",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-2056",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-2057",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-2058",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-2519",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-2520",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-2521",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-2953",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2103222",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2122789",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2122792",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2122799",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2134432",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-0302.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

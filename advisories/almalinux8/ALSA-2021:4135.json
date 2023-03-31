@@ -1,0 +1,224 @@
+{
+  "id": "ALSA-2021:4135",
+  "summary": "Important: java-17-openjdk security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "java-17-openjdk-javadoc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:17.0.1.0.12-2.el8_5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "java-17-openjdk-jmods"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:17.0.1.0.12-2.el8_5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "java-17-openjdk"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:17.0.1.0.12-2.el8_5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "java-17-openjdk-javadoc-zip"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:17.0.1.0.12-2.el8_5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "java-17-openjdk-headless"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:17.0.1.0.12-2.el8_5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "java-17-openjdk-src"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:17.0.1.0.12-2.el8_5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "java-17-openjdk-demo"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:17.0.1.0.12-2.el8_5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "java-17-openjdk-static-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:17.0.1.0.12-2.el8_5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "java-17-openjdk-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:17.0.1.0.12-2.el8_5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2021-35567",
+    "CVE-2021-35556",
+    "CVE-2021-35559",
+    "CVE-2021-35561",
+    "CVE-2021-35564",
+    "CVE-2021-35578",
+    "CVE-2021-35586",
+    "CVE-2021-35603"
+  ],
+  "published": "2021-11-09T19:26:37Z",
+  "modified": "2021-11-12T16:36:03Z",
+  "details": "The java-17-openjdk packages provide the OpenJDK 17 Java Runtime Environment and the OpenJDK 17 Java Software Development Kit.\n\nSecurity Fix(es):\n\n* OpenJDK: Incorrect principal selection when using Kerberos Constrained Delegation (Libraries, 8266689) (CVE-2021-35567)\n\n* OpenJDK: Excessive memory allocation in RTFParser (Swing, 8265167) (CVE-2021-35556)\n\n* OpenJDK: Excessive memory allocation in RTFReader (Swing, 8265580) (CVE-2021-35559)\n\n* OpenJDK: Excessive memory allocation in HashMap and HashSet (Utility, 8266097) (CVE-2021-35561)\n\n* OpenJDK: Certificates with end dates too far in the future can corrupt keystore (Keytool, 8266137) (CVE-2021-35564)\n\n* OpenJDK: Unexpected exception raised during TLS handshake (JSSE, 8267729) (CVE-2021-35578)\n\n* OpenJDK: Excessive memory allocation in BMPImageReader (ImageIO, 8267735) (CVE-2021-35586)\n\n* OpenJDK: Non-constant comparison during TLS handshakes (JSSE, 8269618) (CVE-2021-35603)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://vulners.com/cve/CVE-2021-35556",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-35559",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-35561",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-35564",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-35567",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-35578",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-35586",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-35603",
+      "type": "REPORT"
+    }
+  ]
+}

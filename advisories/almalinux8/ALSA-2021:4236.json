@@ -1,0 +1,37 @@
+{
+  "id": "ALSA-2021:4236",
+  "summary": "Low: tcpdump security and bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "tcpdump"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "14:4.9.3-2.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2020-8037"
+  ],
+  "published": "2021-11-09T08:48:42Z",
+  "modified": "2021-11-12T10:20:56Z",
+  "details": "The tcpdump packages contain the tcpdump utility for monitoring network traffic. The tcpdump utility can capture and display the packet headers on a particular network interface or on all interfaces.\n\nSecurity Fix(es):\n\n* tcpdump: ppp decapsulator can be convinced to allocate a large amount of memory (CVE-2020-8037)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://vulners.com/cve/CVE-2020-8037",
+      "type": "REPORT"
+    }
+  ]
+}

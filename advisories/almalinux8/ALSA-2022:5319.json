@@ -1,0 +1,134 @@
+{
+  "id": "ALSA-2022:5319",
+  "summary": "Moderate: vim security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "vim-filesystem"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:8.0.1763-19.el8_6.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "vim-enhanced"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:8.0.1763-19.el8_6.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "vim-common"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:8.0.1763-19.el8_6.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "vim-X11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:8.0.1763-19.el8_6.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "vim-minimal"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:8.0.1763-19.el8_6.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-1621",
+    "CVE-2022-1629"
+  ],
+  "published": "2022-06-30T00:00:00Z",
+  "modified": "2022-08-05T09:21:30Z",
+  "details": "Vim (Vi IMproved) is an updated and improved version of the vi editor.\nSecurity Fix(es):\n* vim: heap buffer overflow (CVE-2022-1621)\n* vim: buffer over-read (CVE-2022-1629)\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:5319",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-1621",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-1629",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2083924",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2083931",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2022-5319.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

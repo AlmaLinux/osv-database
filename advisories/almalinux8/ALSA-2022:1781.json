@@ -1,0 +1,41 @@
+{
+  "id": "ALSA-2022:1781",
+  "summary": "Low: grafana security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "grafana"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.5.11-2.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2021-43813"
+  ],
+  "published": "2022-05-10T06:25:23Z",
+  "modified": "2022-05-10T08:00:35Z",
+  "details": "Grafana is an open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB. \n\nThe following packages have been upgraded to a later upstream version: grafana (7.5.11). (BZ#1993214)\n\nSecurity Fix(es):\n\n* grafana: directory traversal vulnerability (CVE-2021-43813)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2022-1781.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-43813",
+      "type": "REPORT"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "ALSA-2022:5252",
+  "summary": "Moderate: libarchive security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libarchive"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.3-2.el9_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "bsdtar"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.3-2.el9_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libarchive-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.3-2.el9_0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-26280"
+  ],
+  "published": "2022-07-01T00:00:00Z",
+  "modified": "2022-07-21T17:29:09Z",
+  "details": "The libarchive programming library can create and read several different\nstreaming archive formats, including GNU tar, cpio, and ISO 9660 CD-ROM images.\nLibarchive is used notably in the bsdtar utility, scripting language bindings\nsuch as python-libarchive, and several popular desktop file managers.\nSecurity Fix(es):\n* libarchive: an out-of-bounds read via the component zipx_lzma_alone_init\n(CVE-2022-26280)\nFor more details about the security issue(s), including the impact, a CVSS\nscore, acknowledgments, and other related information, refer to the CVE page(s)\nlisted in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:5252",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-26280",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2071931",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2022-5252.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

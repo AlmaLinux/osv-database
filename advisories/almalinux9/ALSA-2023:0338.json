@@ -1,0 +1,58 @@
+{
+  "id": "ALSA-2023:0338",
+  "summary": "Moderate: libxml2 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libxml2-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.13-3.el9_1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-40303",
+    "CVE-2022-40304"
+  ],
+  "published": "2023-01-23T00:00:00Z",
+  "modified": "2023-01-24T14:32:38Z",
+  "details": "The libxml2 library is a development toolbox providing the implementation of various XML standards.\n\nSecurity Fix(es):\n\n* libxml2: integer overflows with XML_PARSE_HUGE (CVE-2022-40303)\n* libxml2: dict corruption caused by entity reference cycles (CVE-2022-40304)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:0338",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-40303",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-40304",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2136266",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2136288",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-0338.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

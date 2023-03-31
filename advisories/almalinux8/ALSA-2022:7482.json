@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2022:7482",
+  "summary": "Moderate: qt5 security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "qt5-rpm-macros"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.15.3-1.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "qt5-srpm-macros"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.15.3-1.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-25255"
+  ],
+  "published": "2022-11-08T00:00:00Z",
+  "modified": "2022-11-12T02:11:31Z",
+  "details": "The Qt5 libraries packages provide Qt 5, version 5 of the Qt cross-platform application framework.\n\nThe following packages have been upgraded to a later upstream version: qt5 (5.15.3). (BZ#2061377)\n\nSecurity Fix(es):\n\n* qt: QProcess could execute a binary from the current working directory when not found in the PATH (CVE-2022-25255)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:7482",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-25255",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2055505",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2022-7482.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

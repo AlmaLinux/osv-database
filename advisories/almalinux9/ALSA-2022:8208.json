@@ -1,0 +1,106 @@
+{
+  "id": "ALSA-2022:8208",
+  "summary": "Moderate: dovecot security and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "dovecot-pgsql"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.3.16-7.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "dovecot-mysql"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.3.16-7.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "dovecot-pigeonhole"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.3.16-7.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "dovecot"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.3.16-7.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-30550"
+  ],
+  "published": "2022-11-15T00:00:00Z",
+  "modified": "2022-11-18T03:32:57Z",
+  "details": "Dovecot is an IMAP server for Linux and other UNIX-like systems, written primarily with security in mind. It also contains a small POP3 server, and supports e-mail in either the maildir or mbox format. The SQL drivers and authentication plug-ins are provided as subpackages. \n\nSecurity Fix(es):\n\n* dovecot: Privilege escalation when similar master and non-master passdbs are used (CVE-2022-30550)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:8208",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-30550",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2105070",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2022-8208.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

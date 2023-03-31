@@ -1,0 +1,106 @@
+{
+  "id": "ALBA-2021:0550",
+  "summary": "pcp bug fix and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "pcp-manager"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.1-4.el8_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "pcp-conf"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.1-4.el8_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "pcp-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.1-4.el8_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "pcp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.1-4.el8_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "pcp-selinux"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.1-4.el8_3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2021-02-16T07:34:35Z",
+  "modified": "2021-11-12T10:20:55Z",
+  "details": "Performance Co-Pilot (PCP) is a suite of tools, services, and libraries for\nacquisition, archiving, and analysis of system-level performance\nmeasurements. Its light-weight distributed architecture makes it\nparticularly well-suited to centralized analysis of complex systems.\n\nBug Fix(es) and Enhancement(s):\n\n* NetworkManager.service can not be started with  probability after reboot\n(BZ#1916385)\n\n* pmlogger: some metrics get logged twice (BZ#1917775)",
+  "references": []
+}

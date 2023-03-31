@@ -1,0 +1,132 @@
+{
+  "id": "ALSA-2020:5503",
+  "summary": "Moderate: mariadb-connector-c security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mariadb-connector-c"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.11-2.el8_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mariadb-connector-c-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.11-2.el8_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mariadb-connector-c"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.11-2.el8_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mariadb-connector-c-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.11-2.el8_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mariadb-connector-c-config"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.11-2.el8_3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2020-2752",
+    "CVE-2020-2922",
+    "CVE-2020-13249",
+    "CVE-2020-2574"
+  ],
+  "published": "2020-12-15T16:04:12Z",
+  "modified": "2021-11-12T10:20:56Z",
+  "details": "The MariaDB Native Client library (C driver) is used to connect applications developed in C/C++ to MariaDB and MySQL databases. \n\nThe following packages have been upgraded to a later upstream version: mariadb-connector-c (3.1.11). (BZ#1898993)\n\nSecurity Fix(es):\n\n* mysql: C API unspecified vulnerability (CPU Apr 2020) (CVE-2020-2752)\n\n* mysql: C API unspecified vulnerability (CPU Apr 2020) (CVE-2020-2922)\n\n* mariadb-connector-c: Improper validation of content in a OK packet received from server (CVE-2020-13249)\n\n* mysql: C API unspecified vulnerability (CPU Jan 2020) (CVE-2020-2574)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Code utilizing plugins can't be compiled properly (BZ#1899001)\n\n* Add \"zlib-devel\" requirement in \"-devel\" subpackage (BZ#1899005)\n\n* Replace hard-coded /usr with %{_prefix} (BZ#1899099)",
+  "references": [
+    {
+      "url": "https://vulners.com/cve/CVE-2020-13249",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2574",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2752",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-2922",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-2007",
+      "type": "REPORT"
+    }
+  ]
+}

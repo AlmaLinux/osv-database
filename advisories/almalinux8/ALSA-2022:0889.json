@@ -1,0 +1,132 @@
+{
+  "id": "ALSA-2022:0889",
+  "summary": "Low: 389-ds:1.4 security and bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "389-ds-base-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.3.23-14.module_el8.5.0+2628+c731dc97"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3-lib389"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.3.23-14.module_el8.5.0+2628+c731dc97"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "389-ds-base"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.3.23-14.module_el8.5.0+2628+c731dc97"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "389-ds-base-snmp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.3.23-14.module_el8.5.0+2628+c731dc97"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "389-ds-base-legacy-tools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.3.23-14.module_el8.5.0+2628+c731dc97"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "389-ds-base-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.3.23-14.module_el8.5.0+2628+c731dc97"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2021-4091"
+  ],
+  "published": "2022-03-15T09:10:39Z",
+  "modified": "2022-03-16T23:36:44Z",
+  "details": "389 Directory Server is an LDAP version 3 (LDAPv3) compliant server. The base packages include the Lightweight Directory Access Protocol (LDAP) server and command-line utilities for server administration. \n\nSecurity Fix(es):\n\n* 389-ds-base: double free of the virtual attribute context in persistent search (CVE-2021-4091)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Paged search lookthroughlimit counter doesnt take read ahead into account (BZ#2059893)\n\n* Based on 1944494 (RFC 4530 entryUUID attribute) - plugin entryuuid failing (BZ#2060106)",
+  "references": [
+    {
+      "url": "https://vulners.com/cve/CVE-2021-4091",
+      "type": "REPORT"
+    }
+  ]
+}

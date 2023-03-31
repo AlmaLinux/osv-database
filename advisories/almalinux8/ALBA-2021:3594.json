@@ -1,0 +1,49 @@
+{
+  "id": "ALBA-2021:3594",
+  "summary": "libdb bug fix and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libdb-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.3.28-42.el8_4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libdb-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.3.28-42.el8_4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2021-09-21T07:13:51Z",
+  "modified": "2021-11-12T10:20:56Z",
+  "details": "The libdb packages provide the Berkeley Database, an embedded database\nsupporting both traditional and client/server applications.\n\nBug Fix(es) and Enhancement(s):\n\n* [FJ8.4 Bug]: [REG]The rpm command hangs and the CPU usage reaches 100%\n(BZ#2001972)",
+  "references": []
+}

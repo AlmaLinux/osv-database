@@ -1,0 +1,99 @@
+{
+  "id": "ALSA-2021:1887",
+  "summary": "Moderate: dovecot security and bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "dovecot-mysql"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.3.8-9.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "dovecot-pgsql"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.3.8-9.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "dovecot-pigeonhole"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.3.8-9.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "dovecot"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.3.8-9.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2020-24386",
+    "CVE-2020-25275"
+  ],
+  "published": "2021-05-18T06:19:41Z",
+  "modified": "2021-11-12T10:20:56Z",
+  "details": "Dovecot is an IMAP server for Linux and other UNIX-like systems, written primarily with security in mind. It also contains a small POP3 server, and supports e-mail in either the maildir or mbox format. The SQL drivers and authentication plug-ins are provided as subpackages. \n\nSecurity Fix(es):\n\n* dovecot: IMAP hibernation function allows mail access (CVE-2020-24386)\n\n* dovecot: Denial of service via mail MIME parsing (CVE-2020-25275)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://vulners.com/cve/CVE-2020-24386",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-25275",
+      "type": "REPORT"
+    }
+  ]
+}

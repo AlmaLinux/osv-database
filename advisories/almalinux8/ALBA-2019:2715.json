@@ -1,0 +1,54 @@
+{
+  "id": "ALBA-2019:2715",
+  "summary": "virt:rhel bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "sgabios"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:0.20170427git-3.module_el8.6.0+2880+7d9e3703"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "sgabios-bin"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:0.20170427git-3.module_el8.6.0+2880+7d9e3703"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2019-09-10T15:32:34Z",
+  "modified": "2019-09-10T15:32:29Z",
+  "details": "Bug Fix(es):\n\n* qemu-kvm core dumped after hotplug the deleted disk with iothread parameter (BZ#1718992)\n\n* Detached device when trying to upgrade USB device firmware when in doing USB Passthrough via QEMU (BZ#1719228)",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALBA-2019-2715.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

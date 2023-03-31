@@ -1,0 +1,89 @@
+{
+  "id": "ALSA-2020:4694",
+  "summary": "Moderate: container-tools:rhel8 security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libslirp-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.3.1-1.module_el8.6.0+2876+9ed4eae2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python-podman-api"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.0-0.2.gitd0a45fe.module_el8.5.0+2635+e4386a39"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libslirp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.3.1-1.module_el8.6.0+2876+9ed4eae2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2020-10749",
+    "CVE-2020-10756",
+    "CVE-2020-14040"
+  ],
+  "published": "2020-11-03T12:27:37Z",
+  "modified": "2020-11-03T19:50:37Z",
+  "details": "The container-tools module contains tools for working with containers, notably podman, buildah, skopeo, and runc.\n\nSecurity Fix(es):\n\n* containernetworking/plugins: IPv6 router advertisements allow for MitM attacks on IPv4 clusters (CVE-2020-10749)\n\n* QEMU: slirp: networking out-of-bounds read information disclosure vulnerability (CVE-2020-10756)\n\n* golang.org/x/text: possibility to trigger an infinite loop in encoding/unicode could lead to crash (CVE-2020-14040)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2020-4694.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-10749",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-10756",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-14040",
+      "type": "REPORT"
+    }
+  ]
+}

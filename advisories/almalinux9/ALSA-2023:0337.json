@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2023:0337",
+  "summary": "Moderate: expat security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "expat-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.9-1.el9_1.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "expat-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.9-1.el9_1.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-43680"
+  ],
+  "published": "2023-01-23T00:00:00Z",
+  "modified": "2023-01-24T11:01:47Z",
+  "details": "Expat is a C library for parsing XML documents.\n\nSecurity Fix(es):\n\n* expat: use-after free caused by overeager destruction of a shared DTD in XML_ExternalEntityParserCreate (CVE-2022-43680)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:0337",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-43680",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2140059",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-0337.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "ALSA-2022:0001",
+  "summary": "Important: grafana security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "grafana"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.5.9-5.el8_5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2021-44716"
+  ],
+  "published": "2022-01-03T07:30:31Z",
+  "modified": "2022-01-07T20:56:35Z",
+  "details": "Grafana is an open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB. \n\nSecurity Fix(es):\n\n* golang: net/http: limit growth of header canonicalization cache (CVE-2021-44716)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://vulners.com/cve/CVE-2021-44716",
+      "type": "REPORT"
+    }
+  ]
+}

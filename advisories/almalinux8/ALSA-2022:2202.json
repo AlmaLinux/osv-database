@@ -1,0 +1,203 @@
+{
+  "id": "ALSA-2022:2202",
+  "summary": "Important: .NET Core 3.1 security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "dotnet-sdk-3.1-source-built-artifacts"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.419-1.el8_6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "dotnet-hostfxr-3.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.25-1.el8_6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "aspnetcore-targeting-pack-3.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.25-1.el8_6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "dotnet-sdk-3.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.419-1.el8_6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "aspnetcore-runtime-3.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.25-1.el8_6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "dotnet-runtime-3.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.25-1.el8_6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "dotnet-apphost-pack-3.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.25-1.el8_6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "dotnet-targeting-pack-3.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.25-1.el8_6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "dotnet-templates-3.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.419-1.el8_6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-23267",
+    "CVE-2022-29117",
+    "CVE-2022-29145"
+  ],
+  "published": "2022-05-11T13:24:22Z",
+  "modified": "2022-05-11T13:24:22Z",
+  "details": ".NET Core is a managed-software framework. It implements a subset of the .NET\nframework APIs and several new APIs, and it includes a CLR implementation.\n\nNew versions of .NET Core that address a security vulnerability are now available. The updated versions are .NET Core SDK 3.1.419 and .NET Core Runtime 3.1.25.\n\nSecurity Fix(es):\n\n* dotnet: excess memory allocation via HttpClient causes DoS (CVE-2022-23267)\n\n* dotnet: malicious content causes high CPU and memory usage (CVE-2022-29117)\n\n* dotnet: parsing HTML causes Denial of Service (CVE-2022-29145)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2022-2202.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2022-23267",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2022-29117",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2022-29145",
+      "type": "REPORT"
+    }
+  ]
+}

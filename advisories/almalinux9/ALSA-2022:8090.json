@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2022:8090",
+  "summary": "Low: runc security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "runc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4:1.1.4-1.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-29162"
+  ],
+  "published": "2022-11-15T00:00:00Z",
+  "modified": "2022-11-18T04:22:00Z",
+  "details": "The runC tool is a lightweight, portable implementation of the Open Container Format (OCF) that provides container runtime.\n\nSecurity Fix(es):\n\n* runc: incorrect handling of inheritable capabilities (CVE-2022-29162)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:8090",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-29162",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2086398",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2022-8090.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

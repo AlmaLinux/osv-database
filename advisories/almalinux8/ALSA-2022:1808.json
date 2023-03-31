@@ -1,0 +1,79 @@
+{
+  "id": "ALSA-2022:1808",
+  "summary": "Moderate: aspell security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "aspell-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "12:0.60.6.1-22.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "aspell"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "12:0.60.6.1-22.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "aspell"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "12:0.60.6.1-22.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2019-25051"
+  ],
+  "published": "2022-05-10T08:02:17Z",
+  "modified": "2022-05-10T08:02:09Z",
+  "details": "GNU Aspell is a spell checker designed to eventually replace Ispell. It can either be used as a library or as an independent spell checker.\n\nSecurity Fix(es):\n\n* aspell: Heap-buffer-overflow in acommon::ObjStack::dup_top (CVE-2019-25051)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2022-1808.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-25051",
+      "type": "REPORT"
+    }
+  ]
+}

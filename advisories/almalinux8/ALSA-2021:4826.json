@@ -1,0 +1,61 @@
+{
+  "id": "ALSA-2021:4826",
+  "summary": "Important: mailman:2.1 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mailman"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3:2.1.29-12.module_el8.5.0+2601+e8845b76.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mailman"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3:2.1.29-12.module_el8.5.0+2602+327eb9f3.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2021-42097",
+    "CVE-2021-42096"
+  ],
+  "published": "2021-11-23T20:17:35Z",
+  "modified": "2021-11-24T20:52:59Z",
+  "details": "Mailman is a program used to help manage e-mail discussion lists.\n\nSecurity Fix(es):\n\n* mailman: CSRF token bypass allows to perform CSRF attacks and account takeover (CVE-2021-42097)\n\n* mailman: CSRF token derived from admin password allows offline brute-force attack (CVE-2021-42096)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://vulners.com/cve/CVE-2021-42096",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-42097",
+      "type": "REPORT"
+    }
+  ]
+}

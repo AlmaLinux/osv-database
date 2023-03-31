@@ -1,0 +1,94 @@
+{
+  "id": "ALSA-2022:6702",
+  "summary": "Important: firefox security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "firefox"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "102.3.0-6.el8_6.alma"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-40959",
+    "CVE-2022-40960",
+    "CVE-2022-40962",
+    "CVE-2022-40958",
+    "CVE-2022-40956",
+    "CVE-2022-40957"
+  ],
+  "published": "2022-09-26T00:00:00Z",
+  "modified": "2022-10-14T14:48:59Z",
+  "details": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.\n\nThis update upgrades Firefox to version 102.3.0 ESR.\n\nSecurity Fix(es):\n\n* Mozilla: Bypassing FeaturePolicy restrictions on transient pages (CVE-2022-40959)\n* Mozilla: Data-race when parsing non-UTF-8 URLs in threads (CVE-2022-40960)\n* Mozilla: Memory safety bugs fixed in Firefox 105 and Firefox ESR 102.3 (CVE-2022-40962)\n* Mozilla: Bypassing Secure Context restriction for cookies with __Host and __Secure prefix (CVE-2022-40958)\n* Mozilla: Content-Security-Policy base-uri bypass (CVE-2022-40956)\n* Mozilla: Incoherent instruction cache when building WASM on ARM64 (CVE-2022-40957)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:6702",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-40956",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-40957",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-40958",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-40959",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-40960",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-40962",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2128792",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2128793",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2128794",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2128795",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2128796",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2128797",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2022-6702.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

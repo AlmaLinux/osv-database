@@ -1,0 +1,54 @@
+{
+  "id": "ALBA-2020:1928",
+  "summary": "nodejs:12 bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-nodemon"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.3-1.module_el8.3.0+2023+d2377ea3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-packaging"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "17-3.module_el8.3.0+2023+d2377ea3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2020-04-28T16:07:02Z",
+  "modified": "2020-04-28T16:06:56Z",
+  "details": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language.\n\nBug Fix(es):\n\n* Rebuild the nodejs:12 module for RHEL 8.2 (BZ#1811502)",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALBA-2020-1928.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

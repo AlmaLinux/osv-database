@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2022:8219",
+  "summary": "Moderate: mutt security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "mutt"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5:2.2.6-1.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-1328"
+  ],
+  "published": "2022-11-15T00:00:00Z",
+  "modified": "2022-11-18T01:45:17Z",
+  "details": "Mutt is a low resource, highly configurable, text-based MIME e-mail client. Mutt supports most e-mail storing formats, such as mbox and Maildir, as well as most protocols, including POP3 and IMAP.\n\nSecurity Fix(es):\n\n* mutt: buffer overflow in uudecoder function (CVE-2022-1328)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:8219",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-1328",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2076058",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2022-8219.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

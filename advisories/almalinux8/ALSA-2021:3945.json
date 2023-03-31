@@ -1,0 +1,104 @@
+{
+  "id": "ALSA-2021:3945",
+  "summary": "Important: redis:6 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "redis"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.9-5.module_el8.4.0+2584+1bb0d2aa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "redis-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.9-5.module_el8.4.0+2584+1bb0d2aa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "redis-doc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.9-5.module_el8.4.0+2584+1bb0d2aa"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2021-32626",
+    "CVE-2021-32627",
+    "CVE-2021-32628",
+    "CVE-2021-32675",
+    "CVE-2021-32687",
+    "CVE-2021-41099"
+  ],
+  "published": "2021-10-20T12:46:40Z",
+  "modified": "2021-10-20T12:46:40Z",
+  "details": "Redis is an advanced key-value store. It is often referred to as a data-structure server since keys can contain strings, hashes, lists, sets, and sorted sets. For performance, Redis works with an in-memory data set. You can persist it either by dumping the data set to disk every once in a while, or by appending each command to a log.\n\nSecurity Fix(es):\n\n* redis: Lua scripts can overflow the heap-based Lua stack (CVE-2021-32626)\n\n* redis: Integer overflow issue with Streams (CVE-2021-32627)\n\n* redis: Integer overflow bug in the ziplist data structure (CVE-2021-32628)\n\n* redis: Denial of service via Redis Standard Protocol (RESP) request (CVE-2021-32675)\n\n* redis: Integer overflow issue with intsets (CVE-2021-32687)\n\n* redis: Integer overflow issue with strings (CVE-2021-41099)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2021-3945.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-32626",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-32627",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-32628",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-32675",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-32687",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-41099",
+      "type": "REPORT"
+    }
+  ]
+}

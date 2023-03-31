@@ -1,0 +1,56 @@
+{
+  "id": "ALSA-2020:4436",
+  "summary": "Low: gnome-software and fwupd security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libxmlb"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.1.15-1.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "appstream-data"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8-20200724.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2020-10759"
+  ],
+  "published": "2020-11-03T12:04:30Z",
+  "modified": "2021-11-12T10:20:56Z",
+  "details": "The gnome-software packages contain an application that makes it easy to add, remove, and update software in the GNOME desktop.\n\nThe appstream-data package provides the distribution specific AppStream metadata required for the GNOME and KDE software centers. \n\nThe fwupd packages provide a service that allows session software to update device firmware.\n\nThe following packages have been upgraded to a later upstream version: gnome-software (3.36.1), fwupd (1.4.2).\n\nSecurity Fix(es):\n\n* fwupd: Possible bypass in signature verification (CVE-2020-10759)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://vulners.com/cve/CVE-2020-10759",
+      "type": "REPORT"
+    }
+  ]
+}

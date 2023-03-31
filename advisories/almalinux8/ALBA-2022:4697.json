@@ -1,0 +1,35 @@
+{
+  "id": "ALBA-2022:4697",
+  "summary": "cloud-init bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "cloud-init"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "21.1-15.el8.alma"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2022-05-23T12:10:10Z",
+  "modified": "2022-05-23T12:10:10Z",
+  "details": "The cloud-init packages provide a set of init scripts for cloud instances. Cloud instances need special scripts to run during initialization to retrieve and install SSH keys, and to let the user run various scripts.\n\nBug Fix:\n\n* Previously, cloud-init incorrectly handled SSH keys containing \\r\\n characters. As a consequence, cloud-init could not be used in Microsoft Azure. This update has changed how cloud-init handles SSH keys so the described keys work as expected in Azure. (BZ#2088028)",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALBA-2022-4697.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

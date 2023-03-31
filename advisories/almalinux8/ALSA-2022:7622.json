@@ -1,0 +1,134 @@
+{
+  "id": "ALSA-2022:7622",
+  "summary": "Moderate: unbound security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "unbound-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.2-2.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "unbound-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.2-2.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "unbound"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.2-2.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3-unbound"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.2-2.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "unbound-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.2-2.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-30698",
+    "CVE-2022-30699"
+  ],
+  "published": "2022-11-08T00:00:00Z",
+  "modified": "2022-11-14T18:04:54Z",
+  "details": "The unbound packages provide a validating, recursive, and caching DNS or DNSSEC resolver. \n\nThe following packages have been upgraded to a later upstream version: unbound (1.16.2). (BZ#2027735)\n\nSecurity Fix(es):\n\n* unbound: the novel ghost domain where malicious users to trigger continued resolvability of malicious domain names (CVE-2022-30698)\n* unbound: novel ghost domain attack where malicious users to trigger continued resolvability of malicious domain names (CVE-2022-30699)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:7622",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-30698",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-30699",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2116725",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2116729",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2022-7622.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "ALBA-2021:1863",
+  "summary": "icedtea-web bug fix and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "icedtea-web-javadoc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.4-4.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2021-05-18T06:16:27Z",
+  "modified": "2021-11-12T10:20:56Z",
+  "details": "migrate icedtea-web to use alt-java special binary in our JDK8 packages instead of plain java",
+  "references": []
+}

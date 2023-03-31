@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2022:6820",
+  "summary": "Moderate: prometheus-jmx-exporter security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "prometheus-jmx-exporter"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.12.0-8.el8_6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "prometheus-jmx-exporter-openjdk11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.12.0-8.el8_6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-25857"
+  ],
+  "published": "2022-10-06T00:00:00Z",
+  "modified": "2022-10-07T12:10:35Z",
+  "details": "Prometheus JMX Exporter is a JMX to Prometheus exporter: a collector that can be configured to scrape and expose MBeans of a JMX target.\n\nSecurity Fix(es):\n\n* snakeyaml: Denial of Service due to missing nested depth limitation for collections (CVE-2022-25857)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:6820",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-25857",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2126789",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2022-6820.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

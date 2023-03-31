@@ -1,0 +1,320 @@
+{
+  "id": "ALSA-2022:8067",
+  "summary": "Moderate: httpd security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "httpd-manual"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.53-7.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "mod_ldap"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.53-7.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "mod_lua"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.53-7.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "mod_proxy_html"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.4.53-7.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "httpd-tools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.53-7.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "httpd-filesystem"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.53-7.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "mod_session"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.53-7.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "httpd-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.53-7.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "httpd"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.53-7.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "mod_ssl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.4.53-7.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "httpd-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.53-7.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-23943",
+    "CVE-2022-22719",
+    "CVE-2022-22721",
+    "CVE-2022-26377",
+    "CVE-2022-29404",
+    "CVE-2022-30522",
+    "CVE-2022-31813",
+    "CVE-2022-28614",
+    "CVE-2022-28615",
+    "CVE-2022-30556"
+  ],
+  "published": "2022-11-15T00:00:00Z",
+  "modified": "2022-11-18T04:40:41Z",
+  "details": "The httpd packages provide the Apache HTTP Server, a powerful, efficient, and extensible web server.\n\nThe following packages have been upgraded to a later upstream version: httpd (2.4.53). (BZ#2079939)\n\nSecurity Fix(es):\n\n* httpd: mod_sed: Read/write beyond bounds (CVE-2022-23943)\n* httpd: mod_lua: Use of uninitialized value of in r:parsebody (CVE-2022-22719)\n* httpd: core: Possible buffer overflow with very large or unlimited LimitXMLRequestBody (CVE-2022-22721)\n* httpd: mod_proxy_ajp: Possible request smuggling (CVE-2022-26377)\n* httpd: mod_lua: DoS in r:parsebody (CVE-2022-29404)\n* httpd: mod_sed: DoS vulnerability (CVE-2022-30522)\n* httpd: mod_proxy: X-Forwarded-For dropped by hop-by-hop mechanism (CVE-2022-31813)\n* httpd: Out-of-bounds read via ap_rwrite() (CVE-2022-28614)\n* httpd: Out-of-bounds read in ap_strcmp_match() (CVE-2022-28615)\n* httpd: mod_lua: Information disclosure with websockets (CVE-2022-30556)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:8067",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-22719",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-22721",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-23943",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-26377",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-28614",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-28615",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-29404",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-30522",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-30556",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-31813",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2064319",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2064320",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2064322",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2094997",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2095002",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2095006",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2095012",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2095015",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2095018",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2095020",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2022-8067.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

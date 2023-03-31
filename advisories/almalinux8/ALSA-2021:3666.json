@@ -1,0 +1,114 @@
+{
+  "id": "ALSA-2021:3666",
+  "summary": "Important: nodejs:14 security and bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-packaging"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "23-3.module_el8.5.0+2618+8d46dafd"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-packaging"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "23-3.module_el8.4.0+2522+3bd42762"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-nodemon"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.3-1.module_el8.4.0+2521+c668cc9f"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2021-22930",
+    "CVE-2021-22940",
+    "CVE-2021-3672",
+    "CVE-2021-22931",
+    "CVE-2021-32803",
+    "CVE-2021-32804",
+    "CVE-2021-22939",
+    "CVE-2021-23343"
+  ],
+  "published": "2021-09-27T06:47:35Z",
+  "modified": "2022-11-07T17:47:24Z",
+  "details": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nSecurity Fix(es):\n\n* nodejs: Use-after-free on close http2 on stream canceling (CVE-2021-22930)\n\n* nodejs: Use-after-free on close http2 on stream canceling (CVE-2021-22940)\n\n* c-ares: Missing input validation of host names may lead to domain hijacking (CVE-2021-3672)\n\n* nodejs: Improper handling of untypical characters in domain names (CVE-2021-22931)\n\n* nodejs-tar: Insufficient symlink protection allowing arbitrary file creation and overwrite (CVE-2021-32803)\n\n* nodejs-tar: Insufficient absolute path sanitization allowing arbitrary file creation and overwrite (CVE-2021-32804)\n\n* nodejs: Incomplete validation of tls rejectUnauthorized parameter (CVE-2021-22939)\n\n* nodejs-path-parse: ReDoS via splitDeviceRe, splitTailRe and splitPathRe (CVE-2021-23343)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* nodejs:14/nodejs: Make FIPS options always available (BZ#1993924)",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2021-3666.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-22930",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-22931",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-22939",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-22940",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-23343",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-32803",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-32804",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-3672",
+      "type": "REPORT"
+    }
+  ]
+}

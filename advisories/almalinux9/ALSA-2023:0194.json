@@ -1,0 +1,210 @@
+{
+  "id": "ALSA-2023:0194",
+  "summary": "Moderate: java-17-openjdk security and bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "java-17-openjdk-src"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:17.0.6.0.10-3.el9_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "java-17-openjdk-javadoc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:17.0.6.0.10-3.el9_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "java-17-openjdk-javadoc-zip"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:17.0.6.0.10-3.el9_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "java-17-openjdk-jmods"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:17.0.6.0.10-3.el9_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "java-17-openjdk-demo"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:17.0.6.0.10-3.el9_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "java-17-openjdk-static-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:17.0.6.0.10-3.el9_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "java-17-openjdk-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:17.0.6.0.10-3.el9_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "java-17-openjdk-headless"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:17.0.6.0.10-3.el9_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "java-17-openjdk"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:17.0.6.0.10-3.el9_1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2023-21835",
+    "CVE-2023-21843"
+  ],
+  "published": "2023-01-23T00:00:00Z",
+  "modified": "2023-01-24T07:12:00Z",
+  "details": "The java-17-openjdk packages provide the OpenJDK 17 Java Runtime Environment and the OpenJDK 17 Java Software Development Kit.\n\nSecurity Fix(es):\n\n* OpenJDK: handshake DoS attack against DTLS connections (JSSE, 8287411) (CVE-2023-21835)\n* OpenJDK: soundbank URL remote loading (Sound, 8293742) (CVE-2023-21843)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* In FIPS mode, the use of a SQLite database provided by NSS was assumed, which was opened in read-only mode and with no PIN expected. This prevented the use of other databases or setting a PIN on the NSS database.  This update allows more control over database use using two new properties - fips.nssdb.path and fips.nssdb.pin - which can be configured permanently in the java.security file or temporarily via command-line arguments to the Java virtual machine (RHBZ#2147476)\n* Prepare for the next quarterly OpenJDK upstream release (2023-01, 17.0.6) [rhel-9] (BZ#2153097)",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:0194",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-21835",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-21843",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2160421",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2160475",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-0194.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

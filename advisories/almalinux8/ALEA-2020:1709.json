@@ -1,0 +1,30 @@
+{
+  "id": "ALEA-2020:1709",
+  "summary": "new package: virt-p2v",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "virt-p2v-maker"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.42.0-5.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2020-04-28T09:07:22Z",
+  "modified": "2021-11-12T10:20:55Z",
+  "details": "Virt-p2v is a tool for conversion of a physical server to a virtual guest.\n\nThis enhancement update adds the virt-p2v package to AlmaLinux (BZ#1704180)\n\nAll users who require virt-p2v are advised to install this new package.",
+  "references": []
+}

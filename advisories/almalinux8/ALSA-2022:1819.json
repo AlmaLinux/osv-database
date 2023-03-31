@@ -1,0 +1,224 @@
+{
+  "id": "ALSA-2022:1819",
+  "summary": "Moderate: go-toolset:rhel8 security and bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "golang-docs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.17.7-1.module_el8.6.0+2736+ec10aba8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "golang-race"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.17.7-1.module_el8.6.0+2736+ec10aba8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "golang-misc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.17.7-1.module_el8.6.0+2736+ec10aba8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "delve"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.2-1.module_el8.6.0+2736+ec10aba8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "golang-src"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.17.7-1.module_el8.6.0+2736+ec10aba8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "go-toolset"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.17.7-1.module_el8.6.0+2736+ec10aba8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "golang"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.17.7-1.module_el8.6.0+2736+ec10aba8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "golang-bin"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.17.7-1.module_el8.6.0+2736+ec10aba8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "golang-tests"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.17.7-1.module_el8.6.0+2736+ec10aba8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2021-38297",
+    "CVE-2021-33196",
+    "CVE-2021-39293",
+    "CVE-2021-41771",
+    "CVE-2021-41772",
+    "CVE-2022-23772",
+    "CVE-2022-23773",
+    "CVE-2022-23806"
+  ],
+  "published": "2022-05-10T06:29:31Z",
+  "modified": "2022-05-10T08:02:33Z",
+  "details": "Go Toolset provides the Go programming language tools and libraries. Go is alternatively known as golang. \n\nSecurity Fix(es):\n\n* golang: Command-line arguments may overwrite global data (CVE-2021-38297)\n\n* golang: archive/zip: malformed archive may cause panic or memory exhaustion (incomplete fix of CVE-2021-33196) (CVE-2021-39293)\n\n* golang: debug/macho: invalid dynamic symbol table command can cause panic (CVE-2021-41771)\n\n* golang: archive/zip: Reader.Open panics on empty string (CVE-2021-41772)\n\n* golang: math/big: uncontrolled memory consumption due to an unhandled overflow via Rat.SetString (CVE-2022-23772)\n\n* golang: cmd/go: misinterpretation of branch names can lead to incorrect access control (CVE-2022-23773)\n\n* golang: crypto/elliptic IsOnCurve returns true for invalid field elements (CVE-2022-23806)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2022-1819.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-38297",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-39293",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-41771",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-41772",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2022-23772",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2022-23773",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2022-23806",
+      "type": "REPORT"
+    }
+  ]
+}

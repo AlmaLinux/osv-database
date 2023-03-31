@@ -1,0 +1,207 @@
+{
+  "id": "ALSA-2022:7954",
+  "summary": "Moderate: podman security and bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "podman-remote"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:4.2.0-3.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "podman-tests"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:4.2.0-3.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "podman-gvproxy"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:4.2.0-3.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "podman"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:4.2.0-3.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "podman-docker"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:4.2.0-3.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "podman-plugins"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:4.2.0-3.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2020-28851",
+    "CVE-2020-28852",
+    "CVE-2021-4024",
+    "CVE-2021-20199",
+    "CVE-2021-20291",
+    "CVE-2021-33197",
+    "CVE-2021-34558",
+    "CVE-2022-27191"
+  ],
+  "published": "2022-11-15T00:00:00Z",
+  "modified": "2022-11-18T05:46:54Z",
+  "details": "The podman tool manages pods, container images, and containers. It is part of the libpod library, which is for applications that use container pods. Container pods is a concept in Kubernetes.\n\nSecurity Fix(es):\n\n* golang.org/x/text: Panic in language.ParseAcceptLanguage while parsing -u- extension (CVE-2020-28851)\n* golang.org/x/text: Panic in language.ParseAcceptLanguage while processing bcp47 tag (CVE-2020-28852)\n* podman: podman machine spawns gvproxy with port bound to all IPs (CVE-2021-4024)\n* podman: Remote traffic to rootless containers is seen as orginating from localhost (CVE-2021-20199)\n* containers/storage: DoS via malicious image (CVE-2021-20291)\n* golang: net/http/httputil: ReverseProxy forwards connection headers if first one is empty (CVE-2021-33197)\n* golang: crypto/tls: certificate of wrong type is causing TLS client to panic (CVE-2021-34558)\n* golang: crash in a golang.org/x/crypto/ssh server (CVE-2022-27191)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:7954",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2020-28851",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2020-28852",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2021-20199",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2021-20291",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2021-33197",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2021-34558",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2021-4024",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-27191",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1913333",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1913338",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1919050",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1939485",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1983596",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1989570",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2026675",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2064702",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2022-7954.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

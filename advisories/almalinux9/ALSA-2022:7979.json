@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2022:7979",
+  "summary": "Low: speex security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "speex"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.0-11.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "speex"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.0-11.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2020-23903"
+  ],
+  "published": "2022-11-15T00:00:00Z",
+  "modified": "2022-11-18T12:59:03Z",
+  "details": "Speex is a patent-free compression format designed especially for speech. It is specialized for voice communications at low bit-rates.\n\nSecurity Fix(es):\n\n* speex: divide by zero in read_samples() via crafted WAV file (CVE-2020-23903)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:7979",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2020-23903",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2024250",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2022-7979.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

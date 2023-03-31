@@ -1,0 +1,246 @@
+{
+  "id": "ALSA-2022:7012",
+  "summary": "Moderate: java-11-openjdk security and bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "java-11-openjdk-javadoc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:11.0.17.0.8-2.el8_6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "java-11-openjdk-jmods"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:11.0.17.0.8-2.el8_6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "java-11-openjdk-javadoc-zip"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:11.0.17.0.8-2.el8_6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "java-11-openjdk-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:11.0.17.0.8-2.el8_6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "java-11-openjdk-static-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:11.0.17.0.8-2.el8_6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "java-11-openjdk"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:11.0.17.0.8-2.el8_6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "java-11-openjdk-src"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:11.0.17.0.8-2.el8_6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "java-11-openjdk-headless"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:11.0.17.0.8-2.el8_6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "java-11-openjdk-demo"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:11.0.17.0.8-2.el8_6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-21618",
+    "CVE-2022-21626",
+    "CVE-2022-21628",
+    "CVE-2022-21619",
+    "CVE-2022-21624",
+    "CVE-2022-39399"
+  ],
+  "published": "2022-10-19T00:00:00Z",
+  "modified": "2022-10-21T14:14:20Z",
+  "details": "The java-11-openjdk packages provide the OpenJDK 11 Java Runtime Environment and the OpenJDK 11 Java Software Development Kit.\n\nSecurity Fix(es):\n\n* OpenJDK: improper MultiByte conversion can lead to buffer overflow (JGSS, 8286077) (CVE-2022-21618)\n* OpenJDK: excessive memory allocation in X.509 certificate parsing (Security, 8286533) (CVE-2022-21626)\n* OpenJDK: HttpServer no connection count limit (Lightweight HTTP Server, 8286918) (CVE-2022-21628)\n* OpenJDK: improper handling of long NTLM client hostnames (Security, 8286526) (CVE-2022-21619)\n* OpenJDK: insufficient randomization of JNDI DNS port numbers (JNDI, 8286910) (CVE-2022-21624)\n* OpenJDK: missing SNI caching in HTTP/2 (Networking, 8289366) (CVE-2022-39399)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Prepare for the next quarterly OpenJDK upstream release (2022-10, 11.0.17) [rhel-8] (BZ#2131863)",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:7012",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-21618",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-21619",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-21624",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-21626",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-21628",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-39399",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2133745",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2133753",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2133765",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2133769",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2133776",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2133817",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2022-7012.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

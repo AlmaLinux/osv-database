@@ -1,0 +1,56 @@
+{
+  "id": "ALSA-2021:4593",
+  "summary": "Moderate: annobin security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "annobin"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.72-1.el8_5.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "annobin-annocheck"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.72-1.el8_5.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2021-42574"
+  ],
+  "published": "2021-11-10T08:39:41Z",
+  "modified": "2021-11-12T16:17:39Z",
+  "details": "Annobin provides a compiler plugin to annotate and tools to examine compiled binary files.\n\nSecurity Fix(es):\n\n* Developer environment: Unicode's bidirectional (BiDi) override characters can cause trojan source attacks (CVE-2021-42574)\n\nThe following changes were introduced in annobin in order to facilitate detection of BiDi Unicode characters:\n\nThis update of annobin adds a new annocheck test to detect the presence of multibyte characters in symbol names.\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://vulners.com/cve/CVE-2021-42574",
+      "type": "REPORT"
+    }
+  ]
+}

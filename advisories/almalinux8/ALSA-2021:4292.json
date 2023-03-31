@@ -1,0 +1,109 @@
+{
+  "id": "ALSA-2021:4292",
+  "summary": "Moderate: squid:4 security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libecap"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.1-2.module_el8.6.0+2741+01592ae8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libecap-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.1-2.module_el8.6.0+2741+01592ae8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "squid"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:4.15-3.module_el8.6.0+3010+383bc947.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2021-28651",
+    "CVE-2021-28652",
+    "CVE-2021-28662",
+    "CVE-2021-31806",
+    "CVE-2021-31807",
+    "CVE-2021-31808",
+    "CVE-2021-33620"
+  ],
+  "published": "2021-11-09T08:56:14Z",
+  "modified": "2021-11-09T13:01:13Z",
+  "details": "Squid is a high-performance proxy caching server for web clients, supporting FTP, Gopher, and HTTP data objects.\n\nThe following packages have been upgraded to a later upstream version: squid (4.15). (BZ#1964384)\n\nSecurity Fix(es):\n\n* squid: denial of service in URN processing (CVE-2021-28651)\n\n* squid: denial of service issue in Cache Manager (CVE-2021-28652)\n\n* squid: denial of service in HTTP response processing (CVE-2021-28662)\n\n* squid: improper input validation in HTTP Range header (CVE-2021-31806)\n\n* squid: incorrect memory management in HTTP Range header (CVE-2021-31807)\n\n* squid: integer overflow in HTTP Range header (CVE-2021-31808)\n\n* squid: denial of service in HTTP response processing (CVE-2021-33620)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2021-4292.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-28651",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-28652",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-28662",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-31806",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-31807",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-31808",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-33620",
+      "type": "REPORT"
+    }
+  ]
+}

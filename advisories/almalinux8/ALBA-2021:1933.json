@@ -1,0 +1,54 @@
+{
+  "id": "ALBA-2021:1933",
+  "summary": "mod_auth_openidc:2.3  bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "cjose"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.6.1-2.module_el8.6.0+2868+44838709"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "cjose-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.6.1-2.module_el8.6.0+2868+44838709"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2021-05-18T06:25:46Z",
+  "modified": "2021-05-18T06:25:43Z",
+  "details": "The mod_auth_openidc is an OpenID Connect authentication module for Apache HTTP Server. It enables an Apache HTTP Server to operate as an OpenID Connect Relying Party and/or OAuth 2.0 Resource Server. \n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALBA-2021-1933.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

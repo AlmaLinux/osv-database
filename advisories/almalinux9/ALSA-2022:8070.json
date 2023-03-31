@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2022:8070",
+  "summary": "Moderate: dnsmasq security and bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "dnsmasq-utils"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.85-5.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "dnsmasq"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.85-5.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-0934"
+  ],
+  "published": "2022-11-15T00:00:00Z",
+  "modified": "2022-11-18T04:29:49Z",
+  "details": "The dnsmasq packages contain Dnsmasq, a lightweight DNS (Domain Name Server) forwarder and DHCP (Dynamic Host Configuration Protocol) server.\n\nSecurity Fix(es):\n\n* dnsmasq: Heap use after free in dhcp6_no_relay (CVE-2022-0934)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:8070",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-0934",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2057075",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2022-8070.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

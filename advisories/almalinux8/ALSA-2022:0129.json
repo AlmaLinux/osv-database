@@ -1,0 +1,111 @@
+{
+  "id": "ALSA-2022:0129",
+  "summary": "Important: thunderbird security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "thunderbird"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "91.5.0-1.el8_5.alma.plus"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "thunderbird"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "91.5.0-1.el8_5.alma"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2021-4140",
+    "CVE-2022-22737",
+    "CVE-2022-22738",
+    "CVE-2022-22740",
+    "CVE-2022-22741",
+    "CVE-2022-22742",
+    "CVE-2022-22743",
+    "CVE-2022-22751",
+    "CVE-2022-22745",
+    "CVE-2022-22748",
+    "CVE-2022-22739",
+    "CVE-2022-22747"
+  ],
+  "published": "2022-01-12T11:29:46Z",
+  "modified": "2022-01-13T09:06:45Z",
+  "details": "Mozilla Thunderbird is a standalone mail and newsgroup client.\n\nThis update upgrades Thunderbird to version 91.5.0.\n\nSecurity Fix(es):\n\n* Mozilla: Iframe sandbox bypass with XSLT (CVE-2021-4140)\n\n* Mozilla: Race condition when playing audio files (CVE-2022-22737)\n\n* Mozilla: Heap-buffer-overflow in blendGaussianBlur (CVE-2022-22738)\n\n* Mozilla: Use-after-free of ChannelEventQueue::mOwner (CVE-2022-22740)\n\n* Mozilla: Browser window spoof using fullscreen mode (CVE-2022-22741)\n\n* Mozilla: Out-of-bounds memory access when inserting text in edit mode (CVE-2022-22742)\n\n* Mozilla: Browser window spoof using fullscreen mode (CVE-2022-22743)\n\n* Mozilla: Memory safety bugs fixed in Firefox 96 and Firefox ESR 91.5 (CVE-2022-22751)\n\n* Mozilla: Leaking cross-origin URLs through securitypolicyviolation event (CVE-2022-22745)\n\n* Mozilla: Spoofed origin on external protocol launch dialog (CVE-2022-22748)\n\n* Mozilla: Missing throttling on external protocol launch dialog (CVE-2022-22739)\n\n* Mozilla: Crash when handling empty pkcs7 sequence (CVE-2022-22747)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://vulners.com/cve/CVE-2021-4140",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2022-22737",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2022-22738",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2022-22739",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2022-22740",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2022-22741",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2022-22742",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2022-22743",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2022-22745",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2022-22747",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2022-22748",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2022-22751",
+      "type": "REPORT"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "ALSA-2020:5620",
+  "summary": "Important: postgresql:12 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "postgres-decoderbufs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.0-2.module_el8.6.0+2760+1746ec94"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "postgres-decoderbufs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.0-2.module_el8.6.0+2758+4f4474df"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2020-25694",
+    "CVE-2020-25695",
+    "CVE-2020-14349",
+    "CVE-2020-14350",
+    "CVE-2020-25696",
+    "CVE-2020-1720"
+  ],
+  "published": "2020-12-17T15:30:10Z",
+  "modified": "2020-12-17T15:30:10Z",
+  "details": "PostgreSQL is an advanced object-relational database management system (DBMS).\n\nThe following packages have been upgraded to a later upstream version: postgresql (12.5).\n\nSecurity Fix(es):\n\n* postgresql: Reconnection can downgrade connection security settings (CVE-2020-25694)\n\n* postgresql: Multiple features escape \"security restricted operation\" sandbox (CVE-2020-25695)\n\n* postgresql: Uncontrolled search path element in logical replication (CVE-2020-14349)\n\n* postgresql: Uncontrolled search path element in CREATE EXTENSION (CVE-2020-14350)\n\n* postgresql: psql's \\gset allows overwriting specially treated variables (CVE-2020-25696)\n\n* postgresql: ALTER ... DEPENDS ON EXTENSION is missing authorization checks (CVE-2020-1720)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2020-5620.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-14349",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-14350",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-1720",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-25694",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-25695",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-25696",
+      "type": "REPORT"
+    }
+  ]
+}

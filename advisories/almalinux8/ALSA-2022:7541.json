@@ -1,0 +1,96 @@
+{
+  "id": "ALSA-2022:7541",
+  "summary": "Low: redis:6 security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "redis-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.7-1.module_el8.7.0+3288+a82c1b48"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "redis-doc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.7-1.module_el8.7.0+3288+a82c1b48"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "redis"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.7-1.module_el8.7.0+3288+a82c1b48"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-24735",
+    "CVE-2022-24736"
+  ],
+  "published": "2022-11-08T00:00:00Z",
+  "modified": "2022-11-12T01:43:09Z",
+  "details": "Redis is an advanced key-value store. It is often referred to as a data-structure server since keys can contain strings, hashes, lists, sets, and sorted sets. For performance, Redis works with an in-memory data set. You can persist it either by dumping the data set to disk every once in a while, or by appending each command to a log.\n\nThe following packages have been upgraded to a later upstream version: redis (6.2.7). (BZ#1999873)\n\nSecurity Fix(es):\n\n* redis: Code injection via Lua script execution environment (CVE-2022-24735)\n* redis: Malformed Lua script can crash Redis (CVE-2022-24736)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:7541",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-24735",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-24736",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2080286",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2080289",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2022-7541.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

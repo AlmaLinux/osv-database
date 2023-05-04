@@ -20,6 +20,25 @@
           ]
         }
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libxml2-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.13-3.el9_1"
+            }
+          ]
+        }
+      ]
     }
   ],
   "aliases": [
@@ -27,7 +46,7 @@
     "CVE-2022-40304"
   ],
   "published": "2023-01-23T00:00:00Z",
-  "modified": "2023-01-24T14:32:38Z",
+  "modified": "2023-03-08T11:12:32Z",
   "details": "The libxml2 library is a development toolbox providing the implementation of various XML standards.\n\nSecurity Fix(es):\n\n* libxml2: integer overflows with XML_PARSE_HUGE (CVE-2022-40303)\n* libxml2: dict corruption caused by entity reference cycles (CVE-2022-40304)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {

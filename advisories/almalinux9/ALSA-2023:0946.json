@@ -1,0 +1,150 @@
+{
+  "id": "ALSA-2023:0946",
+  "summary": "Moderate: openssl security and bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "openssl-perl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:3.0.1-47.el9_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "openssl-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:3.0.1-47.el9_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "openssl-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:3.0.1-47.el9_1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-4203",
+    "CVE-2022-4304",
+    "CVE-2022-4450",
+    "CVE-2023-0215",
+    "CVE-2023-0216",
+    "CVE-2023-0217",
+    "CVE-2023-0286",
+    "CVE-2023-0401"
+  ],
+  "published": "2023-02-28T00:00:00Z",
+  "modified": "2023-02-28T19:45:58Z",
+  "details": "OpenSSL is a toolkit that implements the Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocols, as well as a full-strength general-purpose cryptography library.\n\nSecurity Fix(es):\n\n* openssl: read buffer overflow in X.509 certificate verification (CVE-2022-4203)\n* openssl: timing attack in RSA Decryption implementation (CVE-2022-4304)\n* openssl: double free after calling PEM_read_bio_ex (CVE-2022-4450)\n* openssl: use-after-free following BIO_new_NDEF (CVE-2023-0215)\n* openssl: invalid pointer dereference in d2i_PKCS7 functions (CVE-2023-0216)\n* openssl: NULL dereference validating DSA public key (CVE-2023-0217)\n* openssl: X.400 address type confusion in X.509 GeneralName (CVE-2023-0286)\n* openssl: NULL dereference during PKCS7 data verification (CVE-2023-0401)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* HMAC generation should reject key lengths < 112 bits or provide an indicator in FIPS mode (BZ#2144000)\n* In FIPS mode, openssl should set a minimum length for passwords in PBKDF2 (BZ#2144003)\n* stunnel consumes high amount of memory when pestered with TCP connections without a TLS handshake (BZ#2144008)\n* In FIPS mode, openssl should reject SHAKE as digest for RSA-OAEP or provide an indicator (BZ#2144010)\n* In FIPS mode, openssl should reject RSASSA-PSS salt lengths larger than the output size of the hash function used, or provide an indicator (BZ#2144012)\n* In FIPS mode, openssl should reject RSA signatures with X9.31 padding, or provide an indicator (BZ#2144015)\n* In FIPS mode, openssl should reject SHA-224, SHA-384, SHA-512-224, and SHA-512-256 as hashes for hash-based DRBGs, or provide an indicator after 2023-05-16 (BZ#2144017)\n* In FIPS mode, openssl should reject KDF input and output key lengths < 112 bits or provide an indicator (BZ#2144019)\n* In FIPS mode, openssl should reject RSA keys < 2048 bits when using EVP_PKEY_decapsulate, or provide an indicator (BZ#2145170)\n* AlmaLinux9.1 Nightly[0912] - error:03000093:digital envelope routines::command not supported when git clone is run with configured ibmca engine backed by libica.so.4 (OpenSSL 3.0) (BZ#2149010)\n* OpenSSL FIPS checksum code needs update (BZ#2158412)",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:0946",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-4203",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-4304",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-4450",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-0215",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-0216",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-0217",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-0286",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-0401",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2164440",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2164487",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2164488",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2164492",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2164494",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2164497",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2164499",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2164500",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-0946.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

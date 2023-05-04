@@ -1,7 +1,26 @@
 {
-  "id": "ALSA-2022:8493",
-  "summary": "Important: python3.9 security update",
+  "id": "ALSA-2023:0953",
+  "summary": "Moderate: python3.9 security update",
   "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "python3-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.9.14-1.el9_1.2"
+            }
+          ]
+        }
+      ]
+    },
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
@@ -15,7 +34,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "3.9.14-1.el9_1.1"
+              "fixed": "3.9.14-1.el9_1.2"
             }
           ]
         }
@@ -34,26 +53,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "3.9.14-1.el9_1.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
-        "name": "python3-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3.9.14-1.el9_1.1"
+              "fixed": "3.9.14-1.el9_1.2"
             }
           ]
         }
@@ -72,7 +72,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "3.9.14-1.el9_1.1"
+              "fixed": "3.9.14-1.el9_1.2"
             }
           ]
         }
@@ -80,26 +80,26 @@
     }
   ],
   "aliases": [
-    "CVE-2022-42919"
+    "CVE-2022-45061"
   ],
-  "published": "2022-11-16T00:00:00Z",
-  "modified": "2023-03-13T16:36:10Z",
-  "details": "Python is an interpreted, interactive, object-oriented programming language, which includes modules, classes, exceptions, very high level dynamic data types and dynamic typing. Python supports interfaces to many system calls and libraries, as well as to various windowing systems.\n\nSecurity Fix(es):\n\n* python: local privilege escalation via the multiprocessing forkserver start method (CVE-2022-42919)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "published": "2023-02-28T00:00:00Z",
+  "modified": "2023-02-28T19:57:32Z",
+  "details": "Python is an interpreted, interactive, object-oriented programming language, which includes modules, classes, exceptions, very high level dynamic data types and dynamic typing. Python supports interfaces to many system calls and libraries, as well as to various windowing systems.\n\nSecurity Fix(es):\n\n* Python: CPU denial of service via inefficient IDNA decoder (CVE-2022-45061)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {
-      "url": "https://access.redhat.com/errata/RHSA-2022:8493",
+      "url": "https://access.redhat.com/errata/RHSA-2023:0953",
       "type": "ADVISORY"
     },
     {
-      "url": "https://access.redhat.com/security/cve/CVE-2022-42919",
+      "url": "https://access.redhat.com/security/cve/CVE-2022-45061",
       "type": "REPORT"
     },
     {
-      "url": "https://bugzilla.redhat.com/2138705",
+      "url": "https://bugzilla.redhat.com/2144072",
       "type": "REPORT"
     },
     {
-      "url": "https://errata.almalinux.org/9/ALSA-2022-8493.html",
+      "url": "https://errata.almalinux.org/9/ALSA-2023-0953.html",
       "type": "ADVISORY"
     }
   ]

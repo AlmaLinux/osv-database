@@ -1,11 +1,11 @@
 {
-  "id": "ALSA-2022:6963",
-  "summary": "Important: nodejs security update",
+  "id": "ALSA-2023:1703",
+  "summary": "Important: kernel security and bug fix update",
   "affected": [
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "nodejs-docs"
+        "name": "kernel-doc"
       },
       "ranges": [
         {
@@ -15,7 +15,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:16.17.1-1.el9_0"
+              "fixed": "5.14.0-162.23.1.el9_1"
             }
           ]
         }
@@ -24,7 +24,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "nodejs-libs"
+        "name": "kernel-debug-devel"
       },
       "ranges": [
         {
@@ -34,7 +34,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:16.17.1-1.el9_0"
+              "fixed": "5.14.0-162.23.1.el9_1"
             }
           ]
         }
@@ -43,7 +43,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "nodejs-full-i18n"
+        "name": "kernel-devel-matched"
       },
       "ranges": [
         {
@@ -53,7 +53,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:16.17.1-1.el9_0"
+              "fixed": "5.14.0-162.23.1.el9_1"
             }
           ]
         }
@@ -62,7 +62,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "nodejs"
+        "name": "perf"
       },
       "ranges": [
         {
@@ -72,7 +72,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:16.17.1-1.el9_0"
+              "fixed": "5.14.0-162.23.1.el9_1"
             }
           ]
         }
@@ -81,7 +81,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "nodejs-libs"
+        "name": "kernel-debug-devel-matched"
       },
       "ranges": [
         {
@@ -91,7 +91,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:16.17.1-1.el9_0"
+              "fixed": "5.14.0-162.23.1.el9_1"
             }
           ]
         }
@@ -100,7 +100,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "npm"
+        "name": "kernel-devel"
       },
       "ranges": [
         {
@@ -110,7 +110,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:8.15.0-1.16.17.1.1.el9_0"
+              "fixed": "5.14.0-162.23.1.el9_1"
             }
           ]
         }
@@ -118,35 +118,26 @@
     }
   ],
   "aliases": [
-    "CVE-2022-35255",
-    "CVE-2022-35256"
+    "CVE-2023-0386"
   ],
-  "published": "2022-10-18T00:00:00Z",
-  "modified": "2023-03-13T16:35:42Z",
-  "details": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nThe following packages have been upgraded to a later upstream version: nodejs (16.17.1).\n\nSecurity Fix(es):\n\n* nodejs: weak randomness in WebCrypto keygen (CVE-2022-35255)\n* nodejs: HTTP Request Smuggling due to incorrect parsing of header fields (CVE-2022-35256)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "published": "2023-04-11T00:00:00Z",
+  "modified": "2023-04-20T14:34:50Z",
+  "details": "The kernel packages contain the Linux kernel, the core of any Linux operating system.\n\nSecurity Fix(es):\n\n* kernel: FUSE filesystem low-privileged user privileges escalation (CVE-2023-0386)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Update intel_idle for Eaglestream/Sapphire Rapids support (BZ#2168361)\n* AlmaLinux9: An application stopped on robust futex used via pthread_mutex_lock() (BZ#2168836)",
   "references": [
     {
-      "url": "https://access.redhat.com/errata/RHSA-2022:6963",
+      "url": "https://access.redhat.com/errata/RHSA-2023:1703",
       "type": "ADVISORY"
     },
     {
-      "url": "https://access.redhat.com/security/cve/CVE-2022-35255",
+      "url": "https://access.redhat.com/security/cve/CVE-2023-0386",
       "type": "REPORT"
     },
     {
-      "url": "https://access.redhat.com/security/cve/CVE-2022-35256",
+      "url": "https://bugzilla.redhat.com/2159505",
       "type": "REPORT"
     },
     {
-      "url": "https://bugzilla.redhat.com/2130517",
-      "type": "REPORT"
-    },
-    {
-      "url": "https://bugzilla.redhat.com/2130518",
-      "type": "REPORT"
-    },
-    {
-      "url": "https://errata.almalinux.org/9/ALSA-2022-6963.html",
+      "url": "https://errata.almalinux.org/9/ALSA-2023-1703.html",
       "type": "ADVISORY"
     }
   ]

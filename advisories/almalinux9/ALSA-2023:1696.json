@@ -1,0 +1,58 @@
+{
+  "id": "ALSA-2023:1696",
+  "summary": "Moderate: haproxy security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "haproxy"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.17-3.el9_1.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2023-0056",
+    "CVE-2023-25725"
+  ],
+  "published": "2023-04-11T00:00:00Z",
+  "modified": "2023-04-20T14:00:39Z",
+  "details": "The haproxy packages provide a reliable, high-performance network load balancer for TCP and HTTP-based applications.\n\nSecurity Fix(es):\n\n* haproxy: segfault DoS (CVE-2023-0056)\n* haproxy: request smuggling attack in HTTP/1 header parsing (CVE-2023-25725)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:1696",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-0056",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-25725",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2160808",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2169089",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-1696.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

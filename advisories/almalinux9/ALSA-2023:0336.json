@@ -24,6 +24,25 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
+        "name": "systemd-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "250-12.el9_1.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
         "name": "systemd-journal-remote"
       },
       "ranges": [
@@ -45,7 +64,7 @@
     "CVE-2022-3821"
   ],
   "published": "2023-01-23T00:00:00Z",
-  "modified": "2023-01-24T16:16:13Z",
+  "modified": "2023-03-13T16:36:42Z",
   "details": "The systemd packages contain systemd, a system and service manager for Linux, compatible with the SysV and LSB init scripts. It provides aggressive parallelism capabilities, uses socket and D-Bus activation for starting services, offers on-demand starting of daemons, and keeps track of processes using Linux cgroups. In addition, it supports snapshotting and restoring of the system state, maintains mount and automount points, and implements an elaborate transactional dependency-based service control logic. It can also work as a drop-in replacement for sysvinit.\n\nSecurity Fix(es):\n\n* systemd: buffer overrun in format_timespan() function (CVE-2022-3821)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {

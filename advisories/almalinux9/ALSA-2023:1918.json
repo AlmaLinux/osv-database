@@ -1,29 +1,10 @@
 {
-  "id": "ALSA-2022:6634",
-  "summary": "Moderate: webkit2gtk3 security update",
+  "id": "ALSA-2023:1918",
+  "summary": "Important: webkit2gtk3 security update",
   "affected": [
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "webkit2gtk3-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.36.7-1.el9_0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
         "name": "webkit2gtk3-jsc"
       },
       "ranges": [
@@ -34,7 +15,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "2.36.7-1.el9_0"
+              "fixed": "2.36.7-1.el9_1.3"
             }
           ]
         }
@@ -53,26 +34,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "2.36.7-1.el9_0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
-        "name": "webkit2gtk3-jsc-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.36.7-1.el9_0"
+              "fixed": "2.36.7-1.el9_1.3"
             }
           ]
         }
@@ -91,45 +53,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "2.36.7-1.el9_0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
-        "name": "webkit2gtk3"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.36.7-1.el9_0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
-        "name": "webkit2gtk3-jsc-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.36.7-1.el9_0"
+              "fixed": "2.36.7-1.el9_1.3"
             }
           ]
         }
@@ -148,7 +72,83 @@
               "introduced": "0"
             },
             {
-              "fixed": "2.36.7-1.el9_0"
+              "fixed": "2.36.7-1.el9_1.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "webkit2gtk3-jsc-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.36.7-1.el9_1.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "webkit2gtk3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.36.7-1.el9_1.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "webkit2gtk3-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.36.7-1.el9_1.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "webkit2gtk3-jsc-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.36.7-1.el9_1.3"
             }
           ]
         }
@@ -156,26 +156,26 @@
     }
   ],
   "aliases": [
-    "CVE-2022-32893"
+    "CVE-2023-28205"
   ],
-  "published": "2022-09-20T00:00:00Z",
-  "modified": "2023-03-13T16:35:32Z",
-  "details": "WebKitGTK is the port of the portable web rendering engine WebKit to the GTK platform.\n\nThe following packages have been upgraded to a later upstream version: webkit2gtk3 (2.36.7).\n\nSecurity Fix(es):\n\n* webkitgtk: processing maliciously crafted web content may lead to arbitrary code execution (CVE-2022-32893)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "published": "2023-04-20T00:00:00Z",
+  "modified": "2023-04-21T08:29:40Z",
+  "details": "WebKitGTK is the port of the portable web rendering engine WebKit to the GTK platform.\n\nSecurity Fix(es):\n\n* WebKitGTK: use-after-free leads to arbitrary code execution (CVE-2023-28205)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {
-      "url": "https://access.redhat.com/errata/RHSA-2022:6634",
+      "url": "https://access.redhat.com/errata/RHSA-2023:1918",
       "type": "ADVISORY"
     },
     {
-      "url": "https://access.redhat.com/security/cve/CVE-2022-32893",
+      "url": "https://access.redhat.com/security/cve/CVE-2023-28205",
       "type": "REPORT"
     },
     {
-      "url": "https://bugzilla.redhat.com/2121645",
+      "url": "https://bugzilla.redhat.com/2185724",
       "type": "REPORT"
     },
     {
-      "url": "https://errata.almalinux.org/9/ALSA-2022-6634.html",
+      "url": "https://errata.almalinux.org/9/ALSA-2023-1918.html",
       "type": "ADVISORY"
     }
   ]

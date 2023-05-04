@@ -1,0 +1,255 @@
+{
+  "id": "ALSA-2023:1880",
+  "summary": "Important: java-11-openjdk security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "java-11-openjdk-javadoc-zip"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:11.0.19.0.7-1.el9_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "java-11-openjdk-static-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:11.0.19.0.7-1.el9_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "java-11-openjdk-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:11.0.19.0.7-1.el9_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "java-11-openjdk-jmods"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:11.0.19.0.7-1.el9_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "java-11-openjdk-headless"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:11.0.19.0.7-1.el9_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "java-11-openjdk"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:11.0.19.0.7-1.el9_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "java-11-openjdk-javadoc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:11.0.19.0.7-1.el9_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "java-11-openjdk-src"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:11.0.19.0.7-1.el9_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "java-11-openjdk-demo"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:11.0.19.0.7-1.el9_1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2023-21930",
+    "CVE-2023-21939",
+    "CVE-2023-21954",
+    "CVE-2023-21967",
+    "CVE-2023-21937",
+    "CVE-2023-21938",
+    "CVE-2023-21968"
+  ],
+  "published": "2023-04-19T00:00:00Z",
+  "modified": "2023-04-20T15:55:33Z",
+  "details": "The java-11-openjdk packages provide the OpenJDK 11 Java Runtime Environment and the OpenJDK 11 Java Software Development Kit.\n\nSecurity Fix(es):\n\n* OpenJDK: improper connection handling during TLS handshake (8294474) (CVE-2023-21930)\n* OpenJDK: Swing HTML parsing issue (8296832) (CVE-2023-21939)\n* OpenJDK: incorrect enqueue of references in garbage collector (8298191) (CVE-2023-21954)\n* OpenJDK: certificate validation issue in TLS session negotiation (8298310) (CVE-2023-21967)\n* OpenJDK: missing string checks for NULL characters (8296622) (CVE-2023-21937)\n* OpenJDK: incorrect handling of NULL characters in ProcessBuilder (8295304) (CVE-2023-21938)\n* OpenJDK: missing check for slash characters in URI-to-path conversion (8298667) (CVE-2023-21968)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:1880",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-21930",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-21937",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-21938",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-21939",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-21954",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-21967",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-21968",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2187435",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2187441",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2187704",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2187724",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2187758",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2187790",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2187802",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-1880.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

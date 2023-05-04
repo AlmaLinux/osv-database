@@ -1,11 +1,11 @@
 {
-  "id": "ALSA-2022:6634",
-  "summary": "Moderate: webkit2gtk3 security update",
+  "id": "ALSA-2023:1693",
+  "summary": "Moderate: postgresql security update",
   "affected": [
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "webkit2gtk3-devel"
+        "name": "postgresql-upgrade"
       },
       "ranges": [
         {
@@ -15,7 +15,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "2.36.7-1.el9_0"
+              "fixed": "13.10-1.el9_1"
             }
           ]
         }
@@ -24,7 +24,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "webkit2gtk3-jsc"
+        "name": "postgresql-plpython3"
       },
       "ranges": [
         {
@@ -34,7 +34,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "2.36.7-1.el9_0"
+              "fixed": "13.10-1.el9_1"
             }
           ]
         }
@@ -43,7 +43,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "webkit2gtk3"
+        "name": "postgresql"
       },
       "ranges": [
         {
@@ -53,7 +53,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "2.36.7-1.el9_0"
+              "fixed": "13.10-1.el9_1"
             }
           ]
         }
@@ -62,7 +62,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "webkit2gtk3-jsc-devel"
+        "name": "postgresql-server"
       },
       "ranges": [
         {
@@ -72,7 +72,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "2.36.7-1.el9_0"
+              "fixed": "13.10-1.el9_1"
             }
           ]
         }
@@ -81,7 +81,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "webkit2gtk3-devel"
+        "name": "postgresql-pltcl"
       },
       "ranges": [
         {
@@ -91,7 +91,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "2.36.7-1.el9_0"
+              "fixed": "13.10-1.el9_1"
             }
           ]
         }
@@ -100,7 +100,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "webkit2gtk3"
+        "name": "postgresql-plperl"
       },
       "ranges": [
         {
@@ -110,7 +110,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "2.36.7-1.el9_0"
+              "fixed": "13.10-1.el9_1"
             }
           ]
         }
@@ -119,7 +119,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "webkit2gtk3-jsc-devel"
+        "name": "postgresql-private-libs"
       },
       "ranges": [
         {
@@ -129,7 +129,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "2.36.7-1.el9_0"
+              "fixed": "13.10-1.el9_1"
             }
           ]
         }
@@ -138,7 +138,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "webkit2gtk3-jsc"
+        "name": "postgresql-contrib"
       },
       "ranges": [
         {
@@ -148,7 +148,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "2.36.7-1.el9_0"
+              "fixed": "13.10-1.el9_1"
             }
           ]
         }
@@ -156,26 +156,35 @@
     }
   ],
   "aliases": [
-    "CVE-2022-32893"
+    "CVE-2022-2625",
+    "CVE-2022-41862"
   ],
-  "published": "2022-09-20T00:00:00Z",
-  "modified": "2023-03-13T16:35:32Z",
-  "details": "WebKitGTK is the port of the portable web rendering engine WebKit to the GTK platform.\n\nThe following packages have been upgraded to a later upstream version: webkit2gtk3 (2.36.7).\n\nSecurity Fix(es):\n\n* webkitgtk: processing maliciously crafted web content may lead to arbitrary code execution (CVE-2022-32893)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "published": "2023-04-11T00:00:00Z",
+  "modified": "2023-04-20T13:52:25Z",
+  "details": "PostgreSQL is an advanced object-relational database management system (DBMS).\n\nSecurity Fix(es):\n\n* postgresql: Extension scripts replace objects not belonging to the extension. (CVE-2022-2625)\n* postgresql: Client memory disclosure when connecting with Kerberos to modified server (CVE-2022-41862)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {
-      "url": "https://access.redhat.com/errata/RHSA-2022:6634",
+      "url": "https://access.redhat.com/errata/RHSA-2023:1693",
       "type": "ADVISORY"
     },
     {
-      "url": "https://access.redhat.com/security/cve/CVE-2022-32893",
+      "url": "https://access.redhat.com/security/cve/CVE-2022-2625",
       "type": "REPORT"
     },
     {
-      "url": "https://bugzilla.redhat.com/2121645",
+      "url": "https://access.redhat.com/security/cve/CVE-2022-41862",
       "type": "REPORT"
     },
     {
-      "url": "https://errata.almalinux.org/9/ALSA-2022-6634.html",
+      "url": "https://bugzilla.redhat.com/2113825",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2165722",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-1693.html",
       "type": "ADVISORY"
     }
   ]

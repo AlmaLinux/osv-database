@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2023:0838",
+  "summary": "Important: samba security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "samba-vfs-iouring"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.16.4-4.el8_7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-38023"
+  ],
+  "published": "2023-02-21T00:00:00Z",
+  "modified": "2023-02-21T18:23:01Z",
+  "details": "Samba is an open-source implementation of the Server Message Block (SMB) protocol and the related Common Internet File System (CIFS) protocol, which allow PC-compatible machines to share files, printers, and various information.\n\nSecurity Fix(es):\n\n* samba: RC4/HMAC-MD5 NetLogon Secure Channel is weak and should be avoided (CVE-2022-38023)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:0838",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-38023",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2154362",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2023-0838.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

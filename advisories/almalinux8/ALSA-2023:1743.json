@@ -1,0 +1,217 @@
+{
+  "id": "ALSA-2023:1743",
+  "summary": "Important: nodejs:14 security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "npm"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:6.14.18-1.14.21.3.1.module_el8.7.0+3551+53700ee8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-packaging"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "23-3.module_el8.4.0+2522+3bd42762"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-nodemon"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.20-3.module_el8.7.0+3551+53700ee8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-docs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:14.21.3-1.module_el8.7.0+3551+53700ee8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:14.21.3-1.module_el8.7.0+3551+53700ee8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-full-i18n"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:14.21.3-1.module_el8.7.0+3551+53700ee8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:14.21.3-1.module_el8.7.0+3551+53700ee8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-38900",
+    "CVE-2021-35065",
+    "CVE-2022-3517",
+    "CVE-2022-4904",
+    "CVE-2022-25881",
+    "CVE-2023-23918",
+    "CVE-2023-23920"
+  ],
+  "published": "2023-04-12T00:00:00Z",
+  "modified": "2023-04-20T13:00:15Z",
+  "details": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nThe following packages have been upgraded to a later upstream version: nodejs (14.21.3).\n\nSecurity Fix(es):\n\n* decode-uri-component: improper input validation resulting in DoS (CVE-2022-38900)\n* glob-parent: Regular Expression Denial of Service (CVE-2021-35065)\n* nodejs-minimatch: ReDoS via the braceExpand function (CVE-2022-3517)\n* c-ares: buffer overflow in config_sortlist() due to missing string length check (CVE-2022-4904)\n* http-cache-semantics: Regular Expression Denial of Service (ReDoS) vulnerability (CVE-2022-25881)\n* Node.js: Permissions policies can be bypassed via process.mainModule (CVE-2023-23918)\n* Node.js: insecure loading of ICU data through ICU_DATA environment variable (CVE-2023-23920)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:1743",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2021-35065",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-25881",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-3517",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-38900",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-4904",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-23918",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-23920",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2134609",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2156324",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2165824",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2168631",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2170644",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2171935",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2172217",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2023-1743.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

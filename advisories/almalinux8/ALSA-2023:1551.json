@@ -1,11 +1,11 @@
 {
-  "id": "ALSA-2023:0016",
-  "summary": "Important: webkit2gtk3 security update",
+  "id": "ALSA-2023:1551",
+  "summary": "Important: tigervnc security update",
   "affected": [
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "webkit2gtk3-jsc"
+        "name": "tigervnc"
       },
       "ranges": [
         {
@@ -15,7 +15,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "2.36.7-1.el8_7.1"
+              "fixed": "1.12.0-9.el8_7.3"
             }
           ]
         }
@@ -24,7 +24,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "webkit2gtk3-jsc-devel"
+        "name": "tigervnc-server-module"
       },
       "ranges": [
         {
@@ -34,7 +34,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "2.36.7-1.el8_7.1"
+              "fixed": "1.12.0-9.el8_7.3"
             }
           ]
         }
@@ -43,7 +43,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "webkit2gtk3"
+        "name": "tigervnc-server-minimal"
       },
       "ranges": [
         {
@@ -53,7 +53,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "2.36.7-1.el8_7.1"
+              "fixed": "1.12.0-9.el8_7.3"
             }
           ]
         }
@@ -62,7 +62,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "webkit2gtk3-jsc-devel"
+        "name": "tigervnc-icons"
       },
       "ranges": [
         {
@@ -72,7 +72,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "2.36.7-1.el8_7.1"
+              "fixed": "1.12.0-9.el8_7.3"
             }
           ]
         }
@@ -81,7 +81,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "webkit2gtk3-jsc"
+        "name": "tigervnc-license"
       },
       "ranges": [
         {
@@ -91,7 +91,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "2.36.7-1.el8_7.1"
+              "fixed": "1.12.0-9.el8_7.3"
             }
           ]
         }
@@ -100,7 +100,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "webkit2gtk3-devel"
+        "name": "tigervnc-selinux"
       },
       "ranges": [
         {
@@ -110,7 +110,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "2.36.7-1.el8_7.1"
+              "fixed": "1.12.0-9.el8_7.3"
             }
           ]
         }
@@ -119,7 +119,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "webkit2gtk3-devel"
+        "name": "tigervnc-server"
       },
       "ranges": [
         {
@@ -129,26 +129,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "2.36.7-1.el8_7.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "webkit2gtk3"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.36.7-1.el8_7.1"
+              "fixed": "1.12.0-9.el8_7.3"
             }
           ]
         }
@@ -156,26 +137,26 @@
     }
   ],
   "aliases": [
-    "CVE-2022-42856"
+    "CVE-2023-1393"
   ],
-  "published": "2023-01-04T00:00:00Z",
-  "modified": "2023-03-13T16:36:24Z",
-  "details": "WebKitGTK is the port of the portable web rendering engine WebKit to the GTK platform.\n\nSecurity Fix(es):\n\n* webkitgtk: processing maliciously crafted web content may lead to an arbitrary code execution (CVE-2022-42856)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "published": "2023-04-04T00:00:00Z",
+  "modified": "2023-04-20T11:47:05Z",
+  "details": "Virtual Network Computing (VNC) is a remote display system which allows users to view a computing desktop environment not only on the machine where it is running, but from anywhere on the Internet and from a wide variety of machine architectures. TigerVNC is a suite of VNC servers and clients.\n\nSecurity Fix(es):\n\n* xorg-x11-server: X.Org Server Overlay Window Use-After-Free Local Privilege Escalation Vulnerability (CVE-2023-1393)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {
-      "url": "https://access.redhat.com/errata/RHSA-2023:0016",
+      "url": "https://access.redhat.com/errata/RHSA-2023:1551",
       "type": "ADVISORY"
     },
     {
-      "url": "https://access.redhat.com/security/cve/CVE-2022-42856",
+      "url": "https://access.redhat.com/security/cve/CVE-2023-1393",
       "type": "REPORT"
     },
     {
-      "url": "https://bugzilla.redhat.com/2153683",
+      "url": "https://bugzilla.redhat.com/2180288",
       "type": "REPORT"
     },
     {
-      "url": "https://errata.almalinux.org/8/ALSA-2023-0016.html",
+      "url": "https://errata.almalinux.org/8/ALSA-2023-1551.html",
       "type": "ADVISORY"
     }
   ]

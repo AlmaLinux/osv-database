@@ -1,0 +1,257 @@
+{
+  "id": "ALSA-2023:0852",
+  "summary": "Moderate: httpd:2.4 security and bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mod_session"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.37-51.module_el8.7.0+3405+9516b832.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "httpd-filesystem"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.37-51.module_el8.7.0+3405+9516b832.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mod_ldap"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.37-51.module_el8.7.0+3405+9516b832.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "httpd-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.37-51.module_el8.7.0+3405+9516b832.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mod_md"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.0.8-8.module_el8.6.0+2872+fe0ff7aa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mod_http2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.15.7-5.module_el8.6.0+2872+fe0ff7aa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mod_ssl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.4.37-51.module_el8.7.0+3405+9516b832.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mod_proxy_html"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.4.37-51.module_el8.7.0+3405+9516b832.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "httpd"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.37-51.module_el8.7.0+3405+9516b832.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "httpd-tools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.37-51.module_el8.7.0+3405+9516b832.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "httpd-manual"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.37-51.module_el8.7.0+3405+9516b832.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2006-20001",
+    "CVE-2022-36760",
+    "CVE-2022-37436"
+  ],
+  "published": "2023-02-21T00:00:00Z",
+  "modified": "2023-02-21T18:53:08Z",
+  "details": "The httpd packages provide the Apache HTTP Server, a powerful, efficient, and extensible web server.\n\nSecurity Fix(es):\n\n* httpd: mod_dav: out-of-bounds read/write of zero byte (CVE-2006-20001)\n* httpd: mod_proxy_ajp: Possible request smuggling (CVE-2022-36760)\n* httpd: mod_proxy: HTTP response splitting (CVE-2022-37436)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* httpd-init fails to create localhost.crt, localhost.key due to \"sscg\" default now creates a /dhparams.pem and is not idempotent if the file /dhparams.pem already exists. (BZ#2165967)",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:0852",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2006-20001",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-36760",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-37436",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2161773",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2161774",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2161777",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2023-0852.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

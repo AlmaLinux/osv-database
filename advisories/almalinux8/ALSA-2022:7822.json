@@ -5,7 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "crun"
+        "name": "criu-libs"
       },
       "ranges": [
         {
@@ -15,7 +15,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.5-1.module_el8.7.0+3344+5bcd850f"
+              "fixed": "3.15-3.module_el8.6.0+2751+06427ca3"
             }
           ]
         }
@@ -34,7 +34,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.9-1.module_el8.7.0+3344+5bcd850f"
+              "fixed": "1.9-1.module_el8.6.0+3070+1510fbd1"
             }
           ]
         }
@@ -195,6 +195,44 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
+        "name": "container-selinux"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.189.0-1.module_el8.7.0+3407+95aa0ca9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "crit"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.15-3.module_el8.6.0+2751+06427ca3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
         "name": "slirp4netns"
       },
       "ranges": [
@@ -214,6 +252,25 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
+        "name": "criu"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.15-3.module_el8.6.0+2751+06427ca3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
         "name": "skopeo-tests"
       },
       "ranges": [
@@ -225,25 +282,6 @@
             },
             {
               "fixed": "2:1.9.3-1.module_el8.7.0+3344+484dae7b"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "criu-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3.15-3.module_el8.6.0+2877+8e437bf5"
             }
           ]
         }
@@ -290,25 +328,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "crit"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3.15-3.module_el8.6.0+2877+8e437bf5"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
         "name": "podman-catatonit"
       },
       "ranges": [
@@ -347,6 +366,25 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
+        "name": "crun"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5-1.module_el8.6.0+3336+00d107d5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
         "name": "podman-docker"
       },
       "ranges": [
@@ -366,25 +404,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "container-selinux"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2:2.189.0-1.module_el8.7.0+3344+5bcd850f"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
         "name": "conmon"
       },
       "ranges": [
@@ -396,25 +415,6 @@
             },
             {
               "fixed": "3:2.1.4-1.module_el8.7.0+3344+484dae7b"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "criu-libs"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3.15-3.module_el8.6.0+2877+8e437bf5"
             }
           ]
         }
@@ -472,6 +472,25 @@
             },
             {
               "fixed": "3:4.2.0-4.module_el8.7.0+3344+484dae7b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "criu-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.15-3.module_el8.6.0+2751+06427ca3"
             }
           ]
         }
@@ -556,44 +575,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "criu"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3.15-3.module_el8.6.0+2877+8e437bf5"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "python3-criu"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3.15-3.module_el8.6.0+2877+8e437bf5"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
         "name": "toolbox-tests"
       },
       "ranges": [
@@ -632,6 +613,25 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
+        "name": "python3-criu"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.15-3.module_el8.6.0+2751+06427ca3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
         "name": "podman-remote"
       },
       "ranges": [
@@ -654,7 +654,7 @@
     "CVE-2022-2990"
   ],
   "published": "2022-11-08T00:00:00Z",
-  "modified": "2022-11-15T10:53:01Z",
+  "modified": "2023-01-03T12:15:28Z",
   "details": "The container-tools module contains tools for working with containers, notably podman, buildah, skopeo, and runc.\n\nSecurity Fix(es):\n\n* podman: possible information disclosure and modification (CVE-2022-2989)\n* buildah: possible information disclosure and modification (CVE-2022-2990)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* podman creates lock file in /etc/cni/net.d/cni.lock instead of /run/lock/ (BZ#2125644)\n* (podman image trust) does not support the new trust type \"sigstoreSigned \" (BZ#2125645)\n* podman kill may deadlock (BZ#2125647)\n* Error: runc: exec failed: unable to start container process: open /dev/pts/0: operation not permitted: OCI permission denied [AlmaLinux 8.7] (BZ#2125648)\n* containers-common-1-44 is missing RPM-GPG-KEY-AlmaLinux-beta [AlmaLinux 8.7] (BZ#2125686)\n* ADD Dockerfile reference is not validating HTTP status code [rhel8-8.7.0] (BZ#2129767)\n* Two aardvark-dns instances trying to use the same port on the same interface. [rhel-8.7.0.z] (netavark) (BZ#2130234)\n* containers config.json gets empty after sudden power loss (BZ#2130236)\n* PANIC podman API service endpoint handler panic (BZ#2132412)\n* Podman container got global IPv6 address unexpectedly even when macvlan network is created for pure IPv4 network (BZ#2133390)\n* Skopeo push image to AlmaLinux quay with sigstore was failed (BZ#2136406)\n* Podman push image to AlmaLinux quay with sigstore was failed (BZ#2136433)\n* Buildah push image to AlmaLinux quay with sigstore was failed (BZ#2136438)\n* Two aardvark-dns instances trying to use the same port on the same interface. [rhel-8.8] (aardvark-dns) (BZ#2137295)\n\nEnhancement(s):\n\n* [RFE]Podman support to perform custom actions on unhealthy containers (BZ#2130911)\n* [RFE] python-podman: Podman support to perform custom actions on unhealthy containers (BZ#2132360)\n* Podman volume plugin timeout should be configurable (BZ#2132992)",
   "references": [
     {

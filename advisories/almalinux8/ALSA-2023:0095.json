@@ -5,6 +5,25 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
+        "name": "libtiff-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.9-26.el8_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
         "name": "libtiff"
       },
       "ranges": [
@@ -39,6 +58,25 @@
           ]
         }
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libtiff"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.9-26.el8_7"
+            }
+          ]
+        }
+      ]
     }
   ],
   "aliases": [
@@ -54,7 +92,7 @@
     "CVE-2022-2868"
   ],
   "published": "2023-01-12T00:00:00Z",
-  "modified": "2023-01-13T08:49:51Z",
+  "modified": "2023-03-13T16:36:27Z",
   "details": "The libtiff packages contain a library of functions for manipulating Tagged Image File Format (TIFF) files.\n\nSecurity Fix(es):\n\n* LibTiff: DoS from Divide By Zero Error (CVE-2022-2056, CVE-2022-2057, CVE-2022-2058)\n* libtiff: Double free or corruption in rotateImage() function at tiffcrop.c (CVE-2022-2519)\n* libtiff: uint32_t underflow leads to out of bounds read and write in tiffcrop.c (CVE-2022-2867)\n* libtiff: tiffcrop.c has uint32_t underflow which leads to out of bounds read and write in extractContigSamples8bits() (CVE-2022-2869)\n* libtiff: tiffcrop: heap-buffer-overflow in extractImageSection in tiffcrop.c (CVE-2022-2953)\n* libtiff: Assertion fail in rotateImage() function at tiffcrop.c (CVE-2022-2520)\n* libtiff: Invalid pointer free operation in TIFFClose() at tif_close.c (CVE-2022-2521)\n* libtiff: Invalid crop_width and/or crop_length could cause an out-of-bounds read in reverseSamples16bits() (CVE-2022-2868)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {

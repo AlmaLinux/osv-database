@@ -24,6 +24,44 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
+        "name": "libXpm"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.12-9.el8_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libXpm-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.12-9.el8_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
         "name": "libXpm-devel"
       },
       "ranges": [
@@ -47,7 +85,7 @@
     "CVE-2022-46285"
   ],
   "published": "2023-01-23T00:00:00Z",
-  "modified": "2023-01-24T13:29:32Z",
+  "modified": "2023-03-13T16:36:45Z",
   "details": "X.Org X11 libXpm runtime library.\n\nSecurity Fix(es):\n\n* libXpm: compression commands depend on $PATH (CVE-2022-4883)\n* libXpm: Runaway loop on width of 0 and enormous height (CVE-2022-44617)\n* libXpm: Infinite loop on unclosed comments (CVE-2022-46285)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {

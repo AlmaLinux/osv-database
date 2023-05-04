@@ -1,11 +1,11 @@
 {
-  "id": "ALSA-2021:2371",
-  "summary": "Important: container-tools:rhel8 security update",
+  "id": "ALSA-2023:1673",
+  "summary": "Important: httpd:2.4 security update",
   "affected": [
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "criu"
+        "name": "httpd"
       },
       "ranges": [
         {
@@ -15,7 +15,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "3.15-1.module_el8.6.0+2876+9ed4eae2"
+              "fixed": "2.4.37-51.module_el8.7.0+3515+9e4fe0d6.5"
             }
           ]
         }
@@ -24,7 +24,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "libslirp-devel"
+        "name": "mod_ssl"
       },
       "ranges": [
         {
@@ -34,7 +34,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "4.3.1-1.module_el8.6.0+2876+9ed4eae2"
+              "fixed": "1:2.4.37-51.module_el8.7.0+3515+9e4fe0d6.5"
             }
           ]
         }
@@ -43,7 +43,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "containernetworking-plugins"
+        "name": "httpd-tools"
       },
       "ranges": [
         {
@@ -53,7 +53,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "0.9.1-1.module_el8.6.0+2876+9ed4eae2"
+              "fixed": "2.4.37-51.module_el8.7.0+3515+9e4fe0d6.5"
             }
           ]
         }
@@ -62,7 +62,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "crit"
+        "name": "mod_md"
       },
       "ranges": [
         {
@@ -72,7 +72,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "3.15-1.module_el8.6.0+2876+9ed4eae2"
+              "fixed": "1:2.0.8-8.module_el8.6.0+2872+fe0ff7aa"
             }
           ]
         }
@@ -81,7 +81,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "udica"
+        "name": "httpd-devel"
       },
       "ranges": [
         {
@@ -91,7 +91,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "0.2.4-1.module_el8.6.0+2876+9ed4eae2"
+              "fixed": "2.4.37-51.module_el8.7.0+3515+9e4fe0d6.5"
             }
           ]
         }
@@ -100,7 +100,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "python3-criu"
+        "name": "mod_proxy_html"
       },
       "ranges": [
         {
@@ -110,7 +110,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "3.15-1.module_el8.6.0+2876+9ed4eae2"
+              "fixed": "1:2.4.37-51.module_el8.7.0+3515+9e4fe0d6.5"
             }
           ]
         }
@@ -119,7 +119,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "libslirp"
+        "name": "mod_ldap"
       },
       "ranges": [
         {
@@ -129,7 +129,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "4.3.1-1.module_el8.6.0+2876+9ed4eae2"
+              "fixed": "2.4.37-51.module_el8.7.0+3515+9e4fe0d6.5"
             }
           ]
         }
@@ -138,7 +138,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "slirp4netns"
+        "name": "mod_http2"
       },
       "ranges": [
         {
@@ -148,7 +148,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.1.8-1.module_el8.6.0+2876+9ed4eae2"
+              "fixed": "1.15.7-5.module_el8.7.0+3515+9e4fe0d6.4"
             }
           ]
         }
@@ -157,7 +157,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "cockpit-podman"
+        "name": "mod_session"
       },
       "ranges": [
         {
@@ -167,7 +167,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "29-2.module_el8.6.0+2876+9ed4eae2"
+              "fixed": "2.4.37-51.module_el8.7.0+3515+9e4fe0d6.5"
             }
           ]
         }
@@ -176,7 +176,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "conmon"
+        "name": "httpd-manual"
       },
       "ranges": [
         {
@@ -186,7 +186,26 @@
               "introduced": "0"
             },
             {
-              "fixed": "2:2.0.26-3.module_el8.7.0+3406+a17c4180"
+              "fixed": "2.4.37-51.module_el8.7.0+3515+9e4fe0d6.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "httpd-filesystem"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.37-51.module_el8.7.0+3515+9e4fe0d6.5"
             }
           ]
         }
@@ -194,19 +213,27 @@
     }
   ],
   "aliases": [
-    "CVE-2021-30465"
+    "CVE-2023-25690"
   ],
-  "published": "2021-06-10T07:45:39Z",
-  "modified": "2023-03-13T16:34:06Z",
-  "details": "The container-tools module contains tools for working with containers, notably podman, buildah, skopeo, and runc.\n\nSecurity Fix(es):\n\n* runc: vulnerable to symlink exchange attack (CVE-2021-30465)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "published": "2023-04-06T00:00:00Z",
+  "modified": "2023-04-20T12:45:45Z",
+  "details": "The httpd packages provide the Apache HTTP Server, a powerful, efficient, and extensible web server.\n\nSecurity Fix(es):\n\n* httpd: HTTP request splitting with mod_rewrite and mod_proxy (CVE-2023-25690)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {
-      "url": "https://errata.almalinux.org/8/ALSA-2021-2371.html",
+      "url": "https://access.redhat.com/errata/RHSA-2023:1673",
       "type": "ADVISORY"
     },
     {
-      "url": "https://vulners.com/cve/CVE-2021-30465",
+      "url": "https://access.redhat.com/security/cve/CVE-2023-25690",
       "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2176209",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2023-1673.html",
+      "type": "ADVISORY"
     }
   ]
 }

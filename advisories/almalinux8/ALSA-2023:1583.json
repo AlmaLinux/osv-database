@@ -1,0 +1,227 @@
+{
+  "id": "ALSA-2023:1583",
+  "summary": "Moderate: nodejs:18 security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:18.14.2-2.module_el8.7.0+3497+c65299e7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:18.14.2-2.module_el8.7.0+3497+c65299e7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-docs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:18.14.2-2.module_el8.7.0+3497+c65299e7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-nodemon"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.20-2.module_el8.7.0+3497+c65299e7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-packaging"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2021.06-4.module_el8.7.0+3343+ea2b7901"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-full-i18n"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:18.14.2-2.module_el8.7.0+3497+c65299e7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "npm"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:9.5.0-1.18.14.2.2.module_el8.7.0+3497+c65299e7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-packaging-bundler"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2021.06-4.module_el8.7.0+3343+ea2b7901"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2021-35065",
+    "CVE-2022-25881",
+    "CVE-2023-23918",
+    "CVE-2023-23936",
+    "CVE-2023-23920",
+    "CVE-2023-24807"
+  ],
+  "published": "2023-04-04T00:00:00Z",
+  "modified": "2023-04-20T12:25:58Z",
+  "details": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nThe following packages have been upgraded to a later upstream version: nodejs (18.14.2).\n\nSecurity Fix(es):\n\n* glob-parent: Regular Expression Denial of Service (CVE-2021-35065)\n* http-cache-semantics: Regular Expression Denial of Service (ReDoS) vulnerability (CVE-2022-25881)\n* Node.js: Permissions policies can be bypassed via process.mainModule (CVE-2023-23918)\n* Node.js: Fetch API did not protect against CRLF injection in host headers (CVE-2023-23936)\n* Node.js: insecure loading of ICU data through ICU_DATA environment variable (CVE-2023-23920)\n* Node.js: Regular Expression Denial of Service in Headers fetch API (CVE-2023-24807)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:1583",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2021-35065",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-25881",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-23918",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-23920",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-23936",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-24807",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2156324",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2165824",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2171935",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2172190",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2172204",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2172217",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2023-1583.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -24,6 +24,25 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
+        "name": "usbguard"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.0-8.el8_7.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
         "name": "usbguard-selinux"
       },
       "ranges": [
@@ -102,7 +121,7 @@
     "CVE-2019-25058"
   ],
   "published": "2023-01-12T00:00:00Z",
-  "modified": "2023-01-13T08:37:02Z",
+  "modified": "2023-03-13T16:36:27Z",
   "details": "The USBGuard software framework provides system protection against intrusive USB devices by implementing basic whitelisting and blacklisting capabilities based on device attributes. To enforce a user-defined policy, USBGuard uses the Linux kernel USB device authorization feature.\n\nSecurity Fix(es):\n\n* usbguard: Fix unauthorized access via D-Bus (CVE-2019-25058)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {

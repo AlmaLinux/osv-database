@@ -1,11 +1,11 @@
 {
-  "id": "ALSA-2023:0016",
+  "id": "ALSA-2023:0902",
   "summary": "Important: webkit2gtk3 security update",
   "affected": [
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "webkit2gtk3-jsc"
+        "name": "webkit2gtk3"
       },
       "ranges": [
         {
@@ -15,7 +15,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "2.36.7-1.el8_7.1"
+              "fixed": "2.36.7-1.el8_7.2"
             }
           ]
         }
@@ -34,45 +34,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "2.36.7-1.el8_7.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "webkit2gtk3"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.36.7-1.el8_7.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "webkit2gtk3-jsc-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.36.7-1.el8_7.1"
+              "fixed": "2.36.7-1.el8_7.2"
             }
           ]
         }
@@ -91,7 +53,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "2.36.7-1.el8_7.1"
+              "fixed": "2.36.7-1.el8_7.2"
             }
           ]
         }
@@ -110,26 +72,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "2.36.7-1.el8_7.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "webkit2gtk3-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.36.7-1.el8_7.1"
+              "fixed": "2.36.7-1.el8_7.2"
             }
           ]
         }
@@ -148,7 +91,64 @@
               "introduced": "0"
             },
             {
-              "fixed": "2.36.7-1.el8_7.1"
+              "fixed": "2.36.7-1.el8_7.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "webkit2gtk3-jsc-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.36.7-1.el8_7.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "webkit2gtk3-jsc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.36.7-1.el8_7.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "webkit2gtk3-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.36.7-1.el8_7.2"
             }
           ]
         }
@@ -156,26 +156,26 @@
     }
   ],
   "aliases": [
-    "CVE-2022-42856"
+    "CVE-2023-23529"
   ],
-  "published": "2023-01-04T00:00:00Z",
-  "modified": "2023-03-13T16:36:24Z",
-  "details": "WebKitGTK is the port of the portable web rendering engine WebKit to the GTK platform.\n\nSecurity Fix(es):\n\n* webkitgtk: processing maliciously crafted web content may lead to an arbitrary code execution (CVE-2022-42856)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "published": "2023-02-22T00:00:00Z",
+  "modified": "2023-02-23T10:40:06Z",
+  "details": "WebKitGTK is the port of the portable web rendering engine WebKit to the GTK\nplatform.\n\nSecurity Fix(es):\n\n* webkitgtk: processing maliciously crafted web content may be exploited for arbitrary code execution (CVE-2023-23529)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {
-      "url": "https://access.redhat.com/errata/RHSA-2023:0016",
+      "url": "https://access.redhat.com/errata/RHSA-2023:0902",
       "type": "ADVISORY"
     },
     {
-      "url": "https://access.redhat.com/security/cve/CVE-2022-42856",
+      "url": "https://access.redhat.com/security/cve/CVE-2023-23529",
       "type": "REPORT"
     },
     {
-      "url": "https://bugzilla.redhat.com/2153683",
+      "url": "https://bugzilla.redhat.com/2169934",
       "type": "REPORT"
     },
     {
-      "url": "https://errata.almalinux.org/8/ALSA-2023-0016.html",
+      "url": "https://errata.almalinux.org/8/ALSA-2023-0902.html",
       "type": "ADVISORY"
     }
   ]

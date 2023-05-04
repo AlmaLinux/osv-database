@@ -39,13 +39,32 @@
           ]
         }
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libtasn1-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.13-4.el8_7"
+            }
+          ]
+        }
+      ]
     }
   ],
   "aliases": [
     "CVE-2021-46848"
   ],
   "published": "2023-01-12T00:00:00Z",
-  "modified": "2023-01-16T11:46:41Z",
+  "modified": "2023-03-08T11:21:43Z",
   "details": "A library that provides Abstract Syntax Notation One (ASN.1, as specified by the X.680 ITU-T recommendation) parsing and structures management, and Distinguished Encoding Rules (DER, as per X.690) encoding and decoding functions.\n\nSecurity Fix(es):\n\n* libtasn1: Out-of-bound access in ETYPE_OK (CVE-2021-46848)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {

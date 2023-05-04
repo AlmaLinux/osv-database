@@ -43,25 +43,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "php-pear"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:1.10.13-1.module_el8.6.0+3268+b150a051"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
         "name": "php-devel"
       },
       "ranges": [
@@ -187,6 +168,25 @@
             },
             {
               "fixed": "8.0.20-2.module_el8.7.0+3286+6cee236e"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "php-pear"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.10.13-1.module_el8.6.0+2739+efabdb8f"
             }
           ]
         }
@@ -673,7 +673,7 @@
     "CVE-2022-31625"
   ],
   "published": "2022-11-08T00:00:00Z",
-  "modified": "2022-11-24T19:17:28Z",
+  "modified": "2023-01-03T12:15:28Z",
   "details": "PHP is an HTML-embedded scripting language commonly used with the Apache HTTP Server.\n\nThe following packages have been upgraded to a later upstream version: php (8.0.20). (BZ#2100876)\n\nSecurity Fix(es):\n\n* php: Use after free due to php_filter_float() failing for ints (CVE-2021-21708)\n* php: Uninitialized array in pg_query_params() leading to RCE (CVE-2022-31625)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
     {

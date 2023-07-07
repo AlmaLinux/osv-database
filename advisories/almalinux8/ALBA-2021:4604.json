@@ -5,6 +5,25 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
+        "name": "mod_http2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.15.7-3.module_el8.5.0+2609+b30d9eec"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
         "name": "mod_md"
       },
       "ranges": [
@@ -24,7 +43,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "mod_http2"
+        "name": "mod_md"
       },
       "ranges": [
         {
@@ -34,7 +53,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.15.7-3.module_el8.5.0+2609+b30d9eec"
+              "fixed": "1:2.0.8-8.module_el8.6.0+2872+fe0ff7aa"
             }
           ]
         }
@@ -47,5 +66,10 @@
   "published": "2021-11-10T09:00:43Z",
   "modified": "2022-01-26T07:27:24Z",
   "details": "The httpd packages provide the Apache HTTP Server, a powerful, efficient, and extensible web server.\n\nBug Fix(es):\n\n* proxy rewrite to unix socket fails with CVE-2021-40438 fix (BZ#2017854, BZ#2017855, BZ#2017856)",
-  "references": []
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALBA-2021-4604.html",
+      "type": "ADVISORY"
+    }
+  ]
 }

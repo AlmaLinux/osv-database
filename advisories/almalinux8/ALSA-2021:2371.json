@@ -5,7 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "criu"
+        "name": "cockpit-podman"
       },
       "ranges": [
         {
@@ -15,7 +15,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "3.15-1.module_el8.6.0+2876+9ed4eae2"
+              "fixed": "29-2.module_el8.6.0+2876+9ed4eae2"
             }
           ]
         }
@@ -24,7 +24,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "libslirp-devel"
+        "name": "conmon"
       },
       "ranges": [
         {
@@ -34,7 +34,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "4.3.1-1.module_el8.6.0+2876+9ed4eae2"
+              "fixed": "2:2.0.26-3.module_el8.7.0+3406+a17c4180"
             }
           ]
         }
@@ -81,26 +81,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "udica"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "0.2.4-1.module_el8.6.0+2876+9ed4eae2"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "python3-criu"
+        "name": "criu"
       },
       "ranges": [
         {
@@ -138,6 +119,44 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
+        "name": "libslirp-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.3.1-1.module_el8.6.0+2876+9ed4eae2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3-criu"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.15-1.module_el8.6.0+2876+9ed4eae2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
         "name": "slirp4netns"
       },
       "ranges": [
@@ -157,7 +176,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "cockpit-podman"
+        "name": "udica"
       },
       "ranges": [
         {
@@ -167,26 +186,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "29-2.module_el8.6.0+2876+9ed4eae2"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "conmon"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2:2.0.26-3.module_el8.7.0+3406+a17c4180"
+              "fixed": "0.2.4-1.module_el8.6.0+2876+9ed4eae2"
             }
           ]
         }

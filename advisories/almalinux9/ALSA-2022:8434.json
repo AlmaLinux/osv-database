@@ -5,6 +5,44 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
+        "name": "aspnetcore-runtime-7.0"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.0.0-0.5.rc2.el9_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "aspnetcore-targeting-pack-7.0"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.0.0-0.5.rc2.el9_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
         "name": "dotnet-apphost-pack-7.0"
       },
       "ranges": [
@@ -25,63 +63,6 @@
       "package": {
         "ecosystem": "AlmaLinux:9",
         "name": "dotnet-host"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "7.0.0-0.5.rc2.el9_1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
-        "name": "netstandard-targeting-pack-2.1"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "7.0.100-0.5.rc2.el9_1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
-        "name": "dotnet-templates-7.0"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "7.0.100-0.5.rc2.el9_1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
-        "name": "aspnetcore-runtime-7.0"
       },
       "ranges": [
         {
@@ -138,25 +119,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "dotnet-targeting-pack-7.0"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "7.0.0-0.5.rc2.el9_1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
         "name": "dotnet-sdk-7.0"
       },
       "ranges": [
@@ -176,7 +138,26 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "aspnetcore-targeting-pack-7.0"
+        "name": "dotnet-sdk-7.0-source-built-artifacts"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.0.100-0.5.rc2.el9_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "dotnet-targeting-pack-7.0"
       },
       "ranges": [
         {
@@ -187,6 +168,44 @@
             },
             {
               "fixed": "7.0.0-0.5.rc2.el9_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "dotnet-templates-7.0"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.0.100-0.5.rc2.el9_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "netstandard-targeting-pack-2.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.0.100-0.5.rc2.el9_1"
             }
           ]
         }

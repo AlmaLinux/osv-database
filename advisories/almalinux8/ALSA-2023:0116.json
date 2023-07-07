@@ -5,6 +5,25 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
+        "name": "libtasn1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.13-4.el8_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
         "name": "libtasn1-devel"
       },
       "ranges": [
@@ -25,25 +44,6 @@
       "package": {
         "ecosystem": "AlmaLinux:8",
         "name": "libtasn1-tools"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "4.13-4.el8_7"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "libtasn1-devel"
       },
       "ranges": [
         {

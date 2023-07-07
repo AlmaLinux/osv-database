@@ -5,6 +5,25 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
+        "name": "usermode"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.113-2.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
         "name": "usermode-gtk"
       },
       "ranges": [
@@ -26,5 +45,10 @@
   "published": "2021-11-09T09:40:12Z",
   "modified": "2021-11-12T10:20:56Z",
   "details": "For detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "references": []
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALBA-2021-4516.html",
+      "type": "ADVISORY"
+    }
+  ]
 }

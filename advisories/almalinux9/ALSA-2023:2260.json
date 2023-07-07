@@ -1,0 +1,122 @@
+{
+  "id": "ALSA-2023:2260",
+  "summary": "Moderate: gstreamer1-plugins-good security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gstreamer1-plugins-good"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.4-6.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gstreamer1-plugins-good-gtk"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.4-6.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-1920",
+    "CVE-2022-1921",
+    "CVE-2022-1922",
+    "CVE-2022-1923",
+    "CVE-2022-1924",
+    "CVE-2022-1925",
+    "CVE-2022-2122"
+  ],
+  "published": "2023-05-09T00:00:00Z",
+  "modified": "2023-05-12T08:16:43Z",
+  "details": "GStreamer is a streaming media framework based on graphs of filters which operate on media data. The gstreamer1-plugins-good packages contain a collection of well-supported plug-ins of good quality and under the LGPL license.\n\nSecurity Fix(es):\n\n* gstreamer-plugins-good: Potential heap overwrite in gst_matroska_demux_add_wvpk_header() (CVE-2022-1920)\n* gstreamer-plugins-good: Heap-based buffer overflow in the avi demuxer when handling certain AVI files (CVE-2022-1921)\n* gstreamer-plugins-good: Potential heap overwrite in mkv demuxing using zlib decompression (CVE-2022-1922)\n* gstreamer-plugins-good: Potential heap overwrite in mkv demuxing using bz2 decompression (CVE-2022-1923)\n* gstreamer-plugins-good: Potential heap overwrite in mkv demuxing using lzo decompression (CVE-2022-1924)\n* gstreamer-plugins-good: Potential heap overwrite in mkv demuxing using HEADERSTRIP decompression (CVE-2022-1925)\n* gstreamer-plugins-good: Potential heap overwrite in mp4 demuxing using zlib decompression (CVE-2022-2122)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:2260",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-1920",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-1921",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-1922",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-1923",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-1924",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-1925",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-2122",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2130935",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2130949",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2130955",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2130959",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2131003",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2131007",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2131018",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-2260.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

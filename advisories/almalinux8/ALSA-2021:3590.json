@@ -5,7 +5,121 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "mysql-test"
+        "name": "mecab"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.996-1.module_el8.4.0+2532+b8928c02.9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mecab"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.996-1.module_el8.5.0+33+8bc5f36a.9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mecab-ipadic"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.0.20070801-16.module_el8.5.0+33+8bc5f36a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mecab-ipadic"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.0.20070801-16.module_el8.4.0+2532+b8928c02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mecab-ipadic-EUCJP"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.0.20070801-16.module_el8.5.0+33+8bc5f36a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mecab-ipadic-EUCJP"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.0.20070801-16.module_el8.4.0+2532+b8928c02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mysql"
       },
       "ranges": [
         {
@@ -34,7 +148,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "8.0.26-1.module_el8.4.0+2532+b8928c02"
+              "fixed": "8.0.26-1.module_el8.5.0+33+8bc5f36a"
             }
           ]
         }
@@ -43,7 +157,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "mysql-libs"
+        "name": "mysql-common"
       },
       "ranges": [
         {
@@ -72,45 +186,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "8.0.26-1.module_el8.4.0+2532+b8928c02"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "mysql-server"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "8.0.26-1.module_el8.4.0+2532+b8928c02"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "mecab"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "0.996-1.module_el8.4.0+2532+b8928c02.9"
+              "fixed": "8.0.26-1.module_el8.5.0+33+8bc5f36a"
             }
           ]
         }
@@ -120,6 +196,44 @@
       "package": {
         "ecosystem": "AlmaLinux:8",
         "name": "mysql-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.26-1.module_el8.4.0+2532+b8928c02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mysql-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.26-1.module_el8.5.0+33+8bc5f36a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mysql-errmsg"
       },
       "ranges": [
         {
@@ -148,6 +262,25 @@
               "introduced": "0"
             },
             {
+              "fixed": "8.0.26-1.module_el8.5.0+33+8bc5f36a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mysql-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
               "fixed": "8.0.26-1.module_el8.4.0+2532+b8928c02"
             }
           ]
@@ -157,7 +290,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "mecab-ipadic-EUCJP"
+        "name": "mysql-libs"
       },
       "ranges": [
         {
@@ -167,7 +300,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "2.7.0.20070801-16.module_el8.4.0+2532+b8928c02"
+              "fixed": "8.0.26-1.module_el8.5.0+33+8bc5f36a"
             }
           ]
         }
@@ -176,7 +309,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "mecab-ipadic"
+        "name": "mysql-server"
       },
       "ranges": [
         {
@@ -186,7 +319,64 @@
               "introduced": "0"
             },
             {
-              "fixed": "2.7.0.20070801-16.module_el8.4.0+2532+b8928c02"
+              "fixed": "8.0.26-1.module_el8.4.0+2532+b8928c02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mysql-server"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.26-1.module_el8.5.0+33+8bc5f36a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mysql-test"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.26-1.module_el8.4.0+2532+b8928c02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mysql-test"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.26-1.module_el8.5.0+33+8bc5f36a"
             }
           ]
         }

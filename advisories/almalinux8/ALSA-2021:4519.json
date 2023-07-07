@@ -1,0 +1,46 @@
+{
+  "id": "ALSA-2021:4519",
+  "summary": "Moderate: autotrace security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "autotrace"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.31.1-53.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2019-19005",
+    "CVE-2019-19004"
+  ],
+  "published": "2021-11-09T09:40:34Z",
+  "modified": "2021-11-12T10:21:01Z",
+  "details": "AutoTrace is a program for converting bitmaps to vector graphics.\n\nSecurity Fix(es):\n\n* autotrace: bitmap double free in main.c allows attackers to cause an unspecified impact (CVE-2019-19005)\n\n* autotrace: integer overflow in input-bmp.c (CVE-2019-19004)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2021-4519.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-19004",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-19005",
+      "type": "REPORT"
+    }
+  ]
+}

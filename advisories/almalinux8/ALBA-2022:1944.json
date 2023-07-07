@@ -24,7 +24,26 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "netpbm"
+        "name": "netpbm-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.82.00-7.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "netpbm-doc"
       },
       "ranges": [
         {

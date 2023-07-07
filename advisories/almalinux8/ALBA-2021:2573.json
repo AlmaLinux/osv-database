@@ -1,0 +1,30 @@
+{
+  "id": "ALBA-2021:2573",
+  "summary": "sanlock bug fix and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "sanlock-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.8.3-3.el8_4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2021-06-29T13:43:10Z",
+  "modified": "2021-08-11T08:54:00Z",
+  "details": "The sanlock packages provide a shared storage lock manager. Hosts with\nshared access to a block device or a file can use sanlock to synchronize\ntheir activities. VDSM and libvirt use sanlock to synchronize access to\nshared devices or files.\n\nBug Fix(es) and Enhancement(s):\n\n* bad client message causes closed connection and released leases\n(BZ#1965481)\n\n* Expose sanlock_inquire() in python bindings (BZ#1965483)",
+  "references": []
+}

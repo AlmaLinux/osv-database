@@ -5,7 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "pulseaudio-libs"
+        "name": "pulseaudio"
       },
       "ranges": [
         {
@@ -16,25 +16,6 @@
             },
             {
               "fixed": "14.0-2.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "twolame-libs"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "0.3.13-12.el8"
             }
           ]
         }
@@ -81,7 +62,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "twolame-libs"
+        "name": "pulseaudio-libs-glib2"
       },
       "ranges": [
         {
@@ -91,7 +72,26 @@
               "introduced": "0"
             },
             {
-              "fixed": "0.3.13-12.el8"
+              "fixed": "14.0-2.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "pulseaudio-module-bluetooth"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "14.0-2.el8"
             }
           ]
         }
@@ -138,7 +138,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "pulseaudio-libs-devel"
+        "name": "twolame-devel"
       },
       "ranges": [
         {
@@ -148,7 +148,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "14.0-2.el8"
+              "fixed": "0.3.13-12.el8"
             }
           ]
         }
@@ -157,7 +157,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "pulseaudio-libs-glib2"
+        "name": "twolame-libs"
       },
       "ranges": [
         {
@@ -167,64 +167,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "14.0-2.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "pulseaudio"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "14.0-2.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "pulseaudio-module-bluetooth"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "14.0-2.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "pulseaudio-libs-glib2"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "14.0-2.el8"
+              "fixed": "0.3.13-12.el8"
             }
           ]
         }
@@ -235,5 +178,10 @@
   "published": "2021-05-18T06:22:02Z",
   "modified": "2021-11-12T10:20:56Z",
   "details": "For detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "references": []
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALBA-2021-1903.html",
+      "type": "ADVISORY"
+    }
+  ]
 }

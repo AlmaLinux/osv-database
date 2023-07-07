@@ -5,7 +5,45 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
+        "name": "emoji-picker"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.0-5.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
         "name": "ibus-typing-booster"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.0-5.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "ibus-typing-booster-tests"
       },
       "ranges": [
         {
@@ -26,5 +64,10 @@
   "published": "2021-05-18T06:26:57Z",
   "modified": "2021-11-12T10:20:56Z",
   "details": "For detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "references": []
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALBA-2021-1942.html",
+      "type": "ADVISORY"
+    }
+  ]
 }

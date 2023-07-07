@@ -5,7 +5,64 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "ibus-libs"
+        "name": "ibus"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.19-14.el8_5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "ibus-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.19-14.el8_5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "ibus-devel-docs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.19-14.el8_5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "ibus-gtk2"
       },
       "ranges": [
         {
@@ -43,7 +100,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "ibus"
+        "name": "ibus-libs"
       },
       "ranges": [
         {
@@ -96,68 +153,16 @@
           ]
         }
       ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "ibus-libs"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.5.19-14.el8_5"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "ibus-gtk2"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.5.19-14.el8_5"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "ibus-gtk2"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.5.19-14.el8_5"
-            }
-          ]
-        }
-      ]
     }
   ],
   "aliases": [],
   "published": "2021-11-09T19:24:51Z",
-  "modified": "2021-11-12T16:45:27Z",
+  "modified": "2021-11-12T16:47:14Z",
   "details": "The Intelligent Input Bus (IBus) is an input method framework for multilingual input in Unix-like operating systems.\n\nBug fix:\n\n* Previously, in GNOME Wayland desktop in AlmaLinux 8.5, the IBus emoji candidate pop-up was used with IBus UI and the selected candidate could not inserted into the target input focus smartly. With this update, the IBus emoji candidate pop-up is used with GNOME-Shell UI in GNOME Wayland desktop and the selected candidate is inserted into the input focus correctly. (BZ#2014064)",
-  "references": []
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALBA-2021-4533.html",
+      "type": "ADVISORY"
+    }
+  ]
 }

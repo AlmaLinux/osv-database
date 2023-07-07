@@ -20,11 +20,35 @@
           ]
         }
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "unicode-ucd-unihan"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.0.0-2.el8"
+            }
+          ]
+        }
+      ]
     }
   ],
   "aliases": [],
   "published": "2021-11-09T09:01:00Z",
-  "modified": "2021-11-12T10:20:56Z",
+  "modified": "2021-11-12T10:21:01Z",
   "details": "For detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "references": []
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALEA-2021-4322.html",
+      "type": "ADVISORY"
+    }
+  ]
 }

@@ -1,0 +1,87 @@
+{
+  "id": "ALSA-2023:2652",
+  "summary": "Important: pcs security and bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "pcs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.11.4-7.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "pcs-snmp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.11.4-7.el9_2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2023-28154",
+    "CVE-2023-2319",
+    "CVE-2023-27530",
+    "CVE-2023-27539"
+  ],
+  "published": "2023-05-09T00:00:00Z",
+  "modified": "2023-05-11T21:30:41Z",
+  "details": "The pcs packages provide a command-line configuration system for the Pacemaker and Corosync utilities.\n\nSecurity Fix(es):\n\n* pcs: webpack: Regression of CVE-2023-28154 fixes in the AlmaLinux (CVE-2023-2319)\n* rubygem-rack: Denial of service in Multipart MIME parsing (CVE-2023-27530)\n* rubygem-rack: denial of service in header parsing (CVE-2023-27539)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Command 'pcs config checkpoint diff' does not show configuration differences between checkpoints (BZ#2180697)\n* Need a way to add a scsi fencing device to a cluster without requiring a restart of all cluster resources (BZ#2180704)\n* [WebUI] fence levels prevent loading of cluster status (BZ#2183180)",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:2652",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-2319",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-27530",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-27539",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2176477",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2179649",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2190092",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-2652.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

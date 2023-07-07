@@ -5,7 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "nodejs-packaging"
+        "name": "nodejs-nodemon"
       },
       "ranges": [
         {
@@ -15,7 +15,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "23-3.module_el8.4.0+2522+3bd42762"
+              "fixed": "2.0.3-1.module_el8.4.0+2521+c668cc9f"
             }
           ]
         }
@@ -34,7 +34,45 @@
               "introduced": "0"
             },
             {
-              "fixed": "2.0.3-1.module_el8.4.0+2521+c668cc9f"
+              "fixed": "2.0.3-1.module_el8.5.0+85+79a7b441"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-packaging"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "23-3.module_el8.5.0+254+b4526b16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-packaging"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "23-3.module_el8.4.0+2522+3bd42762"
             }
           ]
         }

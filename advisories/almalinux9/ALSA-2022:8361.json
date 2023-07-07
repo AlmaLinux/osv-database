@@ -5,7 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "e2fsprogs-devel"
+        "name": "e2fsprogs"
       },
       "ranges": [
         {
@@ -43,7 +43,26 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "libcom_err-devel"
+        "name": "e2fsprogs-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.46.5-3.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libcom_err"
       },
       "ranges": [
         {
@@ -63,6 +82,25 @@
       "package": {
         "ecosystem": "AlmaLinux:9",
         "name": "libcom_err-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.46.5-3.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libss"
       },
       "ranges": [
         {

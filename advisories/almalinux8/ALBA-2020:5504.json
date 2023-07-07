@@ -1,0 +1,49 @@
+{
+  "id": "ALBA-2020:5504",
+  "summary": "xorg-x11-server bug fix and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "xorg-x11-server-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.20.8-6.1.el8_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "xorg-x11-server-source"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.20.8-6.1.el8_3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2020-12-15T16:04:23Z",
+  "modified": "2021-08-11T08:54:00Z",
+  "details": "X.Org is an open-source implementation of the X Window System. It provides\nthe basic low-level functionality that full-fledged graphical user\ninterfaces are designed upon.\n\nBug Fix(es) and Enhancement(s):\n\n* [DELL 8.2 BUG]The modesetting driver does not gracefully handle missing\nconnectors on EnterVT (BZ#1883491)",
+  "references": []
+}

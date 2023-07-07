@@ -5,7 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "httpd-manual"
+        "name": "httpd"
       },
       "ranges": [
         {
@@ -25,6 +25,63 @@
       "package": {
         "ecosystem": "AlmaLinux:8",
         "name": "httpd-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "httpd-filesystem"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "httpd-manual"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "httpd-tools"
       },
       "ranges": [
         {
@@ -81,26 +138,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "httpd-filesystem"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "mod_ssl"
+        "name": "mod_proxy_html"
       },
       "ranges": [
         {
@@ -138,26 +176,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "httpd-tools"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "mod_proxy_html"
+        "name": "mod_ssl"
       },
       "ranges": [
         {
@@ -172,25 +191,6 @@
           ]
         }
       ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "httpd"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma"
-            }
-          ]
-        }
-      ]
     }
   ],
   "aliases": [
@@ -201,6 +201,10 @@
   "modified": "2022-03-17T20:51:19Z",
   "details": "The httpd packages provide the Apache HTTP Server, a powerful, efficient, and extensible web server.\n\nSecurity Fix(es):\n\n* httpd: NULL pointer dereference via malformed requests (CVE-2021-34798)\n\n* httpd: Out-of-bounds write in ap_escape_quotes() via malicious input (CVE-2021-39275)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2022-0891.html",
+      "type": "ADVISORY"
+    },
     {
       "url": "https://vulners.com/cve/CVE-2021-34798",
       "type": "REPORT"

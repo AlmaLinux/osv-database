@@ -5,7 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "hyperv-tools"
+        "name": "hyperv-daemons"
       },
       "ranges": [
         {
@@ -24,7 +24,26 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "hyperv-daemons"
+        "name": "hyperv-daemons-license"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0-0.32.20180415git.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "hyperv-tools"
       },
       "ranges": [
         {
@@ -62,25 +81,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "hypervvssd"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "0-0.32.20180415git.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
         "name": "hypervkvpd"
       },
       "ranges": [
@@ -100,7 +100,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "hyperv-daemons-license"
+        "name": "hypervvssd"
       },
       "ranges": [
         {

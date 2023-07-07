@@ -5,7 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "ipxe-roms-qemu"
+        "name": "ipxe-bootimgs"
       },
       "ranges": [
         {
@@ -43,7 +43,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "ipxe-bootimgs"
+        "name": "ipxe-roms-qemu"
       },
       "ranges": [
         {
@@ -64,5 +64,10 @@
   "published": "2021-05-18T06:26:50Z",
   "modified": "2021-11-12T10:20:56Z",
   "details": "For detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "references": []
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALBA-2021-1941.html",
+      "type": "ADVISORY"
+    }
+  ]
 }

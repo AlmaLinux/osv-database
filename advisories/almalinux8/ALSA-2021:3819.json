@@ -5,7 +5,26 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "dotnet-targeting-pack-5.0"
+        "name": "aspnetcore-runtime-5.0"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.0.11-1.el8_4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "aspnetcore-targeting-pack-5.0"
       },
       "ranges": [
         {
@@ -62,45 +81,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "dotnet-templates-5.0"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "5.0.208-1.el8_4"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "aspnetcore-targeting-pack-5.0"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "5.0.11-1.el8_4"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "aspnetcore-runtime-5.0"
+        "name": "dotnet-runtime-5.0"
       },
       "ranges": [
         {
@@ -138,7 +119,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "dotnet-runtime-5.0"
+        "name": "dotnet-targeting-pack-5.0"
       },
       "ranges": [
         {
@@ -149,6 +130,25 @@
             },
             {
               "fixed": "5.0.11-1.el8_4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "dotnet-templates-5.0"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.0.208-1.el8_4"
             }
           ]
         }

@@ -5,6 +5,44 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
+        "name": "nodejs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:14.21.1-2.module_el8.7.0+3373+a4c18c43"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:14.21.1-2.module_el8.7.0+3373+a4c18c43"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
         "name": "nodejs-docs"
       },
       "ranges": [
@@ -24,7 +62,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "nodejs"
+        "name": "nodejs-full-i18n"
       },
       "ranges": [
         {
@@ -62,25 +100,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "nodejs-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:14.21.1-2.module_el8.7.0+3373+a4c18c43"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
         "name": "nodejs-packaging"
       },
       "ranges": [
@@ -92,25 +111,6 @@
             },
             {
               "fixed": "23-3.module_el8.4.0+2522+3bd42762"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "nodejs-full-i18n"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:14.21.1-2.module_el8.7.0+3373+a4c18c43"
             }
           ]
         }

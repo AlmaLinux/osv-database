@@ -1,0 +1,37 @@
+{
+  "id": "ALBA-2019:3693",
+  "summary": "python-requests bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3-requests"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.20.0-2.1.el8_1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2018-18074"
+  ],
+  "published": "2019-11-05T20:50:57Z",
+  "modified": "2019-11-05T20:50:53Z",
+  "details": "The python-requests package contains a library designed to make HTTP requests easy for developers.\n\nBug fix:\n\n* The fix CVE-2018-18074 leads to a regression (BZ#1758261)",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALBA-2019-3693.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

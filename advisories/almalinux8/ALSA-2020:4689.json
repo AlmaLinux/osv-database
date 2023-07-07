@@ -5,45 +5,26 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "openwsman-server"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.6.5-7.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "openwsman-client"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.6.5-7.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
         "name": "libwsman-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.5-7.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libwsman1"
       },
       "ranges": [
         {
@@ -100,45 +81,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "libwsman1"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.6.5-7.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
         "name": "openwsman-server"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.6.5-7.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "libwsman1"
       },
       "ranges": [
         {
@@ -162,6 +105,10 @@
   "modified": "2021-11-12T10:20:56Z",
   "details": "Openwsman is a project intended to provide an open source implementation of the Web Services Management specification (WS-Management) and to expose system management information on the Linux operating system using the WS-Management protocol. WS-Management is based on a suite of web services specifications and usage requirements that cover all system management aspects.\n\nSecurity Fix(es):\n\n* openwsman: Infinite loop in process_connection() allows denial of service (CVE-2019-3833)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2020-4689.html",
+      "type": "ADVISORY"
+    },
     {
       "url": "https://vulners.com/cve/CVE-2019-3833",
       "type": "REPORT"

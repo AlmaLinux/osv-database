@@ -5,6 +5,25 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
+        "name": "lua"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.3.4-12.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
         "name": "lua-devel"
       },
       "ranges": [
@@ -39,34 +58,19 @@
           ]
         }
       ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "lua"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "5.3.4-12.el8"
-            }
-          ]
-        }
-      ]
     }
   ],
   "aliases": [
     "CVE-2020-24370"
   ],
   "published": "2021-11-09T09:37:44Z",
-  "modified": "2021-11-12T10:20:56Z",
+  "modified": "2021-11-12T10:21:01Z",
   "details": "The lua packages provide support for Lua, a powerful light-weight programming language designed for extending applications. Lua is also frequently used as a general-purpose, stand-alone language.\n\nSecurity Fix(es):\n\n* lua: segmentation fault in getlocal and setlocal functions in ldebug.c (CVE-2020-24370)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2021-4510.html",
+      "type": "ADVISORY"
+    },
     {
       "url": "https://vulners.com/cve/CVE-2020-24370",
       "type": "REPORT"

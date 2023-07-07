@@ -24,25 +24,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "liblouis"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.6.2-21.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
         "name": "python3-louis"
       },
       "ranges": [
@@ -70,6 +51,10 @@
   "modified": "2021-11-12T10:20:55Z",
   "details": "Liblouis is an open source braille translator and back-translator named in honor of Louis Braille. It features support for computer and literary braille, supports contracted and uncontracted translation for many languages and has support for hyphenation. New languages can easily be added through tables that support a rule or dictionary based approach. Liblouis also supports math braille (Nemeth and Marburg).\n\nSecurity Fix(es):\n\n* liblouis: Stack-based buffer overflow in function includeFile in compileTranslationTable.c (CVE-2018-11684)\n\n* liblouis: Stack-based buffer overflow in function compileHyphenation in compileTranslationTable.c (CVE-2018-11685)\n\n* liblouis: Segmentation fault in logging.c:lou_logPrint() (CVE-2018-11577)\n\n* liblouis: Stack-based buffer overflow in compileTranslationTable.c (CVE-2018-12085)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2020-1708.html",
+      "type": "ADVISORY"
+    },
     {
       "url": "https://vulners.com/cve/CVE-2018-11577",
       "type": "REPORT"

@@ -5,7 +5,26 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "gcc-toolset-11-systemtap-sdt-devel"
+        "name": "gcc-toolset-11-systemtap"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.5-4.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gcc-toolset-11-systemtap-client"
       },
       "ranges": [
         {
@@ -62,82 +81,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "gcc-toolset-11-systemtap"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "4.5-4.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "gcc-toolset-11-systemtap-server"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "4.5-4.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "gcc-toolset-11-systemtap-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "4.5-4.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "gcc-toolset-11-systemtap-client"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "4.5-4.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
         "name": "gcc-toolset-11-systemtap-runtime"
       },
       "ranges": [
@@ -158,6 +101,25 @@
       "package": {
         "ecosystem": "AlmaLinux:8",
         "name": "gcc-toolset-11-systemtap-sdt-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.5-4.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gcc-toolset-11-systemtap-server"
       },
       "ranges": [
         {

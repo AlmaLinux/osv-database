@@ -5,7 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "udisks2-lsm"
+        "name": "libudisks2"
       },
       "ranges": [
         {
@@ -24,7 +24,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "libudisks2"
+        "name": "libudisks2-devel"
       },
       "ranges": [
         {
@@ -62,7 +62,26 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "libudisks2"
+        "name": "udisks2-iscsi"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.0-7.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "udisks2-lsm"
       },
       "ranges": [
         {
@@ -96,30 +115,11 @@
           ]
         }
       ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "udisks2-iscsi"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.9.0-7.el8"
-            }
-          ]
-        }
-      ]
     }
   ],
   "aliases": [],
   "published": "2021-11-09T08:33:58Z",
-  "modified": "2021-11-12T10:20:56Z",
+  "modified": "2021-11-12T10:21:01Z",
   "details": "For detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": []
 }

@@ -1,0 +1,199 @@
+{
+  "id": "ALSA-2020:1665",
+  "summary": "Moderate: qt5 security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3-qt5-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.13.1-1.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "qt5-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.12.5-3.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "qt5-qtdeclarative-static"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.12.5-1.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "qt5-qtdoc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.12.5-1.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "qt5-qtquickcontrols2-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.12.5-1.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "qt5-qttranslations"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.12.5-1.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "qt5-qtwayland-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.12.5-1.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "qt5-rpm-macros"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.12.5-3.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "qt5-srpm-macros"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.12.5-3.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2018-19872",
+    "CVE-2018-19869",
+    "CVE-2018-19871"
+  ],
+  "published": "2020-04-28T09:02:52Z",
+  "modified": "2021-08-11T08:54:00Z",
+  "details": "Qt is a software toolkit for developing applications. The qt5-base packages contain base tools for string, xml, and network handling in Qt.\n\nThe following packages have been upgraded to a later upstream version: qt5 (5.12.5), qt5-qt3d (5.12.5), qt5-qtbase (5.12.5), qt5-qtcanvas3d (5.12.5), qt5-qtconnectivity (5.12.5), qt5-qtdeclarative (5.12.5), qt5-qtdoc (5.12.5), qt5-qtgraphicaleffects (5.12.5), qt5-qtimageformats (5.12.5), qt5-qtlocation (5.12.5), qt5-qtmultimedia (5.12.5), qt5-qtquickcontrols (5.12.5), qt5-qtquickcontrols2 (5.12.5), qt5-qtscript (5.12.5), qt5-qtsensors (5.12.5), qt5-qtserialbus (5.12.5), qt5-qtserialport (5.12.5), qt5-qtsvg (5.12.5), qt5-qttools (5.12.5), qt5-qttranslations (5.12.5), qt5-qtwayland (5.12.5), qt5-qtwebchannel (5.12.5), qt5-qtwebsockets (5.12.5), qt5-qtx11extras (5.12.5), qt5-qtxmlpatterns (5.12.5), python-qt5 (5.13.1), sip (4.19.19). (BZ#1775603, BZ#1775604)\n\nSecurity Fix(es):\n\n* qt: Malformed PPM image causing division by zero and crash in qppmhandler.cpp (CVE-2018-19872)\n\n* qt5-qtsvg: Invalid parsing of malformed url reference resulting in a denial of service (CVE-2018-19869)\n\n* qt5-qtimageformats: QTgaFile CPU exhaustion (CVE-2018-19871)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://vulners.com/cve/CVE-2018-19869",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2018-19871",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2018-19872",
+      "type": "REPORT"
+    }
+  ]
+}

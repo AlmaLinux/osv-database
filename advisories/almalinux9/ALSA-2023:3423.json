@@ -1,0 +1,87 @@
+{
+  "id": "ALSA-2023:3423",
+  "summary": "Important: cups-filters security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "cups-filters"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.28.7-11.el9_2.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "cups-filters-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.28.7-11.el9_2.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "cups-filters-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.28.7-11.el9_2.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2023-24805"
+  ],
+  "published": "2023-06-05T00:00:00Z",
+  "modified": "2023-06-06T05:52:31Z",
+  "details": "The cups-filters package contains back ends, filters, and other software that was once part of the core Common UNIX Printing System (CUPS) distribution but is now maintained independently. \n\nSecurity Fix(es):\n\n* cups-filters: remote code execution in cups-filters, beh CUPS backend (CVE-2023-24805)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:3423",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-24805",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2203051",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-3423.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

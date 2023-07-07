@@ -1,0 +1,37 @@
+{
+  "id": "ALSA-2021:1756",
+  "summary": "Moderate: qt5-qtbase security and bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "qt5-qtbase-static"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.12.5-8.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2020-17507"
+  ],
+  "published": "2021-05-18T06:01:21Z",
+  "modified": "2021-08-11T08:54:00Z",
+  "details": "Qt is a software toolkit for developing applications. The qt5-base packages contain base tools for string, xml, and network handling in Qt. \n\nSecurity Fix(es):\n\n* qt: buffer over-read in read_xbm_body in gui/image/qxbmhandler.cpp (CVE-2020-17507)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://vulners.com/cve/CVE-2020-17507",
+      "type": "REPORT"
+    }
+  ]
+}

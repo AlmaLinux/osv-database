@@ -1,0 +1,30 @@
+{
+  "id": "ALBA-2021:3587",
+  "summary": "opencryptoki bug fix and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "opencryptoki-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.15.1-7.el8_4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2021-09-21T07:13:12Z",
+  "modified": "2021-09-23T08:32:11Z",
+  "details": "The opencryptoki packages contain version 2.11 of the PKCS#11 API,\nimplemented for IBM Cryptocards, such as IBM 4764 and 4765 crypto cards.\nThese packages includes support for the IBM 4758 Cryptographic CoProcessor\n(with the PKCS#11 firmware loaded), the IBM eServer Cryptographic\nAccelerator (FC 4960 on IBM eServer System p), the IBM Crypto Express2 (FC\n0863 or FC 0870 on IBM System z), and the IBM CP Assist for Cryptographic\nFunction (FC 3863 on IBM System z). The opencryptoki packages also bring a\nsoftware token implementation that can be used without any cryptographic\nhardware. These packages contain the Slot Daemon (pkcsslotd) and general\nutilities.\n\nBug Fix(es) and Enhancement(s):\n\n* AlmaLinux8.4 - pkcstok_migrate leaves options with multiple strings in\nopencryptoki.conf file options without double-quotes (openCryptoki)\n(BZ#1995919)",
+  "references": []
+}

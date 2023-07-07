@@ -1,0 +1,87 @@
+{
+  "id": "ALEA-2021:3067",
+  "summary": "fence-agents bug fix and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "fence-agents-aliyun"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.2.1-65.el8_4.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "fence-agents-aws"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.2.1-65.el8_4.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "fence-agents-azure-arm"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.2.1-65.el8_4.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "fence-agents-gce"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.2.1-65.el8_4.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2021-08-10T11:59:56Z",
+  "modified": "2021-08-11T11:18:28Z",
+  "details": "The fence-agents packages provide a collection of scripts for handling\nremote power management for cluster devices. They allow failed or\nunreachable nodes to be forcibly restarted and removed from the cluster.\n\nBug Fix(es) and Enhancement(s):\n\n* fence_aws: add filter parameter to be able to limit which nodes are\nlisted (BZ#1977819)",
+  "references": []
+}

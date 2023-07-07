@@ -5,25 +5,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "389-ds-base-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.4.3.28-7.module_el8.6.0+3071+d20b1d7c"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
         "name": "389-ds-base"
       },
       "ranges": [
@@ -43,7 +24,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "python3-lib389"
+        "name": "389-ds-base-devel"
       },
       "ranges": [
         {
@@ -62,7 +43,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "389-ds-base-snmp"
+        "name": "389-ds-base-legacy-tools"
       },
       "ranges": [
         {
@@ -100,7 +81,26 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "389-ds-base-legacy-tools"
+        "name": "389-ds-base-snmp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.3.28-7.module_el8.6.0+3071+d20b1d7c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3-lib389"
       },
       "ranges": [
         {

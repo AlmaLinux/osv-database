@@ -5,7 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "freeradius-mysql"
+        "name": "freeradius"
       },
       "ranges": [
         {
@@ -24,64 +24,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "freeradius-rest"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3.0.20-12.module_el8.6.0+2865+fd6928c8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "freeradius-unixODBC"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3.0.20-12.module_el8.6.0+2865+fd6928c8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "python3-freeradius"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3.0.20-12.module_el8.6.0+2865+fd6928c8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "freeradius-postgresql"
+        "name": "freeradius-devel"
       },
       "ranges": [
         {
@@ -138,6 +81,44 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
+        "name": "freeradius-ldap"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.0.20-12.module_el8.6.0+2865+fd6928c8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "freeradius-mysql"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.0.20-12.module_el8.6.0+2865+fd6928c8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
         "name": "freeradius-perl"
       },
       "ranges": [
@@ -157,7 +138,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "freeradius"
+        "name": "freeradius-postgresql"
       },
       "ranges": [
         {
@@ -176,7 +157,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "freeradius-utils"
+        "name": "freeradius-rest"
       },
       "ranges": [
         {
@@ -214,7 +195,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "freeradius-ldap"
+        "name": "freeradius-unixODBC"
       },
       "ranges": [
         {
@@ -233,7 +214,26 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "freeradius-devel"
+        "name": "freeradius-utils"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.0.20-12.module_el8.6.0+2865+fd6928c8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3-freeradius"
       },
       "ranges": [
         {

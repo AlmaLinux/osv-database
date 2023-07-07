@@ -5,7 +5,64 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
+        "name": "nodejs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:16.18.1-3.module_el8.7.0+3371+ed8c43db"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
         "name": "nodejs-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:16.18.1-3.module_el8.7.0+3371+ed8c43db"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-docs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:16.18.1-3.module_el8.7.0+3371+ed8c43db"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-full-i18n"
       },
       "ranges": [
         {
@@ -43,44 +100,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "npm"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:8.19.2-1.16.18.1.3.module_el8.7.0+3371+ed8c43db"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "nodejs-full-i18n"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:16.18.1-3.module_el8.7.0+3371+ed8c43db"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
         "name": "nodejs-packaging"
       },
       "ranges": [
@@ -100,7 +119,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "nodejs-docs"
+        "name": "npm"
       },
       "ranges": [
         {
@@ -110,26 +129,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:16.18.1-3.module_el8.7.0+3371+ed8c43db"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "nodejs"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:16.18.1-3.module_el8.7.0+3371+ed8c43db"
+              "fixed": "1:8.19.2-1.16.18.1.3.module_el8.7.0+3371+ed8c43db"
             }
           ]
         }

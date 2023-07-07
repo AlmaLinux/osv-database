@@ -1,0 +1,67 @@
+{
+  "id": "ALSA-2023:2866",
+  "summary": "Moderate: git-lfs security and bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "git-lfs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.0-2.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-2880",
+    "CVE-2022-41715",
+    "CVE-2022-41717"
+  ],
+  "published": "2023-05-16T00:00:00Z",
+  "modified": "2023-05-19T22:00:03Z",
+  "details": "Git Large File Storage (LFS) replaces large files such as audio samples, videos, datasets, and graphics with text pointers inside Git, while storing the file contents on a remote server.\n\nSecurity Fix(es):\n\n* golang: net/http/httputil: ReverseProxy should not forward unparseable query parameters (CVE-2022-2880)\n* golang: regexp/syntax: limit memory used by parsing regexps (CVE-2022-41715)\n* golang: net/http: excessive memory growth in a Go server accepting HTTP/2 requests (CVE-2022-41717)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:2866",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-2880",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-41715",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-41717",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2132868",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2132872",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2161274",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2023-2866.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

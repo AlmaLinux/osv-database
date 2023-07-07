@@ -1,0 +1,87 @@
+{
+  "id": "ALBA-2022:0347",
+  "summary": "resource-agents bug fix and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "resource-agents"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.1.1-98.el8_5.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "resource-agents-aliyun"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.1.1-98.el8_5.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "resource-agents-gcp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.1.1-98.el8_5.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "resource-agents-paf"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.1.1-98.el8_5.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2022-02-01T20:03:04Z",
+  "modified": "2022-02-02T12:01:00Z",
+  "details": "The resource-agents packages provide the Pacemaker and RGManager service\nmanagers with a set of scripts. These scripts interface with several\nservices to allow operating in a high-availability (HA) environment.\n\nBug Fix(es) and Enhancement(s):\n\n* gcp-vpc-move-vip, gcp-vpc-move-route, gcp-pd-move: A failed API call\nreturns OCF_ERR_CONFIGURED, preventing restarts (BZ#2008955)\n\n* gcp-vpc-move-route and gcp-vpc-move-vip can fail with permission denied\nerrors if token file is not found (BZ#2011839)",
+  "references": []
+}

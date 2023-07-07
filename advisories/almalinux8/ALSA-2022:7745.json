@@ -1,0 +1,86 @@
+{
+  "id": "ALSA-2022:7745",
+  "summary": "Moderate: freetype security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "freetype"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.1-9.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "freetype-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.1-9.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-27404",
+    "CVE-2022-27405",
+    "CVE-2022-27406"
+  ],
+  "published": "2022-11-08T00:00:00Z",
+  "modified": "2022-11-14T17:32:12Z",
+  "details": "FreeType is a free, high-quality, portable font engine that can open and manage font files. FreeType loads, hints, and renders individual glyphs efficiently.\n\nSecurity Fix(es):\n\n* FreeType: Buffer overflow in sfnt_init_face (CVE-2022-27404)\n* FreeType: Segmentation violation via FNT_Size_Request (CVE-2022-27405)\n* Freetype: Segmentation violation via FT_Request_Size (CVE-2022-27406)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:7745",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-27404",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-27405",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-27406",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2077985",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2077989",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2077991",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2022-7745.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

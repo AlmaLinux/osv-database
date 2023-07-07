@@ -5,45 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "idm-pki-symkey"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "10.12.0-4.module_el8.7.0+3316+50b99934"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "python3-idm-pki"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "10.12.0-4.module_el8.7.0+3316+50b99934"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "idm-pki-ca"
+        "name": "idm-pki-acme"
       },
       "ranges": [
         {
@@ -81,7 +43,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "idm-pki-acme"
+        "name": "idm-pki-base-java"
       },
       "ranges": [
         {
@@ -100,45 +62,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "ldapjdk-javadoc"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "4.23.0-1.module_el8.6.0+2764+9fc58d50"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "idm-pki-server"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "10.12.0-4.module_el8.7.0+3316+50b99934"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "idm-pki-tools"
+        "name": "idm-pki-ca"
       },
       "ranges": [
         {
@@ -176,7 +100,83 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "idm-pki-base-java"
+        "name": "idm-pki-server"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.12.0-4.module_el8.7.0+3316+50b99934"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "idm-pki-symkey"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.12.0-4.module_el8.7.0+3316+50b99934"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "idm-pki-tools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.12.0-4.module_el8.7.0+3316+50b99934"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "ldapjdk-javadoc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.23.0-1.module_el8.6.0+2764+9fc58d50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3-idm-pki"
       },
       "ranges": [
         {
@@ -197,7 +197,7 @@
     "CVE-2022-2414"
   ],
   "published": "2022-11-08T00:00:00Z",
-  "modified": "2022-11-23T22:19:29Z",
+  "modified": "2022-11-23T22:19:30Z",
   "details": "The Public Key Infrastructure (PKI) Core contains fundamental packages required by AlmaLinux Certificate System.\n\nSecurity Fix(es):\n\n* pki-core: access to external entities when parsing XML can lead to XXE (CVE-2022-2414)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
     {

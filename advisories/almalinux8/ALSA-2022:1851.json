@@ -5,7 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "pki-symkey"
+        "name": "jss"
       },
       "ranges": [
         {
@@ -15,7 +15,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "10.12.0-2.module_el8.6.0+2764+9fc58d50"
+              "fixed": "4.9.3-1.module_el8.6.0+2764+9fc58d50"
             }
           ]
         }
@@ -43,7 +43,83 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "python3-pki"
+        "name": "ldapjdk"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.23.0-1.module_el8.6.0+2764+9fc58d50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "ldapjdk-javadoc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.23.0-1.module_el8.6.0+2764+9fc58d50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "pki-acme"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.12.0-2.module_el8.6.0+2764+9fc58d50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "pki-base"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.12.0-2.module_el8.6.0+2764+9fc58d50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "pki-base-java"
       },
       "ranges": [
         {
@@ -119,64 +195,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "pki-base-java"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "10.12.0-2.module_el8.6.0+2764+9fc58d50"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "ldapjdk-javadoc"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "4.23.0-1.module_el8.6.0+2764+9fc58d50"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "tomcatjss"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "7.7.1-1.module_el8.6.0+2764+9fc58d50"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "pki-acme"
+        "name": "pki-symkey"
       },
       "ranges": [
         {
@@ -214,26 +233,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "ldapjdk"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "4.23.0-1.module_el8.6.0+2764+9fc58d50"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "pki-base"
+        "name": "python3-pki"
       },
       "ranges": [
         {
@@ -252,7 +252,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "jss"
+        "name": "tomcatjss"
       },
       "ranges": [
         {
@@ -262,7 +262,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "4.9.3-1.module_el8.6.0+2764+9fc58d50"
+              "fixed": "7.7.1-1.module_el8.6.0+2764+9fc58d50"
             }
           ]
         }

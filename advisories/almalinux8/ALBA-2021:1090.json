@@ -1,0 +1,30 @@
+{
+  "id": "ALBA-2021:1090",
+  "summary": "sanlock bug fix and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "sanlock-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.8.2-4.el8_3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2021-04-06T13:32:47Z",
+  "modified": "2021-08-11T08:54:00Z",
+  "details": "The sanlock packages provide a shared storage lock manager. Hosts with\nshared access to a block device or a file can use sanlock to synchronize\ntheir activities. VDSM and libvirt use sanlock to synchronize access to\nshared devices or files.\n\nBug Fix(es) and Enhancement(s):\n\n* Support 50 concurrent add_lockspace operations (BZ#1912923)\n\n* Expose reading and writing LVB in the python bindings (BZ#1920150)",
+  "references": []
+}

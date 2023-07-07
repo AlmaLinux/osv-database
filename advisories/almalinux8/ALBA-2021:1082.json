@@ -1,0 +1,68 @@
+{
+  "id": "ALBA-2021:1082",
+  "summary": "resource-agents bug fix and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "resource-agents"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.1.1-68.el8_3.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "resource-agents-aliyun"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.1.1-68.el8_3.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "resource-agents-gcp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.1.1-68.el8_3.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2021-04-06T13:30:42Z",
+  "modified": "2021-08-11T11:18:28Z",
+  "details": "The resource-agents packages provide the Pacemaker and RGManager service\nmanagers with a set of scripts. These scripts interface with several\nservices to allow operating in a high-availability (HA) environment.\n\nBug Fix(es) and Enhancement(s):\n\n* azure-lb: nc listener dies when attempting to write to stdout\n(BZ#1937429)",
+  "references": []
+}

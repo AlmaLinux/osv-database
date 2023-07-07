@@ -1,0 +1,61 @@
+{
+  "id": "ALSA-2021:4142",
+  "summary": "Low: pcs security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "pcs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.10-4.el8.alma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "pcs-snmp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.10-4.el8.alma"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2020-7656",
+    "CVE-2020-11023"
+  ],
+  "published": "2021-11-09T08:21:49Z",
+  "modified": "2021-11-12T10:21:02Z",
+  "details": "The pcs packages provide a command-line configuration system for the Pacemaker and Corosync utilities.\n\nThe following packages have been upgraded to a later upstream version: pcs (0.10.10). (BZ#1935594)\n\nSecurity Fix(es):\n\n* jquery: Cross-site scripting (XSS) via <script> HTML tags containing whitespaces (CVE-2020-7656)\n\n* jquery: Untrusted code execution via <option> tag in HTML passed to DOM manipulation methods (CVE-2020-11023)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://vulners.com/cve/CVE-2020-11023",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-7656",
+      "type": "REPORT"
+    }
+  ]
+}

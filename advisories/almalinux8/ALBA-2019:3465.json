@@ -5,25 +5,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "hplip-libs"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3.18.4-9.el8.alma"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
         "name": "hplip"
       },
       "ranges": [
@@ -43,7 +24,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "libsane-hpaio"
+        "name": "hplip-common"
       },
       "ranges": [
         {
@@ -81,25 +62,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "hplip-common"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3.18.4-9.el8.alma"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
         "name": "hplip-libs"
       },
       "ranges": [
@@ -134,30 +96,16 @@
           ]
         }
       ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "hplip-common"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3.18.4-9.el8.alma"
-            }
-          ]
-        }
-      ]
     }
   ],
   "aliases": [],
   "published": "2019-11-05T17:48:38Z",
   "modified": "2021-11-12T10:20:55Z",
   "details": "For detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "references": []
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALBA-2019-3465.html",
+      "type": "ADVISORY"
+    }
+  ]
 }

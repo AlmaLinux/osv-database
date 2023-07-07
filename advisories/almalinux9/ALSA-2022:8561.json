@@ -20,6 +20,25 @@
           ]
         }
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "thunderbird"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "102.5.0-2.el9_1.alma.plus"
+            }
+          ]
+        }
+      ]
     }
   ],
   "aliases": [
@@ -38,7 +57,7 @@
     "CVE-2022-45420"
   ],
   "published": "2022-11-21T00:00:00Z",
-  "modified": "2022-11-21T21:22:05Z",
+  "modified": "2022-11-21T21:27:17Z",
   "details": "Mozilla Thunderbird is a standalone mail and newsgroup client.\n\nThis update upgrades Thunderbird to version 102.5.0.\n\nSecurity Fix(es):\n\n* Mozilla: Service Workers might have learned size of cross-origin media files (CVE-2022-45403)\n* Mozilla: Fullscreen notification bypass (CVE-2022-45404)\n* Mozilla: Use-after-free in InputStream implementation (CVE-2022-45405)\n* Mozilla: Use-after-free of a JavaScript Realm (CVE-2022-45406)\n* Mozilla: Fullscreen notification bypass via windowName (CVE-2022-45408)\n* Mozilla: Use-after-free in Garbage Collection (CVE-2022-45409)\n* Mozilla: Memory safety bugs fixed in Firefox 107 and Firefox ESR 102.5 (CVE-2022-45421)\n* Mozilla: ServiceWorker-intercepted requests bypassed SameSite cookie policy (CVE-2022-45410)\n* Mozilla: Cross-Site Tracing was possible via non-standard override headers (CVE-2022-45411)\n* Mozilla: Symlinks may resolve to partially uninitialized buffers (CVE-2022-45412)\n* Mozilla: Keystroke Side-Channel Leakage (CVE-2022-45416)\n* Mozilla: Custom mouse cursor could have been drawn over browser UI (CVE-2022-45418)\n* Mozilla: Iframe contents could be rendered outside the iframe (CVE-2022-45420)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {

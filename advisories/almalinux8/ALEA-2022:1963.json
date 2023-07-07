@@ -5,7 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "log4j-jcl"
+        "name": "disruptor"
       },
       "ranges": [
         {
@@ -15,7 +15,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "2.17.1-4.module_el8.6.0+2875+d267bdfe"
+              "fixed": "3.4.4-2.module_el8.6.0+2875+d267bdfe"
             }
           ]
         }
@@ -34,7 +34,45 @@
               "introduced": "0"
             },
             {
-              "fixed": "3.4.4-2.module_el8.6.0+2875+d267bdfe"
+              "fixed": "3.4.4-2.module_el8.6.0+2885+57fd4498"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "jctools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.3.0-3.module_el8.6.0+2875+d267bdfe"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "jctools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.3.0-3.module_el8.6.0+2885+57fd4498"
             }
           ]
         }
@@ -62,7 +100,26 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "log4j-slf4j"
+        "name": "log4j"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.17.1-4.module_el8.6.0+2885+57fd4498"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "log4j-jcl"
       },
       "ranges": [
         {
@@ -81,7 +138,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "jctools"
+        "name": "log4j-jcl"
       },
       "ranges": [
         {
@@ -91,7 +148,45 @@
               "introduced": "0"
             },
             {
-              "fixed": "3.3.0-3.module_el8.6.0+2875+d267bdfe"
+              "fixed": "2.17.1-4.module_el8.6.0+2885+57fd4498"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "log4j-slf4j"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.17.1-4.module_el8.6.0+2885+57fd4498"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "log4j-slf4j"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.17.1-4.module_el8.6.0+2875+d267bdfe"
             }
           ]
         }

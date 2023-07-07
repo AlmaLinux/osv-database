@@ -5,7 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "libarchive"
+        "name": "bsdtar"
       },
       "ranges": [
         {
@@ -24,7 +24,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "bsdtar"
+        "name": "libarchive"
       },
       "ranges": [
         {
@@ -64,7 +64,7 @@
     "CVE-2022-26280"
   ],
   "published": "2022-07-01T00:00:00Z",
-  "modified": "2022-07-21T17:29:09Z",
+  "modified": "2022-07-21T17:29:54Z",
   "details": "The libarchive programming library can create and read several different\nstreaming archive formats, including GNU tar, cpio, and ISO 9660 CD-ROM images.\nLibarchive is used notably in the bsdtar utility, scripting language bindings\nsuch as python-libarchive, and several popular desktop file managers.\nSecurity Fix(es):\n* libarchive: an out-of-bounds read via the component zipx_lzma_alone_init\n(CVE-2022-26280)\nFor more details about the security issue(s), including the impact, a CVSS\nscore, acknowledgments, and other related information, refer to the CVE page(s)\nlisted in the References section.",
   "references": [
     {

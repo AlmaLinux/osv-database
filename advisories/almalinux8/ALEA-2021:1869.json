@@ -5,7 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "postgres-decoderbufs"
+        "name": "pgaudit"
       },
       "ranges": [
         {
@@ -15,7 +15,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "0.10.0-2.module_el8.5.0+2607+8c0fd184"
+              "fixed": "1.5.0-1.module_el8.6.0+2760+1746ec94"
             }
           ]
         }
@@ -39,11 +39,73 @@
           ]
         }
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "postgres-decoderbufs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.0-2.module_el8.6.0+2760+1746ec94"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "postgres-decoderbufs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.0-2.module_el8.5.0+2607+8c0fd184"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "postgres-decoderbufs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.0-2.module_el8.6.0+2758+4f4474df"
+            }
+          ]
+        }
+      ]
     }
   ],
   "aliases": [],
   "published": "2021-05-18T06:17:18Z",
   "modified": "2021-12-22T08:23:18Z",
   "details": "PostgreSQL is an advanced object-relational database management system (DBMS).\n\nThis enhancement update adds the postgresql:13 module to AlmaLinux (BZ#1855776)\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "references": []
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALEA-2021-1869.html",
+      "type": "ADVISORY"
+    }
+  ]
 }

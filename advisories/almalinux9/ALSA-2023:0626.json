@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2023:0626",
+  "summary": "Important: libksba security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libksba"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.1-6.el9_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libksba-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.1-6.el9_1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-47629"
+  ],
+  "published": "2023-02-07T00:00:00Z",
+  "modified": "2023-03-07T11:50:16Z",
+  "details": "KSBA (pronounced Kasbah) is a library to make X.509 certificates as well as the CMS easily accessible by other applications. Both specifications are building blocks of S/MIME and TLS.\n\nSecurity Fix(es):\n\n* libksba: integer overflow to code executiona (CVE-2022-47629)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:0626",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-47629",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2161571",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-0626.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

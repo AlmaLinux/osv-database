@@ -5,6 +5,25 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
+        "name": "aspnetcore-runtime-6.0"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.8-1.el9_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
         "name": "aspnetcore-targeting-pack-6.0"
       },
       "ranges": [
@@ -24,7 +43,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "dotnet-sdk-6.0-source-built-artifacts"
+        "name": "dotnet-apphost-pack-6.0"
       },
       "ranges": [
         {
@@ -34,7 +53,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.0.108-1.el9_0"
+              "fixed": "6.0.8-1.el9_0"
             }
           ]
         }
@@ -43,7 +62,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "dotnet-targeting-pack-6.0"
+        "name": "dotnet-host"
       },
       "ranges": [
         {
@@ -100,7 +119,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "netstandard-targeting-pack-2.1"
+        "name": "dotnet-sdk-6.0"
       },
       "ranges": [
         {
@@ -119,7 +138,26 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "aspnetcore-runtime-6.0"
+        "name": "dotnet-sdk-6.0-source-built-artifacts"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.108-1.el9_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "dotnet-targeting-pack-6.0"
       },
       "ranges": [
         {
@@ -157,7 +195,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "dotnet-sdk-6.0"
+        "name": "netstandard-targeting-pack-2.1"
       },
       "ranges": [
         {
@@ -172,51 +210,13 @@
           ]
         }
       ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
-        "name": "dotnet-host"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "6.0.8-1.el9_0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
-        "name": "dotnet-apphost-pack-6.0"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "6.0.8-1.el9_0"
-            }
-          ]
-        }
-      ]
     }
   ],
   "aliases": [
     "CVE-2022-34716"
   ],
   "published": "2022-08-10T00:00:00Z",
-  "modified": "2022-08-10T21:03:46Z",
+  "modified": "2022-08-10T21:12:17Z",
   "details": ".NET is a managed-software framework. It implements a subset of the .NET framework APIs and several new APIs, and it includes a CLR implementation.\nNew versions of .NET that address a security vulnerability are now available. The updated versions are .NET SDK 6.0.108 and .NET Runtime 6.0.8.\nSecurity Fix(es):\n* dotnet: External Entity Injection during XML signature verification (CVE-2022-34716)\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {

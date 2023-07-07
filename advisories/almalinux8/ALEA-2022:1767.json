@@ -5,44 +5,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "nginx-mod-http-image-filter"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:1.20.1-1.module_el8.6.0+2782+a022aca3.alma"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "nginx-mod-mail"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:1.20.1-1.module_el8.6.0+2782+a022aca3.alma"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
         "name": "nginx"
       },
       "ranges": [
@@ -62,26 +24,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "nginx-mod-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:1.20.1-1.module_el8.6.0+2782+a022aca3.alma"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "nginx-mod-http-perl"
+        "name": "nginx-all-modules"
       },
       "ranges": [
         {
@@ -119,6 +62,63 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
+        "name": "nginx-mod-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.20.1-1.module_el8.6.0+2782+a022aca3.alma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nginx-mod-http-image-filter"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.20.1-1.module_el8.6.0+2782+a022aca3.alma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nginx-mod-http-perl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.20.1-1.module_el8.6.0+2782+a022aca3.alma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
         "name": "nginx-mod-http-xslt-filter"
       },
       "ranges": [
@@ -138,7 +138,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "nginx-mod-stream"
+        "name": "nginx-mod-mail"
       },
       "ranges": [
         {
@@ -157,7 +157,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "nginx-all-modules"
+        "name": "nginx-mod-stream"
       },
       "ranges": [
         {

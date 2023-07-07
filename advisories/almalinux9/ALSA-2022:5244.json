@@ -5,45 +5,26 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "expat-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.2.10-12.el9_0.2"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
-        "name": "expat-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.2.10-12.el9_0.2"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
         "name": "expat"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.10-12.el9_0.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "expat-devel"
       },
       "ranges": [
         {
@@ -65,7 +46,7 @@
     "CVE-2022-25314"
   ],
   "published": "2022-07-01T00:00:00Z",
-  "modified": "2022-07-21T17:34:50Z",
+  "modified": "2022-07-21T17:34:59Z",
   "details": "Expat is a C library for parsing XML documents.\nSecurity Fix(es):\n* expat: stack exhaustion in doctype parsing (CVE-2022-25313)\n* expat: integer overflow in copyString() (CVE-2022-25314)\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {

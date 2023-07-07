@@ -30,6 +30,10 @@
   "details": "psutil is a module providing an interface for retrieving information on all running processes and system utilization (CPU, memory, disks, network, users) in a portable way by using Python.\n\nSecurity Fix(es):\n\n* python-psutil: double free because of refcount mishandling (CVE-2019-18874)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
     {
+      "url": "https://errata.almalinux.org/8/ALSA-2021-4324.html",
+      "type": "ADVISORY"
+    },
+    {
       "url": "https://vulners.com/cve/CVE-2019-18874",
       "type": "REPORT"
     }

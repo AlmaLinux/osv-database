@@ -5,25 +5,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "tigervnc-server"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.12.0-4.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
         "name": "tigervnc"
       },
       "ranges": [
@@ -62,7 +43,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "tigervnc-server-module"
+        "name": "tigervnc-license"
       },
       "ranges": [
         {
@@ -81,7 +62,26 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "tigervnc-license"
+        "name": "tigervnc-selinux"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12.0-4.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "tigervnc-server"
       },
       "ranges": [
         {
@@ -119,7 +119,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "tigervnc-selinux"
+        "name": "tigervnc-server-module"
       },
       "ranges": [
         {

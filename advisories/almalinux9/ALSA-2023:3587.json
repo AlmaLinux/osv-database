@@ -1,0 +1,77 @@
+{
+  "id": "ALSA-2023:3587",
+  "summary": "Important: thunderbird security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "thunderbird"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "102.12.0-1.el9_2.alma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "thunderbird"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "102.12.0-1.el9_2.alma.plus"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2023-34414",
+    "CVE-2023-34416"
+  ],
+  "published": "2023-06-14T00:00:00Z",
+  "modified": "2023-06-21T23:59:22Z",
+  "details": "Mozilla Thunderbird is a standalone mail and newsgroup client.\n\nThis update upgrades Thunderbird to version 102.12.0.\n\nSecurity Fix(es):\n\n* Mozilla: Click-jacking certificate exceptions through rendering lag (CVE-2023-34414)\n* Mozilla: Memory safety bugs fixed in Firefox 114 and Firefox ESR 102.12 (CVE-2023-34416)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:3587",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-34414",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-34416",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2212841",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2212842",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-3587.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -5,26 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "osbuild-selinux"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "53-2.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "osbuild-lvm2"
+        "name": "osbuild"
       },
       "ranges": [
         {
@@ -62,26 +43,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "osbuild"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "53-2.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "python3-osbuild"
+        "name": "osbuild-lvm2"
       },
       "ranges": [
         {
@@ -101,6 +63,44 @@
       "package": {
         "ecosystem": "AlmaLinux:8",
         "name": "osbuild-ostree"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "53-2.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "osbuild-selinux"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "53-2.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3-osbuild"
       },
       "ranges": [
         {

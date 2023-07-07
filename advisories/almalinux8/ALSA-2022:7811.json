@@ -1,0 +1,113 @@
+{
+  "id": "ALSA-2022:7811",
+  "summary": "Important: mingw-expat security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mingw32-expat"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.8-1.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mingw64-expat"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.8-1.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-25235",
+    "CVE-2022-25236",
+    "CVE-2022-25315",
+    "CVE-2022-25313",
+    "CVE-2022-25314",
+    "CVE-2022-23990"
+  ],
+  "published": "2022-11-08T00:00:00Z",
+  "modified": "2022-11-11T19:37:34Z",
+  "details": "Expat is a C library for parsing XML documents. The mingw-expat packages provide a port of the Expat library for MinGW. \n\nThe following packages have been upgraded to a later upstream version: mingw-expat (2.4.8). (BZ#2057023, BZ#2057037, BZ#2057127)\n\nSecurity Fix(es):\n\n* expat: Malformed 2- and 3-byte UTF-8 sequences can lead to arbitrary code execution (CVE-2022-25235)\n* expat: Namespace-separator characters in \"xmlns[:prefix]\" attribute values can lead to arbitrary code execution (CVE-2022-25236)\n* expat: Integer overflow in storeRawNames() (CVE-2022-25315)\n* expat: Stack exhaustion in doctype parsing (CVE-2022-25313)\n* expat: Integer overflow in copyString() (CVE-2022-25314)\n* expat: Integer overflow in the doProlog function (CVE-2022-23990)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:7811",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-23990",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-25235",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-25236",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-25313",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-25314",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-25315",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2048356",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2056350",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2056354",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2056363",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2056366",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2056370",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2022-7811.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

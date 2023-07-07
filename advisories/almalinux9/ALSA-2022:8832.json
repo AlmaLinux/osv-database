@@ -5,7 +5,64 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
+        "name": "nodejs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:18.12.1-1.module_el9.1.0+16+91bc168f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "nodejs-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:18.12.1-1.module_el9.1.0+16+91bc168f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
         "name": "nodejs-docs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:18.12.1-1.module_el9.1.0+16+91bc168f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "nodejs-full-i18n"
       },
       "ranges": [
         {
@@ -35,44 +92,6 @@
             },
             {
               "fixed": "2.0.20-1.module_el9.1.0+16+91bc168f"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
-        "name": "npm"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:8.19.2-1.18.12.1.1.module_el9.1.0+16+91bc168f"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
-        "name": "nodejs-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:18.12.1-1.module_el9.1.0+16+91bc168f"
             }
           ]
         }
@@ -119,7 +138,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "nodejs-full-i18n"
+        "name": "npm"
       },
       "ranges": [
         {
@@ -129,26 +148,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:18.12.1-1.module_el9.1.0+16+91bc168f"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
-        "name": "nodejs"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:18.12.1-1.module_el9.1.0+16+91bc168f"
+              "fixed": "1:8.19.2-1.18.12.1.1.module_el9.1.0+16+91bc168f"
             }
           ]
         }

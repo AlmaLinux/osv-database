@@ -24,7 +24,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "json-c-devel"
+        "name": "json-c-doc"
       },
       "ranges": [
         {
@@ -45,7 +45,7 @@
     "CVE-2020-12762"
   ],
   "published": "2021-11-09T13:10:09Z",
-  "modified": "2021-11-12T10:20:56Z",
+  "modified": "2021-11-12T10:21:01Z",
   "details": "JSON-C implements a reference counting object model that allows users to easily construct JavaScript Object Notation (JSON) objects in C, output them as JSON formatted strings, and parse JSON formatted strings back into the C representation of JSON objects.\n\nSecurity Fix(es):\n\n* json-c: integer overflow and out-of-bounds write via a large JSON file (CVE-2020-12762)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
     {

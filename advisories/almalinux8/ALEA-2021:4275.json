@@ -24,7 +24,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "postgres-decoderbufs"
+        "name": "pg_repack"
       },
       "ranges": [
         {
@@ -34,7 +34,45 @@
               "introduced": "0"
             },
             {
-              "fixed": "0.10.0-2.module_el8.5.0+2606+4554acc4"
+              "fixed": "1.4.6-3.module_el8.6.0+2758+4f4474df"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "pg_repack"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.6-3.module_el8.6.0+2760+1746ec94"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "pgaudit"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.0-5.module_el8.6.0+2758+4f4474df"
             }
           ]
         }
@@ -58,11 +96,73 @@
           ]
         }
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "postgres-decoderbufs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.0-2.module_el8.6.0+2760+1746ec94"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "postgres-decoderbufs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.0-2.module_el8.5.0+2606+4554acc4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "postgres-decoderbufs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.0-2.module_el8.6.0+2758+4f4474df"
+            }
+          ]
+        }
+      ]
     }
   ],
   "aliases": [],
   "published": "2021-11-09T08:54:31Z",
   "modified": "2021-12-22T08:30:46Z",
   "details": "For detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "references": []
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALEA-2021-4275.html",
+      "type": "ADVISORY"
+    }
+  ]
 }

@@ -1,0 +1,37 @@
+{
+  "id": "ALSA-2020:4443",
+  "summary": "Moderate: libarchive security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libarchive-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.3.2-9.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2019-19221"
+  ],
+  "published": "2020-11-03T12:05:06Z",
+  "modified": "2021-08-11T08:54:00Z",
+  "details": "The libarchive programming library can create and read several different streaming archive formats, including GNU tar, cpio, and ISO 9660 CD-ROM images. Libarchive is used notably in the bsdtar utility, scripting language bindings such as python-libarchive, and several popular desktop file managers.\n\nSecurity Fix(es):\n\n* libarchive: out-of-bounds read in archive_wstring_append_from_mbs in archive_string.c (CVE-2019-19221)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://vulners.com/cve/CVE-2019-19221",
+      "type": "REPORT"
+    }
+  ]
+}

@@ -5,7 +5,26 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "systemtap-devel"
+        "name": "systemtap"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.6-4.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "systemtap-client"
       },
       "ranges": [
         {
@@ -43,7 +62,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "systemtap-runtime-virthost"
+        "name": "systemtap-exporter"
       },
       "ranges": [
         {
@@ -100,25 +119,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "systemtap-client"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "4.6-4.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
         "name": "systemtap-runtime-java"
       },
       "ranges": [
@@ -157,7 +157,26 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "systemtap-sdt-devel"
+        "name": "systemtap-runtime-virtguest"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.6-4.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "systemtap-runtime-virthost"
       },
       "ranges": [
         {
@@ -177,44 +196,6 @@
       "package": {
         "ecosystem": "AlmaLinux:8",
         "name": "systemtap-sdt-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "4.6-4.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "systemtap-exporter"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "4.6-4.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "systemtap"
       },
       "ranges": [
         {
@@ -234,25 +215,6 @@
       "package": {
         "ecosystem": "AlmaLinux:8",
         "name": "systemtap-server"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "4.6-4.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "systemtap-runtime-virtguest"
       },
       "ranges": [
         {

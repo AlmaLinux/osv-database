@@ -5,7 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "java-1.8.0-openjdk-javadoc-zip"
+        "name": "java-1.8.0-openjdk"
       },
       "ranges": [
         {
@@ -43,7 +43,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "java-1.8.0-openjdk-headless"
+        "name": "java-1.8.0-openjdk-accessibility-fastdebug"
       },
       "ranges": [
         {
@@ -62,7 +62,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "java-1.8.0-openjdk-javadoc"
+        "name": "java-1.8.0-openjdk-accessibility-slowdebug"
       },
       "ranges": [
         {
@@ -81,7 +81,45 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "java-1.8.0-openjdk-src"
+        "name": "java-1.8.0-openjdk-demo"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.8.0.372.b07-1.el8_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "java-1.8.0-openjdk-demo-fastdebug"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.8.0.372.b07-1.el8_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "java-1.8.0-openjdk-demo-slowdebug"
       },
       "ranges": [
         {
@@ -119,7 +157,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "java-1.8.0-openjdk"
+        "name": "java-1.8.0-openjdk-devel-fastdebug"
       },
       "ranges": [
         {
@@ -138,7 +176,197 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "java-1.8.0-openjdk-demo"
+        "name": "java-1.8.0-openjdk-devel-slowdebug"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.8.0.372.b07-1.el8_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "java-1.8.0-openjdk-fastdebug"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.8.0.372.b07-1.el8_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "java-1.8.0-openjdk-headless"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.8.0.372.b07-1.el8_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "java-1.8.0-openjdk-headless-fastdebug"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.8.0.372.b07-1.el8_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "java-1.8.0-openjdk-headless-slowdebug"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.8.0.372.b07-1.el8_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "java-1.8.0-openjdk-javadoc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.8.0.372.b07-1.el8_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "java-1.8.0-openjdk-javadoc-zip"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.8.0.372.b07-1.el8_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "java-1.8.0-openjdk-slowdebug"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.8.0.372.b07-1.el8_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "java-1.8.0-openjdk-src"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.8.0.372.b07-1.el8_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "java-1.8.0-openjdk-src-fastdebug"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.8.0.372.b07-1.el8_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "java-1.8.0-openjdk-src-slowdebug"
       },
       "ranges": [
         {
@@ -165,7 +393,7 @@
     "CVE-2023-21968"
   ],
   "published": "2023-04-25T00:00:00Z",
-  "modified": "2023-05-02T23:08:10Z",
+  "modified": "2023-05-02T23:08:19Z",
   "details": "The java-1.8.0-openjdk packages provide the OpenJDK 8 Java Runtime Environment and the OpenJDK 8 Java Software Development Kit.\n\nSecurity Fix(es):\n\n* OpenJDK: improper connection handling during TLS handshake (8294474) (CVE-2023-21930)\n* OpenJDK: Swing HTML parsing issue (8296832) (CVE-2023-21939)\n* OpenJDK: incorrect enqueue of references in garbage collector (8298191) (CVE-2023-21954)\n* OpenJDK: certificate validation issue in TLS session negotiation (8298310) (CVE-2023-21967)\n* OpenJDK: missing string checks for NULL characters (8296622) (CVE-2023-21937)\n* OpenJDK: incorrect handling of NULL characters in ProcessBuilder (8295304) (CVE-2023-21938)\n* OpenJDK: missing check for slash characters in URI-to-path conversion (8298667) (CVE-2023-21968)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {

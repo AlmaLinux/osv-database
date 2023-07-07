@@ -5,7 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "pki-server"
+        "name": "ldapjdk"
       },
       "ranges": [
         {
@@ -15,7 +15,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "10.11.2-5.module_el8.5.0+2640+bc030dcc"
+              "fixed": "4.23.0-1.module_el8.6.0+2764+9fc58d50"
             }
           ]
         }
@@ -24,7 +24,26 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "pki-kra"
+        "name": "ldapjdk-javadoc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.23.0-1.module_el8.6.0+2764+9fc58d50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "pki-acme"
       },
       "ranges": [
         {
@@ -62,6 +81,25 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
+        "name": "pki-base-java"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.11.2-5.module_el8.5.0+2640+bc030dcc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
         "name": "pki-ca"
       },
       "ranges": [
@@ -81,7 +119,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "python3-pki"
+        "name": "pki-kra"
       },
       "ranges": [
         {
@@ -100,26 +138,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "pki-acme"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "10.11.2-5.module_el8.5.0+2640+bc030dcc"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "pki-tools"
+        "name": "pki-server"
       },
       "ranges": [
         {
@@ -157,7 +176,26 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "pki-base-java"
+        "name": "pki-tools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.11.2-5.module_el8.5.0+2640+bc030dcc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3-pki"
       },
       "ranges": [
         {
@@ -178,5 +216,10 @@
   "published": "2022-04-26T13:50:53Z",
   "modified": "2022-04-29T15:30:22Z",
   "details": "The Public Key Infrastructure (PKI) Core contains fundamental packages required by AlmaLinux Certificate System.\n\nBug Fix(es):\n\n* ipa: ERROR: 'Certificate operation cannot be completed: Unable to communicate with CMS (403) (BZ#2061458)",
-  "references": []
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALBA-2022-1560.html",
+      "type": "ADVISORY"
+    }
+  ]
 }

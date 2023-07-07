@@ -30,6 +30,10 @@
   "details": "Advanced Intrusion Detection Environment (AIDE) is a utility that creates a database of files on the system, and then uses that database to ensure file integrity and detect system intrusions.\n\nSecurity Fix(es):\n\n* aide: heap-based buffer overflow on outputs larger than B64_BUF (CVE-2021-45417)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {
+      "url": "https://errata.almalinux.org/8/ALSA-2022-0441.html",
+      "type": "ADVISORY"
+    },
+    {
       "url": "https://vulners.com/cve/CVE-2021-45417",
       "type": "REPORT"
     }

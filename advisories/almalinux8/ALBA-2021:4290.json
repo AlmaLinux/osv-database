@@ -5,44 +5,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "ibus-setup"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.5.19-13.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "ibus-libs"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.5.19-13.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
         "name": "ibus"
       },
       "ranges": [
@@ -62,7 +24,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "ibus-libs"
+        "name": "ibus-devel"
       },
       "ranges": [
         {
@@ -81,7 +43,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "ibus-gtk2"
+        "name": "ibus-devel-docs"
       },
       "ranges": [
         {
@@ -138,6 +100,44 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
+        "name": "ibus-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.19-13.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "ibus-setup"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.19-13.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
         "name": "ibus-wayland"
       },
       "ranges": [
@@ -157,7 +157,7 @@
   ],
   "aliases": [],
   "published": "2021-11-09T08:56:11Z",
-  "modified": "2021-11-12T10:20:56Z",
+  "modified": "2021-11-12T10:21:01Z",
   "details": "For detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": []
 }

@@ -5,7 +5,26 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "graphviz-python3"
+        "name": "graphviz"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.40.1-43.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "graphviz-devel"
       },
       "ranges": [
         {
@@ -43,44 +62,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "graphviz"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.40.1-43.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "graphviz"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.40.1-43.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
         "name": "graphviz-gd"
       },
       "ranges": [
@@ -100,7 +81,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "graphviz-devel"
+        "name": "graphviz-python3"
       },
       "ranges": [
         {
@@ -121,9 +102,13 @@
     "CVE-2020-18032"
   ],
   "published": "2021-11-09T08:52:05Z",
-  "modified": "2021-11-12T10:20:56Z",
+  "modified": "2021-11-12T10:21:01Z",
   "details": "Graphviz is open-source graph-visualization software. Graph visualization is a way of representing structural information as diagrams of abstract graphs and networks. It has important applications in networking, bioinformatics, software engineering, database and web design, machine learning, and in visual interfaces for other technical domains.\n\nSecurity Fix(es):\n\n* graphviz: off-by-one in parse_reclbl() in lib/common/shapes.c (CVE-2020-18032)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2021-4256.html",
+      "type": "ADVISORY"
+    },
     {
       "url": "https://vulners.com/cve/CVE-2020-18032",
       "type": "REPORT"

@@ -1,0 +1,30 @@
+{
+  "id": "ALBA-2021:4061",
+  "summary": "NetworkManager bug fix and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "NetworkManager-libnm-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.30.0-13.el8_4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2021-11-02T07:49:31Z",
+  "modified": "2021-11-03T08:35:17Z",
+  "details": "NetworkManager is a system network service that manages network devices and\nconnections, attempting to keep active network connectivity when available.\nIts capabilities include managing Ethernet, wireless, mobile broadband\n(WWAN), and PPPoE devices, as well as providing VPN integration with a\nvariety of different VPN services.\n\nBug Fix(es) and Enhancement(s):\n\n* IPv6 Default gateway deleted from routing table (BZ#2007264)\n\n* [nm-cloud-setup] [AWS] default route inter-feres with other subnets on\nthe VM (making containers unreachable) (BZ#2007341)\n\n* [Azure][AlmaLinux-8.5] nm-cloud-setup.service makes network connectivity loss\n(BZ#2014510)",
+  "references": []
+}

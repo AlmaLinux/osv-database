@@ -1,0 +1,37 @@
+{
+  "id": "ALSA-2021:4464",
+  "summary": "Moderate: dnf security and bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libdnf-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.63.0-3.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2021-3445"
+  ],
+  "published": "2021-11-09T09:25:37Z",
+  "modified": "2021-11-12T10:21:01Z",
+  "details": "dnf is a package manager that allows users to manage packages on their systems. It supports RPMs, modules and comps groups & environments.\n\nSecurity Fix(es):\n\n* libdnf: Signature verification bypass via signature placed in the main RPM header (CVE-2021-3445)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://vulners.com/cve/CVE-2021-3445",
+      "type": "REPORT"
+    }
+  ]
+}

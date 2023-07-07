@@ -5,25 +5,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "nodejs-docs"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:18.12.1-2.module_el8.7.0+3370+40ccb2a8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
         "name": "nodejs"
       },
       "ranges": [
@@ -43,7 +24,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "nodejs-packaging"
+        "name": "nodejs-devel"
       },
       "ranges": [
         {
@@ -53,7 +34,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "2021.06-4.module_el8.7.0+3343+ea2b7901"
+              "fixed": "1:18.12.1-2.module_el8.7.0+3370+40ccb2a8"
             }
           ]
         }
@@ -62,7 +43,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "nodejs-nodemon"
+        "name": "nodejs-docs"
       },
       "ranges": [
         {
@@ -72,7 +53,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "2.0.20-1.module_el8.7.0+3370+40ccb2a8"
+              "fixed": "1:18.12.1-2.module_el8.7.0+3370+40ccb2a8"
             }
           ]
         }
@@ -100,7 +81,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "npm"
+        "name": "nodejs-nodemon"
       },
       "ranges": [
         {
@@ -110,7 +91,26 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:8.19.2-1.18.12.1.2.module_el8.7.0+3370+40ccb2a8"
+              "fixed": "2.0.20-1.module_el8.7.0+3370+40ccb2a8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-packaging"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2021.06-4.module_el8.7.0+3343+ea2b7901"
             }
           ]
         }
@@ -138,7 +138,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "nodejs-devel"
+        "name": "npm"
       },
       "ranges": [
         {
@@ -148,7 +148,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:18.12.1-2.module_el8.7.0+3370+40ccb2a8"
+              "fixed": "1:8.19.2-1.18.12.1.2.module_el8.7.0+3370+40ccb2a8"
             }
           ]
         }
@@ -160,7 +160,7 @@
     "CVE-2022-43548"
   ],
   "published": "2022-12-06T00:00:00Z",
-  "modified": "2022-12-07T13:22:27Z",
+  "modified": "2022-12-07T13:22:28Z",
   "details": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nThe following packages have been upgraded to a later upstream version: nodejs (18.12.1), nodejs-nodemon (2.0.20). (BZ#2142818)\n\nSecurity Fix(es):\n\n* nodejs-minimatch: ReDoS via the braceExpand function (CVE-2022-3517)\n* nodejs: DNS rebinding in inspect via invalid octal IP address (CVE-2022-43548)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {

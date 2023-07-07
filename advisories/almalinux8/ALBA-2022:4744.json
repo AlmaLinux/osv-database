@@ -1,0 +1,54 @@
+{
+  "id": "ALBA-2022:4744",
+  "summary": "sos bug fix and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "sos"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.2-19.el8_6.alma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "sos-audit"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.2-19.el8_6.alma"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2022-05-25T07:43:43Z",
+  "modified": "2022-05-25T07:43:43Z",
+  "details": "The sos package contains a set of utilities that gather information from\nsystem hardware, logs, and configuration files. The information can then be\nused for diagnostic purposes and debugging.\n\nBug Fix(es) and Enhancement(s):\n\n* sos collect fails to get node list from a pacemaker cluster (BZ#2071695)\n* Tracker for 8.6 sos OCP focused async release (BZ#2071824)\n* sosreport causes out-of-memory with excessive memory usage (BZ#2071825)",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALBA-2022-4744.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

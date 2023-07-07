@@ -1,0 +1,133 @@
+{
+  "id": "ALSA-2022:5313",
+  "summary": "Moderate: curl security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "curl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.61.1-22.el8_6.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libcurl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.61.1-22.el8_6.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libcurl-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.61.1-22.el8_6.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libcurl-minimal"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.61.1-22.el8_6.3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-22576",
+    "CVE-2022-27774",
+    "CVE-2022-27776",
+    "CVE-2022-27782"
+  ],
+  "published": "2022-06-30T00:00:00Z",
+  "modified": "2022-07-25T12:26:10Z",
+  "details": "The curl packages provide the libcurl library and the curl utility for downloading files from servers using various protocols, including HTTP, FTP, and LDAP.\nSecurity Fix(es):\n* curl: OAUTH2 bearer bypass in connection re-use (CVE-2022-22576)\n* curl: credential leak on redirect (CVE-2022-27774)\n* curl: auth/cookie leak on redirect (CVE-2022-27776)\n* curl: TLS and SSH connection too eager reuse (CVE-2022-27782)\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:5313",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-22576",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-27774",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-27776",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-27782",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2077541",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2077547",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2078408",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2082215",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2022-5313.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

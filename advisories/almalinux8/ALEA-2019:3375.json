@@ -5,7 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "php-pecl-apcu-devel"
+        "name": "apcu-panel"
       },
       "ranges": [
         {
@@ -15,7 +15,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "5.1.17-1.module_el8.3.0+2009+b272fdef"
+              "fixed": "5.1.17-1.module_el8.4.0+2229+b272fdef"
             }
           ]
         }
@@ -24,7 +24,26 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "php-pecl-apcu"
+        "name": "apcu-panel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.17-1.module_el8.5.0+152+112d3b8c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "apcu-panel"
       },
       "ranges": [
         {
@@ -53,7 +72,64 @@
               "introduced": "0"
             },
             {
+              "fixed": "1.5.2-1.module_el8.5.0+152+112d3b8c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libzip"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
               "fixed": "1.5.2-1.module_el8.3.0+2009+b272fdef"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libzip"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.2-1.module_el8.4.0+2229+b272fdef"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libzip-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.2-1.module_el8.4.0+2229+b272fdef"
             }
           ]
         }
@@ -81,6 +157,63 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
+        "name": "libzip-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.2-1.module_el8.5.0+152+112d3b8c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libzip-tools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.2-1.module_el8.5.0+152+112d3b8c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libzip-tools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.2-1.module_el8.4.0+2229+b272fdef"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
         "name": "libzip-tools"
       },
       "ranges": [
@@ -100,7 +233,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "apcu-panel"
+        "name": "php-pear"
       },
       "ranges": [
         {
@@ -110,7 +243,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "5.1.17-1.module_el8.3.0+2009+b272fdef"
+              "fixed": "1:1.10.9-1.module_el8.4.0+2229+b272fdef"
             }
           ]
         }
@@ -119,7 +252,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "php-pecl-zip"
+        "name": "php-pear"
       },
       "ranges": [
         {
@@ -129,7 +262,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.15.4-1.module_el8.3.0+2009+b272fdef"
+              "fixed": "1:1.10.9-1.module_el8.5.0+152+112d3b8c"
             }
           ]
         }
@@ -149,6 +282,177 @@
             },
             {
               "fixed": "1:1.10.9-1.module_el8.3.0+2009+b272fdef"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "php-pecl-apcu"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.17-1.module_el8.5.0+152+112d3b8c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "php-pecl-apcu"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.17-1.module_el8.3.0+2009+b272fdef"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "php-pecl-apcu"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.17-1.module_el8.4.0+2229+b272fdef"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "php-pecl-apcu-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.17-1.module_el8.3.0+2009+b272fdef"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "php-pecl-apcu-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.17-1.module_el8.4.0+2229+b272fdef"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "php-pecl-apcu-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.17-1.module_el8.5.0+152+112d3b8c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "php-pecl-zip"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.15.4-1.module_el8.4.0+2229+b272fdef"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "php-pecl-zip"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.15.4-1.module_el8.5.0+152+112d3b8c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "php-pecl-zip"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.15.4-1.module_el8.3.0+2009+b272fdef"
             }
           ]
         }

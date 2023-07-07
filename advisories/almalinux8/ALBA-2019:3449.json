@@ -20,11 +20,92 @@
           ]
         }
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gcc-toolset-9-dyninst-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.1.0-1.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gcc-toolset-9-dyninst-doc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.1.0-1.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gcc-toolset-9-dyninst-static"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.1.0-1.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gcc-toolset-9-dyninst-testsuite"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.1.0-1.el8"
+            }
+          ]
+        }
+      ]
     }
   ],
   "aliases": [],
   "published": "2019-11-05T17:47:15Z",
   "modified": "2021-11-12T10:20:55Z",
   "details": "GCC Toolset is a compiler toolset that provides recent versions of development tools. GCC Toolset is an Application Stream packaged as a Software Collection.\n\nThis enhancement update adds the gcc-toolset-9-dyninst packages to AlmaLinux Eneterprise Linux 8.\n\nFor instructions on usage, see Using GCC Toolset linked from the References section. Components and specifics of this version are documented in the GCC Toolset 9 chapter. \n\nFor detailed changes in this release, see the AlmaLinux Release Notes.",
-  "references": []
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALBA-2019-3449.html",
+      "type": "ADVISORY"
+    }
+  ]
 }

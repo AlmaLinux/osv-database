@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2023:3095",
+  "summary": "Moderate: libreswan security and bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libreswan"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.9-2.el8_8.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2023-23009"
+  ],
+  "published": "2023-05-16T00:00:00Z",
+  "modified": "2023-05-19T22:00:11Z",
+  "details": "Libreswan is an implementation of IPsec and IKE for Linux. IPsec is the Internet Protocol Security and uses strong cryptography to provide both authentication and encryption services. These services allow you to build secure tunnels through untrusted networks such as virtual private network (VPN).\n\nSecurity Fix(es):\n\n* libreswan: remote DoS via crafted TS payload with an incorrect selector length (CVE-2023-23009)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* authby=rsasig fails in FIPS policy (BZ#2187647)",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:3095",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-23009",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2173610",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2023-3095.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

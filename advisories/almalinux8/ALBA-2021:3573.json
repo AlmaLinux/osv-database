@@ -1,0 +1,35 @@
+{
+  "id": "ALBA-2021:3573",
+  "summary": "ca-certificates bug fix and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "ca-certificates"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2021.2.50-80.0.el8_4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2021-09-21T07:08:45Z",
+  "modified": "2021-09-21T07:08:30Z",
+  "details": "The ca-certificates package contains a set of Certificate Authority (CA)\ncertificates chosen by the Mozilla Foundation for use with the Internet\nPublic Key Infrastructure (PKI).\n\nBug Fix(es) and Enhancement(s):\n\n* Annual 2021 ca-certificates update 2.48 from nss 3.66 for Firefox 91\n(BZ#1971200)",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALBA-2021-3573.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

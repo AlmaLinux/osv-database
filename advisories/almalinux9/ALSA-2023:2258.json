@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2023:2258",
+  "summary": "Moderate: python-mako security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "python3-mako"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.4-6.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-40023"
+  ],
+  "published": "2023-05-09T00:00:00Z",
+  "modified": "2023-05-12T08:53:08Z",
+  "details": "Mako is a template library written in Python. It provides a familiar, non-XML syntax which compiles into Python modules for maximum performance.\n\nSecurity Fix(es):\n\n* python-mako: REDoS in Lexer class (CVE-2022-40023)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:2258",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-40023",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2128977",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-2258.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

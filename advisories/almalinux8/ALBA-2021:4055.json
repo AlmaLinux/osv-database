@@ -1,0 +1,30 @@
+{
+  "id": "ALBA-2021:4055",
+  "summary": "nfs-utils bug fix and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libnfsidmap-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.3.3-41.el8_4.3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2021-11-02T07:46:35Z",
+  "modified": "2021-11-03T08:35:17Z",
+  "details": "The nfs-utils packages provide a daemon for the kernel Network File System\n(NFS) server and related tools, which provides better performance than the\ntraditional Linux NFS server used by most users. These packages also\ncontain the mount.nfs, umount.nfs, and showmount programs.\n\nBug Fix(es) and Enhancement(s):\n\n* RFE: Prevent $HOME modification for rpc.gssd with conditional flag\n(BZ#1995593)",
+  "references": []
+}

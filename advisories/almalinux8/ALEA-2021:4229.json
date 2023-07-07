@@ -5,7 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "pango-devel"
+        "name": "google-noto-emoji-color-fonts"
       },
       "ranges": [
         {
@@ -15,45 +15,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.42.4-8.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "pango"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.42.4-8.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "pango"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.42.4-8.el8"
+              "fixed": "20200916-2.el8"
             }
           ]
         }
@@ -81,7 +43,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "google-noto-emoji-color-fonts"
+        "name": "pango"
       },
       "ranges": [
         {
@@ -91,7 +53,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "20200916-2.el8"
+              "fixed": "1.42.4-8.el8"
             }
           ]
         }
@@ -121,5 +83,10 @@
   "published": "2021-11-09T08:47:07Z",
   "modified": "2021-11-12T10:20:56Z",
   "details": "For detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "references": []
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALEA-2021-4229.html",
+      "type": "ADVISORY"
+    }
+  ]
 }

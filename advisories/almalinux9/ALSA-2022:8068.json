@@ -5,6 +5,25 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
+        "name": "bind"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "32:9.16.23-5.el9_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
         "name": "bind-chroot"
       },
       "ranges": [
@@ -24,7 +43,26 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "bind-libs"
+        "name": "bind-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "32:9.16.23-5.el9_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "bind-dnssec-doc"
       },
       "ranges": [
         {
@@ -62,7 +100,26 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "bind"
+        "name": "bind-doc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "32:9.16.23-5.el9_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "bind-libs"
       },
       "ranges": [
         {
@@ -134,25 +191,6 @@
           ]
         }
       ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
-        "name": "bind-dnssec-doc"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "32:9.16.23-5.el9_1"
-            }
-          ]
-        }
-      ]
     }
   ],
   "aliases": [
@@ -160,7 +198,7 @@
     "CVE-2022-0396"
   ],
   "published": "2022-11-15T00:00:00Z",
-  "modified": "2022-11-18T04:34:04Z",
+  "modified": "2022-11-18T13:05:25Z",
   "details": "The Berkeley Internet Name Domain (BIND) is an implementation of the Domain Name System (DNS) protocols. BIND includes a DNS server (named); a resolver library (routines for applications to use when interfacing with DNS); and tools for verifying that the DNS server is operating correctly.\n\nSecurity Fix(es):\n\n* bind: DNS forwarders - cache poisoning vulnerability (CVE-2021-25220)\n* bind: DoS from specifically crafted TCP packets (CVE-2022-0396)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
     {

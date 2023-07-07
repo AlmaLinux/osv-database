@@ -43,25 +43,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "libjpeg-turbo"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.0.90-6.el9_1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
         "name": "libjpeg-turbo-utils"
       },
       "ranges": [
@@ -81,7 +62,26 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "libjpeg-turbo-devel"
+        "name": "turbojpeg"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.90-6.el9_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "turbojpeg-devel"
       },
       "ranges": [
         {
@@ -102,7 +102,7 @@
     "CVE-2021-46822"
   ],
   "published": "2023-03-06T00:00:00Z",
-  "modified": "2023-03-06T21:26:32Z",
+  "modified": "2023-03-06T21:26:40Z",
   "details": "The libjpeg-turbo packages contain a library of functions for manipulating JPEG images. They also contain simple client programs for accessing the libjpeg functions. These packages provide the same functionality and API as libjpeg but with better performance.\n\nSecurity Fix(es):\n\n* libjpeg-turbo: heap buffer overflow in get_word_rgb_row() in rdppm.c (CVE-2021-46822)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {

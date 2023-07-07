@@ -24,7 +24,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "yajl"
+        "name": "yajl-devel"
       },
       "ranges": [
         {
@@ -45,7 +45,7 @@
     "CVE-2022-24795"
   ],
   "published": "2022-11-08T00:00:00Z",
-  "modified": "2022-11-14T18:08:38Z",
+  "modified": "2022-11-14T18:08:43Z",
   "details": "Yet Another JSON Library (YAJL) is a small event-driven (SAX-style) JSON parser written in ANSI C and a small validating JSON generator.\n\nSecurity Fix(es):\n\n* yajl: heap-based buffer overflow when handling large inputs due to an integer overflow (CVE-2022-24795)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
     {

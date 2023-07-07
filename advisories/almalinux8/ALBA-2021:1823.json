@@ -5,7 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "gcc-toolset-10-libasan-devel"
+        "name": "gcc-toolset-10-gcc"
       },
       "ranges": [
         {
@@ -24,7 +24,26 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "gcc-toolset-10-libitm-devel"
+        "name": "gcc-toolset-10-gcc-c++"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.2.1-8.2.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gcc-toolset-10-gcc-gdb-plugin"
       },
       "ranges": [
         {
@@ -81,121 +100,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "gcc-toolset-10-libquadmath-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "10.2.1-8.2.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "gcc-toolset-10-gcc-c++"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "10.2.1-8.2.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "gcc-toolset-10-libtsan-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "10.2.1-8.2.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "gcc-toolset-10-libubsan-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "10.2.1-8.2.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "gcc-toolset-10-gcc-gdb-plugin"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "10.2.1-8.2.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "gcc-toolset-10-libstdc++-docs"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "10.2.1-8.2.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "gcc-toolset-10-libstdc++-devel"
+        "name": "gcc-toolset-10-libatomic-devel"
       },
       "ranges": [
         {
@@ -233,7 +138,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "gcc-toolset-10-libatomic-devel"
+        "name": "gcc-toolset-10-liblsan-devel"
       },
       "ranges": [
         {
@@ -271,25 +176,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "gcc-toolset-10-gcc"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "10.2.1-8.2.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
         "name": "gcc-toolset-10-libstdc++-devel"
       },
       "ranges": [
@@ -309,7 +195,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "gcc-toolset-10-libatomic-devel"
+        "name": "gcc-toolset-10-libstdc++-docs"
       },
       "ranges": [
         {
@@ -328,7 +214,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "gcc-toolset-10-liblsan-devel"
+        "name": "gcc-toolset-10-libtsan-devel"
       },
       "ranges": [
         {

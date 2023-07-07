@@ -1,0 +1,60 @@
+{
+  "id": "ALSA-2020:3654",
+  "summary": "Moderate: libcroco security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libcroco"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.6.12-4.el8_2.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libcroco-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.6.12-4.el8_2.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2020-12825"
+  ],
+  "published": "2020-09-08T08:36:30Z",
+  "modified": "2023-03-13T16:34:27Z",
+  "details": "The libcroco is a standalone Cascading Style Sheet level 2 (CSS2) parsing and manipulation library. \n\nSecurity Fix(es):\n\n* libcroco: Stack overflow in function cr_parser_parse_any_core in cr-parser.c (CVE-2020-12825)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2020-3654.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-12825",
+      "type": "REPORT"
+    }
+  ]
+}

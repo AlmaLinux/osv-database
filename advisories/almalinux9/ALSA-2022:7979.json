@@ -24,7 +24,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "speex"
+        "name": "speex-devel"
       },
       "ranges": [
         {
@@ -45,7 +45,7 @@
     "CVE-2020-23903"
   ],
   "published": "2022-11-15T00:00:00Z",
-  "modified": "2022-11-18T12:59:03Z",
+  "modified": "2022-11-18T12:59:08Z",
   "details": "Speex is a patent-free compression format designed especially for speech. It is specialized for voice communications at low bit-rates.\n\nSecurity Fix(es):\n\n* speex: divide by zero in read_samples() via crafted WAV file (CVE-2020-23903)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
     {

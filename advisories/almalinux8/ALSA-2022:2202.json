@@ -5,26 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "dotnet-sdk-3.1-source-built-artifacts"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3.1.419-1.el8_6"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "dotnet-hostfxr-3.1"
+        "name": "aspnetcore-runtime-3.1"
       },
       "ranges": [
         {
@@ -62,7 +43,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "dotnet-sdk-3.1"
+        "name": "dotnet-apphost-pack-3.1"
       },
       "ranges": [
         {
@@ -72,7 +53,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "3.1.419-1.el8_6"
+              "fixed": "3.1.25-1.el8_6"
             }
           ]
         }
@@ -81,7 +62,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "aspnetcore-runtime-3.1"
+        "name": "dotnet-hostfxr-3.1"
       },
       "ranges": [
         {
@@ -119,7 +100,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "dotnet-apphost-pack-3.1"
+        "name": "dotnet-sdk-3.1"
       },
       "ranges": [
         {
@@ -129,7 +110,26 @@
               "introduced": "0"
             },
             {
-              "fixed": "3.1.25-1.el8_6"
+              "fixed": "3.1.419-1.el8_6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "dotnet-sdk-3.1-source-built-artifacts"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.419-1.el8_6"
             }
           ]
         }

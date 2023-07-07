@@ -1,0 +1,142 @@
+{
+  "id": "ALSA-2023:2165",
+  "summary": "Important: edk2 security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "edk2-aarch64"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20221207gitfff6d81270b5-9.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "edk2-ovmf"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20221207gitfff6d81270b5-9.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "edk2-tools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20221207gitfff6d81270b5-9.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "edk2-tools-doc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20221207gitfff6d81270b5-9.el9_2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2023-0286",
+    "CVE-2021-38578",
+    "CVE-2022-4304",
+    "CVE-2022-4450",
+    "CVE-2023-0215"
+  ],
+  "published": "2023-05-09T00:00:00Z",
+  "modified": "2023-05-11T17:08:19Z",
+  "details": "EDK (Embedded Development Kit) is a project to enable UEFI support for Virtual Machines. This package contains a sample 64-bit UEFI firmware for QEMU and KVM. \n\nSecurity Fix(es):\n\n* openssl: X.400 address type confusion in X.509 GeneralName (CVE-2023-0286)\n* edk2: integer underflow in SmmEntryPoint function leads to potential SMM privilege escalation (CVE-2021-38578)\n* openssl: timing attack in RSA Decryption implementation (CVE-2022-4304)\n* openssl: double free after calling PEM_read_bio_ex (CVE-2022-4450)\n* openssl: use-after-free following BIO_new_NDEF (CVE-2023-0215)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:2165",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2021-38578",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-4304",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-4450",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-0215",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-0286",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1960321",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2164440",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2164487",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2164492",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2164494",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-2165.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

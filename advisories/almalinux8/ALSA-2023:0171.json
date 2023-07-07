@@ -24,6 +24,25 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
+        "name": "dpdk-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "21.11-2.el8_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
         "name": "dpdk-doc"
       },
       "ranges": [
@@ -44,25 +63,6 @@
       "package": {
         "ecosystem": "AlmaLinux:8",
         "name": "dpdk-tools"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "21.11-2.el8_7"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "dpdk-devel"
       },
       "ranges": [
         {

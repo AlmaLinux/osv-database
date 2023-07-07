@@ -1,0 +1,49 @@
+{
+  "id": "ALBA-2021:0555",
+  "summary": "samba bug fix and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libsmbclient-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.12.3-14.el8_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libwbclient-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.12.3-14.el8_3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2021-02-16T07:35:17Z",
+  "modified": "2021-08-11T08:54:00Z",
+  "details": "Samba is an open-source implementation of the Server Message Block (SMB)\nprotocol and the related Common Internet File System (CIFS) protocol, which\nallow PC-compatible machines to share files, printers, and various\ninformation.\n\nBug Fix(es) and Enhancement(s):\n\n* DFS links broken in 4.12 (BZ#1903555)",
+  "references": []
+}

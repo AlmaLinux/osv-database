@@ -24,7 +24,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "lttng-ust"
+        "name": "lttng-ust-devel"
       },
       "ranges": [
         {
@@ -45,5 +45,10 @@
   "published": "2019-11-05T17:42:56Z",
   "modified": "2021-11-12T10:20:55Z",
   "details": "This update fixes two issues in lttng-ust and subpackages.\n\nThere was a bad shebang in the /usr/bin/lttng-gen-tp utility that prevented users from executing it. This issue has been fixed.\n\nlttng-ust was only available for x86_64 architectures. lttng-ust is now available for all architectures supported on AlmaLinux.",
-  "references": []
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALBA-2019-3411.html",
+      "type": "ADVISORY"
+    }
+  ]
 }

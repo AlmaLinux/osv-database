@@ -1,0 +1,49 @@
+{
+  "id": "ALEA-2021:3072",
+  "summary": "vulkan bug fix and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "spirv-tools-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2021.2-1.20210619.git5dd2f76.el8_4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "spirv-tools-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2021.2-1.20210619.git5dd2f76.el8_4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2021-08-10T12:00:43Z",
+  "modified": "2021-08-11T08:54:00Z",
+  "details": "The vulkan packages contain the reference ICD loader and validation layers for Vulkan, a graphics and compute API for cross-platform access to modern GPUs.\n\nBug Fix(es) and Enhancement(s):\n\n* Rebase vulkan-loader in 8.5 (BZ#1952989)\n\n* Rebase vulkan-headers in 8.5 (BZ#1952990)\n\n* Rebase spirv-headers in 8.5 (BZ#1952991)\n\n* Rebase spirv-tools in 8.5 (BZ#1952992)\n\n* Rebase glslang in 8.5 (BZ#1952993)\n\n* Rebase vulkan-tools in 8.5 (BZ#1952994)\n\n* Rebase vulkan-validation-layers in 8.5 (BZ#1952995)",
+  "references": []
+}

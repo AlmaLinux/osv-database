@@ -5,7 +5,45 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "php-mbstring"
+        "name": "php"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.20-3.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-bcmath"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.20-3.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-cli"
       },
       "ranges": [
         {
@@ -43,64 +81,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "php"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "8.0.20-3.el9"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
-        "name": "php-pgsql"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "8.0.20-3.el9"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
-        "name": "php-embedded"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "8.0.20-3.el9"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
-        "name": "php-ffi"
+        "name": "php-dba"
       },
       "ranges": [
         {
@@ -157,6 +138,25 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
+        "name": "php-embedded"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.20-3.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
         "name": "php-enchant"
       },
       "ranges": [
@@ -176,26 +176,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "php-mysqlnd"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "8.0.20-3.el9"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
-        "name": "php-xml"
+        "name": "php-ffi"
       },
       "ranges": [
         {
@@ -233,45 +214,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "php-pdo"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "8.0.20-3.el9"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
-        "name": "php-snmp"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "8.0.20-3.el9"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
-        "name": "php-ldap"
+        "name": "php-gd"
       },
       "ranges": [
         {
@@ -309,25 +252,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "php-dba"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "8.0.20-3.el9"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
         "name": "php-intl"
       },
       "ranges": [
@@ -347,7 +271,45 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "php-bcmath"
+        "name": "php-ldap"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.20-3.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-mbstring"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.20-3.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-mysqlnd"
       },
       "ranges": [
         {
@@ -385,7 +347,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "php-gd"
+        "name": "php-opcache"
       },
       "ranges": [
         {
@@ -404,7 +366,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "php-cli"
+        "name": "php-pdo"
       },
       "ranges": [
         {
@@ -423,7 +385,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "php-soap"
+        "name": "php-pgsql"
       },
       "ranges": [
         {
@@ -461,7 +423,45 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "php-opcache"
+        "name": "php-snmp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.20-3.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-soap"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.20-3.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-xml"
       },
       "ranges": [
         {

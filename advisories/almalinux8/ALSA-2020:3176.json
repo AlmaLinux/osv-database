@@ -49,6 +49,10 @@
   "details": "PostgreSQL is an advanced object-relational database management system. The postgresql-jdbc package includes the .jar files needed for Java programs to access a PostgreSQL database.\n\nSecurity Fix(es):\n\n* postgresql-jdbc: XML external entity (XXE) vulnerability in PgSQLXML (CVE-2020-13692)\n\nThis update introduces a backwards incompatible change required to resolve this issue. Refer to the AlmaLinux Knowledgebase article 5266441 linked to in the References section for information on how to re-enable the old insecure behavior.\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {
+      "url": "https://errata.almalinux.org/8/ALSA-2020-3176.html",
+      "type": "ADVISORY"
+    },
+    {
       "url": "https://vulners.com/cve/CVE-2020-13692",
       "type": "REPORT"
     }

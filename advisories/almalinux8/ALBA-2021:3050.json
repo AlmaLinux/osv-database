@@ -1,0 +1,68 @@
+{
+  "id": "ALBA-2021:3050",
+  "summary": "samba bug fix and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libsmbclient-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.13.3-4.el8_4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libwbclient-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.13.3-4.el8_4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "samba-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.13.3-4.el8_4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2021-08-10T11:54:50Z",
+  "modified": "2021-08-11T08:54:00Z",
+  "details": "Samba is an open-source implementation of the Server Message Block (SMB)\nprotocol and the related Common Internet File System (CIFS) protocol, which\nallow PC-compatible machines to share files, printers, and various\ninformation.\n\nBug Fix(es) and Enhancement(s):\n\n* /sbin/ldconfig: /lib64/libsmbldap.so.2 is not a symbolic link\n(BZ#1964314)\n\n* smbd tries to delete files with wrong permissions (uses guest instead of\nuser from force user) (BZ#1964398)\n\n* Memory leak in RPC server could allocate a lot of memory for print\nservers (BZ#1969831)",
+  "references": []
+}

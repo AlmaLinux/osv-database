@@ -5,7 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "nss_wrapper"
+        "name": "libcmocka"
       },
       "ranges": [
         {
@@ -15,7 +15,26 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.1.5-3.el8"
+              "fixed": "1.1.5-1.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libcmocka-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.5-1.el8"
             }
           ]
         }
@@ -39,11 +58,54 @@
           ]
         }
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "socket_wrapper"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.3-1.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "uid_wrapper"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.4-4.el8"
+            }
+          ]
+        }
+      ]
     }
   ],
   "aliases": [],
   "published": "2019-11-05T18:00:30Z",
   "modified": "2021-11-12T10:20:54Z",
   "details": "For detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "references": []
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALEA-2019-3557.html",
+      "type": "ADVISORY"
+    }
+  ]
 }

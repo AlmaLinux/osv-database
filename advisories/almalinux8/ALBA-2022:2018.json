@@ -5,121 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "perl-Memoize"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.03-421.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "perl-utils"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "5.26.3-421.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "perl-Module-Loaded"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:0.08-421.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "perl-Locale-Maketext-Simple"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:0.21-421.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "perl-Time-Piece"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.31-421.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "perl-Devel-Peek"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.26-421.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "perl-tests"
+        "name": "perl"
       },
       "ranges": [
         {
@@ -157,7 +43,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "perl-libnetcfg"
+        "name": "perl-Devel-Peek"
       },
       "ranges": [
         {
@@ -167,26 +53,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "4:5.26.3-421.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "perl-open"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.11-421.el8"
+              "fixed": "1.26-421.el8"
             }
           ]
         }
@@ -214,7 +81,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "perl"
+        "name": "perl-Errno"
       },
       "ranges": [
         {
@@ -224,7 +91,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "4:5.26.3-421.el8"
+              "fixed": "1.28-421.el8"
             }
           ]
         }
@@ -233,7 +100,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "perl-Test"
+        "name": "perl-ExtUtils-Embed"
       },
       "ranges": [
         {
@@ -243,7 +110,159 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.30-421.el8"
+              "fixed": "1.34-421.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "perl-ExtUtils-Miniperl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.06-421.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "perl-IO"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.38-421.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "perl-IO-Zlib"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.10-421.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "perl-Locale-Maketext-Simple"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:0.21-421.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "perl-Math-Complex"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.59-421.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "perl-Memoize"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.03-421.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "perl-Module-Loaded"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:0.08-421.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "perl-Net-Ping"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.55-421.el8"
             }
           ]
         }
@@ -290,7 +309,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "perl-devel"
+        "name": "perl-Test"
       },
       "ranges": [
         {
@@ -300,7 +319,26 @@
               "introduced": "0"
             },
             {
-              "fixed": "4:5.26.3-421.el8"
+              "fixed": "1.30-421.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "perl-Time-Piece"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.31-421.el8"
             }
           ]
         }
@@ -328,7 +366,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "perl-Net-Ping"
+        "name": "perl-interpreter"
       },
       "ranges": [
         {
@@ -338,7 +376,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "2.55-421.el8"
+              "fixed": "4:5.26.3-421.el8"
             }
           ]
         }
@@ -347,7 +385,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "perl-ExtUtils-Embed"
+        "name": "perl-libnetcfg"
       },
       "ranges": [
         {
@@ -357,7 +395,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.34-421.el8"
+              "fixed": "4:5.26.3-421.el8"
             }
           ]
         }
@@ -366,7 +404,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "perl-ExtUtils-Miniperl"
+        "name": "perl-libs"
       },
       "ranges": [
         {
@@ -376,7 +414,83 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.06-421.el8"
+              "fixed": "4:5.26.3-421.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "perl-macros"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4:5.26.3-421.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "perl-open"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.11-421.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "perl-tests"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4:5.26.3-421.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "perl-utils"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.26.3-421.el8"
             }
           ]
         }

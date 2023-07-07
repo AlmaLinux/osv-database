@@ -24,25 +24,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "libmspack"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "0.7-0.3.alpha.el8.4"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
         "name": "libmspack-devel"
       },
       "ranges": [
@@ -67,6 +48,10 @@
   "modified": "2021-11-12T10:20:55Z",
   "details": "The libmspack packages contain a library providing compression and extraction of the Cabinet (CAB) file format used by Microsoft.\n\nSecurity Fix(es):\n\n* libmspack: buffer overflow in function chmd_read_headers() (CVE-2019-1010305)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2020-1686.html",
+      "type": "ADVISORY"
+    },
     {
       "url": "https://vulners.com/cve/CVE-2019-1010305",
       "type": "REPORT"

@@ -1,0 +1,94 @@
+{
+  "id": "ALSA-2021:4513",
+  "summary": "Moderate: libsepol security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libsepol"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9-3.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libsepol-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9-3.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libsepol-static"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9-3.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2021-36084",
+    "CVE-2021-36085",
+    "CVE-2021-36086",
+    "CVE-2021-36087"
+  ],
+  "published": "2021-11-09T09:39:50Z",
+  "modified": "2023-03-13T16:33:57Z",
+  "details": "The libsepol library provides an API for the manipulation of SELinux binary policies. It is used by checkpolicy (the policy compiler) and similar tools, as well as by programs like load_policy that need to perform specific transformations on binary policies (for example, customizing policy boolean settings).\n\nSecurity Fix(es):\n\n* libsepol: use-after-free in __cil_verify_classperms() (CVE-2021-36084)\n\n* libsepol: use-after-free in __cil_verify_classperms() (CVE-2021-36085)\n\n* libsepol: use-after-free in cil_reset_classpermission() (CVE-2021-36086)\n\n* libsepol: heap-based buffer overflow in ebitmap_match_any() (CVE-2021-36087)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2021-4513.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-36084",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-36085",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-36086",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-36087",
+      "type": "REPORT"
+    }
+  ]
+}

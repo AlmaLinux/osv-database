@@ -5,7 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "dotnet-host"
+        "name": "aspnetcore-runtime-6.0"
       },
       "ranges": [
         {
@@ -16,44 +16,6 @@
             },
             {
               "fixed": "6.0.10-1.el9_0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
-        "name": "dotnet-sdk-6.0"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "6.0.110-1.el9_0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
-        "name": "netstandard-targeting-pack-2.1"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "6.0.110-1.el9_0"
             }
           ]
         }
@@ -63,25 +25,6 @@
       "package": {
         "ecosystem": "AlmaLinux:9",
         "name": "aspnetcore-targeting-pack-6.0"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "6.0.10-1.el9_0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
-        "name": "dotnet-hostfxr-6.0"
       },
       "ranges": [
         {
@@ -119,7 +62,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "dotnet-templates-6.0"
+        "name": "dotnet-host"
       },
       "ranges": [
         {
@@ -129,7 +72,26 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.0.110-1.el9_0"
+              "fixed": "6.0.10-1.el9_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "dotnet-hostfxr-6.0"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.10-1.el9_0"
             }
           ]
         }
@@ -157,6 +119,44 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
+        "name": "dotnet-sdk-6.0"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.110-1.el9_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "dotnet-sdk-6.0-source-built-artifacts"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.110-1.el9_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
         "name": "dotnet-targeting-pack-6.0"
       },
       "ranges": [
@@ -176,7 +176,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "aspnetcore-runtime-6.0"
+        "name": "dotnet-templates-6.0"
       },
       "ranges": [
         {
@@ -186,7 +186,26 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.0.10-1.el9_0"
+              "fixed": "6.0.110-1.el9_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "netstandard-targeting-pack-2.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.110-1.el9_0"
             }
           ]
         }

@@ -5,6 +5,25 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
+        "name": "libslirp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.3.1-1.module_el8.6.0+2876+9ed4eae2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
         "name": "libslirp-devel"
       },
       "ranges": [
@@ -43,7 +62,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "libslirp"
+        "name": "python-podman-api"
       },
       "ranges": [
         {
@@ -53,7 +72,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "4.3.1-1.module_el8.6.0+2876+9ed4eae2"
+              "fixed": "1.2.0-0.2.gitd0a45fe.module_el8.5.0+108+00865455"
             }
           ]
         }

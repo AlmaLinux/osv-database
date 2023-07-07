@@ -24,6 +24,44 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
+        "name": "varnish"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.8-1.module_el8.5.0+76+a10ffa55"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "varnish-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.8-1.module_el8.5.0+76+a10ffa55"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
         "name": "varnish-devel"
       },
       "ranges": [
@@ -62,6 +100,25 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
+        "name": "varnish-docs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.8-1.module_el8.5.0+76+a10ffa55"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
         "name": "varnish-modules"
       },
       "ranges": [
@@ -77,6 +134,25 @@
           ]
         }
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "varnish-modules"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.15.0-6.module_el8.5.0+76+a10ffa55"
+            }
+          ]
+        }
+      ]
     }
   ],
   "aliases": [
@@ -86,6 +162,10 @@
   "modified": "2022-02-04T16:49:12Z",
   "details": "Varnish Cache is a high-performance HTTP accelerator. It stores web pages in memory so web servers don't have to create the same web page over and over again, giving the website a significant speed up.\n\nSecurity Fix(es):\n\n* varnish: HTTP/1 request smuggling vulnerability (CVE-2022-23959)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2022-0418.html",
+      "type": "ADVISORY"
+    },
     {
       "url": "https://vulners.com/cve/CVE-2022-23959",
       "type": "REPORT"

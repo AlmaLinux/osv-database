@@ -1,0 +1,30 @@
+{
+  "id": "ALBA-2021:1099",
+  "summary": "NetworkManager bug fix and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "NetworkManager-libnm-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.26.0-14.el8_3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2021-04-06T13:34:17Z",
+  "modified": "2021-08-11T08:54:00Z",
+  "details": "NetworkManager is a system network service that manages network devices and\nconnections, attempting to keep active network connectivity when available.\nIts capabilities include managing Ethernet, wireless, mobile broadband\n(WWAN), and PPPoE devices, as well as providing VPN integration with a\nvariety of different VPN services.\n\nBug Fix(es) and Enhancement(s):\n\n* NetworkManager doesn't initialize an interface, reports startup complete\nwhen booting for the first time (BZ#1940071)",
+  "references": []
+}

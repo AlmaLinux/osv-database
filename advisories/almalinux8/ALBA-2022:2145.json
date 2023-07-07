@@ -5,26 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "osbuild-composer-dnf-json"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "46.3-1.el8_6"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "osbuild-composer-worker"
+        "name": "osbuild-composer"
       },
       "ranges": [
         {
@@ -62,7 +43,26 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "osbuild-composer"
+        "name": "osbuild-composer-dnf-json"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "46.3-1.el8_6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "osbuild-composer-worker"
       },
       "ranges": [
         {

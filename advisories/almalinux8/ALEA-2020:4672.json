@@ -5,7 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "autogen-libopts"
+        "name": "autogen"
       },
       "ranges": [
         {
@@ -39,11 +39,35 @@
           ]
         }
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "autogen-libopts-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.18.12-8.el8"
+            }
+          ]
+        }
+      ]
     }
   ],
   "aliases": [],
   "published": "2020-11-03T12:25:46Z",
   "modified": "2021-11-12T10:20:56Z",
   "details": "For detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "references": []
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALEA-2020-4672.html",
+      "type": "ADVISORY"
+    }
+  ]
 }

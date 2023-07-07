@@ -1,0 +1,37 @@
+{
+  "id": "ALSA-2020:4547",
+  "summary": "Low: libpcap security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libpcap-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "14:1.9.1-4.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2019-15165"
+  ],
+  "published": "2020-11-03T12:14:30Z",
+  "modified": "2021-08-11T08:54:00Z",
+  "details": "The libpcap packages provide a portable framework for low-level network monitoring. The libpcap library provides network statistics collection, security monitoring, and network debugging.\n\nThe following packages have been upgraded to a later upstream version: libpcap (1.9.1). (BZ#1806422)\n\nSecurity Fix(es):\n\n* libpcap: Resource exhaustion during PHB header length validation (CVE-2019-15165)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://vulners.com/cve/CVE-2019-15165",
+      "type": "REPORT"
+    }
+  ]
+}

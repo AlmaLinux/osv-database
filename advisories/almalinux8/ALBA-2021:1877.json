@@ -5,25 +5,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "hyperv-daemons-license"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "0-0.30.20180415git.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
         "name": "hyperv-daemons"
       },
       "ranges": [
@@ -43,7 +24,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "hypervfcopyd"
+        "name": "hyperv-daemons-license"
       },
       "ranges": [
         {
@@ -63,6 +44,25 @@
       "package": {
         "ecosystem": "AlmaLinux:8",
         "name": "hyperv-tools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0-0.30.20180415git.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "hypervfcopyd"
       },
       "ranges": [
         {

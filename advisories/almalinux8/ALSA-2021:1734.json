@@ -1,0 +1,147 @@
+{
+  "id": "ALSA-2021:1734",
+  "summary": "Moderate: shim security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "shim-aa64"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "15.4-2.el8_1.alma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "shim-ia32"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "15.4-2.el8_1.alma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "shim-unsigned-aarch64"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "15-7.el8_1.alma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "shim-unsigned-x64"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "15.4-4.el8_1.alma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "shim-x64"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "15.4-2.el8_1.alma"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2020-14372",
+    "CVE-2020-25632",
+    "CVE-2020-25647",
+    "CVE-2020-27749",
+    "CVE-2020-27779",
+    "CVE-2021-20225",
+    "CVE-2021-20233"
+  ],
+  "published": "2021-05-18T05:57:10Z",
+  "modified": "2021-08-11T08:54:00Z",
+  "details": "The shim package contains a first-stage UEFI boot loader that handles chaining to a trusted full boot loader under secure boot environments.\n\nSecurity Fix(es):\n\n* grub2: acpi command allows privileged user to load crafted ACPI tables when Secure Boot is enabled (CVE-2020-14372)\n\n* grub2: Use-after-free in rmmod command (CVE-2020-25632)\n\n* grub2: Out-of-bounds write in grub_usb_device_initialize() (CVE-2020-25647)\n\n* grub2: Stack buffer overflow in grub_parser_split_cmdline() (CVE-2020-27749)\n\n* grub2: cutmem command allows privileged user to remove memory regions when Secure Boot is enabled (CVE-2020-27779)\n\n* grub2: Heap out-of-bounds write in short form option parser (CVE-2021-20225)\n\n* grub2: Heap out-of-bounds write due to miscalculation of space required for quoting (CVE-2021-20233)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2021-1734.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-14372",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-25632",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-25647",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-27749",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-27779",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-20225",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-20233",
+      "type": "REPORT"
+    }
+  ]
+}

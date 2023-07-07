@@ -5,7 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "sgabios-bin"
+        "name": "hivex"
       },
       "ranges": [
         {
@@ -15,7 +15,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:0.20170427git-3.module_el8.5.0+2608+72063365"
+              "fixed": "1.3.18-21.module_el8.5.0+2608+72063365"
             }
           ]
         }
@@ -24,7 +24,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "nbdkit-python-plugin"
+        "name": "hivex-devel"
       },
       "ranges": [
         {
@@ -34,7 +34,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.16.2-4.module_el8.5.0+2608+72063365"
+              "fixed": "1.3.18-21.module_el8.5.0+2608+72063365"
             }
           ]
         }
@@ -43,7 +43,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "nbdkit-example-plugins"
+        "name": "libguestfs"
       },
       "ranges": [
         {
@@ -53,45 +53,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.16.2-4.module_el8.5.0+2608+72063365"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "libvirt-bash-completion"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "6.0.0-37.module_el8.5.0+2608+72063365"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "libvirt-daemon-driver-qemu"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "6.0.0-37.module_el8.5.0+2608+72063365"
+              "fixed": "1:1.40.2-28.module_el8.5.0+2608+72063365.alma"
             }
           ]
         }
@@ -119,159 +81,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "sgabios"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:0.20170427git-3.module_el8.6.0+2880+7d9e3703"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "libvirt-daemon-driver-storage-scsi"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "6.0.0-37.module_el8.5.0+2608+72063365"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "libvirt-daemon-driver-network"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "6.0.0-37.module_el8.5.0+2608+72063365"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "nbdfuse"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.2.2-1.module_el8.5.0+2608+72063365"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "supermin-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "5.1.19-10.module_el8.5.0+2608+72063365"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "netcf"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "0.2.8-12.module_el8.6.0+2880+7d9e3703"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "libnbd"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.2.2-1.module_el8.5.0+2608+72063365"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "libvirt-daemon-driver-storage-gluster"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "6.0.0-37.module_el8.5.0+2608+72063365"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "libguestfs-tools"
+        "name": "libguestfs-benchmarking"
       },
       "ranges": [
         {
@@ -290,64 +100,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "libvirt-daemon-driver-nwfilter"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "6.0.0-37.module_el8.5.0+2608+72063365"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "nbdkit-basic-filters"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.16.2-4.module_el8.5.0+2608+72063365"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "seavgabios-bin"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.13.0-2.module_el8.5.0+2608+72063365"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "libguestfs-rsync"
+        "name": "libguestfs-devel"
       },
       "ranges": [
         {
@@ -385,26 +138,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "libvirt-lock-sanlock"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "6.0.0-37.module_el8.5.0+2608+72063365"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "libguestfs-man-pages-ja"
+        "name": "libguestfs-gobject"
       },
       "ranges": [
         {
@@ -423,83 +157,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "python3-libnbd"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.2.2-1.module_el8.5.0+2608+72063365"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "netcf"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "0.2.8-12.module_el8.5.0+2608+72063365"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "nbdkit-basic-plugins"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.16.2-4.module_el8.5.0+2608+72063365"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "libvirt-daemon-driver-nodedev"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "6.0.0-37.module_el8.5.0+2608+72063365"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "libguestfs"
+        "name": "libguestfs-gobject-devel"
       },
       "ranges": [
         {
@@ -518,7 +176,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "nbdkit-gzip-plugin"
+        "name": "libguestfs-inspect-icons"
       },
       "ranges": [
         {
@@ -528,7 +186,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.16.2-4.module_el8.5.0+2608+72063365"
+              "fixed": "1:1.40.2-28.module_el8.5.0+2608+72063365.alma"
             }
           ]
         }
@@ -537,7 +195,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "libvirt-daemon-driver-storage"
+        "name": "libguestfs-java"
       },
       "ranges": [
         {
@@ -547,7 +205,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.0.0-37.module_el8.5.0+2608+72063365"
+              "fixed": "1:1.40.2-28.module_el8.5.0+2608+72063365.alma"
             }
           ]
         }
@@ -556,7 +214,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "nbdkit-vddk-plugin"
+        "name": "libguestfs-java-devel"
       },
       "ranges": [
         {
@@ -566,140 +224,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.16.2-4.module_el8.5.0+2608+72063365"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "libguestfs-winsupport"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "8.2-1.module_el8.5.0+2608+72063365"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "libvirt-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "6.0.0-37.module_el8.5.0+2608+72063365"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "libvirt-daemon-driver-interface"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "6.0.0-37.module_el8.5.0+2608+72063365"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "libvirt-daemon-driver-storage-logical"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "6.0.0-37.module_el8.5.0+2608+72063365"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "libiscsi-utils"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.18.0-8.module_el8.6.0+2880+7d9e3703"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "libnbd-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.2.2-1.module_el8.5.0+2608+72063365"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "sgabios"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:0.20170427git-3.module_el8.5.0+2608+72063365"
+              "fixed": "1:1.40.2-28.module_el8.5.0+2608+72063365.alma"
             }
           ]
         }
@@ -727,7 +252,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "sgabios-bin"
+        "name": "libguestfs-man-pages-ja"
       },
       "ranges": [
         {
@@ -737,7 +262,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:0.20170427git-3.module_el8.6.0+2880+7d9e3703"
+              "fixed": "1:1.40.2-28.module_el8.5.0+2608+72063365.alma"
             }
           ]
         }
@@ -746,7 +271,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "supermin"
+        "name": "libguestfs-man-pages-uk"
       },
       "ranges": [
         {
@@ -756,7 +281,330 @@
               "introduced": "0"
             },
             {
-              "fixed": "5.1.19-10.module_el8.5.0+2608+72063365"
+              "fixed": "1:1.40.2-28.module_el8.5.0+2608+72063365.alma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libguestfs-rescue"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.40.2-28.module_el8.5.0+2608+72063365.alma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libguestfs-rsync"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.40.2-28.module_el8.5.0+2608+72063365.alma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libguestfs-tools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.40.2-28.module_el8.5.0+2608+72063365.alma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libguestfs-tools-c"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.40.2-28.module_el8.5.0+2608+72063365.alma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libguestfs-winsupport"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.2-1.module_el8.5.0+2608+72063365"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libguestfs-xfs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.40.2-28.module_el8.5.0+2608+72063365.alma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libiscsi"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.0-8.module_el8.6.0+2880+7d9e3703"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libiscsi"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.0-8.module_el8.5.0+2608+72063365"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libiscsi-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.0-8.module_el8.6.0+2880+7d9e3703"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libiscsi-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.0-8.module_el8.5.0+2608+72063365"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libiscsi-utils"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.0-8.module_el8.6.0+2880+7d9e3703"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libiscsi-utils"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.0-8.module_el8.5.0+2608+72063365"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libnbd"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.2-1.module_el8.5.0+2608+72063365"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libnbd-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.2-1.module_el8.5.0+2608+72063365"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libvirt"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.0-37.module_el8.5.0+2608+72063365"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libvirt-admin"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.0-37.module_el8.5.0+2608+72063365"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libvirt-bash-completion"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.0-37.module_el8.5.0+2608+72063365"
             }
           ]
         }
@@ -803,7 +651,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "lua-guestfs"
+        "name": "libvirt-daemon-config-network"
       },
       "ranges": [
         {
@@ -813,7 +661,178 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:1.40.2-28.module_el8.5.0+2608+72063365.alma"
+              "fixed": "6.0.0-37.module_el8.5.0+2608+72063365"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libvirt-daemon-config-nwfilter"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.0-37.module_el8.5.0+2608+72063365"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libvirt-daemon-driver-interface"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.0-37.module_el8.5.0+2608+72063365"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libvirt-daemon-driver-network"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.0-37.module_el8.5.0+2608+72063365"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libvirt-daemon-driver-nodedev"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.0-37.module_el8.5.0+2608+72063365"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libvirt-daemon-driver-nwfilter"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.0-37.module_el8.5.0+2608+72063365"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libvirt-daemon-driver-qemu"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.0-37.module_el8.5.0+2608+72063365"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libvirt-daemon-driver-secret"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.0-37.module_el8.5.0+2608+72063365"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libvirt-daemon-driver-storage"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.0-37.module_el8.5.0+2608+72063365"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libvirt-daemon-driver-storage-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.0-37.module_el8.5.0+2608+72063365"
             }
           ]
         }
@@ -841,7 +860,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "seabios-bin"
+        "name": "libvirt-daemon-driver-storage-gluster"
       },
       "ranges": [
         {
@@ -851,140 +870,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.13.0-2.module_el8.5.0+2608+72063365"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "libiscsi"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.18.0-8.module_el8.5.0+2608+72063365"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "nbdkit-ssh-plugin"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.16.2-4.module_el8.5.0+2608+72063365"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "libiscsi-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.18.0-8.module_el8.5.0+2608+72063365"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "libguestfs-java"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:1.40.2-28.module_el8.5.0+2608+72063365.alma"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "hivex"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.3.18-21.module_el8.5.0+2608+72063365"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "nbdkit-linuxdisk-plugin"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.16.2-4.module_el8.5.0+2608+72063365"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "libguestfs-tools-c"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:1.40.2-28.module_el8.5.0+2608+72063365.alma"
+              "fixed": "6.0.0-37.module_el8.5.0+2608+72063365"
             }
           ]
         }
@@ -1031,330 +917,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "libiscsi-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.18.0-8.module_el8.6.0+2880+7d9e3703"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "libguestfs-man-pages-uk"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:1.40.2-28.module_el8.5.0+2608+72063365.alma"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "libvirt-admin"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "6.0.0-37.module_el8.5.0+2608+72063365"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "libguestfs-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:1.40.2-28.module_el8.5.0+2608+72063365.alma"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "libiscsi-utils"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.18.0-8.module_el8.5.0+2608+72063365"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "virt-dib"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:1.40.2-28.module_el8.5.0+2608+72063365.alma"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "nbdkit"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.16.2-4.module_el8.5.0+2608+72063365"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "netcf-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "0.2.8-12.module_el8.6.0+2880+7d9e3703"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "nbdkit-server"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.16.2-4.module_el8.5.0+2608+72063365"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "libvirt-daemon-driver-storage-rbd"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "6.0.0-37.module_el8.5.0+2608+72063365"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "perl-hivex"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.3.18-21.module_el8.5.0+2608+72063365"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "nbdkit-bash-completion"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.16.2-4.module_el8.5.0+2608+72063365"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "libvirt-daemon-config-nwfilter"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "6.0.0-37.module_el8.5.0+2608+72063365"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "libvirt-daemon-kvm"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "6.0.0-37.module_el8.5.0+2608+72063365"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "perl-Sys-Virt"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "6.0.0-1.module_el8.5.0+2608+72063365"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "netcf-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "0.2.8-12.module_el8.5.0+2608+72063365"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "ruby-hivex"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.3.18-21.module_el8.5.0+2608+72063365"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "libvirt-daemon-config-network"
+        "name": "libvirt-daemon-driver-storage-logical"
       },
       "ranges": [
         {
@@ -1392,7 +955,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "nbdkit-curl-plugin"
+        "name": "libvirt-daemon-driver-storage-rbd"
       },
       "ranges": [
         {
@@ -1402,7 +965,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.16.2-4.module_el8.5.0+2608+72063365"
+              "fixed": "6.0.0-37.module_el8.5.0+2608+72063365"
             }
           ]
         }
@@ -1411,7 +974,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "hivex-devel"
+        "name": "libvirt-daemon-driver-storage-scsi"
       },
       "ranges": [
         {
@@ -1421,7 +984,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.3.18-21.module_el8.5.0+2608+72063365"
+              "fixed": "6.0.0-37.module_el8.5.0+2608+72063365"
             }
           ]
         }
@@ -1430,7 +993,121 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "libvirt-daemon-driver-storage-core"
+        "name": "libvirt-daemon-kvm"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.0-37.module_el8.5.0+2608+72063365"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libvirt-dbus"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.3.0-2.module_el8.6.0+2880+7d9e3703"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libvirt-dbus"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.3.0-2.module_el8.5.0+2608+72063365"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libvirt-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.0-37.module_el8.5.0+2608+72063365"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libvirt-docs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.0-37.module_el8.5.0+2608+72063365"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libvirt-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.0-37.module_el8.5.0+2608+72063365"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libvirt-lock-sanlock"
       },
       "ranges": [
         {
@@ -1468,7 +1145,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "python3-libguestfs"
+        "name": "lua-guestfs"
       },
       "ranges": [
         {
@@ -1487,7 +1164,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "python3-libvirt"
+        "name": "nbdfuse"
       },
       "ranges": [
         {
@@ -1497,7 +1174,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.0.0-1.module_el8.5.0+2608+72063365"
+              "fixed": "1.2.2-1.module_el8.5.0+2608+72063365"
             }
           ]
         }
@@ -1506,7 +1183,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "perl-Sys-Guestfs"
+        "name": "nbdkit"
       },
       "ranges": [
         {
@@ -1516,7 +1193,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:1.40.2-28.module_el8.5.0+2608+72063365.alma"
+              "fixed": "1.16.2-4.module_el8.5.0+2608+72063365"
             }
           ]
         }
@@ -1525,7 +1202,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "libguestfs-xfs"
+        "name": "nbdkit-bash-completion"
       },
       "ranges": [
         {
@@ -1535,7 +1212,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:1.40.2-28.module_el8.5.0+2608+72063365.alma"
+              "fixed": "1.16.2-4.module_el8.5.0+2608+72063365"
             }
           ]
         }
@@ -1544,7 +1221,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "libvirt-daemon-driver-secret"
+        "name": "nbdkit-basic-filters"
       },
       "ranges": [
         {
@@ -1554,7 +1231,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.0.0-37.module_el8.5.0+2608+72063365"
+              "fixed": "1.16.2-4.module_el8.5.0+2608+72063365"
             }
           ]
         }
@@ -1563,7 +1240,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "python3-hivex"
+        "name": "nbdkit-basic-plugins"
       },
       "ranges": [
         {
@@ -1573,7 +1250,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.3.18-21.module_el8.5.0+2608+72063365"
+              "fixed": "1.16.2-4.module_el8.5.0+2608+72063365"
             }
           ]
         }
@@ -1582,64 +1259,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "netcf-libs"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "0.2.8-12.module_el8.5.0+2608+72063365"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "libvirt-libs"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "6.0.0-37.module_el8.5.0+2608+72063365"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "netcf-libs"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "0.2.8-12.module_el8.6.0+2880+7d9e3703"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "nbdkit-xz-filter"
+        "name": "nbdkit-curl-plugin"
       },
       "ranges": [
         {
@@ -1677,7 +1297,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "libvirt-docs"
+        "name": "nbdkit-example-plugins"
       },
       "ranges": [
         {
@@ -1687,7 +1307,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.0.0-37.module_el8.5.0+2608+72063365"
+              "fixed": "1.16.2-4.module_el8.5.0+2608+72063365"
             }
           ]
         }
@@ -1696,7 +1316,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "libvirt-dbus"
+        "name": "nbdkit-gzip-plugin"
       },
       "ranges": [
         {
@@ -1706,7 +1326,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.3.0-2.module_el8.5.0+2608+72063365"
+              "fixed": "1.16.2-4.module_el8.5.0+2608+72063365"
             }
           ]
         }
@@ -1715,7 +1335,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "libvirt-dbus"
+        "name": "nbdkit-linuxdisk-plugin"
       },
       "ranges": [
         {
@@ -1725,7 +1345,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.3.0-2.module_el8.6.0+2880+7d9e3703"
+              "fixed": "1.16.2-4.module_el8.5.0+2608+72063365"
             }
           ]
         }
@@ -1734,7 +1354,216 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "libguestfs-gobject"
+        "name": "nbdkit-python-plugin"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.2-4.module_el8.5.0+2608+72063365"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nbdkit-server"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.2-4.module_el8.5.0+2608+72063365"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nbdkit-ssh-plugin"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.2-4.module_el8.5.0+2608+72063365"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nbdkit-vddk-plugin"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.2-4.module_el8.5.0+2608+72063365"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nbdkit-xz-filter"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.2-4.module_el8.5.0+2608+72063365"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "netcf"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.2.8-12.module_el8.6.0+2880+7d9e3703"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "netcf"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.2.8-12.module_el8.5.0+2608+72063365"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "netcf-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.2.8-12.module_el8.6.0+2880+7d9e3703"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "netcf-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.2.8-12.module_el8.5.0+2608+72063365"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "netcf-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.2.8-12.module_el8.6.0+2880+7d9e3703"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "netcf-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.2.8-12.module_el8.5.0+2608+72063365"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "perl-Sys-Guestfs"
       },
       "ranges": [
         {
@@ -1753,7 +1582,64 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "libguestfs-inspect-icons"
+        "name": "perl-Sys-Virt"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.0-1.module_el8.5.0+2608+72063365"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "perl-hivex"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.3.18-21.module_el8.5.0+2608+72063365"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3-hivex"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.3.18-21.module_el8.5.0+2608+72063365"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3-libguestfs"
       },
       "ranges": [
         {
@@ -1772,7 +1658,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "libvirt"
+        "name": "python3-libnbd"
       },
       "ranges": [
         {
@@ -1782,7 +1668,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.0.0-37.module_el8.5.0+2608+72063365"
+              "fixed": "1.2.2-1.module_el8.5.0+2608+72063365"
             }
           ]
         }
@@ -1791,7 +1677,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "libguestfs-rescue"
+        "name": "python3-libvirt"
       },
       "ranges": [
         {
@@ -1801,7 +1687,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:1.40.2-28.module_el8.5.0+2608+72063365.alma"
+              "fixed": "6.0.0-1.module_el8.5.0+2608+72063365"
             }
           ]
         }
@@ -1810,7 +1696,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "libiscsi"
+        "name": "ruby-hivex"
       },
       "ranges": [
         {
@@ -1820,7 +1706,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.18.0-8.module_el8.6.0+2880+7d9e3703"
+              "fixed": "1.3.18-21.module_el8.5.0+2608+72063365"
             }
           ]
         }
@@ -1829,26 +1715,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "libguestfs-gobject-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:1.40.2-28.module_el8.5.0+2608+72063365.alma"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "libguestfs-benchmarking"
+        "name": "ruby-libguestfs"
       },
       "ranges": [
         {
@@ -1886,7 +1753,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "libguestfs-java-devel"
+        "name": "seabios-bin"
       },
       "ranges": [
         {
@@ -1896,7 +1763,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:1.40.2-28.module_el8.5.0+2608+72063365.alma"
+              "fixed": "1.13.0-2.module_el8.5.0+2608+72063365"
             }
           ]
         }
@@ -1905,7 +1772,140 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "ruby-libguestfs"
+        "name": "seavgabios-bin"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.0-2.module_el8.5.0+2608+72063365"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "sgabios"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:0.20170427git-3.module_el8.6.0+2880+7d9e3703"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "sgabios"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:0.20170427git-3.module_el8.5.0+2608+72063365"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "sgabios-bin"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:0.20170427git-3.module_el8.5.0+2608+72063365"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "sgabios-bin"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:0.20170427git-3.module_el8.6.0+2880+7d9e3703"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "supermin"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.19-10.module_el8.5.0+2608+72063365"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "supermin-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.19-10.module_el8.5.0+2608+72063365"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "virt-dib"
       },
       "ranges": [
         {
@@ -1954,6 +1954,10 @@
   "modified": "2021-12-23T15:15:26Z",
   "details": "Kernel-based Virtual Machine (KVM) offers a full virtualization solution for Linux on numerous hardware platforms. The virt:rhel module contains packages which provide user-space components used to run virtual machines using KVM. The packages also provide APIs for managing and interacting with the virtualized systems.\n\nSecurity Fix(es):\n\n* QEMU: net: e1000e: use-after-free while sending packets (CVE-2020-15859)\n\n* QEMU: slirp: invalid pointer initialization may lead to information disclosure (bootp) (CVE-2021-3592)\n\n* QEMU: slirp: invalid pointer initialization may lead to information disclosure (udp6) (CVE-2021-3593)\n\n* QEMU: slirp: invalid pointer initialization may lead to information disclosure (udp) (CVE-2021-3594)\n\n* QEMU: slirp: invalid pointer initialization may lead to information disclosure (tftp) (CVE-2021-3595)\n\n* libvirt: Insecure sVirt label generation (CVE-2021-3631)\n\n* libvirt: Improper locking on ACL failure in virStoragePoolLookupByTargetPath API (CVE-2021-3667)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2021-4191.html",
+      "type": "ADVISORY"
+    },
     {
       "url": "https://vulners.com/cve/CVE-2020-15859",
       "type": "REPORT"

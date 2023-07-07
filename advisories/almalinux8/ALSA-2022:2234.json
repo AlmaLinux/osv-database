@@ -24,25 +24,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "subversion-perl"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.10.2-5.module_el8.5.0+2896+dbb67bd2"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
         "name": "libserf"
       },
       "ranges": [
@@ -62,7 +43,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "subversion-perl"
+        "name": "libserf"
       },
       "ranges": [
         {
@@ -72,7 +53,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.10.2-5.module_el8.6.0+2897+d2f1747f"
+              "fixed": "1.3.9-9.module_el8.4.0+2266+ac338b6d"
             }
           ]
         }
@@ -81,7 +62,26 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "subversion-tools"
+        "name": "mod_dav_svn"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.2-5.module_el8.5.0+2896+dbb67bd2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mod_dav_svn"
       },
       "ranges": [
         {
@@ -110,7 +110,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.10.2-5.module_el8.6.0+2897+d2f1747f"
+              "fixed": "1.10.2-5.module_el8.5.0+2896+dbb67bd2"
             }
           ]
         }
@@ -119,7 +119,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "utf8proc"
+        "name": "subversion"
       },
       "ranges": [
         {
@@ -129,7 +129,64 @@
               "introduced": "0"
             },
             {
-              "fixed": "2.1.1-5.module_el8.3.0+2053+ac338b6d"
+              "fixed": "1.10.2-5.module_el8.6.0+2897+d2f1747f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "subversion-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.2-5.module_el8.6.0+2897+d2f1747f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "subversion-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.2-5.module_el8.5.0+2896+dbb67bd2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "subversion-gnome"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.2-5.module_el8.5.0+2896+dbb67bd2"
             }
           ]
         }
@@ -176,7 +233,45 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "subversion"
+        "name": "subversion-javahl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.2-5.module_el8.6.0+2897+d2f1747f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "subversion-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.2-5.module_el8.6.0+2897+d2f1747f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "subversion-libs"
       },
       "ranges": [
         {
@@ -195,7 +290,26 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "mod_dav_svn"
+        "name": "subversion-perl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.2-5.module_el8.5.0+2896+dbb67bd2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "subversion-perl"
       },
       "ranges": [
         {
@@ -206,6 +320,63 @@
             },
             {
               "fixed": "1.10.2-5.module_el8.6.0+2897+d2f1747f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "subversion-tools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.2-5.module_el8.6.0+2897+d2f1747f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "subversion-tools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.2-5.module_el8.5.0+2896+dbb67bd2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "utf8proc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.1-5.module_el8.4.0+2266+ac338b6d"
             }
           ]
         }
@@ -233,7 +404,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "subversion-devel"
+        "name": "utf8proc"
       },
       "ranges": [
         {
@@ -243,140 +414,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.10.2-5.module_el8.6.0+2897+d2f1747f"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "mod_dav_svn"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.10.2-5.module_el8.5.0+2896+dbb67bd2"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "subversion-libs"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.10.2-5.module_el8.6.0+2897+d2f1747f"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "subversion-javahl"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.10.2-5.module_el8.6.0+2897+d2f1747f"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "subversion-tools"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.10.2-5.module_el8.5.0+2896+dbb67bd2"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "subversion-libs"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.10.2-5.module_el8.5.0+2896+dbb67bd2"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "subversion-gnome"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.10.2-5.module_el8.5.0+2896+dbb67bd2"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "subversion-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.10.2-5.module_el8.5.0+2896+dbb67bd2"
+              "fixed": "2.1.1-5.module_el8.3.0+2053+ac338b6d"
             }
           ]
         }

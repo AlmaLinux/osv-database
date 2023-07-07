@@ -5,7 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "gdb-headless"
+        "name": "gdb"
       },
       "ranges": [
         {
@@ -43,26 +43,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "gdb"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "8.2-16.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "gdb"
+        "name": "gdb-gdbserver"
       },
       "ranges": [
         {
@@ -82,25 +63,6 @@
       "package": {
         "ecosystem": "AlmaLinux:8",
         "name": "gdb-headless"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "8.2-16.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "gdb-gdbserver"
       },
       "ranges": [
         {

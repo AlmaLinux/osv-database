@@ -1,0 +1,89 @@
+{
+  "id": "ALSA-2021:1627",
+  "summary": "Moderate: trousers security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "trousers"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.3.15-1.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "trousers-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.3.15-1.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "trousers-lib"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.3.15-1.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2020-24331",
+    "CVE-2020-24332",
+    "CVE-2020-24330"
+  ],
+  "published": "2021-05-18T05:41:50Z",
+  "modified": "2023-03-13T16:34:09Z",
+  "details": "TrouSerS is an implementation of the Trusted Computing Group's Software Stack (TSS) specification. TrouSerS enables the user to write applications that make use of the Trusted Platform Module (TPM) hardware.\n\nThe following packages have been upgraded to a later upstream version: trousers (0.3.15). (BZ#1725782)\n\nSecurity Fix(es):\n\n* trousers: tss user still has read and write access to the /etc/tcsd.conf file if tcsd is started as root (CVE-2020-24331)\n\n* trousers: tss user can be used to create or corrupt existing files, this could lead to DoS (CVE-2020-24332)\n\n* trousers: fails to drop the root gid privilege when no longer needed (CVE-2020-24330)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2021-1627.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-24330",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-24331",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-24332",
+      "type": "REPORT"
+    }
+  ]
+}

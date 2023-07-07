@@ -5,6 +5,25 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
+        "name": "mecab"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.996-2.module_el8.6.0+3340+d764b636"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
         "name": "mecab-ipadic"
       },
       "ranges": [
@@ -24,83 +43,64 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
+        "name": "mecab-ipadic"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.0.20070801-16.module_el8.6.0+3151+3a7073b7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mecab-ipadic-EUCJP"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.0.20070801-16.module_el8.6.0+3340+d764b636"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mecab-ipadic-EUCJP"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.0.20070801-16.module_el8.6.0+3151+3a7073b7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
         "name": "mysql"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "8.0.30-1.module_el8.6.0+3340+d764b636"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "mysql-server"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "8.0.30-1.module_el8.6.0+3340+d764b636"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "mysql-libs"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "8.0.30-1.module_el8.6.0+3340+d764b636"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "mysql-test"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "8.0.30-1.module_el8.6.0+3340+d764b636"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "mysql-devel"
       },
       "ranges": [
         {
@@ -138,6 +138,25 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
+        "name": "mysql-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.30-1.module_el8.6.0+3340+d764b636"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
         "name": "mysql-errmsg"
       },
       "ranges": [
@@ -157,7 +176,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "mecab"
+        "name": "mysql-libs"
       },
       "ranges": [
         {
@@ -167,7 +186,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "0.996-2.module_el8.6.0+3340+d764b636"
+              "fixed": "8.0.30-1.module_el8.6.0+3340+d764b636"
             }
           ]
         }
@@ -176,7 +195,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "mecab-ipadic-EUCJP"
+        "name": "mysql-server"
       },
       "ranges": [
         {
@@ -186,7 +205,26 @@
               "introduced": "0"
             },
             {
-              "fixed": "2.7.0.20070801-16.module_el8.6.0+3340+d764b636"
+              "fixed": "8.0.30-1.module_el8.6.0+3340+d764b636"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mysql-test"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.30-1.module_el8.6.0+3340+d764b636"
             }
           ]
         }
@@ -308,7 +346,7 @@
     "CVE-2021-35623"
   ],
   "published": "2022-10-25T00:00:00Z",
-  "modified": "2022-10-26T07:08:08Z",
+  "modified": "2022-10-27T10:12:06Z",
   "details": "MySQL is a multi-user, multi-threaded SQL database server. It consists of the MySQL server daemon (mysqld) and many client programs and libraries.\n\nThe following packages have been upgraded to a later upstream version: mysql (8.0.30).\n\nSecurity Fix(es):\n\n* mysql: Server: DML multiple unspecified vulnerabilities (CVE-2021-2478, CVE-2021-2479, CVE-2021-35591, CVE-2021-35607, CVE-2022-21301, CVE-2022-21413)\n* mysql: Server: Optimizer multiple unspecified vulnerabilities (CVE-2021-2481, CVE-2021-35575, CVE-2021-35577, CVE-2021-35610, CVE-2021-35612, CVE-2021-35626, CVE-2021-35627, CVE-2021-35628, CVE-2021-35634, CVE-2021-35635, CVE-2021-35636, CVE-2021-35638, CVE-2021-35641, CVE-2021-35642, CVE-2021-35643, CVE-2021-35644, CVE-2021-35645, CVE-2021-35646, CVE-2021-35647, CVE-2022-21253, CVE-2022-21254, CVE-2022-21264, CVE-2022-21278, CVE-2022-21297, CVE-2022-21339, CVE-2022-21342, CVE-2022-21351, CVE-2022-21370, CVE-2022-21378, CVE-2022-21412, CVE-2022-21414, CVE-2022-21435, CVE-2022-21436, CVE-2022-21437, CVE-2022-21438, CVE-2022-21440, CVE-2022-21452, CVE-2022-21459, CVE-2022-21462, CVE-2022-21478, CVE-2022-21479, CVE-2022-21509, CVE-2022-21525, CVE-2022-21526, CVE-2022-21527, CVE-2022-21528, CVE-2022-21529, CVE-2022-21530, CVE-2022-21531, CVE-2022-21553, CVE-2022-21569, CVE-2022-21265)\n* mysql: Server: Replication multiple unspecified vulnerabilities (CVE-2021-35546, CVE-2022-21344, CVE-2022-21415)\n* mysql: Server: Error Handling unspecified vulnerability (CVE-2021-35596)\n* mysql: C API unspecified vulnerability (CVE-2021-35597)\n* mysql: Server: Options multiple unspecified vulnerabilities (CVE-2021-35602, CVE-2021-35630, CVE-2022-21515)\n* mysql: InnoDB multiple unspecified vulnerabilities (CVE-2021-35604, CVE-2022-21302, CVE-2022-21348, CVE-2022-21352, CVE-2022-21417, CVE-2022-21418, CVE-2022-21451, CVE-2022-21517, CVE-2022-21537, CVE-2022-21539, CVE-2022-21423)\n* mysql: Server: Group Replication Plugin multiple unspecified vulnerabilities (CVE-2021-35608, CVE-2022-21256, CVE-2022-21379, CVE-2022-21454)\n* mysql: Server: Security: Encryption multiple unspecified vulnerabilities (CVE-2021-35622, CVE-2022-21358, CVE-2022-21372, CVE-2022-21538)\n* mysql: Server: Security: Privileges multiple unspecified vulnerabilities (CVE-2021-35624, CVE-2022-21245, CVE-2021-35625)\n* mysql: Server: GIS unspecified vulnerability (CVE-2021-35631)\n* mysql: Server: Data Dictionary unspecified vulnerability (CVE-2021-35632)\n* mysql: Server: PS unspecified vulnerability (CVE-2021-35637)\n* mysql: Server: Stored Procedure multiple unspecified vulnerabilities (CVE-2021-35639, CVE-2022-21303, CVE-2022-21522, CVE-2022-21534)\n* mysql: Server: FTS multiple unspecified vulnerabilities (CVE-2021-35648, CVE-2022-21427)\n* mysql: Server: Federated multiple unspecified vulnerabilities (CVE-2022-21270, CVE-2022-21547)\n* mysql: Server: Parser unspecified vulnerability (CVE-2022-21304)\n* mysql: Server: Information Schema multiple unspecified vulnerabilities (CVE-2022-21362, CVE-2022-21374)\n* mysql: Server: Compiling unspecified vulnerability (CVE-2022-21367)\n* mysql: Server: Components Services unspecified vulnerability (CVE-2022-21368)\n* mysql: Server: DDL multiple unspecified vulnerabilities (CVE-2022-21425, CVE-2022-21444, CVE-2021-35640, CVE-2022-21249)\n* mysql: Server: PAM Auth Plugin unspecified vulnerability (CVE-2022-21457)\n* mysql: Server: Logging multiple unspecified vulnerabilities (CVE-2022-21460, CVE-2021-35633)\n* mysql: Server: Security: Roles unspecified vulnerability (CVE-2021-35623)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Rebuild mecab due to change in the suffix (from .el8 to .el8.0.0) [rhel-8] (BZ#2110940)",
   "references": [
     {

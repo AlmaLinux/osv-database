@@ -1,0 +1,30 @@
+{
+  "id": "ALBA-2021:4096",
+  "summary": "brasero bug fix and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "brasero-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.12.2-4.el8_4.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2021-11-02T10:33:51Z",
+  "modified": "2021-11-03T08:35:17Z",
+  "details": "The brasero packages provide a disc-burning program, which serves as a\ngraphical front-end to to the cdrtools, cdrskin, and growisofs utilities,\nand, optionally, to libburn.\n\nBug Fix(es) and Enhancement(s):\n\n* Brasero cannot burn BluRay disks (BZ#2005826)",
+  "references": []
+}

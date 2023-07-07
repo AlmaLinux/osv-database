@@ -43,26 +43,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "sqlite"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3.34.1-6.el9_1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
-        "name": "sqlite-devel"
+        "name": "sqlite-libs"
       },
       "ranges": [
         {
@@ -83,7 +64,7 @@
     "CVE-2022-35737"
   ],
   "published": "2023-01-23T00:00:00Z",
-  "modified": "2023-03-08T11:28:57Z",
+  "modified": "2023-03-08T11:29:02Z",
   "details": "SQLite is a C library that implements an SQL database engine. A large subset of SQL92 is supported. A complete database is stored in a single disk file. The API is designed for convenience and ease of use. Applications that link against SQLite can enjoy the power and flexibility of an SQL database without the administrative hassles of supporting a separate database server.\n\nSecurity Fix(es):\n\n* sqlite: an array-bounds overflow if billions of bytes are used in a string argument to a C API (CVE-2022-35737)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {

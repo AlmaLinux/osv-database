@@ -5,25 +5,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "vulkan-headers"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.2.198.0-1.el8_5"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
         "name": "spirv-tools"
       },
       "ranges": [
@@ -35,6 +16,63 @@
             },
             {
               "fixed": "2021.4-3.20211110.git21e3f68.el8_5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "spirv-tools-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2021.4-3.20211110.git21e3f68.el8_5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "spirv-tools-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2021.4-3.20211110.git21e3f68.el8_5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "vulkan-headers"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.198.0-1.el8_5"
             }
           ]
         }
@@ -63,63 +101,6 @@
       "package": {
         "ecosystem": "AlmaLinux:8",
         "name": "vulkan-loader-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.2.198.0-2.el8_5"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "spirv-tools-libs"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2021.4-3.20211110.git21e3f68.el8_5"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "vulkan-validation-layers"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.2.198.0-4.el8_5"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "vulkan-loader"
       },
       "ranges": [
         {
@@ -157,7 +138,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "vulkan-loader-devel"
+        "name": "vulkan-validation-layers"
       },
       "ranges": [
         {
@@ -167,7 +148,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.2.198.0-2.el8_5"
+              "fixed": "1.2.198.0-4.el8_5"
             }
           ]
         }
@@ -176,7 +157,7 @@
   ],
   "aliases": [],
   "published": "2022-02-01T20:09:04Z",
-  "modified": "2022-02-02T11:55:08Z",
+  "modified": "2022-02-02T11:59:42Z",
   "details": "The vulkan packages contain the reference ICD loader and validation layers for\nVulkan, a graphics and compute API for cross-platform access to modern GPUs.\n\nBug Fix(es) and Enhancement(s):\n\n* Rebase vulkan-loader in 8.6 (BZ#2016391)\n\n* Rebase vulkan-headers in 8.6 (BZ#2016392)\n\n* Rebase spirv-headers in 8.6 (BZ#2016393)\n\n* Rebase spirv-tools in 8.6 (BZ#2016394)\n\n* Rebase vulkan-tools in 8.6 (BZ#2016395)\n\n* Rebase vulkan-validation-layers in 8.6 (BZ#2016396)\n\n* Rebase glslang in 8.6 (BZ#2027693)",
   "references": []
 }

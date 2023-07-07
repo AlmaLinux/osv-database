@@ -15,7 +15,45 @@
               "introduced": "0"
             },
             {
+              "fixed": "1.0.5-18.module_el8.6.0+2867+72759d2f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "Judy"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
               "fixed": "1.0.5-18.module_el8.5.0+2632+14ced695"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "Judy"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.5-18.module_el8.6.0+2761+593e5e59"
             }
           ]
         }
@@ -26,5 +64,10 @@
   "published": "2019-05-07T03:40:49Z",
   "modified": "2022-04-28T12:47:02Z",
   "details": "MariaDB is a multi-user, multi-threaded SQL database server that is binary compatible with MySQL. \n\nBug Fix(es):\n\n* Altering table's column used in primary key causes data corruption (BZ#1702602)",
-  "references": []
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALBA-2019-0987.html",
+      "type": "ADVISORY"
+    }
+  ]
 }

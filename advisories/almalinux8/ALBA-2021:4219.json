@@ -24,7 +24,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "libevdev"
+        "name": "libevdev-devel"
       },
       "ranges": [
         {
@@ -62,7 +62,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "libinput-utils"
+        "name": "libinput-devel"
       },
       "ranges": [
         {
@@ -81,7 +81,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "libinput"
+        "name": "libinput-utils"
       },
       "ranges": [
         {
@@ -100,7 +100,12 @@
   ],
   "aliases": [],
   "published": "2021-11-09T08:44:21Z",
-  "modified": "2021-11-12T10:20:56Z",
+  "modified": "2021-11-12T10:21:01Z",
   "details": "For detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "references": []
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALBA-2021-4219.html",
+      "type": "ADVISORY"
+    }
+  ]
 }

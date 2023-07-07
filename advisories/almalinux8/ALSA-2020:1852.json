@@ -1,0 +1,41 @@
+{
+  "id": "ALSA-2020:1852",
+  "summary": "Moderate: patch security and bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "patch"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.6-11.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2019-13636"
+  ],
+  "published": "2020-04-28T09:23:52Z",
+  "modified": "2020-04-28T09:23:44Z",
+  "details": "The patch program applies diff files to originals. The diff command is used to compare an original to a changed file. Diff lists the changes made to the file. A person who has the original file can then use the patch command with the diff file to add the changes to their original file (patching the file).\n\nSecurity Fix(es):\n\n* patch: the following of symlinks in inp.c and util.c is mishandled in cases other than input files (CVE-2019-13636)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2020-1852.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-13636",
+      "type": "REPORT"
+    }
+  ]
+}

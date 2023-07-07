@@ -1,0 +1,50 @@
+{
+  "id": "ALSA-2022:8453",
+  "summary": "Important: device-mapper-multipath security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "device-mapper-multipath"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.8.7-12.el9_1.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-41974",
+    "CVE-2022-3787"
+  ],
+  "published": "2022-11-15T00:00:00Z",
+  "modified": "2022-11-17T13:38:40Z",
+  "details": "The device-mapper-multipath packages provide tools that use the device-mapper multipath kernel module to manage multipath devices.\n\nSecurity Fix(es):\n\n* device-mapper-multipath: Regression of CVE-2022-41974 fix in AlmaLinux (CVE-2022-3787)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:8453",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-3787",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2138959",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2022-8453.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

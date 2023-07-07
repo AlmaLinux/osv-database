@@ -1,0 +1,130 @@
+{
+  "id": "ALSA-2023:2357",
+  "summary": "Moderate: git-lfs security and bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "git-lfs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.0-1.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-1705",
+    "CVE-2022-2880",
+    "CVE-2022-27664",
+    "CVE-2022-30630",
+    "CVE-2022-30632",
+    "CVE-2022-30635",
+    "CVE-2022-32148",
+    "CVE-2022-41715",
+    "CVE-2022-41717",
+    "CVE-2022-32189"
+  ],
+  "published": "2023-05-09T00:00:00Z",
+  "modified": "2023-05-12T06:02:25Z",
+  "details": "Git Large File Storage (LFS) replaces large files such as audio samples, videos, datasets, and graphics with text pointers inside Git, while storing the file contents on a remote server.\n\nSecurity Fix(es):\n\n* golang: net/http: improper sanitization of Transfer-Encoding header (CVE-2022-1705)\n* golang: net/http/httputil: ReverseProxy should not forward unparseable query parameters (CVE-2022-2880)\n* golang: net/http: handle server errors after sending GOAWAY (CVE-2022-27664)\n* golang: io/fs: stack exhaustion in Glob (CVE-2022-30630)\n* golang: path/filepath: stack exhaustion in Glob (CVE-2022-30632)\n* golang: encoding/gob: stack exhaustion in Decoder.Decode (CVE-2022-30635)\n* golang: net/http/httputil: NewSingleHostReverseProxy - omit X-Forwarded-For not working (CVE-2022-32148)\n* golang: regexp/syntax: limit memory used by parsing regexps (CVE-2022-41715)\n* golang: net/http: An attacker can cause excessive memory growth in a Go server accepting HTTP/2 requests (CVE-2022-41717)\n* golang: math/big: decoding big.Float and big.Rat types can panic if the encoded message is too short, potentially allowing a denial of service (CVE-2022-32189)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:2357",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-1705",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-27664",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-2880",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-30630",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-30632",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-30635",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-32148",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-32189",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-41715",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-41717",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2107371",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2107374",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2107383",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2107386",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2107388",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2113814",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2124669",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2132868",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2132872",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2161274",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-2357.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

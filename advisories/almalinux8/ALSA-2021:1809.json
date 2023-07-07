@@ -5,6 +5,25 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
+        "name": "mod_http2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.15.7-3.module_el8.5.0+2609+b30d9eec"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
         "name": "mod_md"
       },
       "ranges": [
@@ -39,25 +58,6 @@
           ]
         }
       ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "mod_http2"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.15.7-3.module_el8.5.0+2609+b30d9eec"
-            }
-          ]
-        }
-      ]
     }
   ],
   "aliases": [
@@ -69,6 +69,10 @@
   "modified": "2022-01-26T07:27:24Z",
   "details": "The httpd packages provide the Apache HTTP Server, a powerful, efficient, and extensible web server.\n\nSecurity Fix(es):\n\n* httpd: mod_session_cookie does not respect expiry time (CVE-2018-17199)\n\n* httpd: mod_proxy_uwsgi buffer overflow (CVE-2020-11984)\n\n* httpd: mod_http2 concurrent pool usage (CVE-2020-11993)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2021-1809.html",
+      "type": "ADVISORY"
+    },
     {
       "url": "https://vulners.com/cve/CVE-2018-17199",
       "type": "REPORT"

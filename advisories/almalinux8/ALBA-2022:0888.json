@@ -5,7 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "nmstate-plugin-ovsdb"
+        "name": "nmstate"
       },
       "ranges": [
         {
@@ -24,7 +24,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "nmstate"
+        "name": "nmstate-plugin-ovsdb"
       },
       "ranges": [
         {
@@ -64,5 +64,10 @@
   "published": "2022-03-15T09:10:22Z",
   "modified": "2022-03-16T22:22:38Z",
   "details": "Nmstate is a library with an accompanying command line tool that manages host\nnetworking settings in a declarative manner.\n\nBug Fix(es) and Enhancement(s):\n\n* NNCP deployment fails on applying ipv6 routes (BZ#2054054)",
-  "references": []
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALBA-2022-0888.html",
+      "type": "ADVISORY"
+    }
+  ]
 }

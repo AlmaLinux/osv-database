@@ -1,0 +1,42 @@
+{
+  "id": "ALSA-2021:2714",
+  "summary": "Important: kernel security and bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-tools-libs-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-305.10.2.el8_4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2021-33909",
+    "CVE-2021-32399"
+  ],
+  "published": "2021-07-20T13:30:15Z",
+  "modified": "2021-08-11T08:54:00Z",
+  "details": "The kernel packages contain the Linux kernel, the core of any Linux operating system.\n\nSecurity Fix(es):\n\n* kernel: size_t-to-int conversion vulnerability in the filesystem layer (CVE-2021-33909)\n\n* kernel: race condition for removal of the HCI controller (CVE-2021-32399)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* pinctrl_emmitsburg: improper configuration (BZ#1963984)\n\n* [Ampere] locking/qrwlock: Fix ordering in queued_write_lock_slowpath (BZ#1964419)\n\n* AlmaLinux8.4 - [P10] [NPIV Multi queue Test kernel- 4.18.0-283.el8.ibmvfc_11022021.ppc64le] DLPAR operation fails for ibmvfc on Denali (ibmvfc/dlpar/AlmaLinux8.4) (BZ#1964697)\n\n* Every server is displaying the same power levels for all of our i40e  25G interfaces. 10G interfaces seem to be correct. Ethtool version is 5.0 (BZ#1967099)\n\n* backport fixes for Connection Tracking offload (BZ#1968679)\n\n* fm10k: removal of MODULE_VERSION deemed improper for y-stream release (BZ#1969910)\n\n* ixgbevf: removal of MODULE_VERSION deemed improper for y-stream release (BZ#1969911)\n\n* ena: removal of MODULE_VERSION deemed improper for y-stream release (BZ#1969913)\n\n* b44, bnx2, bnx2x, bnxt, tg3: removal of MODULE_VERSION deemed improper for y-stream release (BZ#1969914)\n\n* e1000, e1000e: removal of MODULE_VERSION deemed improper for y-stream release (BZ#1969915)\n\n* ice: removal of MODULE_VERSION deemed improper for y-stream release (BZ#1969917)\n\n* igb: removal of MODULE_VERSION deemed improper for y-stream release (BZ#1969919)\n\n* igbvf: removal of MODULE_VERSION deemed improper for y-stream release (BZ#1969920)\n\n* igc: removal of MODULE_VERSION deemed improper for y-stream release (BZ#1969921)\n\n* ixgbe: removal of MODULE_VERSION deemed improper for y-stream release (BZ#1969922)\n\n* i40e: removal of MODULE_VERSION deemed improper for y-stream release (BZ#1969923)\n\n* iavf: removal of MODULE_VERSION deemed improper for y-stream release (BZ#1969925)\n\n* Backport netlink extack tracepoint (BZ#1972938)\n\n* [AlmaLinux8.4] kernel panic when create NPIV port on qedf driver (BZ#1974968)",
+  "references": [
+    {
+      "url": "https://vulners.com/cve/CVE-2021-32399",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-33909",
+      "type": "REPORT"
+    }
+  ]
+}

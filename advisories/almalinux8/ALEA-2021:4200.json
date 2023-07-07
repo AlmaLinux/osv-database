@@ -15,6 +15,25 @@
               "introduced": "0"
             },
             {
+              "fixed": "25-1.module_el8.5.0+246+05401605"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-packaging"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
               "fixed": "25-1.module_el8.5.0+2605+45d748af"
             }
           ]
@@ -26,5 +45,10 @@
   "published": "2021-11-09T08:37:15Z",
   "modified": "2021-12-16T11:29:15Z",
   "details": "This enhancement update adds the nodejs:16 module to AlmaLinuxas a Technology Preview. A future update will provide a Long Term Support (LTS) version of Node.js 16, which will be fully supported. (BZ#1953991)\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.\n\nFor information on AlmaLinux scope of support for Technology Preview features, see Technology Preview Features Support Scope.",
-  "references": []
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALEA-2021-4200.html",
+      "type": "ADVISORY"
+    }
+  ]
 }

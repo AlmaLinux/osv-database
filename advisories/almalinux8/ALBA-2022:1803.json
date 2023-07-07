@@ -5,26 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "fence-virtd-multicast"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.0.0-2.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "fence-virtd-serial"
+        "name": "fence-virt"
       },
       "ranges": [
         {
@@ -81,25 +62,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "fence-virtd-tcp"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.0.0-2.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
         "name": "fence-virtd-libvirt"
       },
       "ranges": [
@@ -119,7 +81,45 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "fence-virt"
+        "name": "fence-virtd-multicast"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.0-2.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "fence-virtd-serial"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.0-2.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "fence-virtd-tcp"
       },
       "ranges": [
         {

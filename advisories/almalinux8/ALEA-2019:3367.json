@@ -5,7 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "google-noto-sans-cjk-ttc-fonts"
+        "name": "google-noto-cjk-fonts-common"
       },
       "ranges": [
         {
@@ -24,7 +24,26 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "google-noto-cjk-fonts-common"
+        "name": "google-noto-sans-cjk-jp-fonts"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20190416-1.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "google-noto-sans-cjk-ttc-fonts"
       },
       "ranges": [
         {
@@ -64,5 +83,10 @@
   "published": "2019-11-05T17:36:23Z",
   "modified": "2021-11-12T10:20:55Z",
   "details": "For detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "references": []
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALEA-2019-3367.html",
+      "type": "ADVISORY"
+    }
+  ]
 }

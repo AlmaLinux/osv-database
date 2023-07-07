@@ -5,7 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "dovecot-pigeonhole"
+        "name": "dovecot"
       },
       "ranges": [
         {
@@ -24,7 +24,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "dovecot-pgsql"
+        "name": "dovecot-devel"
       },
       "ranges": [
         {
@@ -62,7 +62,26 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "dovecot"
+        "name": "dovecot-pgsql"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.3.16-3.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "dovecot-pigeonhole"
       },
       "ranges": [
         {
@@ -83,7 +102,7 @@
     "CVE-2022-30550"
   ],
   "published": "2022-11-08T00:00:00Z",
-  "modified": "2022-11-11T23:00:28Z",
+  "modified": "2022-11-14T20:26:20Z",
   "details": "Dovecot is an IMAP server for Linux and other UNIX-like systems, written primarily with security in mind. It also contains a small POP3 server and supports e-mail in either the maildir or mbox format. The SQL drivers and authentication plug-ins are provided as subpackages. \n\nSecurity Fix(es):\n\n* dovecot: Privilege escalation when similar master and non-master passdbs are used (CVE-2022-30550)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
     {

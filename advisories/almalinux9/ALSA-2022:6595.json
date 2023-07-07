@@ -5,45 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "npm"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:8.11.0-1.16.16.0.1.el9_0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
-        "name": "nodejs-nodemon"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.0.19-1.el9_0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
-        "name": "nodejs-libs"
+        "name": "nodejs"
       },
       "ranges": [
         {
@@ -62,7 +24,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "nodejs"
+        "name": "nodejs-docs"
       },
       "ranges": [
         {
@@ -119,7 +81,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "nodejs-docs"
+        "name": "nodejs-nodemon"
       },
       "ranges": [
         {
@@ -129,7 +91,26 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:16.16.0-1.el9_0"
+              "fixed": "2.0.19-1.el9_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "npm"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:8.11.0-1.16.16.0.1.el9_0"
             }
           ]
         }

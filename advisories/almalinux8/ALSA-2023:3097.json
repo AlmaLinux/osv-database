@@ -1,0 +1,85 @@
+{
+  "id": "ALSA-2023:3097",
+  "summary": "Moderate: gssntlmssp security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gssntlmssp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.0-1.el8_8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2023-25563",
+    "CVE-2023-25564",
+    "CVE-2023-25565",
+    "CVE-2023-25566",
+    "CVE-2023-25567"
+  ],
+  "published": "2023-05-16T00:00:00Z",
+  "modified": "2023-05-19T22:00:11Z",
+  "details": "The gssntlmssp is a GSSAPI NTLM mechanism that allows to perform NTLM authentication in GSSAPI programs.\n\nSecurity Fix(es):\n\n* gssntlmssp: multiple out-of-bounds read when decoding NTLM fields (CVE-2023-25563)\n* gssntlmssp: memory corruption when decoding UTF16 strings (CVE-2023-25564)\n* gssntlmssp: incorrect free when decoding target information (CVE-2023-25565)\n* gssntlmssp: memory leak when parsing usernames (CVE-2023-25566)\n* gssntlmssp: out-of-bounds read when decoding target information (CVE-2023-25567)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:3097",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-25563",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-25564",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-25565",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-25566",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-25567",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2172019",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2172020",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2172021",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2172022",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2172023",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2023-3097.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

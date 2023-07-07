@@ -5,26 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "sane-backends-libs"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.0.27-22.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "sane-backends-drivers-scanners"
+        "name": "sane-backends"
       },
       "ranges": [
         {
@@ -81,44 +62,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "sane-backends-drivers-cameras"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.0.27-22.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "sane-backends-libs"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.0.27-22.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
         "name": "sane-backends-doc"
       },
       "ranges": [
@@ -138,7 +81,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "sane-backends-devel"
+        "name": "sane-backends-drivers-cameras"
       },
       "ranges": [
         {
@@ -176,26 +119,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "sane-backends"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.0.27-22.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "sane-backends-drivers-cameras"
+        "name": "sane-backends-libs"
       },
       "ranges": [
         {
@@ -219,6 +143,10 @@
   "modified": "2021-11-12T10:20:56Z",
   "details": "Scanner Access Now Easy (SANE) is a universal scanner interface. The SANE application programming interface (API) provides standardized access to any raster image scanner hardware (for example, flatbed scanners, hand-held scanners, video and still cameras, and frame-grabbers).\n\nSecurity Fix(es):\n\n* sane-backends: NULL pointer dereference in sanei_epson_net_read function (CVE-2020-12867)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2021-1744.html",
+      "type": "ADVISORY"
+    },
     {
       "url": "https://vulners.com/cve/CVE-2020-12867",
       "type": "REPORT"

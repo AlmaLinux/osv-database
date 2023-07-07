@@ -1,0 +1,69 @@
+{
+  "id": "ALSA-2022:5597",
+  "summary": "Important: pandoc security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "pandoc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.6-6.el8_6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "pandoc-common"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.6-6.el8_6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-24724",
+    "CVE-2022-24724"
+  ],
+  "published": "2022-07-18T00:00:00Z",
+  "modified": "2022-07-20T15:01:31Z",
+  "details": "Pandoc is a markdown/markup conversion tool. The version of pandoc in AlmaLinux 8 CRB uses cmark-gfm (GitHub's extended version of the C reference implementation of CommonMark) for parts of its conversion. The update, fixes CVE-2022-24724: an integer overflow in cmark-gfm's table row parsing which may lead to heap memory corruption when parsing tables with more than UINT16_MAX columns.\nSecurity Fix(es):\n* cmark-gfm: possible RCE due to integer overflow (CVE-2022-24724)\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:5597",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-24724",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2060662",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2022-5597.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

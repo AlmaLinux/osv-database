@@ -5,26 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "dotnet-sdk-5.0"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "5.0.213-1.el8_5"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "dotnet-apphost-pack-5.0"
+        "name": "aspnetcore-runtime-5.0"
       },
       "ranges": [
         {
@@ -44,6 +25,25 @@
       "package": {
         "ecosystem": "AlmaLinux:8",
         "name": "aspnetcore-targeting-pack-5.0"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.0.16-1.el8_5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "dotnet-apphost-pack-5.0"
       },
       "ranges": [
         {
@@ -100,7 +100,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "aspnetcore-runtime-5.0"
+        "name": "dotnet-sdk-5.0"
       },
       "ranges": [
         {
@@ -110,7 +110,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "5.0.16-1.el8_5"
+              "fixed": "5.0.213-1.el8_5"
             }
           ]
         }
@@ -119,7 +119,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "dotnet-templates-5.0"
+        "name": "dotnet-sdk-5.0-source-built-artifacts"
       },
       "ranges": [
         {
@@ -153,11 +153,30 @@
           ]
         }
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "dotnet-templates-5.0"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.0.213-1.el8_5"
+            }
+          ]
+        }
+      ]
     }
   ],
   "aliases": [],
   "published": "2022-04-18T13:18:09Z",
-  "modified": "2022-04-19T11:39:29Z",
+  "modified": "2022-04-19T11:42:24Z",
   "details": ".NET Core is a managed-software framework. It implements a subset of the .NET framework APIs and several new APIs, and it includes a CLR implementation.\n\nBug Fix(es) and Enhancement(s):\n\n* Update .NET 5.0 to SDK 5.0.213 and Runtime 5.0.16 [rhel-8.5.0.z] (BZ#2072003)",
   "references": []
 }

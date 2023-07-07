@@ -1,0 +1,76 @@
+{
+  "id": "ALSA-2023:2784",
+  "summary": "Moderate: grafana security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "grafana"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.5.15-4.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-2880",
+    "CVE-2022-27664",
+    "CVE-2022-39229",
+    "CVE-2022-41715"
+  ],
+  "published": "2023-05-16T00:00:00Z",
+  "modified": "2023-05-19T21:59:59Z",
+  "details": "Grafana is an open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB. \n\nSecurity Fix(es):\n\n* golang: net/http/httputil: ReverseProxy should not forward unparseable query parameters (CVE-2022-2880)\n* golang: net/http: handle server errors after sending GOAWAY (CVE-2022-27664)\n* grafana: using email as a username can block other users from signing in (CVE-2022-39229)\n* golang: regexp/syntax: limit memory used by parsing regexps (CVE-2022-41715)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:2784",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-27664",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-2880",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-39229",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-41715",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2124669",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2131149",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2132868",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2132872",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2023-2784.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

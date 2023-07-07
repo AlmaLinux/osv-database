@@ -5,7 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "xorg-x11-server-Xspice"
+        "name": "xorg-x11-drv-qxl"
       },
       "ranges": [
         {
@@ -24,7 +24,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "xorg-x11-drv-qxl"
+        "name": "xorg-x11-server-Xspice"
       },
       "ranges": [
         {
@@ -45,5 +45,10 @@
   "published": "2020-04-28T09:02:22Z",
   "modified": "2021-11-12T10:20:54Z",
   "details": "For detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "references": []
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALBA-2020-1661.html",
+      "type": "ADVISORY"
+    }
+  ]
 }

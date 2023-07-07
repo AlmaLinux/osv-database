@@ -24,7 +24,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "gcc-toolset-10-systemtap-devel"
+        "name": "gcc-toolset-10-systemtap-client"
       },
       "ranges": [
         {
@@ -43,7 +43,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "gcc-toolset-10-systemtap-runtime"
+        "name": "gcc-toolset-10-systemtap-devel"
       },
       "ranges": [
         {
@@ -81,7 +81,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "gcc-toolset-10-systemtap-client"
+        "name": "gcc-toolset-10-systemtap-runtime"
       },
       "ranges": [
         {
@@ -140,5 +140,10 @@
   "published": "2021-05-18T06:12:45Z",
   "modified": "2021-11-12T10:20:56Z",
   "details": "GCC Toolset is a compiler toolset that provides recent versions of development tools. GCC Toolset is an Application Stream packaged as a Software Collection.\n\nFor instructions on usage, see Using GCC Toolset linked from the References section. Components and specifics of this version are documented in the GCC Toolset 10 chapter.\n\nFor detailed changes in this release, see the AlmaLinux Release Notes.",
-  "references": []
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALBA-2021-1839.html",
+      "type": "ADVISORY"
+    }
+  ]
 }

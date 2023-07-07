@@ -1,0 +1,30 @@
+{
+  "id": "ALBA-2021:2576",
+  "summary": "NetworkManager bug fix and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "NetworkManager-libnm-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.30.0-9.el8_4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2021-06-29T13:43:51Z",
+  "modified": "2021-08-11T08:54:00Z",
+  "details": "NetworkManager is a system network service that manages network devices and\nconnections, attempting to keep active network connectivity when available.\nIts capabilities include managing Ethernet, wireless, mobile broadband\n(WWAN), and PPPoE devices, as well as providing VPN integration with a\nvariety of different VPN services.\n\nBug Fix(es) and Enhancement(s):\n\n* [NMCI] Automatic connection not removed when veth device gets removed\n(BZ#1965336)\n\n* [SNO][assisted-operator][nmstate] Bond Interface is down when booting\nfrom the discovery ISO (BZ#1965337)\n\n* NetworkManager doesn't honour tlb_dynamic_lb=0 when creating a bonding\ndevice with mode=balance-alb (BZ#1965948)\n\n* Provide a way to ignore existing TC qdiscs and filters (BZ#1972566)",
+  "references": []
+}

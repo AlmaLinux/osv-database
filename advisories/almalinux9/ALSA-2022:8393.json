@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2022:8393",
+  "summary": "Moderate: logrotate security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "logrotate"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.18.0-7.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-1348"
+  ],
+  "published": "2022-11-15T00:00:00Z",
+  "modified": "2022-11-17T21:19:07Z",
+  "details": "The logrotate utility simplifies the administration of multiple log files by allowing their automatic rotation, compression, removal, and mailing.\n\nSecurity Fix(es):\n\n* logrotate: potential DoS from unprivileged users via the state file (CVE-2022-1348)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:8393",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-1348",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2075074",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2022-8393.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

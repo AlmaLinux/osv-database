@@ -5,7 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "mariadb-server"
+        "name": "Judy"
       },
       "ranges": [
         {
@@ -15,121 +15,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "3:10.3.35-1.module_el8.6.0+3265+230ed96b"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "mariadb-oqgraph-engine"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3:10.3.35-1.module_el8.6.0+3265+230ed96b"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "mariadb-embedded"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3:10.3.35-1.module_el8.6.0+3265+230ed96b"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "galera"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "25.3.35-1.module_el8.6.0+3265+230ed96b"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "mariadb-test"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3:10.3.35-1.module_el8.6.0+3265+230ed96b"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "mariadb-common"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3:10.3.35-1.module_el8.6.0+3265+230ed96b"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "mariadb-errmsg"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3:10.3.35-1.module_el8.6.0+3265+230ed96b"
+              "fixed": "1.0.5-18.module_el8.6.0+3139+3c630e87"
             }
           ]
         }
@@ -157,7 +43,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "mariadb-gssapi-server"
+        "name": "galera"
       },
       "ranges": [
         {
@@ -167,7 +53,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "3:10.3.35-1.module_el8.6.0+3265+230ed96b"
+              "fixed": "25.3.35-1.module_el8.6.0+3265+230ed96b"
             }
           ]
         }
@@ -176,7 +62,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "mariadb-server-utils"
+        "name": "mariadb"
       },
       "ranges": [
         {
@@ -214,7 +100,140 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
+        "name": "mariadb-common"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3:10.3.35-1.module_el8.6.0+3265+230ed96b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
         "name": "mariadb-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3:10.3.35-1.module_el8.6.0+3265+230ed96b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mariadb-embedded"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3:10.3.35-1.module_el8.6.0+3265+230ed96b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mariadb-embedded-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3:10.3.35-1.module_el8.6.0+3265+230ed96b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mariadb-errmsg"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3:10.3.35-1.module_el8.6.0+3265+230ed96b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mariadb-gssapi-server"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3:10.3.35-1.module_el8.6.0+3265+230ed96b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mariadb-oqgraph-engine"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3:10.3.35-1.module_el8.6.0+3265+230ed96b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mariadb-server"
       },
       "ranges": [
         {
@@ -252,7 +271,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "mariadb"
+        "name": "mariadb-server-utils"
       },
       "ranges": [
         {
@@ -271,7 +290,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "mariadb-embedded-devel"
+        "name": "mariadb-test"
       },
       "ranges": [
         {

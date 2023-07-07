@@ -5,7 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "tigervnc-server-minimal"
+        "name": "tigervnc"
       },
       "ranges": [
         {
@@ -43,7 +43,26 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "tigervnc-server-module"
+        "name": "tigervnc-license"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12.0-5.el9_1.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "tigervnc-selinux"
       },
       "ranges": [
         {
@@ -81,7 +100,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "tigervnc-license"
+        "name": "tigervnc-server-minimal"
       },
       "ranges": [
         {
@@ -100,26 +119,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "tigervnc"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.12.0-5.el9_1.2"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
-        "name": "tigervnc-selinux"
+        "name": "tigervnc-server-module"
       },
       "ranges": [
         {
@@ -140,7 +140,7 @@
     "CVE-2023-1393"
   ],
   "published": "2023-04-04T00:00:00Z",
-  "modified": "2023-04-05T11:38:21Z",
+  "modified": "2023-04-05T11:38:22Z",
   "details": "Virtual Network Computing (VNC) is a remote display system which allows users to view a computing desktop environment not only on the machine where it is running, but from anywhere on the Internet and from a wide variety of machine architectures. TigerVNC is a suite of VNC servers and clients.\n\nSecurity Fix(es):\n\n* xorg-x11-server: X.Org Server Overlay Window Use-After-Free Local Privilege Escalation Vulnerability (CVE-2023-1393)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {

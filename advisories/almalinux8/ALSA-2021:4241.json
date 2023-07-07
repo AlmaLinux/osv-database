@@ -24,25 +24,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "libtiff"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "4.0.9-20.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
         "name": "libtiff-devel"
       },
       "ranges": [
@@ -62,7 +43,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "libtiff-devel"
+        "name": "libtiff-tools"
       },
       "ranges": [
         {
@@ -86,7 +67,7 @@
     "CVE-2020-35522"
   ],
   "published": "2021-11-09T08:50:38Z",
-  "modified": "2021-11-12T10:20:56Z",
+  "modified": "2021-11-12T10:21:01Z",
   "details": "The libtiff packages contain a library of functions for manipulating Tagged Image File Format (TIFF) files.\n\nSecurity Fix(es):\n\n* libtiff: Integer overflow in tif_getimage.c (CVE-2020-35523)\n\n* libtiff: Heap-based buffer overflow in TIFF2PDF tool (CVE-2020-35524)\n\n* libtiff: Memory allocation failure in tiff2rgba (CVE-2020-35521)\n\n* libtiff: Memory allocation failure in tiff2rgba (CVE-2020-35522)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
     {

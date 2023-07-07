@@ -1,0 +1,563 @@
+{
+  "id": "ALSA-2023:3087",
+  "summary": "Important: mysql:8.0 security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mecab"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.996-2.module_el8.6.0+3340+d764b636"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mecab-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.996-2.module_el8.6.0+3340+d764b636"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mecab-ipadic"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.0.20070801-16.module_el8.6.0+3340+d764b636"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mecab-ipadic-EUCJP"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.0.20070801-16.module_el8.6.0+3340+d764b636"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mysql"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.32-1.module_el8.8.0+3567+56a616e4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mysql-common"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.32-1.module_el8.8.0+3567+56a616e4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mysql-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.32-1.module_el8.8.0+3567+56a616e4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mysql-errmsg"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.32-1.module_el8.8.0+3567+56a616e4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mysql-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.32-1.module_el8.8.0+3567+56a616e4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mysql-server"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.32-1.module_el8.8.0+3567+56a616e4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mysql-test"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.32-1.module_el8.8.0+3567+56a616e4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2023-21912",
+    "CVE-2022-21594",
+    "CVE-2022-21599",
+    "CVE-2022-21604",
+    "CVE-2022-21608",
+    "CVE-2022-21611",
+    "CVE-2022-21617",
+    "CVE-2022-21625",
+    "CVE-2022-21632",
+    "CVE-2022-21633",
+    "CVE-2022-21637",
+    "CVE-2022-21640",
+    "CVE-2022-39400",
+    "CVE-2022-39408",
+    "CVE-2022-39410",
+    "CVE-2023-21836",
+    "CVE-2023-21863",
+    "CVE-2023-21864",
+    "CVE-2023-21865",
+    "CVE-2023-21867",
+    "CVE-2023-21868",
+    "CVE-2023-21869",
+    "CVE-2023-21870",
+    "CVE-2023-21871",
+    "CVE-2023-21873",
+    "CVE-2023-21875",
+    "CVE-2023-21876",
+    "CVE-2023-21877",
+    "CVE-2023-21878",
+    "CVE-2023-21879",
+    "CVE-2023-21880",
+    "CVE-2023-21881",
+    "CVE-2023-21883",
+    "CVE-2023-21887",
+    "CVE-2023-21917",
+    "CVE-2023-21874",
+    "CVE-2023-21882"
+  ],
+  "published": "2023-05-16T00:00:00Z",
+  "modified": "2023-05-22T09:17:55Z",
+  "details": "MySQL is a multi-user, multi-threaded SQL database server. It consists of the MySQL server daemon (mysqld) and many client programs and libraries.\n\nThe following packages have been upgraded to a later upstream version: mysql (8.0.32). (BZ#2177734, BZ#2177735, BZ#2177736)\n\nSecurity Fix(es):\n\n* mysql: Server: Security: Privileges unspecified vulnerability (CPU Apr 2023) (CVE-2023-21912)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Oct 2022) (CVE-2022-21594)\n* mysql: Server: Stored Procedure unspecified vulnerability (CPU Oct 2022) (CVE-2022-21599)\n* mysql: InnoDB unspecified vulnerability (CPU Oct 2022) (CVE-2022-21604)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Oct 2022) (CVE-2022-21608)\n* mysql: InnoDB unspecified vulnerability (CPU Oct 2022) (CVE-2022-21611)\n* mysql: Server: Connection Handling unspecified vulnerability (CPU Oct 2022) (CVE-2022-21617)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Oct 2022) (CVE-2022-21625)\n* mysql: Server: Security: Privileges unspecified vulnerability (CPU Oct 2022) (CVE-2022-21632)\n* mysql: Server: Replication unspecified vulnerability (CPU Oct 2022) (CVE-2022-21633)\n* mysql: InnoDB unspecified vulnerability (CPU Oct 2022) (CVE-2022-21637)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Oct 2022) (CVE-2022-21640)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Oct 2022) (CVE-2022-39400)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Oct 2022) (CVE-2022-39408)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Oct 2022) (CVE-2022-39410)\n* mysql: Server: DML unspecified vulnerability (CPU Jan 2023) (CVE-2023-21836)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2023) (CVE-2023-21863)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2023) (CVE-2023-21864)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2023) (CVE-2023-21865)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2023) (CVE-2023-21867)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2023) (CVE-2023-21868)\n* mysql: InnoDB unspecified vulnerability (CPU Jan 2023) (CVE-2023-21869)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2023) (CVE-2023-21870)\n* mysql: InnoDB unspecified vulnerability (CPU Jan 2023) (CVE-2023-21871)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2023) (CVE-2023-21873)\n* mysql: Server: Security: Encryption unspecified vulnerability (CPU Jan 2023) (CVE-2023-21875)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2023) (CVE-2023-21876)\n* mysql: InnoDB unspecified vulnerability (CPU Jan 2023) (CVE-2023-21877)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2023) (CVE-2023-21878)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2023) (CVE-2023-21879)\n* mysql: InnoDB unspecified vulnerability (CPU Jan 2023) (CVE-2023-21880)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2023) (CVE-2023-21881)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2023) (CVE-2023-21883)\n* mysql: Server: GIS unspecified vulnerability (CPU Jan 2023) (CVE-2023-21887)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2023) (CVE-2023-21917)\n* mysql: Server: Thread Pooling unspecified vulnerability (CPU Jan 2023) (CVE-2023-21874)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2023) (CVE-2023-21882)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* AlmaLinux8 AppStream and Devel channels missing mecab-devel rpm (BZ#2180411)",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:3087",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-21594",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-21599",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-21604",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-21608",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-21611",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-21617",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-21625",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-21632",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-21633",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-21637",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-21640",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-39400",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-39408",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-39410",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-21836",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-21863",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-21864",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-21865",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-21867",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-21868",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-21869",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-21870",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-21871",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-21873",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-21874",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-21875",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-21876",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-21877",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-21878",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-21879",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-21880",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-21881",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-21882",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-21883",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-21887",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-21912",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-21917",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2142861",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2142863",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2142865",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2142868",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2142869",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2142870",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2142871",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2142872",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2142873",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2142875",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2142877",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2142879",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2142880",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2142881",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2162268",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2162270",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2162271",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2162272",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2162274",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2162275",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2162276",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2162277",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2162278",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2162280",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2162281",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2162282",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2162283",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2162284",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2162285",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2162286",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2162287",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2162288",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2162289",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2162290",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2162291",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2188110",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2188112",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2023-3087.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

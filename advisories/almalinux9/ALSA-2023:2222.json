@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2023:2222",
+  "summary": "Moderate: conmon security and bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "conmon"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.1.7-1.el9_2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-41717"
+  ],
+  "published": "2023-05-09T00:00:00Z",
+  "modified": "2023-05-12T12:18:29Z",
+  "details": "Conmon is an OCI container runtime monitor.\n\nSecurity Fix(es):\n\n* golang: net/http: excessive memory growth in a Go server accepting HTTP/2 requests (CVE-2022-41717)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:2222",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-41717",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2161274",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-2222.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

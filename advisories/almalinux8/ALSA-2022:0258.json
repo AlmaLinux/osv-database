@@ -5,7 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "mod_md"
+        "name": "httpd"
       },
       "ranges": [
         {
@@ -15,7 +15,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:2.0.8-8.module_el8.5.0+2609+b30d9eec"
+              "fixed": "2.4.37-43.module_el8.5.0+2609+b30d9eec.1.alma"
             }
           ]
         }
@@ -24,7 +24,26 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "httpd"
+        "name": "httpd-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.37-43.module_el8.5.0+2609+b30d9eec.1.alma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "httpd-filesystem"
       },
       "ranges": [
         {
@@ -81,7 +100,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "mod_md"
+        "name": "mod_http2"
       },
       "ranges": [
         {
@@ -91,26 +110,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:2.0.8-8.module_el8.6.0+2872+fe0ff7aa"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "httpd-filesystem"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.4.37-43.module_el8.5.0+2609+b30d9eec.1.alma"
+              "fixed": "1.15.7-3.module_el8.5.0+2609+b30d9eec"
             }
           ]
         }
@@ -138,7 +138,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "mod_http2"
+        "name": "mod_md"
       },
       "ranges": [
         {
@@ -148,7 +148,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.15.7-3.module_el8.5.0+2609+b30d9eec"
+              "fixed": "1:2.0.8-8.module_el8.5.0+2609+b30d9eec"
             }
           ]
         }
@@ -157,7 +157,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "httpd-devel"
+        "name": "mod_md"
       },
       "ranges": [
         {
@@ -167,26 +167,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "2.4.37-43.module_el8.5.0+2609+b30d9eec.1.alma"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "mod_session"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.4.37-43.module_el8.5.0+2609+b30d9eec.1.alma"
+              "fixed": "1:2.0.8-8.module_el8.6.0+2872+fe0ff7aa"
             }
           ]
         }
@@ -206,6 +187,25 @@
             },
             {
               "fixed": "1:2.4.37-43.module_el8.5.0+2609+b30d9eec.1.alma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mod_session"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.37-43.module_el8.5.0+2609+b30d9eec.1.alma"
             }
           ]
         }
@@ -238,6 +238,10 @@
   "modified": "2022-01-26T07:27:24Z",
   "details": "The httpd packages provide the Apache HTTP Server, a powerful, efficient, and extensible web server.\n\nSecurity Fix(es):\n\n* httpd: mod_lua: Possible buffer overflow when parsing multipart content (CVE-2021-44790)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2022-0258.html",
+      "type": "ADVISORY"
+    },
     {
       "url": "https://vulners.com/cve/CVE-2021-44790",
       "type": "REPORT"

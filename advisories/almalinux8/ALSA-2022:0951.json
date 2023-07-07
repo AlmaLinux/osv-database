@@ -1,0 +1,167 @@
+{
+  "id": "ALSA-2022:0951",
+  "summary": "Important: expat security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "expat"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.5-8.el8_6.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "expat-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.5-8.el8_6.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-25235",
+    "CVE-2022-25236",
+    "CVE-2022-25315",
+    "CVE-2021-45960",
+    "CVE-2021-46143",
+    "CVE-2022-22822",
+    "CVE-2022-22823",
+    "CVE-2022-22824",
+    "CVE-2022-22825",
+    "CVE-2022-22826",
+    "CVE-2022-22827",
+    "CVE-2022-23852"
+  ],
+  "published": "2022-03-16T00:00:00Z",
+  "modified": "2022-06-30T09:52:09Z",
+  "details": "Expat is a C library for parsing XML documents.\nSecurity Fix(es):\n* expat: Malformed 2- and 3-byte UTF-8 sequences can lead to arbitrary code execution (CVE-2022-25235)\n* expat: Namespace-separator characters in \"xmlns[:prefix]\" attribute values can lead to arbitrary code execution (CVE-2022-25236)\n* expat: Integer overflow in storeRawNames() (CVE-2022-25315)\n* expat: Large number of prefixed XML attributes on a single tag can crash libexpat (CVE-2021-45960)\n* expat: Integer overflow in doProlog in xmlparse.c (CVE-2021-46143)\n* expat: Integer overflow in addBinding in xmlparse.c (CVE-2022-22822)\n* expat: Integer overflow in build_model in xmlparse.c (CVE-2022-22823)\n* expat: Integer overflow in defineAttribute in xmlparse.c (CVE-2022-22824)\n* expat: Integer overflow in lookup in xmlparse.c (CVE-2022-22825)\n* expat: Integer overflow in nextScaffoldPart in xmlparse.c (CVE-2022-22826)\n* expat: Integer overflow in storeAtts in xmlparse.c (CVE-2022-22827)\n* expat: Integer overflow in function XML_GetBuffer (CVE-2022-23852)\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:0951",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2021-45960",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2021-46143",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-22822",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-22823",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-22824",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-22825",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-22826",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-22827",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-23852",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-25235",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-25236",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-25315",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2044451",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2044455",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2044457",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2044464",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2044467",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2044479",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2044484",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2044488",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2044613",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2056363",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2056366",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2056370",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2022-0951.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

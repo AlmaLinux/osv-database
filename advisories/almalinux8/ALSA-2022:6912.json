@@ -5,6 +5,44 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
+        "name": "aspnetcore-runtime-3.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.30-1.el8_6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "aspnetcore-targeting-pack-3.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.30-1.el8_6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
         "name": "dotnet-apphost-pack-3.1"
       },
       "ranges": [
@@ -43,45 +81,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "dotnet-templates-3.1"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3.1.424-1.el8_6"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "aspnetcore-targeting-pack-3.1"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3.1.30-1.el8_6"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "aspnetcore-runtime-3.1"
+        "name": "dotnet-runtime-3.1"
       },
       "ranges": [
         {
@@ -119,7 +119,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "dotnet-runtime-3.1"
+        "name": "dotnet-sdk-3.1-source-built-artifacts"
       },
       "ranges": [
         {
@@ -129,7 +129,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "3.1.30-1.el8_6"
+              "fixed": "3.1.424-1.el8_6"
             }
           ]
         }
@@ -149,6 +149,25 @@
             },
             {
               "fixed": "3.1.30-1.el8_6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "dotnet-templates-3.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.424-1.el8_6"
             }
           ]
         }

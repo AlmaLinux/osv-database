@@ -5,7 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "mysql-server"
+        "name": "mysql"
       },
       "ranges": [
         {
@@ -24,7 +24,26 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "mysql"
+        "name": "mysql-common"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.30-3.el9_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "mysql-devel"
       },
       "ranges": [
         {
@@ -62,7 +81,45 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "mysql-common"
+        "name": "mysql-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.30-3.el9_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "mysql-server"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.30-3.el9_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "mysql-test"
       },
       "ranges": [
         {

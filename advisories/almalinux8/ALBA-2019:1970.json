@@ -26,5 +26,10 @@
   "published": "2019-07-30T10:44:21Z",
   "modified": "2021-11-12T10:20:55Z",
   "details": "The authd packages contain authd, a small and fast RFC 1413 ident protocol\ndaemon with both xinetd server and interactive modes that supports IPv6 and IPv4 as well as the more popular features of pidentd.\n\nBug Fix(es):\n\n* authd authentication fails with ERROR:NO-USER (BZ#1730802)\n\nUsers of authd are advised to upgrade to this updated package, which fixes this bug.",
-  "references": []
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALBA-2019-1970.html",
+      "type": "ADVISORY"
+    }
+  ]
 }

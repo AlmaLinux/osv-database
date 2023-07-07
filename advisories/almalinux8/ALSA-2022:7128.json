@@ -5,7 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "postgresql-plpython3"
+        "name": "pg_repack"
       },
       "ranges": [
         {
@@ -15,7 +15,102 @@
               "introduced": "0"
             },
             {
-              "fixed": "12.12-1.module_el8.6.0+3336+e779e518"
+              "fixed": "1.4.6-3.module_el8.6.0+2760+1746ec94"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "pg_repack"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.6-3.module_el8.6.0+3095+ee60d910"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "pgaudit"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.0-5.module_el8.6.0+2758+4f4474df"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "pgaudit"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.0-5.module_el8.6.0+3094+eb237fb8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "postgres-decoderbufs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.0-2.module_el8.6.0+2760+1746ec94"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "postgres-decoderbufs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.0-2.module_el8.6.0+3095+ee60d910"
             }
           ]
         }
@@ -43,26 +138,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "postgresql-upgrade-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "12.12-1.module_el8.6.0+3336+e779e518"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "postgresql-server"
+        "name": "postgresql-contrib"
       },
       "ranges": [
         {
@@ -100,44 +176,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "postgresql-static"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "12.12-1.module_el8.6.0+3336+e779e518"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "postgres-decoderbufs"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "0.10.0-2.module_el8.6.0+2760+1746ec94"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
         "name": "postgresql-plperl"
       },
       "ranges": [
@@ -157,7 +195,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "pg_repack"
+        "name": "postgresql-plpython3"
       },
       "ranges": [
         {
@@ -167,7 +205,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.4.6-3.module_el8.6.0+2760+1746ec94"
+              "fixed": "12.12-1.module_el8.6.0+3336+e779e518"
             }
           ]
         }
@@ -195,26 +233,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "pgaudit"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.4.0-5.module_el8.6.0+2758+4f4474df"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "postgresql-contrib"
+        "name": "postgresql-server"
       },
       "ranges": [
         {
@@ -252,7 +271,26 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "postgresql-upgrade"
+        "name": "postgresql-static"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "12.12-1.module_el8.6.0+3336+e779e518"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "postgresql-test"
       },
       "ranges": [
         {
@@ -290,7 +328,26 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "postgresql-test"
+        "name": "postgresql-upgrade"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "12.12-1.module_el8.6.0+3336+e779e518"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "postgresql-upgrade-devel"
       },
       "ranges": [
         {
@@ -311,7 +368,7 @@
     "CVE-2022-2625"
   ],
   "published": "2022-10-25T00:00:00Z",
-  "modified": "2022-11-03T11:36:34Z",
+  "modified": "2022-11-03T11:36:35Z",
   "details": "PostgreSQL is an advanced object-relational database management system (DBMS).\n\nSecurity Fix(es):\n\n* postgresql: Extension scripts replace objects not belonging to the extension. (CVE-2022-2625)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {

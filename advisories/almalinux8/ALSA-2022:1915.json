@@ -5,7 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "mod_proxy_html"
+        "name": "httpd"
       },
       "ranges": [
         {
@@ -15,7 +15,64 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:2.4.37-47.module_el8.6.0+2872+fe0ff7aa.1.alma"
+              "fixed": "2.4.37-47.module_el8.6.0+2935+fb177b09.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "httpd"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.37-47.module_el8.6.0+2872+fe0ff7aa.1.alma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "httpd-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.37-47.module_el8.6.0+2935+fb177b09.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "httpd-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.37-47.module_el8.6.0+2872+fe0ff7aa.1.alma"
             }
           ]
         }
@@ -43,7 +100,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "mod_session"
+        "name": "httpd-filesystem"
       },
       "ranges": [
         {
@@ -62,26 +119,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "mod_md"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:2.0.8-8.module_el8.6.0+2872+fe0ff7aa"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "httpd"
+        "name": "httpd-manual"
       },
       "ranges": [
         {
@@ -92,6 +130,63 @@
             },
             {
               "fixed": "2.4.37-47.module_el8.6.0+2935+fb177b09.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "httpd-manual"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.37-47.module_el8.6.0+2872+fe0ff7aa.1.alma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "httpd-tools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.37-47.module_el8.6.0+2935+fb177b09.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "httpd-tools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.37-47.module_el8.6.0+2872+fe0ff7aa.1.alma"
             }
           ]
         }
@@ -119,7 +214,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "httpd-filesystem"
+        "name": "mod_ldap"
       },
       "ranges": [
         {
@@ -130,101 +225,6 @@
             },
             {
               "fixed": "2.4.37-47.module_el8.6.0+2935+fb177b09.2"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "httpd-manual"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.4.37-47.module_el8.6.0+2935+fb177b09.2"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "httpd-manual"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.4.37-47.module_el8.6.0+2872+fe0ff7aa.1.alma"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "httpd-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.4.37-47.module_el8.6.0+2872+fe0ff7aa.1.alma"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "httpd-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.4.37-47.module_el8.6.0+2935+fb177b09.2"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "mod_ssl"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:2.4.37-47.module_el8.6.0+2872+fe0ff7aa.1.alma"
             }
           ]
         }
@@ -252,6 +252,44 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
+        "name": "mod_md"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.0.8-8.module_el8.6.0+2872+fe0ff7aa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mod_proxy_html"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.4.37-47.module_el8.6.0+2872+fe0ff7aa.1.alma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
         "name": "mod_proxy_html"
       },
       "ranges": [
@@ -271,7 +309,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "httpd"
+        "name": "mod_session"
       },
       "ranges": [
         {
@@ -281,7 +319,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "2.4.37-47.module_el8.6.0+2872+fe0ff7aa.1.alma"
+              "fixed": "2.4.37-47.module_el8.6.0+2935+fb177b09.2"
             }
           ]
         }
@@ -319,64 +357,26 @@
               "introduced": "0"
             },
             {
+              "fixed": "1:2.4.37-47.module_el8.6.0+2872+fe0ff7aa.1.alma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mod_ssl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
               "fixed": "1:2.4.37-47.module_el8.6.0+2935+fb177b09.2"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "httpd-tools"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.4.37-47.module_el8.6.0+2872+fe0ff7aa.1.alma"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "httpd-tools"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.4.37-47.module_el8.6.0+2935+fb177b09.2"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "mod_ldap"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.4.37-47.module_el8.6.0+2935+fb177b09.2"
             }
           ]
         }

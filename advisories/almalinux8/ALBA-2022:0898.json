@@ -1,0 +1,68 @@
+{
+  "id": "ALBA-2022:0898",
+  "summary": "lvm2 bug fix and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "device-mapper-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8:1.02.177-11.el8_5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "device-mapper-event-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8:1.02.177-11.el8_5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "lvm2-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8:2.03.12-11.el8_5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2022-03-15T09:12:37Z",
+  "modified": "2022-03-16T22:17:21Z",
+  "details": "The lvm2 packages include complete support for handling read and write\noperations on physical volumes, creating volume groups from one or more\nphysical volumes, and creating one or more logical volumes in volume\ngroups.\n\nBug Fix(es) and Enhancement(s):\n\n* Multiple concurrent lv refreshes fail (BZ#2040514)",
+  "references": []
+}

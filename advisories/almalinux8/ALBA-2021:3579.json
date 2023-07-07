@@ -1,0 +1,68 @@
+{
+  "id": "ALBA-2021:3579",
+  "summary": "resource-agents bug fix and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "resource-agents"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.1.1-90.el8_4.7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "resource-agents-aliyun"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.1.1-90.el8_4.7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "resource-agents-gcp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.1.1-90.el8_4.7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2021-09-21T07:10:53Z",
+  "modified": "2021-09-23T08:29:42Z",
+  "details": "The resource-agents packages provide the Pacemaker and RGManager service\nmanagers with a set of scripts. These scripts interface with several\nservices to allow operating in a high-availability (HA) environment.\n\nBug Fix(es) and Enhancement(s):\n\n* LVM-activate: Start operation always recreates drop-in file and runs\nsystemctl daemon-reload (BZ#1972236)",
+  "references": []
+}

@@ -24,63 +24,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "cyrus-sasl-md5"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.1.27-6.el8_5"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "cyrus-sasl-sql"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.1.27-6.el8_5"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "cyrus-sasl-scram"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.1.27-6.el8_5"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
         "name": "cyrus-sasl-devel"
       },
       "ranges": [
@@ -119,25 +62,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "cyrus-sasl-plain"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.1.27-6.el8_5"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
         "name": "cyrus-sasl-gssapi"
       },
       "ranges": [
@@ -157,7 +81,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "cyrus-sasl-ntlm"
+        "name": "cyrus-sasl-ldap"
       },
       "ranges": [
         {
@@ -195,7 +119,64 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "cyrus-sasl-ldap"
+        "name": "cyrus-sasl-md5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.27-6.el8_5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "cyrus-sasl-ntlm"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.27-6.el8_5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "cyrus-sasl-plain"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.27-6.el8_5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "cyrus-sasl-scram"
       },
       "ranges": [
         {
@@ -238,6 +219,10 @@
   "modified": "2022-02-23T22:48:10Z",
   "details": "The cyrus-sasl packages contain the Cyrus implementation of Simple Authentication and Security Layer (SASL). SASL is a method for adding authentication support to connection-based protocols.\n\nSecurity Fix(es):\n\n* cyrus-sasl: failure to properly escape SQL input allows an attacker to execute arbitrary SQL commands (CVE-2022-24407)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2022-0658.html",
+      "type": "ADVISORY"
+    },
     {
       "url": "https://vulners.com/cve/CVE-2022-24407",
       "type": "REPORT"

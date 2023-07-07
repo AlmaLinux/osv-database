@@ -5,64 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "mod_session"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.4.53-7.el9_1.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
-        "name": "mod_proxy_html"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:2.4.53-7.el9_1.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
-        "name": "httpd-filesystem"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.4.53-7.el9_1.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
-        "name": "mod_ldap"
+        "name": "httpd"
       },
       "ranges": [
         {
@@ -100,7 +43,26 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "mod_lua"
+        "name": "httpd-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.53-7.el9_1.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "httpd-filesystem"
       },
       "ranges": [
         {
@@ -157,7 +119,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "httpd"
+        "name": "mod_ldap"
       },
       "ranges": [
         {
@@ -176,7 +138,45 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "httpd-devel"
+        "name": "mod_lua"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.53-7.el9_1.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "mod_proxy_html"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.4.53-7.el9_1.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "mod_session"
       },
       "ranges": [
         {
@@ -218,7 +218,7 @@
     "CVE-2022-37436"
   ],
   "published": "2023-02-28T00:00:00Z",
-  "modified": "2023-02-28T18:31:16Z",
+  "modified": "2023-02-28T18:31:17Z",
   "details": "The httpd packages provide the Apache HTTP Server, a powerful, efficient, and extensible web server.\n\nSecurity Fix(es):\n\n* httpd: mod_dav: out-of-bounds read/write of zero byte (CVE-2006-20001)\n* httpd: mod_proxy_ajp: Possible request smuggling (CVE-2022-36760)\n* httpd: mod_proxy: HTTP response splitting (CVE-2022-37436)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* httpd-init fails to create localhost.crt, localhost.key due to \"sscg\" default now creates a /dhparams.pem and is not idempotent if the file /dhparams.pem already exists. (BZ#2165975)",
   "references": [
     {

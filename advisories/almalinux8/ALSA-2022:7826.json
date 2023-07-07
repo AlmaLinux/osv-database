@@ -5,7 +5,45 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "netstandard-targeting-pack-2.1"
+        "name": "aspnetcore-runtime-7.0"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.0.0-0.4.rc2.el8_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "aspnetcore-targeting-pack-7.0"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.0.0-0.4.rc2.el8_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "dotnet"
       },
       "ranges": [
         {
@@ -24,7 +62,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "dotnet-templates-7.0"
+        "name": "dotnet-apphost-pack-7.0"
       },
       "ranges": [
         {
@@ -34,7 +72,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "7.0.100-0.4.rc2.el8_7"
+              "fixed": "7.0.0-0.4.rc2.el8_7"
             }
           ]
         }
@@ -62,7 +100,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "dotnet-apphost-pack-7.0"
+        "name": "dotnet-hostfxr-7.0"
       },
       "ranges": [
         {
@@ -100,7 +138,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "aspnetcore-runtime-7.0"
+        "name": "dotnet-sdk-7.0"
       },
       "ranges": [
         {
@@ -110,7 +148,26 @@
               "introduced": "0"
             },
             {
-              "fixed": "7.0.0-0.4.rc2.el8_7"
+              "fixed": "7.0.100-0.4.rc2.el8_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "dotnet-sdk-7.0-source-built-artifacts"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.0.100-0.4.rc2.el8_7"
             }
           ]
         }
@@ -138,7 +195,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "dotnet-sdk-7.0"
+        "name": "dotnet-templates-7.0"
       },
       "ranges": [
         {
@@ -157,7 +214,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "dotnet"
+        "name": "netstandard-targeting-pack-2.1"
       },
       "ranges": [
         {
@@ -168,44 +225,6 @@
             },
             {
               "fixed": "7.0.100-0.4.rc2.el8_7"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "dotnet-hostfxr-7.0"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "7.0.0-0.4.rc2.el8_7"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "aspnetcore-targeting-pack-7.0"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "7.0.0-0.4.rc2.el8_7"
             }
           ]
         }
@@ -216,7 +235,7 @@
     "CVE-2022-41032"
   ],
   "published": "2022-11-08T00:00:00Z",
-  "modified": "2022-11-11T16:57:02Z",
+  "modified": "2022-11-11T16:57:03Z",
   "details": ".NET is a managed-software framework. It implements a subset of the .NET framework APIs and several new APIs, and it includes a CLR implementation.\n\nNew versions of .NET that address a security vulnerability are now available. The updated versions are .NET SDK 7.0.100 RC 2 and .NET Runtime 7.0.0 RC 2.\n\nThe following packages have been upgraded to a later upstream version: dotnet7.0 (7.0.100). (BZ#2134642).\n\nSecurity Fix(es):\n\n* dotnet: Nuget cache poisoning on Linux via world-writable cache directory (CVE-2022-41032)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {

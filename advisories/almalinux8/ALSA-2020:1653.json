@@ -1,0 +1,37 @@
+{
+  "id": "ALSA-2020:1653",
+  "summary": "Moderate: zziplib security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "zziplib-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.13.68-8.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2018-17828"
+  ],
+  "published": "2020-04-28T09:01:25Z",
+  "modified": "2021-08-11T08:54:00Z",
+  "details": "The zziplib is a lightweight library to easily extract data from zip files.\n\nSecurity Fix(es):\n\n* zziplib: directory traversal in unzzip_cat in the bins/unzzipcat-mem.c (CVE-2018-17828)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://vulners.com/cve/CVE-2018-17828",
+      "type": "REPORT"
+    }
+  ]
+}

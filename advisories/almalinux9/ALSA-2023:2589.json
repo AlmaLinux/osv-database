@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2023:2589",
+  "summary": "Moderate: autotrace security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "autotrace"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.31.1-65.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-32323"
+  ],
+  "published": "2023-05-09T00:00:00Z",
+  "modified": "2023-05-11T23:40:16Z",
+  "details": "AutoTrace is a program for converting bitmaps to vector graphics.\n\nSecurity Fix(es):\n\n* autotrace: heap-buffer overflow via the ReadImage() at input-bmp.c (CVE-2022-32323)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:2589",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-32323",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2107471",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-2589.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

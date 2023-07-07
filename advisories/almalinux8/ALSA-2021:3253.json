@@ -24,7 +24,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "libsndfile"
+        "name": "libsndfile-devel"
       },
       "ranges": [
         {
@@ -45,7 +45,7 @@
     "CVE-2021-3246"
   ],
   "published": "2021-08-24T07:29:56Z",
-  "modified": "2021-11-12T10:20:56Z",
+  "modified": "2021-11-12T10:21:01Z",
   "details": "libsndfile is a C library for reading and writing files containing sampled sound, such as AIFF, AU, or WAV. \n\nSecurity Fix(es):\n\n* libsndfile: Heap buffer overflow via crafted WAV file allows arbitrary code execution (CVE-2021-3246)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {

@@ -24,45 +24,26 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "libinput-utils"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.19.3-2.el9_0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
-        "name": "libinput"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.19.3-2.el9_0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
         "name": "libinput-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.19.3-2.el9_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libinput-utils"
       },
       "ranges": [
         {
@@ -83,7 +64,7 @@
     "CVE-2022-1215"
   ],
   "published": "2022-06-30T00:00:00Z",
-  "modified": "2022-07-21T17:40:03Z",
+  "modified": "2022-07-21T17:40:32Z",
   "details": "libinput is a library that handles input devices for display servers and other applications that need to directly deal with input devices.\nSecurity Fix(es):\n* libinput: format string vulnerability may lead to privilege escalation (CVE-2022-1215)\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {

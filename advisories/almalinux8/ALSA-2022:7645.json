@@ -5,7 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "openjpeg2-tools"
+        "name": "openjpeg2"
       },
       "ranges": [
         {
@@ -24,7 +24,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "openjpeg2"
+        "name": "openjpeg2-devel"
       },
       "ranges": [
         {
@@ -62,7 +62,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "openjpeg2"
+        "name": "openjpeg2-tools"
       },
       "ranges": [
         {
@@ -83,7 +83,7 @@
     "CVE-2022-1122"
   ],
   "published": "2022-11-08T00:00:00Z",
-  "modified": "2022-11-14T18:06:30Z",
+  "modified": "2022-11-14T18:06:44Z",
   "details": "OpenJPEG is an open source library for reading and writing image files in JPEG2000 format.\n\nSecurity Fix(es):\n\n* openjpeg: segmentation fault in opj2_decompress due to uninitialized pointer (CVE-2022-1122)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
     {

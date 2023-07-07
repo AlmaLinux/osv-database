@@ -39,25 +39,6 @@
           ]
         }
       ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "gupnp"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.0.6-2.el8_4"
-            }
-          ]
-        }
-      ]
     }
   ],
   "aliases": [
@@ -67,6 +48,10 @@
   "modified": "2021-11-12T10:20:56Z",
   "details": "GUPnP is an object-oriented open source framework for creating UPnP devices and control points, written in C using GObject and libsoup. The GUPnP API is intended to be easy to use, efficient and flexible.\n\nSecurity Fix(es):\n\n* gupnp: allows DNS rebinding which could result in tricking browser into triggering actions against local UPnP services (CVE-2021-33516)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2021-2363.html",
+      "type": "ADVISORY"
+    },
     {
       "url": "https://vulners.com/cve/CVE-2021-33516",
       "type": "REPORT"

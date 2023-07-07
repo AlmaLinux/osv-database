@@ -1,0 +1,38 @@
+{
+  "id": "ALSA-2020:4844",
+  "summary": "Moderate: fontforge security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "fontforge"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20170731-15.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2020-5395",
+    "CVE-2020-25690"
+  ],
+  "published": "2020-11-03T12:40:50Z",
+  "modified": "2021-08-11T08:54:00Z",
+  "details": "FontForge is a font editor for outline and bitmap fonts. It supports a range of font formats, including PostScript (ASCII and binary Type 1, some Type 3 and Type 0), TrueType, OpenType (Type2) and CID-keyed fonts. \n\nSecurity Fix(es):\n\n* fontforge: SFD_GetFontMetaData() insufficient CVE-2020-5395 backport (CVE-2020-25690)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://vulners.com/cve/CVE-2020-25690",
+      "type": "REPORT"
+    }
+  ]
+}

@@ -5,6 +5,25 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
+        "name": "gcc-toolset-9-systemtap"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.1-4.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
         "name": "gcc-toolset-9-systemtap-client"
       },
       "ranges": [
@@ -43,7 +62,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "gcc-toolset-9-systemtap"
+        "name": "gcc-toolset-9-systemtap-initscript"
       },
       "ranges": [
         {
@@ -100,64 +119,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "gcc-toolset-9-systemtap-initscript"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "4.1-4.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "gcc-toolset-9-systemtap-sdt-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "4.1-4.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
         "name": "gcc-toolset-9-systemtap-server"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "4.1-4.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "gcc-toolset-9-systemtap-devel"
       },
       "ranges": [
         {
@@ -178,5 +140,10 @@
   "published": "2019-11-05T17:47:44Z",
   "modified": "2021-11-12T10:20:55Z",
   "details": "GCC Toolset is a compiler toolset that provides recent versions of development tools. GCC Toolset is an Application Stream packaged as a Software Collection.\n\nThis enhancement update adds the gcc-toolset-9-systemtap packages to AlmaLinux Eneterprise Linux 8.\n\nFor instructions on usage, see Using GCC Toolset linked from the References section. Components and specifics of this version are documented in the GCC Toolset 9 chapter. \n\nFor detailed changes in this release, see the AlmaLinux Release Notes.",
-  "references": []
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALEA-2019-3454.html",
+      "type": "ADVISORY"
+    }
+  ]
 }

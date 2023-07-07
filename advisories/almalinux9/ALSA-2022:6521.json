@@ -5,25 +5,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "dotnet-templates-6.0"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "6.0.109-1.el9_0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
         "name": "aspnetcore-runtime-6.0"
       },
       "ranges": [
@@ -43,7 +24,26 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "dotnet-hostfxr-6.0"
+        "name": "aspnetcore-targeting-pack-6.0"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.9-1.el9_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "dotnet-apphost-pack-6.0"
       },
       "ranges": [
         {
@@ -63,6 +63,25 @@
       "package": {
         "ecosystem": "AlmaLinux:9",
         "name": "dotnet-host"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.9-1.el9_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "dotnet-hostfxr-6.0"
       },
       "ranges": [
         {
@@ -119,7 +138,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "netstandard-targeting-pack-2.1"
+        "name": "dotnet-sdk-6.0-source-built-artifacts"
       },
       "ranges": [
         {
@@ -157,7 +176,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "dotnet-apphost-pack-6.0"
+        "name": "dotnet-templates-6.0"
       },
       "ranges": [
         {
@@ -167,7 +186,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.0.9-1.el9_0"
+              "fixed": "6.0.109-1.el9_0"
             }
           ]
         }
@@ -176,7 +195,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "aspnetcore-targeting-pack-6.0"
+        "name": "netstandard-targeting-pack-2.1"
       },
       "ranges": [
         {
@@ -186,7 +205,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.0.9-1.el9_0"
+              "fixed": "6.0.109-1.el9_0"
             }
           ]
         }

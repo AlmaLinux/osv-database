@@ -5,7 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "redis-devel"
+        "name": "redis"
       },
       "ranges": [
         {
@@ -25,6 +25,44 @@
       "package": {
         "ecosystem": "AlmaLinux:8",
         "name": "redis"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.0.3-5.module_el8.5.0+66+fc19ec12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "redis-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.0.3-5.module_el8.5.0+66+fc19ec12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "redis-devel"
       },
       "ranges": [
         {
@@ -54,6 +92,25 @@
             },
             {
               "fixed": "5.0.3-5.module_el8.4.0+2583+b9845322"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "redis-doc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.0.3-5.module_el8.5.0+66+fc19ec12"
             }
           ]
         }

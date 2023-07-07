@@ -5,7 +5,26 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "nodejs-full-i18n"
+        "name": "nodejs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:18.9.1-1.module_el8.7.0+3343+ea2b7901"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-devel"
       },
       "ranges": [
         {
@@ -43,7 +62,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "nodejs-devel"
+        "name": "nodejs-full-i18n"
       },
       "ranges": [
         {
@@ -100,25 +119,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "npm"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:8.19.1-1.18.9.1.1.module_el8.7.0+3343+ea2b7901"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
         "name": "nodejs-packaging-bundler"
       },
       "ranges": [
@@ -138,7 +138,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "nodejs"
+        "name": "npm"
       },
       "ranges": [
         {
@@ -148,7 +148,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:18.9.1-1.module_el8.7.0+3343+ea2b7901"
+              "fixed": "1:8.19.1-1.18.9.1.1.module_el8.7.0+3343+ea2b7901"
             }
           ]
         }

@@ -24,7 +24,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "qt5-srpm-macros"
+        "name": "qt5-devel"
       },
       "ranges": [
         {
@@ -44,6 +44,25 @@
       "package": {
         "ecosystem": "AlmaLinux:9",
         "name": "qt5-rpm-macros"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.15.3-1.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "qt5-srpm-macros"
       },
       "ranges": [
         {

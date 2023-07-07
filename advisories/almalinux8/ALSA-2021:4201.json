@@ -31,6 +31,10 @@
   "details": "Babel provides tools to build and work with gettext message catalogs, and a Python interface to the CLDR (Common Locale Data Repository), providing access to various locale display names, localized number and date formatting, etc.\n\nSecurity Fix(es):\n\n* python-babel: Relative path traversal allows attacker to load arbitrary locale files and execute arbitrary code (CVE-2021-20095, CVE-2021-42771)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
     {
+      "url": "https://errata.almalinux.org/8/ALSA-2021-4201.html",
+      "type": "ADVISORY"
+    },
+    {
       "url": "https://vulners.com/cve/CVE-2021-20095",
       "type": "REPORT"
     },

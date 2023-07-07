@@ -5,7 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "openchange"
+        "name": "libsmbclient-devel"
       },
       "ranges": [
         {
@@ -15,7 +15,26 @@
               "introduced": "0"
             },
             {
-              "fixed": "2.3-27.el8"
+              "fixed": "4.13.3-3.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libwbclient-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.13.3-3.el8"
             }
           ]
         }
@@ -35,6 +54,25 @@
             },
             {
               "fixed": "2.3-27.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "samba-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.13.3-3.el8"
             }
           ]
         }

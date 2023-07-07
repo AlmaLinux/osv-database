@@ -5,7 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "libxml2-devel"
+        "name": "libxml2"
       },
       "ranges": [
         {
@@ -25,6 +25,25 @@
       "package": {
         "ecosystem": "AlmaLinux:9",
         "name": "libxml2-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.13-3.el9_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "python3-libxml2"
       },
       "ranges": [
         {

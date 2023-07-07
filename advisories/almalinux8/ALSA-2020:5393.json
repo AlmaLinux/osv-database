@@ -24,25 +24,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "libexif"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "0.6.22-5.el8_3"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
         "name": "libexif-devel"
       },
       "ranges": [
@@ -67,6 +48,10 @@
   "modified": "2021-11-12T10:20:56Z",
   "details": "The libexif packages provide a library for extracting extra information from image files.\n\nSecurity Fix(es):\n\n* libexif: out of bounds write due to an integer overflow in exif-entry.c (CVE-2020-0452)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2020-5393.html",
+      "type": "ADVISORY"
+    },
     {
       "url": "https://vulners.com/cve/CVE-2020-0452",
       "type": "REPORT"

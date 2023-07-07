@@ -1,0 +1,54 @@
+{
+  "id": "ALEA-2022:1551",
+  "summary": "alsa-sof-firmware bug fix and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "alsa-sof-firmware"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.9.3-1.el8_5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "alsa-sof-firmware-debug"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.9.3-1.el8_5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2022-04-26T13:49:38Z",
+  "modified": "2022-04-26T21:11:30Z",
+  "details": "The alsa-sof-firmware package contains firmware binaries for the Sound Open Firmware project.\n\nBug Fix(es) and Enhancement(s):\n\n* Update Intel SOF firmware to 1.9 (BZ#2044420)",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALEA-2022-1551.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

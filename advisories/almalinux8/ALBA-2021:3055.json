@@ -1,0 +1,30 @@
+{
+  "id": "ALBA-2021:3055",
+  "summary": "NetworkManager bug fix and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "NetworkManager-libnm-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.30.0-10.el8_4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2021-08-10T11:55:40Z",
+  "modified": "2021-08-11T08:54:00Z",
+  "details": "NetworkManager is a system network service that manages network devices and\nconnections, attempting to keep active network connectivity when available.\nIts capabilities include managing Ethernet, wireless, mobile broadband\n(WWAN), and PPPoE devices, as well as providing VPN integration with a\nvariety of different VPN services.\n\nBug Fix(es) and Enhancement(s):\n\n* Incorrect set hostname to localhost using DNS reverse lookup of ipv6\naddress (BZ#1970398)",
+  "references": []
+}

@@ -5,44 +5,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "gd-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.2.5-7.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "gd-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.2.5-7.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
         "name": "gd"
       },
       "ranges": [
@@ -62,7 +24,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "gd"
+        "name": "gd-devel"
       },
       "ranges": [
         {
@@ -88,6 +50,10 @@
   "modified": "2021-11-12T10:20:55Z",
   "details": "GD is an open source code library for the dynamic creation of images by programmers. GD creates PNG, JPEG, GIF, WebP, XPM, BMP images, among other formats. \n\nSecurity Fix(es):\n\n* gd: Heap-based buffer overflow in gdImageColorMatch() in gd_color_match.c (CVE-2019-6977)\n\n* gd: NULL pointer dereference in gdImageClone (CVE-2018-14553)\n\n* gd: Double free in the gdImage*Ptr in gd_gif_out.c, gd_jpeg.c, and gd_wbmp.c (CVE-2019-6978)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2020-4659.html",
+      "type": "ADVISORY"
+    },
     {
       "url": "https://vulners.com/cve/CVE-2018-14553",
       "type": "REPORT"

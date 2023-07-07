@@ -5,64 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "httpd-filesystem"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.4.53-7.el9_1.5"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
-        "name": "mod_lua"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.4.53-7.el9_1.5"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
-        "name": "httpd-manual"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.4.53-7.el9_1.5"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
-        "name": "mod_session"
+        "name": "httpd"
       },
       "ranges": [
         {
@@ -100,7 +43,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "mod_ldap"
+        "name": "httpd-devel"
       },
       "ranges": [
         {
@@ -119,7 +62,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "mod_proxy_html"
+        "name": "httpd-filesystem"
       },
       "ranges": [
         {
@@ -129,7 +72,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:2.4.53-7.el9_1.5"
+              "fixed": "2.4.53-7.el9_1.5"
             }
           ]
         }
@@ -138,7 +81,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "httpd-devel"
+        "name": "httpd-manual"
       },
       "ranges": [
         {
@@ -176,25 +119,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "mod_ssl"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:2.4.53-7.el9_1.5"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
         "name": "mod_http2"
       },
       "ranges": [
@@ -214,7 +138,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "httpd"
+        "name": "mod_ldap"
       },
       "ranges": [
         {
@@ -225,6 +149,82 @@
             },
             {
               "fixed": "2.4.53-7.el9_1.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "mod_lua"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.53-7.el9_1.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "mod_proxy_html"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.4.53-7.el9_1.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "mod_session"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.53-7.el9_1.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "mod_ssl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.4.53-7.el9_1.5"
             }
           ]
         }

@@ -1,0 +1,260 @@
+{
+  "id": "ALSA-2020:4431",
+  "summary": "Moderate: kernel security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-tools-libs-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-240.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2019-9458",
+    "CVE-2019-15917",
+    "CVE-2019-15925",
+    "CVE-2019-18808",
+    "CVE-2019-19046",
+    "CVE-2019-19319",
+    "CVE-2019-19332",
+    "CVE-2019-19447",
+    "CVE-2019-19524",
+    "CVE-2019-19537",
+    "CVE-2019-19543",
+    "CVE-2019-19767",
+    "CVE-2019-19770",
+    "CVE-2019-20636",
+    "CVE-2020-0305",
+    "CVE-2020-8647",
+    "CVE-2020-8648",
+    "CVE-2020-8649",
+    "CVE-2020-10732",
+    "CVE-2020-10751",
+    "CVE-2020-11565",
+    "CVE-2020-11668",
+    "CVE-2020-12465",
+    "CVE-2020-12659",
+    "CVE-2020-12770",
+    "CVE-2020-12826",
+    "CVE-2020-14381",
+    "CVE-2020-25641",
+    "CVE-2019-9455",
+    "CVE-2019-12614",
+    "CVE-2019-16231",
+    "CVE-2019-16233",
+    "CVE-2019-18809",
+    "CVE-2019-19056",
+    "CVE-2019-19062",
+    "CVE-2019-19063",
+    "CVE-2019-19068",
+    "CVE-2019-19072",
+    "CVE-2019-19533",
+    "CVE-2019-20054",
+    "CVE-2020-10773",
+    "CVE-2020-10774",
+    "CVE-2020-10942",
+    "CVE-2020-12655"
+  ],
+  "published": "2020-11-03T12:03:57Z",
+  "modified": "2021-08-11T08:54:00Z",
+  "details": "The kernel packages contain the Linux kernel, the core of any Linux operating system.\n\nSecurity Fix(es):\n\n* kernel: use after free in the video driver leads to local privilege escalation (CVE-2019-9458)\n\n* kernel: use-after-free in drivers/bluetooth/hci_ldisc.c (CVE-2019-15917)\n\n* kernel: out-of-bounds access in function hclge_tm_schd_mode_vnet_base_cfg (CVE-2019-15925)\n\n* kernel: memory leak in ccp_run_sha_cmd() (CVE-2019-18808)\n\n* kernel: Denial Of Service in the __ipmi_bmc_register() (CVE-2019-19046)\n\n* kernel: out-of-bounds write in ext4_xattr_set_entry (CVE-2019-19319)\n\n* Kernel: kvm: OOB memory write via kvm_dev_ioctl_get_cpuid (CVE-2019-19332)\n\n* kernel: use-after-free in ext4_put_super (CVE-2019-19447)\n\n* kernel: a malicious USB device in the drivers/input/ff-memless.c leads to use-after-free (CVE-2019-19524)\n\n* kernel: race condition caused by a malicious USB device in the USB character device driver layer (CVE-2019-19537)\n\n* kernel: use-after-free in serial_ir_init_module() (CVE-2019-19543)\n\n* kernel: use-after-free in __ext4_expand_extra_isize and ext4_xattr_set_entry (CVE-2019-19767)\n\n* kernel: use-after-free in debugfs_remove (CVE-2019-19770)\n\n* kernel: out-of-bounds write via crafted keycode table (CVE-2019-20636)\n\n* kernel: possible use-after-free due to a race condition in cdev_get  (CVE-2020-0305)\n\n* kernel: out-of-bounds read in in vc_do_resize function (CVE-2020-8647)\n\n* kernel: use-after-free in n_tty_receive_buf_common function (CVE-2020-8648)\n\n* kernel: invalid read location in vgacon_invert_region function (CVE-2020-8649)\n\n* kernel: uninitialized kernel data leak in userspace coredumps (CVE-2020-10732)\n\n* kernel: SELinux netlink permission check bypass (CVE-2020-10751)\n\n* kernel: out-of-bounds write in mpol_parse_str  (CVE-2020-11565)\n\n* kernel: mishandles invalid descriptors in drivers/media/usb/gspca/xirlink_cit.c (CVE-2020-11668)\n\n* kernel: buffer overflow in mt76_add_fragment function (CVE-2020-12465)\n\n* kernel: xdp_umem_reg in net/xdp/xdp_umem.c has an out-of-bounds write which could result in crash and data coruption (CVE-2020-12659)\n\n* kernel: sg_write function lacks an sg_remove_request call in a certain failure case (CVE-2020-12770)\n\n* kernel: possible to send arbitrary signals to a privileged (suidroot) parent process (CVE-2020-12826)\n\n* kernel: referencing inode of removed superblock in get_futex_key() causes UAF (CVE-2020-14381)\n\n* kernel: soft-lockups in iov_iter_copy_from_user_atomic() could result in DoS (CVE-2020-25641)\n\n* kernel: kernel pointer leak due to WARN_ON statement in video driver leads to local information disclosure (CVE-2019-9455)\n\n* kernel: null pointer dereference in dlpar_parse_cc_property  (CVE-2019-12614)\n\n* kernel: null-pointer dereference in drivers/net/fjes/fjes_main.c (CVE-2019-16231)\n\n* kernel: null pointer dereference in drivers/scsi/qla2xxx/qla_os.c (CVE-2019-16233)\n\n* kernel: memory leak in  af9005_identify_state() function (CVE-2019-18809)\n\n* kernel: A memory leak in the mwifiex_pcie_alloc_cmdrsp_buf() function (CVE-2019-19056)\n\n* kernel: memory leak in the crypto_report() function (CVE-2019-19062)\n\n* kernel: Two memory leaks in the rtl_usb_probe() function (CVE-2019-19063)\n\n* kernel: A memory leak in the rtl8xxxu_submit_int_urb() function (CVE-2019-19068)\n\n* kernel: A memory leak in the predicate_parse() function (CVE-2019-19072)\n\n* kernel: information leak bug caused  by a malicious USB device in the drivers/media/usb/ttusb-dec/ttusb_dec.c (CVE-2019-19533)\n\n* kernel: Null pointer dereference in drop_sysctl_table() (CVE-2019-20054)\n\n* kernel: kernel stack information leak on s390/s390x (CVE-2020-10773)\n\n* kernel: possibility of memory disclosure when reading the file /proc/sys/kernel/rh_features (CVE-2020-10774)\n\n* kernel: vhost-net: stack overflow in get_raw_socket while checking sk_family field (CVE-2020-10942)\n\n* kernel: sync of excessive duration via an XFS v5 image with crafted metadata (CVE-2020-12655)",
+  "references": [
+    {
+      "url": "https://vulners.com/cve/CVE-2019-12614",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-15917",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-15925",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-16231",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-16233",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-18808",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-18809",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-19046",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-19056",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-19062",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-19063",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-19068",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-19072",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-19319",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-19332",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-19447",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-19524",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-19533",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-19537",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-19543",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-19602",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-19767",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-19770",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-20054",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-20636",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-9455",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2019-9458",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-0305",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-0444",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-10732",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-10751",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-10773",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-10774",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-10942",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-11565",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-11668",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-12465",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-12655",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-12659",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-12770",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-12826",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-14381",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-25641",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-8647",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-8648",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2020-8649",
+      "type": "REPORT"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "ALSA-2023:2179",
+  "summary": "Moderate: libguestfs-winsupport security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libguestfs-winsupport"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.2-1.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2021-46790",
+    "CVE-2022-30784",
+    "CVE-2022-30786",
+    "CVE-2022-30788",
+    "CVE-2022-30789"
+  ],
+  "published": "2023-05-09T00:00:00Z",
+  "modified": "2023-05-12T12:18:28Z",
+  "details": "The libguestfs-winsupport package adds support for Windows guests to libguestfs, a set of tools and libraries allowing users to access and modify virtual machine (VM) disk images.\n\nSecurity Fix(es):\n\n* ntfs-3g: heap-based buffer overflow in ntfsck (CVE-2021-46790)\n* ntfs-3g: crafted NTFS image can cause heap exhaustion in ntfs_get_attribute_value (CVE-2022-30784)\n* ntfs-3g: crafted NTFS image can cause a heap-based buffer overflow in ntfs_names_full_collate (CVE-2022-30786)\n* ntfs-3g: crafted NTFS image can cause a heap-based buffer overflow in ntfs_mft_rec_alloc (CVE-2022-30788)\n* ntfs-3g: crafted NTFS image can cause a heap-based buffer overflow in ntfs_check_log_client_array (CVE-2022-30789)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:2179",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2021-46790",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-30784",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-30786",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-30788",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-30789",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2093314",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2093326",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2093340",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2093348",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2093358",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-2179.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

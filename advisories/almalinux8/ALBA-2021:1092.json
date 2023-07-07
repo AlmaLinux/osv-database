@@ -1,0 +1,30 @@
+{
+  "id": "ALBA-2021:1092",
+  "summary": "zlib bug fix and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "zlib-static"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.11-16.2.el8_3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2021-04-06T13:33:03Z",
+  "modified": "2021-08-11T08:54:00Z",
+  "details": "The zlib packages provide a general-purpose lossless data compression\nlibrary that is used by many different programs.\n\nBug Fix(es) and Enhancement(s):\n\n* AlmaLinux8.1 - zlib: DFLTCC compression level switching issues (BZ#1926104)\n\n* AlmaLinux8.2 - zlib: inflateSyncPoint() returns an incorrect result on z15\n(BZ#1932270)",
+  "references": []
+}

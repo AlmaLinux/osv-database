@@ -5,7 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "gcc-toolset-10-dyninst-devel"
+        "name": "gcc-toolset-10-dyninst"
       },
       "ranges": [
         {
@@ -24,7 +24,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "gcc-toolset-10-dyninst"
+        "name": "gcc-toolset-10-dyninst-devel"
       },
       "ranges": [
         {
@@ -45,5 +45,10 @@
   "published": "2021-05-18T06:08:08Z",
   "modified": "2021-11-12T10:20:56Z",
   "details": "GCC Toolset is a compiler toolset that provides recent versions of development tools. GCC Toolset is an Application Stream packaged as a Software Collection.\n\nFor instructions on usage, see Using GCC Toolset linked from the References section. Components and specifics of this version are documented in the GCC Toolset 10 chapter.\n\nFor detailed changes in this release, see the AlmaLinux Release Notes.",
-  "references": []
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALBA-2021-1807.html",
+      "type": "ADVISORY"
+    }
+  ]
 }

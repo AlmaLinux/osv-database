@@ -1,0 +1,179 @@
+{
+  "id": "ALSA-2022:7692",
+  "summary": "Moderate: xmlrpc-c security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "xmlrpc-c"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.51.0-8.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "xmlrpc-c-c++"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.51.0-8.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "xmlrpc-c-client"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.51.0-8.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "xmlrpc-c-client++"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.51.0-8.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "xmlrpc-c-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.51.0-8.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2021-46143",
+    "CVE-2022-22822",
+    "CVE-2022-22823",
+    "CVE-2022-22824",
+    "CVE-2022-22825",
+    "CVE-2022-22826",
+    "CVE-2022-22827"
+  ],
+  "published": "2022-11-08T00:00:00Z",
+  "modified": "2022-11-14T17:34:42Z",
+  "details": "XML-RPC is a remote procedure call (RPC) protocol that uses XML to encode its calls and HTTP as a transport mechanism. The xmlrpc-c packages provide a network protocol to allow a client program to make a simple RPC (remote procedure call) over the Internet. It converts an RPC into an XML document, sends it to a remote server using HTTP, and gets back the response in XML.\n\nSecurity Fix(es):\n\n* expat: Integer overflow in doProlog in xmlparse.c (CVE-2021-46143)\n* expat: Integer overflow in addBinding in xmlparse.c (CVE-2022-22822)\n* expat: Integer overflow in build_model in xmlparse.c (CVE-2022-22823)\n* expat: Integer overflow in defineAttribute in xmlparse.c (CVE-2022-22824)\n* expat: Integer overflow in lookup in xmlparse.c (CVE-2022-22825)\n* expat: Integer overflow in nextScaffoldPart in xmlparse.c (CVE-2022-22826)\n* expat: Integer overflow in storeAtts in xmlparse.c (CVE-2022-22827)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:7692",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2021-46143",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-22822",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-22823",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-22824",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-22825",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-22826",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-22827",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2044455",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2044457",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2044464",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2044467",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2044479",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2044484",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2044488",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2022-7692.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

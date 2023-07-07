@@ -5,6 +5,25 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
+        "name": "389-ds-base"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.3-4.el9_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
         "name": "389-ds-base-libs"
       },
       "ranges": [
@@ -25,25 +44,6 @@
       "package": {
         "ecosystem": "AlmaLinux:9",
         "name": "python3-lib389"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.1.3-4.el9_1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:9",
-        "name": "389-ds-base"
       },
       "ranges": [
         {

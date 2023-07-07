@@ -1,0 +1,41 @@
+{
+  "id": "ALSA-2021:4413",
+  "summary": "Moderate: tpm2-tools security and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "tpm2-tools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.1.1-5.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2021-3565"
+  ],
+  "published": "2021-11-09T09:19:19Z",
+  "modified": "2021-11-09T13:12:47Z",
+  "details": "The tpm2-tools packages add a set of utilities for management and utilization of Trusted Platform Module (TPM) 2.0 devices from user space.\n\nSecurity Fix(es):\n\n* tpm2-tools: fixed AES wrapping key in tpm2_import (CVE-2021-3565)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2021-4413.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://vulners.com/cve/CVE-2021-3565",
+      "type": "REPORT"
+    }
+  ]
+}

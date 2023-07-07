@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2023:2378",
+  "summary": "Moderate: postgresql-jdbc security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "postgresql-jdbc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "42.2.27-1.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2022-41946"
+  ],
+  "published": "2023-05-09T00:00:00Z",
+  "modified": "2023-05-12T04:35:21Z",
+  "details": "PostgreSQL is an advanced object-relational database management system. The postgresql-jdbc package includes the .jar files needed for Java programs to access a PostgreSQL database.\n\nSecurity Fix(es):\n\n* postgresql-jdbc: Information leak of prepared statement data due to insecure temporary file permissions (CVE-2022-41946)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:2378",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-41946",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2153399",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-2378.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

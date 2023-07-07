@@ -1,0 +1,35 @@
+{
+  "id": "ALBA-2021:0564",
+  "summary": "dbxtool bug fix and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "dbxtool"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8-5.el8_3.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2021-02-16T07:37:04Z",
+  "modified": "2021-02-16T13:03:40Z",
+  "details": "The dbxtool packages provide a command line utility and a one-shot systemd\nservice for applying UEFI Secure Boot DBX updates.\n\nBug Fix(es) and Enhancement(s):\n\n* [Dell RHEL 8.2 BUG] dbxtool: fails to list with 'EFI Signature List is\nmalformed' (BZ#1912474)",
+  "references": [
+    {
+      "url": "https://errata.almalinux.org/8/ALBA-2021-0564.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

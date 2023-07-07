@@ -5,7 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "postgresql-upgrade-devel"
+        "name": "pg_repack"
       },
       "ranges": [
         {
@@ -15,7 +15,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "13.5-2.module_el8.6.0+2760+1746ec94"
+              "fixed": "1.4.6-3.module_el8.6.0+2758+4f4474df"
             }
           ]
         }
@@ -24,7 +24,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "postgresql-test"
+        "name": "pg_repack"
       },
       "ranges": [
         {
@@ -34,7 +34,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "13.5-2.module_el8.6.0+2760+1746ec94"
+              "fixed": "1.4.6-3.module_el8.6.0+2760+1746ec94"
             }
           ]
         }
@@ -43,7 +43,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "postgresql-plperl"
+        "name": "pgaudit"
       },
       "ranges": [
         {
@@ -53,7 +53,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "13.5-2.module_el8.6.0+2760+1746ec94"
+              "fixed": "1.5.0-1.module_el8.6.0+2760+1746ec94"
             }
           ]
         }
@@ -62,7 +62,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "postgresql-test-rpm-macros"
+        "name": "postgres-decoderbufs"
       },
       "ranges": [
         {
@@ -72,7 +72,26 @@
               "introduced": "0"
             },
             {
-              "fixed": "13.5-2.module_el8.6.0+2760+1746ec94"
+              "fixed": "0.10.0-2.module_el8.6.0+2760+1746ec94"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "postgres-decoderbufs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.0-2.module_el8.6.0+2758+4f4474df"
             }
           ]
         }
@@ -82,63 +101,6 @@
       "package": {
         "ecosystem": "AlmaLinux:8",
         "name": "postgresql"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "13.5-2.module_el8.6.0+2760+1746ec94"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "postgresql-pltcl"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "13.5-2.module_el8.6.0+2760+1746ec94"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "postgresql-server-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "13.5-2.module_el8.6.0+2760+1746ec94"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "postgresql-static"
       },
       "ranges": [
         {
@@ -195,7 +157,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "pg_repack"
+        "name": "postgresql-plperl"
       },
       "ranges": [
         {
@@ -205,7 +167,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.4.6-3.module_el8.6.0+2758+4f4474df"
+              "fixed": "13.5-2.module_el8.6.0+2760+1746ec94"
             }
           ]
         }
@@ -233,7 +195,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "postgres-decoderbufs"
+        "name": "postgresql-pltcl"
       },
       "ranges": [
         {
@@ -243,7 +205,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "0.10.0-2.module_el8.6.0+2758+4f4474df"
+              "fixed": "13.5-2.module_el8.6.0+2760+1746ec94"
             }
           ]
         }
@@ -271,7 +233,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "pgaudit"
+        "name": "postgresql-server-devel"
       },
       "ranges": [
         {
@@ -281,7 +243,64 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.5.0-1.module_el8.6.0+2760+1746ec94"
+              "fixed": "13.5-2.module_el8.6.0+2760+1746ec94"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "postgresql-static"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "13.5-2.module_el8.6.0+2760+1746ec94"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "postgresql-test"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "13.5-2.module_el8.6.0+2760+1746ec94"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "postgresql-test-rpm-macros"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "13.5-2.module_el8.6.0+2760+1746ec94"
             }
           ]
         }
@@ -291,6 +310,25 @@
       "package": {
         "ecosystem": "AlmaLinux:8",
         "name": "postgresql-upgrade"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "13.5-2.module_el8.6.0+2760+1746ec94"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "postgresql-upgrade-devel"
       },
       "ranges": [
         {

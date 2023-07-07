@@ -5,6 +5,25 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
+        "name": "qt5-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.15.3-1.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
         "name": "qt5-rpm-macros"
       },
       "ranges": [
@@ -45,7 +64,7 @@
     "CVE-2022-25255"
   ],
   "published": "2022-11-08T00:00:00Z",
-  "modified": "2022-11-12T02:11:31Z",
+  "modified": "2022-11-12T02:11:32Z",
   "details": "The Qt5 libraries packages provide Qt 5, version 5 of the Qt cross-platform application framework.\n\nThe following packages have been upgraded to a later upstream version: qt5 (5.15.3). (BZ#2061377)\n\nSecurity Fix(es):\n\n* qt: QProcess could execute a binary from the current working directory when not found in the PATH (CVE-2022-25255)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
     {

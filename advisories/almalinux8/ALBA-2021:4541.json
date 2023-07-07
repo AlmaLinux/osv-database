@@ -1,0 +1,30 @@
+{
+  "id": "ALBA-2021:4541",
+  "summary": "sssd bug fix and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libsss_nss_idmap-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.2-2.el8_5.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "published": "2021-11-09T19:27:29Z",
+  "modified": "2021-11-12T18:01:42Z",
+  "details": "The System Security Services Daemon (SSSD) service provides a set of\ndaemons to manage access to remote directories and authentication\nmechanisms. It also provides the Name Service Switch (NSS) and the\nPluggable Authentication Modules (PAM) interfaces toward the system, and a\npluggable back-end system to connect to multiple different account sources.\n\nBug Fix(es) and Enhancement(s):\n\n* tps tests fail with cross dependency on sssd debuginfo package: removal\nof 'sssd-libwbclient-debuginfo' is missing (BZ#2014460)",
+  "references": []
+}

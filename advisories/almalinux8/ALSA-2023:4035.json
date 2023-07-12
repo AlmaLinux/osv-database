@@ -1,0 +1,218 @@
+{
+  "id": "ALSA-2023:4035",
+  "summary": "Important: nodejs:18 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:18.14.2-3.module_el8.8.0+3587+ee652244"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:18.14.2-3.module_el8.8.0+3587+ee652244"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-docs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:18.14.2-3.module_el8.8.0+3587+ee652244"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-full-i18n"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:18.14.2-3.module_el8.8.0+3587+ee652244"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-nodemon"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.20-2.module_el8.8.0+3587+ee652244"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-packaging"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2021.06-4.module_el8.7.0+3343+ea2b7901"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-packaging-bundler"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2021.06-4.module_el8.7.0+3343+ea2b7901"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "npm"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:9.5.0-1.18.14.2.3.module_el8.8.0+3587+ee652244"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2023-32067",
+    "CVE-2022-4904",
+    "CVE-2023-31130",
+    "CVE-2023-31147",
+    "CVE-2023-31124"
+  ],
+  "published": "2023-07-12T00:00:00Z",
+  "modified": "2023-07-12T21:27:18Z",
+  "details": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nSecurity Fix(es):\n\n* c-ares: 0-byte UDP payload Denial of Service (CVE-2023-32067)\n* c-ares: buffer overflow in config_sortlist() due to missing string length check (CVE-2022-4904)\n* c-ares: Buffer Underwrite in ares_inet_net_pton() (CVE-2023-31130)\n* c-ares: Insufficient randomness in generation of DNS query IDs (CVE-2023-31147)\n* c-ares: AutoTools does not set CARES_RANDOM_FILE during cross compilation (CVE-2023-31124)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:4035",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-4904",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-31124",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-31130",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-31147",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-32067",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2168631",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2209494",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2209497",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2209501",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2209502",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2023-4035.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

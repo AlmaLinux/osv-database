@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2023:4411",
+  "summary": "Important: cjose security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "cjose"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.6.1-13.el9_2.alma"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2023-37464"
+  ],
+  "published": "2023-08-01T00:00:00Z",
+  "modified": "2023-08-02T16:01:22Z",
+  "details": "CJose is C library implementing the Javascript Object Signing and Encryption (JOSE).\n\nSecurity Fix(es):\n\n* cjose: AES GCM decryption uses the Tag length from the actual Authentication Tag provided in the JWE (CVE-2023-37464)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:4411",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-37464",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2223295",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-4411.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

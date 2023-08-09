@@ -1,0 +1,121 @@
+{
+  "id": "ALSA-2023:4468",
+  "summary": "Important: firefox security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "firefox"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "102.14.0-1.el8_8.alma"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2023-4045",
+    "CVE-2023-4046",
+    "CVE-2023-4047",
+    "CVE-2023-4048",
+    "CVE-2023-4049",
+    "CVE-2023-4050",
+    "CVE-2023-4056",
+    "CVE-2023-4057",
+    "CVE-2023-4055"
+  ],
+  "published": "2023-08-03T00:00:00Z",
+  "modified": "2023-08-04T19:54:12Z",
+  "details": "TODO: add package description\n\nThis update upgrades Firefox to version 102.14.0 ESR.\n\nSecurity Fix(es):\n\n* Mozilla: Offscreen Canvas could have bypassed cross-origin restrictions (CVE-2023-4045)\n* Mozilla: Incorrect value used during WASM compilation (CVE-2023-4046)\n* Mozilla: Potential permissions request bypass via clickjacking (CVE-2023-4047)\n* Mozilla: Crash in DOMParser due to out-of-memory conditions (CVE-2023-4048)\n* Mozilla: Fix potential race conditions when releasing platform objects (CVE-2023-4049)\n* Mozilla: Stack buffer overflow in StorageManager (CVE-2023-4050)\n* Mozilla: Memory safety bugs fixed in Firefox 116, Firefox ESR 115.1, Firefox ESR 102.14, Thunderbird 115.1, and Thunderbird 102.14 (CVE-2023-4056)\n* Mozilla: Memory safety bugs fixed in Firefox 116, Firefox ESR 115.1, and Thunderbird 115.1 (CVE-2023-4057)\n* Mozilla: Cookie jar overflow caused unexpected cookie jar state (CVE-2023-4055)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:4468",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-4045",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-4046",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-4047",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-4048",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-4049",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-4050",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-4055",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-4056",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-4057",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2228360",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2228361",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2228362",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2228363",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2228364",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2228365",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2228367",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2228370",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2228371",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2023-4468.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

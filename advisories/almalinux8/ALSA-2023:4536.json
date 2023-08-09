@@ -1,0 +1,209 @@
+{
+  "id": "ALSA-2023:4536",
+  "summary": "Moderate: nodejs:18 security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:18.16.1-1.module_el8.8.0+3595+0818e803"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:18.16.1-1.module_el8.8.0+3595+0818e803"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-docs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:18.16.1-1.module_el8.8.0+3595+0818e803"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-full-i18n"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:18.16.1-1.module_el8.8.0+3595+0818e803"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-nodemon"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.20-2.module_el8.8.0+3587+ee652244"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-packaging"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2021.06-4.module_el8.7.0+3343+ea2b7901"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-packaging-bundler"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2021.06-4.module_el8.7.0+3343+ea2b7901"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "npm"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:9.5.1-1.18.16.1.1.module_el8.8.0+3595+0818e803"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2023-30581",
+    "CVE-2023-30588",
+    "CVE-2023-30589",
+    "CVE-2023-30590"
+  ],
+  "published": "2023-08-08T00:00:00Z",
+  "modified": "2023-08-09T09:24:33Z",
+  "details": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nThe package has been upgraded to a later upstream version: nodejs (18.16.1). (BZ#2223630, BZ#2223631, BZ#2223632, BZ#2223633, BZ#2223635, BZ#2223642)\n\nSecurity Fix(es):\n\n* nodejs: mainModule.proto bypass experimental policy mechanism (CVE-2023-30581)\n* nodejs: process interuption due to invalid Public Key information in x509 certificates (CVE-2023-30588)\n* nodejs: HTTP Request Smuggling via Empty headers separated by CR (CVE-2023-30589)\n* nodejs: DiffieHellman do not generate keys after setting a private key (CVE-2023-30590)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* nodejs:18/nodejs: Don't assume FIPS is disabled by default [almalinux-8] (BZ#2223639)",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:4536",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-30581",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-30588",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-30589",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-30590",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2219824",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2219838",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2219841",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2219842",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2023-4536.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

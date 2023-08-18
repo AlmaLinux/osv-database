@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2023:4571",
+  "summary": "Important: iperf3 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "iperf3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.9-10.el9_2.alma"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2023-38403"
+  ],
+  "published": "2023-08-08T00:00:00Z",
+  "modified": "2023-08-09T11:22:23Z",
+  "details": "Iperf is a tool which can measure maximum TCP bandwidth and tune various parameters and UDP characteristics. Iperf reports bandwidth, delay jitter, and data-gram loss.\n\nSecurity Fix(es):\n\n* iperf3: memory allocation hazard and crash (CVE-2023-38403)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:4571",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-38403",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2222204",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-4571.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

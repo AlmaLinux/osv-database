@@ -1,0 +1,167 @@
+{
+  "id": "ALSA-2023:4958",
+  "summary": "Important: firefox security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "firefox"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "102.15.0-1.el9_2.alma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "firefox-x11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "102.15.0-1.el9_2.alma"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "CVE-2023-4573",
+    "CVE-2023-4574",
+    "CVE-2023-4575",
+    "CVE-2023-4577",
+    "CVE-2023-4584",
+    "CVE-2023-4585",
+    "CVE-2023-4051",
+    "CVE-2023-4053",
+    "CVE-2023-4578",
+    "CVE-2023-4580",
+    "CVE-2023-4581",
+    "CVE-2023-4583"
+  ],
+  "published": "2023-09-04T00:00:00Z",
+  "modified": "2023-09-06T14:38:05Z",
+  "details": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.\n\nThis update upgrades Firefox to version 102.15.0 ESR.\n\nSecurity Fix(es):\n\n* Mozilla: Memory corruption in IPC CanvasTranslator (CVE-2023-4573)\n* Mozilla: Memory corruption in IPC ColorPickerShownCallback (CVE-2023-4574)\n* Mozilla: Memory corruption in IPC FilePickerShownCallback (CVE-2023-4575)\n* Mozilla: Memory corruption in JIT UpdateRegExpStatics (CVE-2023-4577)\n* Mozilla: Memory safety bugs fixed in Firefox 117, Firefox ESR 102.15, Firefox ESR 115.2, Thunderbird 102.15, and Thunderbird 115.2 (CVE-2023-4584)\n* Mozilla: Memory safety bugs fixed in Firefox 117, Firefox ESR 115.2, and Thunderbird 115.2 (CVE-2023-4585)\n* Mozilla: Full screen notification obscured by file open dialog (CVE-2023-4051)\n* Mozilla: Full screen notification obscured by external program (CVE-2023-4053)\n* Mozilla: Error reporting methods in SpiderMonkey could have triggered an Out of Memory Exception (CVE-2023-4578)\n* Mozilla: Push notifications saved to disk unencrypted (CVE-2023-4580)\n* Mozilla: XLL file extensions were downloadable without warnings (CVE-2023-4581)\n* Mozilla: Browsing Context potentially not cleared when closing Private Window (CVE-2023-4583)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:4958",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-4051",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-4053",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-4573",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-4574",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-4575",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-4577",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-4578",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-4580",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-4581",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-4583",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-4584",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-4585",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2236071",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2236072",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2236073",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2236075",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2236076",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2236077",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2236078",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2236079",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2236080",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2236082",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2236084",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2236086",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-4958.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

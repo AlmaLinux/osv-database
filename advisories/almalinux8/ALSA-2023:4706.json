@@ -1,11 +1,11 @@
 {
-  "id": "ALBA-2021:4533",
-  "summary": "ibus bug fix update",
+  "id": "ALSA-2023:4706",
+  "summary": "Important: subscription-manager security update",
   "affected": [
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "ibus"
+        "name": "dnf-plugin-subscription-manager"
       },
       "ranges": [
         {
@@ -15,7 +15,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.5.19-14.el8_5"
+              "fixed": "1.28.36-3.el8_8.alma.1"
             }
           ]
         }
@@ -24,7 +24,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "ibus-devel"
+        "name": "python3-cloud-what"
       },
       "ranges": [
         {
@@ -34,7 +34,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.5.19-14.el8_5"
+              "fixed": "1.28.36-3.el8_8.alma.1"
             }
           ]
         }
@@ -43,7 +43,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "ibus-devel-docs"
+        "name": "python3-subscription-manager-rhsm"
       },
       "ranges": [
         {
@@ -53,7 +53,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.5.19-14.el8_5"
+              "fixed": "1.28.36-3.el8_8.alma.1"
             }
           ]
         }
@@ -62,7 +62,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "ibus-gtk2"
+        "name": "python3-syspurpose"
       },
       "ranges": [
         {
@@ -72,7 +72,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.5.19-14.el8_5"
+              "fixed": "1.28.36-3.el8_8.alma.1"
             }
           ]
         }
@@ -81,7 +81,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "ibus-gtk3"
+        "name": "subscription-manager"
       },
       "ranges": [
         {
@@ -91,7 +91,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.5.19-14.el8_5"
+              "fixed": "1.28.36-3.el8_8.alma.1"
             }
           ]
         }
@@ -100,7 +100,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "ibus-libs"
+        "name": "subscription-manager-migration"
       },
       "ranges": [
         {
@@ -110,7 +110,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.5.19-14.el8_5"
+              "fixed": "1.28.36-3.el8_8.alma.1"
             }
           ]
         }
@@ -119,7 +119,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "ibus-setup"
+        "name": "subscription-manager-plugin-ostree"
       },
       "ranges": [
         {
@@ -129,7 +129,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.5.19-14.el8_5"
+              "fixed": "1.28.36-3.el8_8.alma.1"
             }
           ]
         }
@@ -138,7 +138,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:8",
-        "name": "ibus-wayland"
+        "name": "subscription-manager-rhsm-certificates"
       },
       "ranges": [
         {
@@ -148,20 +148,34 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.5.19-14.el8_5"
+              "fixed": "1.28.36-3.el8_8.alma.1"
             }
           ]
         }
       ]
     }
   ],
-  "aliases": [],
-  "published": "2021-11-09T19:24:51Z",
-  "modified": "2021-11-12T16:47:14Z",
-  "details": "The Intelligent Input Bus (IBus) is an input method framework for multilingual input in Unix-like operating systems.\n\nBug fix:\n\n* Previously, in GNOME Wayland desktop in RHEL 8.5, the IBus emoji candidate pop-up was used with IBus UI and the selected candidate could not inserted into the target input focus smartly. With this update, the IBus emoji candidate pop-up is used with GNOME-Shell UI in GNOME Wayland desktop and the selected candidate is inserted into the input focus correctly. (BZ#2014064)",
+  "aliases": [
+    "CVE-2023-3899"
+  ],
+  "published": "2023-08-22T00:00:00Z",
+  "modified": "2023-08-31T13:52:34Z",
+  "details": "The subscription-manager packages provide programs and libraries to allow users to manage subscriptions and yum repositories from the AlmaLinux entitlement platform.\n\nSecurity Fix(es):\n\n* subscription-manager: inadequate authorization of com.AlmaLinux.RHSM1 D-Bus interface allows local users to modify configuration (CVE-2023-3899)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {
-      "url": "https://errata.almalinux.org/8/ALBA-2021-4533.html",
+      "url": "https://access.redhat.com/errata/RHSA-2023:4706",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-3899",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2225407",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2023-4706.html",
       "type": "ADVISORY"
     }
   ]

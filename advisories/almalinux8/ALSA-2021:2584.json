@@ -459,13 +459,13 @@
       ]
     }
   ],
-  "aliases": [
+  "related": [
     "CVE-2020-25613",
     "CVE-2021-28965"
   ],
   "published": "2021-06-29T13:57:50Z",
-  "modified": "2021-06-29T13:57:32Z",
-  "details": "Ruby is an extensible, interpreted, object-oriented, scripting language. It has features to process text files and to perform system management tasks.\n\nThe following packages have been upgraded to a later upstream version: ruby (2.7.3). (BZ#1951999)\n\nSecurity Fix(es):\n\n* ruby: Potential HTTP request smuggling in WEBrick (CVE-2020-25613)\n\n* ruby: XML round-trip vulnerability in REXML (CVE-2021-28965)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Resolv::DNS: ruby:2.7/ruby: timeouts if multiple IPv6 name servers are given and address contains leading zero [rhel-8] (BZ#1952000)",
+  "modified": "2023-09-15T13:41:48Z",
+  "details": "Ruby is an extensible, interpreted, object-oriented, scripting language. It has features to process text files and to perform system management tasks.\n\nThe following packages have been upgraded to a later upstream version: ruby (2.7.3). (BZ#1951999)\n\nSecurity Fix(es):\n\n* ruby: Potential HTTP request smuggling in WEBrick (CVE-2020-25613)\n\n* ruby: XML round-trip vulnerability in REXML (CVE-2021-28965)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Resolv::DNS: ruby:2.7/ruby: timeouts if multiple IPv6 name servers are given and address contains leading zero [almalinux-8] (BZ#1952000)",
   "references": [
     {
       "url": "https://errata.almalinux.org/8/ALSA-2021-2584.html",

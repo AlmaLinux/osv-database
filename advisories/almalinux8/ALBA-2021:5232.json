@@ -440,7 +440,7 @@
       ]
     }
   ],
-  "aliases": [],
+  "related": [],
   "published": "2021-12-21T09:09:22Z",
   "modified": "2021-12-22T14:11:08Z",
   "details": "The java-11-openjdk packages provide the OpenJDK 11 Java Runtime Environment and the OpenJDK 11 Java Software Development Kit.\n\nBug Fix(es) and Enhancement(s):\n\n* While in FIPS mode, the NSS Software Token does not allow the import of private or secret plain keys. This caused the OpenJDK keytool application to fail when used with OpenJDK in FIPS mode. With this update, OpenJDK will now import such keys into the NSS database. This behaviour may be disabled using -Dcom.AlmaLinux.fips.plainKeySupport=false. (RHBZ#2014212)",

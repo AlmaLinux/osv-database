@@ -79,7 +79,7 @@
       ]
     }
   ],
-  "aliases": [],
+  "related": [],
   "published": "2022-02-01T20:03:04Z",
   "modified": "2022-02-02T12:01:00Z",
   "details": "The resource-agents packages provide the Pacemaker and RGManager service\nmanagers with a set of scripts. These scripts interface with several\nservices to allow operating in a high-availability (HA) environment.\n\nBug Fix(es) and Enhancement(s):\n\n* gcp-vpc-move-vip, gcp-vpc-move-route, gcp-pd-move: A failed API call\nreturns OCF_ERR_CONFIGURED, preventing restarts (BZ#2008955)\n\n* gcp-vpc-move-route and gcp-vpc-move-vip can fail with permission denied\nerrors if token file is not found (BZ#2011839)",

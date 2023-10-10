@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "aliases": [],
+  "related": [],
   "published": "2020-04-07T12:57:50Z",
   "modified": "2021-11-12T10:20:55Z",
   "details": "GCC Toolset is a compiler toolset that provides recent versions of development\ntools. GCC Toolset is an Application Stream packaged as a Software Collection.\n\nThe binutils packages provide a collection of binary utilities for the manipulation of object code in various object file formats. It includes the ar, as, gprof, ld, nm, objcopy, objdump, ranlib, readelf, size, strings, strip, and addr2line utilities.\n\nBug Fix(es):\n\n* Certain Intel CPUs are affected by the Jump Conditional Code (JCC) bug causing machine instructions to be executed incorrectly. Consequently, the affected CPUs might not execute programs properly. The full fix involves updating the microcode of vulnerable CPUs, which can cause a performance degradation. This update enables a workaround in the assembler that helps to mitigate the performance loss. The workaround is not enabled by default.\n\nTo apply the workaround, recompile a program using GCC with the \"-Wa,-mbranches-within-32B-boundaries\" command-line option. A program recompiled with this command-line option will not be affected by JCC flaw, but the microcode update is still necessary in order to fully protect a system.\n\nNote that applying the workaround will increase the size of the program and there can still be a slight performance decrease, although it should be less than it would have been without the recompilation. (BZ#1783958)",

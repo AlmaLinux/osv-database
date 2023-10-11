@@ -117,7 +117,7 @@
       ]
     }
   ],
-  "aliases": [
+  "related": [
     "CVE-2020-7788",
     "CVE-2020-28469",
     "CVE-2021-3807",
@@ -130,8 +130,8 @@
     "CVE-2022-33987"
   ],
   "published": "2022-09-20T00:00:00Z",
-  "modified": "2022-10-14T14:04:54Z",
-  "details": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nThe following packages have been upgraded to a later upstream version: nodejs (16.16.0), nodejs-nodemon (2.0.19). (BZ#2124230, BZ#2124233)\n\nSecurity Fix(es):\n\n* nodejs-ini: Prototype pollution via malicious INI file (CVE-2020-7788)\n* nodejs-glob-parent: Regular expression denial of service (CVE-2020-28469)\n* nodejs-ansi-regex: Regular expression denial of service (ReDoS) matching ANSI escape codes (CVE-2021-3807)\n* normalize-url: ReDoS for data URLs (CVE-2021-33502)\n* nodejs: npm pack ignores root-level .gitignore and .npmignore file exclusion directives when run in a workspace (CVE-2022-29244)\n* nodejs: DNS rebinding in --inspect via invalid IP addresses (CVE-2022-32212)\n* nodejs: HTTP request smuggling due to flawed parsing of Transfer-Encoding (CVE-2022-32213)\n* nodejs: HTTP request smuggling due to improper delimiting of header fields (CVE-2022-32214)\n* nodejs: HTTP request smuggling due to incorrect parsing of multi-line Transfer-Encoding (CVE-2022-32215)\n* got: missing verification of requested URLs allows redirects to UNIX sockets (CVE-2022-33987)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* nodejs:16/nodejs: Rebase to the latest Nodejs 16 release [rhel-9] (BZ#2121019)\n* nodejs: Specify --with-default-icu-data-dir when using bootstrap build (BZ#2124299)",
+  "modified": "2023-09-15T13:41:48Z",
+  "details": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nThe following packages have been upgraded to a later upstream version: nodejs (16.16.0), nodejs-nodemon (2.0.19). (BZ#2124230, BZ#2124233)\n\nSecurity Fix(es):\n\n* nodejs-ini: Prototype pollution via malicious INI file (CVE-2020-7788)\n* nodejs-glob-parent: Regular expression denial of service (CVE-2020-28469)\n* nodejs-ansi-regex: Regular expression denial of service (ReDoS) matching ANSI escape codes (CVE-2021-3807)\n* normalize-url: ReDoS for data URLs (CVE-2021-33502)\n* nodejs: npm pack ignores root-level .gitignore and .npmignore file exclusion directives when run in a workspace (CVE-2022-29244)\n* nodejs: DNS rebinding in --inspect via invalid IP addresses (CVE-2022-32212)\n* nodejs: HTTP request smuggling due to flawed parsing of Transfer-Encoding (CVE-2022-32213)\n* nodejs: HTTP request smuggling due to improper delimiting of header fields (CVE-2022-32214)\n* nodejs: HTTP request smuggling due to incorrect parsing of multi-line Transfer-Encoding (CVE-2022-32215)\n* got: missing verification of requested URLs allows redirects to UNIX sockets (CVE-2022-33987)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* nodejs:16/nodejs: Rebase to the latest Nodejs 16 release [almalinux-9] (BZ#2121019)\n* nodejs: Specify --with-default-icu-data-dir when using bootstrap build (BZ#2124299)",
   "references": [
     {
       "url": "https://access.redhat.com/errata/RHSA-2022:6595",

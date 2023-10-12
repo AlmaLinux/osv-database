@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "aliases": [],
+  "related": [],
   "published": "2019-11-07T12:02:04Z",
   "modified": "2021-11-12T10:20:54Z",
   "details": "The libcacard packages contain the Common Access Card (CAC) emulation library.\n\nThis update fixes the following bug:\n\n* Backport the patch removing key caching to unbreak libcacard for CI usage (BZ#1750477).\n\nUsers of libcacard are advised to upgrade to these updated packages, which fix this bug.",

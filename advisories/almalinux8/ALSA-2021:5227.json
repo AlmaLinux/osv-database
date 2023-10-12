@@ -22,12 +22,12 @@
       ]
     }
   ],
-  "aliases": [
+  "related": [
     "CVE-2021-20321"
   ],
   "published": "2021-12-21T09:07:34Z",
-  "modified": "2021-12-22T17:20:16Z",
-  "details": "The kernel packages contain the Linux kernel, the core of any Linux operating system.\n\nSecurity Fix(es):\n\n* kernel: In Overlayfs missing a check for a negative dentry before calling vfs_rename() (CVE-2021-20321)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* panic while breaking a lease/delegation after user mode helper invocation (BZ#2010333)\n\n* The ASR driver is causing a system crash in RHEL8.4 compared to RHEL8.3 due to kernel changes (BZ#2016384)\n\n* RHEL8: DFS provided SMB shares are not accessible following unprivileged access (BZ#2017177)\n\n* Avoid hitting the rtnl_trylock/restart_syscall logic in net-sysfs when possible (BZ#2021165)\n\n* RHEL8: x86/Kconfig: Do not enable AMD_MEM_ENCRYPT_ACTIVE_BY_DEFAULT (BZ#2024678)\n\n* RHEL8.4-[Regression][P10][DD2.0][Rainier/Denali] - system crashed while offlining and onlining cores (BZ#2026450)",
+  "modified": "2023-09-15T13:41:48Z",
+  "details": "The kernel packages contain the Linux kernel, the core of any Linux operating system.\n\nSecurity Fix(es):\n\n* kernel: In Overlayfs missing a check for a negative dentry before calling vfs_rename() (CVE-2021-20321)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* panic while breaking a lease/delegation after user mode helper invocation (BZ#2010333)\n\n* The ASR driver is causing a system crash in AlmaLinux8.4 compared to AlmaLinux8.3 due to kernel changes (BZ#2016384)\n\n* AlmaLinux8: DFS provided SMB shares are not accessible following unprivileged access (BZ#2017177)\n\n* Avoid hitting the rtnl_trylock/restart_syscall logic in net-sysfs when possible (BZ#2021165)\n\n* AlmaLinux8: x86/Kconfig: Do not enable AMD_MEM_ENCRYPT_ACTIVE_BY_DEFAULT (BZ#2024678)\n\n* AlmaLinux8.4-[Regression][P10][DD2.0][Rainier/Denali] - system crashed while offlining and onlining cores (BZ#2026450)",
   "references": [
     {
       "url": "https://vulners.com/cve/CVE-2021-20321",

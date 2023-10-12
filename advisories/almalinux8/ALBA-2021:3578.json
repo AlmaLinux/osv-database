@@ -136,7 +136,7 @@
       ]
     }
   ],
-  "aliases": [],
+  "related": [],
   "published": "2021-09-21T07:10:29Z",
   "modified": "2021-09-23T08:29:42Z",
   "details": "The Pacemaker cluster resource manager is a collection of technologies\nworking together to maintain data integrity and application availability in\nthe event of failures.\n\nBug Fix(es) and Enhancement(s):\n\n* pacemaker seems to end up in an unfence loop (BZ#1972273)\n\n* On a three-node cluster if two nodes are hard-reset, sometimes the\ncluster ends up with unremovable transient attributes (BZ#1989622)\n\n* Pacemaker fencer should retry failed meta-data commands (BZ#1992014)\n\n* [RFE] Add ability to use sbd on cluster nodes but not remote nodes\n(BZ#1993891)",

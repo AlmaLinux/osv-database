@@ -1029,7 +1029,7 @@
       ]
     }
   ],
-  "aliases": [],
+  "related": [],
   "published": "2020-11-12T09:17:37Z",
   "modified": "2020-11-12T09:17:37Z",
   "details": "Eclipse is an integrated development environment (IDE).\n\nThe metadata for the eclipse:rhel8 module has been updated to remove the following unused profiles:\n    c\n    everything\n\nTo check whether you have the obsolete profiles installed, run:\n\n  # yum module list eclipse\n\nThe installed profiles have the [i] indicator next to their names.\n\nTo ensure the eclipse:rhel8 module contains the correct metadata, remove the unused profiles and reinstall the module with the java profile:\n\n  # yum module remove -y eclipse\n  # yum module reset -y eclipse\n  # yum clean all\n  # yum module -y install eclipse:rhel8/java\n\nTo install the eclipse:rhel8 module from scratch, use the java profile: \n\n  # yum module -y install eclipse:rhel8/java",

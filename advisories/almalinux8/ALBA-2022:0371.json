@@ -22,9 +22,9 @@
       ]
     }
   ],
-  "aliases": [],
+  "related": [],
   "published": "2022-02-01T20:13:33Z",
-  "modified": "2022-02-02T11:59:43Z",
-  "details": "The System Security Services Daemon (SSSD) service provides a set of\ndaemons to manage access to remote directories and authentication\nmechanisms. It also provides the Name Service Switch (NSS) and the\nPluggable Authentication Modules (PAM) interfaces toward the system, and a\npluggable back-end system to connect to multiple different account sources.\n\nBug Fix(es) and Enhancement(s):\n\n* sssd-kcm has requirement on krb5 symbol \"krb5_unmarshal_credentials\" only\navailable in latest RHEL8.5 krb5 libraries (BZ#2030651)\n\n* AD Domain in the AD Forest Missing after sssd latest update (BZ#2035285)",
+  "modified": "2023-09-15T13:41:48Z",
+  "details": "The System Security Services Daemon (SSSD) service provides a set of\ndaemons to manage access to remote directories and authentication\nmechanisms. It also provides the Name Service Switch (NSS) and the\nPluggable Authentication Modules (PAM) interfaces toward the system, and a\npluggable back-end system to connect to multiple different account sources.\n\nBug Fix(es) and Enhancement(s):\n\n* sssd-kcm has requirement on krb5 symbol \"krb5_unmarshal_credentials\" only\navailable in latest AlmaLinux8.5 krb5 libraries (BZ#2030651)\n\n* AD Domain in the AD Forest Missing after sssd latest update (BZ#2035285)",
   "references": []
 }

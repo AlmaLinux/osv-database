@@ -1,0 +1,143 @@
+{
+  "id": "ALSA-2023:5532",
+  "summary": "Important: nodejs security and bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "nodejs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:16.20.2-1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "nodejs-docs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:16.20.2-1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "nodejs-full-i18n"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:16.20.2-1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "nodejs-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:16.20.2-1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "npm"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:8.19.4-1.16.20.2.1.el9_2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-32002",
+    "CVE-2023-32006",
+    "CVE-2023-32559"
+  ],
+  "published": "2023-10-09T00:00:00Z",
+  "modified": "2023-10-09T19:50:32Z",
+  "details": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nSecurity Fix(es):\n\n* nodejs: Permissions policies can be bypassed via Module._load (CVE-2023-32002)\n* nodejs: Permissions policies can impersonate other modules in using module.constructor.createRequire() (CVE-2023-32006)\n* nodejs: Permissions policies can be bypassed via process.binding (CVE-2023-32559)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* nodejs: Rebase to the latest Nodejs 16 release [almalinux-9] (BZ#2236434)",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:5532",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-32002",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-32006",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-32559",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2230948",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2230955",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2230956",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-5532.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

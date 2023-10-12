@@ -1,0 +1,966 @@
+{
+  "id": "ALSA-2023:5069",
+  "summary": "Important: kernel security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "bpftool"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.0.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-64k"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-64k-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-64k-debug"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-64k-debug-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-64k-debug-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-64k-debug-devel-matched"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-64k-debug-modules"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-64k-debug-modules-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-64k-debug-modules-extra"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-64k-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-64k-devel-matched"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-64k-modules"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-64k-modules-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-64k-modules-extra"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-abi-stablelists"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-debug"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-debug-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-debug-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-debug-devel-matched"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-debug-modules"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-debug-modules-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-debug-modules-extra"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-debug-uki-virt"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-devel-matched"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-modules"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-modules-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-modules-extra"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-tools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-tools-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-tools-libs-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-uki-virt"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-zfcpdump"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-zfcpdump-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-zfcpdump-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-zfcpdump-devel-matched"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-zfcpdump-modules"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-zfcpdump-modules-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "kernel-zfcpdump-modules-extra"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "perf"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "python3-perf"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "rtla"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.30.1.el9_2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-3390",
+    "CVE-2023-3610",
+    "CVE-2023-3776",
+    "CVE-2023-4004",
+    "CVE-2023-4147",
+    "CVE-2023-31248",
+    "CVE-2023-35001",
+    "CVE-2023-1637",
+    "CVE-2023-20593",
+    "CVE-2023-21102"
+  ],
+  "published": "2023-09-12T00:00:00Z",
+  "modified": "2023-09-14T08:08:48Z",
+  "details": "The kernel packages contain the Linux kernel, the core of any Linux operating system.\n\nThe following packages have been upgraded to a later upstream version: kernel (5.14.0).\n\nSecurity Fix(es):\n\n* kernel: UAF in nftables when nft_set_lookup_global triggered after handling named and anonymous sets in batch requests (CVE-2023-3390)\n* kernel: netfilter: nf_tables: fix chain binding transaction logic in the abort path of NFT_MSG_NEWRULE (CVE-2023-3610)\n* kernel: net/sched: cls_fw component can be exploited as result of failure in tcf_change_indev function (CVE-2023-3776)\n* kernel: netfilter: use-after-free due to improper element removal in nft_pipapo_remove() (CVE-2023-4004)\n* kernel: netfilter: nf_tables_newrule when adding a rule with NFTA_RULE_CHAIN_ID leads to use-after-free (CVE-2023-4147)\n* kernel: nf_tables: use-after-free in nft_chain_lookup_byid() (CVE-2023-31248)\n* kernel: nf_tables: stack-out-of-bounds-read in nft_byteorder_eval() (CVE-2023-35001)\n* kernel: save/restore speculative MSRs during S3 suspend/resume (CVE-2023-1637)\n* hw: amd: Cross-Process Information Leak (CVE-2023-20593)\n* kernel: bypass of shadow stack protection due to a logic error (CVE-2023-21102)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* [Intel 9.3 BUG] [SPR][EMR][FHF] ACPI: Fix system hang during S3 wakeup (BZ#2218026)\n* [Dell 9.2 BUG] Monitor lost after replug WD19TBS to SUT port wiith VGA/DVI to type-C dongle (BZ#2219463)\n* rtmutex: Incorrect waiter woken when requeueing in rt_mutex_adjust_prio_chain() (BZ#2222121)\n* AlmaLinux AWS ARM Instability During Microshift e2e tests (BZ#2223310)\n* AlmaLinux 9.x updates for SEV-SNP guest support (BZ#2224587)\n* Lock state corruption from nested rtmutex blocking in blk_flush_plug() (BZ#2225623)\n* bpf_jit_limit hit again - copy_seccomp() fix (BZ#2226945)\n* libceph: harden msgr2.1 frame segment length checks (BZ#2227070)\n* Temporary values used for the FIPS integrity test should be zeroized after use (BZ#2227768)\n* Important iavf bug fixes July 2023 (BZ#2228156)\n* [i40e/ice] error: Cannot set interface MAC/vlanid to 1e:b7:e2:02:b1:aa/0 for ifname ens4f0 vf 0: Resource temporarily unavailable (BZ#2228158)\n* lvconvert --splitcache, --uncache operations getting hung (BZ#2228481)\n* perf: EMR core and uncore PMU support (BZ#2230175)\n* NVIDIA - Grace: Backport i2c: tegra: Set ACPI node as primary fwnode (BZ#2230483)\n* NVIDIA - Grace: Backport i2c: tegra: Fix PEC support for SMBUS block read (BZ#2230488)\n* [Hyper-V][AlmaLinux 9]incomplete fc_transport implementation in storvsc causes null dereference in fc_timed_out() (BZ#2230747)\n* Kernel config option CONFIG_CRYPTO_STATS should be disabled until it is enhanced (BZ#2231850)\n* [AlmaLinux 9][Hyper-V]Excessive hv_storvsc driver logging with srb_status  SRB_STATUS_INTERNAL_ERROR  (0x30) (BZ#2231990)\n* AlmaLinux-9: WARNING: bad unlock balance detected! (BZ#2232213)\n* NVIDIA - Grace: Backport drm/ast patch expected for kernel 6.4 (BZ#2232302)\n* [Lenovo 9.1 bug]   AlmaLinux 9 will hang when \"echo c > /proc/sysrq-trigger\". (BZ#2232700)\n* [AlmaLinux-9] bz2022169 in /kernel/general/process/reg-suit fails on aarch64  (/proc/[pid]/wchan broken) (BZ#2233928)\n\nEnhancement(s):\n\n* [Intel 9.3 FEAT] cpufreq: intel_pstate: Enable HWP IO boost for all servers (BZ#2210270)\n* [Dell 9.3 FEAT] - New MB with AMP Codec Change on Maya Bay (audio driver) (BZ#2218960)\n* [Lenovo 9.3 FEAT] MDRAID - Update to the latest upstream (BZ#2221170)\n* [Intel 9.3 FEAT] [EMR] Add EMR support to uncore-frequency driver (BZ#2230169)",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:5069",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-1637",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-20593",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-21102",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-31248",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-3390",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-35001",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-3610",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-3776",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-4004",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-4147",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2181891",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2213260",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2213455",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2217845",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2220892",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2220893",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2225097",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2225198",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2225239",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2225275",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-5069.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

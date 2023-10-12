@@ -1,0 +1,123 @@
+{
+  "id": "ALSA-2023:5353",
+  "summary": "Moderate: libtiff security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libtiff"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.9-29.el8_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libtiff-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.9-29.el8_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libtiff-tools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.9-29.el8_8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-0800",
+    "CVE-2023-0801",
+    "CVE-2023-0802",
+    "CVE-2023-0803",
+    "CVE-2023-0804"
+  ],
+  "published": "2023-09-26T00:00:00Z",
+  "modified": "2023-09-27T09:26:35Z",
+  "details": "The libtiff packages contain a library of functions for manipulating Tagged Image File Format (TIFF) files.\n\nSecurity Fix(es):\n\n* libtiff: out-of-bounds write in extractContigSamplesShifted16bits() in tools/tiffcrop.c (CVE-2023-0800)\n* libtiff: out-of-bounds write in _TIFFmemcpy() in libtiff/tif_unix.c when called by functions in tools/tiffcrop.c (CVE-2023-0801)\n* libtiff: out-of-bounds write in extractContigSamplesShifted32bits() in tools/tiffcrop.c (CVE-2023-0802)\n* libtiff: out-of-bounds write in extractContigSamplesShifted16bits() in tools/tiffcrop.c (CVE-2023-0803)\n* libtiff: out-of-bounds write in extractContigSamplesShifted24bits() in tools/tiffcrop.c (CVE-2023-0804)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:5353",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-0800",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-0801",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-0802",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-0803",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-0804",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2170167",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2170172",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2170178",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2170187",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2170192",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2023-5353.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

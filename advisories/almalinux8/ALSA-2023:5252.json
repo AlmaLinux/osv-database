@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2023:5252",
+  "summary": "Moderate: dmidecode security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "dmidecode"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:3.3-4.el8_8.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-30630"
+  ],
+  "published": "2023-09-19T00:00:00Z",
+  "modified": "2023-09-21T13:12:11Z",
+  "details": "The dmidecode packages provide utilities for extracting Intel 64 and Intel Itanium hardware information from the system BIOS or Extensible Firmware Interface (EFI), depending on the SMBIOS/DMI standard. This information typically includes system manufacturer, model name, serial number, BIOS version, and asset tag, as well as other details, depending on the manufacturer.\n\nSecurity Fix(es):\n\n* dmidecode: dump-bin to overwrite a local file (CVE-2023-30630)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:5252",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-30630",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2186669",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2023-5252.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

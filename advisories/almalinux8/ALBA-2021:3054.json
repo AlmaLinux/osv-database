@@ -22,7 +22,7 @@
       ]
     }
   ],
-  "aliases": [],
+  "related": [],
   "published": "2021-08-10T11:55:28Z",
   "modified": "2021-08-11T08:54:00Z",
   "details": "The opencryptoki packages contain version 2.11 of the PKCS#11 API,\nimplemented for IBM Cryptocards, such as IBM 4764 and 4765 crypto cards.\nThese packages includes support for the IBM 4758 Cryptographic CoProcessor\n(with the PKCS#11 firmware loaded), the IBM eServer Cryptographic\nAccelerator (FC 4960 on IBM eServer System p), the IBM Crypto Express2 (FC\n0863 or FC 0870 on IBM System z), and the IBM CP Assist for Cryptographic\nFunction (FC 3863 on IBM System z). The opencryptoki packages also bring a\nsoftware token implementation that can be used without any cryptographic\nhardware. These packages contain the Slot Daemon (pkcsslotd) and general\nutilities.\n\nBug Fix(es) and Enhancement(s):\n\n* AlmaLinux8.5 - openCryptoki: Soft token does not check if an EC key is valid\n(BZ#1979173)",

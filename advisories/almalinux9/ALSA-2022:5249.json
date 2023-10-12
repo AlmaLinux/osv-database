@@ -535,15 +535,15 @@
       ]
     }
   ],
-  "aliases": [
+  "related": [
     "CVE-2022-1012",
     "CVE-2022-1729",
     "CVE-2022-1966",
     "CVE-2022-27666"
   ],
   "published": "2022-07-01T00:00:00Z",
-  "modified": "2022-07-21T17:18:08Z",
-  "details": "The kernel packages contain the Linux kernel, the core of any Linux operating system.\nSecurity Fix(es):\n* kernel: Small table perturb size in the TCP source port generation algorithm can lead to information leak (CVE-2022-1012)\n* kernel: race condition in perf_event_open leads to privilege escalation (CVE-2022-1729)\n* kernel: a use-after-free write in the netfilter subsystem can lead to privilege escalation to root (CVE-2022-1966)\n* kernel: buffer overflow in IPsec ESP transformation code (CVE-2022-27666)\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\nBug Fix(es):\n* make SHA512_arch algos and CRYPTO_USER built-ins (BZ#2072643)\n* SR-IOV performance > 50% degradation (BZ#2074830)\n* fix data corruption caused by dm-integrity (BZ#2082187)\n* SCTP client-side peeloff issues [rhel-9] (BZ#2084044)\n* TCP connection fails in a asymmetric routing situation (BZ#2085480)\n* Fails to boot Multiple RT VMs each with multiple vCPUs (BZ#2086963)\n* spec: Fix separate tools build (BZ#2090852)\n* call traces related to eeh_pseries observed and vmcore is not captured, when kdump is triggered (BZ#2092255)\n* Mark ThunderX NIC driver as unmaintained (BZ#2092638)",
+  "modified": "2023-09-15T13:41:48Z",
+  "details": "The kernel packages contain the Linux kernel, the core of any Linux operating system.\nSecurity Fix(es):\n* kernel: Small table perturb size in the TCP source port generation algorithm can lead to information leak (CVE-2022-1012)\n* kernel: race condition in perf_event_open leads to privilege escalation (CVE-2022-1729)\n* kernel: a use-after-free write in the netfilter subsystem can lead to privilege escalation to root (CVE-2022-1966)\n* kernel: buffer overflow in IPsec ESP transformation code (CVE-2022-27666)\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\nBug Fix(es):\n* make SHA512_arch algos and CRYPTO_USER built-ins (BZ#2072643)\n* SR-IOV performance > 50% degradation (BZ#2074830)\n* fix data corruption caused by dm-integrity (BZ#2082187)\n* SCTP client-side peeloff issues [almalinux-9] (BZ#2084044)\n* TCP connection fails in a asymmetric routing situation (BZ#2085480)\n* Fails to boot Multiple RT VMs each with multiple vCPUs (BZ#2086963)\n* spec: Fix separate tools build (BZ#2090852)\n* call traces related to eeh_pseries observed and vmcore is not captured, when kdump is triggered (BZ#2092255)\n* Mark ThunderX NIC driver as unmaintained (BZ#2092638)",
   "references": [
     {
       "url": "https://access.redhat.com/errata/RHSA-2022:5249",

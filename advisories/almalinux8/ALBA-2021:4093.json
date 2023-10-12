@@ -212,7 +212,7 @@
       ]
     }
   ],
-  "aliases": [],
+  "related": [],
   "published": "2021-11-02T10:33:14Z",
   "modified": "2021-11-02T10:32:59Z",
   "details": "The container-tools module contains tools for working with containers, notably podman, buildah, skopeo, and runc.\n\nBug Fixes:\n\n* kubelet service fail to load EnvironmentFile due to SELinux denial (BZ#1999245)\n\n* 3.0-8.5.0: Under load, container failed to be created due to missing cgroup scope (BZ#1999264)\n\n* [RHOSP16.2] podman panic after tripleo_nova_libvirt restart two times (BZ#2011409)",

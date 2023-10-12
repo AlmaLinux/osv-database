@@ -440,7 +440,7 @@
       ]
     }
   ],
-  "aliases": [
+  "related": [
     "CVE-2022-21449",
     "CVE-2022-21476",
     "CVE-2022-21426",
@@ -449,8 +449,8 @@
     "CVE-2022-21496"
   ],
   "published": "2022-04-20T12:21:21Z",
-  "modified": "2022-04-21T13:17:12Z",
-  "details": "The java-17-openjdk packages provide the OpenJDK 17 Java Runtime Environment and the OpenJDK 17 Java Software Development Kit.\n\nSecurity Fix(es):\n\n* OpenJDK: Improper ECDSA signature verification (Libraries, 8277233) (CVE-2022-21449)\n\n* OpenJDK: Defective secure validation in Apache Santuario (Libraries, 8278008) (CVE-2022-21476)\n\n* OpenJDK: Unbounded memory allocation when compiling crafted XPath expressions (JAXP, 8270504) (CVE-2022-21426)\n\n* OpenJDK: Improper object-to-string conversion in AnnotationInvocationHandler (Libraries, 8277672) (CVE-2022-21434)\n\n* OpenJDK: Missing check for negative ObjectIdentifier (Libraries, 8275151) (CVE-2022-21443)\n\n* OpenJDK: URI parsing inconsistencies (JNDI, 8278972) (CVE-2022-21496)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Enable the import of plain keys into the NSS Software Token while in FIPS mode [rhel-8, openjdk-17] (BZ#2018189)\n\n* Enable AlgorithmParameters and AlgorithmParameterGenerator services in FIPS mode [rhel-8, openjdk-17] (BZ#2055396)",
+  "modified": "2023-09-15T13:41:48Z",
+  "details": "The java-17-openjdk packages provide the OpenJDK 17 Java Runtime Environment and the OpenJDK 17 Java Software Development Kit.\n\nSecurity Fix(es):\n\n* OpenJDK: Improper ECDSA signature verification (Libraries, 8277233) (CVE-2022-21449)\n\n* OpenJDK: Defective secure validation in Apache Santuario (Libraries, 8278008) (CVE-2022-21476)\n\n* OpenJDK: Unbounded memory allocation when compiling crafted XPath expressions (JAXP, 8270504) (CVE-2022-21426)\n\n* OpenJDK: Improper object-to-string conversion in AnnotationInvocationHandler (Libraries, 8277672) (CVE-2022-21434)\n\n* OpenJDK: Missing check for negative ObjectIdentifier (Libraries, 8275151) (CVE-2022-21443)\n\n* OpenJDK: URI parsing inconsistencies (JNDI, 8278972) (CVE-2022-21496)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Enable the import of plain keys into the NSS Software Token while in FIPS mode [almalinux-8, openjdk-17] (BZ#2018189)\n\n* Enable AlgorithmParameters and AlgorithmParameterGenerator services in FIPS mode [almalinux-8, openjdk-17] (BZ#2055396)",
   "references": [
     {
       "url": "https://errata.almalinux.org/8/ALSA-2022-1445.html",

@@ -79,7 +79,7 @@
       ]
     }
   ],
-  "aliases": [],
+  "related": [],
   "published": "2021-02-16T07:35:28Z",
   "modified": "2021-08-11T08:54:00Z",
   "details": "The glibc packages provide the standard C libraries (libc), POSIX thread\nlibraries (libpthread), standard math libraries (libm), and the name\nservice cache daemon (nscd) used by multiple programs on the system.\nWithout these libraries, the Linux system cannot function correctly.\n\nBug Fix(es) and Enhancement(s):\n\n* glibc: Transaction ID collisions cause slow DNS lookups in getaddrinfo\n(BZ#1904153)\n\n* glibc: memcpy calls are slower for AMD processors on AlmaLinux 8 than AlmaLinux 7\n(BZ#1913750)",

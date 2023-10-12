@@ -1,0 +1,87 @@
+{
+  "id": "ALSA-2023:5081",
+  "summary": "Moderate: librsvg2 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "librsvg2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.50.7-1.el9_2.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "librsvg2-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.50.7-1.el9_2.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "librsvg2-tools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.50.7-1.el9_2.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-38633"
+  ],
+  "published": "2023-09-12T00:00:00Z",
+  "modified": "2023-09-14T09:52:29Z",
+  "details": "The librsvg2 packages provide a Scalable Vector Graphics (SVG) library based on the libart library.\n\nSecurity Fix(es):\n\n* librsvg: Arbitrary file read when xinclude href has special characters (CVE-2023-38633)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:5081",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-38633",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2224945",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-5081.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

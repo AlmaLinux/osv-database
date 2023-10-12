@@ -117,7 +117,7 @@
       ]
     }
   ],
-  "aliases": [],
+  "related": [],
   "published": "2019-07-30T19:33:13Z",
   "modified": "2019-07-30T19:33:12Z",
   "details": "The container-tools module contains tools for working with containers, notably podman, buildah, skopeo, and runc.\n\nBug Fix(es):\n\n* podman exec rc-code needs to distinguish between stopped containers and non existing ones (BZ#1723470)\n\n* Performance Problems with Podman on systems with IO load (BZ#1724522)\n\n* podman exec leaks an exec_pid_<hash> file for every exec in tmpfs  (BZ#1731270)",

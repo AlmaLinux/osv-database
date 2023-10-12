@@ -1,0 +1,77 @@
+{
+  "id": "ALSA-2023:5537",
+  "summary": "Important: libvpx security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libvpx"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.0-10.el8_8.alma.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libvpx-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.0-10.el8_8.alma.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-5217",
+    "CVE-2023-44488"
+  ],
+  "published": "2023-10-09T00:00:00Z",
+  "modified": "2023-10-10T08:12:45Z",
+  "details": "The libvpx packages provide the VP8 SDK, which allows the encoding and decoding of the VP8 video codec, commonly used with the WebM multimedia container file format.\n\nSecurity Fix(es):\n\n* libvpx: Heap buffer overflow in vp8 encoding in libvpx (CVE-2023-5217)\n* libvpx: crash related to VP9 encoding in libvpx (CVE-2023-44488)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:5537",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-44488",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-5217",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2241191",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2241806",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2023-5537.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "id": "ALSA-2023:5362",
+  "summary": "Important: nodejs:18 security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:18.17.1-1.module_el8.8.0+3613+1ed8c91d"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:18.17.1-1.module_el8.8.0+3613+1ed8c91d"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-docs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:18.17.1-1.module_el8.8.0+3613+1ed8c91d"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-full-i18n"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:18.17.1-1.module_el8.8.0+3613+1ed8c91d"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-nodemon"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.0.1-1.module_el8.8.0+3613+1ed8c91d"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-packaging"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2021.06-4.module_el8.7.0+3343+ea2b7901"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-packaging-bundler"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2021.06-4.module_el8.7.0+3343+ea2b7901"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "npm"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:9.6.7-1.18.17.1.1.module_el8.8.0+3613+1ed8c91d"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-32002",
+    "CVE-2022-25883",
+    "CVE-2023-32006",
+    "CVE-2023-32559"
+  ],
+  "published": "2023-09-26T00:00:00Z",
+  "modified": "2023-09-27T15:20:06Z",
+  "details": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nThe following packages have been upgraded to a later upstream version: nodejs (18). (BZ#2234409)\n\nSecurity Fix(es):\n\n* nodejs: Permissions policies can be bypassed via Module._load (CVE-2023-32002)\n* nodejs-semver: Regular expression denial of service (CVE-2022-25883)\n* nodejs: Permissions policies can impersonate other modules in using module.constructor.createRequire() (CVE-2023-32006)\n* nodejs: Permissions policies can be bypassed via process.binding (CVE-2023-32559)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:5362",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-25883",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-32002",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-32006",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-32559",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2216475",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2230948",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2230955",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2230956",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2023-5362.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

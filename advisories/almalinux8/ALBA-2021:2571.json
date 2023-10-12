@@ -22,7 +22,7 @@
       ]
     }
   ],
-  "aliases": [],
+  "related": [],
   "published": "2021-06-29T13:42:44Z",
   "modified": "2021-08-11T08:54:00Z",
   "details": "The System Security Services Daemon (SSSD) service provides a set of\ndaemons to manage access to remote directories and authentication\nmechanisms. It also provides the Name Service Switch (NSS) and the\nPluggable Authentication Modules (PAM) interfaces toward the system, and a\npluggable back-end system to connect to multiple different account sources.\n\nBug Fix(es) and Enhancement(s):\n\n* Wrong default debug level of sssd tools (BZ#1942438)\n\n* IPA missing secondary IPA Posix groups in latest sssd 1.16.5-10.el7_9.7\n(BZ#1945654)\n\n* SSSD  not detecting subdomain from AD forest (AlmaLinux 8.3) (BZ#1945655)\n\n* No gpo found and ad_gpo_implicit_deny set to True still permits user\nlogin (BZ#1945656)\n\n* pam_sss_gss.so doesn't work with large kerberos tickets (BZ#1949170)",

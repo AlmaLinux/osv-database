@@ -1,0 +1,201 @@
+{
+  "id": "ALSA-2023:5738",
+  "summary": "Important: go-toolset and golang security and bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "go-toolset"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.19.13-1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "golang"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.19.13-1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "golang-bin"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.19.13-1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "golang-docs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.19.13-1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "golang-misc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.19.13-1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "golang-race"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.19.13-1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "golang-src"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.19.13-1.el9_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "golang-tests"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.19.13-1.el9_2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-44487",
+    "CVE-2023-39325",
+    "CVE-2023-44487",
+    "CVE-2023-29409"
+  ],
+  "published": "2023-10-16T00:00:00Z",
+  "modified": "2023-10-17T06:57:01Z",
+  "details": "Go Toolset provides the Go programming language tools and libraries. Go is alternatively known as golang. \n\nThe golang packages provide the Go programming language compiler.\n\nSecurity Fix(es):\n\n* golang: net/http, x/net/http2: rapid stream resets can cause excessive work [CVE-2023-44487] (CVE-2023-39325)\n* HTTP/2: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack) (CVE-2023-44487)\n* golang: crypto/tls: slow verification of certificate chains containing large RSA keys (CVE-2023-29409)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Midstream dist-git patches (BZ#2223637)",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:5738",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-29409",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-39325",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-44487",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2228743",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2242803",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2243296",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-5738.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

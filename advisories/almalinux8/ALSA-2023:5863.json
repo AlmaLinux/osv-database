@@ -1,0 +1,58 @@
+{
+  "id": "ALSA-2023:5863",
+  "summary": "Moderate: grafana security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "grafana"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.5.15-5.el8_8.alma.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-39325",
+    "CVE-2023-44487"
+  ],
+  "published": "2023-10-18T00:00:00Z",
+  "modified": "2023-10-19T14:58:07Z",
+  "details": "Grafana is an open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB.\n\nSecurity Fix(es):\n\n* grafana: golang: net/http, x/net/http2: rapid stream resets can cause excessive work (CVE-2023-39325)\n* HTTP/2: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack) (CVE-2023-44487)\n\nA AlmaLinux Security Bulletin which addresses further details about this flaw is available in the References section.\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:5863",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-39325",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-44487",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2242803",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2243296",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2023-5863.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

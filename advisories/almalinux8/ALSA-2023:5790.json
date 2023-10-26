@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2023:5790",
+  "summary": "Important: python-reportlab security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3-reportlab"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.0-8.el8_8.1.alma.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2019-19450"
+  ],
+  "published": "2023-10-17T00:00:00Z",
+  "modified": "2023-10-18T18:52:58Z",
+  "details": "Python-reportlab is a library used for generation of PDF documents.\n\nSecurity Fix(es):\n\n* python-reportlab: code injection in paraparser.py allows code execution (CVE-2019-19450)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:5790",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2019-19450",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2239920",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2023-5790.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

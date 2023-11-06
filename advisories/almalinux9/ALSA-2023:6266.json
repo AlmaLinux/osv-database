@@ -1,0 +1,67 @@
+{
+  "id": "ALSA-2023:6266",
+  "summary": "Critical: squid security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "squid"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:5.5-5.el9_2.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-46847",
+    "CVE-2023-46846",
+    "CVE-2023-46848"
+  ],
+  "published": "2023-11-02T00:00:00Z",
+  "modified": "2023-11-03T10:35:00Z",
+  "details": "Squid is a high-performance proxy caching server for web clients, supporting FTP, Gopher, and HTTP data objects.\n\nSecurity Fix(es):\n\n* SQUID-2023:3 squid: Denial of Service in HTTP Digest Authentication (CVE-2023-46847)\n* SQUID-2023:1 squid: Request/Response smuggling in HTTP/1.1 and ICAP (CVE-2023-46846)\n* SQUID-2023:5 squid: denial of Service in FTP (CVE-2023-46848)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:6266",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-46846",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-46847",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-46848",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2245910",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2245916",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2245919",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-6266.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

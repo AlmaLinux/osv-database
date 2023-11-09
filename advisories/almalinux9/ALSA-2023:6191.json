@@ -1,0 +1,122 @@
+{
+  "id": "ALSA-2023:6191",
+  "summary": "Important: thunderbird security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "thunderbird"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "115.4.1-1.el9_2.alma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "thunderbird"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "115.4.1-1.el9_2.alma.plus"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-5721",
+    "CVE-2023-5730",
+    "CVE-2023-44488",
+    "CVE-2023-5724",
+    "CVE-2023-5725",
+    "CVE-2023-5728",
+    "CVE-2023-5732"
+  ],
+  "published": "2023-10-30T00:00:00Z",
+  "modified": "2023-11-03T09:28:28Z",
+  "details": "Mozilla Thunderbird is a standalone mail and newsgroup client.\n\nThis update upgrades Thunderbird to version 115.4.1.\n\nSecurity Fix(es):\n\n* Mozilla: Queued up rendering could have allowed websites to clickjack (CVE-2023-5721)\n* Mozilla: Memory safety bugs fixed in Firefox 119, Firefox ESR 115.4, and Thunderbird 115.4 (CVE-2023-5730)\n* libvpx: crash related to VP9 encoding in libvpx (CVE-2023-44488)\n* Mozilla: Large WebGL draw could have led to a crash (CVE-2023-5724)\n* Mozilla: WebExtensions could open arbitrary URLs (CVE-2023-5725)\n* Mozilla: Improper object tracking during GC in the JavaScript engine could have led to a crash. (CVE-2023-5728)\n* Mozilla: Address bar spoofing via bidirectional characters (CVE-2023-5732)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:6191",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-44488",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-5721",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-5724",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-5725",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-5728",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-5730",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-5732",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2241806",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2245896",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2245898",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2245899",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2245900",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2245903",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2245906",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-6191.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

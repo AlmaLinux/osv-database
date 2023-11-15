@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2023:6542",
+  "summary": "Moderate: perl-HTTP-Tiny security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "perl-HTTP-Tiny"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.076-461.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-31486"
+  ],
+  "published": "2023-11-07T00:00:00Z",
+  "modified": "2023-11-14T12:10:42Z",
+  "details": "HTTP::Tiny is a small and simple HTTP/1.1 client written in Perl.\n\nSecurity Fix(es):\n\n* http-tiny: insecure TLS cert default (CVE-2023-31486)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:6542",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-31486",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2228392",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-6542.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

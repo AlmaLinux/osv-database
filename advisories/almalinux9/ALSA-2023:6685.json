@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2023:6685",
+  "summary": "Low: tpm2-tss security and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "tpm2-tss"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.2-2.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "tpm2-tss-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.2-2.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-22745"
+  ],
+  "published": "2023-11-07T00:00:00Z",
+  "modified": "2023-11-14T12:05:52Z",
+  "details": "The tpm2-tss packages provide the Intel implementation of the Trusted Platform Module (TPM) 2.0 System API library. This library enables programs to interact with TPM 2.0 devices\n\nSecurity Fix(es):\n\n* tpm2-tss: Buffer Overlow in TSS2_RC_Decode (CVE-2023-22745)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:6685",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-22745",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2162610",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-6685.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

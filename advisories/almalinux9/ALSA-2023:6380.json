@@ -1,0 +1,86 @@
+{
+  "id": "ALSA-2023:6380",
+  "summary": "Moderate: runc security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "runc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4:1.1.9-1.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2022-41724",
+    "CVE-2023-25809",
+    "CVE-2019-19921",
+    "CVE-2023-27561",
+    "CVE-2023-28642",
+    "CVE-2021-43784"
+  ],
+  "published": "2023-11-07T00:00:00Z",
+  "modified": "2023-11-14T12:05:08Z",
+  "details": "The runC tool is a lightweight, portable implementation of the Open Container Format (OCF) that provides container runtime.\n\nSecurity Fix(es):\n\n* golang: crypto/tls: large handshake records may cause panics (CVE-2022-41724)\n* runc: Rootless runc makes `/sys/fs/cgroup` writable (CVE-2023-25809)\n* runc: volume mount race condition (regression of CVE-2019-19921) (CVE-2023-27561)\n* runc: AppArmor can be bypassed when `/proc` inside the container is symlinked with a specific mount configuration (CVE-2023-28642)\n* runc: integer overflow in netlink bytemsg length field allows attacker to override netlink-based container configuration (CVE-2021-43784)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:6380",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2021-43784",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-41724",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-25809",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-27561",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-28642",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2029439",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2175721",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2178492",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2182883",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2182884",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-6380.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2023:6496",
+  "summary": "Moderate: haproxy security and bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "haproxy"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.22-1.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-0836"
+  ],
+  "published": "2023-11-07T00:00:00Z",
+  "modified": "2023-11-14T12:05:13Z",
+  "details": "The haproxy packages provide a reliable, high-performance network load balancer for TCP and HTTP-based applications.\n\nSecurity Fix(es):\n\n* haproxy: data leak via fcgi requests (CVE-2023-0836)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:6496",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-0836",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2180746",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-6496.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

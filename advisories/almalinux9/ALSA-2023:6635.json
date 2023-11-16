@@ -1,0 +1,95 @@
+{
+  "id": "ALSA-2023:6635",
+  "summary": "Moderate: c-ares security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "c-ares"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.19.1-1.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "c-ares-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.19.1-1.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2022-4904",
+    "CVE-2023-31130",
+    "CVE-2023-31147",
+    "CVE-2023-31124"
+  ],
+  "published": "2023-11-07T00:00:00Z",
+  "modified": "2023-11-14T12:05:49Z",
+  "details": "The c-ares C library defines asynchronous DNS (Domain Name System) requests and provides name resolving API.\n\nThe following packages have been upgraded to a later upstream version: c-ares (1.19.1). (BZ#2210370)\n\nSecurity Fix(es):\n\n* c-ares: buffer overflow in config_sortlist() due to missing string length check (CVE-2022-4904)\n* c-ares: Buffer Underwrite in ares_inet_net_pton() (CVE-2023-31130)\n* c-ares: Insufficient randomness in generation of DNS query IDs (CVE-2023-31147)\n* c-ares: AutoTools does not set CARES_RANDOM_FILE during cross compilation (CVE-2023-31124)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:6635",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-4904",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-31124",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-31130",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-31147",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2168631",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2209494",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2209497",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2209501",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-6635.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

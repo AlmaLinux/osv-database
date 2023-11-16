@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2023:6712",
+  "summary": "Moderate: python-wheel security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "python3-wheel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:0.36.2-8.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "python3-wheel-wheel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:0.36.2-8.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2022-40898"
+  ],
+  "published": "2023-11-07T00:00:00Z",
+  "modified": "2023-11-14T12:12:22Z",
+  "details": "Wheel is the reference implementation of the Python wheel packaging standard, as defined in PEP 427.\n\nSecurity Fix(es):\n\n* python-wheel: remote attackers can cause denial of service via attacker controlled input to wheel cli (CVE-2022-40898)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:6712",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-40898",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2165864",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-6712.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

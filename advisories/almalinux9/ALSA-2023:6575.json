@@ -1,0 +1,123 @@
+{
+  "id": "ALSA-2023:6575",
+  "summary": "Moderate: libtiff security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libtiff"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.4.0-10.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libtiff-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.4.0-10.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libtiff-tools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.4.0-10.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-2731",
+    "CVE-2023-3316",
+    "CVE-2023-3576",
+    "CVE-2023-26965",
+    "CVE-2023-26966"
+  ],
+  "published": "2023-11-07T00:00:00Z",
+  "modified": "2023-11-14T12:06:49Z",
+  "details": "The libtiff packages contain a library of functions for manipulating Tagged Image File Format (TIFF) files.\n\nSecurity Fix(es):\n\n* libtiff: null pointer dereference in LZWDecode() in libtiff/tif_lzw.c (CVE-2023-2731)\n* libtiff: tiffcrop: null pointer dereference in TIFFClose() (CVE-2023-3316)\n* libtiff: memory leak in tiffcrop.c (CVE-2023-3576)\n* libtiff: heap-based use after free via a crafted TIFF image in loadImage() in tiffcrop.c (CVE-2023-26965)\n* libtiff: Buffer Overflow in uv_encode() (CVE-2023-26966)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:6575",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-26965",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-26966",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-2731",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-3316",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-3576",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2207635",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2215206",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2216080",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2218749",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2219340",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-6575.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

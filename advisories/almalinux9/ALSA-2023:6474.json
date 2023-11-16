@@ -1,0 +1,252 @@
+{
+  "id": "ALSA-2023:6474",
+  "summary": "Moderate: podman security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "podman"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:4.6.1-5.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "podman-docker"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:4.6.1-5.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "podman-gvproxy"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:4.6.1-5.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "podman-plugins"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:4.6.1-5.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "podman-remote"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:4.6.1-5.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "podman-tests"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:4.6.1-5.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-24540",
+    "CVE-2022-41723",
+    "CVE-2022-41724",
+    "CVE-2022-41725",
+    "CVE-2023-3978",
+    "CVE-2023-24534",
+    "CVE-2023-24536",
+    "CVE-2023-24537",
+    "CVE-2023-24538",
+    "CVE-2023-24539",
+    "CVE-2023-25173",
+    "CVE-2023-29400",
+    "CVE-2023-29406"
+  ],
+  "published": "2023-11-07T00:00:00Z",
+  "modified": "2023-11-14T12:10:49Z",
+  "details": "The podman tool manages pods, container images, and containers. It is part of the libpod library, which is for applications that use container pods. Container pods is a concept in Kubernetes.\n\nSecurity Fix(es):\n\n* golang: html/template: improper handling of JavaScript whitespace (CVE-2023-24540)\n* net/http, golang.org/x/net/http2: avoid quadratic complexity in HPACK decoding (CVE-2022-41723)\n* golang: crypto/tls: large handshake records may cause panics (CVE-2022-41724)\n* golang: net/http, mime/multipart: denial of service from excessive resource consumption (CVE-2022-41725)\n* golang.org/x/net/html: Cross site scripting (CVE-2023-3978)\n* golang: net/http, net/textproto: denial of service from excessive memory allocation (CVE-2023-24534)\n* golang: net/http, net/textproto, mime/multipart: denial of service from excessive resource consumption (CVE-2023-24536)\n* golang: go/parser: Infinite loop in parsing (CVE-2023-24537)\n* golang: html/template: backticks not treated as string delimiters (CVE-2023-24538)\n* golang: html/template: improper sanitization of CSS values (CVE-2023-24539)\n* containerd: Supplementary groups are not set up properly (CVE-2023-25173)\n* golang: html/template: improper handling of empty HTML attributes (CVE-2023-29400)\n* golang: net/http: insufficient sanitization of Host header (CVE-2023-29406)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:6474",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-41723",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-41724",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-41725",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-24534",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-24536",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-24537",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-24538",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-24539",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-24540",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-25173",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-29400",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-29406",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-3978",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2174485",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2178358",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2178488",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2178492",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2184481",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2184482",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2184483",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2184484",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2196026",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2196027",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2196029",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2222167",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2228689",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-6474.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

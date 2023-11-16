@@ -1,0 +1,58 @@
+{
+  "id": "ALSA-2023:6365",
+  "summary": "Moderate: mod_auth_openidc security and bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "mod_auth_openidc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.9.4-4.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2022-23527",
+    "CVE-2023-28625"
+  ],
+  "published": "2023-11-07T00:00:00Z",
+  "modified": "2023-11-14T12:05:07Z",
+  "details": "The mod_auth_openidc is an OpenID Connect authentication module for Apache HTTP Server. It enables an Apache HTTP Server to operate as an OpenID Connect Relying Party and/or OAuth 2.0 Resource Server. \n\nSecurity Fix(es):\n\n* mod_auth_openidc: Open Redirect in oidc_validate_redirect_url() using tab character (CVE-2022-23527)\n* mod_auth_openidc: NULL pointer dereference when OIDCStripCookies is set and a crafted Cookie header is supplied (CVE-2023-28625)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:6365",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-23527",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-28625",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2153655",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2184118",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-6365.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2023:7465",
+  "summary": "Important: squid security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "squid"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:5.5-6.el9_3.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-5824"
+  ],
+  "published": "2023-11-22T00:00:00Z",
+  "modified": "2023-11-23T08:38:27Z",
+  "details": "Squid is a high-performance proxy caching server for web clients, supporting FTP, Gopher, and HTTP data objects.\n\nSecurity Fix(es):\n\n* squid: DoS against HTTP and HTTPS (CVE-2023-5824)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:7465",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-5824",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2245914",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-7465.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,961 @@
+{
+  "id": "ALSA-2023:7077",
+  "summary": "Important: kernel security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "bpftool"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-513.5.1.el8_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-513.5.1.el8_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-abi-stablelists"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-513.5.1.el8_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-513.5.1.el8_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-cross-headers"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-513.5.1.el8_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-debug"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-513.5.1.el8_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-debug-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-513.5.1.el8_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-debug-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-513.5.1.el8_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-debug-modules"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-513.5.1.el8_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-debug-modules-extra"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-513.5.1.el8_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-513.5.1.el8_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-doc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-513.5.1.el8_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-headers"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-513.5.1.el8_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-modules"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-513.5.1.el8_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-modules-extra"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-513.5.1.el8_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-tools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-513.5.1.el8_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-tools-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-513.5.1.el8_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-tools-libs-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-513.5.1.el8_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-zfcpdump"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-513.5.1.el8_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-zfcpdump-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-513.5.1.el8_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-zfcpdump-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-513.5.1.el8_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-zfcpdump-modules"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-513.5.1.el8_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-zfcpdump-modules-extra"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-513.5.1.el8_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "perf"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-513.5.1.el8_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3-perf"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-513.5.1.el8_9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2022-4744",
+    "CVE-2023-3609",
+    "CVE-2023-3611",
+    "CVE-2023-4128",
+    "CVE-2023-4206",
+    "CVE-2023-4207",
+    "CVE-2023-4208",
+    "CVE-2023-31436",
+    "CVE-2021-43975",
+    "CVE-2022-3594",
+    "CVE-2022-3640",
+    "CVE-2022-28388",
+    "CVE-2022-38457",
+    "CVE-2022-40133",
+    "CVE-2023-33951",
+    "CVE-2023-33952",
+    "CVE-2022-40982",
+    "CVE-2022-42895",
+    "CVE-2022-45869",
+    "CVE-2023-4155",
+    "CVE-2023-30456",
+    "CVE-2022-45887",
+    "CVE-2023-0458",
+    "CVE-2023-0590",
+    "CVE-2023-0597",
+    "CVE-2023-1073",
+    "CVE-2023-1074",
+    "CVE-2023-1079",
+    "CVE-2023-1118",
+    "CVE-2023-1206",
+    "CVE-2023-1252",
+    "CVE-2023-1382",
+    "CVE-2023-1989",
+    "CVE-2023-1998",
+    "CVE-2023-2513",
+    "CVE-2023-3161",
+    "CVE-2023-3268",
+    "CVE-2023-3772",
+    "CVE-2023-4132",
+    "CVE-2023-4732",
+    "CVE-2023-23455",
+    "CVE-2023-26545",
+    "CVE-2023-28328",
+    "CVE-2023-28772",
+    "CVE-2023-31084",
+    "CVE-2023-33203",
+    "CVE-2023-35823",
+    "CVE-2023-35824",
+    "CVE-2023-35825",
+    "CVE-2023-1075",
+    "CVE-2023-1855",
+    "CVE-2023-3141",
+    "CVE-2023-3212"
+  ],
+  "published": "2023-11-14T00:00:00Z",
+  "modified": "2023-11-23T10:20:52Z",
+  "details": "The kernel packages contain the Linux kernel, the core of any Linux operating system.\n\nSecurity Fix(es):\n\n* kernel: tun: avoid double free in tun_free_netdev (CVE-2022-4744)\n* kernel: net/sched: multiple vulnerabilities (CVE-2023-3609, CVE-2023-3611, CVE-2023-4128, CVE-2023-4206, CVE-2023-4207, CVE-2023-4208)\n* kernel: out-of-bounds write in qfq_change_class function (CVE-2023-31436)\n* kernel: out-of-bounds write in hw_atl_utils_fw_rpc_wait (CVE-2021-43975)\n* kernel: Rate limit overflow messages in r8152 in intr_callback (CVE-2022-3594)\n* kernel: use after free flaw in l2cap_conn_del (CVE-2022-3640)\n* kernel: double free in usb_8dev_start_xmit (CVE-2022-28388)\n* kernel: vmwgfx: multiple vulnerabilities (CVE-2022-38457, CVE-2022-40133, CVE-2023-33951, CVE-2023-33952)\n* hw: Intel: Gather Data Sampling (GDS) side channel vulnerability (CVE-2022-40982)\n* kernel: Information leak in l2cap_parse_conf_req (CVE-2022-42895)\n* kernel: KVM: multiple vulnerabilities (CVE-2022-45869, CVE-2023-4155, CVE-2023-30456)\n* kernel: memory leak in ttusb_dec_exit_dvb (CVE-2022-45887)\n* kernel: speculative pointer dereference in do_prlimit (CVE-2023-0458)\n* kernel: use-after-free due to race condition in qdisc_graft (CVE-2023-0590)\n* kernel: x86/mm: Randomize per-cpu entry area (CVE-2023-0597)\n* kernel: HID: check empty report_list in hid_validate_values (CVE-2023-1073)\n* kernel: sctp: fail if no bound addresses can be used for a given scope (CVE-2023-1074)\n* kernel: hid: Use After Free in asus_remove (CVE-2023-1079)\n* kernel: use-after-free in drivers/media/rc/ene_ir.c (CVE-2023-1118)\n* kernel: hash collisions in the IPv6 connection lookup table (CVE-2023-1206)\n* kernel: ovl: fix use after free in struct ovl_aio_req (CVE-2023-1252)\n* kernel: denial of service in tipc_conn_close (CVE-2023-1382)\n* kernel: Use after free bug in btsdio_remove due to race condition (CVE-2023-1989)\n* kernel: Spectre v2 SMT mitigations problem (CVE-2023-1998)\n* kernel: ext4: use-after-free in ext4_xattr_set_entry (CVE-2023-2513)\n* kernel: fbcon: shift-out-of-bounds in fbcon_set_font (CVE-2023-3161)\n* kernel: out-of-bounds access in relay_file_read (CVE-2023-3268)\n* kernel: xfrm: NULL pointer dereference in xfrm_update_ae_params (CVE-2023-3772)\n* kernel: smsusb: use-after-free caused by do_submit_urb (CVE-2023-4132)\n* kernel: Race between task migrating pages and another task calling exit_mmap (CVE-2023-4732)\n* Kernel: denial of service in atm_tc_enqueue due to type confusion (CVE-2023-23455)\n* kernel: mpls: double free on sysctl allocation failure (CVE-2023-26545)\n* kernel: Denial of service issue in az6027 driver (CVE-2023-28328)\n* kernel: lib/seq_buf.c has a seq_buf_putmem_hex buffer overflow (CVE-2023-28772)\n* kernel: blocking operation in dvb_frontend_get_event and wait_event_interruptible (CVE-2023-31084)\n* kernel: net: qcom/emac: race condition leading to use-after-free in emac_remove (CVE-2023-33203)\n* kernel: saa7134: race condition leading to use-after-free in saa7134_finidev (CVE-2023-35823)\n* kernel: dm1105: race condition leading to use-after-free in dm1105_remove.c (CVE-2023-35824)\n* kernel: r592: race condition leading to use-after-free in r592_remove (CVE-2023-35825)\n* kernel: net/tls: tls_is_tx_ready() checked list_entry (CVE-2023-1075)\n* kernel: use-after-free bug in remove function xgene_hwmon_remove (CVE-2023-1855)\n* kernel: Use after free bug in r592_remove (CVE-2023-3141)\n* kernel: gfs2: NULL pointer dereference in gfs2_evict_inode (CVE-2023-3212)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:7077",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2021-43975",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-28388",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-3594",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-3640",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-38457",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-40133",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-40982",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-42895",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-45869",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-45887",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-4744",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-0458",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-0590",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-0597",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-1073",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-1074",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-1075",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-1079",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-1118",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-1206",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-1252",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-1382",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-1855",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-1989",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-1998",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-23455",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-2513",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-26545",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-28328",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-28772",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-30456",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-31084",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-3141",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-31436",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-3161",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-3212",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-3268",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-33203",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-33951",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-33952",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-35823",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-35824",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-35825",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-3609",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-3611",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-3772",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-4128",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-4132",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-4155",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-4206",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-4207",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-4208",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-4732",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2024989",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2073091",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2133453",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2133455",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2139610",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2147356",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2148520",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2149024",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2151317",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2156322",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2165741",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2165926",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2168332",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2173403",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2173430",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2173434",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2173444",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2174400",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2175903",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2176140",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2177371",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2177389",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2181330",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2182443",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2184578",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2185945",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2187257",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2188468",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2192667",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2192671",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2193097",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2193219",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2213139",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2213199",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2213485",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2213802",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2214348",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2215502",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2215835",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2215836",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2215837",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2218195",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2218212",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2218943",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2221707",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2223949",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2225191",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2225201",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2225511",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2236982",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2023-7077.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

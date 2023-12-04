@@ -1,0 +1,67 @@
+{
+  "id": "ALSA-2023:7052",
+  "summary": "Moderate: libreswan security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libreswan"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.12-2.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-38710",
+    "CVE-2023-38711",
+    "CVE-2023-38712"
+  ],
+  "published": "2023-11-14T00:00:00Z",
+  "modified": "2023-11-23T10:18:47Z",
+  "details": "Libreswan is an implementation of IPsec and IKE for Linux. IPsec is the Internet Protocol Security and uses strong cryptography to provide both authentication and encryption services. These services allow you to build secure tunnels through untrusted networks such as virtual private network (VPN).\n\nSecurity Fix(es):\n\n* libreswan: Invalid IKEv2 REKEY proposal causes restart (CVE-2023-38710)\n* libreswan: Invalid IKEv1 Quick Mode ID causes restart (CVE-2023-38711)\n* libreswan: Invalid IKEv1 repeat IKE SA delete causes crash and restart (CVE-2023-38712)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:7052",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-38710",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-38711",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-38712",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2215952",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2225368",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2225369",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2023-7052.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

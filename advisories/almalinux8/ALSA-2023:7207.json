@@ -1,0 +1,77 @@
+{
+  "id": "ALSA-2023:7207",
+  "summary": "Moderate: c-ares security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "c-ares"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.0-9.el8_9.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "c-ares-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.0-9.el8_9.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2020-22217",
+    "CVE-2023-31130"
+  ],
+  "published": "2023-11-14T00:00:00Z",
+  "modified": "2023-11-23T10:20:03Z",
+  "details": "The c-ares C library defines asynchronous DNS (Domain Name System) requests and provides name resolving API.\n\nSecurity Fix(es):\n\n* c-ares: Heap buffer over read in ares_parse_soa_reply (CVE-2020-22217)\n* c-ares: Buffer Underwrite in ares_inet_net_pton() (CVE-2023-31130)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:7207",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2020-22217",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-31130",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2209497",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2235527",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2023-7207.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

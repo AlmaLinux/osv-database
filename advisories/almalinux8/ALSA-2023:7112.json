@@ -1,0 +1,87 @@
+{
+  "id": "ALSA-2023:7112",
+  "summary": "Low: shadow-utils security and bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "shadow-utils"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:4.6-19.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "shadow-utils-subid"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:4.6-19.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "shadow-utils-subid-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:4.6-19.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-4641"
+  ],
+  "published": "2023-11-14T00:00:00Z",
+  "modified": "2023-11-23T10:19:58Z",
+  "details": "The shadow-utils packages include programs for converting UNIX password files to the shadow password format, as well as utilities for managing user and group accounts. \n\nSecurity Fix(es):\n\n* shadow-utils: possible password leak during passwd(1) change (CVE-2023-4641)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:7112",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-4641",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2215945",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2023-7112.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

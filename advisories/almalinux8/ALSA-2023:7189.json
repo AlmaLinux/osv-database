@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2023:7189",
+  "summary": "Moderate: fwupd security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "fwupd"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.8-2.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "fwupd-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.8-2.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2022-3287"
+  ],
+  "published": "2023-11-14T00:00:00Z",
+  "modified": "2023-11-23T10:18:53Z",
+  "details": "The fwupd packages provide a service that allows session software to update device firmware.\n\nSecurity Fix(es):\n\n* fwupd: world readable password in /etc/fwupd/redfish.conf (CVE-2022-3287)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:7189",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-3287",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2129904",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2023-7189.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

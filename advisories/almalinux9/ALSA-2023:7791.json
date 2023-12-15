@@ -1,0 +1,77 @@
+{
+  "id": "ALSA-2023:7791",
+  "summary": "Important: gstreamer1-plugins-bad-free security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gstreamer1-plugins-bad-free"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.22.1-2.el9_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gstreamer1-plugins-bad-free-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.22.1-2.el9_3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-44429",
+    "CVE-2023-44446"
+  ],
+  "published": "2023-12-13T00:00:00Z",
+  "modified": "2023-12-14T09:39:25Z",
+  "details": "GStreamer is a streaming media framework based on graphs of filters which operate on media data. The gstreamer1-plugins-bad-free package contains a collection of plug-ins for GStreamer.\n\nSecurity Fix(es):\n\n* gstreamer: AV1 codec parser heap-based buffer overflow (CVE-2023-44429)\n* gstreamer: MXF demuxer use-after-free vulnerability (CVE-2023-44446)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:7791",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-44429",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-44446",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2250247",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2250249",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-7791.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "ALSA-2023:7876",
+  "summary": "Moderate: opensc security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "opensc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.20.0-7.el8_9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-40660",
+    "CVE-2023-40661"
+  ],
+  "published": "2023-12-19T00:00:00Z",
+  "modified": "2023-12-20T12:50:29Z",
+  "details": "The OpenSC set of libraries and utilities provides support for working with smart cards. OpenSC focuses on cards that support cryptographic operations and enables their use for authentication, mail encryption, or digital signatures.\n\nSecurity Fix(es):\n\n* OpenSC: Potential PIN bypass when card tracks its own login state (CVE-2023-40660)\n* OpenSC: multiple memory issues with pkcs15-init (enrollment tool) (CVE-2023-40661)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:7876",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-40660",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-40661",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2240912",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2240913",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2023-7876.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

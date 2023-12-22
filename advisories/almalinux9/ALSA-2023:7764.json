@@ -1,0 +1,104 @@
+{
+  "id": "ALSA-2023:7764",
+  "summary": "Moderate: buildah security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "buildah"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.31.3-2.el9_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "buildah-tests"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.31.3-2.el9_3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-29409",
+    "CVE-2023-39318",
+    "CVE-2023-39319",
+    "CVE-2023-39321",
+    "CVE-2023-39322"
+  ],
+  "published": "2023-12-12T00:00:00Z",
+  "modified": "2023-12-14T09:39:24Z",
+  "details": "The buildah package provides a tool for facilitating building OCI container images. Among other things, buildah enables you to: Create a working container, either from scratch or using an image as a starting point; Create an image, either from a working container or using the instructions in a Dockerfile; Build both Docker and OCI images. \n\nSecurity Fix(es):\n\n* golang: crypto/tls: slow verification of certificate chains containing large RSA keys (CVE-2023-29409)\n* golang: html/template: improper handling of HTML-like comments within script contexts (CVE-2023-39318)\n* golang: html/template: improper handling of special tags within script contexts (CVE-2023-39319)\n* golang: crypto/tls: panic when processing post-handshake message on QUIC connections (CVE-2023-39321)\n* golang: crypto/tls: lack of a limit on buffered post-handshake (CVE-2023-39322)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:7764",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-29409",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-39318",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-39319",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-39321",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-39322",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2228743",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2237773",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2237776",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2237777",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2237778",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-7764.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

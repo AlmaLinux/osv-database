@@ -1,0 +1,87 @@
+{
+  "id": "ALSA-2023:7747",
+  "summary": "Moderate: libxml2 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libxml2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.13-5.el9_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libxml2-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.13-5.el9_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "python3-libxml2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.13-5.el9_3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-39615"
+  ],
+  "published": "2023-12-12T00:00:00Z",
+  "modified": "2023-12-14T09:39:26Z",
+  "details": "The libxml2 library is a development toolbox providing the implementation of various XML standards.\n\nSecurity Fix(es):\n\n* libxml2: crafted xml can cause global buffer overflow (CVE-2023-39615)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:7747",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-39615",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2235864",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-7747.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

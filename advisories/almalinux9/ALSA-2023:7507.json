@@ -1,0 +1,122 @@
+{
+  "id": "ALSA-2023:7507",
+  "summary": "Important: firefox security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "firefox"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "115.5.0-1.el9_3.alma.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "firefox-x11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "115.5.0-1.el9_3.alma.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-6204",
+    "CVE-2023-6205",
+    "CVE-2023-6206",
+    "CVE-2023-6207",
+    "CVE-2023-6212",
+    "CVE-2023-6208",
+    "CVE-2023-6209"
+  ],
+  "published": "2023-11-27T00:00:00Z",
+  "modified": "2023-11-29T17:30:13Z",
+  "details": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.\n\nThis update upgrades Firefox to version 115.5.0 ESR.\n\nSecurity Fix(es):\n\n* Mozilla: Out-of-bound memory access in WebGL2 blitFramebuffer (CVE-2023-6204)\n* Mozilla: Use-after-free in MessagePort::Entangled (CVE-2023-6205)\n* Mozilla: Clickjacking permission prompts using the fullscreen transition (CVE-2023-6206)\n* Mozilla: Use-after-free in ReadableByteStreamQueueEntry::Buffer (CVE-2023-6207)\n* Mozilla: Memory safety bugs fixed in Firefox 120, Firefox ESR 115.5, and Thunderbird 115.5 (CVE-2023-6212)\n* Mozilla: Using Selection API would copy contents into X11 primary selection. (CVE-2023-6208)\n* Mozilla: Incorrect parsing of relative URLs starting with \"///\" (CVE-2023-6209)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:7507",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-6204",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-6205",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-6206",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-6207",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-6208",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-6209",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-6212",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2250896",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2250897",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2250898",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2250899",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2250900",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2250901",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2250902",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-7507.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

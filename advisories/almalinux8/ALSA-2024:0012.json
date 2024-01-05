@@ -1,0 +1,139 @@
+{
+  "id": "ALSA-2024:0012",
+  "summary": "Important: firefox security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "firefox"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "115.6.0-1.el8_9.alma"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-6856",
+    "CVE-2023-6864",
+    "CVE-2023-6865",
+    "CVE-2023-6857",
+    "CVE-2023-6858",
+    "CVE-2023-6859",
+    "CVE-2023-6860",
+    "CVE-2023-6861",
+    "CVE-2023-6862",
+    "CVE-2023-6867",
+    "CVE-2023-6863"
+  ],
+  "published": "2024-01-02T00:00:00Z",
+  "modified": "2024-01-04T14:29:24Z",
+  "details": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.\n\nThis update upgrades Firefox to version 115.6.0 ESR.\n\nSecurity Fix(es):\n\n* Mozilla: Heap-buffer-overflow affecting WebGL <code>DrawElementsInstanced</code> method with Mesa VM driver (CVE-2023-6856)\n* Mozilla: Memory safety bugs fixed in Firefox 121, Firefox ESR 115.6, and Thunderbird 115.6 (CVE-2023-6864)\n* Mozilla: Potential exposure of uninitialized data in <code>EncryptingOutputStream</code> (CVE-2023-6865)\n* Mozilla: Symlinks may resolve to smaller than expected buffers (CVE-2023-6857)\n* Mozilla: Heap buffer overflow in <code>nsTextFragment</code> (CVE-2023-6858)\n* Mozilla: Use-after-free in PR_GetIdentitiesLayer (CVE-2023-6859)\n* Mozilla: Potential sandbox escape due to <code>VideoBridge</code> lack of texture validation (CVE-2023-6860)\n* Mozilla: Heap buffer overflow affected <code>nsWindow::PickerOpen(void)</code> in headless mode (CVE-2023-6861)\n* Mozilla: Use-after-free in <code>nsDNSService</code> (CVE-2023-6862)\n* Mozilla: Clickjacking permission prompts using the popup transition (CVE-2023-6867)\n* Mozilla: Undefined behavior in <code>ShutdownObserver()</code> (CVE-2023-6863)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:0012",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-6856",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-6857",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-6858",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-6859",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-6860",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-6861",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-6862",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-6863",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-6864",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-6865",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-6867",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2255360",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2255361",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2255362",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2255363",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2255364",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2255365",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2255366",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2255367",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2255368",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2255369",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2255370",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2024-0012.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2023:7754",
+  "summary": "Moderate: pixman security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "pixman"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.40.0-6.el9_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "pixman-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.40.0-6.el9_3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2022-44638"
+  ],
+  "published": "2023-12-12T00:00:00Z",
+  "modified": "2023-12-14T09:39:30Z",
+  "details": "Pixman is a pixel manipulation library for the X Window System and Cairo.\n\nSecurity Fix(es):\n\n* pixman: Integer overflow in pixman_sample_floor_y leading to heap out-of-bounds write (CVE-2022-44638)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:7754",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-44638",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2139988",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-7754.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

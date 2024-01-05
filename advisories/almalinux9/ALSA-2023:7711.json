@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2023:7711",
+  "summary": "Moderate: apr security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "apr"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.0-12.el9_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "apr-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.0-12.el9_3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2022-24963"
+  ],
+  "published": "2023-12-11T00:00:00Z",
+  "modified": "2023-12-11T13:16:59Z",
+  "details": "The Apache Portable Runtime (APR) is a portability library used by the Apache HTTP Server and other projects. It provides a free library of C data structures and routines.\n\nSecurity Fix(es):\n\n* apr: integer overflow/wraparound in apr_encode (CVE-2022-24963)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:7711",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-24963",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2169465",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2023-7711.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2023:7841",
+  "summary": "Important: gstreamer1-plugins-bad-free security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gstreamer1-plugins-bad-free"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.1-2.el8_9.alma.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gstreamer1-plugins-bad-free-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.1-2.el8_9.alma.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-44446"
+  ],
+  "published": "2023-12-14T00:00:00Z",
+  "modified": "2023-12-15T09:13:53Z",
+  "details": "GStreamer is a streaming media framework based on graphs of filters which operate on media data. The gstreamer1-plugins-bad-free package contains a collection of plug-ins for GStreamer.\n\nSecurity Fix(es):\n\n* gstreamer: MXF demuxer use-after-free vulnerability (CVE-2023-44446)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2023:7841",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-44446",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2250249",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2023-7841.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

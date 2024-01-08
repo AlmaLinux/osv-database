@@ -1,0 +1,76 @@
+{
+  "id": "ALSA-2024:0071",
+  "summary": "Important: squid security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "squid"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:5.5-6.el9_3.5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-46724",
+    "CVE-2023-46728",
+    "CVE-2023-49285",
+    "CVE-2023-49286"
+  ],
+  "published": "2024-01-08T00:00:00Z",
+  "modified": "2024-01-08T13:54:39Z",
+  "details": "Squid is a high-performance proxy caching server for web clients, supporting FTP, Gopher, and HTTP data objects.\n\nSecurity Fix(es):\n\n* squid: Denial of Service in SSL Certificate validation (CVE-2023-46724)\n* squid: NULL pointer dereference in the gopher protocol code (CVE-2023-46728)\n* squid: Buffer over-read in the HTTP Message processing feature (CVE-2023-49285)\n* squid: Incorrect Check of Function Return Value In Helper Process management (CVE-2023-49286)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:0071",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-46724",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-46728",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-49285",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-49286",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2247567",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2248521",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2252923",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2252926",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-0071.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

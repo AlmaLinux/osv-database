@@ -1,0 +1,152 @@
+{
+  "id": "ALSA-2024:0046",
+  "summary": "Important: squid:4 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libecap"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.1-2.module_el8.6.0+2741+01592ae8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libecap"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.1-2.module_el8.6.0+3048+383bc947"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libecap-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.1-2.module_el8.6.0+2741+01592ae8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libecap-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.1-2.module_el8.6.0+3048+383bc947"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "squid"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:4.15-7.module_el8.9.0+3708+6acaac63.5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-46724",
+    "CVE-2023-46728",
+    "CVE-2023-49285",
+    "CVE-2023-49286"
+  ],
+  "published": "2024-01-03T00:00:00Z",
+  "modified": "2024-01-08T14:59:53Z",
+  "details": "Squid is a high-performance proxy caching server for web clients, supporting FTP, Gopher, and HTTP data objects.\n\nSecurity Fix(es):\n\n* squid: Denial of Service in SSL Certificate validation (CVE-2023-46724)\n* squid: NULL pointer dereference in the gopher protocol code (CVE-2023-46728)\n* squid: Buffer over-read in the HTTP Message processing feature (CVE-2023-49285)\n* squid: Incorrect Check of Function Return Value In Helper Process management (CVE-2023-49286)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:0046",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-46724",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-46728",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-49285",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-49286",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2247567",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2248521",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2252923",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2252926",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2024-0046.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

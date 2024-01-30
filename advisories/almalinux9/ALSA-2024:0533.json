@@ -1,0 +1,144 @@
+{
+  "id": "ALSA-2024:0533",
+  "summary": "Moderate: gnutls security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gnutls"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.7.6-23.el9_3.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gnutls-c++"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.7.6-23.el9_3.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gnutls-dane"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.7.6-23.el9_3.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gnutls-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.7.6-23.el9_3.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gnutls-utils"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.7.6-23.el9_3.3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-5981",
+    "CVE-2023-5981",
+    "CVE-2024-0553",
+    "CVE-2024-0567"
+  ],
+  "published": "2024-01-29T00:00:00Z",
+  "modified": "2024-01-29T16:57:50Z",
+  "details": "The gnutls packages provide the GNU Transport Layer Security (GnuTLS) library, which implements cryptographic algorithms and protocols such as SSL, TLS, and DTLS.\n\nSecurity Fix(es):\n\n* gnutls: timing side-channel in the RSA-PSK authentication (CVE-2023-5981)\n* gnutls: incomplete fix for CVE-2023-5981 (CVE-2024-0553)\n* gnutls: rejects certificate chain with distributed trust (CVE-2024-0567)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:0533",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-5981",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-0553",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-0567",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2248445",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2258412",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2258544",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-0533.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

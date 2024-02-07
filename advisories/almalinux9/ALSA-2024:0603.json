@@ -1,0 +1,140 @@
+{
+  "id": "ALSA-2024:0603",
+  "summary": "Important: firefox security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "firefox"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "115.7.0-1.el9_3.alma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "firefox-x11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "115.7.0-1.el9_3.alma"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-0741",
+    "CVE-2024-0742",
+    "CVE-2024-0746",
+    "CVE-2024-0747",
+    "CVE-2024-0749",
+    "CVE-2024-0750",
+    "CVE-2024-0751",
+    "CVE-2024-0753",
+    "CVE-2024-0755"
+  ],
+  "published": "2024-01-30T00:00:00Z",
+  "modified": "2024-02-01T10:06:48Z",
+  "details": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.\n\nThis update upgrades Firefox to version 115.7.0 ESR.\n\nSecurity Fix(es):\n\n* Mozilla: Out of bounds write in ANGLE (CVE-2024-0741)\n* Mozilla: Failure to update user input timestamp (CVE-2024-0742)\n* Mozilla: Crash when listing printers on Linux (CVE-2024-0746)\n* Mozilla: Bypass of Content Security Policy when directive unsafe-inline was set (CVE-2024-0747)\n* Mozilla: Phishing site popup could show local origin in address bar (CVE-2024-0749)\n* Mozilla: Potential permissions request bypass via clickjacking (CVE-2024-0750)\n* Mozilla: Privilege escalation through devtools (CVE-2024-0751)\n* Mozilla: HSTS policy on subdomain could bypass policy of upper domain (CVE-2024-0753)\n* Mozilla: Memory safety bugs fixed in Firefox 122, Firefox ESR 115.7, and Thunderbird 115.7 (CVE-2024-0755)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:0603",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-0741",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-0742",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-0746",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-0747",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-0749",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-0750",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-0751",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-0753",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-0755",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2259926",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2259927",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2259928",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2259929",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2259930",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2259931",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2259932",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2259933",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2259934",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-0603.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

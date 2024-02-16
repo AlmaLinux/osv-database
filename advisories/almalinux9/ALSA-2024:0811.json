@@ -1,0 +1,86 @@
+{
+  "id": "ALSA-2024:0811",
+  "summary": "Moderate: sudo security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "sudo"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.9.5p2-10.el9_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "sudo-python-plugin"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.9.5p2-10.el9_3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-28487",
+    "CVE-2023-28486",
+    "CVE-2023-42465"
+  ],
+  "published": "2024-02-14T00:00:00Z",
+  "modified": "2024-02-14T10:26:35Z",
+  "details": "The sudo packages contain the sudo utility which allows system\nadministrators to provide certain users with the permission to execute\nprivileged commands, which are used for system management purposes, without\nhaving to log in as root.\n\nBug Fix(es) and Enhancement(s):\n\n* CVE-2023-28487 sudo: Sudo does not escape control characters in sudoreplay output\n* CVE-2023-28486 sudo: Sudo does not escape control characters in log messages\n* CVE-2023-42465 sudo: Targeted Corruption of Register and Stack Variables",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:0811",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-28486",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-28487",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-42465",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2179272",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2179273",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2255568",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-0811.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

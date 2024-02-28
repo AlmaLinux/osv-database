@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2024:0768",
+  "summary": "Moderate: libmaxminddb security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libmaxminddb"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.0-10.el8_9.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libmaxminddb-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.0-10.el8_9.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2020-28241"
+  ],
+  "published": "2024-02-12T00:00:00Z",
+  "modified": "2024-02-12T10:04:42Z",
+  "details": "The libmaxminddb package contains the MaxMind DB library.\n\nSecurity Fix(es):\n\n* libmaxminddb: improper initialization in dump_entry_data_list() in maxminddb.c (CVE-2020-28241)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:0768",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2020-28241",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1895379",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2024-0768.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2024:0967",
+  "summary": "Moderate: opensc security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "opensc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.20.0-8.el8_9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-5992"
+  ],
+  "published": "2024-02-26T00:00:00Z",
+  "modified": "2024-02-28T15:09:26Z",
+  "details": "The OpenSC set of libraries and utilities provides support for working with smart cards. OpenSC focuses on cards that support cryptographic operations and enables their use for authentication, mail encryption, or digital signatures.\n\nSecurity Fix(es):\n\n* OpenSC: Side-channel leaks while stripping encryption PKCS#1 padding (CVE-2023-5992)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:0967",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-5992",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2248685",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2024-0967.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

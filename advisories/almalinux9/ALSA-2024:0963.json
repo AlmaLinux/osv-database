@@ -1,0 +1,131 @@
+{
+  "id": "ALSA-2024:0963",
+  "summary": "Important: thunderbird security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "thunderbird"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "115.8.0-1.el9_3.alma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "thunderbird"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "115.8.0-1.el9_3.alma.plus"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-1546",
+    "CVE-2024-1547",
+    "CVE-2024-1553",
+    "CVE-2024-1548",
+    "CVE-2024-1549",
+    "CVE-2024-1550",
+    "CVE-2024-1551",
+    "CVE-2024-1552"
+  ],
+  "published": "2024-02-26T00:00:00Z",
+  "modified": "2024-02-28T15:36:18Z",
+  "details": "Mozilla Thunderbird is a standalone mail and newsgroup client.\n\nThis update upgrades Thunderbird to version 115.8.0.\n\nSecurity Fix(es):\n\n* Mozilla: Out-of-bounds memory read in networking channels (CVE-2024-1546)\n* Mozilla: Alert dialog could have been spoofed on another site (CVE-2024-1547)\n* Mozilla: Memory safety bugs fixed in Firefox 123, Firefox ESR 115.8, and Thunderbird 115.8 (CVE-2024-1553)\n* Mozilla: Fullscreen Notification could have been hidden by select element (CVE-2024-1548)\n* Mozilla: Custom cursor could obscure the permission dialog (CVE-2024-1549)\n* Mozilla: Mouse cursor re-positioned unexpectedly could have led to unintended permission grants (CVE-2024-1550)\n* Mozilla: Multipart HTTP Responses would accept the Set-Cookie header in response parts (CVE-2024-1551)\n* Mozilla: Incorrect code generation on 32-bit ARM devices (CVE-2024-1552)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:0963",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-1546",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-1547",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-1548",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-1549",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-1550",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-1551",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-1552",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-1553",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2265349",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2265350",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2265351",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2265352",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2265353",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2265354",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2265355",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2265356",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-0963.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

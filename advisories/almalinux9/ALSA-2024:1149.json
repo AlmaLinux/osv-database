@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2024:1149",
+  "summary": "Moderate: skopeo security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "skopeo"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.13.3-4.el9_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "skopeo-tests"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.13.3-4.el9_3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-39326"
+  ],
+  "published": "2024-03-05T00:00:00Z",
+  "modified": "2024-03-06T14:02:51Z",
+  "details": "The skopeo command lets you inspect images from container image registries, get images and image layers, and use signatures to create and verify files. \n\nSecurity Fix(es):\n\n* golang: net/http/internal: Denial of Service (DoS) via Resource Consumption via HTTP requests (CVE-2023-39326)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:1149",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-39326",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2253330",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-1149.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

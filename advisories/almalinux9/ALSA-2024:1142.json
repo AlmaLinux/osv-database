@@ -1,0 +1,58 @@
+{
+  "id": "ALSA-2024:1142",
+  "summary": "Moderate: haproxy security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "haproxy"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.22-3.el9_3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-40225",
+    "CVE-2023-45539"
+  ],
+  "published": "2024-03-05T00:00:00Z",
+  "modified": "2024-03-06T14:17:10Z",
+  "details": "The haproxy packages provide a reliable, high-performance network load balancer for TCP and HTTP-based applications.\n\nSecurity Fix(es):\n\n* haproxy: Proxy forwards malformed empty Content-Length headers (CVE-2023-40225)\n* haproxy: untrimmed URI fragments may lead to exposure of confidential data on static servers (CVE-2023-45539)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:1142",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-40225",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-45539",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2231370",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2253037",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-1142.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

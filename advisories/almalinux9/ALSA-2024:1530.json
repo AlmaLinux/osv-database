@@ -1,0 +1,77 @@
+{
+  "id": "ALSA-2024:1530",
+  "summary": "Moderate: expat security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "expat"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.0-1.el9_3.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "expat-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.0-1.el9_3.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-52425",
+    "CVE-2024-28757"
+  ],
+  "published": "2024-03-26T00:00:00Z",
+  "modified": "2024-04-02T08:32:06Z",
+  "details": "Expat is a C library for parsing XML documents.\n\nSecurity Fix(es):\n\n* expat: parsing large tokens can trigger a denial of service (CVE-2023-52425)\n* expat: XML Entity Expansion (CVE-2024-28757)",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:1530",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-52425",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-28757",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2262877",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2268766",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-1530.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

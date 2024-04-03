@@ -1,0 +1,200 @@
+{
+  "id": "ALSA-2024:1510",
+  "summary": "Important: nodejs:18 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:18.19.1-1.module_el8.9.0+3753+4de0891b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:18.19.1-1.module_el8.9.0+3753+4de0891b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-docs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:18.19.1-1.module_el8.9.0+3753+4de0891b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-full-i18n"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:18.19.1-1.module_el8.9.0+3753+4de0891b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-nodemon"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.0.1-1.module_el8.8.0+3613+1ed8c91d"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-packaging"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2021.06-4.module_el8.7.0+3343+ea2b7901"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-packaging-bundler"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2021.06-4.module_el8.7.0+3343+ea2b7901"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "npm"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:10.2.4-1.18.19.1.1.module_el8.9.0+3753+4de0891b"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-22019",
+    "CVE-2023-46809",
+    "CVE-2024-21892"
+  ],
+  "published": "2024-03-26T00:00:00Z",
+  "modified": "2024-04-02T11:46:33Z",
+  "details": "Node.js is a software development platform for building fast and scalable\nnetwork applications in the JavaScript programming language.\n\nSecurity Fix(es):\n\n* nodejs: reading unprocessed HTTP request with unbounded chunk extension allows DoS attacks (CVE-2024-22019)\n* nodejs: vulnerable to timing variant of the Bleichenbacher attack against PKCS#1 v1.5 padding (Marvin) (CVE-2023-46809)\n* nodejs: code injection and privilege escalation through Linux capabilities (CVE-2024-21892)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:1510",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-46809",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-21892",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-22019",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2264569",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2264574",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2264582",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2024-1510.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

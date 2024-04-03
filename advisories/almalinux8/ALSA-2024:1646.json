@@ -1,0 +1,50 @@
+{
+  "id": "ALSA-2024:1646",
+  "summary": "Important: grafana security and bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "grafana"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.2.10-8.el8_9.alma.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-1394",
+    "CVE-2024-1394"
+  ],
+  "published": "2024-04-02T00:00:00Z",
+  "modified": "2024-04-03T15:14:05Z",
+  "details": "Grafana is an open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB. \n\nSecurity Fix(es):\n\n* golang-fips/openssl: Memory leaks in code encrypting and decrypting RSA payloads (CVE-2024-1394)\n\nBug Fix(es):\n\n* TRIAGE CVE-2024-1394 grafana: golang-fips/openssl: Memory leaks in code encrypting and decrypting RSA payloads (JIRA:AlmaLinux-30543)",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:1646",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-1394",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2262921",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2024-1646.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

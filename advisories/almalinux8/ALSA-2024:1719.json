@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2024:1719",
+  "summary": "Moderate: rear security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "rear"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6-11.el8_9.alma.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-23301"
+  ],
+  "published": "2024-04-09T00:00:00Z",
+  "modified": "2024-04-10T08:54:24Z",
+  "details": "Relax-and-Recover is a recovery and system migration utility. The utility produces a bootable image and restores from backup using this image. It allows to restore to different hardware and can therefore be also used as a migration utility.\n\nSecurity Fix(es):\n\n* rear: creates a world-readable initrd (CVE-2024-23301)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:1719",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-23301",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2258396",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2024-1719.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

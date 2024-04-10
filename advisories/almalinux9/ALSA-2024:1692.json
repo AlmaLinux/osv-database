@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2024:1692",
+  "summary": "Moderate: less security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "less"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "590-3.el9_3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2022-48624"
+  ],
+  "published": "2024-04-08T00:00:00Z",
+  "modified": "2024-04-09T06:49:32Z",
+  "details": "The \"less\" utility is a text file browser that resembles \"more\", but allows\nusers to move backwards in the file as well as forwards. Since \"less\" does not\nread the entire input file at startup, it also starts more quickly than ordinary\ntext editors.\n\nSecurity Fix(es):\n\n* less: missing quoting of shell metacharacters in LESSCLOSE handling\n(CVE-2022-48624)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:1692",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-48624",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2265081",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-1692.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

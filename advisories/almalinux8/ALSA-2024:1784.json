@@ -1,0 +1,125 @@
+{
+  "id": "ALSA-2024:1784",
+  "summary": "Moderate: gnutls security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gnutls"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.16-8.el8_9.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gnutls-c++"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.16-8.el8_9.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gnutls-dane"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.16-8.el8_9.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gnutls-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.16-8.el8_9.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gnutls-utils"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.16-8.el8_9.3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-28834"
+  ],
+  "published": "2024-04-11T00:00:00Z",
+  "modified": "2024-04-12T11:48:24Z",
+  "details": "The gnutls package provide the GNU Transport Layer Security (GnuTLS) library,\nwhich implements cryptographic algorithms and protocols such as SSL, TLS, and\nDTLS.\n\nThis package update fixes a timing side-channel in deterministic ECDSA.\n\nSecurity Fix(es):\n\n* gnutls: vulnerable to Minerva side-channel information leak (CVE-2024-28834)\n\nFor more details about the security issue(s), including the impact, a CVSS\nscore, acknowledgments, and other related information, refer to the CVE page(s)\nlisted in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:1784",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-28834",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2269228",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2024-1784.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

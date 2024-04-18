@@ -1,0 +1,67 @@
+{
+  "id": "ALSA-2024:1376",
+  "summary": "Important: squid security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "squid"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:5.5-6.el9_3.8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-25617",
+    "CVE-2024-25111",
+    "CVE-2023-50269"
+  ],
+  "published": "2024-03-19T00:00:00Z",
+  "modified": "2024-04-12T18:57:26Z",
+  "details": "Squid is a high-performance proxy caching server for web clients, supporting FTP, Gopher, and HTTP data objects.\n\nSecurity Fix(es):\n\n* squid: denial of service in HTTP header parser (CVE-2024-25617)\n* squid: Denial of Service in HTTP Chunked Decoding (CVE-2024-25111)\n* squid: denial of service in HTTP request parsing (CVE-2023-50269)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:1376",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-50269",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-25111",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-25617",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2254663",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2264309",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2268366",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-1376.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

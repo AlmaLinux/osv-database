@@ -1,0 +1,103 @@
+{
+  "id": "ALSA-2024:1912",
+  "summary": "Important: firefox security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "firefox"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "115.10.0-1.el8_9.alma.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-3852",
+    "CVE-2024-3854",
+    "CVE-2024-3857",
+    "CVE-2024-2609",
+    "CVE-2024-3859",
+    "CVE-2024-3861",
+    "CVE-2024-3864"
+  ],
+  "published": "2024-04-18T00:00:00Z",
+  "modified": "2024-04-22T08:21:39Z",
+  "details": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.\n\nThis update upgrades Firefox to version 115.10.0 ESR.\n\nSecurity Fix(es):\n  \n* GetBoundName in the JIT returned the wrong object (CVE-2024-3852)\n\n* Out-of-bounds-read after mis-optimized switch statement (CVE-2024-3854)\n* Incorrect JITting of arguments led to use-after-free during garbage collection (CVE-2024-3857)\n* Permission prompt input delay could expire when not in focus (CVE-2024-2609)\n* Integer-overflow led to out-of-bounds-read in the OpenType sanitizer (CVE-2024-3859)\n* Potential use-after-free due to AlignedBuffer self-move (CVE-2024-3861)\n* Memory safety bug fixed in Firefox 125, Firefox ESR 115.10, and Thunderbird 115.10 (CVE-2024-3864)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:1912",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-2609",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-3852",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-3854",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-3857",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-3859",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-3861",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-3864",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2275547",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2275549",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2275550",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2275551",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2275552",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2275553",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2275555",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2024-1912.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

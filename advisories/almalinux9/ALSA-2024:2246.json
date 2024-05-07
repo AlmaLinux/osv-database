@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2024:2246",
+  "summary": "Moderate: ansible-core bug fix, enhancement, and security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "ansible-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.14.14-1.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "ansible-test"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.14.14-1.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-0690"
+  ],
+  "published": "2024-04-30T00:00:00Z",
+  "modified": "2024-05-07T14:54:31Z",
+  "details": "Ansible is a radically simple model-driven configuration management, multi-node deployment, and remote task execution system. Ansible works over SSH and does not require any software or daemons to be installed on remote nodes. Extension modules can be written in any language and are transferred to managed machines automatically.\n\nSecurity Fix(es):\n\n* ansible-core: possible information leak in tasks that ignore ANSIBLE_NO_LOG configuration (CVE-2024-0690)\n\nBug Fix(es):\n\n* Update ansible-core to 2.14.14 (JIRA:AlmaLinux-23783)",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:2246",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-0690",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2259013",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-2246.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

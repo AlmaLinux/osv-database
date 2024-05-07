@@ -1,0 +1,58 @@
+{
+  "id": "ALSA-2024:2504",
+  "summary": "Low: libssh security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libssh-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.4-13.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-6004",
+    "CVE-2023-6918"
+  ],
+  "published": "2024-04-30T00:00:00Z",
+  "modified": "2024-05-07T14:56:21Z",
+  "details": "libssh is a library which implements the SSH protocol. It can be used to implement client and server applications.\n\nSecurity Fix(es):\n\n* libssh: ProxyCommand/ProxyJump features allow injection of malicious code through hostname (CVE-2023-6004)\n* libssh: Missing checks for return values for digests (CVE-2023-6918)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:2504",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-6004",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-6918",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2251110",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2254997",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-2504.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

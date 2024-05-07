@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2024:2137",
+  "summary": "Low: LibRaw security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "LibRaw"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.21.1-1.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "LibRaw-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.21.1-1.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-1729"
+  ],
+  "published": "2024-04-30T00:00:00Z",
+  "modified": "2024-05-07T14:55:05Z",
+  "details": "LibRaw is a library for reading RAW files obtained from digital photo cameras (CRW/CR2, NEF, RAF, DNG, and others).\n\nSecurity Fix(es):\n\n* LibRaw: a heap-buffer-overflow in raw2image_ex() (CVE-2023-1729)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:2137",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-1729",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2188240",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-2137.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

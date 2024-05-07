@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2024:2564",
+  "summary": "Moderate: mod_http2 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "mod_http2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.26-2.el9_4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-27316"
+  ],
+  "published": "2024-04-30T00:00:00Z",
+  "modified": "2024-05-07T14:54:20Z",
+  "details": "The mod_h2 Apache httpd module implements the HTTP2 protocol (h2+h2c) on top of libnghttp2 for httpd 2.4 servers.\n\nSecurity Fix(es):\n\n* mod_http2: httpd: CONTINUATION frames DoS (CVE-2024-27316)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:2564",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-27316",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2268277",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-2564.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

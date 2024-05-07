@@ -1,0 +1,76 @@
+{
+  "id": "ALSA-2024:2180",
+  "summary": "Moderate: runc security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "runc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4:1.1.12-2.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2022-30630",
+    "CVE-2022-30631",
+    "CVE-2022-30632",
+    "CVE-2023-45287"
+  ],
+  "published": "2024-04-30T00:00:00Z",
+  "modified": "2024-05-07T14:54:04Z",
+  "details": "The runC tool is a lightweight, portable implementation of the Open Container Format (OCF) that provides container runtime.\n\nSecurity Fix(es):\n\n* golang: io/fs: stack exhaustion in Glob (CVE-2022-30630)\n* golang: compress/gzip: stack exhaustion in Reader.Read (CVE-2022-30631)\n* golang: path/filepath: stack exhaustion in Glob (CVE-2022-30632)\n* golang: crypto/tls: Timing Side Channel attack in RSA based TLS key exchanges. (CVE-2023-45287)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:2180",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-30630",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-30631",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-30632",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-45287",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2107342",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2107371",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2107386",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2253193",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-2180.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

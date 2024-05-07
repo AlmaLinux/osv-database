@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2024:2512",
+  "summary": "Low: file security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "file-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.39-16.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "python3-file-magic"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.39-16.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2022-48554"
+  ],
+  "published": "2024-04-30T00:00:00Z",
+  "modified": "2024-05-07T15:04:40Z",
+  "details": "The file command is used to identify a particular file according to the type of data the file contains. It can identify many different file types, including Executable and Linkable Format (ELF) binary files, system libraries, RPM packages, and different graphics formats.\n\nSecurity Fix(es):\n\n* file: stack-based buffer over-read in file_copystr in funcs.c (CVE-2022-48554)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:2512",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-48554",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2235714",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-2512.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

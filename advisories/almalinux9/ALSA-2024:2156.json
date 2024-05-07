@@ -1,0 +1,131 @@
+{
+  "id": "ALSA-2024:2156",
+  "summary": "Moderate: frr security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "frr"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.5.3-4.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "frr-selinux"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.5.3-4.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-31489",
+    "CVE-2023-31490",
+    "CVE-2023-41358",
+    "CVE-2023-41359",
+    "CVE-2023-41909",
+    "CVE-2023-46752",
+    "CVE-2023-46753",
+    "CVE-2023-41360"
+  ],
+  "published": "2024-04-30T00:00:00Z",
+  "modified": "2024-05-07T15:04:45Z",
+  "details": "FRRouting is free software that manages TCP/IP based routing protocols. It supports BGP4, OSPFv2, OSPFv3, ISIS, RIP, RIPng, PIM, NHRP, PBR, EIGRP and BFD. \n\nSecurity Fix(es):\n\n* frr: incorrect length check in bgp_capability_llgr() can lead do DoS (CVE-2023-31489)\n* frr: missing length check in bgp_attr_psid_sub() can lead do DoS (CVE-2023-31490)\n* frr: processes invalid NLRIs if attribute length is zero (CVE-2023-41358)\n* frr: out of bounds read in bgp_attr_aigp_valid (CVE-2023-41359)\n* frr: NULL pointer dereference in bgp_nlri_parse_flowspec() in bgpd/bgp_flowspec.c (CVE-2023-41909)\n* frr: mishandled malformed data leading to a crash (CVE-2023-46752)\n* frr: crafted BGP UPDATE message leading to a crash (CVE-2023-46753)\n* frr: ahead-of-stream read of ORF header (CVE-2023-41360)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:2156",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-31489",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-31490",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-41358",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-41359",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-41360",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-41909",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-46752",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-46753",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2235839",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2235840",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2235842",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2237416",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2238990",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2238992",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2246379",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2246381",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-2156.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

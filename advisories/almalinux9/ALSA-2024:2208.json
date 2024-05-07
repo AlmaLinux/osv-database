@@ -1,0 +1,224 @@
+{
+  "id": "ALSA-2024:2208",
+  "summary": "Moderate: freerdp security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "freerdp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.11.2-1.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "freerdp-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.11.2-1.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "freerdp-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.11.2-1.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libwinpr"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.11.2-1.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libwinpr-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.11.2-1.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-39350",
+    "CVE-2023-39351",
+    "CVE-2023-39352",
+    "CVE-2023-39356",
+    "CVE-2023-40186",
+    "CVE-2023-40567",
+    "CVE-2023-40569",
+    "CVE-2023-40589",
+    "CVE-2023-39353",
+    "CVE-2023-39354",
+    "CVE-2023-40181",
+    "CVE-2023-40188"
+  ],
+  "published": "2024-04-30T00:00:00Z",
+  "modified": "2024-05-07T15:01:06Z",
+  "details": "FreeRDP is a free implementation of the Remote Desktop Protocol (RDP), released under the Apache license. The xfreerdp client can connect to RDP servers such as Microsoft Windows machines, xrdp, and VirtualBox.\n\nSecurity Fix(es):\n\n* freerdp: Incorrect offset calculation leading to DOS (CVE-2023-39350)\n* freerdp: Null Pointer Dereference leading DOS in RemoteFX (CVE-2023-39351)\n* freerdp: invalid offset validation leading to Out Of Bound Write (CVE-2023-39352)\n* freerdp: missing offset validation leading to Out-of-Bounds Read in gdi_multi_opaque_rect (CVE-2023-39356)\n* freerdp: Integer overflow leading to out-of-bound write vulnerability in gdi_CreateSurface (CVE-2023-40186)\n* freerdp: Out-of-bounds write in clear_decompress_bands_data (CVE-2023-40567)\n* freerdp: Out-of-bounds write in the `progressive_decompress` function due to incorrect calculations (CVE-2023-40569)\n* freerdp: buffer overflow in ncrush_decompress causes crash with crafted input (CVE-2023-40589)\n* freerdp: missing offset validation leading to Out Of Bound Read (CVE-2023-39353)\n* freerdp: Out-Of-Bounds Read in nsc_rle_decompress_data (CVE-2023-39354)\n* freerdp: integer-Underflow leading to Out-Of-Bound Read in zgfx_decompress_segment (CVE-2023-40181)\n* freerdp: Out-of-bounds read in general_LumaToYUV444 (CVE-2023-40188)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:2208",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-39350",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-39351",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-39352",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-39353",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-39354",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-39356",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-40181",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-40186",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-40188",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-40567",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-40569",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-40589",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2236606",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2236650",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2236656",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2236669",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2236730",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2236750",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2236759",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2236763",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2236766",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2236774",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2236779",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2236784",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-2208.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

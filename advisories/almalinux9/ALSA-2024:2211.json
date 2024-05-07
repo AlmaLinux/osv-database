@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2024:2211",
+  "summary": "Moderate: tcpdump security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "tcpdump"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "14:4.99.0-9.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2021-41043"
+  ],
+  "published": "2024-04-30T00:00:00Z",
+  "modified": "2024-05-07T14:54:06Z",
+  "details": "The tcpdump packages contain the tcpdump utility for monitoring network traffic. The tcpdump utility can capture and display the packet headers on a particular network interface or on all interfaces.\n\nSecurity Fix(es):\n\n* tcpslice: use-after-free in extract_slice() (CVE-2021-41043)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:2211",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2021-41043",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2040392",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-2211.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

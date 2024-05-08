@@ -1,0 +1,105 @@
+{
+  "id": "ALSA-2024:1940",
+  "summary": "Low: thunderbird security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "thunderbird"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "115.10.0-2.el9_3.alma.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-3302"
+  ],
+  "published": "2024-04-22T00:00:00Z",
+  "modified": "2024-04-29T07:48:43Z",
+  "details": "Mozilla Thunderbird is a standalone mail and newsgroup client.\n\nThis update upgrades Thunderbird to version 115.10.0.\n\nSecurity Fix(es):\n\n* Mozilla: Denial of Service using HTTP/2 CONTINUATION frames (CVE-2024-3302)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:1940",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-2609",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-3302",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-3852",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-3854",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-3857",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-3859",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-3861",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-3864",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2273383",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2275547",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2275549",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2275550",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2275551",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2275552",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2275553",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2275555",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-1940.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "ALSA-2024:2366",
+  "summary": "Moderate: freeglut security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "freeglut"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.1-10.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "freeglut-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.1-10.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-24258",
+    "CVE-2024-24259"
+  ],
+  "published": "2024-04-30T00:00:00Z",
+  "modified": "2024-05-07T15:00:42Z",
+  "details": "freeglut is a completely open source alternative to the OpenGL Utility Toolkit (GLUT) library with an OSI approved free software license.\n\nSecurity Fix(es):\n\n* freeglut: memory leak via glutAddSubMenu() function (CVE-2024-24258)\n* freeglut: memory leak via glutAddMenuEntry() function (CVE-2024-24259)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:2366",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-24258",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-24259",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2263939",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2263943",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-2366.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

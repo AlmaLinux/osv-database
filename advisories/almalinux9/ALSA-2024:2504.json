@@ -5,6 +5,44 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
+        "name": "libssh"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.4-13.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libssh-config"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.4-13.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
         "name": "libssh-devel"
       },
       "ranges": [
@@ -27,7 +65,7 @@
     "CVE-2023-6918"
   ],
   "published": "2024-04-30T00:00:00Z",
-  "modified": "2024-05-07T14:56:21Z",
+  "modified": "2024-05-07T15:05:11Z",
   "details": "libssh is a library which implements the SSH protocol. It can be used to implement client and server applications.\n\nSecurity Fix(es):\n\n* libssh: ProxyCommand/ProxyJump features allow injection of malicious code through hostname (CVE-2023-6004)\n* libssh: Missing checks for return values for digests (CVE-2023-6918)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
     {

@@ -1,0 +1,132 @@
+{
+  "id": "ALSA-2024:1902",
+  "summary": "Important: shim security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "shim-aa64"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "15.8-4.el8_9.alma.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "shim-ia32"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "15.8-4.el8_9.alma.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "shim-x64"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "15.8-4.el8_9.alma.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-40547",
+    "CVE-2023-40548",
+    "CVE-2023-40546",
+    "CVE-2023-40549",
+    "CVE-2023-40550",
+    "CVE-2023-40551"
+  ],
+  "published": "2024-04-18T00:00:00Z",
+  "modified": "2024-05-10T20:36:43Z",
+  "details": "The shim package contains a first-stage UEFI boot loader that handles chaining\nto a trusted full boot loader under secure boot environments.\n\nSecurity Fix(es):\n\n* shim: RCE in http boot support may lead to Secure Boot bypass (CVE-2023-40547)\n* shim: Interger overflow leads to heap buffer overflow in verify_sbat_section\non 32-bits systems (CVE-2023-40548)\n* shim: Out-of-bounds read printing error messages (CVE-2023-40546)\n* shim: Out-of-bounds read in verify_buffer_authenticode() malformed PE file\n(CVE-2023-40549)\n* shim: Out-of-bound read in verify_buffer_sbat() (CVE-2023-40550)\n* shim: out of bounds read when parsing MZ binaries (CVE-2023-40551)\n\nFor more details about the security issue(s), including the impact, a CVSS\nscore, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:1902",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-40546",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-40547",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-40548",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-40549",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-40550",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-40551",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2234589",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2241782",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2241796",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2241797",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2259915",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2259918",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2024-1902.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

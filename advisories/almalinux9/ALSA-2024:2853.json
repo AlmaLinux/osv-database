@@ -1,0 +1,218 @@
+{
+  "id": "ALSA-2024:2853",
+  "summary": "Important: nodejs:20 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "nodejs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:20.12.2-2.module_el9.4.0+100+71fc9528"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "nodejs-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:20.12.2-2.module_el9.4.0+100+71fc9528"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "nodejs-docs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:20.12.2-2.module_el9.4.0+100+71fc9528"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "nodejs-full-i18n"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:20.12.2-2.module_el9.4.0+100+71fc9528"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "nodejs-nodemon"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.0.1-1.module_el9.3.0+47+c33bc288"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "nodejs-packaging"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2021.06-4.module_el9.3.0+88+29afeaa2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "nodejs-packaging-bundler"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2021.06-4.module_el9.3.0+88+29afeaa2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "npm"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:10.5.0-1.20.12.2.2.module_el9.4.0+100+71fc9528"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-25629",
+    "CVE-2024-28182",
+    "CVE-2024-22025",
+    "CVE-2024-27983",
+    "CVE-2024-27982"
+  ],
+  "published": "2024-05-15T00:00:00Z",
+  "modified": "2024-05-16T07:49:52Z",
+  "details": "Node.js is a software development platform for building fast and scalable\nnetwork applications in the JavaScript programming language.\n\nSecurity Fix(es):\n\n* c-ares: Out of bounds read in ares__read_line() (CVE-2024-25629)\n* nghttp2: CONTINUATION frames DoS (CVE-2024-28182)\n* nodejs: using the fetch() function to retrieve content from an untrusted URL leads to denial of service (CVE-2024-22025)\n* nodejs: CONTINUATION frames DoS (CVE-2024-27983)\n* nodejs: HTTP Request Smuggling via Content Length Obfuscation (CVE-2024-27982)\n\nFor more details about the security issue(s), including the impact, a CVSS\nscore, acknowledgments, and other related information, refer to the CVE\npage(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:2853",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-22025",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-25629",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-27982",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-27983",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-28182",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2265713",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2268639",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2270559",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2272764",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2275392",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-2853.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

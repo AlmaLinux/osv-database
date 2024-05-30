@@ -1,0 +1,131 @@
+{
+  "id": "ALSA-2024:3017",
+  "summary": "Important: edk2 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "edk2-aarch64"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20220126gitbb1bba3d77-13.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "edk2-ovmf"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20220126gitbb1bba3d77-13.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-45235",
+    "CVE-2022-36763",
+    "CVE-2022-36764",
+    "CVE-2022-36765",
+    "CVE-2023-45229",
+    "CVE-2023-45231",
+    "CVE-2023-45232",
+    "CVE-2023-45233"
+  ],
+  "published": "2024-05-22T00:00:00Z",
+  "modified": "2024-05-29T12:19:10Z",
+  "details": "EDK (Embedded Development Kit) is a project to enable UEFI support for Virtual Machines. This package contains a sample 64-bit UEFI firmware for QEMU and KVM. \n\nSecurity Fix(es):\n\n* edk2: Buffer overflow when handling Server ID option from a DHCPv6 proxy Advertise message (CVE-2023-45235)\n* EDK2: heap buffer overflow in Tcg2MeasureGptTable() (CVE-2022-36763)\n* EDK2: heap buffer overflow in Tcg2MeasurePeImage() (CVE-2022-36764)\n* EDK2: integer overflow in CreateHob() could lead to HOB OOB R/W (CVE-2022-36765)\n* edk2: Integer underflow when processing IA_NA/IA_TA options in a DHCPv6 Advertise message (CVE-2023-45229)\n* edk2: Out of Bounds read when handling a ND Redirect message with truncated options (CVE-2023-45231)\n* edk2: Infinite loop when parsing unknown options in the Destination Options header (CVE-2023-45232)\n* edk2: Infinite loop when parsing a PadN option in the Destination Options header (CVE-2023-45233)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:3017",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-36763",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-36764",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-36765",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-45229",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-45231",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-45232",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-45233",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-45235",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2257582",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2257583",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2257584",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2258677",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2258688",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2258691",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2258694",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2258700",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2024-3017.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

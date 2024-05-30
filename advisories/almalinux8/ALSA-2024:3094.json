@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2024:3094",
+  "summary": "Moderate: perl-CPAN security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "perl-CPAN"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.18-399.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-31484"
+  ],
+  "published": "2024-05-22T00:00:00Z",
+  "modified": "2024-05-29T14:42:32Z",
+  "details": "The CPAN module is a tool to query, download and build perl modules from CPAN sites.\n\nSecurity Fix(es):\n\n* perl: CPAN.pm does not verify TLS certificates when downloading distributions over HTTPS (CVE-2023-31484)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:3094",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-31484",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2218667",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2024-3094.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

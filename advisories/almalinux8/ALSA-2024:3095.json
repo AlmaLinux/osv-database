@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2024:3095",
+  "summary": "Moderate: vorbis-tools security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "vorbis-tools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.4.0-29.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-43361"
+  ],
+  "published": "2024-05-22T00:00:00Z",
+  "modified": "2024-05-29T14:39:40Z",
+  "details": "The vorbis-tools packages provide an encoder, a decoder, a playback tool, and a comment editor for Ogg Vorbis. Ogg Vorbis is a fully open, non-proprietary, patent- and royalty-free, general-purpose compressed audio format.\n\nSecurity Fix(es):\n\n* vorbis-tools: Buffer Overflow vulnerability (CVE-2023-43361)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:3095",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-43361",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2242151",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2024-3095.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "ALSA-2024:3346",
+  "summary": "Important: git-lfs security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "git-lfs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.1-2.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-45288",
+    "CVE-2023-45289",
+    "CVE-2023-45290",
+    "CVE-2024-24783"
+  ],
+  "published": "2024-05-23T00:00:00Z",
+  "modified": "2024-05-29T14:39:48Z",
+  "details": "Git Large File Storage (LFS) replaces large files such as audio samples, videos, datasets, and graphics with text pointers inside Git, while storing the file contents on a remote server.\n\nSecurity Fix(es):\n\n* golang: net/http, x/net/http2: unlimited number of CONTINUATION frames causes DoS (CVE-2023-45288)\n* golang: net/http/cookiejar: incorrect forwarding of sensitive headers and cookies on HTTP redirect (CVE-2023-45289)\n* golang: net/http: memory exhaustion in Request.ParseMultipartForm (CVE-2023-45290)\n* golang: crypto/x509: Verify panics on certificates with an unknown public key algorithm (CVE-2024-24783)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:3346",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-45288",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-45289",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-45290",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-24783",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2268017",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2268018",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2268019",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2268273",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2024-3346.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

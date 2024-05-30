@@ -1,0 +1,104 @@
+{
+  "id": "ALSA-2024:2981",
+  "summary": "Moderate: frr security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "frr"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.5.1-22.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "frr-selinux"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.5.1-22.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-31490",
+    "CVE-2023-41358",
+    "CVE-2023-41909",
+    "CVE-2023-46752",
+    "CVE-2023-46753"
+  ],
+  "published": "2024-05-22T00:00:00Z",
+  "modified": "2024-05-29T14:43:20Z",
+  "details": "FRRouting is free software that manages TCP/IP based routing protocols. It supports BGP4, OSPFv2, OSPFv3, ISIS, RIP, RIPng, PIM, NHRP, PBR, EIGRP and BFD. \n\nSecurity Fix(es):\n\n* frr: missing length check in bgp_attr_psid_sub() can lead do DoS (CVE-2023-31490)\n* frr: processes invalid NLRIs if attribute length is zero (CVE-2023-41358)\n* frr: NULL pointer dereference in bgp_nlri_parse_flowspec() in bgpd/bgp_flowspec.c (CVE-2023-41909)\n* frr: mishandled malformed data leading to a crash (CVE-2023-46752)\n* frr: crafted BGP UPDATE message leading to a crash (CVE-2023-46753)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:2981",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-31490",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-41358",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-41909",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-46752",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-46753",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2235839",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2237416",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2238992",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2246379",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2246381",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2024-2981.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "ALSA-2024:3060",
+  "summary": "Moderate: gstreamer1-plugins-bad-free security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gstreamer1-plugins-bad-free"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.1-4.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gstreamer1-plugins-bad-free-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.1-4.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-40474",
+    "CVE-2023-40475",
+    "CVE-2023-40476"
+  ],
+  "published": "2024-05-22T00:00:00Z",
+  "modified": "2024-05-29T14:39:57Z",
+  "details": "GStreamer is a streaming media framework based on graphs of filters which operate on media data. The gstreamer1-plugins-bad-free package contains a collection of plug-ins for GStreamer.\n\nSecurity Fix(es):\n\n* gstreamer-plugins-bad: Integer overflow leading to heap overwrite in MXF file handling with uncompressed video (CVE-2023-40474)\n* gstreamer-plugins-bad: Integer overflow leading to heap overwrite in MXF file handling with AES3 audio (CVE-2023-40475)\n* gstreamer-plugins-bad: Integer overflow in H.265 video parser leading to stack overwrite (CVE-2023-40476)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:3060",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-40474",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-40475",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-40476",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2254587",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2254588",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2254589",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2024-3060.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

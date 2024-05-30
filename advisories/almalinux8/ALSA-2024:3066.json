@@ -1,0 +1,77 @@
+{
+  "id": "ALSA-2024:3066",
+  "summary": "Moderate: exempi security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "exempi"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.5-4.el8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "exempi-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.5-4.el8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2020-18651",
+    "CVE-2020-18652"
+  ],
+  "published": "2024-05-22T00:00:00Z",
+  "modified": "2024-05-29T14:40:00Z",
+  "details": "Exempi provides a library for easy parsing of XMP metadata.\n\nSecurity Fix(es):\n\n* exempi: denial of service via opening of crafted audio file with ID3V2 frame (CVE-2020-18651)\n* exempi: denial of service via opening of crafted webp file (CVE-2020-18652)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:3066",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2020-18651",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2020-18652",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2235669",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2235673",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2024-3066.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

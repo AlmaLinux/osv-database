@@ -1,0 +1,87 @@
+{
+  "id": "ALSA-2024:3501",
+  "summary": "Moderate: nghttp2 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libnghttp2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.43.0-5.el9_4.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libnghttp2-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.43.0-5.el9_4.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "nghttp2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.43.0-5.el9_4.3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-28182"
+  ],
+  "published": "2024-05-30T00:00:00Z",
+  "modified": "2024-05-30T20:12:46Z",
+  "details": "libnghttp2 is a library implementing the Hypertext Transfer Protocol version 2 (HTTP/2) protocol in C.\n\nSecurity Fix(es):\n\n* nghttp2: CONTINUATION frames DoS (CVE-2024-28182)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:3501",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-28182",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2268639",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-3501.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

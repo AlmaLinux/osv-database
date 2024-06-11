@@ -1,0 +1,86 @@
+{
+  "id": "ALSA-2024:2113",
+  "summary": "Moderate: pcs security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "pcs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.11.7-2.el9_4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "pcs-snmp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.11.7-2.el9_4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-25126",
+    "CVE-2024-26141",
+    "CVE-2024-26146"
+  ],
+  "published": "2024-04-30T00:00:00Z",
+  "modified": "2024-05-07T14:54:22Z",
+  "details": "The pcs packages provide a command-line configuration system for the Pacemaker and Corosync utilities.\n\nSecurity Fix(es):\n\n* rubygem-rack: Denial of Service Vulnerability in Rack Content-Type Parsing (CVE-2024-25126)\n* rubygem-rack: Possible DoS Vulnerability with Range Header in Rack (CVE-2024-26141)\n* rubygem-rack: Possible Denial of Service Vulnerability in Rack Header Parsing (CVE-2024-26146)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:2113",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-25126",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-26141",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-26146",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2265593",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2265594",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2265595",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-2113.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

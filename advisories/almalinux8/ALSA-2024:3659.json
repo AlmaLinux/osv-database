@@ -1,0 +1,125 @@
+{
+  "id": "ALSA-2024:3659",
+  "summary": "Important: booth security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "booth"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1-1.el8_10.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "booth-arbitrator"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1-1.el8_10.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "booth-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1-1.el8_10.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "booth-site"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1-1.el8_10.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "booth-test"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1-1.el8_10.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-3049"
+  ],
+  "published": "2024-06-06T00:00:00Z",
+  "modified": "2024-06-11T12:24:50Z",
+  "details": "The Booth cluster ticket manager is a component to bridge high availability\nclusters spanning multiple sites, in particular, to provide decision inputs to\nlocal Pacemaker cluster resource managers. It operates as a distributed\nconsensus-based service, presumably on a separate physical network. Tickets\nfacilitated by a Booth formation are the units of authorization that can be\nbound to certain resources. This will ensure that the resources are run at only\none (granted) site at a time.\n\nSecurity Fix(es):\n\n* booth: specially crafted hash can lead to invalid HMAC being accepted by Booth server  (CVE-2024-3049)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:3659",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-3049",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2272082",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2024-3659.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "ALSA-2024:3826",
+  "summary": "Moderate: podman security and bug fix update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "podman"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4:4.9.4-4.el9_4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "podman-docker"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4:4.9.4-4.el9_4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "podman-plugins"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4:4.9.4-4.el9_4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "podman-remote"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4:4.9.4-4.el9_4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "podman-tests"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4:4.9.4-4.el9_4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-28180",
+    "CVE-2023-45290",
+    "CVE-2024-28176"
+  ],
+  "published": "2024-06-11T00:00:00Z",
+  "modified": "2024-06-14T09:47:46Z",
+  "details": "The podman tool manages pods, container images, and containers. It is part of the libpod library, which is for applications that use container pods. Container pods is a concept in Kubernetes.\n\nSecurity Fixes:\n\n* podman: jose-go: improper handling of highly compressed data (CVE-2024-28180)\n* podman: golang: net/http: memory exhaustion in Request.ParseMultipartForm (CVE-2023-45290)\n* podman: jose: resource exhaustion (CVE-2024-28176)",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:3826",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-45290",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-28176",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-28180",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2268017",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2268820",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2268854",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-3826.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

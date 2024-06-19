@@ -1,0 +1,103 @@
+{
+  "id": "ALSA-2024:3954",
+  "summary": "Important: firefox security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "firefox"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "115.12.0-1.el8_10.alma.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-5702",
+    "CVE-2024-5688",
+    "CVE-2024-5690",
+    "CVE-2024-5691",
+    "CVE-2024-5693",
+    "CVE-2024-5696",
+    "CVE-2024-5700"
+  ],
+  "published": "2024-06-17T00:00:00Z",
+  "modified": "2024-06-19T09:10:34Z",
+  "details": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.\n\nThis update upgrades Firefox to version 115.12.0 ESR.\n\nSecurity Fix(es):\n  \n* firefox: Use-after-free in networking (CVE-2024-5702)\n\n* firefox: Use-after-free in JavaScript object transplant (CVE-2024-5688)\n* firefox: External protocol handlers leaked by timing attack (CVE-2024-5690)\n* firefox:  Sandboxed iframes were able to bypass sandbox restrictions to open a new window (CVE-2024-5691)\n* firefox: Cross-Origin Image leak via Offscreen Canvas (CVE-2024-5693)\n* firefox: Memory Corruption in Text Fragments (CVE-2024-5696)\n* firefox: Memory safety bugs fixed in Firefox 127, Firefox ESR 115.12, and Thunderbird 115.12 (CVE-2024-5700) \n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:3954",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-5688",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-5690",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-5691",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-5693",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-5696",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-5700",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-5702",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2291394",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2291395",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2291396",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2291397",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2291399",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2291400",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2291401",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2024-3954.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

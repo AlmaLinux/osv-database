@@ -1,0 +1,58 @@
+{
+  "id": "ALSA-2024:4267",
+  "summary": "Moderate: fontforge security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "fontforge"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20200314-6.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-25081",
+    "CVE-2024-25082"
+  ],
+  "published": "2024-07-02T00:00:00Z",
+  "modified": "2024-07-03T14:14:44Z",
+  "details": "FontForge is a font editor for outline and bitmap fonts. It supports a range of font formats, including PostScript (ASCII and binary Type 1, some Type 3 and Type 0), TrueType, OpenType (Type2) and CID-keyed fonts. \n\nSecurity Fix(es):\n\n* fontforge: command injection via crafted filenames (CVE-2024-25081)\n* fontforge: command injection via crafted archives or compressed files (CVE-2024-25082)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:4267",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-25081",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-25082",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2266180",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2266181",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2024-4267.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

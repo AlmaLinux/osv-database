@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2024:4244",
+  "summary": "Moderate: python3.11-PyMySQL security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3.11-PyMySQL"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.2-2.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-36039"
+  ],
+  "published": "2024-07-02T00:00:00Z",
+  "modified": "2024-07-03T12:11:03Z",
+  "details": "This package contains a pure-Python MySQL client library. The goal of PyMySQL is to be a drop-in replacement for MySQLdb and work on CPython, PyPy, IronPython and Jython.\n\nSecurity Fix(es):\n\n* python-pymysql: SQL injection if used with untrusted JSON input (CVE-2024-36039)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:4244",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-36039",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2282821",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2024-4244.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

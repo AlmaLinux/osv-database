@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2024:4379",
+  "summary": "Important: gvisor-tap-vsock security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gvisor-tap-vsock"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6:0.7.3-4.el9_4.alma.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-1394"
+  ],
+  "published": "2024-07-08T00:00:00Z",
+  "modified": "2024-07-09T12:27:51Z",
+  "details": "A replacement for libslirp and VPNKit, written in pure Go. It is based on the network stack of gVisor and is used to provide networking for podman-machine virtual machines. Compared to libslirp, gvisor-tap-vsock brings a configurable DNS server and dynamic port forwarding.\n\nSecurity Fix(es):\n\n* golang-fips/openssl: Memory leaks in code encrypting and decrypting RSA payloads (CVE-2024-1394)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:4379",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-1394",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2262921",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-4379.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

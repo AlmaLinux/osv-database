@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2024:4636",
+  "summary": "Important: libndp security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libndp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8-6.el9_4.alma.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-5564"
+  ],
+  "published": "2024-07-18T00:00:00Z",
+  "modified": "2024-07-19T10:19:10Z",
+  "details": "Libndp is a library (used by NetworkManager) that provides a wrapper for the IPv6 Neighbor Discovery Protocol. It also provides a tool named ndptool for sending and receiving NDP messages.\n\nSecurity Fix(es):\n\n* libndp: buffer overflow in route information length field (CVE-2024-5564)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:4636",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-5564",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2284122",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-4636.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

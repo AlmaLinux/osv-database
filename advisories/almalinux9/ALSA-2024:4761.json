@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2024:4761",
+  "summary": "Important: containernetworking-plugins security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "containernetworking-plugins"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.4.0-4.el9_4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-1394"
+  ],
+  "published": "2024-07-23T00:00:00Z",
+  "modified": "2024-07-24T14:59:50Z",
+  "details": "The Container Network Interface (CNI) project consists of a specification and libraries for writing plug-ins for configuring network interfaces in Linux containers, along with a number of supported plug-ins. CNI concerns itself only with network connectivity of containers and removing allocated resources when the container is deleted. \n\nSecurity Fix(es):\n\n* golang-fips/openssl: Memory leaks in code encrypting and decrypting RSA payloads (CVE-2024-1394)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:4761",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-1394",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2262921",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-4761.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

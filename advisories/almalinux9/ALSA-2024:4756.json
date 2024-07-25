@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2024:4756",
+  "summary": "Moderate: libuv security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libuv"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.42.0-2.el9_4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libuv-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.42.0-2.el9_4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-24806"
+  ],
+  "published": "2024-07-23T00:00:00Z",
+  "modified": "2024-07-24T15:07:33Z",
+  "details": "libuv is a multi-platform support library with a focus on asynchronous I/O. \n\nSecurity Fix(es):\n\n* libuv: Improper Domain Lookup that potentially leads to SSRF attacks (CVE-2024-24806)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:4756",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-24806",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2263292",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-4756.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

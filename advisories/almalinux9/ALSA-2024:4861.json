@@ -1,0 +1,58 @@
+{
+  "id": "ALSA-2024:4861",
+  "summary": "Moderate: squid security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "squid"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:5.5-13.el9_4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-23638",
+    "CVE-2024-37894"
+  ],
+  "published": "2024-07-25T00:00:00Z",
+  "modified": "2024-07-26T11:15:21Z",
+  "details": "Squid is a high-performance proxy caching server for web clients, supporting FTP, Gopher, and HTTP data objects.\n\nSecurity Fix(es):\n\n* squid: vulnerable to a Denial of Service attack against Cache Manager error responses (CVE-2024-23638)\n* squid: Out-of-bounds write error may lead to Denial of Service (CVE-2024-37894)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:4861",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-23638",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-37894",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2260051",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2294353",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-4861.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

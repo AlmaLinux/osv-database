@@ -1,0 +1,114 @@
+{
+  "id": "ALSA-2024:5079",
+  "summary": "Moderate: libtiff security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libtiff"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.9-32.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libtiff-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.9-32.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libtiff-tools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.9-32.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2018-15209",
+    "CVE-2023-25433",
+    "CVE-2023-6228",
+    "CVE-2023-52356"
+  ],
+  "published": "2024-08-07T00:00:00Z",
+  "modified": "2024-08-08T08:54:06Z",
+  "details": "The libtiff packages contain a library of functions for manipulating Tagged Image File Format (TIFF) files.\n\nSecurity Fix(es):\n\n* libtiff: Heap-based buffer overflow in ChopUpSingleUncompressedStrip in tif_dirread.c (CVE-2018-15209)\n* libtiff: Buffer Overflow via /libtiff/tools/tiffcrop.c (CVE-2023-25433)\n* libtiff: heap-based buffer overflow in cpStripToTile() in tools/tiffcp.c (CVE-2023-6228)\n* libtiff: Segment fault in libtiff  in TIFFReadRGBATileExt() leading to denial of service (CVE-2023-52356)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:5079",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2018-15209",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-25433",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-52356",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-6228",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1614051",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2218744",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2240995",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2251344",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2024-5079.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

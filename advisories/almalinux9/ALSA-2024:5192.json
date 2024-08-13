@@ -1,0 +1,115 @@
+{
+  "id": "ALSA-2024:5192",
+  "summary": "Moderate: 389-ds-base security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "389-ds-base"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.5-9.el9_4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "389-ds-base-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.5-9.el9_4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "389-ds-base-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.5-9.el9_4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "python3-lib389"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.5-9.el9_4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-5953",
+    "CVE-2024-6237"
+  ],
+  "published": "2024-08-12T00:00:00Z",
+  "modified": "2024-08-13T06:44:14Z",
+  "details": "389 Directory Server is an LDAP version 3 (LDAPv3) compliant server. The base packages include the Lightweight Directory Access Protocol (LDAP) server and command-line utilities for server administration.\n\nSecurity Fix(es):\n\n* 389-ds-base: Malformed userPassword hash may cause Denial of Service (CVE-2024-5953)\n* 389-ds-base: unauthenticated user can trigger a DoS by sending a specific extended search request (CVE-2024-6237)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:5192",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-5953",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-6237",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2292104",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2293579",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-5192.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

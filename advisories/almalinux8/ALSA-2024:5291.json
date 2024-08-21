@@ -1,0 +1,86 @@
+{
+  "id": "ALSA-2024:5291",
+  "summary": "Moderate: grafana security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "grafana"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.2.10-17.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "grafana-selinux"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.2.10-17.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-24788",
+    "CVE-2024-24789",
+    "CVE-2024-24790"
+  ],
+  "published": "2024-08-13T00:00:00Z",
+  "modified": "2024-08-21T11:59:57Z",
+  "details": "Grafana is an open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB. \n\nSecurity Fix(es):\n\n* golang: net: malformed DNS message can cause infinite loop (CVE-2024-24788)\n* golang: archive/zip: Incorrect handling of certain ZIP files (CVE-2024-24789)\n* golang: net/netip: Unexpected behavior from Is methods for IPv4-mapped IPv6 addresses (CVE-2024-24790)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:5291",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-24788",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-24789",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-24790",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2279814",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2292668",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2292787",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2024-5291.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "ALSA-2024:5941",
+  "summary": "Moderate: libvpx security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libvpx"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.0-11.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libvpx-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.0-11.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-6349",
+    "CVE-2024-5197"
+  ],
+  "published": "2024-08-28T00:00:00Z",
+  "modified": "2024-08-29T08:25:04Z",
+  "details": "The libvpx packages provide the VP8 SDK, which allows the encoding and decoding of the VP8 video codec, commonly used with the WebM multimedia container file format.\n\nSecurity Fix(es):\n\n* libvpx: Heap buffer overflow related to VP9 encoding (CVE-2023-6349)\n* libvpx: Integer overflow in vpx_img_alloc() (CVE-2024-5197)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:5941",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-6349",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-5197",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2283553",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2291198",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2024-5941.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2024:6187",
+  "summary": "Moderate: gvisor-tap-vsock security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gvisor-tap-vsock"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6:0.7.3-5.el9_4.alma.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-24783"
+  ],
+  "published": "2024-09-03T00:00:00Z",
+  "modified": "2024-09-03T13:25:37Z",
+  "details": "A replacement for libslirp and VPNKit, written in pure Go. It is based on the network stack of gVisor and is used to provide networking for podman-machine virtual machines. Compared to libslirp, gvisor-tap-vsock brings a configurable DNS server and dynamic port forwarding.\n\nSecurity Fix(es):\n\n* golang: crypto/x509: Verify panics on certificates with an unknown public key algorithm (CVE-2024-24783)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:6187",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-24783",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2268019",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-6187.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

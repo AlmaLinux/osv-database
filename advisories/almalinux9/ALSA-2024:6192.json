@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2024:6192",
+  "summary": "Moderate: wget security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "wget"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.21.1-8.el9_4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-38428"
+  ],
+  "published": "2024-09-03T00:00:00Z",
+  "modified": "2024-09-04T08:20:54Z",
+  "details": "The wget packages provide the GNU Wget file retrieval utility for HTTP, HTTPS, and FTP protocols.\n\nSecurity Fix(es):\n\n* wget: Misinterpretation of input may lead to improper behavior (CVE-2024-38428)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:6192",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-38428",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2292836",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-6192.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

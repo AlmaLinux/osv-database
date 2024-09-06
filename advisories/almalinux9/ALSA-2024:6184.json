@@ -1,0 +1,87 @@
+{
+  "id": "ALSA-2024:6184",
+  "summary": "Moderate: orc security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "orc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.4.31-7.el9_4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "orc-compiler"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.4.31-7.el9_4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "orc-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.4.31-7.el9_4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-40897"
+  ],
+  "published": "2024-09-03T00:00:00Z",
+  "modified": "2024-09-04T09:13:16Z",
+  "details": "Orc is a library and set of tools for compiling and executing very simple programs that operate on arrays of data.  The \"language\" is a generic assembly language that represents many of the features available in SIMD architectures, including saturated addition and subtraction, and many arithmetic operations.\n\nSecurity Fix(es):\n\n* orc: Stack-based buffer overflow vulnerability in ORC (CVE-2024-40897)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:6184",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-40897",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2300010",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-6184.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "id": "ALSA-2024:6311",
+  "summary": "Moderate: resource-agents security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "resource-agents"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.9.0-54.el8_10.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "resource-agents-aliyun"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.9.0-54.el8_10.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "resource-agents-gcp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.9.0-54.el8_10.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "resource-agents-paf"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.9.0-54.el8_10.4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-37891",
+    "CVE-2024-6345"
+  ],
+  "published": "2024-09-04T00:00:00Z",
+  "modified": "2024-09-05T06:29:03Z",
+  "details": "The resource-agents packages provide the Pacemaker and RGManager service managers with a set of scripts. These scripts interface with several services to allow operating in a high-availability (HA) environment.\n\nSecurity Fix(es):\n\n* urllib3: proxy-authorization request header is not stripped during cross-origin redirects (CVE-2024-37891)\n* pypa/setuptools: Remote code execution via download functions in the package_index module in pypa/setuptools (CVE-2024-6345)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:6311",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-37891",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-6345",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2292788",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2297771",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2024-6311.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

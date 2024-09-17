@@ -1,0 +1,86 @@
+{
+  "id": "ALSA-2024:6670",
+  "summary": "Moderate: pcs security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "pcs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.18-2.el8_10.2.alma.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "pcs-snmp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.18-2.el8_10.2.alma.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-41123",
+    "CVE-2024-41946",
+    "CVE-2024-43398"
+  ],
+  "published": "2024-09-16T00:00:00Z",
+  "modified": "2024-09-17T09:59:44Z",
+  "details": "The pcs packages provide a command-line configuration system for the Pacemaker and Corosync utilities.\n\nSecurity Fix(es):\n\n* rexml: rubygem-rexml: DoS when parsing an XML having many specific characters such as whitespace character, >] and ]> (CVE-2024-41123)\n* rexml: DoS vulnerability in REXML (CVE-2024-41946)\n* rexml: DoS vulnerability in REXML (CVE-2024-43398)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:6670",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-41123",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-41946",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-43398",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2302268",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2302272",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2307297",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2024-6670.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

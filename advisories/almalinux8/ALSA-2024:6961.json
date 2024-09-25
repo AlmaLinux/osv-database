@@ -1,0 +1,200 @@
+{
+  "id": "ALSA-2024:6961",
+  "summary": "Moderate: python3.12 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3.12"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.12.5-2.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3.12-debug"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.12.5-2.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3.12-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.12.5-2.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3.12-idle"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.12.5-2.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3.12-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.12.5-2.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3.12-rpm-macros"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.12.5-2.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3.12-test"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.12.5-2.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3.12-tkinter"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.12.5-2.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-4032",
+    "CVE-2024-6923",
+    "CVE-2024-8088"
+  ],
+  "published": "2024-09-24T00:00:00Z",
+  "modified": "2024-09-24T09:28:35Z",
+  "details": "Python 3.12 is an accessible, high-level, dynamically typed, interpreted programming language, designed with an emphasis on code readability. It includes an extensive standard library, and has a vast ecosystem of third-party libraries.  The python3.12 package provides the \"python3.12\" executable: the reference interpreter for the Python language, version 3. The majority of its standard library is provided in the python3.12-libs package, which should be installed automatically along with python3.12. The remaining parts of the Python standard library are broken out into the python3.12-tkinter and python3.12-test packages, which may need to be installed separately.  Documentation for Python is provided in the python3.12-docs package.  Packages containing additional libraries for Python are generally named with the \"python3.12-\" prefix.  For the unversioned \"python\" executable, see manual page \"unversioned-python\".\n\nSecurity Fix(es):\n\n* python: incorrect IPv4 and IPv6 private ranges (CVE-2024-4032)\n* cpython: python: email module doesn't properly quotes newlines in email headers, allowing header injection (CVE-2024-6923)\n* python: cpython: Iterating over a malicious ZIP file may lead to Denial of Service (CVE-2024-8088)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:6961",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-4032",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-6923",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-8088",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2292921",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2302255",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2307370",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2024-6961.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

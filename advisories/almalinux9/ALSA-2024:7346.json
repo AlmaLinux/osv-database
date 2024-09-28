@@ -1,0 +1,103 @@
+{
+  "id": "ALSA-2024:7346",
+  "summary": "Important: cups-filters security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "cups-filters"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.28.7-17.el9_4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "cups-filters-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.28.7-17.el9_4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "cups-filters-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.28.7-17.el9_4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-47076"
+  ],
+  "published": "2024-09-27T00:00:00Z",
+  "modified": "2024-09-28T10:34:18Z",
+  "details": "The cups-filters package contains back ends, filters, and other software that was once part of the core Common UNIX Printing System (CUPS) distribution but is now maintained independently. \n\nSecurity Fix(es):\n\n* cups-browsed: cups-browsed binds on UDP INADDR_ANY:631 trusting any packet from any source ()\n* cups-filters: libcupsfilters: `cfGetPrinterAttributes` API does not perform sanitization on returned IPP attributes (CVE-2024-47076)\n* cups: libppd: remote command injection via attacker controlled data in PPD file ()\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:7346",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-47076",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-47175",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-47176",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2314252",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2314253",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2314256",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-7346.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

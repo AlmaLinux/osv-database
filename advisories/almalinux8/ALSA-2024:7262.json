@@ -1,0 +1,96 @@
+{
+  "id": "ALSA-2024:7262",
+  "summary": "Important: osbuild-composer security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "osbuild-composer"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "101-2.el8_10.alma.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "osbuild-composer-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "101-2.el8_10.alma.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "osbuild-composer-worker"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "101-2.el8_10.alma.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-1394",
+    "CVE-2024-34156"
+  ],
+  "published": "2024-09-26T00:00:00Z",
+  "modified": "2024-09-27T07:24:20Z",
+  "details": "A service for building customized OS artifacts, such as VM images and OSTree commits, that uses osbuild under the hood. Besides building images for local usage, it can also upload images directly to cloud.  It is compatible with composer-cli and cockpit-composer clients.\n\nSecurity Fix(es):\n\n* golang-fips/openssl: Memory leaks in code encrypting and decrypting RSA payloads (CVE-2024-1394)\n* encoding/gob: golang: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion (CVE-2024-34156)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:7262",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-1394",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-34156",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2262921",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2310528",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2024-7262.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

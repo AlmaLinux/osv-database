@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2024:8025",
+  "summary": "Important: thunderbird security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "thunderbird"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "128.3.1-1.el9_4.alma.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-9680"
+  ],
+  "published": "2024-10-14T00:00:00Z",
+  "modified": "2024-10-15T09:17:52Z",
+  "details": "Mozilla Thunderbird is a standalone mail and newsgroup client.\n\nSecurity Fix(es):\n\n* firefox: Use-after-free in Animation timeline (128.3.1 ESR Chemspill) (CVE-2024-9680)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:8025",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-9680",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2317442",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-8025.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

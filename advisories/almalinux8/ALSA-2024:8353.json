@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2024:8353",
+  "summary": "Important: NetworkManager-libreswan security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "NetworkManager-libreswan"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.10-7.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "NetworkManager-libreswan-gnome"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.10-7.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-9050"
+  ],
+  "published": "2024-10-23T00:00:00Z",
+  "modified": "2024-10-24T08:49:12Z",
+  "details": "This package contains software for integrating the libreswan VPN software with NetworkManager and the GNOME desktop\n\nSecurity Fix(es):\n\n* NetworkManager-libreswan: Local privilege escalation via leftupdown (CVE-2024-9050)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:8353",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-9050",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2313828",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2024-8353.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

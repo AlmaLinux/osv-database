@@ -1,0 +1,77 @@
+{
+  "id": "ALSA-2024:8678",
+  "summary": "Important: grafana security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "grafana"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.2.10-19.el9_4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "grafana-selinux"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.2.10-19.el9_4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-9355",
+    "CVE-2024-47875"
+  ],
+  "published": "2024-10-30T00:00:00Z",
+  "modified": "2024-11-03T19:14:25Z",
+  "details": "Grafana is an open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB.   \n\nSecurity Fix(es):  \n\n  * golang-fips: Golang FIPS zeroed buffer (CVE-2024-9355)\n  * dompurify: nesting-based mutation XSS vulnerability (CVE-2024-47875)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:8678",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-47875",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-9355",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2315719",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2318052",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-8678.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2024:8830",
+  "summary": "Low: bpftrace security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "bpftrace"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.16.0-6.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-2313"
+  ],
+  "published": "2024-11-05T00:00:00Z",
+  "modified": "2024-11-06T10:15:43Z",
+  "details": "BPFtrace is a high-level tracing language for Linux enhanced Berkeley Packet Filter (eBPF) available in recent Linux kernels (4.x). BPFtrace uses LLVM as a backend to compile scripts to BPF-bytecode and makes use of BCC for interacting with the Linux BPF system, as well as existing Linux tracing capabilities: kernel dynamic tracing (kprobes), user-level dynamic tracing (uprobes), and tracepoints. The BPFtrace language is inspired by awk and C, and predecessor tracers such as DTrace and SystemTap  \n\nSecurity Fix(es):  \n\n  * bpftrace: unprivileged users can force loading of compromised linux headers (CVE-2024-2313)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:8830",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-2313",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2269014",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2024-8830.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

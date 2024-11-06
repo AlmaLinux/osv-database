@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2024:8842",
+  "summary": "Moderate: python3.12-urllib3 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3.12-urllib3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.26.19-1.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-37891"
+  ],
+  "published": "2024-11-05T00:00:00Z",
+  "modified": "2024-11-06T10:06:23Z",
+  "details": "urllib3 is a powerful, user-friendly HTTP client for Python. urllib3 brings many critical features that are missing from the Python standard libraries:   \n\u2022 Thread safety.  \n\u2022 Connection pooling.  \n\u2022 Client-side SSL/TLS verification.  \n\u2022 File uploads with multipart encoding.  \n\u2022 Helpers for retrying requests and dealing with HTTP redirects.  \n\u2022 Support for gzip, deflate, brotli, and zstd encoding.  \n\u2022 Proxy support for HTTP and SOCKS.  \n\u2022 100% test coverage.  \n\nSecurity Fix(es):  \n\n  * urllib3: proxy-authorization request header is not stripped during cross-origin redirects (CVE-2024-37891)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:8842",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-37891",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2292788",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2024-8842.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "ALSA-2024:8922",
+  "summary": "Low: bzip2 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "bzip2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.6-27.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "bzip2-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.6-27.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "bzip2-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.6-27.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2019-12900"
+  ],
+  "published": "2024-11-06T00:00:00Z",
+  "modified": "2024-11-06T09:50:30Z",
+  "details": "The bzip2 packages contain a freely available, high-quality data compressor. It provides both standalone compression and decompression utilities, as well as a shared library for use with other programs.   \n\nSecurity Fix(es):  \n\n  * bzip2: out-of-bounds write in function BZ2_decompress (CVE-2019-12900)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:8922",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2019-12900",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1724459",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2024-8922.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

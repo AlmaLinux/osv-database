@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2024:9056",
+  "summary": "Moderate: gstreamer1-plugins-base security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gstreamer1-plugins-base"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.1-4.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gstreamer1-plugins-base-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.1-4.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-4453"
+  ],
+  "published": "2024-11-11T00:00:00Z",
+  "modified": "2024-11-12T07:10:52Z",
+  "details": "GStreamer is a streaming media framework based on graphs of filters which operate on media data. The gstreamer1-plugins-base packages contain a collection of well-maintained base plug-ins.  \n\nSecurity Fix(es):  \n\n  * gstreamer: EXIF Metadata Parsing Integer Overflow (CVE-2024-4453)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:9056",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-4453",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2282999",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2024-9056.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "id": "ALSA-2024:9636",
+  "summary": "Important: webkit2gtk3 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "webkit2gtk3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.46.3-1.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "webkit2gtk3-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.46.3-1.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "webkit2gtk3-jsc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.46.3-1.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "webkit2gtk3-jsc-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.46.3-1.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-4558",
+    "CVE-2024-40789",
+    "CVE-2024-40780",
+    "CVE-2024-40779",
+    "CVE-2024-40782",
+    "CVE-2024-40866",
+    "CVE-2024-23271",
+    "CVE-2024-27820",
+    "CVE-2024-27838",
+    "CVE-2024-27851",
+    "CVE-2024-44187",
+    "CVE-2024-44185",
+    "CVE-2024-44244",
+    "CVE-2024-44296"
+  ],
+  "published": "2024-11-14T00:00:00Z",
+  "modified": "2024-11-15T12:47:22Z",
+  "details": "WebKitGTK is the port of the portable web rendering engine WebKit to the GTK platform.  \n\nSecurity Fix(es):  \n\n  * chromium-browser: Use after free in ANGLE (CVE-2024-4558)\n  * webkitgtk: webkit2gtk: Processing maliciously crafted web content may lead to an unexpected process crash (CVE-2024-40789)\n  * webkitgtk: webkit2gtk: Out-of-bounds read was addressed with improved bounds checking (CVE-2024-40780)\n  * webkitgtk: webkit2gtk: Out-of-bounds read was addressed with improved bounds checking (CVE-2024-40779)\n  * webkitgtk: webkit2gtk: Use-after-free was addressed with improved memory management (CVE-2024-40782)\n  * webkitgtk: Visiting a malicious website may lead to address bar spoofing (CVE-2024-40866)\n  * webkitgtk: A malicious website may cause unexpected cross-origin behavior (CVE-2024-23271)\n  * webkitgtk: Processing web content may lead to arbitrary code execution (CVE-2024-27820)\n  * webkitgtk: A maliciously crafted webpage may be able to fingerprint the user (CVE-2024-27838)\n  * webkitgtk: Processing maliciously crafted web content may lead to arbitrary code execution (CVE-2024-27851)\n  * webkitgtk: A malicious website may exfiltrate data cross-origin (CVE-2024-44187)\n  * webkitgtk: webkit2gtk: Processing maliciously crafted web content may lead to an unexpected process crash (CVE-2024-44185)\n  * webkitgtk: webkit2gtk: Processing maliciously crafted web content may lead to an unexpected process crash (CVE-2024-44244)\n  * webkitgtk: webkit2gtk: Processing maliciously crafted web content may prevent Content Security Policy from being enforced (CVE-2024-44296)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:9636",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-23271",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-27820",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-27838",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-27851",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-40779",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-40780",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-40782",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-40789",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-40866",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-44185",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-44187",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-44244",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-44296",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-4558",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2279689",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2302067",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2302069",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2302070",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2302071",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2312724",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2314696",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2314698",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2314702",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2314704",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2314706",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2323263",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2323278",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2323289",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2024-9636.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "ALSA-2024:9573",
+  "summary": "Important: libsoup security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libsoup"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.62.3-6.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libsoup-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.62.3-6.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-52532",
+    "CVE-2024-52530"
+  ],
+  "published": "2024-11-13T00:00:00Z",
+  "modified": "2024-11-14T08:09:34Z",
+  "details": "The libsoup packages provide an HTTP client and server library for GNOME.  \n\nSecurity Fix(es):  \n\n  * libsoup: infinite loop while reading websocket data (CVE-2024-52532)\n  * libsoup: HTTP request smuggling via stripping null bytes from the ends of header names (CVE-2024-52530)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:9573",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-52530",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-52532",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2325276",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2325284",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2024-9573.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

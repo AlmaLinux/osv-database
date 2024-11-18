@@ -1,0 +1,58 @@
+{
+  "id": "ALSA-2024:9089",
+  "summary": "Moderate: containernetworking-plugins security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "containernetworking-plugins"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.5.1-2.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-24788",
+    "CVE-2024-24791"
+  ],
+  "published": "2024-11-12T00:00:00Z",
+  "modified": "2024-11-18T11:46:53Z",
+  "details": "The Container Network Interface (CNI) project consists of a specification and libraries for writing plug-ins for configuring network interfaces in Linux containers, along with a number of supported plug-ins. CNI concerns itself only with network connectivity of containers and removing allocated resources when the container is deleted.   \n\nSecurity Fix(es):  \n\n  * golang: net: malformed DNS message can cause infinite loop (CVE-2024-24788)\n  * net/[http:](http:) Denial of service due to improper 100-continue handling in net/http (CVE-2024-24791)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.  \n\nAdditional Changes:  \n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:9089",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-24788",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-24791",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2279814",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2295310",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-9089.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

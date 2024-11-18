@@ -1,0 +1,95 @@
+{
+  "id": "ALSA-2024:9135",
+  "summary": "Moderate: toolbox security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "toolbox"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.0.99.5-5.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "toolbox-tests"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.0.99.5-5.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-45290",
+    "CVE-2024-24785",
+    "CVE-2024-24788",
+    "CVE-2024-24791"
+  ],
+  "published": "2024-11-12T00:00:00Z",
+  "modified": "2024-11-18T11:47:10Z",
+  "details": "Toolbox is a tool for Linux operating systems, which allows the use of containerized command line environments. It is built on top of Podman and other standard container technologies from OCI.  \n\nSecurity Fix(es):  \n\n  * golang: net/[http:](http:) golang: mime/multipart: golang: net/textproto: memory exhaustion in Request.ParseMultipartForm (CVE-2023-45290)\n  * golang: html/template: errors returned from MarshalJSON methods may break template escaping (CVE-2024-24785)\n  * golang: net: malformed DNS message can cause infinite loop (CVE-2024-24788)\n  * net/[http:](http:) Denial of service due to improper 100-continue handling in net/http (CVE-2024-24791)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.  \n\nAdditional Changes:  \n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:9135",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-45290",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-24785",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-24788",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-24791",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2268017",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2268022",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2279814",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2295310",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-9135.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

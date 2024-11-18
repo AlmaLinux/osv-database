@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2024:9200",
+  "summary": "Moderate: runc security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "runc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4:1.1.13-4.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-24788"
+  ],
+  "published": "2024-11-12T00:00:00Z",
+  "modified": "2024-11-18T11:46:57Z",
+  "details": "The runC tool is a lightweight, portable implementation of the Open Container Format (OCF) that provides container runtime.  \n\nSecurity Fix(es):  \n\n  * golang: net: malformed DNS message can cause infinite loop (CVE-2024-24788)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.  \n\nAdditional Changes:  \n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:9200",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-24788",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2279814",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-9200.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

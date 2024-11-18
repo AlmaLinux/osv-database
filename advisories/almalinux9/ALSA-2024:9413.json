@@ -1,0 +1,206 @@
+{
+  "id": "ALSA-2024:9413",
+  "summary": "Moderate: bluez security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "bluez"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.72-2.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "bluez-cups"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.72-2.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "bluez-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.72-2.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "bluez-libs-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.72-2.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "bluez-obexd"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.72-2.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-45866",
+    "CVE-2023-27349",
+    "CVE-2023-51596",
+    "CVE-2023-51594",
+    "CVE-2023-51592",
+    "CVE-2023-51589",
+    "CVE-2023-51580",
+    "CVE-2023-44431",
+    "CVE-2023-50230",
+    "CVE-2023-50229"
+  ],
+  "published": "2024-11-12T00:00:00Z",
+  "modified": "2024-11-18T11:48:04Z",
+  "details": "The bluez packages contain the following utilities for use in Bluetooth applications: hcitool, hciattach, hciconfig, bluetoothd, l2ping, start scripts (AlmaLinux), and pcmcia configuration files.   \n\nSecurity Fix(es):  \n\n  * bluez: unauthorized HID device connections allows keystroke injection and arbitrary commands execution (CVE-2023-45866)\n  * BlueZ: Audio Profile AVRCP Improper Validation of Array Index Remote Code Execution Vulnerability (CVE-2023-27349)\n  * bluez: phone book access profile heap-based buffer overflow remote code execution vulnerability (CVE-2023-51596)\n  * bluez: OBEX library out-of-bounds read information disclosure vulnerability (CVE-2023-51594)\n  * bluez: audio profile avrcp parse_media_folder out-of-bounds read information disclosure vulnerability (CVE-2023-51592)\n  * bluez: audio profile avrcp parse_media_element out-of-bounds read information disclosure vulnerability (CVE-2023-51589)\n  * bluez: avrcp_parse_attribute_list out-of-bounds read information disclosure vulnerability (CVE-2023-51580)\n  * bluez: AVRCP stack-based buffer overflow remote code execution vulnerability (CVE-2023-44431)\n  * bluez: phone book access profile heap-based buffer overflow remote code execution vulnerability (CVE-2023-50230)\n  * bluez: phone book access profile heap-based buffer overflow remote code execution vulnerability (CVE-2023-50229)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.  \n\nAdditional Changes:  \n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:9413",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-27349",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-44431",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-45866",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-50229",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-50230",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-51580",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-51589",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-51592",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-51594",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-51596",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2253391",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2278787",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2278945",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2278955",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2278962",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2278965",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2278967",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2278969",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2278972",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2278974",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-9413.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

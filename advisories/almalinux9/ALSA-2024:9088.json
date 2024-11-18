@@ -1,0 +1,133 @@
+{
+  "id": "ALSA-2024:9088",
+  "summary": "Moderate: edk2 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "edk2-aarch64"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20240524-6.el9_5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "edk2-ovmf"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20240524-6.el9_5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "edk2-tools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20240524-6.el9_5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "edk2-tools-doc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20240524-6.el9_5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-6129",
+    "CVE-2023-6237",
+    "CVE-2024-0727",
+    "CVE-2024-1298"
+  ],
+  "published": "2024-11-12T00:00:00Z",
+  "modified": "2024-11-18T11:51:18Z",
+  "details": "EDK (Embedded Development Kit) is a project to enable UEFI support for Virtual Machines. This package contains a sample 64-bit UEFI firmware for QEMU and KVM.   \n\nSecurity Fix(es):  \n\n  * mysql: openssl: POLY1305 MAC implementation corrupts vector registers on PowerPC (CVE-2023-6129)\n  * openssl: Excessive time spent checking invalid RSA public keys (CVE-2023-6237)\n  * openssl: denial of service via null dereference (CVE-2024-0727)\n  * edk2: Temporary DoS vulnerability (CVE-2024-1298)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.  \n\nAdditional Changes:  \n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:9088",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-6129",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-6237",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-0727",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-1298",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2257571",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2258502",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2259944",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2284243",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-9088.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

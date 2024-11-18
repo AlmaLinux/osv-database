@@ -1,0 +1,58 @@
+{
+  "id": "ALSA-2024:9424",
+  "summary": "Low: tpm2-tools security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "tpm2-tools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.2-4.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-29038",
+    "CVE-2024-29039"
+  ],
+  "published": "2024-11-12T00:00:00Z",
+  "modified": "2024-11-18T11:47:01Z",
+  "details": "The tpm2-tools packages add a set of utilities for management and utilization of Trusted Platform Module (TPM) 2.0 devices from user space.  \n\nSecurity Fix(es):  \n\n  * tpm2-tools: arbitrary quote data may go undetected by tpm2_checkquote (CVE-2024-29038)\n  * tpm2-tools: pcr selection value is not compared with the attest (CVE-2024-29039)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.  \n\nAdditional Changes:  \n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:9424",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-29038",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-29039",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2278071",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2278075",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-9424.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

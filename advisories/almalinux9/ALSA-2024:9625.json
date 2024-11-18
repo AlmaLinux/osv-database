@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2024:9625",
+  "summary": "Important: squid security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "squid"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:5.5-14.el9_5.3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-45802"
+  ],
+  "published": "2024-11-14T00:00:00Z",
+  "modified": "2024-11-18T11:47:07Z",
+  "details": "Squid is a high-performance proxy caching server for web clients, supporting FTP, Gopher, and HTTP data objects.  \n\nSecurity Fix(es):  \n\n  * squid: Denial of Service processing ESI response content (CVE-2024-45802)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:9625",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-45802",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2322154",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-9625.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

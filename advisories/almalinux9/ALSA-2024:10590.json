@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2024:10590",
+  "summary": "Important: python-tornado security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "python3-tornado"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.4.2-1.el9_5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-52804"
+  ],
+  "published": "2024-12-02T00:00:00Z",
+  "modified": "2024-12-03T08:37:48Z",
+  "details": "Tornado is a Python web framework and asynchronous networking library that provides an open source version of scalable, non-blocking web server and tools.  \n\nSecurity Fix(es):  \n\n  * python-tornado: Tornado has HTTP cookie parsing DoS vulnerability (CVE-2024-52804)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:10590",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-52804",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2328045",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-10590.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

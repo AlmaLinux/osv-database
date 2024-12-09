@@ -1,0 +1,123 @@
+{
+  "id": "ALSA-2024:10869",
+  "summary": "Moderate: redis:7 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "redis"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.2.6-1.module_el9.5.0+130+36ae7635"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "redis-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.2.6-1.module_el9.5.0+130+36ae7635"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "redis-doc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.2.6-1.module_el9.5.0+130+36ae7635"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-41053",
+    "CVE-2023-45145",
+    "CVE-2024-31227",
+    "CVE-2024-31449",
+    "CVE-2024-31228"
+  ],
+  "published": "2024-12-05T00:00:00Z",
+  "modified": "2024-12-09T09:53:39Z",
+  "details": "Redis is an advanced key-value store. It is often referred to as a data-structure server since keys can contain strings, hashes, lists, sets, and sorted sets. For performance, Redis works with an in-memory data set. You can persist it either by dumping the data set to disk every once in a while, or by appending each command to a log.  \n\nSecurity Fix(es):  \n\n  * redis: Redis SORT_RO may bypass ACL configuration (CVE-2023-41053)\n  * redis: possible bypass of Unix socket permissions on startup (CVE-2023-45145)\n  * redis: Denial-of-service due to malformed ACL selectors in Redis (CVE-2024-31227)\n  * redis: Lua library commands may lead to stack overflow and RCE in Redis (CVE-2024-31449)\n  * redis: Denial-of-service due to unbounded pattern matching in Redis (CVE-2024-31228)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:10869",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-41053",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-45145",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-31227",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-31228",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-31449",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2237826",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2244940",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2317053",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2317056",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2317058",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-10869.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

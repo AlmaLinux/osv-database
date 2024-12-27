@@ -1,0 +1,106 @@
+{
+  "id": "ALSA-2024:11242",
+  "summary": "Moderate: mpg123:1.32.9 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "mpg123"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.32.9-1.el9_5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "mpg123-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.32.9-1.el9_5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "mpg123-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.32.9-1.el9_5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "mpg123-plugins-pulseaudio"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.32.9-1.el9_5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-10573"
+  ],
+  "published": "2024-12-17T00:00:00Z",
+  "modified": "2024-12-23T08:21:50Z",
+  "details": "The mpg123 packages contain real time MPEG 1.0/2.0/2.5 audio player/decoder for layers 1, 2, and 3 (most commonly MPEG 1.0 layer 3 also known as MP3), as well as re-usable decoding and output libraries.  \n\nSecurity Fix(es):  \n\n  * mpg123: Buffer overflow when writing decoded PCM samples (CVE-2024-10573)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2024:11242",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-10573",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2322980",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2024-11242.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

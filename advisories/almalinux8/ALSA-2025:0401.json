@@ -1,0 +1,77 @@
+{
+  "id": "ALSA-2025:0401",
+  "summary": "Important: grafana security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "grafana"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.2.10-21.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "grafana-selinux"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.2.10-21.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-21613",
+    "CVE-2025-21614"
+  ],
+  "published": "2025-01-20T00:00:00Z",
+  "modified": "2025-01-20T13:47:27Z",
+  "details": "Grafana is an open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB.   \n\nSecurity Fix(es):  \n\n  * go-git: argument injection via the URL field (CVE-2025-21613)\n  * go-git: go-git clients vulnerable to DoS via maliciously crafted Git server replies (CVE-2025-21614)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:0401",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-21613",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-21614",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2335888",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2335901",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2025-0401.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

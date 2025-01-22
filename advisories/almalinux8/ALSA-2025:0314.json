@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2025:0314",
+  "summary": "Important: raptor2 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "raptor2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.15-17.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "raptor2-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.15-17.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-57823"
+  ],
+  "published": "2025-01-14T00:00:00Z",
+  "modified": "2025-01-15T13:08:37Z",
+  "details": "Raptor is the RDF Parser Toolkit for Redland that provides a set of standalone RDF parsers, generating triples from RDF/XML or N-Triples.   \n\nSecurity Fix(es):  \n\n  * raptor: integer underflow when normalizing a URI with the turtle parser (CVE-2024-57823)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:0314",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-57823",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2336921",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2025-0314.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

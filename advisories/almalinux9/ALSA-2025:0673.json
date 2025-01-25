@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2025:0673",
+  "summary": "Important: git-lfs security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "git-lfs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.1-4.el9_5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-53263"
+  ],
+  "published": "2025-01-23T00:00:00Z",
+  "modified": "2025-01-24T10:09:41Z",
+  "details": "Git Large File Storage (LFS) replaces large files such as audio samples, videos, datasets, and graphics with text pointers inside Git, while storing the file contents on a remote server.  \n\nSecurity Fix(es):  \n\n  * git-lfs: Git LFS permits exfiltration of credentials via crafted HTTP URLs (CVE-2024-53263)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:0673",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-53263",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2338002",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2025-0673.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

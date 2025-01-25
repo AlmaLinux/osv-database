@@ -1,0 +1,168 @@
+{
+  "id": "ALSA-2025:0595",
+  "summary": "Important: redis:6 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "redis"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.17-1.module_el8.10.0+3946+3de613d5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "redis-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.17-1.module_el8.10.0+3946+3de613d5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "redis-doc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.17-1.module_el8.10.0+3946+3de613d5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-22458",
+    "CVE-2022-35977",
+    "CVE-2022-36021",
+    "CVE-2023-25155",
+    "CVE-2023-28856",
+    "CVE-2022-24834",
+    "CVE-2023-45145",
+    "CVE-2024-31449",
+    "CVE-2024-31228",
+    "CVE-2024-46981"
+  ],
+  "published": "2025-01-22T00:00:00Z",
+  "modified": "2025-01-22T23:19:00Z",
+  "details": "Redis is an advanced key-value store. It is often referred to as a data-structure server since keys can contain strings, hashes, lists, sets, and sorted sets. For performance, Redis works with an in-memory data set. You can persist it either by dumping the data set to disk every once in a while, or by appending each command to a log.  \n\nSecurity Fix(es):  \n\n  * redis: Integer overflow in the Redis HRANDFIELD and ZRANDMEMBER commands may lead to denial-of-service (CVE-2023-22458)\n  * redis: Integer overflow in the Redis SETRANGE and SORT/SORT_RO commands may result with false OOM panic (CVE-2022-35977)\n  * redis: Specially crafted SRANDMEMBER, ZRANDMEMBER, and HRANDFIELD commands can trigger an integer overflow (CVE-2022-36021)\n  * redis: String matching commands (like SCAN or KEYS) with a specially crafted pattern to trigger a denial-of-service attack (CVE-2023-25155)\n  * redis: Insufficient validation of HINCRBYFLOAT command (CVE-2023-28856)\n  * redis: heap overflow in the lua cjson and cmsgpack libraries (CVE-2022-24834)\n  * redis: possible bypass of Unix socket permissions on startup (CVE-2023-45145)\n  * redis: Lua library commands may lead to stack overflow and RCE in Redis (CVE-2024-31449)\n  * redis: Denial-of-service due to unbounded pattern matching in Redis (CVE-2024-31228)\n  * redis: Redis' Lua library commands may lead to remote code execution (CVE-2024-46981)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:0595",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-24834",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-35977",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-36021",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-22458",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-25155",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-28856",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-45145",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-31228",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-31449",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-46981",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2163132",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2163133",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2174305",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2174306",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2187525",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2221662",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2244940",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2317056",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2317058",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2336004",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2025-0595.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

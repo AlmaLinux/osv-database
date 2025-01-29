@@ -1,0 +1,123 @@
+{
+  "id": "ALSA-2025:0693",
+  "summary": "Important: redis security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "redis"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.17-1.el9_5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "redis-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.17-1.el9_5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "redis-doc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.17-1.el9_5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2022-24834",
+    "CVE-2023-45145",
+    "CVE-2024-31449",
+    "CVE-2024-31228",
+    "CVE-2024-46981"
+  ],
+  "published": "2025-01-27T00:00:00Z",
+  "modified": "2025-01-29T11:16:55Z",
+  "details": "Redis is an advanced key-value store. It is often referred to as a data-structure server since keys can contain strings, hashes, lists, sets, and sorted sets. For performance, Redis works with an in-memory data set. You can persist it either by dumping the data set to disk every once in a while, or by appending each command to a log.  \n\nSecurity Fix(es):  \n\n  * redis: heap overflow in the lua cjson and cmsgpack libraries (CVE-2022-24834)\n  * redis: possible bypass of Unix socket permissions on startup (CVE-2023-45145)\n  * redis: Lua library commands may lead to stack overflow and RCE in Redis (CVE-2024-31449)\n  * redis: Denial-of-service due to unbounded pattern matching in Redis (CVE-2024-31228)\n  * redis: Redis' Lua library commands may lead to remote code execution (CVE-2024-46981)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:0693",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-24834",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-45145",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-31228",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-31449",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-46981",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2221662",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2244940",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2317056",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2317058",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2336004",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2025-0693.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

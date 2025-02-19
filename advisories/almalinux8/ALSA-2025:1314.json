@@ -1,0 +1,87 @@
+{
+  "id": "ALSA-2025:1314",
+  "summary": "Moderate: doxygen security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "doxygen"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.8.14-13.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "doxygen-doxywizard"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.8.14-13.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "doxygen-latex"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.8.14-13.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2020-11023"
+  ],
+  "published": "2025-02-11T00:00:00Z",
+  "modified": "2025-02-13T11:23:34Z",
+  "details": "Doxygen can generate an online class browser (in HTML) and/or a reference manual (in LaTeX) from a set of documented source files. The documentation is extracted directly from the sources. Doxygen can also be configured to extract the code structure from undocumented source files.   \n\nSecurity Fix(es):  \n\n  * jquery: Untrusted code execution via <option> tag in HTML passed to DOM manipulation methods (CVE-2020-11023)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:1314",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2020-11023",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1850004",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2025-1314.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

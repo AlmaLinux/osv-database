@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2025:1737",
+  "summary": "Important: libpq security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libpq"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "13.20-1.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libpq-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "13.20-1.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-1094"
+  ],
+  "published": "2025-02-20T00:00:00Z",
+  "modified": "2025-02-21T13:07:02Z",
+  "details": "The libpq package provides the PostgreSQL client library, which allows client programs to connect to PostgreSQL servers.   \n\nSecurity Fix(es):  \n\n  * postgresql: PostgreSQL quoting APIs miss neutralizing quoting syntax in text that fails encoding validation (CVE-2025-1094)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:1737",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-1094",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2345548",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2025-1737.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

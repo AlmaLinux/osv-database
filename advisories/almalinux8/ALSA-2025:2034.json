@@ -1,0 +1,142 @@
+{
+  "id": "ALSA-2025:2034",
+  "summary": "Important: webkit2gtk3 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "webkit2gtk3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.46.6-1.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "webkit2gtk3-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.46.6-1.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "webkit2gtk3-jsc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.46.6-1.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "webkit2gtk3-jsc-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.46.6-1.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-54543",
+    "CVE-2025-24143",
+    "CVE-2025-24150",
+    "CVE-2025-24158",
+    "CVE-2025-24162"
+  ],
+  "published": "2025-03-03T00:00:00Z",
+  "modified": "2025-03-11T12:02:58Z",
+  "details": "WebKitGTK is the port of the portable web rendering engine WebKit to the GTK platform.  \n\nSecurity Fix(es):  \n\n  * webkitgtk: Processing maliciously crafted web content may lead to memory corruption (CVE-2024-54543)\n  * webkitgtk: A maliciously crafted webpage may be able to fingerprint the user (CVE-2025-24143)\n  * webkitgtk: Copying a URL from Web Inspector may lead to command injection (CVE-2025-24150)\n  * webkitgtk: Processing web content may lead to a denial-of-service (CVE-2025-24158)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected process crash (CVE-2025-24162)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:2034",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-54543",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-24143",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-24150",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-24158",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-24162",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2344619",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2344621",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2344622",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2344623",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2344624",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2025-2034.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

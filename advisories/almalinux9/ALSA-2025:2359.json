@@ -1,0 +1,140 @@
+{
+  "id": "ALSA-2025:2359",
+  "summary": "Important: firefox security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "firefox"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "128.8.0-1.el9_5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "firefox-x11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "128.8.0-1.el9_5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-1931",
+    "CVE-2025-1930",
+    "CVE-2025-1934",
+    "CVE-2025-1935",
+    "CVE-2025-1938",
+    "CVE-2025-1933",
+    "CVE-2025-1937",
+    "CVE-2025-1932",
+    "CVE-2025-1936"
+  ],
+  "published": "2025-03-05T00:00:00Z",
+  "modified": "2025-03-21T12:18:58Z",
+  "details": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.  \n\nSecurity Fix(es):  \n\n  * firefox: Use-after-free in WebTransportChild (CVE-2025-1931)\n  * firefox: AudioIPC StreamData could trigger a use-after-free in the Browser process (CVE-2025-1930)\n  * firefox: Unexpected GC during RegExp bailout processing (CVE-2025-1934)\n  * firefox: Clickjacking the registerProtocolHandler info-bar Reporter (CVE-2025-1935)\n  * firefox: thunderbird: Memory safety bugs fixed in Firefox 136, Thunderbird 136, Firefox ESR 128.8, and Thunderbird 128.8 (CVE-2025-1938)\n  * firefox: JIT corruption of WASM i32 return values on 64-bit CPUs (CVE-2025-1933)\n  * firefox: thunderbird: Memory safety bugs fixed in Firefox 136, Thunderbird 136, Firefox ESR 115.21, Firefox ESR 128.8, and Thunderbird 128.8 (CVE-2025-1937)\n  * firefox: Inconsistent comparator in XSLT sorting led to out-of-bounds access (CVE-2025-1932)\n  * firefox: Adding %00 and a fake extension to a jar: URL changed the interpretation of the contents (CVE-2025-1936)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:2359",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-1930",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-1931",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-1932",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-1933",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-1934",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-1935",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-1936",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-1937",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-1938",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2349786",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2349787",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2349790",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2349792",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2349793",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2349794",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2349795",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2349796",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2349797",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2025-2359.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2025:3421",
+  "summary": "Important: freetype security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "freetype"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.1-10.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "freetype-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.1-10.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-27363"
+  ],
+  "published": "2025-03-31T00:00:00Z",
+  "modified": "2025-04-01T07:12:12Z",
+  "details": "FreeType is a free, high-quality, portable font engine that can open and manage font files. FreeType loads, hints, and renders individual glyphs efficiently.  \n\nSecurity Fix(es):  \n\n  * freetype: OOB write when attempting to parse font subglyph structures related to TrueType GX and variable font files (CVE-2025-27363)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:3421",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-27363",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2351357",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2025-3421.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

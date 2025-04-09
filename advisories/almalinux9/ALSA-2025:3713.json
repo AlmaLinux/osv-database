@@ -1,0 +1,160 @@
+{
+  "id": "ALSA-2025:3713",
+  "summary": "Important: webkit2gtk3 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "webkit2gtk3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.48.1-1.el9_5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "webkit2gtk3-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.48.1-1.el9_5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "webkit2gtk3-jsc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.48.1-1.el9_5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "webkit2gtk3-jsc-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.48.1-1.el9_5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-44192",
+    "CVE-2024-54467",
+    "CVE-2024-54551",
+    "CVE-2025-24208",
+    "CVE-2025-24209",
+    "CVE-2025-24216",
+    "CVE-2025-30427"
+  ],
+  "published": "2025-04-08T00:00:00Z",
+  "modified": "2025-04-09T08:21:19Z",
+  "details": "WebKitGTK is the port of the portable web rendering engine WebKit to the GTK platform.  \n\nSecurity Fix(es):  \n\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected process crash (CVE-2024-44192)\n  * webkitgtk: A malicious website may exfiltrate data cross-origin (CVE-2024-54467)\n  * webkitgtk: Processing web content may lead to a denial-of-service (CVE-2024-54551)\n  * webkitgtk: Loading a malicious iframe may lead to a cross-site scripting attack (CVE-2025-24208)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected process crash (CVE-2025-24209)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash (CVE-2025-24216)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash (CVE-2025-30427)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:3713",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-44192",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-54467",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-54551",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-24208",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-24209",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-24216",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-30427",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2353871",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2353872",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2357909",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2357910",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2357911",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2357917",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2357919",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2025-3713.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

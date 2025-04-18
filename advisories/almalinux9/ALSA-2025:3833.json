@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2025:3833",
+  "summary": "Important: gvisor-tap-vsock security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gvisor-tap-vsock"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6:0.8.5-1.el9_5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-22869"
+  ],
+  "published": "2025-04-14T00:00:00Z",
+  "modified": "2025-04-15T14:12:05Z",
+  "details": "A replacement for libslirp and VPNKit, written in pure Go. It is based on the network stack of gVisor and is used to provide networking for podman-machine virtual machines. Compared to libslirp, gvisor-tap-vsock brings a configurable DNS server and dynamic port forwarding.  \n\nSecurity Fix(es):  \n\n  * golang.org/x/crypto/ssh: Denial of Service in the Key Exchange of golang.org/x/crypto/ssh (CVE-2025-22869)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:3833",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-22869",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2348367",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2025-3833.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

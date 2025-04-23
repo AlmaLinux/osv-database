@@ -1,0 +1,77 @@
+{
+  "id": "ALSA-2025:4043",
+  "summary": "Moderate: bluez security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "bluez-cups"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.63-5.el8_10.alma.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "bluez-libs-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.63-5.el8_10.alma.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-27349",
+    "CVE-2023-51589"
+  ],
+  "published": "2025-04-22T00:00:00Z",
+  "modified": "2025-04-22T12:08:47Z",
+  "details": "The bluez packages contain the following utilities for use in Bluetooth applications: hcitool, hciattach, hciconfig, bluetoothd, l2ping, start scripts (AlmaLinux), and pcmcia configuration files.   \n\nSecurity Fix(es):  \n\n  * BlueZ: Audio Profile AVRCP Improper Validation of Array Index Remote Code Execution Vulnerability (CVE-2023-27349)\n  * bluez: audio profile avrcp parse_media_element out-of-bounds read information disclosure vulnerability (CVE-2023-51589)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:4043",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-27349",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-51589",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2278787",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2278965",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2025-4043.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

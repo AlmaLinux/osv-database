@@ -1,0 +1,131 @@
+{
+  "id": "ALSA-2025:4560",
+  "summary": "Important: libsoup security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libsoup"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.62.3-8.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libsoup-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.62.3-8.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-32050",
+    "CVE-2025-32052",
+    "CVE-2025-32053",
+    "CVE-2025-32906",
+    "CVE-2025-32911",
+    "CVE-2025-32913",
+    "CVE-2025-46421",
+    "CVE-2025-46420"
+  ],
+  "published": "2025-05-06T00:00:00Z",
+  "modified": "2025-05-07T13:23:53Z",
+  "details": "The libsoup packages provide an HTTP client and server library for GNOME.  \n\nSecurity Fix(es):  \n\n  * libsoup: Integer overflow in append_param_quoted (CVE-2025-32050)\n  * libsoup: Heap buffer overflow in sniff_unknown() (CVE-2025-32052)\n  * libsoup: Heap buffer overflows in sniff_feed_or_html() and skip_insignificant_space() (CVE-2025-32053)\n  * libsoup: Out of bounds reads in soup_headers_parse_request() (CVE-2025-32906)\n  * libsoup: Double free on soup_message_headers_get_content_disposition() through \"soup-message-headers.c\" via \"params\" GHashTable value (CVE-2025-32911)\n  * libsoup: NULL pointer dereference in soup_message_headers_get_content_disposition when \"filename\" parameter is present, but has no value in Content-Disposition header (CVE-2025-32913)\n  * libsoup: Information disclosure may leads libsoup client sends Authorization header to a different host when being redirected by a server (CVE-2025-46421)\n  * libsoup: Memory leak on soup_header_parse_quality_list() via soup-headers.c (CVE-2025-46420)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:4560",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-32050",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-32052",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-32053",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-32906",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-32911",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-32913",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-46420",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-46421",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2357067",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2357069",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2357070",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2359341",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2359355",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2359357",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2361962",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2361963",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2025-4560.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

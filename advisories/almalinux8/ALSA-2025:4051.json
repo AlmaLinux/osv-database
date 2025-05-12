@@ -1,0 +1,125 @@
+{
+  "id": "ALSA-2025:4051",
+  "summary": "Moderate: gnutls security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gnutls"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.16-8.el8_10.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gnutls-c++"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.16-8.el8_10.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gnutls-dane"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.16-8.el8_10.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gnutls-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.16-8.el8_10.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gnutls-utils"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.16-8.el8_10.3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-12243"
+  ],
+  "published": "2025-04-22T00:00:00Z",
+  "modified": "2025-05-08T18:49:20Z",
+  "details": "The gnutls packages provide the GNU Transport Layer Security (GnuTLS) library, which implements cryptographic algorithms and protocols such as SSL, TLS, and DTLS.  \n\nSecurity Fix(es):  \n\n  * gnutls: GnuTLS Impacted by Inefficient DER Decoding in libtasn1 Leading to Remote DoS (CVE-2024-12243)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:4051",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-12243",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2344615",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2025-4051.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

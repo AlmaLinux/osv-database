@@ -1,0 +1,77 @@
+{
+  "id": "ALSA-2025:8049",
+  "summary": "Important: firefox security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "firefox"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "128.10.1-1.el9_6.alma.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "firefox-x11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "128.10.1-1.el9_6.alma.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-4918",
+    "CVE-2025-4919"
+  ],
+  "published": "2025-05-20T00:00:00Z",
+  "modified": "2025-05-21T07:14:50Z",
+  "details": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.  \n\nSecurity Fix(es):  \n\n  * firefox: Out-of-bounds access when resolving Promise objects (CVE-2025-4918)\n  * firefox: Out-of-bounds access when optimizing linear sums (CVE-2025-4919)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:8049",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-4918",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-4919",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2367016",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2367018",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2025-8049.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2025:7937",
+  "summary": "Important: compat-openssl11 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "compat-openssl11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.1.1k-5.el9_6.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-0286"
+  ],
+  "published": "2025-05-19T00:00:00Z",
+  "modified": "2025-05-21T10:28:41Z",
+  "details": "The OpenSSL toolkit provides support for secure communications between machines. This version of OpenSSL package contains only the libraries from the 1.1.1 version and is provided for compatibility with previous releases.  \n\nSecurity Fix(es):  \n\n  * openssl: X.400 address type confusion in X.509 GeneralName (CVE-2023-0286)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:7937",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-0286",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2164440",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2025-7937.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

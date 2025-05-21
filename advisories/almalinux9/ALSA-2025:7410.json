@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2025:7410",
+  "summary": "Important: libxslt security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libxslt"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.34-13.el9_6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libxslt-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.34-13.el9_6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-55549"
+  ],
+  "published": "2025-05-13T00:00:00Z",
+  "modified": "2025-05-21T06:46:06Z",
+  "details": "libxslt is a library for transforming XML files into other textual formats (including HTML, plain text, and other XML representations of the underlying data) using the standard XSLT stylesheet transformation mechanism.   \n\nSecurity Fix(es):  \n\n  * libxslt: Use-After-Free in libxslt (xsltGetInheritedNsList) (CVE-2024-55549)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:7410",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-55549",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2352484",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2025-7410.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2025:7397",
+  "summary": "Moderate: skopeo security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "skopeo"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.18.1-1.el9_6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "skopeo-tests"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.18.1-1.el9_6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-27144"
+  ],
+  "published": "2025-05-13T00:00:00Z",
+  "modified": "2025-05-21T06:10:36Z",
+  "details": "The skopeo command lets you inspect images from container image registries, get images and image layers, and use signatures to create and verify files.   \n\nSecurity Fix(es):  \n\n  * go-jose: Go JOSE's Parsing Vulnerable to Denial of Service (CVE-2025-27144)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:7397",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-27144",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2347423",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2025-7397.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

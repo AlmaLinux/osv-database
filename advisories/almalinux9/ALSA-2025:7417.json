@@ -1,0 +1,95 @@
+{
+  "id": "ALSA-2025:7417",
+  "summary": "Important: gimp security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gimp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.99.8-4.el9_6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gimp-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.99.8-4.el9_6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-44441",
+    "CVE-2023-44442",
+    "CVE-2023-44443",
+    "CVE-2023-44444"
+  ],
+  "published": "2025-05-13T00:00:00Z",
+  "modified": "2025-05-21T06:46:04Z",
+  "details": "The GIMP (GNU Image Manipulation Program) is an image composition and editing program. GIMP provides a large image manipulation toolbox, including channel operations and layers, effects, sub-pixel imaging and anti-aliasing, and conversions, all with multi-level undo.  \n\nSecurity Fix(es):  \n\n  * gimp: dds buffer overflow RCE (CVE-2023-44441)\n  * gimp: PSD buffer overflow RCE (CVE-2023-44442)\n  * gimp: psp integer overflow RCE (CVE-2023-44443)\n  * gimp: psp off-by-one RCE (CVE-2023-44444)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:7417",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-44441",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-44442",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-44443",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-44444",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2249938",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2249942",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2249944",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2249946",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2025-7417.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

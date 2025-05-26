@@ -1,0 +1,227 @@
+{
+  "id": "ALSA-2025:7422",
+  "summary": "Moderate: ghostscript security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "ghostscript"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.54.0-18.el9_6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "ghostscript-doc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.54.0-18.el9_6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "ghostscript-tools-dvipdf"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.54.0-18.el9_6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "ghostscript-tools-fonts"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.54.0-18.el9_6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "ghostscript-tools-printing"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.54.0-18.el9_6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "ghostscript-x11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.54.0-18.el9_6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libgs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.54.0-18.el9_6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libgs-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.54.0-18.el9_6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-46751",
+    "CVE-2024-46952",
+    "CVE-2024-46951",
+    "CVE-2024-46954",
+    "CVE-2024-46953",
+    "CVE-2024-46956"
+  ],
+  "published": "2025-05-13T00:00:00Z",
+  "modified": "2025-05-26T08:59:17Z",
+  "details": "The Ghostscript suite contains utilities for rendering PostScript and PDF documents. Ghostscript translates PostScript code to common bitmap formats so that the code can be displayed or printed.  \n\nSecurity Fix(es):  \n\n  * ghostscript: dangling pointer in gdev_prn_open_printer_seekable() (CVE-2023-46751)\n  * ghostscript: Buffer Overflow in Ghostscript PDF XRef Stream Handling (CVE-2024-46952)\n  * ghostscript: Arbitrary Code Execution in Artifex Ghostscript Pattern Color Space (CVE-2024-46951)\n  * ghostscript: Directory Traversal in Ghostscript via Overlong UTF-8 Encoding (CVE-2024-46954)\n  * ghostscript: Path Traversal and Code Execution via Integer Overflow in Ghostscript (CVE-2024-46953)\n  * ghostscript: Out-of-Bounds Data Access in Ghostscript Leads to Arbitrary Code Execution (CVE-2024-46956)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:7422",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-46751",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-46951",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-46952",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-46953",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-46954",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-46956",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2253365",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2325041",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2325043",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2325044",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2325045",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2325047",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2025-7422.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

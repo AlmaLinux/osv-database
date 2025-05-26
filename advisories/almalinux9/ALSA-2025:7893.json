@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2025:7893",
+  "summary": "Important: grafana security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "grafana"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.2.6-13.el9_6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "grafana-selinux"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.2.6-13.el9_6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-4123"
+  ],
+  "published": "2025-05-19T00:00:00Z",
+  "modified": "2025-05-26T08:56:38Z",
+  "details": "Grafana is an open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB.   \n\nSecurity Fix(es):  \n\n  * grafana: Cross-site Scripting (XSS) in Grafana via Custom Frontend Plugins and Open Redirect (CVE-2025-4123)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:7893",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-4123",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2364632",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2025-7893.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

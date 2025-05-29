@@ -1,0 +1,187 @@
+{
+  "id": "ALSA-2025:8292",
+  "summary": "Important: mingw-freetype security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mingw32-freetype"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.8-3.el8_10.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mingw32-freetype-static"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.8-3.el8_10.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mingw64-freetype"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.8-3.el8_10.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mingw64-freetype-static"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.8-3.el8_10.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-27363",
+    "CVE-2025-32050",
+    "CVE-2025-32052",
+    "CVE-2025-32053",
+    "CVE-2025-32906",
+    "CVE-2025-32907",
+    "CVE-2025-32909",
+    "CVE-2025-32910",
+    "CVE-2025-32911",
+    "CVE-2025-32913"
+  ],
+  "published": "2025-05-29T00:00:00Z",
+  "modified": "2025-05-29T21:17:09Z",
+  "details": "MinGW Windows Freetype library.  \n\nSecurity Fix(es):  \n\n  * freetype: OOB write when attempting to parse font subglyph structures related to TrueType GX and variable font files (CVE-2025-27363)\n  * libsoup: Integer overflow in append_param_quoted (CVE-2025-32050)\n  * libsoup: Heap buffer overflow in sniff_unknown() (CVE-2025-32052)\n  * libsoup: Heap buffer overflows in sniff_feed_or_html() and skip_insignificant_space() (CVE-2025-32053)\n  * libsoup: Out of bounds reads in soup_headers_parse_request() (CVE-2025-32906)\n  * libsoup: Denial of service in server when client requests a large amount of overlapping ranges with Range header (CVE-2025-32907)\n  * libsoup: NULL Pointer Dereference on libsoup through function \"sniff_mp4\" in soup-content-sniffer.c (CVE-2025-32909)\n  * libsoup: Null pointer deference on libsoup via /auth/soup-auth-digest.c through \"soup_auth_digest_authenticate\" on client when server omits the \"realm\" parameter in an Unauthorized response with Digest authentication (CVE-2025-32910)\n  * libsoup: Double free on soup_message_headers_get_content_disposition() through \"soup-message-headers.c\" via \"params\" GHashTable value (CVE-2025-32911)\n  * libsoup: NULL pointer dereference in soup_message_headers_get_content_disposition when \"filename\" parameter is present, but has no value in Content-Disposition header (CVE-2025-32913)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:8292",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-27363",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-32050",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-32052",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-32053",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-32906",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-32907",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-32909",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-32910",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-32911",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-32913",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2351357",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2357067",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2357069",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2357070",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2359341",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2359342",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2359353",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2359354",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2359355",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2359357",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2025-8292.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

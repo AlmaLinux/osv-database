@@ -1,11 +1,11 @@
 {
-  "id": "ALSA-2025:7524",
-  "summary": "Important: xz security update",
+  "id": "ALSA-2025:9146",
+  "summary": "Moderate: podman security update",
   "affected": [
     {
       "package": {
         "ecosystem": "AlmaLinux:10",
-        "name": "xz"
+        "name": "podman"
       },
       "ranges": [
         {
@@ -15,7 +15,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:5.6.2-4.el10_0"
+              "fixed": "6:5.4.0-10.el10_0"
             }
           ]
         }
@@ -24,7 +24,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:10",
-        "name": "xz-devel"
+        "name": "podman-docker"
       },
       "ranges": [
         {
@@ -34,7 +34,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:5.6.2-4.el10_0"
+              "fixed": "6:5.4.0-10.el10_0"
             }
           ]
         }
@@ -43,7 +43,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:10",
-        "name": "xz-libs"
+        "name": "podman-remote"
       },
       "ranges": [
         {
@@ -53,7 +53,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:5.6.2-4.el10_0"
+              "fixed": "6:5.4.0-10.el10_0"
             }
           ]
         }
@@ -62,7 +62,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:10",
-        "name": "xz-lzma-compat"
+        "name": "podman-tests"
       },
       "ranges": [
         {
@@ -72,7 +72,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:5.6.2-4.el10_0"
+              "fixed": "6:5.4.0-10.el10_0"
             }
           ]
         }
@@ -80,26 +80,26 @@
     }
   ],
   "related": [
-    "CVE-2025-31115"
+    "CVE-2025-22871"
   ],
-  "published": "2025-05-13T00:00:00Z",
-  "modified": "2025-06-16T12:25:55Z",
-  "details": "XZ Utils is an integrated collection of user-space file compression utilities based on the Lempel-Ziv-Markov chain algorithm (LZMA), which performs lossless data compression. The algorithm provides a high compression ratio while keeping the decompression time short.  \n\nSecurity Fix(es):  \n\n  * xz: XZ has a heap-use-after-free bug in threaded .xz decoder (CVE-2025-31115)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "published": "2025-06-17T00:00:00Z",
+  "modified": "2025-06-17T07:56:45Z",
+  "details": "The podman tool manages pods, container images, and containers. It is part of the libpod library, which is for applications that use container pods. Container pods is a concept in Kubernetes.  \n\nSecurity Fix(es):  \n\n  * net/[http:](http:) Request smuggling due to acceptance of invalid chunked data in net/http (CVE-2025-22871)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
-      "url": "https://access.redhat.com/errata/RHSA-2025:7524",
+      "url": "https://access.redhat.com/errata/RHSA-2025:9146",
       "type": "ADVISORY"
     },
     {
-      "url": "https://access.redhat.com/security/cve/CVE-2025-31115",
+      "url": "https://access.redhat.com/security/cve/CVE-2025-22871",
       "type": "REPORT"
     },
     {
-      "url": "https://bugzilla.redhat.com/2357249",
+      "url": "https://bugzilla.redhat.com/2358493",
       "type": "REPORT"
     },
     {
-      "url": "https://errata.almalinux.org/10/ALSA-2025-7524.html",
+      "url": "https://errata.almalinux.org/10/ALSA-2025-9146.html",
       "type": "ADVISORY"
     }
   ]

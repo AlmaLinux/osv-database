@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2025:9517",
+  "summary": "Important: perl-File-Find-Rule security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "perl-File-Find-Rule"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.34-19.1.el9_6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2011-10007"
+  ],
+  "published": "2025-06-24T00:00:00Z",
+  "modified": "2025-06-30T13:05:26Z",
+  "details": "File::Find::Rule is a friendlier interface to File::Find. It allows you to build rules which specify the desired files and directories.  \n\nSecurity Fix(es):  \n\n  * perl-file-find-rule: File::Find::Rule Arbitrary Code Execution (CVE-2011-10007)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:9517",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2011-10007",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2370424",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2025-9517.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

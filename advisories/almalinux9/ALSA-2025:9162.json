@@ -1,0 +1,86 @@
+{
+  "id": "ALSA-2025:9162",
+  "summary": "Important: gimp security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gimp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.99.8-4.el9_6.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gimp-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.99.8-4.el9_6.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-48798",
+    "CVE-2025-48797",
+    "CVE-2025-5473"
+  ],
+  "published": "2025-06-17T00:00:00Z",
+  "modified": "2025-06-30T13:40:56Z",
+  "details": "The GIMP (GNU Image Manipulation Program) is an image composition and editing program. GIMP provides a large image manipulation toolbox, including channel operations and layers, effects, sub-pixel imaging and anti-aliasing, and conversions, all with multi-level undo.  \n\nSecurity Fix(es):  \n\n  * gimp: Multiple use after free in XCF parser (CVE-2025-48798)\n  * gimp: Multiple heap buffer overflows in TGA parser (CVE-2025-48797)\n  * gimp: GIMP ICO File Parsing Integer Overflow (CVE-2025-5473)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:9162",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-48797",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-48798",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-5473",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2368557",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2368558",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2370867",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2025-9162.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2025:9330",
+  "summary": "Important: perl-YAML-LibYAML security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "perl-YAML-LibYAML"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:0.82-6.1.el9_6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-40908"
+  ],
+  "published": "2025-06-23T00:00:00Z",
+  "modified": "2025-07-03T08:23:21Z",
+  "details": "Kirill Siminov's \"libyaml\" is arguably the best YAML implementation. The C library is written precisely to the YAML 1.1 specification. It was originally bound to Python and was later bound to Ruby.  \n\nSecurity Fix(es):  \n\n  * yaml-libyaml: LibYAML Perl File Modification Vulnerability (CVE-2025-40908)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:9330",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-40908",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2369630",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2025-9330.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "ALSA-2025:7309",
+  "summary": "Moderate: openjpeg2 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "openjpeg2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.0-8.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "openjpeg2-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.0-8.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "openjpeg2-tools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.0-8.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-56826",
+    "CVE-2024-56827"
+  ],
+  "published": "2025-05-13T00:00:00Z",
+  "modified": "2025-07-02T13:08:12Z",
+  "details": "OpenJPEG is an open source library for reading and writing image files in JPEG2000 format.  \n\nSecurity Fix(es):  \n\n  * openjpeg: heap buffer overflow in bin/common/color.c (CVE-2024-56826)\n  * openjpeg: heap buffer overflow in lib/openjp2/j2k.c (CVE-2024-56827)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.  \n\nAdditional Changes:  \n\nFor detailed information on changes in this release, see the AlmaLinuxRelease Notes linked from the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:7309",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-56826",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-56827",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2335172",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2335174",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2025-7309.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

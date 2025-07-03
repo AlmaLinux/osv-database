@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2025:7350",
+  "summary": "Moderate: perl-Module-ScanDeps security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "perl-Module-ScanDeps"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.30-6.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-10224"
+  ],
+  "published": "2025-05-13T00:00:00Z",
+  "modified": "2025-07-02T13:04:11Z",
+  "details": "This module scans potential modules used by perl programs and returns a hash reference. Its keys are the module names as they appear in %INC (e.g. Test/More.pm). The values are hash references.  \n\nSecurity Fix(es):  \n\n  * module-scandeps: local privilege escalation via unsanitized input (CVE-2024-10224)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.  \n\nAdditional Changes:  \n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:7350",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-10224",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2327329",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2025-7350.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

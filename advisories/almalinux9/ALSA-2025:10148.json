@@ -1,0 +1,199 @@
+{
+  "id": "ALSA-2025:10148",
+  "summary": "Important: python3.11 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "python3.11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.11-2.el9_6.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "python3.11-debug"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.11-2.el9_6.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "python3.11-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.11-2.el9_6.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "python3.11-idle"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.11-2.el9_6.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "python3.11-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.11-2.el9_6.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "python3.11-test"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.11-2.el9_6.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "python3.11-tkinter"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.11-2.el9_6.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-4435",
+    "CVE-2024-12718",
+    "CVE-2025-4330",
+    "CVE-2025-4517",
+    "CVE-2025-4138"
+  ],
+  "published": "2025-07-01T00:00:00Z",
+  "modified": "2025-07-02T13:55:59Z",
+  "details": "Python is an interpreted, interactive, object-oriented programming language, which includes modules, classes, exceptions, very high level dynamic data types and dynamic typing. Python supports interfaces to many system calls and libraries, as well as to various windowing systems.  \n\nSecurity Fix(es):  \n\n  * cpython: Tarfile extracts filtered members when errorlevel=0 (CVE-2025-4435)\n  * cpython: Bypass extraction filter to modify file metadata outside extraction directory (CVE-2024-12718)\n  * cpython: Extraction filter bypass for linking outside extraction directory (CVE-2025-4330)\n  * python: cpython: Arbitrary writes via tarfile realpath overflow (CVE-2025-4517)\n  * cpython: python: Bypassing extraction filter to create symlinks to arbitrary targets outside extraction directory (CVE-2025-4138)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:10148",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-12718",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-4138",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-4330",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-4435",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-4517",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2370010",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2370013",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2370014",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2370016",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2372426",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2025-10148.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

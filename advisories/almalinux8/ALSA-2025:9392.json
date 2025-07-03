@@ -1,0 +1,199 @@
+{
+  "id": "ALSA-2025:9392",
+  "summary": "Important: tigervnc security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "tigervnc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.15.0-7.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "tigervnc-icons"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.15.0-7.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "tigervnc-license"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.15.0-7.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "tigervnc-selinux"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.15.0-7.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "tigervnc-server"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.15.0-7.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "tigervnc-server-minimal"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.15.0-7.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "tigervnc-server-module"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.15.0-7.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-49175",
+    "CVE-2025-49176",
+    "CVE-2025-49178",
+    "CVE-2025-49179",
+    "CVE-2025-49180"
+  ],
+  "published": "2025-06-23T00:00:00Z",
+  "modified": "2025-07-03T08:21:18Z",
+  "details": "Virtual Network Computing (VNC) is a remote display system which allows users to view a computing desktop environment not only on the machine where it is running, but from anywhere on the Internet and from a wide variety of machine architectures. TigerVNC is a suite of VNC servers and clients.  \n\nSecurity Fix(es):  \n\n  * xorg-x11-server-Xwayland: xorg-x11-server: tigervnc: Out-of-Bounds Read in X Rendering Extension Animated Cursors (CVE-2025-49175)\n  * xorg-x11-server-Xwayland: xorg-x11-server: tigervnc: Integer Overflow in Big Requests Extension (CVE-2025-49176)\n  * xorg-x11-server-Xwayland: xorg-x11-server: tigervnc: Unprocessed Client Request Due to Bytes to Ignore (CVE-2025-49178)\n  * xorg-x11-server-Xwayland: xorg-x11-server: tigervnc: Integer overflow in X Record extension (CVE-2025-49179)\n  * xorg-x11-server-Xwayland: xorg-x11-server: tigervnc: Integer Overflow in X Resize, Rotate and Reflect (RandR) Extension (CVE-2025-49180)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:9392",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-49175",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-49176",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-49178",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-49179",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-49180",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2369947",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2369954",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2369977",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2369978",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2369981",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2025-9392.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2025:8427",
+  "summary": "Moderate: pandoc security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "pandoc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.6-7.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "pandoc-common"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.6-7.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-24824"
+  ],
+  "published": "2025-06-03T00:00:00Z",
+  "modified": "2025-07-02T11:42:55Z",
+  "details": "Pandoc is a Haskell library for converting from one markup format to another, and a command-line tool that uses this library. It can read several dialects of Markdown and (subsets of) HTML, reStructuredText, LaTeX, DocBook, JATS, MediaWiki markup, TWiki markup, TikiWiki markup, Creole 1.0, Haddock markup, OPML, Emacs Org-Mode, Emacs Muse, txt2tags, Vimwiki, Word Docx, ODT, and Textile, and it can write Markdown, reStructuredText, XHTML, HTML 5, LaTeX, ConTeXt, DocBook, JATS, OPML, TEI, OpenDocument, ODT, Word docx, RTF, MediaWiki, DokuWiki, ZimWiki, Textile, groff man, groff ms, plain text, Emacs Org-Mode, AsciiDoc, Haddock markup, EPUB (v2 and v3), FictionBook2, InDesign ICML, Muse, LaTeX beamer slides, PowerPoint, and several kinds of HTML/JavaScript slide shows (S5, Slidy, Slideous, DZSlides, reveal.js). In contrast to most existing tools for converting Markdown to HTML, pandoc has a modular design: it consists of a set of readers, which parse text in a given format and produce a native representation of the document, and a set of writers, which convert this native representation into a target format. Thus, adding an input or output format requires only adding a reader or writer. For pdf output please also install pandoc-pdf.  \n\nSecurity Fix(es):  \n\n  * cmark-gfm: Quadratic complexity bugs may lead to a denial of service (CVE-2023-24824)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:8427",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-24824",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2210172",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2025-8427.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

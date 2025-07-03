@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2025:7672",
+  "summary": "Moderate: xdg-utils security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "xdg-utils"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.3-13.el9_6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2022-4055"
+  ],
+  "published": "2025-05-15T00:00:00Z",
+  "modified": "2025-07-02T12:08:32Z",
+  "details": "The xdg-utils package is a set of simple scripts that provide basic desktop integration functions for any Free Desktop.  \n\nSecurity Fix(es):  \n\n  * xdg-utils: improper parse of mailto URIs allows bypass of Thunderbird security mechanism for attachments (CVE-2022-4055)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:7672",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-4055",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2143792",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2025-7672.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

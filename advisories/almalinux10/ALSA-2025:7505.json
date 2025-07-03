@@ -1,0 +1,132 @@
+{
+  "id": "ALSA-2025:7505",
+  "summary": "Important: libsoup3 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libsoup3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.5-3.el10_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libsoup3-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.5-3.el10_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libsoup3-doc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.5-3.el10_0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-2784",
+    "CVE-2025-32906",
+    "CVE-2025-32908",
+    "CVE-2025-32912",
+    "CVE-2025-32914",
+    "CVE-2025-46421"
+  ],
+  "published": "2025-05-13T00:00:00Z",
+  "modified": "2025-07-02T12:28:37Z",
+  "details": "Libsoup is an HTTP library implementation in C. It was originally part of a SOAP (Simple Object Access Protocol) implementation called Soup, but the SOAP and non-SOAP parts have now been split into separate packages. libsoup uses the Glib main loop and is designed to work well with GTK applications. This enables GNOME applications to access HTTP servers on the network in a completely asynchronous fashion, very similar to the Gtk+ programming model (a synchronous operation mode is also supported for those who want it), but the SOAP parts were removed long ago.  \n\nSecurity Fix(es):  \n\n  * libsoup: Heap buffer over-read in `skip_insignificant_space` when sniffing content (CVE-2025-2784)\n  * libsoup: Out of bounds reads in soup_headers_parse_request() (CVE-2025-32906)\n  * libsoup: Denial of service on libsoup through HTTP/2 server (CVE-2025-32908)\n  * libsoup: NULL pointer dereference in client when server omits the \"nonce\" parameter in an Unauthorized response with Digest authentication (CVE-2025-32912)\n  * libsoup: OOB Read on libsoup through function \"soup_multipart_new_from_message\" in soup-multipart.c leads to crash or exit of process (CVE-2025-32914)\n  * libsoup: Information disclosure may leads libsoup client sends Authorization header to a different host when being redirected by a server (CVE-2025-46421)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:7505",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-2784",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-32906",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-32908",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-32912",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-32914",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-46421",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2354669",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2359341",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2359343",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2359356",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2359358",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2361962",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2025-7505.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

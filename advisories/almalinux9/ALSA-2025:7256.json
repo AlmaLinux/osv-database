@@ -1,0 +1,94 @@
+{
+  "id": "ALSA-2025:7256",
+  "summary": "Moderate: git-lfs security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "git-lfs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.1-1.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-39321",
+    "CVE-2023-39322",
+    "CVE-2024-24788",
+    "CVE-2024-24790",
+    "CVE-2024-24791",
+    "CVE-2024-9355"
+  ],
+  "published": "2025-05-13T00:00:00Z",
+  "modified": "2025-07-02T13:09:54Z",
+  "details": "Git Large File Storage (LFS) replaces large files such as audio samples, videos, datasets, and graphics with text pointers inside Git, while storing the file contents on a remote server.  \n\nSecurity Fix(es):  \n\n  * golang: crypto/tls: panic when processing post-handshake message on QUIC connections (CVE-2023-39321)\n  * golang: crypto/tls: lack of a limit on buffered post-handshake (CVE-2023-39322)\n  * golang: net: malformed DNS message can cause infinite loop (CVE-2024-24788)\n  * golang: net/netip: Unexpected behavior from Is methods for IPv4-mapped IPv6 addresses (CVE-2024-24790)\n  * net/[http:](http:) Denial of service due to improper 100-continue handling in net/http (CVE-2024-24791)\n  * golang-fips: Golang FIPS zeroed buffer (CVE-2024-9355)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.  \n\nAdditional Changes:  \n\nFor detailed information on changes in this release, see the AlmaLinuxRelease Notes linked from the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:7256",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-39321",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-39322",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-24788",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-24790",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-24791",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-9355",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2237777",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2237778",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2279814",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2292787",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2295310",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2315719",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2025-7256.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

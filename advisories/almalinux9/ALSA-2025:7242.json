@@ -1,0 +1,212 @@
+{
+  "id": "ALSA-2025:7242",
+  "summary": "Moderate: gstreamer1-plugins-good security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gstreamer1-plugins-good"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.22.12-4.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gstreamer1-plugins-good-gtk"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.22.12-4.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-47543",
+    "CVE-2024-47774",
+    "CVE-2024-47777",
+    "CVE-2024-47778",
+    "CVE-2024-47775",
+    "CVE-2024-47596",
+    "CVE-2024-47599",
+    "CVE-2024-47834",
+    "CVE-2024-47776",
+    "CVE-2024-47544",
+    "CVE-2024-47601",
+    "CVE-2024-47597",
+    "CVE-2024-47546",
+    "CVE-2024-47602",
+    "CVE-2024-47598",
+    "CVE-2024-47603",
+    "CVE-2024-47545"
+  ],
+  "published": "2025-05-13T00:00:00Z",
+  "modified": "2025-07-02T13:13:21Z",
+  "details": "GStreamer is a streaming media framework based on graphs of filters which operate on media data. The gstreamer1-plugins-good packages contain a collection of well-supported plug-ins of good quality and under the LGPL license.  \n\nSecurity Fix(es):  \n\n  * gstreamer1-plugins-good: OOB-read in qtdemux_parse_container (CVE-2024-47543)\n  * gstreamer1-plugins-good: GStreamer has an OOB-read in gst_avi_subtitle_parse_gab2_chunk (CVE-2024-47774)\n  * gstreamer1-plugins-good: OOB-read in gst_wavparse_smpl_chunk (CVE-2024-47777)\n  * gstreamer1-plugins-good: OOB-read in gst_wavparse_adtl_chunk (CVE-2024-47778)\n  * gstreamer1-plugins-good: OOB-read in parse_ds64 (CVE-2024-47775)\n  * gstreamer1-plugins-good: OOB-read in FOURCC_SMI_ parsing (CVE-2024-47596)\n  * gstreamer1-plugins-good: insufficient error handling in JPEG decoder that can lead to NULL-pointer dereferences (CVE-2024-47599)\n  * gstreamer1-plugins-good: Use-After-Free read in Matroska CodecPrivate (CVE-2024-47834)\n  * gstreamer1-plugins-good: OOB-read in gst_wavparse_cue_chunk (CVE-2024-47776)\n  * gstreamer1-plugins-good: NULL-pointer dereferences in MP4/MOV demuxer CENC handling (CVE-2024-47544)\n  * gstreamer1-plugins-good: NULL-pointer dereference in Matroska/WebM demuxer (CVE-2024-47601)\n  * gstreamer1-plugins-good: OOB-read in qtdemux_parse_samples (CVE-2024-47597)\n  * gstreamer1-plugins-good: integer underflow in extract_cc_from_data leading to OOB-read (CVE-2024-47546)\n  * gstreamer1-plugins-good: NULL-pointer dereferences and out-of-bounds reads in Matroska/WebM demuxer (CVE-2024-47602)\n  * gstreamer1-plugins-good: OOB-read in qtdemux_merge_sample_table (CVE-2024-47598)\n  * gstreamer1-plugins-good: NULL-pointer dereference in Matroska/WebM demuxer (CVE-2024-47603)\n  * gstreamer1-plugins-good: integer underflow in FOURCC_strf parsing leading to OOB-read (CVE-2024-47545)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.  \n\nAdditional Changes:  \n\nFor detailed information on changes in this release, see the AlmaLinuxRelease Notes linked from the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:7242",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-47543",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-47544",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-47545",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-47546",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-47596",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-47597",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-47598",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-47599",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-47601",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-47602",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-47603",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-47774",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-47775",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-47776",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-47777",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-47778",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-47834",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2331723",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2331739",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2331741",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2331743",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2331744",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2331747",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2331748",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2331749",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2331750",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2331751",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2331752",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2331755",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2331756",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2331759",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2331761",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2331762",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2331763",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2025-7242.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

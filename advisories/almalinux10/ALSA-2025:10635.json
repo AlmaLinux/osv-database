@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2025:10635",
+  "summary": "Moderate: gnome-remote-desktop security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "gnome-remote-desktop"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "47.3-2.el10_0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-5024"
+  ],
+  "published": "2025-07-08T00:00:00Z",
+  "modified": "2025-07-10T13:02:28Z",
+  "details": "GNOME Remote Desktop is a remote desktop and screen sharing service for the GNOME desktop environment.  \n\nSecurity Fix(es):  \n\n  * gnome-remote-desktop: Uncontrolled Resource Consumption due to Malformed RDP PDUs (CVE-2025-5024)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:10635",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-5024",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2367717",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2025-10635.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

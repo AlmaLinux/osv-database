@@ -1,0 +1,105 @@
+{
+  "id": "ALSA-2025:10699",
+  "summary": "Important: libxml2 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libxml2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.13-10.el9_6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libxml2-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.13-10.el9_6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "python3-libxml2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.13-10.el9_6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-49794",
+    "CVE-2025-49796",
+    "CVE-2025-6021"
+  ],
+  "published": "2025-07-09T00:00:00Z",
+  "modified": "2025-07-10T12:52:51Z",
+  "details": "The libxml2 library is a development toolbox providing the implementation of various XML standards.  \n\nSecurity Fix(es):  \n\n  * libxml: Heap use after free (UAF) leads to Denial of service (DoS) (CVE-2025-49794)\n  * libxml: Type confusion leads to Denial of service (DoS) (CVE-2025-49796)\n  * libxml2: Integer Overflow in xmlBuildQName() Leads to Stack Buffer Overflow in libxml2 (CVE-2025-6021)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:10699",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-49794",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-49796",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-6021",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2372373",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2372385",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2372406",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2025-10699.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2025:10844",
+  "summary": "Important: cloud-init security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "cloud-init"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "24.4-3.el10_0.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-6174"
+  ],
+  "published": "2025-07-14T00:00:00Z",
+  "modified": "2025-07-18T06:52:34Z",
+  "details": "The cloud-init packages provide a set of init scripts for cloud instances. Cloud instances need special scripts to run during initialization to retrieve and install SSH keys, and to let the user run various scripts.  \n\nSecurity Fix(es):  \n\n  * cloud-init: Cloud init permissions flaw (CVE-2024-6174)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:10844",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-6174",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2374924",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2025-10844.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "ALSA-2025:11537",
+  "summary": "Important: sudo security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "sudo"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.9.15-8.p5.el10_0.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "sudo-python-plugin"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.9.15-8.p5.el10_0.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-32462",
+    "CVE-2025-32463"
+  ],
+  "published": "2025-07-22T00:00:00Z",
+  "modified": "2025-07-24T09:20:42Z",
+  "details": "The sudo packages contain the sudo utility which allows system administrators to provide certain users with the permission to execute privileged commands, which are used for system management purposes, without having to log in as root.  \n\nSecurity Fix(es):  \n\n  * sudo: LPE via host option (CVE-2025-32462)\n  * sudo: LPE via chroot option (CVE-2025-32463)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:11537",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-32462",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-32463",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2374692",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2374693",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2025-11537.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

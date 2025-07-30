@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2025:9421",
+  "summary": "Moderate: iputils security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "iputils"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20240905-2.el10_0.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-47268"
+  ],
+  "published": "2025-06-24T00:00:00Z",
+  "modified": "2025-07-28T08:22:41Z",
+  "details": "The iputils packages contain basic utilities for monitoring a network, including ping.   \n\nSecurity Fix(es):  \n\n  * iputils: Signed Integer Overflow in Timestamp Multiplication in iputils ping (CVE-2025-47268)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:9421",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-47268",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2364090",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2025-9421.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

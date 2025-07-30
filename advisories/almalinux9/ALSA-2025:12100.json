@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2025:12100",
+  "summary": "Moderate: libtpms security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libtpms"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.9.1-5.20211126git1ff6fe1f43.el9_6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-49133"
+  ],
+  "published": "2025-07-29T00:00:00Z",
+  "modified": "2025-07-30T09:49:56Z",
+  "details": "The libtpms is a library providing Trusted Platform Module (TPM) functionality for virtual machines.  \n\nSecurity Fix(es):  \n\n  * libtpms: Libtpms Out-of-Bounds Read Vulnerability (CVE-2025-49133)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:12100",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-49133",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2371585",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2025-12100.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

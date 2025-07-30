@@ -1,0 +1,87 @@
+{
+  "id": "ALSA-2025:12083",
+  "summary": "Moderate: icu security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "icu"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "67.1-10.el9_6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libicu"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "67.1-10.el9_6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libicu-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "67.1-10.el9_6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-5222"
+  ],
+  "published": "2025-07-29T00:00:00Z",
+  "modified": "2025-07-30T08:16:08Z",
+  "details": "The International Components for Unicode (ICU) library provides robust and full-featured Unicode services.  \n\nSecurity Fix(es):  \n\n  * icu: Stack buffer overflow in the SRBRoot::addTag function (CVE-2025-5222)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:12083",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-5222",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2368600",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2025-12083.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

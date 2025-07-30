@@ -1,0 +1,87 @@
+{
+  "id": "ALSA-2025:9121",
+  "summary": "Moderate: wireshark security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "wireshark"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:4.4.2-3.el10_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "wireshark-cli"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:4.4.2-3.el10_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "wireshark-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:4.4.2-3.el10_0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-1492"
+  ],
+  "published": "2025-06-16T00:00:00Z",
+  "modified": "2025-07-28T08:49:32Z",
+  "details": "The wireshark packages contain a network protocol analyzer used to capture and browse the traffic running on a computer network.  \n\nSecurity Fix(es):  \n\n  * wireshark: Uncontrolled Recursion in Wireshark (CVE-2025-1492)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:9121",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-1492",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2346737",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2025-9121.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

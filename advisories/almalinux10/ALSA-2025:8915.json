@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2025:8915",
+  "summary": "Moderate: grafana-pcp security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "grafana-pcp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.2.2-3.el10_0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-22871"
+  ],
+  "published": "2025-06-11T00:00:00Z",
+  "modified": "2025-07-28T08:45:49Z",
+  "details": "The Grafana plugin for Performance Co-Pilot includes datasources for scalable time series from pmseries and Redis, live PCP metrics and bpftrace scripts from pmdabpftrace, as well as several dashboards.  \n\nSecurity Fix(es):  \n\n  * net/[http:](http:) Request smuggling due to acceptance of invalid chunked data in net/http (CVE-2025-22871)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:8915",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-22871",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2358493",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2025-8915.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

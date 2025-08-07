@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2025:12831",
+  "summary": "Moderate: opentelemetry-collector security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "opentelemetry-collector"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.127.0-1.el9_6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-22871"
+  ],
+  "published": "2025-08-05T00:00:00Z",
+  "modified": "2025-08-07T10:26:12Z",
+  "details": "Collector with the supported components for a AlmaLinux build of OpenTelemetry  \n\nSecurity Fix(es):  \n\n  * net/[http:](http:) Request smuggling due to acceptance of invalid chunked data in net/http (CVE-2025-22871)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:12831",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-22871",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2358493",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2025-12831.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

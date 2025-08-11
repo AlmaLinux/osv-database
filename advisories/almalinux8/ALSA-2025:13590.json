@@ -1,0 +1,256 @@
+{
+  "id": "ALSA-2025:13590",
+  "summary": "Moderate: kernel-rt security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.69.1.rt7.410.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.69.1.rt7.410.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-debug"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.69.1.rt7.410.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-debug-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.69.1.rt7.410.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-debug-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.69.1.rt7.410.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-debug-modules"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.69.1.rt7.410.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-debug-modules-extra"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.69.1.rt7.410.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.69.1.rt7.410.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-modules"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.69.1.rt7.410.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-modules-extra"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.69.1.rt7.410.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-21727",
+    "CVE-2025-21759",
+    "CVE-2021-47670",
+    "CVE-2025-38085",
+    "CVE-2025-38159"
+  ],
+  "published": "2025-08-11T00:00:00Z",
+  "modified": "2025-08-11T15:42:47Z",
+  "details": "The kernel-rt packages provide the Real Time Linux Kernel, which enables fine-tuning for systems with extremely high determinism requirements.  \n\nSecurity Fix(es):  \n\n  * kernel: padata: fix UAF in padata_reorder (CVE-2025-21727)\n  * kernel: ipv6: mcast: extend RCU protection in igmp6_send() (CVE-2025-21759)\n  * kernel: can: peak_usb: fix use after free bugs (CVE-2021-47670)\n  * kernel: mm/hugetlb: fix huge_pmd_unshare() vs GUP-fast race (CVE-2025-38085)\n  * kernel: wifi: rtw88: fix the 'para' buffer size to avoid reading out of bounds (CVE-2025-38159)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:13590",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2021-47670",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-21727",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-21759",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-38085",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-38159",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2348516",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2348596",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2360786",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2375304",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2376064",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2025-13590.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

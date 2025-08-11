@@ -1,0 +1,116 @@
+{
+  "id": "ALSA-2025:13429",
+  "summary": "Moderate: libxml2 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libxml2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.12.5-9.el10_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libxml2-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.12.5-9.el10_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libxml2-static"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.12.5-9.el10_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "python3-libxml2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.12.5-9.el10_0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-32414",
+    "CVE-2025-32414",
+    "CVE-2025-32415"
+  ],
+  "published": "2025-08-07T00:00:00Z",
+  "modified": "2025-08-07T22:17:37Z",
+  "details": "The libxml2 library is a development toolbox providing the implementation of various XML standards.  \n\nThe libxml2 library is a development toolbox providing the implementation of various XML standards.  \n\nSecurity Fix(es):  \n\nThe libxml2 library is a development toolbox providing the implementation of various XML standards.  \n\nThe libxml2 library is a development toolbox providing the implementation of various XML standards.  \n\nSecurity Fix(es):  \n\n  * libxml2: Out-of-Bounds Read in libxml2 (CVE-2025-32414)\n\n\nThe libxml2 library is a development toolbox providing the implementation of various XML standards.  \n\nThe libxml2 library is a development toolbox providing the implementation of various XML standards.  \n\nSecurity Fix(es):  \n\nThe libxml2 library is a development toolbox providing the implementation of various XML standards.  \n\nThe libxml2 library is a development toolbox providing the implementation of various XML standards.  \n\nSecurity Fix(es):  \n\n  * libxml2: Out-of-Bounds Read in libxml2 (CVE-2025-32414)\n  * libxml2: Out-of-bounds Read in xmlSchemaIDCFillNodeTables (CVE-2025-32415)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:13429",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-32414",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-32415",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2358121",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2360768",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2025-13429.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

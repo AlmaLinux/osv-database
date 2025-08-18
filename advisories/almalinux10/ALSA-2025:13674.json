@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2025:13674",
+  "summary": "Important: toolbox security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "toolbox"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.2-1.el10_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "toolbox-tests"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.2-1.el10_0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-23266"
+  ],
+  "published": "2025-08-12T00:00:00Z",
+  "modified": "2025-08-14T14:36:21Z",
+  "details": "Toolbox is a tool for Linux operating systems, which allows the use of containerized command line environments. It is built on top of Podman and other standard container technologies from OCI.  \n\nSecurity Fix(es):  \n\n  * nvidia-container-toolkit: Privilege Escalation via Hook Initialization in NVIDIA Container Toolkit (CVE-2025-23266)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:13674",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-23266",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2381794",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2025-13674.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

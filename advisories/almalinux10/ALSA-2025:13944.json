@@ -1,0 +1,87 @@
+{
+  "id": "ALSA-2025:13944",
+  "summary": "Important: openjpeg2 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "openjpeg2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.2-4.el10_0.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "openjpeg2-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.2-4.el10_0.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "openjpeg2-tools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.2-4.el10_0.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-54874"
+  ],
+  "published": "2025-08-18T00:00:00Z",
+  "modified": "2025-08-18T11:07:28Z",
+  "details": "OpenJPEG is an open source library for reading and writing image files in JPEG2000 format.  \n\nSecurity Fix(es):  \n\n  * openjpeg: OpenJPEG OOB heap memory write (CVE-2025-54874)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:13944",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-54874",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2386543",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2025-13944.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "id": "ALSA-2025:14178",
+  "summary": "Important: tomcat9 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "tomcat9"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:9.0.87-5.el10_0.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "tomcat9-admin-webapps"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:9.0.87-5.el10_0.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "tomcat9-docs-webapp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:9.0.87-5.el10_0.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "tomcat9-el-3.0-api"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:9.0.87-5.el10_0.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "tomcat9-jsp-2.3-api"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:9.0.87-5.el10_0.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "tomcat9-lib"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:9.0.87-5.el10_0.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "tomcat9-servlet-4.0-api"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:9.0.87-5.el10_0.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "tomcat9-webapps"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:9.0.87-5.el10_0.3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-48988",
+    "CVE-2025-49125",
+    "CVE-2025-48976",
+    "CVE-2025-48989",
+    "CVE-2025-52520",
+    "CVE-2025-52434",
+    "CVE-2025-53506"
+  ],
+  "published": "2025-08-20T00:00:00Z",
+  "modified": "2025-08-22T10:20:43Z",
+  "details": "Tomcat is the servlet container that is used in the official Reference Implementation for the Java Servlet and JavaServer Pages technologies. The Java Servlet and JavaServer Pages specifications are developed by Sun under the Java Community Process. Tomcat is developed in an open and participatory environment and released under the Apache Software License version 2.0. Tomcat is intended to be a collaboration of the best-of-breed developers from around the world.  \n\nSecurity Fix(es):  \n\n  * tomcat: Apache Tomcat DoS in multipart upload (CVE-2025-48988)\n  * tomcat: Apache Tomcat: Security constraint bypass for pre/post-resources (CVE-2025-49125)\n  * apache-commons-fileupload: Apache Commons FileUpload DoS via part headers (CVE-2025-48976)\n  * tomcat: http/2 \"MadeYouReset\" DoS attack through HTTP/2 control frames (CVE-2025-48989)\n  * tomcat: Apache Tomcat denial of service (CVE-2025-52520)\n  * tomcat: Apache Tomcat denial of service (CVE-2025-52434)\n  * tomcat: Apache Tomcat denial of service (CVE-2025-53506)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:14178",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-48976",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-48988",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-48989",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-49125",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-52434",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-52520",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-53506",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2373015",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2373018",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2373020",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2373309",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2379374",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2379382",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2379386",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2025-14178.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

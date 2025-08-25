@@ -1,0 +1,236 @@
+{
+  "id": "ALSA-2025:14181",
+  "summary": "Important: tomcat security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "tomcat"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:9.0.87-3.el9_6.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "tomcat-admin-webapps"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:9.0.87-3.el9_6.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "tomcat-docs-webapp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:9.0.87-3.el9_6.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "tomcat-el-3.0-api"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:9.0.87-3.el9_6.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "tomcat-jsp-2.3-api"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:9.0.87-3.el9_6.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "tomcat-lib"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:9.0.87-3.el9_6.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "tomcat-servlet-4.0-api"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:9.0.87-3.el9_6.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "tomcat-webapps"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:9.0.87-3.el9_6.3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-48988",
+    "CVE-2025-49125",
+    "CVE-2025-48976",
+    "CVE-2025-48989",
+    "CVE-2025-52520",
+    "CVE-2025-52434",
+    "CVE-2025-53506"
+  ],
+  "published": "2025-08-20T00:00:00Z",
+  "modified": "2025-08-22T11:25:23Z",
+  "details": "Apache Tomcat is a servlet container for the Java Servlet and JavaServer Pages (JSP) technologies.  \n\nSecurity Fix(es):  \n\n  * tomcat: Apache Tomcat DoS in multipart upload (CVE-2025-48988)\n  * tomcat: Apache Tomcat: Security constraint bypass for pre/post-resources (CVE-2025-49125)\n  * apache-commons-fileupload: Apache Commons FileUpload DoS via part headers (CVE-2025-48976)\n  * tomcat: http/2 \"MadeYouReset\" DoS attack through HTTP/2 control frames (CVE-2025-48989)\n  * tomcat: Apache Tomcat denial of service (CVE-2025-52520)\n  * tomcat: Apache Tomcat denial of service (CVE-2025-52434)\n  * tomcat: Apache Tomcat denial of service (CVE-2025-53506)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:14181",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-48976",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-48988",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-48989",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-49125",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-52434",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-52520",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-53506",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2373015",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2373018",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2373020",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2373309",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2379374",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2379382",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2379386",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2025-14181.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

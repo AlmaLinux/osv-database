@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2025:14493",
+  "summary": "Important: aide security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "aide"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.16-103.el9_6.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-54389"
+  ],
+  "published": "2025-08-25T00:00:00Z",
+  "modified": "2025-08-27T11:45:24Z",
+  "details": "Advanced Intrusion Detection Environment (AIDE) is a utility that creates a database of files on the system, and then uses that database to ensure file integrity and detect system intrusions.  \n\nSecurity Fix(es):  \n\n  * aide: improper output neutralization enables bypassing (CVE-2025-54389)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:14493",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-54389",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2388019",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2025-14493.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

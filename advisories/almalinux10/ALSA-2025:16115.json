@@ -1,0 +1,171 @@
+{
+  "id": "ALSA-2025:16115",
+  "summary": "Moderate: gnutls security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "gnutls"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.8.9-9.el10_0.14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "gnutls-c++"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.8.9-9.el10_0.14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "gnutls-dane"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.8.9-9.el10_0.14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "gnutls-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.8.9-9.el10_0.14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "gnutls-fips"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.8.9-9.el10_0.14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "gnutls-utils"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.8.9-9.el10_0.14"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-32990",
+    "CVE-2025-32989",
+    "CVE-2025-32988",
+    "CVE-2025-6395"
+  ],
+  "published": "2025-09-17T00:00:00Z",
+  "modified": "2025-09-18T08:34:55Z",
+  "details": "The gnutls packages provide the GNU Transport Layer Security (GnuTLS) library, which implements cryptographic algorithms and protocols such as SSL, TLS, and DTLS.  \n\nSecurity Fix(es):  \n\n  * gnutls: Vulnerability in GnuTLS certtool template parsing (CVE-2025-32990)\n  * gnutls: Vulnerability in GnuTLS SCT extension parsing (CVE-2025-32989)\n  * gnutls: Vulnerability in GnuTLS otherName SAN export (CVE-2025-32988)\n  * gnutls: NULL pointer dereference in _gnutls_figure_common_ciphersuite() (CVE-2025-6395)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * gnutls: Vulnerability in GnuTLS certtool template parsing (BZ#2359620)\n  * gnutls: Vulnerability in GnuTLS SCT extension parsing (BZ#2359621)\n  * gnutls: Vulnerability in GnuTLS otherName SAN export (BZ#2359622)\n  * gnutls: NULL pointer dereference in _gnutls_figure_common_ciphersuite() (BZ#2376755)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:16115",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-32988",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-32989",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-32990",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-6395",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2359620",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2359621",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2359622",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2376755",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2025-16115.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

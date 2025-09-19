@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2025:15874",
+  "summary": "Moderate: python-cryptography security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "python3-cryptography"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "36.0.1-5.el9_6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-49083"
+  ],
+  "published": "2025-09-16T00:00:00Z",
+  "modified": "2025-09-18T10:25:39Z",
+  "details": "Python is an interpreted, interactive, object-oriented programming language, which includes modules, classes, exceptions, very high level dynamic data types and dynamic typing. Python supports interfaces to many system calls and libraries, as well as to various windowing systems.  \n\nSecurity Fix(es):  \n\n  * python-cryptography: NULL-dereference when loading PKCS7 certificates (CVE-2023-49083)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:15874",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-49083",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2255331",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2025-15874.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "ALSA-2025:16108",
+  "summary": "Important: firefox security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "firefox"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "140.3.0-1.el9_6.alma.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "firefox-x11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "140.3.0-1.el9_6.alma.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-10527",
+    "CVE-2025-10532",
+    "CVE-2025-10528",
+    "CVE-2025-10529",
+    "CVE-2025-10537",
+    "CVE-2025-10536",
+    "CVE-2025-10533"
+  ],
+  "published": "2025-09-17T00:00:00Z",
+  "modified": "2025-09-29T08:52:33Z",
+  "details": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.  \n\nSecurity Fix(es):  \n\n  * firefox: thunderbird: Sandbox escape due to use-after-free in the Graphics: Canvas2D component (CVE-2025-10527)\n  * firefox: thunderbird: Incorrect boundary conditions in the JavaScript: GC component (CVE-2025-10532)\n  * firefox: thunderbird: Sandbox escape due to undefined behavior, invalid pointer in the Graphics: Canvas2D component (CVE-2025-10528)\n  * firefox: thunderbird: Same-origin policy bypass in the Layout component (CVE-2025-10529)\n  * firefox: thunderbird: Memory safety bugs fixed in Firefox ESR 140.3, Thunderbird ESR 140.3, Firefox 143 and Thunderbird 143 (CVE-2025-10537)\n  * firefox: thunderbird: Information disclosure in the Networking: Cache component (CVE-2025-10536)\n  * firefox: thunderbird: Integer overflow in the SVG component (CVE-2025-10533)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:16108",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-10527",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-10528",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-10529",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-10532",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-10533",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-10536",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-10537",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2395745",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2395754",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2395755",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2395756",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2395759",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2395764",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2395766",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2025-16108.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

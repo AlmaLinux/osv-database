@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2025:16432",
+  "summary": "Moderate: opentelemetry-collector security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "opentelemetry-collector"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.127.0-3.el10_0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-4673"
+  ],
+  "published": "2025-09-23T00:00:00Z",
+  "modified": "2025-09-29T09:41:45Z",
+  "details": "Collector with the supported components for a AlmaLinux build of OpenTelemetry  \n\nSecurity Fix(es):  \n\n  * net/[http:](http:) Sensitive headers not cleared on cross-origin redirect in net/http (CVE-2025-4673)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:16432",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-4673",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2373305",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2025-16432.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2025:17119",
+  "summary": "Moderate: perl-JSON-XS security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "perl-JSON-XS"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:4.04-1.el10_0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-40928"
+  ],
+  "published": "2025-09-30T00:00:00Z",
+  "modified": "2025-10-01T12:21:59Z",
+  "details": "This module converts Perl data structures to JSON and vice versa. Its primary goal is to be correct and its secondary goal is to be fast. To reach the latter goal it was written in C.  \n\nSecurity Fix(es):  \n\n  * JSON-XS: integer buffer overflow causing a segfault when parsing crafted JSON (CVE-2025-40928)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:17119",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-40928",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2393878",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2025-17119.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

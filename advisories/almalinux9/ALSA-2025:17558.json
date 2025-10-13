@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2025:17558",
+  "summary": "Moderate: iputils security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "iputils"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20210202-11.el9_6.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "iputils-ninfod"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20210202-11.el9_6.3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-48964"
+  ],
+  "published": "2025-10-08T00:00:00Z",
+  "modified": "2025-10-13T08:54:54Z",
+  "details": "The iputils packages contain basic utilities for monitoring a network, including ping.   \n\nSecurity Fix(es):  \n\n  * iputils: iputils integer overflow (CVE-2025-48964)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:17558",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-48964",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2382657",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2025-17558.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2025:17675",
+  "summary": "Important: compat-libtiff3 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "compat-libtiff3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.9.4-14.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-9900"
+  ],
+  "published": "2025-10-09T00:00:00Z",
+  "modified": "2025-10-13T10:06:16Z",
+  "details": "The libtiff3 package provides libtiff 3, an older version of libtiff library for manipulating TIFF (Tagged Image File Format) image format files. This version should be used only if you are unable to use the current version of libtiff.  \n\nSecurity Fix(es):  \n\n  * libtiff: Libtiff Write-What-Where (CVE-2025-9900)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:17675",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-9900",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2392784",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2025-17675.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

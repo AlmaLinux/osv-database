@@ -1,0 +1,103 @@
+{
+  "id": "ALSA-2025:18154",
+  "summary": "Important: firefox security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "firefox"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "140.4.0-3.el10_0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-11714",
+    "CVE-2025-11709",
+    "CVE-2025-11710",
+    "CVE-2025-11708",
+    "CVE-2025-11712",
+    "CVE-2025-11715",
+    "CVE-2025-11711"
+  ],
+  "published": "2025-10-15T00:00:00Z",
+  "modified": "2025-10-20T12:30:08Z",
+  "details": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.  \n\nSecurity Fix(es):  \n\n  * thunderbird: firefox: Memory safety bugs (CVE-2025-11714)\n  * thunderbird: firefox: Out of bounds read/write in a privileged process triggered by WebGL textures (CVE-2025-11709)\n  * thunderbird: firefox: Cross-process information leaked due to malicious IPC messages (CVE-2025-11710)\n  * thunderbird: firefox: Use-after-free in MediaTrackGraphImpl::GetInstance() (CVE-2025-11708)\n  * thunderbird: firefox: An OBJECT tag type attribute overrode browser behavior on web resources without a content-type (CVE-2025-11712)\n  * thunderbird: firefox: Memory safety bugs fixed in Firefox ESR 140.4, Thunderbird ESR 140.4, Firefox 144 and Thunderbird 144 (CVE-2025-11715)\n  * thunderbird: firefox: Some non-writable Object properties could be modified (CVE-2025-11711)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:18154",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-11708",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-11709",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-11710",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-11711",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-11712",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-11714",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-11715",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2403763",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2403765",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2403768",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2403769",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2403770",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2403774",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2403776",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2025-18154.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

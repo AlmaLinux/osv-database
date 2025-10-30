@@ -1,0 +1,114 @@
+{
+  "id": "ALSA-2025:19238",
+  "summary": "Important: redis:6 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "redis"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.20-1.module_el8.10.0+4056+739731b0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "redis-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.20-1.module_el8.10.0+4056+739731b0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "redis-doc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.20-1.module_el8.10.0+4056+739731b0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-46817",
+    "CVE-2025-46818",
+    "CVE-2025-46819",
+    "CVE-2025-49844"
+  ],
+  "published": "2025-10-29T00:00:00Z",
+  "modified": "2025-10-30T07:01:24Z",
+  "details": "Redis is an advanced key-value store. It is often referred to as a data-structure server since keys can contain strings, hashes, lists, sets, and sorted sets. For performance, Redis works with an in-memory data set. You can persist it either by dumping the data set to disk every once in a while, or by appending each command to a log.  \n\nSecurity Fix(es):  \n\n  * redis: Lua library commands may lead to integer overflow and potential RCE (CVE-2025-46817)\n  * Redis: Redis: Authenticated users can execute LUA scripts as a different user (CVE-2025-46818)\n  * Redis: Redis is vulnerable to DoS via specially crafted LUA scripts (CVE-2025-46819)\n  * Redis: Redis Lua Use-After-Free may lead to remote code execution (CVE-2025-49844)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:19238",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-46817",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-46818",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-46819",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-49844",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2401258",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2401292",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2401322",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2401324",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2025-19238.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

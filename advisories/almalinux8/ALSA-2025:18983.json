@@ -1,0 +1,103 @@
+{
+  "id": "ALSA-2025:18983",
+  "summary": "Important: thunderbird security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "thunderbird"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "140.4.0-2.el8_10.alma.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-11714",
+    "CVE-2025-11709",
+    "CVE-2025-11710",
+    "CVE-2025-11708",
+    "CVE-2025-11712",
+    "CVE-2025-11715",
+    "CVE-2025-11711"
+  ],
+  "published": "2025-10-22T00:00:00Z",
+  "modified": "2025-10-27T08:16:53Z",
+  "details": "Mozilla Thunderbird is a standalone mail and newsgroup client.  \n\nSecurity Fix(es):  \n\n  * thunderbird: firefox: Memory safety bugs (CVE-2025-11714)\n  * thunderbird: firefox: Out of bounds read/write in a privileged process triggered by WebGL textures (CVE-2025-11709)\n  * thunderbird: firefox: Cross-process information leaked due to malicious IPC messages (CVE-2025-11710)\n  * thunderbird: firefox: Use-after-free in MediaTrackGraphImpl::GetInstance() (CVE-2025-11708)\n  * thunderbird: firefox: An OBJECT tag type attribute overrode browser behavior on web resources without a content-type (CVE-2025-11712)\n  * thunderbird: firefox: Memory safety bugs fixed in Firefox ESR 140.4, Thunderbird ESR 140.4, Firefox 144 and Thunderbird 144 (CVE-2025-11715)\n  * thunderbird: firefox: Some non-writable Object properties could be modified (CVE-2025-11711)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:18983",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-11708",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-11709",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-11710",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-11711",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-11712",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-11714",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-11715",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2403763",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2403765",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2403768",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2403769",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2403770",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2403774",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2403776",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2025-18983.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "ALSA-2025:19714",
+  "summary": "Important: libsoup security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libsoup"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.62.3-10.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libsoup-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.62.3-10.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-4945",
+    "CVE-2025-11021"
+  ],
+  "published": "2025-11-04T00:00:00Z",
+  "modified": "2025-11-07T08:29:27Z",
+  "details": "The libsoup packages provide an HTTP client and server library for GNOME.  \n\nSecurity Fix(es):  \n\n  * libsoup: Integer Overflow in Cookie Expiration Date Handling in libsoup (CVE-2025-4945)\n  * libsoup: Out-of-Bounds Read in Cookie Date Handling of libsoup HTTP Library (CVE-2025-11021)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:19714",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-11021",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-4945",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2367175",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2399627",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2025-19714.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

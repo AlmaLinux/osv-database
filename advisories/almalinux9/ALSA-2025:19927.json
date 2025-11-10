@@ -1,0 +1,67 @@
+{
+  "id": "ALSA-2025:19927",
+  "summary": "Important: runc security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "runc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4:1.2.5-3.el9_6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-31133",
+    "CVE-2025-52565",
+    "CVE-2025-52881"
+  ],
+  "published": "2025-11-07T00:00:00Z",
+  "modified": "2025-11-10T12:59:59Z",
+  "details": "The runC tool is a lightweight, portable implementation of the Open Container Format (OCF) that provides container runtime.  \n\nSecurity Fix(es):  \n\n  * runc: container escape via 'masked path' abuse due to mount race conditions (CVE-2025-31133)\n  * runc: container escape with malicious config due to /dev/console mount and related races (CVE-2025-52565)\n  * runc: container escape and denial of service due to arbitrary write gadgets and procfs write redirects (CVE-2025-52881)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:19927",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-31133",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-52565",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-52881",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2404705",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2404708",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2404715",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2025-19927.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

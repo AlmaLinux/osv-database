@@ -1,0 +1,87 @@
+{
+  "id": "ALSA-2025:20034",
+  "summary": "Important: libtiff security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libtiff"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.9-36.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libtiff-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.9-36.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libtiff-tools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.9-36.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-8176"
+  ],
+  "published": "2025-11-10T00:00:00Z",
+  "modified": "2025-11-11T12:31:49Z",
+  "details": "The libtiff packages contain a library of functions for manipulating Tagged Image File Format (TIFF) files.  \n\nSecurity Fix(es):  \n\n  * libtiff: LibTIFF Use-After-Free Vulnerability (CVE-2025-8176)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:20034",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-8176",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2383598",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2025-20034.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

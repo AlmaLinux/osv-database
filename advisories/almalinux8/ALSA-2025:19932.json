@@ -1,0 +1,238 @@
+{
+  "id": "ALSA-2025:19932",
+  "summary": "Moderate: kernel-rt security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.83.1.rt7.424.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.83.1.rt7.424.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-debug"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.83.1.rt7.424.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-debug-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.83.1.rt7.424.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-debug-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.83.1.rt7.424.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-debug-modules"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.83.1.rt7.424.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-debug-modules-extra"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.83.1.rt7.424.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.83.1.rt7.424.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-modules"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.83.1.rt7.424.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-modules-extra"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.83.1.rt7.424.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-40300",
+    "CVE-2023-53178",
+    "CVE-2022-50367"
+  ],
+  "published": "2025-11-10T00:00:00Z",
+  "modified": "2025-11-11T12:37:42Z",
+  "details": "The kernel-rt packages provide the Real Time Linux Kernel, which enables fine-tuning for systems with extremely high determinism requirements.  \n\nSecurity Fix(es):  \n\n  * kernel: x86/vmscape: Add conditional IBPB mitigation (CVE-2025-40300)\n  * kernel: mm: fix zswap writeback race condition (CVE-2023-53178)\n  * kernel: fs: fix UAF/GPF bug in nilfs_mdt_destroy (CVE-2022-50367)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:19932",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2022-50367",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-53178",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-40300",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2394627",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2395358",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2396114",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2025-19932.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

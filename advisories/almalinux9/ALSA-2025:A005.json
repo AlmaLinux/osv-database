@@ -672,7 +672,7 @@
     "CVE-2025-6019"
   ],
   "published": "2025-06-20T00:00:00Z",
-  "modified": "2025-06-20T15:05:16Z",
+  "modified": "2025-06-20T15:05:10Z",
   "details": "libblockdev is a C library supporting GObject introspection for manipulation of block devices. It has a plugin-based architecture where each technology (like LVM, Btrfs, MD RAID, Swap,...) is implemented in a separate plugin, possibly with multiple implementations (e.g. using LVM CLI or the new LVM DBus API).\n\nSecurity Fix(es):\n\n* libblockdev: Due to the way libblockdev interacts with the udisks daemon, an \"allow_active\" user on a system may be able escalate to full root privileges on the target host. (CVE-2025-6019)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {

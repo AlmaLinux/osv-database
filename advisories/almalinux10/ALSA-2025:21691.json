@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2025:21691",
+  "summary": "Important: haproxy security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "haproxy"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.0.5-4.el10_1.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-11230"
+  ],
+  "published": "2025-11-18T00:00:00Z",
+  "modified": "2025-11-24T12:50:19Z",
+  "details": "The haproxy packages provide a reliable, high-performance network load balancer for TCP and HTTP-based applications.  \n\nSecurity Fix(es):  \n\n  * haproxy: denial of service vulnerability in HAProxy mjson library (CVE-2025-11230)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:21691",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-11230",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2413003",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2025-21691.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

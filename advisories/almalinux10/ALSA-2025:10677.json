@@ -5,63 +5,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:10",
-        "name": "go-toolset"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.24.4-1.el10_0.alma.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "golang"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.24.4-1.el10_0.alma.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "golang-bin"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.24.4-1.el10_0.alma.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
         "name": "golang-docs"
       },
       "ranges": [
@@ -82,25 +25,6 @@
       "package": {
         "ecosystem": "AlmaLinux:10",
         "name": "golang-misc"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.24.4-1.el10_0.alma.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "golang-race"
       },
       "ranges": [
         {
@@ -159,7 +83,7 @@
     "CVE-2025-4673"
   ],
   "published": "2025-07-09T00:00:00Z",
-  "modified": "2025-07-10T21:56:39Z",
+  "modified": "2025-07-10T21:56:32Z",
   "details": "The golang packages provide the Go programming language compiler.  \n\nSecurity Fix(es):  \n\n  * net/[http:](http:) Sensitive headers not cleared on cross-origin redirect in net/http (CVE-2025-4673)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {

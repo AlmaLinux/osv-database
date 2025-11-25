@@ -5,44 +5,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:10",
-        "name": "libsoup3"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3.6.5-3.el10_0.6"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "libsoup3-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3.6.5-3.el10_0.6"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
         "name": "libsoup3-doc"
       },
       "ranges": [
@@ -67,7 +29,7 @@
     "CVE-2025-4948"
   ],
   "published": "2025-05-26T00:00:00Z",
-  "modified": "2025-06-16T12:31:23Z",
+  "modified": "2025-05-29T10:09:38Z",
   "details": "Libsoup is an HTTP library implementation in C. It was originally part of a SOAP (Simple Object Access Protocol) implementation called Soup, but the SOAP and non-SOAP parts have now been split into separate packages. libsoup uses the Glib main loop and is designed to work well with GTK applications. This enables GNOME applications to access HTTP servers on the network in a completely asynchronous fashion, very similar to the Gtk+ programming model (a synchronous operation mode is also supported for those who want it), but the SOAP parts were removed long ago.  \n\nSecurity Fix(es):  \n\n  * libsoup: Denial of Service attack to websocket server (CVE-2025-32049)\n  * libsoup: Denial of service in server when client requests a large amount of overlapping ranges with Range header (CVE-2025-32907)\n  * libsoup: Cookie domain validation bypass via uppercase characters in libsoup (CVE-2025-4035)\n  * libsoup: Integer Underflow in soup_multipart_new_from_message() Leading to Denial of Service in libsoup (CVE-2025-4948)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {

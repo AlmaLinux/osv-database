@@ -5,64 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:10",
-        "name": "ruby"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3.3.8-10.el10_0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "ruby-bundled-gems"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3.3.8-10.el10_0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
         "name": "ruby-default-gems"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3.3.8-10.el10_0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "ruby-devel"
       },
       "ranges": [
         {
@@ -100,44 +43,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:10",
-        "name": "ruby-libs"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3.3.8-10.el10_0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "rubygem-bigdecimal"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3.1.5-10.el10_0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
         "name": "rubygem-bundler"
       },
       "ranges": [
@@ -157,25 +62,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:10",
-        "name": "rubygem-io-console"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "0.7.1-10.el10_0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
         "name": "rubygem-irb"
       },
       "ranges": [
@@ -187,25 +73,6 @@
             },
             {
               "fixed": "1.13.1-10.el10_0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "rubygem-json"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.7.2-10.el10_0"
             }
           ]
         }
@@ -252,44 +119,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:10",
-        "name": "rubygem-psych"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "5.1.2-10.el10_0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "rubygem-racc"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.7.3-10.el10_0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
         "name": "rubygem-rake"
       },
       "ranges": [
@@ -301,25 +130,6 @@
             },
             {
               "fixed": "13.1.0-10.el10_0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "rubygem-rbs"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3.4.0-10.el10_0"
             }
           ]
         }
@@ -465,7 +275,7 @@
     "CVE-2025-27221"
   ],
   "published": "2025-05-26T00:00:00Z",
-  "modified": "2025-05-29T10:13:10Z",
+  "modified": "2025-05-29T10:13:08Z",
   "details": "Ruby is an extensible, interpreted, object-oriented, scripting language. It has features to process text files and to perform system management tasks.  \n\nSecurity Fix(es):  \n\n  * net-imap: Net::IMAP vulnerable to possible DoS by memory exhaustion (CVE-2025-25186)\n  * CGI: Denial of Service in CGI::Cookie.parse (CVE-2025-27219)\n  * uri: userinfo leakage in URI#join, URI#merge and URI#+ (CVE-2025-27221)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {

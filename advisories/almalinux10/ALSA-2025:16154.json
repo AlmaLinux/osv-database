@@ -24,83 +24,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:10",
-        "name": "grub2-efi-aa64"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:2.12-15.el10_0.alma.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "grub2-efi-aa64-cdboot"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:2.12-15.el10_0.alma.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
         "name": "grub2-efi-aa64-modules"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:2.12-15.el10_0.alma.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "grub2-efi-x64"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:2.12-15.el10_0.alma.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "grub2-efi-x64-cdboot"
       },
       "ranges": [
         {
@@ -138,45 +62,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:10",
-        "name": "grub2-pc"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:2.12-15.el10_0.alma.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
         "name": "grub2-pc-modules"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:2.12-15.el10_0.alma.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "grub2-ppc64le"
       },
       "ranges": [
         {
@@ -210,82 +96,6 @@
           ]
         }
       ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "grub2-tools"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:2.12-15.el10_0.alma.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "grub2-tools-efi"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:2.12-15.el10_0.alma.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "grub2-tools-extra"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:2.12-15.el10_0.alma.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "grub2-tools-minimal"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:2.12-15.el10_0.alma.1"
-            }
-          ]
-        }
-      ]
     }
   ],
   "related": [
@@ -296,7 +106,7 @@
     "CVE-2025-1118"
   ],
   "published": "2025-09-18T00:00:00Z",
-  "modified": "2025-09-25T11:35:01Z",
+  "modified": "2025-09-25T11:34:59Z",
   "details": "The grub2 packages provide version 2 of the Grand Unified Boot Loader (GRUB), a highly configurable and customizable boot loader with modular architecture. The packages support a variety of kernel formats, file systems, computer architectures, and hardware devices.  \n\nSecurity Fix(es):  \n\n  * grub2: grub-core/gettext: Integer overflow leads to Heap OOB Write and Read. (CVE-2024-45776)\n  * grub2: fs/ufs: OOB write in the heap (CVE-2024-45781)\n  * grub2: command/gpg: Use-after-free due to hooks not being removed on module unload (CVE-2025-0622)\n  * grub2: UFS: Integer overflow may lead to heap based out-of-bounds write when handling symlinks (CVE-2025-0677)\n  * grub2: commands/dump: The dump command is not in lockdown when secure boot is enabled (CVE-2025-1118)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {

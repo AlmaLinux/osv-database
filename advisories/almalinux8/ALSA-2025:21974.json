@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2025:21974",
+  "summary": "Important: mingw-expat security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mingw32-expat"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.0-1.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mingw64-expat"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.0-1.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-59375"
+  ],
+  "published": "2025-11-24T00:00:00Z",
+  "modified": "2025-12-01T07:55:50Z",
+  "details": "Expat is a C library for parsing XML documents. The mingw-expat packages provide a port of the Expat library for MinGW.   \n\nSecurity Fix(es):  \n\n  * expat: libexpat in Expat allows attackers to trigger large dynamic memory allocations via a small document that is submitted for parsing (CVE-2025-59375)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:21974",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-59375",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2395108",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2025-21974.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

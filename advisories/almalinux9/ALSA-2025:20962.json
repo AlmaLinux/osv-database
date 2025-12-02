@@ -1,0 +1,104 @@
+{
+  "id": "ALSA-2025:20962",
+  "summary": "Important: pcs security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "pcs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.11.10-1.el9_7.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "pcs-snmp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.11.10-1.el9_7.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-59830",
+    "CVE-2025-61770",
+    "CVE-2025-61771",
+    "CVE-2025-61772",
+    "CVE-2025-61919"
+  ],
+  "published": "2025-11-11T00:00:00Z",
+  "modified": "2025-12-01T08:09:09Z",
+  "details": "The pcs packages provide a command-line configuration system for the Pacemaker and Corosync utilities.  \n\nSecurity Fix(es):  \n\n  * rubygem-rack: Rack QueryParser has an unsafe default allowing params_limit bypass via semicolon-separated parameters (CVE-2025-59830)\n  * rack: Rack's unbounded multipart preamble buffering enables DoS (memory exhaustion) (CVE-2025-61770)\n  * rack: Rack's multipart parser buffers large non?file fields entirely in memory, enabling DoS (memory exhaustion) (CVE-2025-61771)\n  * rack: Rack memory exhaustion denial of service (CVE-2025-61772)\n  * rubygem-rack: Unbounded read in `Rack::Request` form parsing can lead to memory exhaustion (CVE-2025-61919)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:20962",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-59830",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-61770",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-61771",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-61772",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-61919",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2398167",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2402174",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2402175",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2402200",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2403180",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2025-20962.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

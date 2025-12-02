@@ -1,0 +1,122 @@
+{
+  "id": "ALSA-2025:21968",
+  "summary": "Important: gimp security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gimp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.0.4-1.el9_7.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gimp-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.0.4-1.el9_7.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-10922",
+    "CVE-2025-10920",
+    "CVE-2025-10923",
+    "CVE-2025-10921",
+    "CVE-2025-10925",
+    "CVE-2025-10924",
+    "CVE-2025-10934"
+  ],
+  "published": "2025-11-24T00:00:00Z",
+  "modified": "2025-12-01T07:58:09Z",
+  "details": "The GIMP (GNU Image Manipulation Program) is an image composition and editing program. GIMP provides a large image manipulation toolbox, including channel operations and layers, effects, sub-pixel imaging and anti-aliasing, and conversions, all with multi-level undo.  \n\nSecurity Fix(es):  \n\n  * gimp: GIMP DCM File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability (CVE-2025-10922)\n  * gimp: GIMP ICNS File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability (CVE-2025-10920)\n  * gimp: GIMP WBMP File Parsing Integer Overflow Remote Code Execution Vulnerability (CVE-2025-10923)\n  * gimp: GIMP HDR File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability (CVE-2025-10921)\n  * gimp: GIMP ILBM File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability (CVE-2025-10925)\n  * gimp: GIMP FF File Parsing Integer Overflow Remote Code Execution Vulnerability (CVE-2025-10924)\n  * gimp: GIMP XWD File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability (CVE-2025-10934)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:21968",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-10920",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-10921",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-10922",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-10923",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-10924",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-10925",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-10934",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2407188",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2407191",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2407192",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2407194",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2407199",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2407200",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2407233",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2025-21968.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

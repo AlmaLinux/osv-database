@@ -1,0 +1,87 @@
+{
+  "id": "ALSA-2025:22361",
+  "summary": "Moderate: qt6-qtquick3d security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "qt6-qtquick3d"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.9.1-1.el10_1.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "qt6-qtquick3d-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.9.1-1.el10_1.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "qt6-qtquick3d-examples"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.9.1-1.el10_1.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-11277"
+  ],
+  "published": "2025-12-01T00:00:00Z",
+  "modified": "2025-12-05T07:43:58Z",
+  "details": "The Qt 6 Quick3D library.  \n\nSecurity Fix(es):  \n\n  * assimp: Open Asset Import Library Assimp Q3DLoader.cpp InternReadFile heap-based overflow (CVE-2025-11277)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:22361",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-11277",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2401622",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2025-22361.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

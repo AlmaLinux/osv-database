@@ -1,0 +1,259 @@
+{
+  "id": "ALSA-2025:22790",
+  "summary": "Important: webkit2gtk3 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "webkit2gtk3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.50.3-1.el9_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "webkit2gtk3-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.50.3-1.el9_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "webkit2gtk3-jsc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.50.3-1.el9_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "webkit2gtk3-jsc-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.50.3-1.el9_7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-13502",
+    "CVE-2023-43000",
+    "CVE-2025-43392",
+    "CVE-2025-43419",
+    "CVE-2025-43425",
+    "CVE-2025-43427",
+    "CVE-2025-43429",
+    "CVE-2025-43430",
+    "CVE-2025-43431",
+    "CVE-2025-43432",
+    "CVE-2025-43434",
+    "CVE-2025-43440",
+    "CVE-2025-43443",
+    "CVE-2025-43480",
+    "CVE-2025-43421",
+    "CVE-2025-13947",
+    "CVE-2025-43458",
+    "CVE-2025-66287"
+  ],
+  "published": "2025-12-08T00:00:00Z",
+  "modified": "2025-12-08T14:01:28Z",
+  "details": "WebKitGTK is the port of the portable web rendering engine WebKit to the GTK platform.  \n\nSecurity Fix(es):  \n\n  * webkit: WebKitGTK / WPE WebKit: Out-of-bounds read and integer underflow vulnerability leading to DoS (CVE-2025-13502)\n  * webkitgtk: Processing maliciously crafted web content may lead to memory corruption (CVE-2023-43000)\n  * webkitgtk: A website may exfiltrate image data cross-origin (CVE-2025-43392)\n  * webkitgtk: Processing maliciously crafted web content may lead to memory corruption (CVE-2025-43419)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected process crash (CVE-2025-43425)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected process crash (CVE-2025-43427)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected process crash (CVE-2025-43429)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected process crash (CVE-2025-43430)\n  * webkitgtk: Processing maliciously crafted web content may lead to memory corruption (CVE-2025-43431)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected process crash (CVE-2025-43432)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash (CVE-2025-43434)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected process crash (CVE-2025-43440)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected process crash (CVE-2025-43443)\n  * webkitgtk: A malicious website may exfiltrate data cross-origin (CVE-2025-43480)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected process crash (CVE-2025-43421)\n  * webkit: WebKitGTK: Remote user-assisted information disclosure via file drag-and-drop (CVE-2025-13947)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected process crash (CVE-2025-43458)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected process crash (CVE-2025-66287)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:22790",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-43000",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-13502",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-13947",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-43392",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-43419",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-43421",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-43425",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-43427",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-43429",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-43430",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-43431",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-43432",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-43434",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-43440",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-43443",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-43458",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-43480",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-66287",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2416300",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2416324",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2416325",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2416326",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2416327",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2416329",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2416330",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2416331",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2416332",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2416334",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2416335",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2416336",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2416337",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2416338",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2416355",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2418576",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2418855",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2418857",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2025-22790.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,321 @@
+{
+  "id": "ALSA-2025:23137",
+  "summary": "Moderate: mysql:8.4 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mecab"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.996-2.module_el8.10.0+4060+d4256e26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mecab-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.996-2.module_el8.10.0+4060+d4256e26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mecab-ipadic"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.0.20070801-17.module_el8.10.0+4060+d4256e26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mecab-ipadic-EUCJP"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.0.20070801-17.module_el8.10.0+4060+d4256e26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mysql"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.4.7-1.module_el8.10.0+4077+98379720"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mysql-common"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.4.7-1.module_el8.10.0+4077+98379720"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mysql-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.4.7-1.module_el8.10.0+4077+98379720"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mysql-errmsg"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.4.7-1.module_el8.10.0+4077+98379720"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mysql-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.4.7-1.module_el8.10.0+4077+98379720"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mysql-server"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.4.7-1.module_el8.10.0+4077+98379720"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mysql-test"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.4.7-1.module_el8.10.0+4077+98379720"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mysql-test-data"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.4.7-1.module_el8.10.0+4077+98379720"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-53053",
+    "CVE-2025-53044",
+    "CVE-2025-53062",
+    "CVE-2025-53054",
+    "CVE-2025-53045",
+    "CVE-2025-53040",
+    "CVE-2025-53069",
+    "CVE-2025-53042"
+  ],
+  "published": "2025-12-11T00:00:00Z",
+  "modified": "2025-12-12T10:24:42Z",
+  "details": "MySQL is a multi-user, multi-threaded SQL database server. It consists of the MySQL server daemon (mysqld) and many client programs and libraries.  \n\nSecurity Fix(es):  \n\n  * mysql: DML unspecified vulnerability (CPU Oct 2025) (CVE-2025-53053)\n  * mysql: InnoDB unspecified vulnerability (CPU Oct 2025) (CVE-2025-53044)\n  * mysql: InnoDB unspecified vulnerability (CPU Oct 2025) (CVE-2025-53062)\n  * mysql: InnoDB unspecified vulnerability (CPU Oct 2025) (CVE-2025-53054)\n  * mysql: InnoDB unspecified vulnerability (CPU Oct 2025) (CVE-2025-53045)\n  * mysql: Optimizer unspecified vulnerability (CPU Oct 2025) (CVE-2025-53040)\n  * mysql: Components Services unspecified vulnerability (CPU Oct 2025) (CVE-2025-53069)\n  * mysql: Optimizer unspecified vulnerability (CPU Oct 2025) (CVE-2025-53042)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:23137",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-53040",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-53042",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-53044",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-53045",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-53053",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-53054",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-53062",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-53069",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2405486",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2405491",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2405511",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2405514",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2405523",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2405534",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2405541",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2405544",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2025-23137.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

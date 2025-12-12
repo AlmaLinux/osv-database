@@ -1,0 +1,87 @@
+{
+  "id": "ALSA-2025:23142",
+  "summary": "Important: wireshark security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "wireshark"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:3.4.10-8.el9_7.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "wireshark-cli"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:3.4.10-8.el9_7.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "wireshark-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:3.4.10-8.el9_7.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-13499"
+  ],
+  "published": "2025-12-11T00:00:00Z",
+  "modified": "2025-12-12T10:27:48Z",
+  "details": "The wireshark packages contain a network protocol analyzer used to capture and browse the traffic running on a computer network.  \n\nSecurity Fix(es):  \n\n  * wireshark: Access of Uninitialized Pointer in Wireshark (CVE-2025-13499)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:23142",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-13499",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2416293",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2025-23142.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

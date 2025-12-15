@@ -1,0 +1,226 @@
+{
+  "id": "ALSA-2025:23109",
+  "summary": "Moderate: mysql security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "mysql"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.44-1.el9_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "mysql-common"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.44-1.el9_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "mysql-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.44-1.el9_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "mysql-errmsg"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.44-1.el9_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "mysql-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.44-1.el9_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "mysql-server"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.44-1.el9_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "mysql-test"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.44-1.el9_7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-53053",
+    "CVE-2025-53044",
+    "CVE-2025-53062",
+    "CVE-2025-53054",
+    "CVE-2025-53045",
+    "CVE-2025-53040",
+    "CVE-2025-53069",
+    "CVE-2025-53042"
+  ],
+  "published": "2025-12-11T00:00:00Z",
+  "modified": "2025-12-12T10:21:57Z",
+  "details": "MySQL is a multi-user, multi-threaded SQL database server. It consists of the MySQL server daemon (mysqld) and many client programs and libraries.  \n\nSecurity Fix(es):  \n\n  * mysql: DML unspecified vulnerability (CPU Oct 2025) (CVE-2025-53053)\n  * mysql: InnoDB unspecified vulnerability (CPU Oct 2025) (CVE-2025-53044)\n  * mysql: InnoDB unspecified vulnerability (CPU Oct 2025) (CVE-2025-53062)\n  * mysql: InnoDB unspecified vulnerability (CPU Oct 2025) (CVE-2025-53054)\n  * mysql: InnoDB unspecified vulnerability (CPU Oct 2025) (CVE-2025-53045)\n  * mysql: Optimizer unspecified vulnerability (CPU Oct 2025) (CVE-2025-53040)\n  * mysql: Components Services unspecified vulnerability (CPU Oct 2025) (CVE-2025-53069)\n  * mysql: Optimizer unspecified vulnerability (CPU Oct 2025) (CVE-2025-53042)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:23109",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-53040",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-53042",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-53044",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-53045",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-53053",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-53054",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-53062",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-53069",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2405486",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2405491",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2405511",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2405514",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2405523",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2405534",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2405541",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2405544",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2025-23109.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

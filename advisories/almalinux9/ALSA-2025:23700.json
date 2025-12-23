@@ -1,0 +1,151 @@
+{
+  "id": "ALSA-2025:23700",
+  "summary": "Important: webkit2gtk3 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "webkit2gtk3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.50.4-1.el9_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "webkit2gtk3-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.50.4-1.el9_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "webkit2gtk3-jsc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.50.4-1.el9_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "webkit2gtk3-jsc-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.50.4-1.el9_7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-43529",
+    "CVE-2025-43501",
+    "CVE-2025-43531",
+    "CVE-2025-43535",
+    "CVE-2025-43536",
+    "CVE-2025-43541"
+  ],
+  "published": "2025-12-18T00:00:00Z",
+  "modified": "2025-12-22T13:39:46Z",
+  "details": "WebKitGTK is the port of the portable web rendering engine WebKit to the GTK platform.  \n\nSecurity Fix(es):  \n\n  * webkitgtk: webkitgtk: Use-after-free due to improper memory management (CVE-2025-43529)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected process crash (CVE-2025-43501)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected process crash (CVE-2025-43531)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected process crash (CVE-2025-43535)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected process crash (CVE-2025-43536)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash (CVE-2025-43541)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:23700",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-43501",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-43529",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-43531",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-43535",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-43536",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-43541",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2423166",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2423185",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2423187",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2423188",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2423190",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2423191",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2025-23700.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

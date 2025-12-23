@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2025:23744",
+  "summary": "Important: git-lfs security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "git-lfs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.1-4.el9_7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-26625"
+  ],
+  "published": "2025-12-22T00:00:00Z",
+  "modified": "2025-12-22T12:38:08Z",
+  "details": "Git Large File Storage (LFS) replaces large files such as audio samples, videos, datasets, and graphics with text pointers inside Git, while storing the file contents on a remote server.  \n\nSecurity Fix(es):  \n\n  * git-lfs: Git LFS may write to arbitrary files via crafted symlinks (CVE-2025-26625)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:23744",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-26625",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2404720",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2025-23744.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

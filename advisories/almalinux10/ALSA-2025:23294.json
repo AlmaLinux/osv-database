@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2025:23294",
+  "summary": "Moderate: skopeo security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "skopeo"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.20.0-2.el10_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "skopeo-tests"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.20.0-2.el10_1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-58183"
+  ],
+  "published": "2025-12-16T00:00:00Z",
+  "modified": "2025-12-22T13:59:22Z",
+  "details": "The skopeo command lets you inspect images from container image registries, get images and image layers, and use signatures to create and verify files.   \n\nSecurity Fix(es):  \n\n  * golang: archive/tar: Unbounded allocation when parsing GNU sparse map (CVE-2025-58183)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:23294",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-58183",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2407258",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2025-23294.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

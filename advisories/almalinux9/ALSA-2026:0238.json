@@ -1,0 +1,86 @@
+{
+  "id": "ALSA-2026:0238",
+  "summary": "Important: libpng security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libpng"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.6.37-12.el9_7.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libpng-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.6.37-12.el9_7.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-64720",
+    "CVE-2025-65018",
+    "CVE-2025-66293"
+  ],
+  "published": "2026-01-07T00:00:00Z",
+  "modified": "2026-01-07T21:36:21Z",
+  "details": "The libpng packages contain a library of functions for creating and manipulating Portable Network Graphics (PNG) image format files.  \n\nSecurity Fix(es):  \n\n  * libpng: LIBPNG buffer overflow (CVE-2025-64720)\n  * libpng: LIBPNG heap buffer overflow (CVE-2025-65018)\n  * libpng: LIBPNG out-of-bounds read in png_image_read_composite (CVE-2025-66293)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:0238",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-64720",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-65018",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-66293",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2416904",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2416907",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2418711",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-0238.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

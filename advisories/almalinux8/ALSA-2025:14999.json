@@ -1,0 +1,106 @@
+{
+  "id": "ALSA-2025:14999",
+  "summary": "Moderate: resource-agents security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "resource-agents"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.9.0-54.el8_10.16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "resource-agents-aliyun"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.9.0-54.el8_10.16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "resource-agents-gcp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.9.0-54.el8_10.16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "resource-agents-paf"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.9.0-54.el8_10.16"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-47081"
+  ],
+  "published": "2025-09-02T00:00:00Z",
+  "modified": "2026-01-05T21:07:54Z",
+  "details": "The resource-agents packages provide the Pacemaker and RGManager service managers with a set of scripts. These scripts interface with several services to allow operating in a high-availability (HA) environment.  \n\nSecurity Fix(es):  \n\n  * requests: Requests vulnerable to .netrc credentials leak via malicious URLs (CVE-2024-47081)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:14999",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-47081",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2371272",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2025-14999.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

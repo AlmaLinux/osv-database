@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2026:0067",
+  "summary": "Moderate: tar security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "tar"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.34-9.el9_7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-45582"
+  ],
+  "published": "2026-01-05T00:00:00Z",
+  "modified": "2026-01-13T08:42:22Z",
+  "details": "The GNU tar program can save multiple files in an archive and restore files from an archive.  \n\nSecurity Fix(es):  \n\n  * tar: Tar path traversal (CVE-2025-45582)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:0067",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-45582",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2379592",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-0067.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

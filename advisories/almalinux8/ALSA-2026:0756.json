@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2026:0756",
+  "summary": "Moderate: transfig security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "transfig"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:3.2.6a-5.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-46397"
+  ],
+  "published": "2026-01-19T00:00:00Z",
+  "modified": "2026-01-19T10:24:15Z",
+  "details": "The transfig utility creates a makefile which translates FIG (created by xfig) or PIC figures into a specified LaTeX graphics language (for example, PostScript(TM)). Transfig is used to create TeX documents which are portable (i.e., they can be printed in a wide variety of environments). Install transfig if you need a utility for translating FIG or PIC figures into certain graphics languages.  \n\nSecurity Fix(es):  \n\n  * xfig: xfig: Stack-overflow allows possible code execution via local input manipulation (CVE-2025-46397)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:0756",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-46397",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2362058",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-0756.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

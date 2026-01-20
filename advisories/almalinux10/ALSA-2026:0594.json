@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2026:0594",
+  "summary": "Moderate: libpq security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libpq"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "16.11-3.el10_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libpq-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "16.11-3.el10_1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-12818"
+  ],
+  "published": "2026-01-14T00:00:00Z",
+  "modified": "2026-01-16T15:02:50Z",
+  "details": "The libpq package provides the PostgreSQL client library, which allows client programs to connect to PostgreSQL servers.   \n\nSecurity Fix(es):  \n\n  * postgresql: libpq undersizes allocations, via integer wraparound (CVE-2025-12818)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:0594",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-12818",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2414826",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-0594.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

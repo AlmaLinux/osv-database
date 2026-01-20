@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2026:0605",
+  "summary": "Moderate: vsftpd security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "vsftpd"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.0.5-6.el9_7.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-14242"
+  ],
+  "published": "2026-01-14T00:00:00Z",
+  "modified": "2026-01-16T14:57:43Z",
+  "details": "The vsftpd packages include a Very Secure File Transfer Protocol (FTP) daemon, which is used to serve files over a network.  \n\nSecurity Fix(es):  \n\n  * vsftpd: vsftpd: Denial of service via integer overflow in ls command parameter parsing (CVE-2025-14242)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:0605",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-14242",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2419826",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-0605.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

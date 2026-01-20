@@ -1,0 +1,182 @@
+{
+  "id": "ALSA-2026:0668",
+  "summary": "Important: net-snmp security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "net-snmp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:5.9.4-15.el10_1.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "net-snmp-agent-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:5.9.4-15.el10_1.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "net-snmp-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:5.9.4-15.el10_1.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "net-snmp-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:5.9.4-15.el10_1.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "net-snmp-perl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:5.9.4-15.el10_1.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "net-snmp-perl-module"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:5.9.4-15.el10_1.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "net-snmp-utils"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:5.9.4-15.el10_1.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "python3-net-snmp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:5.9.4-15.el10_1.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-68615"
+  ],
+  "published": "2026-01-15T00:00:00Z",
+  "modified": "2026-01-16T14:53:15Z",
+  "details": "The net-snmp packages provide various libraries and tools for the Simple Network Management Protocol (SNMP), including an SNMP library, an extensible agent, tools for requesting or setting information from SNMP agents, tools for generating and handling SNMP traps, a version of the netstat command which uses SNMP, and a Tk/Perl Management Information Base (MIB) browser.  \n\nSecurity Fix(es):  \n\n  * net-snmp: buffer overflow via a specially crafted packet can cause a crash in snmptrapd (CVE-2025-68615)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:0668",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-68615",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2424618",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-0668.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

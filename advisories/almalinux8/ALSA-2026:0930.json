@@ -1,0 +1,77 @@
+{
+  "id": "ALSA-2026:0930",
+  "summary": "Moderate: pcs security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "pcs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.18-2.el8_10.8.alma.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "pcs-snmp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.18-2.el8_10.8.alma.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-67725",
+    "CVE-2025-67726"
+  ],
+  "published": "2026-01-21T00:00:00Z",
+  "modified": "2026-01-24T01:46:11Z",
+  "details": "The pcs packages provide a command-line configuration system for the Pacemaker and Corosync utilities.  \n\nSecurity Fix(es):  \n\n  * tornado: Tornado Quadratic DoS via Repeated Header Coalescing (CVE-2025-67725)\n  * tornado: Tornado Quadratic DoS via Crafted Multipart Parameters (CVE-2025-67726)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:0930",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-67725",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-67726",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2421722",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2421733",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-0930.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

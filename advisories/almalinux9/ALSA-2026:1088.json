@@ -1,0 +1,67 @@
+{
+  "id": "ALSA-2026:1088",
+  "summary": "Important: python3.12-urllib3 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "python3.12-urllib3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.26.19-1.el9_7.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-66418",
+    "CVE-2025-66471",
+    "CVE-2026-21441"
+  ],
+  "published": "2026-01-26T00:00:00Z",
+  "modified": "2026-01-27T08:17:27Z",
+  "details": "Python is an interpreted, interactive, object-oriented programming language, which includes modules, classes, exceptions, very high level dynamic data types and dynamic typing. Python supports interfaces to many system calls and libraries, as well as to various windowing systems.  \n\nSecurity Fix(es):  \n\n  * urllib3: urllib3: Unbounded decompression chain leads to resource exhaustion (CVE-2025-66418)\n  * urllib3: urllib3 Streaming API improperly handles highly compressed data (CVE-2025-66471)\n  * urllib3: urllib3 vulnerable to decompression-bomb safeguard bypass when following HTTP redirects (streaming API) (CVE-2026-21441)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:1088",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-66418",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-66471",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-21441",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2419455",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2419467",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2427726",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-1088.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

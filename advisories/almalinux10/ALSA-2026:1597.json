@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2026:1597",
+  "summary": "Moderate: iperf3 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "iperf3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.17.1-5.el10_1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-54349"
+  ],
+  "published": "2026-01-29T00:00:00Z",
+  "modified": "2026-02-02T10:00:47Z",
+  "details": "Iperf is a tool which can measure maximum TCP bandwidth and tune various parameters and UDP characteristics. Iperf reports bandwidth, delay jitter, and data-gram loss.  \n\nSecurity Fix(es):  \n\n  * iperf3: iperf Heap Buffer Overflow (CVE-2025-54349)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:1597",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-54349",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2386151",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-1597.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

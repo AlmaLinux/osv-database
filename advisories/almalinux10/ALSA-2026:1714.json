@@ -1,0 +1,87 @@
+{
+  "id": "ALSA-2026:1714",
+  "summary": "Moderate: wireshark security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "wireshark"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:4.4.2-4.el10_1.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "wireshark-cli"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:4.4.2-4.el10_1.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "wireshark-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:4.4.2-4.el10_1.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-9817"
+  ],
+  "published": "2026-02-02T00:00:00Z",
+  "modified": "2026-02-03T11:02:21Z",
+  "details": "The wireshark packages contain a network protocol analyzer used to capture and browse the traffic running on a computer network.  \n\nSecurity Fix(es):  \n\n  * Wireshark: NULL Pointer Dereference in Wireshark (CVE-2025-9817)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:1714",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-9817",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2392839",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-1714.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

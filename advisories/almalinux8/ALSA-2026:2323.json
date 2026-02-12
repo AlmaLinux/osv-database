@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2026:2323",
+  "summary": "Important: git-lfs security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "git-lfs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.1-7.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-61729"
+  ],
+  "published": "2026-02-09T00:00:00Z",
+  "modified": "2026-02-11T11:02:49Z",
+  "details": "Git Large File Storage (LFS) replaces large files such as audio samples, videos, datasets, and graphics with text pointers inside Git, while storing the file contents on a remote server.  \n\nSecurity Fix(es):  \n\n  * crypto/x509: golang: Denial of Service due to excessive resource consumption via crafted certificate (CVE-2025-61729)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:2323",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-61729",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2418462",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-2323.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

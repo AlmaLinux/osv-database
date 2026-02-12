@@ -1,0 +1,67 @@
+{
+  "id": "ALSA-2026:2230",
+  "summary": "Important: fontforge security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "fontforge"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20230101-14.el10_1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-15279",
+    "CVE-2025-15269",
+    "CVE-2025-15275"
+  ],
+  "published": "2026-02-09T00:00:00Z",
+  "modified": "2026-02-10T10:04:33Z",
+  "details": "FontForge is a font editor for outline and bitmap fonts. It supports a range of font formats, including PostScript (ASCII and binary Type 1, some Type 3 and Type 0), TrueType, OpenType (Type2) and CID-keyed fonts.   \n\nSecurity Fix(es):  \n\n  * fontforge: FontForge: Remote Code Execution via heap-based buffer overflow in BMP file parsing (CVE-2025-15279)\n  * fontforge: FontForge: Remote Code Execution via Use-After-Free in SFD file parsing (CVE-2025-15269)\n  * fontforge: FontForge: Arbitrary code execution via SFD file parsing buffer overflow (CVE-2025-15275)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:2230",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-15269",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-15275",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-15279",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2426421",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2426423",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2426429",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-2230.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

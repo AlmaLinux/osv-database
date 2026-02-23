@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2026:2707",
+  "summary": "Important: gimp security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gimp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.0.4-1.el9_7.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gimp-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.0.4-1.el9_7.3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-15059"
+  ],
+  "published": "2026-02-16T00:00:00Z",
+  "modified": "2026-02-17T10:29:58Z",
+  "details": "The GIMP (GNU Image Manipulation Program) is an image composition and editing program. GIMP provides a large image manipulation toolbox, including channel operations and layers, effects, sub-pixel imaging and anti-aliasing, and conversions, all with multi-level undo.  \n\nSecurity Fix(es):  \n\n  * gimp: heap-based buffer overflow via specially crafted PSP file (CVE-2025-15059)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:2707",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-15059",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2432296",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-2707.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

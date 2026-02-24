@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2026:2719",
+  "summary": "Important: gnupg2 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "gnupg2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.5-4.el10_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "gnupg2-smime"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.5-4.el10_1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-24882"
+  ],
+  "published": "2026-02-16T00:00:00Z",
+  "modified": "2026-02-18T13:46:37Z",
+  "details": "The GNU Privacy Guard (GnuPG or GPG) is a tool for encrypting data and creating digital signatures, compliant with OpenPGP and S/MIME standards.  \n\nSecurity Fix(es):  \n\n  * GnuPG: GnuPG: Stack-based buffer overflow in tpm2daemon allows arbitrary code execution (CVE-2026-24882)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:2719",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-24882",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2433464",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-2719.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

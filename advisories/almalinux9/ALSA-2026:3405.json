@@ -1,0 +1,86 @@
+{
+  "id": "ALSA-2026:3405",
+  "summary": "Important: libpng security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libpng"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.6.37-12.el9_7.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libpng-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.6.37-12.el9_7.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-22801",
+    "CVE-2026-22695",
+    "CVE-2026-25646"
+  ],
+  "published": "2026-02-26T00:00:00Z",
+  "modified": "2026-03-02T13:11:42Z",
+  "details": "The libpng packages contain a library of functions for creating and manipulating Portable Network Graphics (PNG) image format files.  \n\nSecurity Fix(es):  \n\n  * libpng: libpng: Information disclosure and denial of service via integer truncation in simplified write API (CVE-2026-22801)\n  * libpng: libpng: Denial of service and information disclosure via heap buffer over-read in png_image_finish_read (CVE-2026-22695)\n  * libpng: LIBPNG has a heap buffer overflow in png_set_quantize (CVE-2026-25646)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:3405",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-22695",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-22801",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-25646",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2428824",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2428825",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2438542",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-3405.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

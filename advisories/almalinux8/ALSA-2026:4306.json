@@ -1,0 +1,124 @@
+{
+  "id": "ALSA-2026:4306",
+  "summary": "Important: mingw-libpng security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mingw32-libpng"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6.34-2.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mingw32-libpng-static"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6.34-2.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mingw64-libpng"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6.34-2.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mingw64-libpng-static"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6.34-2.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-22801",
+    "CVE-2026-22695",
+    "CVE-2026-25646"
+  ],
+  "published": "2026-03-11T00:00:00Z",
+  "modified": "2026-03-13T12:35:26Z",
+  "details": "MinGW Windows Libpng library.  \n\nSecurity Fix(es):  \n\n  * libpng: libpng: Information disclosure and denial of service via integer truncation in simplified write API (CVE-2026-22801)\n  * libpng: libpng: Denial of service and information disclosure via heap buffer over-read in png_image_finish_read (CVE-2026-22695)\n  * libpng: LIBPNG has a heap buffer overflow in png_set_quantize (CVE-2026-25646)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:4306",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-22695",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-22801",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-25646",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2428824",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2428825",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2438542",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-4306.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

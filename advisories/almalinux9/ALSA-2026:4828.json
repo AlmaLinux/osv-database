@@ -1,0 +1,208 @@
+{
+  "id": "ALSA-2026:4828",
+  "summary": "Moderate: mysql security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "mysql"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.45-1.el9_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "mysql-common"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.45-1.el9_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "mysql-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.45-1.el9_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "mysql-errmsg"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.45-1.el9_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "mysql-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.45-1.el9_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "mysql-server"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.45-1.el9_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "mysql-test"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.45-1.el9_7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-21941",
+    "CVE-2026-21948",
+    "CVE-2026-21936",
+    "CVE-2026-21968",
+    "CVE-2026-21937",
+    "CVE-2026-21964"
+  ],
+  "published": "2026-03-17T00:00:00Z",
+  "modified": "2026-03-19T15:05:35Z",
+  "details": "MySQL is a multi-user, multi-threaded SQL database server. It consists of the MySQL server daemon (mysqld) and many client programs and libraries.  \n\nSecurity Fix(es):  \n\n  * mysql: Optimizer unspecified vulnerability (CPU Jan 2026) (CVE-2026-21941)\n  * mysql: Optimizer unspecified vulnerability (CPU Jan 2026) (CVE-2026-21948)\n  * mysql: InnoDB unspecified vulnerability (CPU Jan 2026) (CVE-2026-21936)\n  * mysql: Optimizer unspecified vulnerability (CPU Jan 2026) (CVE-2026-21968)\n  * mysql: DDL unspecified vulnerability (CPU Jan 2026) (CVE-2026-21937)\n  * mysql: Thread Pooling unspecified vulnerability (CPU Jan 2026) (CVE-2026-21964)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:4828",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-21936",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-21937",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-21941",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-21948",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-21964",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-21968",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2431384",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2431385",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2431402",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2431409",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2431413",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2431431",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-4828.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

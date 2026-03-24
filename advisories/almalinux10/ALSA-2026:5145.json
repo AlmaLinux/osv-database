@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2026:5145",
+  "summary": "Important: yggdrasil-worker-package-manager security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "yggdrasil-worker-package-manager"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.2.3-4.el10_1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-61726"
+  ],
+  "published": "2026-03-19T00:00:00Z",
+  "modified": "2026-03-20T07:40:23Z",
+  "details": "yggdrasil-worker-package-manager is a simple package manager yggd worker. It knows how to install and remove packages, add, remove, enable and disable repositories, and does rudimentary detection of the host it is running on to guess the package manager to use. It only installs packages that match one of the provided allow-pattern regular expressions.  \n\nSecurity Fix(es):  \n\n  * golang: net/url: Memory exhaustion in query parameter parsing in net/url (CVE-2025-61726)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:5145",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-61726",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2434432",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-5145.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

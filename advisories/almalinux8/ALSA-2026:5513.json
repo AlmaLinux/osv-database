@@ -1,0 +1,144 @@
+{
+  "id": "ALSA-2026:5513",
+  "summary": "Moderate: 389-ds:1.4 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "389-ds-base"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.3.39-23.module_el8.10.0+4139+ef6adba4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "389-ds-base-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.3.39-23.module_el8.10.0+4139+ef6adba4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "389-ds-base-legacy-tools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.3.39-23.module_el8.10.0+4139+ef6adba4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "389-ds-base-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.3.39-23.module_el8.10.0+4139+ef6adba4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "389-ds-base-snmp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.3.39-23.module_el8.10.0+4139+ef6adba4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3-lib389"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.3.39-23.module_el8.10.0+4139+ef6adba4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-14905"
+  ],
+  "published": "2026-03-24T00:00:00Z",
+  "modified": "2026-03-26T11:22:25Z",
+  "details": "389 Directory Server is an LDAP version 3 (LDAPv3) compliant server. The base packages include the Lightweight Directory Access Protocol (LDAP) server and command-line utilities for server administration.   \n\nSecurity Fix(es):  \n\n  * 389-ds-base: 389-ds-base: Remote Code Execution and Denial of Service via heap buffer overflow (CVE-2025-14905)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:5513",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-14905",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2423624",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-5513.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

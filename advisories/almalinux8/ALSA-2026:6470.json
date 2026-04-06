@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2026:6470",
+  "summary": "Important: perl-YAML-Syck security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "perl-YAML-Syck"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.30-6.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-4177"
+  ],
+  "published": "2026-04-02T00:00:00Z",
+  "modified": "2026-04-03T12:07:59Z",
+  "details": "This module provides a Perl interface to the libsyck data serialization library. It exports the Dump and Load functions for converting Perl data structures to YAML strings, and the other way around.  \n\nSecurity Fix(es):  \n\n  * perl-YAML-Syck: YAML::Syck versions through 1.36 for Perl has several potential security vulnerabilities including a high-severity heap buffer overflow in the YAML emitter (CVE-2026-4177)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:6470",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-4177",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2448277",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-6470.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

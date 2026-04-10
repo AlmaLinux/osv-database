@@ -1,0 +1,77 @@
+{
+  "id": "ALSA-2025:8254",
+  "summary": "Important: pcs security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "pcs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.18-2.el8_10.5.alma.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "pcs-snmp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.18-2.el8_10.5.alma.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-46727",
+    "CVE-2025-47287"
+  ],
+  "published": "2025-05-28T00:00:00Z",
+  "modified": "2026-04-09T17:52:37Z",
+  "details": "The pcs packages provide a command-line configuration system for the Pacemaker and Corosync utilities.  \n\nSecurity Fix(es):  \n\n  * rubygem-rack: Unbounded-Parameter DoS in Rack::QueryParser (CVE-2025-46727)\n  * tornado: Tornado Multipart Form-Data Denial of Service (CVE-2025-47287)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2025:8254",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-46727",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-47287",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2364966",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2366703",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2025-8254.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

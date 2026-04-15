@@ -1,0 +1,189 @@
+{
+  "id": "ALSA-2026:6750",
+  "summary": "Important: gstreamer1-plugins-bad-free, gstreamer1-plugins-base, and gstreamer1-plugins-good security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gstreamer1-plugins-bad-free"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.1-6.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gstreamer1-plugins-bad-free-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.1-6.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gstreamer1-plugins-base"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.1-6.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gstreamer1-plugins-base-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.1-6.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gstreamer1-plugins-good"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.1-6.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gstreamer1-plugins-good-gtk"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.1-6.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-2920",
+    "CVE-2026-3082",
+    "CVE-2026-3085",
+    "CVE-2026-2921",
+    "CVE-2026-3083",
+    "CVE-2026-2923"
+  ],
+  "published": "2026-04-07T00:00:00Z",
+  "modified": "2026-04-09T12:29:46Z",
+  "details": "GStreamer is a streaming media framework based on graphs of filters which operate on media data. The gstreamer1-plugins-bad-free package contains a collection of plug-ins for GStreamer.  \n\nSecurity Fix(es):  \n\n  * GStreamer: GStreamer: Arbitrary code execution via ASF file processing (CVE-2026-2920)\n  * GStreamer: GStreamer: Remote Code Execution via heap-based buffer overflow in JPEG parser (CVE-2026-3082)\n  * GStreamer: GStreamer: Remote Code Execution via Heap-based Buffer Overflow in rtpqdm2depay (CVE-2026-3085)\n  * GStreamer: GStreamer: Arbitrary code execution via RIFF palette integer overflow in AVI file handling (CVE-2026-2921)\n  * GStreamer: GStreamer: Remote Code Execution via Out-Of-Bounds Write in rtpqdm2depay (CVE-2026-3083)\n  * GStreamer: GStreamer: Remote Code Execution via out-of-bounds write in DVB Subtitles handling (CVE-2026-2923)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:6750",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-2920",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-2921",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-2923",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-3082",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-3083",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-3085",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2447490",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2447492",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2447495",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2447496",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2447498",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2447503",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-6750.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

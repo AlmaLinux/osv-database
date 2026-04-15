@@ -1,0 +1,124 @@
+{
+  "id": "ALSA-2026:1241",
+  "summary": "Important: resource-agents security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "resource-agents"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.9.0-54.el8_10.27"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "resource-agents-aliyun"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.9.0-54.el8_10.27"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "resource-agents-gcp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.9.0-54.el8_10.27"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "resource-agents-paf"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.9.0-54.el8_10.27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-66418",
+    "CVE-2025-66471",
+    "CVE-2026-21441"
+  ],
+  "published": "2026-01-26T00:00:00Z",
+  "modified": "2026-04-14T07:53:22Z",
+  "details": "The resource-agents packages provide the Pacemaker and RGManager service managers with a set of scripts. These scripts interface with several services to allow operating in a high-availability (HA) environment.  \n\nSecurity Fix(es):  \n\n  * urllib3: urllib3: Unbounded decompression chain leads to resource exhaustion (CVE-2025-66418)\n  * urllib3: urllib3 Streaming API improperly handles highly compressed data (CVE-2025-66471)\n  * urllib3: urllib3 vulnerable to decompression-bomb safeguard bypass when following HTTP redirects (streaming API) (CVE-2026-21441)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:1241",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-66418",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-66471",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-21441",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2419455",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2419467",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2427726",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-1241.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

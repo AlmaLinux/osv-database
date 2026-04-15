@@ -1,0 +1,216 @@
+{
+  "id": "ALSA-2026:7080",
+  "summary": "Important: nodejs22 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "nodejs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:22.22.2-1.el10_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "nodejs-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:22.22.2-1.el10_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "nodejs-docs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:22.22.2-1.el10_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "nodejs-full-i18n"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:22.22.2-1.el10_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "nodejs-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:22.22.2-1.el10_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "nodejs-npm"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:10.9.7-1.22.22.2.1.el10_1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-25547",
+    "CVE-2026-26996",
+    "CVE-2026-27904",
+    "CVE-2026-1526",
+    "CVE-2026-2229",
+    "CVE-2026-1525",
+    "CVE-2026-1528",
+    "CVE-2026-27135",
+    "CVE-2026-21710"
+  ],
+  "published": "2026-04-08T00:00:00Z",
+  "modified": "2026-04-09T02:15:49Z",
+  "details": "Node.js is a platform built on Chrome's JavaScript runtime \\ for easily building fast, scalable network applications. \\ Node.js uses an event-driven, non-blocking I/O model that \\ makes it lightweight and efficient, perfect for data-intensive \\ real-time applications that run across distributed devices.  \n\nSecurity Fix(es):  \n\n  * brace-expansion: brace-expansion: Denial of Service via unbounded brace range expansion (CVE-2026-25547)\n  * minimatch: minimatch: Denial of Service via specially crafted glob patterns (CVE-2026-26996)\n  * minimatch: Minimatch: Denial of Service via catastrophic backtracking in glob expressions (CVE-2026-27904)\n  * undici: undici: Denial of Service via unbounded memory consumption during WebSocket permessage-deflate decompression (CVE-2026-1526)\n  * undici: Undici: Denial of Service via invalid WebSocket permessage-deflate extension parameter (CVE-2026-2229)\n  * undici: Undici: HTTP Request Smuggling and Denial of Service due to duplicate Content-Length headers (CVE-2026-1525)\n  * undici: undici: Denial of Service via crafted WebSocket frame with large length (CVE-2026-1528)\n  * nghttp2: nghttp2: Denial of Service via malformed HTTP/2 frames after session termination (CVE-2026-27135)\n  * Node.js: Node.js: Denial of Service due to crafted HTTP `__proto__` header (CVE-2026-21710)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:7080",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-1525",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-1526",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-1528",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-21710",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-2229",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-25547",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-26996",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-27135",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-27904",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2436942",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2441268",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2442922",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2447142",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2447143",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2447144",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2447145",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2448754",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2453151",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-7080.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

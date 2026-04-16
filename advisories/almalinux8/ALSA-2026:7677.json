@@ -1,0 +1,76 @@
+{
+  "id": "ALSA-2026:7677",
+  "summary": "Important: fontforge security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "fontforge"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20200314-7.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-15279",
+    "CVE-2025-15269",
+    "CVE-2025-15275",
+    "CVE-2025-15270"
+  ],
+  "published": "2026-04-13T00:00:00Z",
+  "modified": "2026-04-15T07:47:47Z",
+  "details": "FontForge is a font editor for outline and bitmap fonts. It supports a range of font formats, including PostScript (ASCII and binary Type 1, some Type 3 and Type 0), TrueType, OpenType (Type2) and CID-keyed fonts.   \n\nSecurity Fix(es):  \n\n  * fontforge: FontForge: Remote Code Execution via heap-based buffer overflow in BMP file parsing (CVE-2025-15279)\n  * fontforge: FontForge: Remote Code Execution via Use-After-Free in SFD file parsing (CVE-2025-15269)\n  * fontforge: FontForge: Arbitrary code execution via SFD file parsing buffer overflow (CVE-2025-15275)\n  * fontforge: FontForge: Remote Code Execution via malicious SFD file parsing (CVE-2025-15270)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:7677",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-15269",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-15270",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-15275",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-15279",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2426421",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2426423",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2426429",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2426434",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-7677.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

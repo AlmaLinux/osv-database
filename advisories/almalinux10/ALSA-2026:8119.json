@@ -1,0 +1,58 @@
+{
+  "id": "ALSA-2026:8119",
+  "summary": "Important: squid security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "squid"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:6.10-6.el10_1.3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-33526",
+    "CVE-2026-32748"
+  ],
+  "published": "2026-04-14T00:00:00Z",
+  "modified": "2026-04-15T07:19:29Z",
+  "details": "Squid is a high-performance proxy caching server for web clients, supporting FTP, and HTTP data objects.  \n\nSecurity Fix(es):  \n\n  * squid: Squid: Denial of Service via heap Use-After-Free vulnerability in ICP handling (CVE-2026-33526)\n  * Squid: Squid: Denial of Service via crafted ICP traffic (CVE-2026-32748)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:8119",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-32748",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-33526",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2451574",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2451577",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-8119.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

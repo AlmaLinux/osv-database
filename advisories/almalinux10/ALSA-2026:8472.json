@@ -1,0 +1,76 @@
+{
+  "id": "ALSA-2026:8472",
+  "summary": "Important: .NET 9.0 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "dotnet-sdk-9.0-source-built-artifacts"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.0.116-1.el10_1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-26171",
+    "CVE-2026-32203",
+    "CVE-2026-33116",
+    "CVE-2026-32178"
+  ],
+  "published": "2026-04-16T00:00:00Z",
+  "modified": "2026-04-17T09:30:12Z",
+  "details": ".NET is a managed-software framework. It implements a subset of the .NET framework APIs and several new APIs, and it includes a CLR implementation.  \n\nNew versions of .NET that address a security vulnerability are now available. The updated versions are .NET SDK 9.0.116 and .NET Runtime 9.0.15.Security Fix(es):  \n\n  * dotnet: .NET: Security Bypass and Denial of Service Vulnerability (CVE-2026-26171)\n  * dotnet: .NET: Denial of Service via stack overflow (CVE-2026-32203)\n  * dotnet: .NET: Denial of Service via Infinite Recursion in XmlDecryptionTransform (CVE-2026-33116)\n  * dotnet: Dotnet: SMTP Command Injection and Header Injection via MailAddress parsing flaw (CVE-2026-32178)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:8472",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-26171",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-32178",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-32203",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-33116",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2457739",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2457740",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2457741",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2457781",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-8472.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

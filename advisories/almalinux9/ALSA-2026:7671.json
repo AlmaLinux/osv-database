@@ -1,0 +1,104 @@
+{
+  "id": "ALSA-2026:7671",
+  "summary": "Important: firefox security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "firefox"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "140.9.1-1.el9_7.alma.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "firefox-x11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "140.9.1-1.el9_7.alma.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-33416",
+    "CVE-2026-33636",
+    "CVE-2026-5734",
+    "CVE-2026-5731",
+    "CVE-2026-5732"
+  ],
+  "published": "2026-04-13T00:00:00Z",
+  "modified": "2026-04-15T08:01:54Z",
+  "details": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.  \n\nSecurity Fix(es):  \n\n  * libpng: libpng: Arbitrary code execution due to use-after-free vulnerability (CVE-2026-33416)\n  * libpng: libpng: Information disclosure and denial of service via out-of-bounds read/write in Neon palette expansion (CVE-2026-33636)\n  * thunderbird: firefox: Memory safety bugs fixed in Firefox ESR 140.9.1, Thunderbird ESR 140.9.1, Firefox 149.0.2 and Thunderbird 149.0.2 (CVE-2026-5734)\n  * thunderbird: firefox: Memory safety bugs fixed in Firefox ESR 115.34.1, Firefox ESR 140.9.1, Thunderbird ESR 140.9.1, Firefox 149.0.2 and Thunderbird 149.0.2 (CVE-2026-5731)\n  * firefox: thunderbird: Incorrect boundary conditions, integer overflow in the Graphics: Text component (CVE-2026-5732)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:7671",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-33416",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-33636",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-5731",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-5732",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-5734",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2451805",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2451819",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2455897",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2455901",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2455908",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-7671.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

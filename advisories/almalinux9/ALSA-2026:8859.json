@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2026:8859",
+  "summary": "Important: giflib security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "giflib"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.2.1-9.el9_7.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "giflib-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.2.1-9.el9_7.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-23868"
+  ],
+  "published": "2026-04-20T00:00:00Z",
+  "modified": "2026-04-30T07:34:34Z",
+  "details": "giflib is a library for reading and writing gif images.  \n\nSecurity Fix(es):  \n\n  * giflib: Giflib: Double-free vulnerability leading to memory corruption (CVE-2026-23868)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:8859",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-23868",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2446207",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-8859.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

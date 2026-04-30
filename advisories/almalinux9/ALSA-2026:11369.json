@@ -1,0 +1,86 @@
+{
+  "id": "ALSA-2026:11369",
+  "summary": "Important: xorg-x11-server-Xwayland security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "xorg-x11-server-Xwayland"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "23.2.7-6.el9_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "xorg-x11-server-Xwayland-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "23.2.7-6.el9_7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-33999",
+    "CVE-2026-34001",
+    "CVE-2026-34003"
+  ],
+  "published": "2026-04-28T00:00:00Z",
+  "modified": "2026-04-29T08:45:59Z",
+  "details": "Xwayland is an X server for running X clients under Wayland.  \n\nSecurity Fix(es):  \n\n  * xorg: xwayland: X.Org X server: Denial of Service via integer underflow in XKB compatibility map handling (CVE-2026-33999)\n  * xorg: xwayland: X.Org X server: Use-after-free vulnerability leads to server crash and potential memory corruption (CVE-2026-34001)\n  * xorg: xwayland: X.Org X server: Information exposure and denial of service via out-of-bounds memory access (CVE-2026-34003)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:11369",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-33999",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-34001",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-34003",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2451106",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2451109",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2451113",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-11369.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

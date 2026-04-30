@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2026:8863",
+  "summary": "Important: OpenEXR security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "OpenEXR-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.0-12.el8_10.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "OpenEXR-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.0-12.el8_10.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-27622"
+  ],
+  "published": "2026-04-20T00:00:00Z",
+  "modified": "2026-04-30T07:37:50Z",
+  "details": "OpenEXR is a high dynamic-range (HDR) image file format developed by Industrial Light & Magic for use in computer imaging applications. This package contains libraries and sample applications for handling the format.   \n\nSecurity Fix(es):  \n\n  * openexr: OpenEXR: Arbitrary code execution via integer overflow in EXR file processing (CVE-2026-27622)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:8863",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-27622",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2444251",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-8863.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

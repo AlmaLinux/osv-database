@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2026:12310",
+  "summary": "Important: sudo security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "sudo"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.9.5p2-15.el9_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "sudo-python-plugin"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.9.5p2-15.el9_7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-35535"
+  ],
+  "published": "2026-04-30T00:00:00Z",
+  "modified": "2026-05-01T06:38:28Z",
+  "details": "The sudo packages contain the sudo utility which allows system administrators to provide certain users with the permission to execute privileged commands, which are used for system management purposes, without having to log in as root.  \n\nSecurity Fix(es):  \n\n  * sudo: Sudo: Privilege escalation due to failure in privilege drop calls (CVE-2026-35535)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:12310",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-35535",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2454714",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-12310.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

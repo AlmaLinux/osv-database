@@ -1,0 +1,180 @@
+{
+  "id": "ALSA-2026:13381",
+  "summary": "Important: openssh security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "openssh"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.7p1-49.el9_7.alma.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "openssh-askpass"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.7p1-49.el9_7.alma.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "openssh-clients"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.7p1-49.el9_7.alma.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "openssh-keycat"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.7p1-49.el9_7.alma.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "openssh-server"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.7p1-49.el9_7.alma.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "pam_ssh_agent_auth"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.4-5.49.el9_7.alma.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-35385",
+    "CVE-2026-35414",
+    "CVE-2026-35387",
+    "CVE-2026-35388",
+    "CVE-2026-35386"
+  ],
+  "published": "2026-05-04T00:00:00Z",
+  "modified": "2026-05-04T20:44:48Z",
+  "details": "OpenSSH is an SSH protocol implementation supported by a number of Linux, UNIX, and similar operating systems. It includes the core files necessary for both the OpenSSH client and server.  \n\nSecurity Fix(es):  \n\n  * OpenSSH: OpenSSH: Privilege escalation via scp legacy protocol when not preserving file mode (CVE-2026-35385)\n  * OpenSSH: OpenSSH: Security bypass via mishandling of authorized_keys principals option (CVE-2026-35414)\n  * OpenSSH: OpenSSH: Information disclosure due to unintended cryptographic algorithm usage (CVE-2026-35387)\n  * OpenSSH: OpenSSH: Low integrity impact from unconfirmed proxy-mode multiplexing sessions (CVE-2026-35388)\n  * OpenSSH: OpenSSH: Arbitrary command execution via shell metacharacters in username (CVE-2026-35386)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:13381",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-35385",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-35386",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-35387",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-35388",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-35414",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2454469",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2454490",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2454494",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2454500",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2454506",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-13381.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

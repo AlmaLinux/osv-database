@@ -1,0 +1,86 @@
+{
+  "id": "ALSA-2026:13284",
+  "summary": "Important: LibRaw security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "LibRaw"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.19.5-6.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "LibRaw-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.19.5-6.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-24660",
+    "CVE-2026-21413",
+    "CVE-2026-20889"
+  ],
+  "published": "2026-05-04T00:00:00Z",
+  "modified": "2026-05-05T09:25:57Z",
+  "details": "LibRaw is a library for reading RAW files obtained from digital photo cameras (CRW/CR2, NEF, RAF, DNG, and others).  \n\nSecurity Fix(es):  \n\n  * LibRaw: LibRaw: Memory Corruption via Malicious File Processing (CVE-2026-24660)\n  * LibRaw: LibRaw: Arbitrary code execution via heap-based buffer overflow in lossless JPEG loading (CVE-2026-21413)\n  * LibRaw: LibRaw: Arbitrary code execution via specially crafted image file (CVE-2026-20889)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:13284",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-20889",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-21413",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-24660",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2455926",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2455929",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2455942",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-13284.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

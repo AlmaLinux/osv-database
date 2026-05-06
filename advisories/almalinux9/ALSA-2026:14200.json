@@ -1,0 +1,67 @@
+{
+  "id": "ALSA-2026:14200",
+  "summary": "Important: git-lfs security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "git-lfs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.1-8.el9_7.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-32282",
+    "CVE-2026-32283",
+    "CVE-2026-32280"
+  ],
+  "published": "2026-05-06T00:00:00Z",
+  "modified": "2026-05-06T21:14:42Z",
+  "details": "Git Large File Storage (LFS) replaces large files such as audio samples, videos, datasets, and graphics with text pointers inside Git, while storing the file contents on a remote server.  \n\nSecurity Fix(es):  \n\n  * golang: internal/syscall/unix: Root.Chmod can follow symlinks out of the root (CVE-2026-32282)\n  * crypto/tls: golang: Go crypto/tls: Denial of Service via multiple TLS 1.3 key update messages (CVE-2026-32283)\n  * crypto/x509: crypto/tls: golang: Go: Denial of Service vulnerability in certificate chain building (CVE-2026-32280)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:14200",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-32280",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-32282",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-32283",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2456336",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2456338",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2456339",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-14200.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

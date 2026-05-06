@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2026:13978",
+  "summary": "Moderate: libsoup security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libsoup"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.72.0-12.el9_7.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libsoup-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.72.0-12.el9_7.6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-5119"
+  ],
+  "published": "2026-05-06T00:00:00Z",
+  "modified": "2026-05-06T21:14:44Z",
+  "details": "The libsoup packages provide an HTTP client and server library for GNOME.  \n\nSecurity Fix(es):  \n\n  * libsoup: libsoup: Information disclosure via cleartext transmission of cookies during HTTPS tunnel establishment (CVE-2026-5119)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:13978",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-5119",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2452932",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-13978.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

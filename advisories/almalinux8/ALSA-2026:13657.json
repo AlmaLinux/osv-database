@@ -1,0 +1,134 @@
+{
+  "id": "ALSA-2026:13657",
+  "summary": "Moderate: corosync security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "corosync"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.8-1.el8_10.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "corosync-vqsim"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.8-1.el8_10.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "corosynclib"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.8-1.el8_10.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "corosynclib-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.8-1.el8_10.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "spausedd"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.8-1.el8_10.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-35091",
+    "CVE-2026-35092"
+  ],
+  "published": "2026-05-05T00:00:00Z",
+  "modified": "2026-05-06T08:44:52Z",
+  "details": "The corosync packages provide the Corosync Cluster Engine and C APIs for AlmaLinux cluster software.  \n\nSecurity Fix(es):  \n\n  * corosync: Corosync: Denial of Service and information disclosure via crafted UDP packet (CVE-2026-35091)\n  * corosync: Corosync: Denial of Service via integer overflow in join message validation (CVE-2026-35092)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:13657",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-35091",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-35092",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2453813",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2453814",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-13657.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

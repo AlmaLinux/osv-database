@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2026:14791",
+  "summary": "Moderate: libpng security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libpng"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.6.37-12.el9_7.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libpng-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.6.37-12.el9_7.3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-33636"
+  ],
+  "published": "2026-05-07T00:00:00Z",
+  "modified": "2026-05-13T08:43:03Z",
+  "details": "The libpng packages contain a library of functions for creating and manipulating Portable Network Graphics (PNG) image format files.  \n\nSecurity Fix(es):  \n\n  * libpng: libpng: Information disclosure and denial of service via out-of-bounds read/write in Neon palette expansion (CVE-2026-33636)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:14791",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-33636",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2451819",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-14791.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2026:18064",
+  "summary": "Moderate: libpng security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libpng"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.6.40-8.el10_1.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libpng-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.6.40-8.el10_1.4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-33416"
+  ],
+  "published": "2026-05-18T00:00:00Z",
+  "modified": "2026-05-19T14:28:59Z",
+  "details": "The libpng packages contain a library of functions for creating and manipulating Portable Network Graphics (PNG) image format files.  \n\nSecurity Fix(es):  \n\n  * libpng: libpng: Arbitrary code execution due to use-after-free vulnerability (CVE-2026-33416)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:18064",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-33416",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2451805",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-18064.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

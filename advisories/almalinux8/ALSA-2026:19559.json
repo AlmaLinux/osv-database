@@ -1,0 +1,87 @@
+{
+  "id": "ALSA-2026:19559",
+  "summary": "Important: libsndfile security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libsndfile"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.28-17.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libsndfile-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.28-17.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libsndfile-utils"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.28-17.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-37555"
+  ],
+  "published": "2026-05-20T00:00:00Z",
+  "modified": "2026-05-20T12:25:26Z",
+  "details": "libsndfile is a C library for reading and writing files containing sampled sound, such as AIFF, AU, or WAV.   \n\nSecurity Fix(es):  \n\n  * libsndfile: integer overflow in ima_reader_init() (CVE-2026-37555)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:19559",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-37555",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2463856",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-19559.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "id": "ALSA-2026:18868",
+  "summary": "Important: linux-sgx security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "sgx-common"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.26-7.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "sgx-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.26-7.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "sgx-mpa"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.26-7.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "sgx-pccs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.26-7.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "sgx-pccs-admin"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.26-7.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "sgx-pckid-tool"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.26-7.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "tdx-qgs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.26-7.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-15284",
+    "CVE-2026-23745",
+    "CVE-2026-23950",
+    "CVE-2025-13465",
+    "CVE-2026-24842"
+  ],
+  "published": "2026-05-19T00:00:00Z",
+  "modified": "2026-05-26T12:31:40Z",
+  "details": "The Intel SGX SDK is a collection of APIs, libraries, documentations and tools that allow software developers to create and debug Intel SGX enabled applications in C/C++.  \n\nSecurity Fix(es):  \n\n  * qs: qs: Denial of Service via improper input validation in array parsing (CVE-2025-15284)\n  * node-tar: tar: node-tar: Arbitrary file overwrite and symlink poisoning via unsanitized linkpaths in archives (CVE-2026-23745)\n  * node-tar: tar: node-tar: Arbitrary file overwrite via Unicode path collision race condition (CVE-2026-23950)\n  * lodash: prototype pollution in _.unset and _.omit functions (CVE-2025-13465)\n  * node-tar: tar: node-tar: Arbitrary file creation via path traversal bypass in hardlink security check (CVE-2026-24842)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.  \n\nAdditional Changes:  \n\nFor detailed information on changes in this release, see the AlmaLinuxRelease Notes linked from the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:18868",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-13465",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-15284",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-23745",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-23950",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-24842",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2425946",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2430538",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2431036",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2431740",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2433645",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-18868.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

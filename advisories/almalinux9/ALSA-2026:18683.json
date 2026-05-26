@@ -1,0 +1,168 @@
+{
+  "id": "ALSA-2026:18683",
+  "summary": "Moderate: libssh security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libssh"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.4-18.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libssh-config"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.4-18.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libssh-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.4-18.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-5351",
+    "CVE-2025-4878",
+    "CVE-2025-4877",
+    "CVE-2025-8114",
+    "CVE-2025-8277",
+    "CVE-2026-0966",
+    "CVE-2026-0964",
+    "CVE-2026-0965",
+    "CVE-2026-0967",
+    "CVE-2026-0968"
+  ],
+  "published": "2026-05-19T00:00:00Z",
+  "modified": "2026-05-26T12:31:07Z",
+  "details": "libssh is a library which implements the SSH protocol. It can be used to implement client and server applications.  \n\nSecurity Fix(es):  \n\n  * libssh: Double Free Vulnerability in libssh Key Export Functions (CVE-2025-5351)\n  * libssh: Use of uninitialized variable in privatekey_from_file() (CVE-2025-4878)\n  * libssh: Write beyond bounds in binary to base64 conversion functions (CVE-2025-4877)\n  * libssh: NULL Pointer Dereference in libssh KEX Session ID Calculation (CVE-2025-8114)\n  * libssh: Memory Exhaustion via Repeated Key Exchange in libssh (CVE-2025-8277)\n  * libssh: Buffer underflow in ssh_get_hexa() on invalid input (CVE-2026-0966)\n  * libssh: Improper sanitation of paths received from SCP servers (CVE-2026-0964)\n  * libssh: libssh: Denial of Service via improper configuration file handling (CVE-2026-0965)\n  * libssh: libssh: Denial of Service via inefficient regular expression processing (CVE-2026-0967)\n  * libssh: libssh: Denial of Service due to malformed SFTP message (CVE-2026-0968)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.  \n\nAdditional Changes:  \n\nFor detailed information on changes in this release, see the AlmaLinuxRelease Notes linked from the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:18683",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-4877",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-4878",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-5351",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-8114",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-8277",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-0964",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-0965",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-0966",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-0967",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-0968",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2369367",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2376184",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2376193",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2383220",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2383888",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2433121",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2436979",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2436980",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2436981",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2436982",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-18683.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

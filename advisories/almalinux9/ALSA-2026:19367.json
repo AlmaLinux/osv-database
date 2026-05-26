@@ -1,0 +1,66 @@
+{
+  "id": "ALSA-2026:19367",
+  "summary": "Important: giflib update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "giflib"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.2.1-10.el9_8.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "giflib-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.2.1-10.el9_8.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [],
+  "published": "2026-05-19T00:00:00Z",
+  "modified": "2026-05-26T12:29:05Z",
+  "details": "Please update\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:19367",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-23868",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2446207",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-19367.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "ALSA-2026:19126",
+  "summary": "Important: yggdrasil security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "yggdrasil"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.4.9-4.el10_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "yggdrasil-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.4.9-4.el10_2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-25679",
+    "CVE-2026-32283"
+  ],
+  "published": "2026-05-19T00:00:00Z",
+  "modified": "2026-05-26T12:28:18Z",
+  "details": "yggdrasil is a system daemon that subscribes to topics on an MQTT broker and routes any data received on the topics to an appropriate child \"worker\" process, exchanging data with its worker processes through a D-Bus message broker.  \n\nSecurity Fix(es):  \n\n  * net/url: Incorrect parsing of IPv6 host literals in net/url (CVE-2026-25679)\n  * crypto/tls: golang: Go crypto/tls: Denial of Service via multiple TLS 1.3 key update messages (CVE-2026-32283)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:19126",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-25679",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-32283",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2445356",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2456338",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-19126.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

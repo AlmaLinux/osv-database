@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2026:19020",
+  "summary": "Moderate: crun security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "crun"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.27-2.el10_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "crun-krun"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.27-2.el10_2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-30892"
+  ],
+  "published": "2026-05-19T00:00:00Z",
+  "modified": "2026-05-26T12:28:41Z",
+  "details": "crun is a OCI runtime  \n\nSecurity Fix(es):  \n\n  * crun: crun: Privilege escalation due to incorrect parsing of the `--user` option (CVE-2026-30892)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:19020",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-30892",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2451576",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-19020.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

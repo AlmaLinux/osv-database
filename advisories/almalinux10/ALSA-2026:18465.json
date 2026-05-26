@@ -1,0 +1,106 @@
+{
+  "id": "ALSA-2026:18465",
+  "summary": "Important: edk2 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "edk2-aarch64"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20251114-5.el10_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "edk2-ovmf"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20251114-5.el10_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "edk2-tools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20251114-5.el10_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "edk2-tools-doc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20251114-5.el10_2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-2296"
+  ],
+  "published": "2026-05-19T00:00:00Z",
+  "modified": "2026-05-26T12:33:30Z",
+  "details": "EDK (Embedded Development Kit) is a project to enable UEFI support for Virtual Machines. This package contains a sample 64-bit UEFI firmware for QEMU and KVM.   \n\nSecurity Fix(es):  \n\n  * edk2: EDK2: Improper Input Validation allows arbitrary command execution (CVE-2025-2296)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.  \n\nAdditional Changes:  \n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:18465",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-2296",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2420637",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-18465.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

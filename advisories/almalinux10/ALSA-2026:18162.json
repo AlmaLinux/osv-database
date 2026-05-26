@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2026:18162",
+  "summary": "Moderate: iputils security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "iputils"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20240905-5.el10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-48964"
+  ],
+  "published": "2026-05-19T00:00:00Z",
+  "modified": "2026-05-26T12:28:10Z",
+  "details": "The iputils packages contain basic utilities for monitoring a network, including ping.   \n\nSecurity Fix(es):  \n\n  * iputils: iputils integer overflow (CVE-2025-48964)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.  \n\nAdditional Changes:  \n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:18162",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-48964",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2382657",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-18162.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

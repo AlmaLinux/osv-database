@@ -5,64 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:10",
-        "name": "vim-X11"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2:9.1.083-6.el10_1.3"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "vim-common"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2:9.1.083-6.el10_1.3"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
         "name": "vim-data"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2:9.1.083-6.el10_1.3"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "vim-enhanced"
       },
       "ranges": [
         {
@@ -96,44 +39,6 @@
           ]
         }
       ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "vim-minimal"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2:9.1.083-6.el10_1.3"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "xxd"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2:9.1.083-6.el10_1.3"
-            }
-          ]
-        }
-      ]
     }
   ],
   "related": [
@@ -142,7 +47,7 @@
     "CVE-2026-33412"
   ],
   "published": "2026-04-13T00:00:00Z",
-  "modified": "2026-04-14T12:18:44Z",
+  "modified": "2026-04-14T12:18:30Z",
   "details": "Vim (Vi IMproved) is an updated and improved version of the vi editor.  \n\nSecurity Fix(es):  \n\n  * vim: Vim: Arbitrary code execution via OS command injection in the netrw plugin (CVE-2026-28417)\n  * vim: Vim: Denial of service and information disclosure via crafted swap file (CVE-2026-28421)\n  * vim: Vim: Arbitrary code execution via command injection in glob() function (CVE-2026-33412)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {

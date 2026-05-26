@@ -5,83 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:10",
-        "name": "ipa-client"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "4.12.2-24.el10_1.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
         "name": "ipa-client-common"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "4.12.2-24.el10_1.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "ipa-client-encrypted-dns"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "4.12.2-24.el10_1.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "ipa-client-epn"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "4.12.2-24.el10_1.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "ipa-client-samba"
       },
       "ranges": [
         {
@@ -176,25 +100,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:10",
-        "name": "ipa-server"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "4.12.2-24.el10_1.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
         "name": "ipa-server-common"
       },
       "ranges": [
@@ -215,44 +120,6 @@
       "package": {
         "ecosystem": "AlmaLinux:10",
         "name": "ipa-server-dns"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "4.12.2-24.el10_1.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "ipa-server-encrypted-dns"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "4.12.2-24.el10_1.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "ipa-server-trust-ad"
       },
       "ranges": [
         {
@@ -349,7 +216,7 @@
     "CVE-2025-7493"
   ],
   "published": "2025-11-11T00:00:00Z",
-  "modified": "2025-12-05T09:05:25Z",
+  "modified": "2025-12-05T09:05:24Z",
   "details": "AlmaLinux Identity Management (IdM) is a centralized authentication, identity management, and authorization solution for both traditional and cloud-based enterprise environments.  \n\nSecurity Fix(es):  \n\n  * FreeIPA: idm: Privilege escalation from host to domain admin in FreeIPA (CVE-2025-7493)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {

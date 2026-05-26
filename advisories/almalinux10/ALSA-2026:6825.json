@@ -5,25 +5,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:10",
-        "name": "rsync"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3.4.1-2.el10_1.2"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
         "name": "rsync-daemon"
       },
       "ranges": [
@@ -64,7 +45,7 @@
     "CVE-2025-10158"
   ],
   "published": "2026-04-07T00:00:00Z",
-  "modified": "2026-04-15T07:31:08Z",
+  "modified": "2026-04-15T07:31:07Z",
   "details": "The rsync utility enables the users to copy and synchronize files locally or across a network. Synchronization with rsync is fast because rsync only sends the differences in files over the network instead of sending whole files. The rsync utility is also used as a mirroring tool.  \n\nSecurity Fix(es):  \n\n  * rsync: Rsync: Out of bounds array access via negative index (CVE-2025-10158)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {

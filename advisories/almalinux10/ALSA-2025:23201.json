@@ -5,140 +5,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:10",
-        "name": "keylime"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "7.12.1-11.el10_1.3"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "keylime-base"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "7.12.1-11.el10_1.3"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "keylime-registrar"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "7.12.1-11.el10_1.3"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
         "name": "keylime-selinux"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "7.12.1-11.el10_1.3"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "keylime-tenant"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "7.12.1-11.el10_1.3"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "keylime-tools"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "7.12.1-11.el10_1.3"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "keylime-verifier"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "7.12.1-11.el10_1.3"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "python3-keylime"
       },
       "ranges": [
         {
@@ -159,7 +26,7 @@
     "CVE-2025-13609"
   ],
   "published": "2025-12-15T00:00:00Z",
-  "modified": "2025-12-22T14:00:47Z",
+  "modified": "2025-12-22T14:00:45Z",
   "details": "Keylime is a TPM based highly scalable remote boot attestation and runtime integrity measurement solution.  \n\nSecurity Fix(es):  \n\n  * keylime: Keylime: Registrar allows identity takeover via duplicate UUID registration (CVE-2025-13609)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {

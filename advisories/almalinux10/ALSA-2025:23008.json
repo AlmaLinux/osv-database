@@ -5,25 +5,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:10",
-        "name": "mysql8.4"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "8.4.7-1.el10_1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
         "name": "mysql8.4-common"
       },
       "ranges": [
@@ -43,83 +24,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:10",
-        "name": "mysql8.4-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "8.4.7-1.el10_1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
         "name": "mysql8.4-errmsg"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "8.4.7-1.el10_1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "mysql8.4-libs"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "8.4.7-1.el10_1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "mysql8.4-server"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "8.4.7-1.el10_1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "mysql8.4-test"
       },
       "ranges": [
         {
@@ -166,7 +71,7 @@
     "CVE-2025-53042"
   ],
   "published": "2025-12-10T00:00:00Z",
-  "modified": "2025-12-12T10:13:50Z",
+  "modified": "2025-12-12T10:13:49Z",
   "details": "MySQL is a multi-user, multi-threaded SQL database server. MySQL is a client/server implementation consisting of a server daemon (mysqld) and many different client programs and libraries. The base package contains the standard MySQL client programs and generic MySQL files.  \n\nSecurity Fix(es):  \n\n  * mysql: DML unspecified vulnerability (CPU Oct 2025) (CVE-2025-53053)\n  * mysql: InnoDB unspecified vulnerability (CPU Oct 2025) (CVE-2025-53044)\n  * mysql: InnoDB unspecified vulnerability (CPU Oct 2025) (CVE-2025-53062)\n  * mysql: InnoDB unspecified vulnerability (CPU Oct 2025) (CVE-2025-53054)\n  * mysql: InnoDB unspecified vulnerability (CPU Oct 2025) (CVE-2025-53045)\n  * mysql: Optimizer unspecified vulnerability (CPU Oct 2025) (CVE-2025-53040)\n  * mysql: Components Services unspecified vulnerability (CPU Oct 2025) (CVE-2025-53069)\n  * mysql: Optimizer unspecified vulnerability (CPU Oct 2025) (CVE-2025-53042)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {

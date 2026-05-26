@@ -20,139 +20,6 @@
           ]
         }
       ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "python3"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3.12.12-3.el10_1.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "python3-debug"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3.12.12-3.el10_1.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "python3-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3.12.12-3.el10_1.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "python3-idle"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3.12.12-3.el10_1.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "python3-libs"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3.12.12-3.el10_1.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "python3-test"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3.12.12-3.el10_1.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "python3-tkinter"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3.12.12-3.el10_1.1"
-            }
-          ]
-        }
-      ]
     }
   ],
   "related": [
@@ -162,7 +29,7 @@
     "CVE-2026-1299"
   ],
   "published": "2026-03-17T00:00:00Z",
-  "modified": "2026-03-19T14:56:58Z",
+  "modified": "2026-03-19T14:56:55Z",
   "details": "Python is an interpreted, interactive, object-oriented programming language, which includes modules, classes, exceptions, very high level dynamic data types and dynamic typing. Python supports interfaces to many system calls and libraries, as well as to various windowing systems.  \n\nSecurity Fix(es):  \n\n  * cpython: wsgiref.headers.Headers allows header newline injection in Python (CVE-2026-0865)\n  * cpython: IMAP command injection in user-controlled commands (CVE-2025-15366)\n  * cpython: POP3 command injection in user-controlled commands (CVE-2025-15367)\n  * cpython: email header injection due to unquoted newlines (CVE-2026-1299)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {

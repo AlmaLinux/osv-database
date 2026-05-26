@@ -1,0 +1,123 @@
+{
+  "id": "ALSA-2026:18160",
+  "summary": "Moderate: libssh security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libssh"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.12.0-2.el10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libssh-config"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.12.0-2.el10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libssh-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.12.0-2.el10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-0966",
+    "CVE-2026-0964",
+    "CVE-2026-0965",
+    "CVE-2026-0967",
+    "CVE-2026-0968"
+  ],
+  "published": "2026-05-19T00:00:00Z",
+  "modified": "2026-05-26T12:31:04Z",
+  "details": "libssh is a library which implements the SSH protocol. It can be used to implement client and server applications.  \n\nSecurity Fix(es):  \n\n  * libssh: Buffer underflow in ssh_get_hexa() on invalid input (CVE-2026-0966)\n  * libssh: Improper sanitation of paths received from SCP servers (CVE-2026-0964)\n  * libssh: libssh: Denial of Service via improper configuration file handling (CVE-2026-0965)\n  * libssh: libssh: Denial of Service via inefficient regular expression processing (CVE-2026-0967)\n  * libssh: libssh: Denial of Service due to malformed SFTP message (CVE-2026-0968)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.  \n\nAdditional Changes:  \n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:18160",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-0964",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-0965",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-0966",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-0967",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-0968",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2433121",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2436979",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2436980",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2436981",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2436982",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-18160.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -5,63 +5,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:10",
-        "name": "go-filesystem"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3.6.0-7.el10_1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "go-rpm-macros"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3.6.0-7.el10_1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "go-rpm-templates"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3.6.0-7.el10_1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
         "name": "go-srpm-macros"
       },
       "ranges": [
@@ -83,7 +26,7 @@
     "CVE-2025-61726"
   ],
   "published": "2026-03-03T00:00:00Z",
-  "modified": "2026-03-04T11:09:35Z",
+  "modified": "2026-03-04T11:09:33Z",
   "details": "This package provides build-stage rpm automation to simplify the creation of Go language (golang) packages. It does not need to be included in the default build root: go-srpm-macros will pull it in for Go packages only.  \n\nSecurity Fix(es):  \n\n  * golang: net/url: Memory exhaustion in query parameter parsing in net/url (CVE-2025-61726)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {

@@ -1,0 +1,190 @@
+{
+  "id": "ALSA-2026:20611",
+  "summary": "Important: gnutls security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gnutls"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.16-8.el8_10.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gnutls-c++"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.16-8.el8_10.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gnutls-dane"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.16-8.el8_10.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gnutls-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.16-8.el8_10.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gnutls-utils"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.16-8.el8_10.6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-33846",
+    "CVE-2026-42009",
+    "CVE-2026-33845",
+    "CVE-2026-42010",
+    "CVE-2026-3833",
+    "CVE-2026-42011"
+  ],
+  "published": "2026-05-26T00:00:00Z",
+  "modified": "2026-05-27T11:27:44Z",
+  "details": "Please update the gnutls packages to provide the GNU Transport Layer Security (GnuTLS) library, which implements cryptographic algorithms and protocols such as SSL, TLS, and DTLS.  \n\nSecurity Fix(es):  \n\n  * gnutls: Add more checks to DTLS reassembly (CVE-2026-33846)\n  * gnutls: Fix qsort comparator in DTLS reassembly (CVE-2026-42009)\n  * gnutls: Fix crashing on an underflow with a DTLS datagram (CVE-2026-33845)\n  * gnutls: Fix RSA-PSK identity truncation (CVE-2026-42010)\n  * gnutls: Fix case-sensitivity of domain name comparison in name constraints (CVE-2026-3833)\n  * gnutls: Fix intersecting empty constraints (CVE-2026-42011)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:20611",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-33845",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-33846",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-3833",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-42009",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-42010",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-42011",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-42012",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-42013",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-42014",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-42015",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-5260",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2445763",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2450624",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2450625",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2467279",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2467289",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2467437",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-20611.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

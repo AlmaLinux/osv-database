@@ -1,0 +1,67 @@
+{
+  "id": "ALSA-2026:20566",
+  "summary": "Important: firefox security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "firefox"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "140.10.2-1.el8_10.alma.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-8094",
+    "CVE-2026-8092",
+    "CVE-2026-8090"
+  ],
+  "published": "2026-05-26T00:00:00Z",
+  "modified": "2026-05-27T11:27:16Z",
+  "details": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.  \n\nSecurity Fix(es):  \n\n  * firefox: Other issue in the WebRTC component (CVE-2026-8094)\n  * firefox: Memory safety bugs fixed in Firefox ESR 115.35.2, Firefox ESR 140.10.2 and Firefox 150.0.2 (CVE-2026-8092)\n  * firefox: Use-after-free in the DOM: Networking component (CVE-2026-8090)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:20566",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-8090",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-8092",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-8094",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2467706",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2467708",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2467709",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-20566.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

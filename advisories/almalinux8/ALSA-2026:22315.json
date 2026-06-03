@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2026:22315",
+  "summary": "Moderate: compat-openssl10 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "compat-openssl10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.0.2o-4.el8_10.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-28390"
+  ],
+  "published": "2026-06-01T00:00:00Z",
+  "modified": "2026-06-03T07:57:08Z",
+  "details": "The OpenSSL toolkit provides support for secure communications between machines. This version of OpenSSL package contains only the libraries and is provided for compatibility with previous releases and software that does not support compilation with OpenSSL-1.1.  \n\nSecurity Fix(es):  \n\n  * openssl: OpenSSL: Denial of Service due to NULL pointer dereference in CMS EnvelopedData processing (CVE-2026-28390)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:22315",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-28390",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2456314",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-22315.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

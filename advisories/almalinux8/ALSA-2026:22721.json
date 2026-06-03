@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2026:22721",
+  "summary": "Important: expat security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "expat"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.0-2.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "expat-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.0-2.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-45186"
+  ],
+  "published": "2026-06-03T00:00:00Z",
+  "modified": "2026-06-03T12:04:02Z",
+  "details": "Expat is a C library for parsing XML documents.  \n\nSecurity Fix(es):  \n\n  * libexpat: denial of service via crafted XML input (CVE-2026-45186)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:22721",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-45186",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2468575",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-22721.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

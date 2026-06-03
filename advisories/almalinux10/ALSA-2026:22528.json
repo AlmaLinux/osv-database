@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2026:22528",
+  "summary": "Moderate: mod_http2 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "mod_http2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.29-4.el10_2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-53020"
+  ],
+  "published": "2026-06-02T00:00:00Z",
+  "modified": "2026-06-03T12:42:31Z",
+  "details": "The mod_h2 Apache httpd module implements the HTTP2 protocol (h2+h2c) on top of libnghttp2 for httpd 2.4 servers.  \n\nSecurity Fix(es):  \n\n  * httpd: Apache HTTP Server: HTTP/2 DoS by Memory Increase (CVE-2025-53020)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:22528",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-53020",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2379343",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-22528.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

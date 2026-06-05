@@ -1,0 +1,87 @@
+{
+  "id": "ALSA-2026:22529",
+  "summary": "Moderate: libexif security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libexif"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.6.24-9.el10_2.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libexif-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.6.24-9.el10_2.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libexif-doc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.6.24-9.el10_2.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-40386"
+  ],
+  "published": "2026-06-02T00:00:00Z",
+  "modified": "2026-06-04T14:44:28Z",
+  "details": "The libexif packages provide a library for extracting extra information from image files.  \n\nSecurity Fix(es):  \n\n  * libexif: libexif: Denial of Service and information disclosure via integer underflow in MakerNote decoding (CVE-2026-40386)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:22529",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-40386",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2457689",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-22529.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

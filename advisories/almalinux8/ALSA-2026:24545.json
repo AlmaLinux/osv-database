@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2026:24545",
+  "summary": "Important: libyang security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libyang"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.184-2.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-44673"
+  ],
+  "published": "2026-06-08T00:00:00Z",
+  "modified": "2026-06-09T09:03:59Z",
+  "details": "Libyang is YANG data modeling language parser and toolkit written (and providing API) in C.  \n\nSecurity Fix(es):  \n\n  * libyang: libyang: Denial of Service or arbitrary code execution via maliciously crafted LYB binary blob (CVE-2026-44673)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:24545",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-44673",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2477617",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-24545.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

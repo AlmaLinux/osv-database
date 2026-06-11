@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2026:25057",
+  "summary": "Important: mod_http2 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "mod_http2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.26-6.el9_8.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-49975"
+  ],
+  "published": "2026-06-10T00:00:00Z",
+  "modified": "2026-06-11T08:49:10Z",
+  "details": "The mod_h2 Apache httpd module implements the HTTP2 protocol (h2+h2c) on top of libnghttp2 for httpd 2.4 servers.  \n\nSecurity Fix(es):  \n\n  * httpd: HTTP/2: Remote Denial of Service via compression bomb and Slowloris-style attack (CVE-2026-49975)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:25057",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-49975",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485371",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-25057.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

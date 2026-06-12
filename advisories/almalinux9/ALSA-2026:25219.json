@@ -1,0 +1,105 @@
+{
+  "id": "ALSA-2026:25219",
+  "summary": "Important: redis:7 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "redis"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.2.14-1.module_el9.8.0+258+b8f945d3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "redis-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.2.14-1.module_el9.8.0+258+b8f945d3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "redis-doc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.2.14-1.module_el9.8.0+258+b8f945d3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-23479",
+    "CVE-2026-23631",
+    "CVE-2026-25243"
+  ],
+  "published": "2026-06-11T00:00:00Z",
+  "modified": "2026-06-12T09:45:57Z",
+  "details": "Redis is an advanced key-value store. It is often referred to as a data-structure server since keys can contain strings, hashes, lists, sets, and sorted sets. For performance, Redis works with an in-memory data set. You can persist it either by dumping the data set to disk every once in a while, or by appending each command to a log.  \n\nSecurity Fix(es):  \n\n  * redis: use-after-free in unblock client flow may allow remote code execution (CVE-2026-23479)\n  * redis: Remote code execution via use-after-free in Lua scripting (CVE-2026-23631)\n  * redis: RESTORE invalid memory access may allow remote code execution (CVE-2026-25243)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:25219",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-23479",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-23631",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-25243",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2466780",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2466788",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2466828",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-25219.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

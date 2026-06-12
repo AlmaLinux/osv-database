@@ -1,0 +1,232 @@
+{
+  "id": "ALSA-2026:25239",
+  "summary": "Important: openssl security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "openssl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:3.5.5-4.el9_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "openssl-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:3.5.5-4.el9_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "openssl-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:3.5.5-4.el9_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "openssl-perl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:3.5.5-4.el9_8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-7383",
+    "CVE-2026-9076",
+    "CVE-2026-34180",
+    "CVE-2026-34181",
+    "CVE-2026-34182",
+    "CVE-2026-34183",
+    "CVE-2026-42764",
+    "CVE-2026-42766",
+    "CVE-2026-42767",
+    "CVE-2026-42768",
+    "CVE-2026-42769",
+    "CVE-2026-42770",
+    "CVE-2026-45445",
+    "CVE-2026-45446",
+    "CVE-2026-45447"
+  ],
+  "published": "2026-06-11T00:00:00Z",
+  "modified": "2026-06-12T09:45:18Z",
+  "details": "OpenSSL is a toolkit that implements the Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocols, as well as a full-strength general-purpose cryptography library.  \n\nSecurity Fix(es):  \n\n  * openssl: OpenSSL: Heap buffer overflow due to signed integer overflow in Unicode output sizing (CVE-2026-7383)\n  * openssl: OpenSSL: Denial of Service due to heap out-of-bounds read in CMS password-based decryption (CVE-2026-9076)\n  * openssl: OpenSSL: Heap buffer over-read in ASN.1 decoding can lead to denial of service or information disclosure. (CVE-2026-34180)\n  * openssl: PKCS#12 Files with PBMAC1 Are Accepted with Short HMAC Keys (CVE-2026-34181)\n  * openssl: CMS AuthEnvelopedData Processing May Accept Forged Messages (CVE-2026-34182)\n  * openssl: Unbounded Memory Growth in the QUIC PATH_CHALLENGE Handler (CVE-2026-34183)\n  * openssl: NULL pointer dereference in QUIC server initial packet handling (CVE-2026-42764)\n  * openssl: Possible NULL Dereference in Password-Based CMS Decryption (CVE-2026-42766)\n  * openssl: NULL Pointer Dereference in CRMF EncryptedValue Decryption (CVE-2026-42767)\n  * openssl: Multi-RecipientInfo Bleichenbacher Oracle in CMS_decrypt() and PKCS7_decrypt() (CVE-2026-42768)\n  * openssl: Trust-Anchor Substitution via cert/issuer Typo in CMP rootCaKeyUpdate (CVE-2026-42769)\n  * openssl: FFC-DH Peer Validation Uses Attacker-Supplied q (CVE-2026-42770)\n  * openssl: AES-OCB IV Ignored on EVP_Cipher() Path (CVE-2026-45445)\n  * openssl: Incorrect Tag Processing for Empty Messages in AES-GCM-SIV and AES-SIV modes (CVE-2026-45446)\n  * openssl: Heap Use-After-Free in OpenSSL PKCS7_verify() (CVE-2026-45447)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:25239",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-34180",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-34181",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-34182",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-34183",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-42764",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-42766",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-42767",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-42768",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-42769",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-42770",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-45445",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-45446",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-45447",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-7383",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9076",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2481879",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2481880",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2481881",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2481882",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2481884",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2481885",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2481887",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2481890",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2481891",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2481892",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2481893",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2481894",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2481896",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2481897",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2481898",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-25239.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "id": "ALSA-2026:26205",
+  "summary": "Important: postfix security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "postfix"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.5.25-3.el9_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "postfix-cdb"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.5.25-3.el9_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "postfix-ldap"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.5.25-3.el9_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "postfix-lmdb"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.5.25-3.el9_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "postfix-mysql"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.5.25-3.el9_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "postfix-pcre"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.5.25-3.el9_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "postfix-perl-scripts"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.5.25-3.el9_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "postfix-pgsql"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.5.25-3.el9_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "postfix-sqlite"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.5.25-3.el9_8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-43964"
+  ],
+  "published": "2026-06-16T00:00:00Z",
+  "modified": "2026-06-17T09:40:08Z",
+  "details": "The postfix packages provide a Mail Transport Agent (MTA), which supports protocols like LDAP, SMTP AUTH (SASL), and TLS.  \n\nSecurity Fix(es):  \n\n  * postfix: buffer over-read via malformed enhanced status code (CVE-2026-43964)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:26205",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-43964",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2466488",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-26205.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

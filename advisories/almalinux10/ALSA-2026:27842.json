@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2026:27842",
+  "summary": "Important: memcached security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "memcached"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6.23-7.el10_2.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "memcached-selinux"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6.23-7.el10_2.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-47783"
+  ],
+  "published": "2026-06-22T00:00:00Z",
+  "modified": "2026-06-23T10:11:04Z",
+  "details": "memcached is a high-performance, distributed memory object caching system, generic in nature, but intended for use in speeding up dynamic web applications by alleviating database load.   \n\nSecurity Fix(es):  \n\n  * memcached: memcached: Username enumeration via timing side channel (CVE-2026-47783)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:27842",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-47783",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2480089",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-27842.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

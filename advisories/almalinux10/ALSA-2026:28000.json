@@ -1,0 +1,58 @@
+{
+  "id": "ALSA-2026:28000",
+  "summary": "Important: python-urllib3 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "python3-urllib3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.26.19-4.el10_2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-44432",
+    "CVE-2026-44431"
+  ],
+  "published": "2026-06-22T00:00:00Z",
+  "modified": "2026-06-23T10:10:02Z",
+  "details": "Python is an interpreted, interactive, object-oriented programming language, which includes modules, classes, exceptions, very high level dynamic data types and dynamic typing. Python supports interfaces to many system calls and libraries, as well as to various windowing systems.  \n\nSecurity Fix(es):  \n\n  * urllib3: urllib3: Denial of Service due to excessive HTTP response decompression (CVE-2026-44432)\n  * urllib3: urllib3: Information disclosure via cross-origin redirects forwarding sensitive headers (CVE-2026-44431)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:28000",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-44431",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-44432",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2477154",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2477167",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-28000.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

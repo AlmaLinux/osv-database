@@ -1,0 +1,87 @@
+{
+  "id": "ALSA-2026:26008",
+  "summary": "Important: redis:6 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "redis"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.22-1.module_el8.10.0+4197+3446deec"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "redis-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.22-1.module_el8.10.0+4197+3446deec"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "redis-doc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.22-1.module_el8.10.0+4197+3446deec"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-25243"
+  ],
+  "published": "2026-06-15T00:00:00Z",
+  "modified": "2026-06-23T11:01:08Z",
+  "details": "Redis is an advanced key-value store. It is often referred to as a data-structure server since keys can contain strings, hashes, lists, sets, and sorted sets. For performance, Redis works with an in-memory data set. You can persist it either by dumping the data set to disk every once in a while, or by appending each command to a log.  \n\nSecurity Fix(es):  \n\n  * redis: RESTORE invalid memory access may allow remote code execution (CVE-2026-25243)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:26008",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-25243",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2466828",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-26008.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

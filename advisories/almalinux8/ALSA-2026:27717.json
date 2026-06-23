@@ -1,0 +1,301 @@
+{
+  "id": "ALSA-2026:27717",
+  "summary": "Important: firefox security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "firefox"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "140.12.0-1.el8_10.alma.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-12294",
+    "CVE-2026-12313",
+    "CVE-2026-12311",
+    "CVE-2026-12290",
+    "CVE-2026-12327",
+    "CVE-2026-12299",
+    "CVE-2026-12329",
+    "CVE-2026-12312",
+    "CVE-2026-12302",
+    "CVE-2026-12328",
+    "CVE-2026-12330",
+    "CVE-2026-12314",
+    "CVE-2026-12309",
+    "CVE-2026-12310",
+    "CVE-2026-12325",
+    "CVE-2026-12295",
+    "CVE-2026-12289",
+    "CVE-2026-12315",
+    "CVE-2026-12296",
+    "CVE-2026-12306",
+    "CVE-2026-12307",
+    "CVE-2026-12297",
+    "CVE-2026-12305",
+    "CVE-2026-12292",
+    "CVE-2026-12308",
+    "CVE-2026-12324",
+    "CVE-2026-12304",
+    "CVE-2026-12291",
+    "CVE-2026-12298"
+  ],
+  "published": "2026-06-22T00:00:00Z",
+  "modified": "2026-06-23T11:52:20Z",
+  "details": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.  \n\nSecurity Fix(es):  \n\n  * firefox: thunderbird: Sandbox escape in the DOM: Workers component (CVE-2026-12294)\n  * firefox: thunderbird: Information disclosure, sandbox escape in the Security: Process Sandboxing component (CVE-2026-12313)\n  * firefox: thunderbird: Information disclosure, sandbox escape in the Security: Process Sandboxing component (CVE-2026-12311)\n  * firefox: thunderbird: Memory safety bug fixed in Thunderbird ESR 140.12 (CVE-2026-12290)\n  * firefox: thunderbird: Memory safety bugs fixed in Firefox ESR 140.12, Thunderbird ESR 140.12, Firefox 152 and Thunderbird 152 (CVE-2026-12327)\n  * firefox: thunderbird: JIT miscompilation in the DOM: Core & HTML component (CVE-2026-12299)\n  * firefox: thunderbird: Memory safety bug fixed in Thunderbird ESR 140.12 (CVE-2026-12329)\n  * firefox: thunderbird: Memory safety bug fixed in Thunderbird ESR 140.12 (CVE-2026-12312)\n  * firefox: thunderbird: Mitigation bypass in the DOM: Security component (CVE-2026-12302)\n  * firefox: thunderbird: Memory safety bugs fixed in Firefox ESR 115.37, Firefox ESR 140.12, Thunderbird ESR 140.12, Firefox 152 and Thunderbird 152 (CVE-2026-12328)\n  * firefox: thunderbird: Incorrect boundary conditions in the Internationalization component (CVE-2026-12330)\n  * firefox: thunderbird: Memory safety bug fixed in Thunderbird ESR 140.12 (CVE-2026-12314)\n  * firefox: thunderbird: Memory safety bug fixed in Thunderbird ESR 140.12 (CVE-2026-12309)\n  * firefox: thunderbird: Memory safety bug fixed in Thunderbird ESR 140.12 (CVE-2026-12310)\n  * firefox: thunderbird: Denial-of-service in the Graphics: ImageLib component (CVE-2026-12325)\n  * firefox: thunderbird: Sandbox escape in the DOM: Navigation component (CVE-2026-12295)\n  * firefox: thunderbird: Privilege escalation in the Graphics: WebRender component (CVE-2026-12289)\n  * firefox: thunderbird: Mitigation bypass in the DOM: Security component (CVE-2026-12315)\n  * firefox: thunderbird: Sandbox escape in the Security: Process Sandboxing component (CVE-2026-12296)\n  * firefox: thunderbird: Memory safety bug fixed in Thunderbird ESR 140.12 (CVE-2026-12306)\n  * firefox: thunderbird: Memory safety bug fixed in Thunderbird ESR 140.12 (CVE-2026-12307)\n  * firefox: thunderbird: Sandbox escape due to incorrect boundary conditions in the Networking component (CVE-2026-12297)\n  * firefox: thunderbird: Memory safety bug fixed in Thunderbird ESR 140.12 (CVE-2026-12305)\n  * firefox: thunderbird: Incorrect boundary conditions in the Web Audio component (CVE-2026-12292)\n  * firefox: thunderbird: Memory safety bug fixed in Thunderbird ESR 140.12 (CVE-2026-12308)\n  * firefox: thunderbird: Incorrect boundary conditions in the Graphics: CanvasWebGL component (CVE-2026-12324)\n  * firefox: thunderbird: Same-origin policy bypass in the Networking: Cookies component (CVE-2026-12304)\n  * firefox: thunderbird: Use-after-free in the Networking: HTTP component (CVE-2026-12291)\n  * firefox: thunderbird: Memory safety bug fixed in Firefox ESR 140.12 (CVE-2026-12298)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:27717",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-12289",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-12290",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-12291",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-12292",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-12294",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-12295",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-12296",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-12297",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-12298",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-12299",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-12302",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-12304",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-12305",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-12306",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-12307",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-12308",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-12309",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-12310",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-12311",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-12312",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-12313",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-12314",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-12315",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-12324",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-12325",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-12327",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-12328",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-12329",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-12330",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2489207",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2489208",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2489209",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2489210",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2489211",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2489212",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2489214",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2489215",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2489217",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2489218",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2489220",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2489221",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2489223",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2489224",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2489225",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2489226",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2489229",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2489231",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2489232",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2489233",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2489234",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2489235",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2489236",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2489237",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2489239",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2489240",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2489243",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2489244",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2489248",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-27717.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

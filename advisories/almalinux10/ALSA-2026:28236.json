@@ -1,0 +1,143 @@
+{
+  "id": "ALSA-2026:28236",
+  "summary": "Moderate: libsolv security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libsolv"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.7.33-5.el10_2.alma.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libsolv-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.7.33-5.el10_2.alma.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libsolv-tools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.7.33-5.el10_2.alma.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libsolv-tools-base"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.7.33-5.el10_2.alma.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "python3-solv"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.7.33-5.el10_2.alma.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-9150",
+    "CVE-2026-9149",
+    "CVE-2026-48864"
+  ],
+  "published": "2026-06-23T00:00:00Z",
+  "modified": "2026-06-24T09:24:33Z",
+  "details": "The libsolv packages provide a library for resolving package dependencies using a satisfiability algorithm.  \n\nSecurity Fix(es):  \n\n  * libsolv: Stack-based buffer overflow in libsolv's Debian metadata parser when handling SHA384/SHA512 checksums (CVE-2026-9150)\n  * libsolv: Heap buffer overflow in libsolv repo_add_solv via negative maxsize from crafted .solv file (CVE-2026-9149)\n  * libsolv: Heap buffer overflow in libsolv repopagestore via unchecked decompression of malicious .solv page data (CVE-2026-48864)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:28236",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-48864",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9149",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9150",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2460379",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2460380",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2460425",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-28236.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

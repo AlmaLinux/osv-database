@@ -1,0 +1,235 @@
+{
+  "id": "ALSA-2026:28923",
+  "summary": "Important: tigervnc security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "tigervnc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.15.0-10.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "tigervnc-icons"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.15.0-10.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "tigervnc-license"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.15.0-10.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "tigervnc-selinux"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.15.0-10.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "tigervnc-server"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.15.0-10.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "tigervnc-server-minimal"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.15.0-10.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "tigervnc-server-module"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.15.0-10.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-50256",
+    "CVE-2026-50257",
+    "CVE-2026-50258",
+    "CVE-2026-50259",
+    "CVE-2026-50260",
+    "CVE-2026-50261",
+    "CVE-2026-50262",
+    "CVE-2026-50263",
+    "CVE-2026-50264"
+  ],
+  "published": "2026-06-24T00:00:00Z",
+  "modified": "2026-06-24T14:34:33Z",
+  "details": "Virtual Network Computing (VNC) is a remote display system which allows users to view a computing desktop environment not only on the machine where it is running, but from anywhere on the Internet and from a wide variety of machine architectures. TigerVNC is a suite of VNC servers and clients.  \n\nSecurity Fix(es):  \n\n  * xorg-x11-server: xorg-x11-server-Xwayland: xorg-x11-server: stack buffer overflow in font alias resolution due to libXfont2 name length mismatch (CVE-2026-50256)\n  * xorg-x11-server: xorg-x11-server-Xwayland: xorg-x11-server: use-after-free in miSyncDestroyFence() (CVE-2026-50257)\n  * xorg-x11-server: xorg-x11-server-Xwayland: xorg-x11-server: stack buffer overflow in XKB key types due to unchecked shift levels (CVE-2026-50258)\n  * xorg-x11-server: xorg-x11-server-Xwayland: xorg-x11-server: stack buffer overflow in XKB SetMap request via mapWidths indexing (CVE-2026-50259)\n  * xorg-x11-server: xorg-x11-server-Xwayland: xorg-x11-server: use-after-free in FreeCounter() (CVE-2026-50260)\n  * xorg-x11-server: xorg-x11-server-Xwayland: xorg-x11-server: use-after-free in SyncChangeCounter() (CVE-2026-50261)\n  * xorg-x11-server: xorg-x11-server-Xwayland: xorg-x11-server: out-of-bounds read/write in GLX ChangeDrawableAttributes (CVE-2026-50262)\n  * xorg-x11-server: xorg-x11-server-Xwayland: xorg-x11-server: use-after-free information disclosure in CreateSaverWindow() (CVE-2026-50263)\n  * xorg-x11-server: xorg-x11-server-Xwayland: xorg-x11-server: out-of-bounds heap write in DRI2 DRIGetBuffers/DRIGetBuffersWithFormat (CVE-2026-50264)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:28923",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-50256",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-50257",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-50258",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-50259",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-50260",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-50261",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-50262",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-50263",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-50264",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485380",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485382",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485383",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485384",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485385",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485386",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485387",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485388",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485389",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-28923.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

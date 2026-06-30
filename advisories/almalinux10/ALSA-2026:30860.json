@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2026:30860",
+  "summary": "Important: perl-IO-Compress security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "perl-IO-Compress"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.212-512.el10_2.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-48962"
+  ],
+  "published": "2026-06-29T00:00:00Z",
+  "modified": "2026-06-30T10:35:55Z",
+  "details": "This distribution provides a Perl interface to allow reading and writing of compressed data created with the zlib and bzip2 libraries. IO-Compress supports reading and writing of bzip2, RFC 1950, RFC 1951, RFC 1952 (i.e. gzip) and zip files/buffers. The following modules used to be distributed separately, but are now included with the IO-Compress distribution:  \n\n  * Compress-Zlib\n  * IO-Compress-Zlib\n  * IO-Compress-Bzip2\n  * IO-Compress-Base\n\n\nSecurity Fix(es):  \n\n  * perl-IO-Compress: perl-IO-Compress: Arbitrary code execution via attacker-controlled output glob (CVE-2026-48962)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:30860",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-48962",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2481767",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-30860.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

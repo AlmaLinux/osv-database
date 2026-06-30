@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2026:30857",
+  "summary": "Important: perl-Archive-Tar security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "perl-Archive-Tar"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.02-512.el10_2.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-42496"
+  ],
+  "published": "2026-06-29T00:00:00Z",
+  "modified": "2026-06-30T10:44:29Z",
+  "details": "Archive::Tar provides an object oriented mechanism for handling tar files. It provides class methods for quick and easy files handling while also allowing for the creation of tar file objects for custom manipulation. If you have the IO::Zlib module installed, Archive::Tar will also support compressed or gzipped tar files.  \n\nSecurity Fix(es):  \n\n  * perl-archive-tar: perl-archive-tar: Path traversal via crafted symlinks allows arbitrary file access (CVE-2026-42496)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:30857",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-42496",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2481314",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-30857.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

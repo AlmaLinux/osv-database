@@ -1,0 +1,87 @@
+{
+  "id": "ALSA-2026:33124",
+  "summary": "Moderate: coreutils security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "coreutils"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.5-8.el10_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "coreutils-common"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.5-8.el10_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "coreutils-single"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.5-8.el10_2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-5278"
+  ],
+  "published": "2026-06-29T00:00:00Z",
+  "modified": "2026-06-30T13:43:50Z",
+  "details": "The coreutils packages contain the GNU Core Utilities and represent a combination of the previously used GNU fileutils, sh-utils, and textutils packages.  \n\nSecurity Fix(es):  \n\n  * coreutils: Heap Buffer Under-Read in GNU Coreutils sort via Key Specification (CVE-2025-5278)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:33124",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-5278",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2368764",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-33124.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

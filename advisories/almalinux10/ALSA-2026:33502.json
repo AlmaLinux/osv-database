@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2026:33502",
+  "summary": "Important: giflib security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "giflib"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.2.1-25.el10_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "giflib-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.2.1-25.el10_2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-26740"
+  ],
+  "published": "2026-06-30T00:00:00Z",
+  "modified": "2026-07-01T10:18:01Z",
+  "details": "giflib is a library for reading and writing gif images.  \n\nSecurity Fix(es):  \n\n  * giflib: giflib: Denial of Service via buffer overflow in EGifGCBToExtension (CVE-2026-26740)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:33502",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-26740",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2448747",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-33502.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

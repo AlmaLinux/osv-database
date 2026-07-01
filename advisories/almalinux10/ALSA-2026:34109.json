@@ -1,0 +1,294 @@
+{
+  "id": "ALSA-2026:34109",
+  "summary": "Important: httpd security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "httpd"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.63-13.el10_2.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "httpd-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.63-13.el10_2.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "httpd-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.63-13.el10_2.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "httpd-filesystem"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.63-13.el10_2.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "httpd-manual"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.63-13.el10_2.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "httpd-tools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.63-13.el10_2.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "mod_ldap"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.63-13.el10_2.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "mod_lua"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.63-13.el10_2.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "mod_proxy_html"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.4.63-13.el10_2.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "mod_session"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.63-13.el10_2.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "mod_ssl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.4.63-13.el10_2.4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-38709",
+    "CVE-2024-42516",
+    "CVE-2026-29169",
+    "CVE-2026-34356",
+    "CVE-2026-44185",
+    "CVE-2026-44631",
+    "CVE-2026-42536",
+    "CVE-2026-34355"
+  ],
+  "published": "2026-07-01T00:00:00Z",
+  "modified": "2026-07-01T12:00:28Z",
+  "details": "The httpd packages provide the Apache HTTP Server, a powerful, efficient, and extensible web server.  \n\nSecurity Fix(es):  \n\n  * httpd: incomplete fix for CVE-2023-38709 (CVE-2024-42516)\n  * httpd: NULL pointer dereference via specially crafted request (CVE-2026-29169)\n  * httpd: Apache HTTP Server: Heap-based Buffer Overflow via malicious backend servers (CVE-2026-34356)\n  * httpd: Apache HTTP Server: Buffer Over-read via outbound OCSP requests to attacker-controlled server (CVE-2026-44185)\n  * httpd: Apache HTTP Server: Denial of Service via crafted regular expressions (CVE-2026-44631)\n  * httpd: Apache HTTP Server: Heap-based Buffer Overflow via untrusted content in mod_xml2enc (CVE-2026-42536)\n  * httpd: Apache HTTP Server: Buffer overflow in mod_proxy_html allows security bypass (CVE-2026-34355)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * address Moderate severity issues from httpd 2.4.68 [almalinux-10.2.z] (JIRA:AlmaLinux-184518)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:34109",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-42516",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-29169",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-34355",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-34356",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-42536",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-44185",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-44631",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2374549",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2465296",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2486395",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2486397",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2486399",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2486411",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2486414",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-34109.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

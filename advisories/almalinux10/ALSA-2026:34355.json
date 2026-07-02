@@ -1,0 +1,60 @@
+{
+  "id": "ALSA-2026:34355",
+  "summary": "Moderate: mod_http2 security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "mod_http2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.29-4.el10_2.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-48913",
+    "CVE-2026-43951",
+    "CVE-2026-43951",
+    "CVE-2026-48913"
+  ],
+  "published": "2026-07-01T00:00:00Z",
+  "modified": "2026-07-02T08:48:30Z",
+  "details": "The mod_h2 Apache httpd module implements the HTTP2 protocol (h2+h2c) on top of libnghttp2 for httpd 2.4 servers.  \n\nSecurity Fix(es):  \n\n  * httpd: mod_http2: Apache HTTP Server mod_http2: Use After Free vulnerability allows arbitrary code execution or denial of service. (CVE-2026-48913)\n  * httpd: Apache HTTP Server: Out-of-bounds Read in mod_headers and mod_mime (CVE-2026-43951)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * address CVE-2026-43951 and CVE-2026-48913 in mod_http2 (JIRA:AlmaLinux-188008)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:34355",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-43951",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-48913",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2486405",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2486415",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-34355.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

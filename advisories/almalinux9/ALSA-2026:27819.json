@@ -1,0 +1,125 @@
+{
+  "id": "ALSA-2026:27819",
+  "summary": "Important: evince security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "evince"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "40.5-4.el9_8.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "evince-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "40.5-4.el9_8.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "evince-nautilus"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "40.5-4.el9_8.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "evince-previewer"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "40.5-4.el9_8.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "evince-thumbnailer"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "40.5-4.el9_8.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-46529"
+  ],
+  "published": "2026-06-22T00:00:00Z",
+  "modified": "2026-07-02T10:49:45Z",
+  "details": "The evince packages provide a simple multi-page document viewer for Portable Document Format (PDF), PostScript (PS), Encapsulated PostScript (EPS) files, and, with additional back-ends, also the Device Independent File format (DVI) files.  \n\nSecurity Fix(es):  \n\n  * atril: evince: xreader: PDF /GoToR action argv injection enables single-click RCE via --gtk-module dlopen (CVE-2026-46529)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:27819",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-46529",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2487669",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-27819.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

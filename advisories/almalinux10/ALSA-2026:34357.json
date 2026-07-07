@@ -1,0 +1,94 @@
+{
+  "id": "ALSA-2026:34357",
+  "summary": "Important: opentelemetry-collector security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "opentelemetry-collector"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.152.1-1.el10_2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-42154",
+    "CVE-2026-42151",
+    "CVE-2026-33811",
+    "CVE-2026-39821",
+    "CVE-2026-25681",
+    "CVE-2026-27145"
+  ],
+  "published": "2026-07-01T00:00:00Z",
+  "modified": "2026-07-07T10:24:15Z",
+  "details": "Collector with the supported components for a AlmaLinux build of OpenTelemetry  \n\nSecurity Fix(es):  \n\n  * github.com/prometheus/prometheus: Prometheus: Denial of Service via uncontrolled memory allocation in remote read endpoint (CVE-2026-42154)\n  * github.com/prometheus/prometheus: Prometheus: Information disclosure of Azure OAuth client secret via config API (CVE-2026-42151)\n  * net: golang: Go net package: Denial of Service via long CNAME response in LookupCNAME (CVE-2026-33811)\n  * golang.org/x/net/idna: golang: golang.org/x/net/idna: Privilege escalation via incorrect Punycode label processing (CVE-2026-39821)\n  * golang.org/x/net/html: golang.org/x/net/html: Arbitrary code execution via Cross-Site Scripting (CVE-2026-25681)\n  * crypto/x509: golang: golang crypto/x509: Denial of Service via excessive processing of DNS SAN entries (CVE-2026-27145)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:34357",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-25681",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-27145",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-33811",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-39821",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-42151",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-42154",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2466505",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2466507",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2467822",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2480756",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2480761",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2484207",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-34357.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

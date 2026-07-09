@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2026:36721",
+  "summary": "Moderate: edk2 security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "edk2-aarch64"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20220126gitbb1bba3d77-13.el8_10.10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "edk2-ovmf"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20220126gitbb1bba3d77-13.el8_10.10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-9230"
+  ],
+  "published": "2026-07-08T00:00:00Z",
+  "modified": "2026-07-09T11:02:26Z",
+  "details": "EDK (Embedded Development Kit) is a project to enable UEFI support for Virtual Machines. This package contains a sample 64-bit UEFI firmware for QEMU and KVM.   \n\nSecurity Fix(es):  \n\n  * openssl: Out-of-bounds read & write in RFC 3211 KEK Unwrap (CVE-2025-9230)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * [FJ8.10 Bug] How to Update Secure Boot Certificates with Microsoft 2023 in KVM Guests (JIRA:AlmaLinux-151949)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:36721",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-9230",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2396054",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-36721.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

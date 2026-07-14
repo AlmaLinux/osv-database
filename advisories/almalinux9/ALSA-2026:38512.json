@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2026:38512",
+  "summary": "Important: perl-DBI security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "perl-DBI"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.643-9.el9_8.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-9698"
+  ],
+  "published": "2026-07-13T00:00:00Z",
+  "modified": "2026-07-14T08:47:52Z",
+  "details": "DBI is a database access Application Programming Interface (API) for the Perl Language. The DBI API Specification defines a set of functions, variables and conventions that provide a consistent database interface independent of the actual database being used.  \n\nSecurity Fix(es):  \n\n  * DBI: DBI: Buffer overflow in error handling can lead to arbitrary code execution (CVE-2026-9698)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:38512",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9698",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2486734",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-38512.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

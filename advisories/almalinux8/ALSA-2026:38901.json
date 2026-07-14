@@ -1,0 +1,87 @@
+{
+  "id": "ALSA-2026:38901",
+  "summary": "Important: perl-DBI:1.641 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "perl-DBI"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.641-5.module_el8.10.0+4219+13f48a6e"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "perl-DBI"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.641-5.module_el8.10.0+4220+8669cc49"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "perl-DBI"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.641-5.module_el8.10.0+4218+c616d9bd"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-9698"
+  ],
+  "published": "2026-07-13T00:00:00Z",
+  "modified": "2026-07-14T08:45:44Z",
+  "details": "The perl-DBI package provides the standard database interface module for the Perl programming language. It implements a database-independent interface, meaning it defines a consistent set of methods, variables, and conventions for database operations.  \n\nSecurity Fix(es):  \n\n  * DBI: DBI: Buffer overflow in error handling can lead to arbitrary code execution (CVE-2026-9698)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:38901",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9698",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2486734",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-38901.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

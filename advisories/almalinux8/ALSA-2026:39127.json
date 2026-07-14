@@ -1,0 +1,133 @@
+{
+  "id": "ALSA-2026:39127",
+  "summary": "Important: python-pillow security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3-pillow"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.1-22.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3-pillow-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.1-22.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3-pillow-doc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.1-22.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3-pillow-tk"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.1-22.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-55379",
+    "CVE-2026-55380",
+    "CVE-2026-54059",
+    "CVE-2026-54060"
+  ],
+  "published": "2026-07-14T00:00:00Z",
+  "modified": "2026-07-14T10:11:15Z",
+  "details": "Python is an interpreted, interactive, object-oriented programming language, which includes modules, classes, exceptions, very high level dynamic data types and dynamic typing. Python supports interfaces to many system calls and libraries, as well as to various windowing systems.  \n\nSecurity Fix(es):  \n\n  * python-pillow: Pillow: Denial of Service via crafted BDF font file (CVE-2026-55379)\n  * python-pillow: Pillow: Denial of Service via crafted GD 2.x image file (CVE-2026-55380)\n  * python-pillow: Pillow: Denial of Service via crafted PCF font data (CVE-2026-54059)\n  * python-pillow: Pillow: Denial of Service via excessive memory allocation when processing font files (CVE-2026-54060)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:39127",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-54059",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-54060",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-55379",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-55380",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2497452",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2497455",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2497464",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2497466",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-39127.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

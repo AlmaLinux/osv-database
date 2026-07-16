@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2026:39878",
+  "summary": "Important: perl-XML-LibXML security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "perl-XML-LibXML"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.0132-3.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-8177"
+  ],
+  "published": "2026-07-15T00:00:00Z",
+  "modified": "2026-07-16T09:03:13Z",
+  "details": "This module implements a Perl interface to the GNOME libxml2 library which provides interfaces for parsing and manipulating XML files. This module allows Perl programmers to make use of the highly capable validating XML parser and the high performance DOM implementation.  \n\nSecurity Fix(es):  \n\n  * perl-XML-LibXML: XML::LibXML: Denial of Service via truncated UTF-8 in XML node names (CVE-2026-8177)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:39878",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-8177",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2468684",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-39878.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

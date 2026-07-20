@@ -1,0 +1,96 @@
+{
+  "id": "ALSA-2026:41892",
+  "summary": "Important: libtiff security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libtiff"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.6.0-8.el10_2.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libtiff-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.6.0-8.el10_2.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libtiff-tools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.6.0-8.el10_2.4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2023-52355",
+    "CVE-2026-12912"
+  ],
+  "published": "2026-07-20T00:00:00Z",
+  "modified": "2026-07-20T11:48:35Z",
+  "details": "The libtiff packages contain a library of functions for manipulating Tagged Image File Format (TIFF) files.  \n\nSecurity Fix(es):  \n\n  * libtiff: TIFFRasterScanlineSize64 produce too-big size and could cause OOM (CVE-2023-52355)\n  * libtiff: libtiff: Heap-based buffer overflow via crafted PixarLog-compressed TIFF image (CVE-2026-12912)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * Reintroduce the `tiffcp -i` option (JIRA:AlmaLinux-185328)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:41892",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-52355",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-12912",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2251326",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2492871",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-41892.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

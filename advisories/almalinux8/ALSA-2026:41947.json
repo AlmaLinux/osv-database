@@ -1,0 +1,328 @@
+{
+  "id": "ALSA-2026:41947",
+  "summary": "Important: nodejs:22 security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:22.23.1-1.module_el8.10.0+4231+1bf2f855"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:22.23.1-1.module_el8.10.0+4231+1bf2f855"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-docs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:22.23.1-1.module_el8.10.0+4231+1bf2f855"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-full-i18n"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:22.23.1-1.module_el8.10.0+4231+1bf2f855"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:22.23.1-1.module_el8.10.0+4231+1bf2f855"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-nodemon"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.0.1-1.module_el8.10.0+3956+47c9ee9f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-packaging"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2021.06-6.module_el8.10.0+4158+e796f37f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-packaging-bundler"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2021.06-6.module_el8.10.0+4158+e796f37f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "npm"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:10.9.8-1.22.23.1.1.module_el8.10.0+4231+1bf2f855"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "v8-12.4-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3:12.4.254.21-1.22.23.1.1.module_el8.10.0+4231+1bf2f855"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-42338",
+    "CVE-2026-12151",
+    "CVE-2026-9678",
+    "CVE-2026-6733",
+    "CVE-2026-11525",
+    "CVE-2026-48619",
+    "CVE-2026-48930",
+    "CVE-2026-48935",
+    "CVE-2026-48933",
+    "CVE-2026-48934",
+    "CVE-2026-48928",
+    "CVE-2026-48615",
+    "CVE-2026-48618"
+  ],
+  "published": "2026-07-20T00:00:00Z",
+  "modified": "2026-07-21T10:43:04Z",
+  "details": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language.   \n\nSecurity Fix(es):  \n\n  * ip-address: ip-address: Cross-site scripting via improper HTML escaping of untrusted input (CVE-2026-42338)\n  * undici: undici: Denial of Service due to unbounded memory growth via WebSocket frames (CVE-2026-12151)\n  * undici: Undici: Information disclosure due to improper cache-control header parsing (CVE-2026-9678)\n  * undici: Undici: Response queue poisoning on reused keep-alive sockets can lead to incorrect response delivery. (CVE-2026-6733)\n  * undici: undici: Weakening of cookie SameSite policy due to incorrect parsing of Set-Cookie header (CVE-2026-11525)\n  * nodejs: Node.js: Denial of Service via unlimited HTTP/2 ORIGIN frames (CVE-2026-48619)\n  * nodejs: Node.js: Silent authority rebinding due to embedded-nul hostnames in TLS handling (CVE-2026-48930)\n  * nodejs: Node.js: Unauthorized file metadata modification (CVE-2026-48935)\n  * nodejs: Node.js WebCrypto: Denial of Service via large input to subtle.encrypt() (CVE-2026-48933)\n  * nodejs: Node.js: Certification validation bypass in TLS host verification (CVE-2026-48934)\n  * Node.js: Node.js: Trust-policy bypass due to hostname matching inconsistency (CVE-2026-48928)\n  * nodejs: Node.js: Information disclosure of proxy credentials via proxy tunnel error handling (CVE-2026-48615)\n  * nodejs: Node.js: Authentication bypass due to TLS hostname handling and unicode dot separator mismatch (CVE-2026-48618)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * nodejs:22/nodejs: Rebase to the latest Node.js 22 release [almalinux-8] (JIRA:AlmaLinux-176170)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:41947",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-11525",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-12151",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-42338",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-48615",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-48618",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-48619",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-48928",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-48930",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-48933",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-48934",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-48935",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-6733",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9678",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2476810",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2489980",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2490000",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2490006",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2490008",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2493325",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2493326",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2493329",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2493331",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2493332",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2493333",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2493335",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2493337",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-41947.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

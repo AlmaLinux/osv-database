@@ -1,0 +1,86 @@
+{
+  "id": "ALSA-2026:39573",
+  "summary": "Important: yggdrasil security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "yggdrasil"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.4.9.2-1.el10_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "yggdrasil-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.4.9.2-1.el10_2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-33811",
+    "CVE-2026-39821",
+    "CVE-2026-27145"
+  ],
+  "published": "2026-07-14T00:00:00Z",
+  "modified": "2026-07-21T13:11:18Z",
+  "details": "yggdrasil is a system daemon that subscribes to topics on an MQTT broker and routes any data received on the topics to an appropriate child \"worker\" process, exchanging data with its worker processes through a D-Bus message broker.  \n\nSecurity Fix(es):  \n\n  * net: golang: Go net package: Denial of Service via long CNAME response in LookupCNAME (CVE-2026-33811)\n  * golang.org/x/net/idna: golang: golang.org/x/net/idna: Privilege escalation via incorrect Punycode label processing (CVE-2026-39821)\n  * crypto/x509: golang: golang crypto/x509: Denial of Service via excessive processing of DNS SAN entries (CVE-2026-27145)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:39573",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-27145",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-33811",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-39821",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2467822",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2480756",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2484207",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-39573.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

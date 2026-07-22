@@ -1,0 +1,191 @@
+{
+  "id": "ALSA-2026:43400",
+  "summary": "Important: dogtag-pki security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "idm-pki-acme"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.9.0-4.el10_2.alma.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "idm-pki-base"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.9.0-4.el10_2.alma.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "idm-pki-ca"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.9.0-4.el10_2.alma.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "idm-pki-java"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.9.0-4.el10_2.alma.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "idm-pki-kra"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.9.0-4.el10_2.alma.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "idm-pki-server"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.9.0-4.el10_2.alma.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "idm-pki-tools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.9.0-4.el10_2.alma.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "python3-idm-pki"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.9.0-4.el10_2.alma.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-54513",
+    "CVE-2026-54512"
+  ],
+  "published": "2026-07-22T00:00:00Z",
+  "modified": "2026-07-22T13:34:25Z",
+  "details": "IdM PKI is an enterprise software system designed to manage enterprise Public Key Infrastructure deployments. IdM PKI consists of the following components:   \n\n  * Certificate Authority (CA)\n  * Key Recovery Authority (KRA)\n  * Online Certificate Status Protocol (OCSP) Manager\n  * Token Key Service (TKS)\n  * Token Processing Service (TPS)\n  * Automatic Certificate Management Environment (ACME) Responder\n  * Enrollment over Secure Transport (EST) Responder\n\n\nSecurity Fix(es):  \n\n  * jackson-databind: Jackson-databind: Security bypass allows arbitrary code execution (CVE-2026-54513)\n  * jackson-databind: jackson-databind: Arbitrary code execution via PolymorphicTypeValidator bypass (CVE-2026-54512)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:43400",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-54512",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-54513",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2492010",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2492015",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-43400.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

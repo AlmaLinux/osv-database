@@ -1,0 +1,242 @@
+{
+  "id": "ALSA-2026:10704",
+  "summary": "Important: go-toolset:rhel8 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "delve"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.25.2-1.module_el8.10.0+4074+24330916"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "go-toolset"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.25.9-1.module_el8.10.0+4167+2e2e20dd"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "golang"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.25.9-1.module_el8.10.0+4167+2e2e20dd"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "golang-bin"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.25.9-1.module_el8.10.0+4167+2e2e20dd"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "golang-docs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.25.9-1.module_el8.10.0+4167+2e2e20dd"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "golang-misc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.25.9-1.module_el8.10.0+4167+2e2e20dd"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "golang-race"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.25.9-1.module_el8.10.0+4167+2e2e20dd"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "golang-src"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.25.9-1.module_el8.10.0+4167+2e2e20dd"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "golang-tests"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.25.9-1.module_el8.10.0+4167+2e2e20dd"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-32282",
+    "CVE-2026-32283",
+    "CVE-2026-32280",
+    "CVE-2026-27144",
+    "CVE-2026-27140",
+    "CVE-2026-27143"
+  ],
+  "published": "2026-04-27T00:00:00Z",
+  "modified": "2026-07-22T10:04:24Z",
+  "details": "Go Toolset provides the Go programming language tools and libraries. Go is alternatively known as golang.   \n\nSecurity Fix(es):  \n\n  * golang: internal/syscall/unix: Root.Chmod can follow symlinks out of the root (CVE-2026-32282)\n  * crypto/tls: golang: Go crypto/tls: Denial of Service via multiple TLS 1.3 key update messages (CVE-2026-32283)\n  * crypto/x509: crypto/tls: golang: Go: Denial of Service vulnerability in certificate chain building (CVE-2026-32280)\n  * golang: cmd/compile: no-op interface conversion bypasses overlap checking (CVE-2026-27144)\n  * cmd/go: golang: Go (golang) and cmd/go: Arbitrary Code Execution via malicious SWIG file names (CVE-2026-27140)\n  * golang: cmd/compile: possible memory corruption after bound check elimination (CVE-2026-27143)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:10704",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-27140",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-27143",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-27144",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-32280",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-32282",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-32283",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2456336",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2456339",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2456340",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2456341",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2456342",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-10704.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

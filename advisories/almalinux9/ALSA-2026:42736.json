@@ -1,0 +1,96 @@
+{
+  "id": "ALSA-2026:42736",
+  "summary": "Important: acl security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "acl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.0-1.el9_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libacl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.0-1.el9_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libacl-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.0-1.el9_8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-54369",
+    "CVE-2026-54370"
+  ],
+  "published": "2026-07-21T00:00:00Z",
+  "modified": "2026-07-22T10:18:51Z",
+  "details": "Access Control Lists (ACLs) are used to define fine-grained discretionary access rights for files and directories. The acl packages contain the getfacl and setfacl utilities needed for manipulating access control lists.  \n\nSecurity Fix(es):  \n\n  * acl: Symlink traversal privilege escalation via libacl functions (CVE-2026-54369)\n  * acl: TOCTOU Symlink Traversal via getfacl/setfacl (CVE-2026-54370)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:42736",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-54369",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-54370",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2490277",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2490279",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-42736.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

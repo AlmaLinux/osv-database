@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2026:44391",
+  "summary": "Important: libpq security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libpq"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "16.14-1.el10_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libpq-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "16.14-1.el10_2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-6477"
+  ],
+  "published": "2026-07-23T00:00:00Z",
+  "modified": "2026-07-23T13:04:37Z",
+  "details": "The libpq package provides the PostgreSQL client library, which allows client programs to connect to PostgreSQL servers.   \n\nSecurity Fix(es):  \n\n  * postgresql: PostgreSQL libpq: Buffer overflow allows server superuser to overwrite client stack memory (CVE-2026-6477)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:44391",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-6477",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2477442",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-44391.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

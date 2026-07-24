@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2026:44438",
+  "summary": "Important: compat-openssl11 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "compat-openssl11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.1.1k-5.el9_8.4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-45447"
+  ],
+  "published": "2026-07-23T00:00:00Z",
+  "modified": "2026-07-24T08:09:45Z",
+  "details": "The OpenSSL toolkit provides support for secure communications between machines. This version of OpenSSL package contains only the libraries from the 1.1.1 version and is provided for compatibility with previous releases.  \n\nSecurity Fix(es):  \n\n  * openssl: Heap Use-After-Free in OpenSSL PKCS7_verify() (CVE-2026-45447)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:44438",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-45447",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2481898",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-44438.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

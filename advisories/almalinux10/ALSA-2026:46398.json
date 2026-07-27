@@ -1,0 +1,95 @@
+{
+  "id": "ALSA-2026:46398",
+  "summary": "Important: libreswan security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libreswan"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.3.2-1.el10_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libreswan-minimal"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.3.2-1.el10_2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-50721",
+    "CVE-2026-50722",
+    "CVE-2026-12413",
+    "CVE-2026-14957"
+  ],
+  "published": "2026-07-27T00:00:00Z",
+  "modified": "2026-07-27T12:31:52Z",
+  "details": "Libreswan is an implementation of IPsec and IKE for Linux. IPsec is the Internet Protocol Security and uses strong cryptography to provide both authentication and encryption services. These services allow you to build secure tunnels through untrusted networks such as virtual private network (VPN).  \n\nSecurity Fix(es):  \n\n  * librenswan: IKEv1 Denial of Service via RSA-SHA1 (PKCS#1 Version 1.5 Encrypted) authentication payload (CVE-2026-50721)\n  * librenswan: IKEv2 Denial of Service via RSA-SHA1 (PKCS#1 RSASSA-PKCS1-v1_5) authentication payload (CVE-2026-50722)\n  * librenswan: IKEv2 Denial of Service via malformed fragmentation (CVE-2026-12413)\n  * libreswan: badly formatted X.509 certificate can cause an assertion failure that crashes the daemon process (CVE-2026-14957)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:46398",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-12413",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-14957",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-50721",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-50722",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2494147",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2494148",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2494149",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2501764",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-46398.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

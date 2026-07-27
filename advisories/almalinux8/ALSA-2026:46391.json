@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2026:46391",
+  "summary": "Important: grafana security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "grafana"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.2.10-32.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "grafana-selinux"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.2.10-32.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-44740"
+  ],
+  "published": "2026-07-27T00:00:00Z",
+  "modified": "2026-07-27T12:30:00Z",
+  "details": "Grafana is an open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB.   \n\nSecurity Fix(es):  \n\n  * github.com/go-git/go-billy: Billy: Denial of Service via crafted input due to insufficient validation (CVE-2026-44740)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * [grafana / almalinux-8.10.z] Remove Lua ExclusiveArch macro for Konflux build (JIRA:AlmaLinux-188279)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:46391",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-44740",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2483894",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-46391.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

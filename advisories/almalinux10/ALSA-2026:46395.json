@@ -1,0 +1,115 @@
+{
+  "id": "ALSA-2026:46395",
+  "summary": "Important: go-fdo-server security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "go-fdo-server"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.1-2.el10_2.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "go-fdo-server-manufacturer"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.1-2.el10_2.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "go-fdo-server-owner"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.1-2.el10_2.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "go-fdo-server-rendezvous"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.1-2.el10_2.3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-39821",
+    "CVE-2026-27145"
+  ],
+  "published": "2026-07-27T00:00:00Z",
+  "modified": "2026-07-28T10:57:06Z",
+  "details": "This package provides a server-side implementation of the FIDO Device Onboard (FDO) specification, written in Go. FDO is an open standard for the late binding of device credentials, allowing for automated and secure on-boarding of devices when they are first powered on in their final location.  \n\nSecurity Fix(es):  \n\n  * golang.org/x/net/idna: golang: golang.org/x/net/idna: Privilege escalation via incorrect Punycode label processing (CVE-2026-39821)\n  * crypto/x509: golang: golang crypto/x509: Denial of Service via excessive processing of DNS SAN entries (CVE-2026-27145)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:46395",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-27145",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-39821",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2480756",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2484207",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-46395.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

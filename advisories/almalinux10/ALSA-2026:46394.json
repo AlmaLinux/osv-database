@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2026:46394",
+  "summary": "Important: go-fdo-client security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "go-fdo-client"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.0-4.el10_2.5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-27145"
+  ],
+  "published": "2026-07-27T00:00:00Z",
+  "modified": "2026-07-28T10:57:03Z",
+  "details": "go-fdo-client is the device-side implementation of FIDO Device Onboard specification in Go. It provides an FDO client that interacts with FDO manufacturer and owner servers to perform device on-boarding.  \n\nSecurity Fix(es):  \n\n  * crypto/x509: golang: golang crypto/x509: Denial of Service via excessive processing of DNS SAN entries (CVE-2026-27145)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:46394",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-27145",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2484207",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-46394.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

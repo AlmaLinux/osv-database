@@ -1,0 +1,77 @@
+{
+  "id": "ALSA-2026:47079",
+  "summary": "Important: libXfont2 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libXfont2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.6-5.el10_2.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libXfont2-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.6-5.el10_2.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-56001",
+    "CVE-2026-56002"
+  ],
+  "published": "2026-07-28T00:00:00Z",
+  "modified": "2026-07-29T12:49:56Z",
+  "details": "X.Org X11 libXfont2 runtime library  \n\nSecurity Fix(es):  \n\n  * libXfont2: BitmapScaleBitmaps Integer Overflow Heap Buffer Overflow (CVE-2026-56001)\n  * libXfont2: PCF Font Parsing Heap Buffer Overflow (CVE-2026-56002)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:47079",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-56001",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-56002",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2496640",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2496641",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-47079.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

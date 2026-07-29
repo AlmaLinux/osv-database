@@ -1,0 +1,87 @@
+{
+  "id": "ALSA-2026:47184",
+  "summary": "Important: libtiff security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libtiff"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.9-38.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libtiff-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.9-38.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libtiff-tools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.9-38.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-12912"
+  ],
+  "published": "2026-07-28T00:00:00Z",
+  "modified": "2026-07-29T13:07:37Z",
+  "details": "The libtiff packages contain a library of functions for manipulating Tagged Image File Format (TIFF) files.  \n\nSecurity Fix(es):  \n\n  * libtiff: libtiff: Heap-based buffer overflow via crafted PixarLog-compressed TIFF image (CVE-2026-12912)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:47184",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-12912",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2492871",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-47184.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

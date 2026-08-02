@@ -1,0 +1,77 @@
+{
+  "id": "ALBA-2026:47115",
+  "summary": "None: coreutils bug fix and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "coreutils"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.30-20.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "coreutils-common"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.30-20.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "coreutils-single"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.30-20.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [],
+  "published": "2026-07-28T00:00:00Z",
+  "modified": "2026-07-31T12:27:59Z",
+  "details": "The coreutils packages contain the GNU Core Utilities and represent a combination of the previously used GNU fileutils, sh-utils, and textutils packages.  \n\nBug Fix(es) and Enhancement(s):  \n\n  * Fix execution of the downstream tests in coreutils-df-direct.patch and coreutils-i18n.patch [almalinux-8.10.z] (JIRA:AlmaLinux-151533)\n  * unexpand: stack overflow with large tabsizes [almalinux-8.10.z] (JIRA:AlmaLinux-182699)\n\n\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHBA-2026:47115",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALBA-2026-47115.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "id": "ALSA-2026:48650",
+  "summary": "Important: vim security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "vim-X11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:9.1.083-9.el10_2.12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "vim-common"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:9.1.083-9.el10_2.12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "vim-data"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:9.1.083-9.el10_2.12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "vim-enhanced"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:9.1.083-9.el10_2.12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "vim-filesystem"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:9.1.083-9.el10_2.12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "vim-minimal"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:9.1.083-9.el10_2.12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "xxd"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:9.1.083-9.el10_2.12"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-57455",
+    "CVE-2026-57456",
+    "CVE-2026-55693",
+    "CVE-2026-59856",
+    "CVE-2026-59858"
+  ],
+  "published": "2026-07-30T00:00:00Z",
+  "modified": "2026-08-03T08:24:57Z",
+  "details": "Vim (Vi IMproved) is an updated and improved version of the vi editor.  \n\nSecurity Fix(es):  \n\n  * vim: Vim: Denial of Service via stack out-of-bounds write in spell_soundfold_sofo() (CVE-2026-57455)\n  * vim: Vim: Arbitrary code execution via malicious docstrings in Python omni-completion (CVE-2026-57456)\n  * vim: Vim: Out-of-bounds Write in Spell File Word Count (CVE-2026-55693)\n  * vim: Vim: Arbitrary code execution via crafted PHP file in omni-completion (CVE-2026-59856)\n  * vim: Vim: Arbitrary command execution via crafted tags file in C omni-completion (CVE-2026-59858)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:48650",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-55693",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-57455",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-57456",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-59856",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-59858",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2492968",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2492972",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2492980",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2498867",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2498868",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-48650.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "id": "ALSA-2026:49520",
+  "summary": "Important: ldns security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "ldns"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.0-23.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "ldns-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.0-23.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "ldns-doc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.0-23.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "ldns-utils"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.0-23.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "perl-ldns"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.0-23.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3-ldns"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.0-23.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-10846"
+  ],
+  "published": "2026-08-03T00:00:00Z",
+  "modified": "2026-08-03T09:14:25Z",
+  "details": "The ldns packages contain a library with the aim to simplify DNS programming in C. All low-level DNS/DNSSEC operations are supported. We also define a higher level API which allows a programmer to (for instance) create or sign packets.  \n\nSecurity Fix(es):  \n\n  * ldns: ldns: Off-path poisoning attacks due to insufficient query-response matching (CVE-2026-10846)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:49520",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-10846",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2487437",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-49520.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

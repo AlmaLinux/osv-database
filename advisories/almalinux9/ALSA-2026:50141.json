@@ -1,0 +1,87 @@
+{
+  "id": "ALSA-2026:50141",
+  "summary": "Important: sg3_utils security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "sg3_utils"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.47-10.el9_8.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "sg3_utils-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.47-10.el9_8.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "sg3_utils-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.47-10.el9_8.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-16313"
+  ],
+  "published": "2026-08-04T00:00:00Z",
+  "modified": "2026-08-06T13:21:58Z",
+  "details": "The sg3_utils packages provide command-line utilities for devices that use the Small Computer System Interface (SCSI) command sets.  \n\nSecurity Fix(es):  \n\n  * sg3_utils: sg3_utils: arbitrary command execution via udev property injection in sg_inq --export (CVE-2026-16313)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * sg_inq output conformance for SCSI name string and ATA fields [almalinux-9.8.z] (JIRA:AlmaLinux-188130)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:50141",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-16313",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2502845",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-50141.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

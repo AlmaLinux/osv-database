@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2026:49527",
+  "summary": "Important: frr security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "frr"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.5.3-15.el9_8.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "frr-selinux"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.5.3-15.el9_8.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-37460"
+  ],
+  "published": "2026-08-03T00:00:00Z",
+  "modified": "2026-08-06T13:21:59Z",
+  "details": "FRRouting is free software that manages TCP/IP based routing protocols. It supports BGP4, OSPFv2, OSPFv3, ISIS, RIP, RIPng, PIM, NHRP, PBR, EIGRP and BFD.   \n\nSecurity Fix(es):  \n\n  * frr: FRRouting: Denial of Service via crafted BGP UPDATE message (CVE-2026-37460)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * Zebra is not installing the route in the kernel after flapping one of the physical link on the ocp worker node. [almalinux-9.8.z] (JIRA:AlmaLinux-152300)\n  * frr triggers SELinux denials when reading root's Python site-packages directory on AlmaLinux-9 (JIRA:AlmaLinux-176258)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:49527",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-37460",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2484385",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-49527.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

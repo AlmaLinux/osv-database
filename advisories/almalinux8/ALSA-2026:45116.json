@@ -199,7 +199,7 @@
     "CVE-2026-52993"
   ],
   "published": "2026-07-24T00:00:00Z",
-  "modified": "2026-07-24T13:39:51Z",
+  "modified": "2026-08-07T13:03:21Z",
   "details": "The kernel-rt packages provide the Real Time Linux Kernel, which enables  \nfine-tuning for systems with extremely high determinism requirements.  \n\nSecurity Fix(es):  \n\n  * kernel: KVM: x86: Don't (re)check L1 intercepts when completing userspace I/O (CVE-2025-40026)\n  * kernel: xfrm single-frag length not properly limited\n  * kernel: dm log: fix out-of-bounds write due to region_count overflow (CVE-2026-53059)\n  * kernel: tipc: fix double-free in tipc_buf_append() (CVE-2026-52993)\n\n\n",
   "references": [
     {
@@ -233,6 +233,10 @@
     {
       "url": "https://errata.almalinux.org/8/ALSA-2026-45116.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-64561.html",
+      "type": "REPORT"
     }
   ]
 }

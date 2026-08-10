@@ -1432,7 +1432,7 @@
     "CVE-2026-53016"
   ],
   "published": "2026-07-14T00:00:00Z",
-  "modified": "2026-07-15T20:48:09Z",
+  "modified": "2026-08-07T12:56:53Z",
   "details": "The kernel packages contain the Linux kernel, the core of any Linux operating system.  \n\nSecurity Fix(es):  \n\n  * kernel: crypto: ccp - copy IV using skcipher ivsize (CVE-2026-53016)\n  * kernel: XFS data corruption using reflink ()\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * [Exploits (KEV)] kernel: XFS data corruption using reflink [almalinux-10.2.z] (JIRA:AlmaLinux-193945)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -1454,6 +1454,10 @@
     {
       "url": "https://errata.almalinux.org/10/ALSA-2026-39494.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-64600.html",
+      "type": "REPORT"
     }
   ]
 }

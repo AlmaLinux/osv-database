@@ -160,7 +160,7 @@
     "CVE-2026-34486"
   ],
   "published": "2026-07-08T00:00:00Z",
-  "modified": "2026-07-13T09:45:34Z",
+  "modified": "2026-08-07T12:55:05Z",
   "details": "Tomcat is the servlet container that is used in the official Reference Implementation for the Java Servlet and JavaServer Pages technologies. The Java Servlet and JavaServer Pages specifications are developed by Sun under the Java Community Process. Tomcat is developed in an open and participatory environment and released under the Apache Software License version 2.0. Tomcat is intended to be a collaboration of the best-of-breed developers from around the world.  \n\nSecurity Fix(es):  \n\n  * Apache Tomcat: Apache Tomcat: Information disclosure via Padding Oracle vulnerability in EncryptInterceptor (CVE-2026-29146)\n  * Apache Tomcat: Apache Tomcat: Missing Encryption of Sensitive Data due to EncryptInterceptor bypass (CVE-2026-34486)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * Remove tomcat clustering JAR from RPM builds (JIRA:AlmaLinux-185571)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -186,6 +186,50 @@
     {
       "url": "https://errata.almalinux.org/10/ALSA-2026-36790.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2025-66614.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-24733.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-24734.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-24880.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-25854.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-29129.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-29145.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-32990.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-34483.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-34487.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-34500.html",
+      "type": "REPORT"
     }
   ]
 }

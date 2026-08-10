@@ -26,7 +26,7 @@
     "CVE-2026-9698"
   ],
   "published": "2026-07-13T00:00:00Z",
-  "modified": "2026-07-14T08:47:48Z",
+  "modified": "2026-08-07T12:55:12Z",
   "details": "DBI is a database access Application Programming Interface (API) for the Perl Language. The DBI API Specification defines a set of functions, variables and conventions that provide a consistent database interface independent of the actual database being used.  \n\nSecurity Fix(es):  \n\n  * DBI: DBI: Buffer overflow in error handling can lead to arbitrary code execution (CVE-2026-9698)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -44,6 +44,10 @@
     {
       "url": "https://errata.almalinux.org/10/ALSA-2026-38513.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-10879.html",
+      "type": "REPORT"
     }
   ]
 }

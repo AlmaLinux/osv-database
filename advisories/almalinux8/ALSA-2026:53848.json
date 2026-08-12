@@ -1,0 +1,87 @@
+{
+  "id": "ALSA-2026:53848",
+  "summary": "Important: isns-utils security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "isns-utils"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.99-1.el8_10.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "isns-utils-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.99-1.el8_10.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "isns-utils-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.99-1.el8_10.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-55995"
+  ],
+  "published": "2026-08-11T00:00:00Z",
+  "modified": "2026-08-12T09:22:28Z",
+  "details": "The iSNS package contains the daemon and tools to setup a iSNS server, and iSNS client tools. The Internet Storage Name Service (iSNS) protocol allows automated discovery, management and configuration of iSCSI and Fibre Channel devices (using iFCP gateways) on a TCP/IP network.  \n\nSecurity Fix(es):  \n\n  * open-isns: open-iscsi: Denial of Service via double-free in iSNS attribute decoder (CVE-2026-55995)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:53848",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-55995",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2508414",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-53848.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

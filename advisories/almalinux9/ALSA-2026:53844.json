@@ -1,0 +1,96 @@
+{
+  "id": "ALSA-2026:53844",
+  "summary": "Important: iscsi-initiator-utils security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "iscsi-initiator-utils"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.1.11-1.git4b3e853.el9_8.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "iscsi-initiator-utils-iscsiuio"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.1.11-1.git4b3e853.el9_8.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "python3-iscsi-initiator-utils"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.1.11-1.git4b3e853.el9_8.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-44944",
+    "CVE-2026-44943"
+  ],
+  "published": "2026-08-11T00:00:00Z",
+  "modified": "2026-08-12T09:24:36Z",
+  "details": "The iscsi-initiator-utils packages provide the server daemon for the Internet Small Computer System Interface (iSCSI) protocol, as well as the utility programs used to manage it. The iSCSI protocol is a protocol for distributed disk access using SCSI commands sent over Internet Protocol (IP) networks.  \n\nSecurity Fix(es):  \n\n  * open-iscsi: open-iscsi: Authentication bypass in iscsiuio control socket (CVE-2026-44944)\n  * open-iscsi: open-iscsi: Privilege Escalation via Path Traversal (CVE-2026-44943)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * [FJ9.7 Bug][REG]: iscsiadm reports node.discovery_type as \"fw\", although it should be \"static\". [almalinux-9.8.z] (JIRA:AlmaLinux-191897)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:53844",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-44943",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-44944",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2508412",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2508419",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-53844.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

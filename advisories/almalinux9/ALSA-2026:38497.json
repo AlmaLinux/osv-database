@@ -1,0 +1,106 @@
+{
+  "id": "ALSA-2026:38497",
+  "summary": "Important: gegl04 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gegl04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.4.62-1.el9_8.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gegl04-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.4.62-1.el9_8.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gegl04-devel-docs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.4.62-1.el9_8.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gegl04-tools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.4.62-1.el9_8.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-2050"
+  ],
+  "published": "2026-07-13T00:00:00Z",
+  "modified": "2026-08-12T12:02:29Z",
+  "details": "GEGL (Generic Graphics Library) is a graph-based image processing framework.  \n\nSecurity Fix(es):  \n\n  * gimp: GIMP: Arbitrary code execution via heap-based buffer overflow in HDR file parsing (CVE-2026-2050)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:38497",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-2050",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2492593",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-38497.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

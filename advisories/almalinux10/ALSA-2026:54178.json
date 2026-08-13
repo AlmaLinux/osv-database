@@ -1,0 +1,95 @@
+{
+  "id": "ALSA-2026:54178",
+  "summary": "Moderate: grafana security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "grafana"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.2.6-28.el10_2.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "grafana-selinux"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.2.6-28.el10_2.4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-33377",
+    "CVE-2026-33376",
+    "CVE-2026-8609",
+    "CVE-2026-33382"
+  ],
+  "published": "2026-08-12T00:00:00Z",
+  "modified": "2026-08-13T08:05:33Z",
+  "details": "Grafana is an open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB.   \n\nSecurity Fix(es):  \n\n  * grafana: Grafana: Privilege escalation via dashboard overwrite (CVE-2026-33377)\n  * grafana: Grafana Auth Proxy: Unauthorized access due to incorrect IPv6 allow-list default (CVE-2026-33376)\n  * grafana: Grafana: Denial of Service via unbounded memory growth in OAuth login route (CVE-2026-8609)\n  * grafana: Grafana: Denial of Service via excessive memory allocation from large API request payloads (CVE-2026-33382)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * [grafana / rhel-10.2.z] Remove Lua ExclusiveArch macro for Konflux build (JIRA:AlmaLinux-188282)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:54178",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-33376",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-33377",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-33382",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-8609",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2477246",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2477262",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2499061",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2499062",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-54178.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

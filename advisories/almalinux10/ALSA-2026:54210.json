@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2026:54210",
+  "summary": "Moderate: dhcpcd security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "dhcpcd"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.0.6-11.el10_2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-14258"
+  ],
+  "published": "2026-08-12T00:00:00Z",
+  "modified": "2026-08-12T12:04:09Z",
+  "details": "The dhcpcd package provides a minimalistic network configuration daemon that supports IPv4 and IPv6 configuration including configuration discovery through NDP, DHCPv4 and DHCPv6 protocols.  \n\nSecurity Fix(es):  \n\n  * dhcpcd: dhcpcd infinite loop and out-of-bounds read via zero-length IPv6 ND option in Router Advertisement handling (CVE-2026-14258)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:54210",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-14258",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2462305",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-54210.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

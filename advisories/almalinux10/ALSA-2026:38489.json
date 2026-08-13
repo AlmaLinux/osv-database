@@ -1,0 +1,77 @@
+{
+  "id": "ALSA-2026:38489",
+  "summary": "Important: xorg-x11-server-Xwayland security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "xorg-x11-server-Xwayland"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "24.1.9-4.el10_2.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "xorg-x11-server-Xwayland-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "24.1.9-4.el10_2.3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-55999",
+    "CVE-2026-56000"
+  ],
+  "published": "2026-07-13T00:00:00Z",
+  "modified": "2026-08-13T08:05:30Z",
+  "details": "Xwayland is an X server for running X clients under Wayland.  \n\nSecurity Fix(es):  \n\n  * xorg: X11: xserver: X.org: glamor Font Atlas Heap Buffer Overflow (CVE-2026-55999)\n  * X.org: xorg-x11-server: GLX contextTags Use-After-Free in CommonMakeCurrent() (CVE-2026-56000)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:38489",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-55999",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-56000",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2496165",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2496193",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-38489.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

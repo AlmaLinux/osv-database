@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2026:55435",
+  "summary": "Important: gstreamer1-plugins-ugly-free security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "gstreamer1-plugins-ugly-free"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.26.7-2.el10_2.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-19389"
+  ],
+  "published": "2026-08-17T00:00:00Z",
+  "modified": "2026-08-18T08:57:06Z",
+  "details": "GStreamer is a streaming media framework, based on graphs of elements which operate on media data. This package contains plug-ins whose license is not fully compatible with LGPL.  \n\nSecurity Fix(es):  \n\n  * gstreamer: gstreamer1-plugins-ugly-free: gstreamer: integer overflow/underflow in asfdemux bounds checks leading to out-of-bounds read (CVE-2026-19389)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:55435",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-19389",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2513016",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-55435.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

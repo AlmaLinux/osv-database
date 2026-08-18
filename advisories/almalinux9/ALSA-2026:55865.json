@@ -1,0 +1,115 @@
+{
+  "id": "ALSA-2026:55865",
+  "summary": "Important: gstreamer1-plugins-bad-free and gstreamer1-plugins-ugly-free security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gstreamer1-plugins-bad-free"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.22.12-7.el9_8.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gstreamer1-plugins-bad-free-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.22.12-7.el9_8.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gstreamer1-plugins-bad-free-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.22.12-7.el9_8.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gstreamer1-plugins-ugly-free"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.22.12-6.el9_8.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-19387",
+    "CVE-2026-19389"
+  ],
+  "published": "2026-08-17T00:00:00Z",
+  "modified": "2026-08-18T10:42:45Z",
+  "details": "GStreamer is a streaming media framework based on graphs of filters which operate on media data. The gstreamer1-plugins-bad-free package contains a collection of plug-ins for GStreamer.  \n\nSecurity Fix(es):  \n\n  * gstreamer: gstreamer1-plugins-bad-free: gstreamer: heap out-of-bounds write in adpcmdec IMA/DVI ADPCM decoder (CVE-2026-19387)\n  * gstreamer: gstreamer1-plugins-ugly-free: gstreamer: integer overflow/underflow in asfdemux bounds checks leading to out-of-bounds read (CVE-2026-19389)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:55865",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-19387",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-19389",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2513015",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2513016",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-55865.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

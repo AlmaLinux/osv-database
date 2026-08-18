@@ -1,0 +1,77 @@
+{
+  "id": "ALSA-2026:55447",
+  "summary": "Important: libXfont2 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libXfont2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.3-12.el9_8.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libXfont2-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.3-12.el9_8.3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-59679",
+    "CVE-2026-44950"
+  ],
+  "published": "2026-08-17T00:00:00Z",
+  "modified": "2026-08-18T08:50:53Z",
+  "details": "X.Org X11 libXfont2 runtime library  \n\nSecurity Fix(es):  \n\n  * libxfont2: Font Server Client encoding[] Out-Of-Bounds Read/Write (CVE-2026-59679)\n  * libxfonts2: libXfont2: Privilege Escalation via Heap Buffer Overflow in Font Server Client (CVE-2026-44950)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:55447",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-44950",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-59679",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2509620",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2509622",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-55447.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "id": "ALSA-2026:55439",
+  "summary": "Important: curl security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "curl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.76.1-40.el9_8.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "curl-minimal"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.76.1-40.el9_8.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libcurl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.76.1-40.el9_8.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libcurl-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.76.1-40.el9_8.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libcurl-minimal"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.76.1-40.el9_8.5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-1965",
+    "CVE-2026-3783",
+    "CVE-2026-9547",
+    "CVE-2026-8286"
+  ],
+  "published": "2026-08-17T00:00:00Z",
+  "modified": "2026-08-18T08:52:48Z",
+  "details": "The curl packages provide the libcurl library and the curl utility for downloading files from servers using various protocols, including HTTP, FTP, and LDAP.  \n\nSecurity Fix(es):  \n\n  * curl: curl: Authentication bypass due to incorrect connection reuse with Negotiate authentication (CVE-2026-1965)\n  * curl: curl: Information disclosure via OAuth2 bearer token leakage during HTTP(S) redirect (CVE-2026-3783)\n  * curl: curl: Man-in-the-middle attack via SSH host key bypass (CVE-2026-9547)\n  * curl: curl: Insecure connection establishment due to TLS configuration mismatch (CVE-2026-8286)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:55439",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-1965",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-3783",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-8286",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9547",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2446448",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2446450",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2496758",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2496763",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-55439.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

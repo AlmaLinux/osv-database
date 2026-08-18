@@ -1,0 +1,179 @@
+{
+  "id": "ALSA-2026:55440",
+  "summary": "Moderate: glib2 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "glib2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.68.4-19.el9_8.9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "glib2-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.68.4-19.el9_8.9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "glib2-doc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.68.4-19.el9_8.9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "glib2-static"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.68.4-19.el9_8.9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "glib2-tests"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.68.4-19.el9_8.9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-58010",
+    "CVE-2026-58011",
+    "CVE-2026-58012",
+    "CVE-2026-58013",
+    "CVE-2026-58014",
+    "CVE-2026-58015",
+    "CVE-2026-15588"
+  ],
+  "published": "2026-08-17T00:00:00Z",
+  "modified": "2026-08-18T08:53:34Z",
+  "details": "GLib provides the core application building blocks for libraries and applications written in C. It provides the core object system used in GNOME, the main loop implementation, and a large set of utility functions for strings and common data structures.  \n\nSecurity Fix(es):  \n\n  * glib: buffer over-read in glib/gvariant-serialiser.c via gvs_tuple_is_normal() (CVE-2026-58010)\n  * glib: out-of-bounds read in glib/gdatetime.c:g_date_time_get_ymd via invalid GDateTime (CVE-2026-58011)\n  * glib: buffer over-read in g_regex_replace() via glib/gregex.c:string_append() and g_utf8_next_char() (CVE-2026-58012)\n  * glib: buffer over-read in glib/giochannel.c via \"g_io_channel_read_line_backend\" (CVE-2026-58013)\n  * glib: off-by-one error in glib/gkeyfile.c via \"g_key_file_get_locale_string_list\" (CVE-2026-58014)\n  * glib: path traversal in glib/gio/gdbusauthmechanismsha1.c via keyring_lookup_entry and mechanism_client_data_receive (CVE-2026-58015)\n  * GDBusServer: glib2: GDBusServer pre-authentication DoS via unbounded SASL line buffering (CVE-2026-15588)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:55440",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-15588",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-58010",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-58011",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-58012",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-58013",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-58014",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-58015",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2492243",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2492245",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2492247",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2492248",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2492255",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2492256",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2499675",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-55440.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

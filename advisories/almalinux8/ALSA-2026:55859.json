@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2026:55859",
+  "summary": "Important: haproxy security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "haproxy"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.27-5.el8_10.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-55204"
+  ],
+  "published": "2026-08-17T00:00:00Z",
+  "modified": "2026-08-18T08:44:27Z",
+  "details": "The haproxy packages provide a reliable, high-performance network load balancer for TCP and HTTP-based applications.  \n\nSecurity Fix(es):  \n\n  * haproxy: HAProxy: Denial of Service via HPACK dynamic table insertions (CVE-2026-55204)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:55859",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-55204",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2490518",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-55859.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

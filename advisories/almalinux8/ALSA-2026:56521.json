@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2026:56521",
+  "summary": "Important: gstreamer1-plugins-bad-free security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gstreamer1-plugins-bad-free"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.1-9.el8_10.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gstreamer1-plugins-bad-free-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.1-9.el8_10.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-19387"
+  ],
+  "published": "2026-08-18T00:00:00Z",
+  "modified": "2026-08-19T12:28:27Z",
+  "details": "GStreamer is a streaming media framework based on graphs of filters which operate on media data. The gstreamer1-plugins-bad-free package contains a collection of plug-ins for GStreamer.  \n\nSecurity Fix(es):  \n\n  * gstreamer: gstreamer1-plugins-bad-free: gstreamer: heap out-of-bounds write in adpcmdec IMA/DVI ADPCM decoder (CVE-2026-19387)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:56521",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-19387",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2513015",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-56521.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

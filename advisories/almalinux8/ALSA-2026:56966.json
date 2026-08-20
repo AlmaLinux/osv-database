@@ -1,0 +1,86 @@
+{
+  "id": "ALSA-2026:56966",
+  "summary": "Moderate: gstreamer1-plugins-good security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gstreamer1-plugins-good"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.1-7.el8_10.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gstreamer1-plugins-good-gtk"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.1-7.el8_10.3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-18649",
+    "CVE-2026-73433",
+    "CVE-2026-73434"
+  ],
+  "published": "2026-08-19T00:00:00Z",
+  "modified": "2026-08-20T10:15:29Z",
+  "details": "GStreamer is a streaming media framework based on graphs of filters which operate on media data. The gstreamer1-plugins-good packages contain a collection of well-supported plug-ins of good quality and under the LGPL license.  \n\nSecurity Fix(es):  \n\n  * gst-plugins-good: gst-plugins-good: unbounded memory growth in rtph264depay and rtph265depay RTP depayloaders (CVE-2026-18649)\n  * gstreamer1-plugins-good: gstreamer: unsigned integer underflow in avidemux FUJIFILM strd parsing leading to out-of-bounds read/write (CVE-2026-73433)\n  * gstreamer1-plugins-good: gstreamer: out-of-bounds read in avidemux vprp video field descriptor parsing (CVE-2026-73434)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:56966",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-18649",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-73433",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-73434",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2510614",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2514801",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2514807",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-56966.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2026:56971",
+  "summary": "Important: perl-Date-Manip security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "perl-Date-Manip"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.94-5.el10_2.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-60075"
+  ],
+  "published": "2026-08-19T00:00:00Z",
+  "modified": "2026-08-20T10:13:02Z",
+  "details": "Date::Manip is a series of modules designed to make any common date/time operation easy to do. Operations such as comparing two times, determining a data a given amount of time from another, or parsing international times are all easily done. It deals with time as it is used in the Gregorian calendar (the one currently in use) with full support for time changes due to daylight saving time.  \n\nSecurity Fix(es):  \n\n  * perl-Date-Manip: Date::Manip for Perl: Denial of Service via CPU exhaustion in date parsing (CVE-2026-60075)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:56971",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-60075",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2509486",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-56971.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,11 +1,11 @@
 {
-  "id": "ALSA-2026:55781",
-  "summary": "Moderate: java-17-openjdk security update",
+  "id": "ALSA-2026:57539",
+  "summary": "Important: php:8.3 security, bug fix, and enhancement update",
   "affected": [
     {
       "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "java-17-openjdk"
+        "ecosystem": "AlmaLinux:9",
+        "name": "apcu-panel"
       },
       "ranges": [
         {
@@ -15,425 +15,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:17.0.20.1.1-1.1.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "java-17-openjdk-demo"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:17.0.20.1.1-1.1.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "java-17-openjdk-demo-fastdebug"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:17.0.20.1.1-1.1.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "java-17-openjdk-demo-slowdebug"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:17.0.20.1.1-1.1.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "java-17-openjdk-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:17.0.20.1.1-1.1.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "java-17-openjdk-devel-fastdebug"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:17.0.20.1.1-1.1.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "java-17-openjdk-devel-slowdebug"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:17.0.20.1.1-1.1.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "java-17-openjdk-fastdebug"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:17.0.20.1.1-1.1.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "java-17-openjdk-headless"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:17.0.20.1.1-1.1.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "java-17-openjdk-headless-fastdebug"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:17.0.20.1.1-1.1.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "java-17-openjdk-headless-slowdebug"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:17.0.20.1.1-1.1.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "java-17-openjdk-javadoc"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:17.0.20.1.1-1.1.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "java-17-openjdk-javadoc-zip"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:17.0.20.1.1-1.1.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "java-17-openjdk-jmods"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:17.0.20.1.1-1.1.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "java-17-openjdk-jmods-fastdebug"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:17.0.20.1.1-1.1.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "java-17-openjdk-jmods-slowdebug"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:17.0.20.1.1-1.1.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "java-17-openjdk-slowdebug"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:17.0.20.1.1-1.1.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "java-17-openjdk-src"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:17.0.20.1.1-1.1.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "java-17-openjdk-src-fastdebug"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:17.0.20.1.1-1.1.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "java-17-openjdk-src-slowdebug"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:17.0.20.1.1-1.1.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "java-17-openjdk-static-libs"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:17.0.20.1.1-1.1.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "java-17-openjdk-static-libs-fastdebug"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:17.0.20.1.1-1.1.el8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:8",
-        "name": "java-17-openjdk-static-libs-slowdebug"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:17.0.20.1.1-1.1.el8"
+              "fixed": "5.1.23-1.module_el9.6.0+151+5f31e576"
             }
           ]
         }
@@ -442,7 +24,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "java-17-openjdk"
+        "name": "php"
       },
       "ranges": [
         {
@@ -452,7 +34,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:17.0.20.1.1-1.2.el9.alma.1"
+              "fixed": "8.3.33-1.module_el9.8.0+297+88e7f1bf"
             }
           ]
         }
@@ -461,7 +43,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "java-17-openjdk-demo"
+        "name": "php"
       },
       "ranges": [
         {
@@ -471,7 +53,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:17.0.20.1.1-1.2.el9.alma.1"
+              "fixed": "8.3.33-1.module_el9.8.0+296+9aab6c42"
             }
           ]
         }
@@ -480,7 +62,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "java-17-openjdk-demo-fastdebug"
+        "name": "php-bcmath"
       },
       "ranges": [
         {
@@ -490,7 +72,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:17.0.20.1.1-1.2.el9.alma.1"
+              "fixed": "8.3.33-1.module_el9.8.0+296+9aab6c42"
             }
           ]
         }
@@ -499,7 +81,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "java-17-openjdk-demo-slowdebug"
+        "name": "php-bcmath"
       },
       "ranges": [
         {
@@ -509,7 +91,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:17.0.20.1.1-1.2.el9.alma.1"
+              "fixed": "8.3.33-1.module_el9.8.0+297+88e7f1bf"
             }
           ]
         }
@@ -518,7 +100,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "java-17-openjdk-devel"
+        "name": "php-cli"
       },
       "ranges": [
         {
@@ -528,7 +110,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:17.0.20.1.1-1.2.el9.alma.1"
+              "fixed": "8.3.33-1.module_el9.8.0+297+88e7f1bf"
             }
           ]
         }
@@ -537,7 +119,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "java-17-openjdk-devel-fastdebug"
+        "name": "php-cli"
       },
       "ranges": [
         {
@@ -547,7 +129,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:17.0.20.1.1-1.2.el9.alma.1"
+              "fixed": "8.3.33-1.module_el9.8.0+296+9aab6c42"
             }
           ]
         }
@@ -556,7 +138,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "java-17-openjdk-devel-slowdebug"
+        "name": "php-common"
       },
       "ranges": [
         {
@@ -566,7 +148,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:17.0.20.1.1-1.2.el9.alma.1"
+              "fixed": "8.3.33-1.module_el9.8.0+297+88e7f1bf"
             }
           ]
         }
@@ -575,7 +157,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "java-17-openjdk-fastdebug"
+        "name": "php-common"
       },
       "ranges": [
         {
@@ -585,7 +167,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:17.0.20.1.1-1.2.el9.alma.1"
+              "fixed": "8.3.33-1.module_el9.8.0+296+9aab6c42"
             }
           ]
         }
@@ -594,7 +176,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "java-17-openjdk-headless"
+        "name": "php-dba"
       },
       "ranges": [
         {
@@ -604,7 +186,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:17.0.20.1.1-1.2.el9.alma.1"
+              "fixed": "8.3.33-1.module_el9.8.0+296+9aab6c42"
             }
           ]
         }
@@ -613,7 +195,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "java-17-openjdk-headless-fastdebug"
+        "name": "php-dbg"
       },
       "ranges": [
         {
@@ -623,7 +205,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:17.0.20.1.1-1.2.el9.alma.1"
+              "fixed": "8.3.33-1.module_el9.8.0+296+9aab6c42"
             }
           ]
         }
@@ -632,7 +214,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "java-17-openjdk-headless-slowdebug"
+        "name": "php-dbg"
       },
       "ranges": [
         {
@@ -642,7 +224,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:17.0.20.1.1-1.2.el9.alma.1"
+              "fixed": "8.3.33-1.module_el9.8.0+297+88e7f1bf"
             }
           ]
         }
@@ -651,7 +233,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "java-17-openjdk-javadoc"
+        "name": "php-devel"
       },
       "ranges": [
         {
@@ -661,7 +243,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:17.0.20.1.1-1.2.el9.alma.1"
+              "fixed": "8.3.33-1.module_el9.8.0+297+88e7f1bf"
             }
           ]
         }
@@ -670,7 +252,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "java-17-openjdk-javadoc-zip"
+        "name": "php-devel"
       },
       "ranges": [
         {
@@ -680,7 +262,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:17.0.20.1.1-1.2.el9.alma.1"
+              "fixed": "8.3.33-1.module_el9.8.0+296+9aab6c42"
             }
           ]
         }
@@ -689,7 +271,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "java-17-openjdk-jmods"
+        "name": "php-embedded"
       },
       "ranges": [
         {
@@ -699,7 +281,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:17.0.20.1.1-1.2.el9.alma.1"
+              "fixed": "8.3.33-1.module_el9.8.0+296+9aab6c42"
             }
           ]
         }
@@ -708,7 +290,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "java-17-openjdk-jmods-fastdebug"
+        "name": "php-embedded"
       },
       "ranges": [
         {
@@ -718,7 +300,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:17.0.20.1.1-1.2.el9.alma.1"
+              "fixed": "8.3.33-1.module_el9.8.0+297+88e7f1bf"
             }
           ]
         }
@@ -727,7 +309,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "java-17-openjdk-jmods-slowdebug"
+        "name": "php-enchant"
       },
       "ranges": [
         {
@@ -737,7 +319,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:17.0.20.1.1-1.2.el9.alma.1"
+              "fixed": "8.3.33-1.module_el9.8.0+297+88e7f1bf"
             }
           ]
         }
@@ -746,7 +328,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "java-17-openjdk-slowdebug"
+        "name": "php-enchant"
       },
       "ranges": [
         {
@@ -756,7 +338,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:17.0.20.1.1-1.2.el9.alma.1"
+              "fixed": "8.3.33-1.module_el9.8.0+296+9aab6c42"
             }
           ]
         }
@@ -765,7 +347,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "java-17-openjdk-src"
+        "name": "php-ffi"
       },
       "ranges": [
         {
@@ -775,7 +357,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:17.0.20.1.1-1.2.el9.alma.1"
+              "fixed": "8.3.33-1.module_el9.8.0+296+9aab6c42"
             }
           ]
         }
@@ -784,7 +366,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "java-17-openjdk-src-fastdebug"
+        "name": "php-ffi"
       },
       "ranges": [
         {
@@ -794,7 +376,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:17.0.20.1.1-1.2.el9.alma.1"
+              "fixed": "8.3.33-1.module_el9.8.0+297+88e7f1bf"
             }
           ]
         }
@@ -803,7 +385,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "java-17-openjdk-src-slowdebug"
+        "name": "php-fpm"
       },
       "ranges": [
         {
@@ -813,7 +395,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:17.0.20.1.1-1.2.el9.alma.1"
+              "fixed": "8.3.33-1.module_el9.8.0+297+88e7f1bf"
             }
           ]
         }
@@ -822,7 +404,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "java-17-openjdk-static-libs"
+        "name": "php-fpm"
       },
       "ranges": [
         {
@@ -832,7 +414,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:17.0.20.1.1-1.2.el9.alma.1"
+              "fixed": "8.3.33-1.module_el9.8.0+296+9aab6c42"
             }
           ]
         }
@@ -841,7 +423,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "java-17-openjdk-static-libs-fastdebug"
+        "name": "php-gd"
       },
       "ranges": [
         {
@@ -851,7 +433,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:17.0.20.1.1-1.2.el9.alma.1"
+              "fixed": "8.3.33-1.module_el9.8.0+296+9aab6c42"
             }
           ]
         }
@@ -860,7 +442,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:9",
-        "name": "java-17-openjdk-static-libs-slowdebug"
+        "name": "php-gd"
       },
       "ranges": [
         {
@@ -870,7 +452,672 @@
               "introduced": "0"
             },
             {
-              "fixed": "1:17.0.20.1.1-1.2.el9.alma.1"
+              "fixed": "8.3.33-1.module_el9.8.0+297+88e7f1bf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-gmp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.3.33-1.module_el9.8.0+296+9aab6c42"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-gmp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.3.33-1.module_el9.8.0+297+88e7f1bf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-intl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.3.33-1.module_el9.8.0+296+9aab6c42"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-ldap"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.3.33-1.module_el9.8.0+297+88e7f1bf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-ldap"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.3.33-1.module_el9.8.0+296+9aab6c42"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-mbstring"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.3.33-1.module_el9.8.0+297+88e7f1bf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-mbstring"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.3.33-1.module_el9.8.0+296+9aab6c42"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-mysqlnd"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.3.33-1.module_el9.8.0+296+9aab6c42"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-mysqlnd"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.3.33-1.module_el9.8.0+297+88e7f1bf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-odbc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.3.33-1.module_el9.8.0+296+9aab6c42"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-odbc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.3.33-1.module_el9.8.0+297+88e7f1bf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-opcache"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.3.33-1.module_el9.8.0+297+88e7f1bf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-opcache"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.3.33-1.module_el9.8.0+296+9aab6c42"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-pdo"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.3.33-1.module_el9.8.0+296+9aab6c42"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-pdo"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.3.33-1.module_el9.8.0+297+88e7f1bf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-pecl-apcu"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.23-1.module_el9.6.0+151+5f31e576"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-pecl-apcu"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.23-1.module_el9.8.0+287+a9a5bb73"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-pecl-apcu-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.23-1.module_el9.8.0+287+a9a5bb73"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-pecl-apcu-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.23-1.module_el9.6.0+151+5f31e576"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-pecl-redis6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.1.0-3.module_el9.8.0+257+89d727f2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-pecl-rrd"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.3-4.module_el9.8.0+287+a9a5bb73"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-pecl-rrd"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.3-4.module_el9.6.0+151+5f31e576"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-pecl-xdebug3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.3.1-1.module_el9.6.0+151+5f31e576"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-pecl-xdebug3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.3.1-1.module_el9.8.0+287+a9a5bb73"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-pecl-zip"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.22.3-1.module_el9.6.0+151+5f31e576"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-pecl-zip"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.22.3-1.module_el9.8.0+287+a9a5bb73"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-pgsql"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.3.33-1.module_el9.8.0+296+9aab6c42"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-process"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.3.33-1.module_el9.8.0+297+88e7f1bf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-process"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.3.33-1.module_el9.8.0+296+9aab6c42"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-snmp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.3.33-1.module_el9.8.0+297+88e7f1bf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-snmp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.3.33-1.module_el9.8.0+296+9aab6c42"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-soap"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.3.33-1.module_el9.8.0+297+88e7f1bf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-soap"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.3.33-1.module_el9.8.0+296+9aab6c42"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-xml"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.3.33-1.module_el9.8.0+297+88e7f1bf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-xml"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.3.33-1.module_el9.8.0+296+9aab6c42"
             }
           ]
         }
@@ -878,36 +1125,33 @@
     }
   ],
   "related": [
-    "CVE-2026-60589",
-    "CVE-2026-61308",
-    "CVE-2026-70907"
+    "CVE-2026-17543",
+    "CVE-2026-7260",
+    "CVE-2026-17543",
+    "CVE-2026-7260"
   ],
-  "published": "2026-08-19T00:00:00Z",
-  "modified": "2026-08-21T12:52:51Z",
-  "details": "The java-17-openjdk packages provide the OpenJDK 17 Java Runtime Environment and the OpenJDK 17 Java Software Development Kit.  \n\nSecurity Fix(es):  \n\n  * JDK: Improve Resource Resolving (CVE-2026-60589)\n  * JDK: Enhance HTTP Connections (CVE-2026-61308)\n  * JDK: Enhance TLS server (CVE-2026-70907)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "published": "2026-08-20T00:00:00Z",
+  "modified": "2026-08-21T09:28:07Z",
+  "details": "PHP is an HTML-embedded scripting language commonly used with the Apache HTTP Server.  \n\nSecurity Fix(es):  \n\n  * php: ext-pgsql: PHP: SQL injection via improper backslash escaping (CVE-2026-17543)\n  * php: PHP: Denial of Service via circular symbolic links in phar archives (CVE-2026-7260)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * Rebase PHP to 8.3.33 for CVE-2026-17543 and CVE-2026-7260 in 9.8.z (JIRA:AlmaLinux-223944)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
-      "url": "https://access.redhat.com/errata/RHSA-2026:55781",
+      "url": "https://access.redhat.com/errata/RHSA-2026:57539",
       "type": "ADVISORY"
     },
     {
-      "url": "https://access.redhat.com/security/cve/CVE-2026-60589",
+      "url": "https://access.redhat.com/security/cve/CVE-2026-17543",
       "type": "REPORT"
     },
     {
-      "url": "https://access.redhat.com/security/cve/CVE-2026-61308",
+      "url": "https://access.redhat.com/security/cve/CVE-2026-7260",
       "type": "REPORT"
     },
     {
-      "url": "https://access.redhat.com/security/cve/CVE-2026-70907",
+      "url": "https://bugzilla.redhat.com/2509254",
       "type": "REPORT"
     },
     {
-      "url": "https://errata.almalinux.org/8/ALSA-2026-55781.html",
-      "type": "ADVISORY"
-    },
-    {
-      "url": "https://errata.almalinux.org/9/ALSA-2026-55781.html",
+      "url": "https://errata.almalinux.org/9/ALSA-2026-57539.html",
       "type": "ADVISORY"
     }
   ]

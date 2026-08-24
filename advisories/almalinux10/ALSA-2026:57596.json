@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2026:57596",
+  "summary": "Important: mrtg security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "mrtg"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.17.10-12.el10_2.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "mrtg-selinux"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.17.10-12.el10_2.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-72694"
+  ],
+  "published": "2026-08-20T00:00:00Z",
+  "modified": "2026-08-24T11:00:21Z",
+  "details": "The Multi Router Traffic Grapher (MRTG) monitors the traffic load on network connections. MRTG generates HTML pages containing PNG images which provide a live visual representation of this traffic.  \n\nSecurity Fix(es):  \n\n  * mrtg: MRTG daemon symlink-following chown allows local privilege escalation via PID file path manipulation (CVE-2026-72694)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:57596",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-72694",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2460973",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-57596.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

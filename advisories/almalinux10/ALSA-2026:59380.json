@@ -1,0 +1,87 @@
+{
+  "id": "ALSA-2026:59380",
+  "summary": "Moderate: attr security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "attr"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.0-1.el10_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libattr"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.0-1.el10_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libattr-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.0-1.el10_2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-54371"
+  ],
+  "published": "2026-08-25T00:00:00Z",
+  "modified": "2026-08-26T07:45:12Z",
+  "details": "The attr packages provide extended attributes, which can be used to store system objects like capabilities of executables and access control lists, as well as user objects.  \n\nSecurity Fix(es):  \n\n  * attr: Symlink Traversal Privilege Escalation via getfattr and setfattr (CVE-2026-54371)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:59380",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-54371",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2490283",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-59380.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

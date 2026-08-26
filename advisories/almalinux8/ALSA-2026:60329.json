@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2026:60329",
+  "summary": "Low: mingw-openssl security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mingw32-openssl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.2k-4.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mingw64-openssl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.2k-4.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-5535"
+  ],
+  "published": "2026-08-26T00:00:00Z",
+  "modified": "2026-08-26T15:23:38Z",
+  "details": "The OpenSSL toolkit provides support for secure communications between machines. OpenSSL includes a certificate management tool and shared libraries which provide various cryptographic algorithms and protocols. This package contains Windows (MinGW) libraries and development tools.  \n\nSecurity Fix(es):  \n\n  * openssl: SSL_select_next_proto buffer overread (CVE-2024-5535)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:60329",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-5535",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2294581",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-60329.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2026:59372",
+  "summary": "Moderate: assertj-core security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "assertj-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.24.2-9.el10_2.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "assertj-core-javadoc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.24.2-9.el10_2.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-24400"
+  ],
+  "published": "2026-08-25T00:00:00Z",
+  "modified": "2026-08-26T15:47:09Z",
+  "details": "A rich and intuitive set of strongly-typed assertions to use for unit testing (either with JUnit or TestNG).  \n\nSecurity Fix(es):  \n\n  * assertj: AssertJ: Information disclosure and denial of service via XML External Entity (XXE) (CVE-2026-24400)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:59372",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-24400",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2433116",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-59372.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

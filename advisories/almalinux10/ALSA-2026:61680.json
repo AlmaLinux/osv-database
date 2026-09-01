@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2026:61680",
+  "summary": "Important: iperf3 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "iperf3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.17.1-6.el10_2.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-71217"
+  ],
+  "published": "2026-08-31T00:00:00Z",
+  "modified": "2026-09-01T10:13:25Z",
+  "details": "Iperf is a tool which can measure maximum TCP bandwidth and tune various parameters and UDP characteristics. Iperf reports bandwidth, delay jitter, and data-gram loss.  \n\nSecurity Fix(es):  \n\n  * iperf3: iperf3 server accepts unbounded peer-controlled JSON parameters enabling remote denial of service via resource exhaustion (CVE-2026-71217)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:61680",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-71217",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2460984",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-61680.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "id": "ALSA-2026:61376",
+  "summary": "Important: nodejs22 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "nodejs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:22.23.2-1.el10_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "nodejs-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:22.23.2-1.el10_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "nodejs-docs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:22.23.2-1.el10_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "nodejs-full-i18n"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:22.23.2-1.el10_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "nodejs-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:22.23.2-1.el10_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "nodejs-npm"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:10.9.8-1.22.23.2.1.el10_2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-58043",
+    "CVE-2026-56846",
+    "CVE-2026-56848"
+  ],
+  "published": "2026-08-31T00:00:00Z",
+  "modified": "2026-09-01T08:42:09Z",
+  "details": "Node.js is a platform built on Chrome's JavaScript runtime \\ for easily building fast, scalable network applications. \\ Node.js uses an event-driven, non-blocking I/O model that \\ makes it lightweight and efficient, perfect for data-intensive \\ real-time applications that run across distributed devices.  \n\nSecurity Fix(es):  \n\n  * nodejs: Node.js: Unauthorized filesystem access due to Permission Model enforcement flaw (CVE-2026-58043)\n  * nodejs: Node.js: Remote memory exhaustion via HTTP/2 retained header blocks (CVE-2026-56846)\n  * nodejs: Node.js: Heap-use-after-free in HTTP/2 handling can lead to denial of service (CVE-2026-56848)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:61376",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-56846",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-56848",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-58043",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2509171",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2510856",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-61376.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

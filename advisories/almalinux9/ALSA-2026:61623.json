@@ -1,0 +1,54 @@
+{
+  "id": "ALSA-2026:61623",
+  "summary": "Moderate: gzip security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gzip"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12-2.el9_8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-41991",
+    "CVE-2026-41992"
+  ],
+  "published": "2026-08-31T00:00:00Z",
+  "modified": "2026-09-01T08:33:55Z",
+  "details": "The gzip packages contain the gzip (GNU zip) data compression utility. gzip is used to compress regular files. It replaces them with files containing the .gz extension, while retaining ownership modes, access, and modification times.  \n\nSecurity Fix(es):  \n\n  * gzip: gzip: Arbitrary file overwrite via insecure temporary file handling in gzexe utility (CVE-2026-41991)\n  * gzip: gzip: Information disclosure via global buffer overflow in LZH decompression (CVE-2026-41992)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:61623",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-41991",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-41992",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2494158",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-61623.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

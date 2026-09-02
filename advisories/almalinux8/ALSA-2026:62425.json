@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2026:62425",
+  "summary": "Important: gegl security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gegl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.2.0-40.el8_10.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-18300"
+  ],
+  "published": "2026-09-02T00:00:00Z",
+  "modified": "2026-09-02T10:29:00Z",
+  "details": "GEGL (Generic Graphics Library) is a graph-based image processing framework.  \n\nSecurity Fix(es):  \n\n  * gimp: gegl: GIMP: Remote code execution via integer overflow in HDR file parsing (CVE-2026-18300)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:62425",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-18300",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2520587",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-62425.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

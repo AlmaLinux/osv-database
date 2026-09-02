@@ -1,0 +1,141 @@
+{
+  "id": "ALSA-2026:62218",
+  "summary": "Moderate: libssh security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libssh"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.9.6-17.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libssh-config"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.9.6-17.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libssh-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.9.6-17.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-59843",
+    "CVE-2026-59844",
+    "CVE-2026-59845",
+    "CVE-2026-59846",
+    "CVE-2026-59847",
+    "CVE-2026-59848",
+    "CVE-2026-59850"
+  ],
+  "published": "2026-09-01T00:00:00Z",
+  "modified": "2026-09-02T09:07:42Z",
+  "details": "libssh is a library which implements the SSH protocol. It can be used to implement client and server applications.  \n\nSecurity Fix(es):  \n\n  * libssh: libssh: denial of service via zero advertised channel packet size (CVE-2026-59843)\n  * libssh: libssh: denial of service via oversized SFTP read length (CVE-2026-59844)\n  * libssh: libssh: denial of service via unchecked ProxyCommand fork() failure (CVE-2026-59845)\n  * libssh: libssh: information disclosure via ProxyCommand %r username expansion (CVE-2026-59846)\n  * libssh: libssh: integrity downgrade via OpenSSL AES-GCM tag verification (CVE-2026-59847)\n  * libssh: libssh: denial of service via SFTP responses with unknown request IDs (CVE-2026-59848)\n  * libssh: libssh: use-after-free via data callbacks on closed channels (CVE-2026-59850)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:62218",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-59843",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-59844",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-59845",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-59846",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-59847",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-59848",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-59850",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2498176",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2498177",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2498178",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2498179",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2498180",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2498181",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2498183",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-62218.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

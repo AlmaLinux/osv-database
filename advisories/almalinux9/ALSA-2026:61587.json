@@ -1,0 +1,140 @@
+{
+  "id": "ALSA-2026:61587",
+  "summary": "Important: gimp security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gimp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.0.4-4.el9_8.10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gimp-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.0.4-4.el9_8.10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-59090",
+    "CVE-2026-18304",
+    "CVE-2026-18301",
+    "CVE-2026-18308",
+    "CVE-2026-18302",
+    "CVE-2026-18305",
+    "CVE-2026-18303",
+    "CVE-2026-18306",
+    "CVE-2026-18307"
+  ],
+  "published": "2026-08-31T00:00:00Z",
+  "modified": "2026-09-02T08:33:30Z",
+  "details": "The GIMP (GNU Image Manipulation Program) is an image composition and editing program. GIMP provides a large image manipulation toolbox, including channel operations and layers, effects, sub-pixel imaging and anti-aliasing, and conversions, all with multi-level undo.  \n\nSecurity Fix(es):  \n\n  * gimp: GIMP: Arbitrary code execution in PSD plugin due to unsigned underflow (CVE-2026-59090)\n  * gimp: GIMP: Arbitrary code execution via crafted TIF file parsing (CVE-2026-18304)\n  * gimp: GIMP: Remote code execution via PSD file parsing integer overflow (CVE-2026-18301)\n  * gimp: GIMP: Remote Code Execution via TIF File Parsing Integer Overflow (CVE-2026-18308)\n  * gimp: GIMP: Remote code execution via TIF file parsing heap-based buffer overflow (CVE-2026-18302)\n  * gimp: GIMP: Remote Code Execution via TIF file parsing integer overflow (CVE-2026-18305)\n  * gimp: GIMP: Remote code execution via TIF file parsing vulnerability (CVE-2026-18303)\n  * gimp: GIMP: Remote Code Execution via SGI File Parsing Integer Overflow (CVE-2026-18306)\n  * gimp: GIMP: Remote code execution via TIF file parsing heap-based buffer overflow (CVE-2026-18307)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:61587",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-18301",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-18302",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-18303",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-18304",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-18305",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-18306",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-18307",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-18308",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-59090",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2496584",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2520560",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2520561",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2520576",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2520579",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2520582",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2520583",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2520591",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2520594",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-61587.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

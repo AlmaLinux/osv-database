@@ -1,0 +1,152 @@
+{
+  "id": "ALSA-2026:61379",
+  "summary": "Important: freerdp security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "freerdp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.11.7-7.el9_8.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "freerdp-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.11.7-7.el9_8.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "freerdp-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.11.7-7.el9_8.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libwinpr"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.11.7-7.el9_8.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libwinpr-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.11.7-7.el9_8.6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-67301",
+    "CVE-2026-67288",
+    "CVE-2026-67291",
+    "CVE-2026-55194"
+  ],
+  "published": "2026-08-31T00:00:00Z",
+  "modified": "2026-09-02T08:35:22Z",
+  "details": "FreeRDP is a free implementation of the Remote Desktop Protocol (RDP), released under the Apache license. The xfreerdp client can connect to RDP servers such as Microsoft Windows machines, xrdp, and VirtualBox.  \n\nSecurity Fix(es):  \n\n  * FreeRDP: FreeRDP: Memory disclosure or denial of service via crafted RDP update orders (CVE-2026-67301)\n  * FreeRDP: FreeRDP: Denial of Service via crafted smartcard cache requests (CVE-2026-67288)\n  * FreeRDP: FreeRDP: Denial of Service via heap out-of-bounds read (CVE-2026-67291)\n  * FreeRDP: FreeRDP: Heap-buffer-overflow allows arbitrary code execution via crafted RPC response (CVE-2026-55194)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:61379",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-55194",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-67288",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-67291",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-67301",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2509994",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2510001",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2510010",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2519824",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-61379.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

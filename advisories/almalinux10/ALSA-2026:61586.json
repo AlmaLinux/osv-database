@@ -1,0 +1,67 @@
+{
+  "id": "ALSA-2026:61586",
+  "summary": "Moderate: tar security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "tar"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.35-13.el10_2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-5704",
+    "CVE-2026-18477",
+    "CVE-2026-18508"
+  ],
+  "published": "2026-08-31T00:00:00Z",
+  "modified": "2026-09-02T08:33:31Z",
+  "details": "The GNU tar program can save multiple files in an archive and restore files from an archive.  \n\nSecurity Fix(es):  \n\n  * tar: tar: Hidden file injection via crafted archives (CVE-2026-5704)\n  * tar: tar: TOCTOU in incremental dumpdir 'X' rename handling allows restore path escape (CVE-2026-18477)\n  * tar: tar: --one-top-level hardlink targets not confined to top-level directory enabling arbitrary file overwrite (CVE-2026-18508)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * tar: --one-top-level with absolute path fails (JIRA:AlmaLinux-143906)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:61586",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-18477",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-18508",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-5704",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2455360",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2509735",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2509843",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-61586.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

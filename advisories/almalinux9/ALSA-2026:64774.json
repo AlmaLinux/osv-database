@@ -1,0 +1,58 @@
+{
+  "id": "ALSA-2026:64774",
+  "summary": "Important: python3.14-cryptography security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "python3.14-cryptography"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "45.0.4-4.el9_8.6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-69249",
+    "CVE-2026-69248"
+  ],
+  "published": "2026-09-08T00:00:00Z",
+  "modified": "2026-09-08T08:52:03Z",
+  "details": "Python is an interpreted, interactive, object-oriented programming language, which includes modules, classes, exceptions, very high level dynamic data types and dynamic typing. Python supports interfaces to many system calls and libraries, as well as to various windowing systems.  \n\nSecurity Fix(es):  \n\n  * python-cryptography: python-cryptography: Duplicate self-signed intermediates can cause exponential path-building (CVE-2026-69249)\n  * python-cryptography: python-cryptography: python-cryptography verifier accepts wildcard DNS names allowing escape from permittedSubtrees (CVE-2026-69248)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:64774",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-69248",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-69249",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2510815",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2510830",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-64774.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

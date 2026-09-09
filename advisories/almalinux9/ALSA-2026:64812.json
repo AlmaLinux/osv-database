@@ -1,0 +1,77 @@
+{
+  "id": "ALSA-2026:64812",
+  "summary": "Moderate: expat security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "expat"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.0-6.el9_8.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "expat-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.0-6.el9_8.3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-50219",
+    "CVE-2026-56132"
+  ],
+  "published": "2026-09-08T00:00:00Z",
+  "modified": "2026-09-09T07:43:56Z",
+  "details": "Expat is a C library for parsing XML documents.  \n\nSecurity Fix(es):  \n\n  * expat: libexpat: Use-after-free vulnerability due to improper handler call depth tracking (CVE-2026-50219)\n  * expat: libexpat: Arbitrary Code Execution via Heap-based Buffer Overflow (CVE-2026-56132)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:64812",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-50219",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-56132",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2484620",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2490669",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-64812.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

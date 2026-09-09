@@ -1,0 +1,58 @@
+{
+  "id": "ALSA-2026:65147",
+  "summary": "Important: microcode_ctl security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "microcode_ctl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4:20260812-1.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-35973",
+    "CVE-2025-31936"
+  ],
+  "published": "2026-09-08T00:00:00Z",
+  "modified": "2026-09-09T08:02:41Z",
+  "details": "The microcode_ctl packages provide microcode updates for Intel and AMD processors.  \n\nSecurity Fix(es):  \n\n  * kernel: hypervisor: Intel Processors: Privilege escalation in Ring 0 via improper value handling (CVE-2025-35973)\n  * kernel: microcode_ctl: Intel Xeon 6 Processors: Privilege escalation via improper memory range handling in SMM (CVE-2025-31936)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * [AlmaLinux 8] Update Intel CPU microcode to the latest version (JIRA:AlmaLinux-240770)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:65147",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-31936",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-35973",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2514104",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2514115",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-65147.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

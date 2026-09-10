@@ -1,0 +1,162 @@
+{
+  "id": "ALSA-2026:64784",
+  "summary": "Critical: 389-ds-base security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "389-ds-base"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.8.0-10.el9_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "389-ds-base-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.8.0-10.el9_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "389-ds-base-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.8.0-10.el9_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "389-ds-base-snmp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.8.0-10.el9_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "python3-lib389"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.8.0-10.el9_8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-18355",
+    "CVE-2026-18453",
+    "CVE-2026-18922",
+    "CVE-2026-76560",
+    "CVE-2026-11610",
+    "CVE-2026-78701"
+  ],
+  "published": "2026-09-08T00:00:00Z",
+  "modified": "2026-09-10T07:50:27Z",
+  "details": "389 Directory Server is an LDAP version 3 (LDAPv3) compliant server. The base packages include the Lightweight Directory Access Protocol (LDAP) server and command-line utilities for server administration.  \n\nSecurity Fix(es):  \n\n  * 389-ds-base: 389-ds-base: heap buffer overflow via SASL wrapped-record length lower-bound underflow in sasl_io_start_packet() (CVE-2026-18355)\n  * 389-ds-base: 389-ds-base: pre-authentication NULL pointer dereference via paged results and USE_ONE_BACKEND control in op_shared_search (CVE-2026-18453)\n  * 389-ds-base: 389-ds-base: SASL PLAIN authentication allows privilege escalation to Directory Manager via stale identity in Cyrus SASL auxiliary property (CVE-2026-18922)\n  * 389-ds-base: 389-ds: anonymous LDAP client can defeat SELFDN ACI bind-rule checks via empty bind DN (CVE-2026-76560)\n  * 389-ds-base: 389-ds-base: CVE-2026-11610 incomplete fix may introduce a connection-stall DoS (CVE-2026-78701)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * lib389: set nsDS5ReplicaBindDNGroup before ensure_agreement() [almalinux-9.8.z] (JIRA:AlmaLinux-244467)\n  * fix breaks replication total init when nsDS5ReplicaBindDNGroup is set after agreement creation [almalinux-9.8.z] (JIRA:AlmaLinux-248766)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:64784",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-18355",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-18453",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-18922",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-76560",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-78701",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2509186",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2509696",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2511388",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2519521",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2523232",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-64784.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

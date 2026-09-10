@@ -1,0 +1,87 @@
+{
+  "id": "ALSA-2026:65816",
+  "summary": "Important: qt6-qt5compat security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "qt6-qt5compat"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.10.1-1.el10_2.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "qt6-qt5compat-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.10.1-1.el10_2.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "qt6-qt5compat-examples"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.10.1-1.el10_2.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-9499"
+  ],
+  "published": "2026-09-09T00:00:00Z",
+  "modified": "2026-09-10T11:01:42Z",
+  "details": "Qt6 - Qt 5 Compatibility Libraries.  \n\nSecurity Fix(es):  \n\n  * qt: Qt: Denial of Service via out-of-bounds read in text codec handling (CVE-2026-9499)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:65816",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9499",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2503641",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-65816.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

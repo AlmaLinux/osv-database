@@ -1,0 +1,168 @@
+{
+  "id": "ALSA-2026:66016",
+  "summary": "Important: osbuild-composer security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "osbuild-composer"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "101.5-2.el8_10.alma.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "osbuild-composer-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "101.5-2.el8_10.alma.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "osbuild-composer-worker"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "101.5-2.el8_10.alma.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2024-9355",
+    "CVE-2024-45336",
+    "CVE-2026-39820",
+    "CVE-2026-39821",
+    "CVE-2026-33818",
+    "CVE-2026-56860",
+    "CVE-2026-56853",
+    "CVE-2026-56858",
+    "CVE-2026-56862",
+    "CVE-2026-56859"
+  ],
+  "published": "2026-09-09T00:00:00Z",
+  "modified": "2026-09-10T09:15:37Z",
+  "details": "A service for building customized OS artifacts, such as VM images and OSTree commits, that uses osbuild under the hood. Besides building images for local usage, it can also upload images directly to cloud. It is compatible with composer-cli and cockpit-composer clients.  \n\nSecurity Fix(es):  \n\n  * golang-fips: Golang FIPS zeroed buffer (CVE-2024-9355)\n  * golang: net/[http:](http:) net/[http:](http:) sensitive headers incorrectly sent after cross-domain redirect (CVE-2024-45336)\n  * net/mail: golang: Go net/mail: Denial of Service via crafted email inputs (CVE-2026-39820)\n  * golang.org/x/net/idna: golang: net/[http:](http:) golang.org/x/net/idna: Privilege escalation via incorrect Punycode label processing (CVE-2026-39821)\n  * encoding/asn1: golang: Go encoding/asn1: Denial of Service via excessive recursion in Unmarshal (CVE-2026-33818)\n  * net/url: golang: golang net/url: Denial of Service from quadratic complexity in path resolution (CVE-2026-56860)\n  * net/[http:](http:) golang: Go net/[http:](http:) Unencrypted HTTP/2 connections vulnerable to Denial of Service (CVE-2026-56853)\n  * html/template: golang: Go html/template: Cross-Site Scripting via pathological input (CVE-2026-56858)\n  * crypto/tls: golang: Golang crypto/tls: Denial of Service via indefinite KeyUpdate messages (CVE-2026-56862)\n  * encoding/xml: golang: Go: Denial of Service via XML decoding recursion depth issue (CVE-2026-56859)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:66016",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-45336",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-9355",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-33818",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-39820",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-39821",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-56853",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-56858",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-56859",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-56860",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-56862",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2315719",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2341751",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2467820",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2480756",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2515815",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2515820",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2515827",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2515838",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2515839",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2515840",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-66016.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

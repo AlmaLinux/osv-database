@@ -1,0 +1,87 @@
+{
+  "id": "ALSA-2026:66403",
+  "summary": "Moderate: coreutils security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "coreutils"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.32-41.el9_8.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "coreutils-common"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.32-41.el9_8.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "coreutils-single"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.32-41.el9_8.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-56392"
+  ],
+  "published": "2026-09-10T00:00:00Z",
+  "modified": "2026-09-11T08:52:04Z",
+  "details": "The coreutils packages contain the GNU Core Utilities and represent a combination of the previously used GNU fileutils, sh-utils, and textutils packages.  \n\nSecurity Fix(es):  \n\n  * coreutils: GNU coreutils unexpand: Denial of Service via crafted tab stop values (CVE-2026-56392)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:66403",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-56392",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2506694",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-66403.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

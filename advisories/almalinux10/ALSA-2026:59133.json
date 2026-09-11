@@ -46,7 +46,7 @@
     "CVE-2026-18298"
   ],
   "published": "2026-08-24T00:00:00Z",
-  "modified": "2026-08-26T07:45:31Z",
+  "modified": "2026-09-10T18:23:56Z",
   "details": "GStreamer is a streaming media framework based on graphs of filters which operate on media data. The gstreamer1-plugins-good packages contain a collection of well-supported plug-ins of good quality and under the LGPL license.  \n\nSecurity Fix(es):  \n\n  * gstreamer: GStreamer: Remote Code Execution via MRF file parsing heap-based buffer overflow (CVE-2026-18296)\n  * gstreamer: GStreamer: Remote code execution via heap-based buffer overflow in PNG file parsing (CVE-2026-18298)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -72,6 +72,10 @@
     {
       "url": "https://errata.almalinux.org/10/ALSA-2026-59133.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-18295.html",
+      "type": "REPORT"
     }
   ]
 }

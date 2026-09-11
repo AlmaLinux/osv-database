@@ -1,0 +1,228 @@
+{
+  "id": "ALSA-2026:66392",
+  "summary": "Moderate: apr-util security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "apr-util"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6.3-23.el10_2.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "apr-util-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6.3-23.el10_2.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "apr-util-ldap"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6.3-23.el10_2.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "apr-util-lmdb"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6.3-23.el10_2.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "apr-util-mysql"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6.3-23.el10_2.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "apr-util-odbc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6.3-23.el10_2.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "apr-util-openssl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6.3-23.el10_2.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "apr-util-pgsql"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6.3-23.el10_2.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "apr-util-sqlite"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6.3-23.el10_2.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-34501",
+    "CVE-2025-49506",
+    "CVE-2026-32327",
+    "CVE-2026-34502"
+  ],
+  "published": "2026-09-10T00:00:00Z",
+  "modified": "2026-09-11T09:33:55Z",
+  "details": "The mission of the Apache Portable Runtime (APR) is to provide a free library of C data structures and routines. This library contains additional utility interfaces for APR; including support for XML, LDAP, database interfaces, URI parsing and more.  \n\nSecurity Fix(es):  \n\n  * apr-util: Apache Portable Runtime Utility: Heap buffer overflow in redis client (CVE-2026-34501)\n  * apr-util: Apache Portable Runtime Utility: Information disclosure via timing attack in password validation (CVE-2025-49506)\n  * apr-util: Apache Portable Runtime Utility: Denial of Service via XML stack recursion attack (CVE-2026-32327)\n  * apr-util: Apache Portable Runtime Utility: Heap buffer overflow in APR memcached client (CVE-2026-34502)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:66392",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-49506",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-32327",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-34501",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-34502",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2512073",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2512077",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2512079",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2512083",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-66392.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "id": "ALSA-2026:50773",
+  "summary": "Important: ruby4.0 security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "ruby4.0"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.6-36.el10_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "ruby4.0-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.6-36.el10_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "ruby4.0-doc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.6-36.el10_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "ruby4.0-rubygem-mysql2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.5.7-36.el10_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "ruby4.0-rubygem-pg"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6.3-36.el10_2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-27820",
+    "CVE-2026-42257",
+    "CVE-2026-42256",
+    "CVE-2026-47240",
+    "CVE-2026-47242",
+    "CVE-2026-47241"
+  ],
+  "published": "2026-08-05T00:00:00Z",
+  "modified": "2026-09-14T08:24:38Z",
+  "details": "Ruby is the interpreted scripting language for quick and easy object-oriented programming. It has many features to process text files and to do system management tasks (as in Perl). It is simple, straight-forward, and extensible.  \n\nSecurity Fix(es):  \n\n  * zlib: zlib: Memory corruption via buffer overflow in Zlib::GzipReader (CVE-2026-27820)\n  * net-imap: Net::IMAP: Arbitrary IMAP command injection via CRLF sequences in unvalidated input (CVE-2026-42257)\n  * ruby/net-imap: ruby: Net::IMAP: Denial of Service via large iteration count in SCRAM authentication (CVE-2026-42256)\n  * net-imap: Net::IMAP: Command injection via non-synchronizing literals (CVE-2026-47240)\n  * net-imap: Net::IMAP: Arbitrary IMAP command injection due to improper input validation (CVE-2026-47242)\n  * net-imap: rubygem-net-imap: Net::IMAP: Denial of Service via malformed command input (CVE-2026-47241)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * ruby4.0: Rebase to the latest Ruby 4.0 release [almalinux-10.2.z] (JIRA:AlmaLinux-211310)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:50773",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-27820",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-42256",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-42257",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-47240",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-47241",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-47242",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2459002",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2468494",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2468500",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2491519",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2491523",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-50773.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

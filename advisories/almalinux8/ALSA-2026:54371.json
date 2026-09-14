@@ -1,0 +1,257 @@
+{
+  "id": "ALSA-2026:54371",
+  "summary": "Important: nodejs:24 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:24.18.0-3.module_el8.10.0+4250+09238ed4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:24.18.0-3.module_el8.10.0+4250+09238ed4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-docs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:24.18.0-3.module_el8.10.0+4250+09238ed4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-full-i18n"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:24.18.0-3.module_el8.10.0+4250+09238ed4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:24.18.0-3.module_el8.10.0+4250+09238ed4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-nodemon"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.14-2.module_el8.10.0+4250+09238ed4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-packaging"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2021.06-6.module_el8.10.0+4086+70facd4a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nodejs-packaging-bundler"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2021.06-6.module_el8.10.0+4086+70facd4a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "npm"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:11.16.0-1.24.18.0.3.module_el8.10.0+4250+09238ed4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "v8-13.6-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3:13.6.233.17-1.24.18.0.3.module_el8.10.0+4250+09238ed4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-11822",
+    "CVE-2026-11824",
+    "CVE-2026-14257",
+    "CVE-2026-54272",
+    "CVE-2026-69152",
+    "CVE-2026-69192"
+  ],
+  "published": "2026-08-12T00:00:00Z",
+  "modified": "2026-09-14T08:27:19Z",
+  "details": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language.   \n\nSecurity Fix(es):  \n\n  * sqlite: SQLite: Arbitrary code execution via crafted FTS5 full-text search data (CVE-2026-11822)\n  * sqlite: SQLite: Arbitrary code execution and crash via heap-based buffer overflow in FTS5 (CVE-2026-11824)\n  * brace-expansion: Brace-expansion: Denial of Service via memory exhaustion in expand() function (CVE-2026-14257)\n  * ip-address: ip-address: Server-Side Request Forgery via IPv4-mapped/NAT64 IPv6 address misclassification (CVE-2026-54272)\n  * brace-expansion: brace-expansion: Denial of Service via unbounded intermediate arrays (CVE-2026-69152)\n  * ip-address: ip-address: Inconsistent IP address parsing leads to Server-Side Request Forgery (SSRF) and trust-boundary bypass (CVE-2026-69192)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:54371",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-11822",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-11824",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-14257",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-54272",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-69152",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-69192",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2506433",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2507593",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2510722",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2510801",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-54371.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

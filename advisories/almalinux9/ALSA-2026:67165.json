@@ -1,0 +1,178 @@
+{
+  "id": "ALSA-2026:67165",
+  "summary": "Important: openssl security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "openssl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:3.5.8-1.el9_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "openssl-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:3.5.8-1.el9_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "openssl-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:3.5.8-1.el9_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "openssl-perl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:3.5.8-1.el9_8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-14456",
+    "CVE-2026-18798",
+    "CVE-2026-63072",
+    "CVE-2026-63076",
+    "CVE-2026-14457",
+    "CVE-2026-54874",
+    "CVE-2026-63073",
+    "CVE-2026-63074",
+    "CVE-2026-63075"
+  ],
+  "published": "2026-09-14T00:00:00Z",
+  "modified": "2026-09-15T08:35:13Z",
+  "details": "OpenSSL is a toolkit that implements the Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocols, as well as a full-strength general-purpose cryptography library.  \n\nSecurity Fix(es):  \n\n  * openssl: OpenSSL: Denial of Service via unbounded memory growth in QUIC server (CVE-2026-14456)\n  * openssl: QUIC server may trigger double free when processing INITIAL packet (CVE-2026-18798)\n  * openssl: heap buffer overflow in CMS key unwrapping (CVE-2026-63072)\n  * openssl: invalid pointer dereference in CMP server via crafted protectionAlg (CVE-2026-63076)\n  * openssl: RPK server signature algorithm selection can dereference a missing certificate (CVE-2026-14457)\n  * openssl: excessive memory use buffering DTLS records for a future epoch (CVE-2026-54874)\n  * openssl: untrusted sender DN used as format string in CMP response validation (CVE-2026-63073)\n  * openssl: CMP indefinite cache growth of ExtraCerts (CVE-2026-63074)\n  * openssl: QUIC ACK-only packet retention can cause memory exhaustion (CVE-2026-63075)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * openssl: HollowByte remote memory-exhaustion DoS fix may be missing [AlmaLinux 9.8.z] (JIRA:AlmaLinux-232828)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:67165",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-14456",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-14457",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-18798",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-54874",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-63072",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-63073",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-63074",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-63075",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-63076",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2515348",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2517559",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2517560",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2517561",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2517562",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2517564",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2517565",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2517566",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2517570",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-67165.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

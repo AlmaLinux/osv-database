@@ -1,0 +1,246 @@
+{
+  "id": "ALSA-2026:67462",
+  "summary": "Important: rsync security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "rsync"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.7-1.el9_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "rsync-daemon"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.7-1.el9_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "rsync-rrsync"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.7-1.el9_8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-70460",
+    "CVE-2026-70454",
+    "CVE-2026-53789",
+    "CVE-2026-53790",
+    "CVE-2026-70458",
+    "CVE-2026-70464",
+    "CVE-2026-53803",
+    "CVE-2026-53784",
+    "CVE-2026-70463",
+    "CVE-2026-70452",
+    "CVE-2026-53791",
+    "CVE-2026-53795",
+    "CVE-2026-70456",
+    "CVE-2026-53793",
+    "CVE-2026-70453",
+    "CVE-2026-70457",
+    "CVE-2026-70461",
+    "CVE-2026-53802",
+    "CVE-2026-53785",
+    "CVE-2026-53783"
+  ],
+  "published": "2026-09-14T00:00:00Z",
+  "modified": "2026-09-15T08:10:21Z",
+  "details": "The rsync utility enables the users to copy and synchronize files locally or across a network. Synchronization with rsync is fast because rsync only sends the differences in files over the network instead of sending whole files. The rsync utility is also used as a mirroring tool.  \n\nSecurity Fix(es):  \n\n  * rsync: rsync 2.3.3 < 3.5.0 Path Traversal via --partial-dir/--backup-dir Symlink (CVE-2026-70460)\n  * rsync: rsync: TLS Certificate Validation Bypass allows interception of encrypted sessions (CVE-2026-70454)\n  * rsync: rsync: Arbitrary file deletion via malicious file list (CVE-2026-53789)\n  * rsync: rsync < 3.5.0 Command Injection via Multiple Code Paths (CVE-2026-53790)\n  * rsync: rsync: Memory corruption via crafted file entries (CVE-2026-70458)\n  * rsync: rsync: Denial of Service via handshake stall (CVE-2026-70464)\n  * rsync: rsync: Local Privilege Escalation via Symlink Following (CVE-2026-53803)\n  * rsync: rsync: Unauthorized File Access via Symlink Module Root (CVE-2026-53784)\n  * rsync: rsync: Authorization bypass via `auth users` directive parsing (CVE-2026-70463)\n  * rsync: rsync 3.1.0 < 3.5.0 Access Control Bypass via DNS Resolution Failure (CVE-2026-70452)\n  * rsync: rsync < 3.5.0 Daemon IP Spoofing via PROXY Protocol Header (CVE-2026-53791)\n  * rsync: rsync: Arbitrary file write via --temp-dir or --link-dest options (CVE-2026-53795)\n  * rsync: rsync: Heap Out-of-Bounds Write via crafted argument list (CVE-2026-70456)\n  * rsync: rsync < 3.5.0 Path Confinement Bypass via /./ Boundary Marker in Chroot Mode (CVE-2026-53793)\n  * rsync: rsync: Denial of Service via Algorithmic Complexity (CVE-2026-70453)\n  * rsync: rsync: Memory corruption via out-of-bounds write in size parsing (CVE-2026-70457)\n  * rsync: rsync: Information disclosure and denial of service via crafted files-from entry (CVE-2026-70461)\n  * rsync: rsync: Arbitrary File Read via Symlink Following (CVE-2026-53802)\n  * rsync: rsync: Arbitrary file write via path traversal in --relative mode (CVE-2026-53785)\n  * rsync: rsync: Directory escape via TOCTOU race condition in rrsync (CVE-2026-53783)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * Rebase rsync to version 3.2.7 in AlmaLinux9 (JIRA:AlmaLinux-248835)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:67462",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-53783",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-53784",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-53785",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-53789",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-53790",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-53791",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-53793",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-53795",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-53802",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-53803",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-70452",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-70453",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-70454",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-70456",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-70457",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-70458",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-70460",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-70461",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-70463",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-70464",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2515368",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2515373",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2515378",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2515379",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2515380",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2515381",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2515384",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2515385",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2515386",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2515387",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2515389",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2515395",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2515396",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2515403",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2515409",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2515417",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2515419",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-67462.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

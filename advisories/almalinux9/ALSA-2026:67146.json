@@ -1,0 +1,50 @@
+{
+  "id": "ALSA-2026:67146",
+  "summary": "Important: python-tornado security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "python3-tornado"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.5.8-0.el9_8.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-49853",
+    "CVE-2026-49855"
+  ],
+  "published": "2026-09-14T00:00:00Z",
+  "modified": "2026-09-15T08:50:19Z",
+  "details": "Python is an interpreted, interactive, object-oriented programming language, which includes modules, classes, exceptions, very high level dynamic data types and dynamic typing. Python supports interfaces to many system calls and libraries, as well as to various windowing systems.  \n\nSecurity Fix(es):  \n\n  * tornado: Tornado: Information disclosure via improper handling of credentials during HTTP redirects (CVE-2026-49853)\n  * tornado: Tornado: Denial of Service via uncontrolled gzip decompression memory consumption (CVE-2026-49855)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:67146",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-49853",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-49855",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-67146.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

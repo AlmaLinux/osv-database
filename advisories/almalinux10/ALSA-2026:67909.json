@@ -1,0 +1,146 @@
+{
+  "id": "ALSA-2026:67909",
+  "summary": "Important: libevent security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libevent"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.13-1.el10_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libevent-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.13-1.el10_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libevent-doc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.13-1.el10_2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-63383",
+    "CVE-2026-63387",
+    "CVE-2026-63381",
+    "CVE-2026-63384",
+    "CVE-2026-63382",
+    "CVE-2026-63388",
+    "CVE-2026-63385",
+    "CVE-2026-63379"
+  ],
+  "published": "2026-09-16T00:00:00Z",
+  "modified": "2026-09-17T09:34:09Z",
+  "details": "The libevent packages provide an abstract asynchronous event notification library.  \n\nSecurity Fix(es):  \n\n  * libevent: Libevent: Denial of Service via malformed RPC data (CVE-2026-63383)\n  * libevent: Libevent: Off-by-one stack buffer overflow leading to denial of service or data corruption (CVE-2026-63387)\n  * libevent: Libevent: Memory corruption due to use-after-free (CVE-2026-63381)\n  * libevent: Libevent: Denial of Service via integer conversion error in `evtag_unmarshal_header` (CVE-2026-63384)\n  * libevent ev[http:](http:) Multiple HTTP Parser Bugs Enable Request Smuggling (CVE-2026-63382)\n  * libevent: Libevent: Arbitrary code execution via heap out-of-bounds write in AF_UNIX handling (CVE-2026-63388)\n  * libevent: Libevent: HTTP header handling bugs create risk of access control bypass. (CVE-2026-63385)\n  * libevent: Libevent: HTTP header smuggling allows authorization bypass or cache poisoning (CVE-2026-63379)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:67909",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-63379",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-63381",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-63382",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-63383",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-63384",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-63385",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-63387",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-63388",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2520654",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2520655",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2520657",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2520658",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2520661",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2520666",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2520667",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-67909.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

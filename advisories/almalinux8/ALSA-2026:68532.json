@@ -1,0 +1,418 @@
+{
+  "id": "ALSA-2026:68532",
+  "summary": "Important: kernel-rt security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.164.1.rt7.505.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.164.1.rt7.505.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-debug"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.164.1.rt7.505.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-debug-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.164.1.rt7.505.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-debug-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.164.1.rt7.505.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-debug-modules"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.164.1.rt7.505.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-debug-modules-extra"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.164.1.rt7.505.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.164.1.rt7.505.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-modules"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.164.1.rt7.505.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-modules-extra"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.164.1.rt7.505.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-23103",
+    "CVE-2026-31663",
+    "CVE-2026-43233",
+    "CVE-2026-43339",
+    "CVE-2026-46266",
+    "CVE-2026-46306",
+    "CVE-2026-52920",
+    "CVE-2026-53075",
+    "CVE-2026-53228",
+    "CVE-2026-53176",
+    "CVE-2026-53131",
+    "CVE-2026-53268",
+    "CVE-2026-53239",
+    "CVE-2026-53192",
+    "CVE-2026-53223",
+    "CVE-2026-53275",
+    "CVE-2026-64002",
+    "CVE-2026-63921",
+    "CVE-2026-63919",
+    "CVE-2026-63917",
+    "CVE-2026-68143",
+    "CVE-2026-68426",
+    "CVE-2026-72298"
+  ],
+  "published": "2026-09-17T00:00:00Z",
+  "modified": "2026-09-17T09:41:11Z",
+  "details": "The kernel-rt packages provide the Real Time Linux Kernel, which enables fine-tuning for systems with extremely high determinism requirements.  \n\nSecurity Fix(es):  \n\n  * kernel: ipvlan: Make the addrs_lock be per port (CVE-2026-23103)\n  * kernel: xfrm: hold dev ref until after transport_finish NF_HOOK (CVE-2026-31663)\n  * kernel: netfilter: nf_conntrack_h323: fix OOB read in decode_choice() (CVE-2026-43233)\n  * kernel: ipv6: prevent possible UaF in addrconf_permanent_addr() (CVE-2026-43339)\n  * kernel: inet: RAW sockets using IPPROTO_RAW MUST drop incoming ICMP (CVE-2026-46266)\n  * kernel: flow_dissector: do not dissect PPPoE PFC frames (CVE-2026-46306)\n  * kernel: netfilter: xt_policy: fix strict mode inbound policy matching (CVE-2026-52920)\n  * kernel: ppp: require CAP_NET_ADMIN in target netns for unattached ioctls (CVE-2026-53075)\n  * kernel: ipv6: sit: reload inner IPv6 header after GSO offloads (CVE-2026-53228)\n  * kernel: IB/isert: Reject login PDUs shorter than ISER_HEADERS_LEN (CVE-2026-53176)\n  * kernel: netfilter: require Ethernet MAC header before using eth_hdr() (CVE-2026-53131)\n  * kernel: netfilter: conntrack_irc: fix possible out-of-bounds read (CVE-2026-53268)\n  * kernel: xfrm: policy: fix use-after-free on inexact bin in xfrm_policy_bysel_ctx() (CVE-2026-53239)\n  * kernel: ALSA: timer: Fix UAF at snd_timer_user_params() (CVE-2026-53192)\n  * kernel: net: guard timestamp cmsgs to real error queue skbs (CVE-2026-53223)\n  * kernel: ipv6: mcast: Fix use-after-free when processing MLD queries (CVE-2026-53275)\n  * kernel: ipv4: free net->ipv4.sysctl_local_reserved_ports after unregister_net_sysctl_table() (CVE-2026-64002)\n  * kernel: ip6: vti: Use ip6_tnl.net in vti6_siocdevprivate() (CVE-2026-63921)\n  * kernel: xfrm: input: hold netns during deferred transport reinjection (CVE-2026-63919)\n  * kernel: ip6: vti: Use ip6_tnl.net in vti6_changelink() (CVE-2026-63917)\n  * kernel: Linux kernel SLIP: Out-of-bounds write due to race condition during MTU change (CVE-2026-68143)\n  * kernel: xfrm: fix stale skb->prev after async crypto steals a GSO segment (CVE-2026-68426)\n  * kernel: net: qrtr: fix 32-bit integer overflow in qrtr_endpoint_post() (CVE-2026-72298)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:68532",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-23103",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-31663",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-43233",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-43339",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-46266",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-46306",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-52920",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-53075",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-53131",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-53176",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-53192",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-53223",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-53228",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-53239",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-53268",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-53275",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-63917",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-63919",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-63921",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-64002",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-68143",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-68426",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-72298",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2436771",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2461462",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2467135",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2468102",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2484456",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2486463",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2492112",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2492295",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2492733",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2492741",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2492747",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2492770",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2492779",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2492792",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2492811",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2492841",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2502363",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2502368",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2502412",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2502434",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2513218",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2513477",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2516599",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-68532.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

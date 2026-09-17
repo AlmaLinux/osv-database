@@ -1,0 +1,77 @@
+{
+  "id": "ALSA-2026:68234",
+  "summary": "Moderate: libsoup security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libsoup"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.72.0-16.el9_8.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libsoup-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.72.0-16.el9_8.3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-15709",
+    "CVE-2026-15711"
+  ],
+  "published": "2026-09-16T00:00:00Z",
+  "modified": "2026-09-17T09:34:21Z",
+  "details": "The libsoup packages provide an HTTP client and server library for GNOME.  \n\nSecurity Fix(es):  \n\n  * SoupWebsocketExtensionDeflate: libsoup: libsoup: WebSocket permessage-deflate Unbounded Decompression Remote Denial of Service (CVE-2026-15709)\n  * libsoup: SoupWebsocketConnection: libsoup: WebSocket remote denial of service via oversized control frame protocol violation (CVE-2026-15711)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:68234",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-15709",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-15711",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2499922",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2499924",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-68234.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

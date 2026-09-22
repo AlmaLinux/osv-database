@@ -1,0 +1,88 @@
+{
+  "id": "ALSA-2026:69655",
+  "summary": "Moderate: libxml2 security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libxml2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.7-21.el8_10.8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libxml2-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.7-21.el8_10.8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3-libxml2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.7-21.el8_10.8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-6653",
+    "CVE-2025-9714"
+  ],
+  "published": "2026-09-21T00:00:00Z",
+  "modified": "2026-09-22T09:15:59Z",
+  "details": "The libxml2 library is a development toolbox providing the implementation of various XML standards.  \n\nSecurity Fix(es):  \n\n  * libxml2: mingw-libxml2: libxml2: Denial of Service via crafted XML input due to use-after-free (CVE-2026-6653)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * libxml2: CVE-2025-9714 fix (AlmaLinux-119279) backported wrong upstream commit ? dyn:map recursion still crashes (JIRA:AlmaLinux-249282)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:69655",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-6653",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2491354",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-69655.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

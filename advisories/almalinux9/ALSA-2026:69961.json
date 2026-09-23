@@ -1,0 +1,193 @@
+{
+  "id": "ALSA-2026:69961",
+  "summary": "Important: podman security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "podman"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6:5.8.2-7.el9_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "podman-docker"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6:5.8.2-7.el9_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "podman-plugins"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6:5.8.2-7.el9_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "podman-remote"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6:5.8.2-7.el9_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "podman-tests"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6:5.8.2-7.el9_8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-33818",
+    "CVE-2026-56860",
+    "CVE-2026-56859",
+    "CVE-2026-56858",
+    "CVE-2026-56862",
+    "CVE-2026-19730",
+    "CVE-2026-39830",
+    "CVE-2026-56853",
+    "CVE-2026-17106"
+  ],
+  "published": "2026-09-22T00:00:00Z",
+  "modified": "2026-09-23T10:16:36Z",
+  "details": "The podman tool manages pods, container images, and containers. It is part of the libpod library, which is for applications that use container pods. Container pods is a concept in Kubernetes.  \n\nSecurity Fix(es):  \n\n  * podman: Go encoding/asn1: Denial of Service via excessive recursion in Unmarshal (CVE-2026-33818)\n  * podman: golang net/url: Denial of Service from quadratic complexity in path resolution (CVE-2026-56860)\n  * podman: Go: Denial of Service via XML decoding recursion depth issue (CVE-2026-56859)\n  * podman: Go html/template: Cross-Site Scripting via pathological input (CVE-2026-56858)\n  * podman: Golang crypto/tls: Denial of Service via indefinite KeyUpdate messages (CVE-2026-56862)\n  * podman: Quadlet install --replace non-truncating write retains removed host-access directives (CVE-2026-19730)\n  * podman: golang.org/x/crypto/ssh: Denial of Service via resource leak from unsolicited SSH responses (CVE-2026-39830)\n  * podman: Go net/[http:](http:) Unencrypted HTTP/2 connections vulnerable to Denial of Service (CVE-2026-56853)\n  * podman: moby/go-archive: Arbitrary file write via link following in tar extraction (CVE-2026-17106)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:69961",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-17106",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-19730",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-33818",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-39830",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-56853",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-56858",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-56859",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-56860",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-56862",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2480684",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2508234",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2515815",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2515820",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2515827",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2515838",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2515839",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2515840",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-69961.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

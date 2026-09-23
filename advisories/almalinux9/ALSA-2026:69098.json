@@ -119,7 +119,7 @@
     "CVE-2026-64753"
   ],
   "published": "2026-09-21T00:00:00Z",
-  "modified": "2026-09-22T09:22:56Z",
+  "modified": "2026-09-22T21:58:50Z",
   "details": "WebKitGTK is the port of the portable web rendering engine WebKit to the GTK platform.  \n\nSecurity Fix(es):  \n\n  * chromium-browser: Skia in Google Chrome: Sandbox escape via crafted HTML page (CVE-2026-19154)\n  * chromium-browser: skia: Skia: Sandbox escape via out-of-bounds write in Chromium (CVE-2026-19173)\n  * chromium-browser: Skia in Google Chrome: Cross-origin data leakage via uninitialized use (CVE-2026-19161)\n  * chromium-browser: Skia: Arbitrary code execution via crafted HTML page (CVE-2026-19176)\n  * chromium-browser: Chromium: Information leak allows web origin policy bypass (CVE-2026-76041)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash (CVE-2026-28984)\n  * webkitgtk: Visiting a website may lead to an app denial-of-service (CVE-2026-43804)\n  * webkitgtk: Websites may know if the user has visited a given link (CVE-2026-64713)\n  * webkitgtk: Maliciously crafted web content may violate iframe sandboxing policy (CVE-2026-64728)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected process termination (CVE-2026-64787)\n  * webkitgtk: Visiting a website that frames malicious content may lead to UI spoofing (CVE-2026-64730)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash (CVE-2026-64757)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash (CVE-2026-64783)\n  * webkitgtk: use-after-free of JSCValue function parameters (CVE-2026-78376)\n  * chromium-browser: Skia: Information disclosure via out-of-bounds read in crafted media file (CVE-2026-79020)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash (CVE-2026-43795)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected process crash (CVE-2026-64715)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash (CVE-2026-64718)\n  * webkitgtk: Visiting a maliciously crafted website may leak sensitive data (CVE-2026-64778)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash (CVE-2026-64779)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash (CVE-2026-64780)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash (CVE-2026-64782)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash (CVE-2026-64784)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash (CVE-2026-65331)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash (CVE-2026-65332)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash (CVE-2026-65334)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash (CVE-2026-65335)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash (CVE-2026-65336)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash (CVE-2026-65337)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash (CVE-2026-65338)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash (CVE-2026-65340)\n  * webkitgtk: Processing maliciously crafted web content may lead to memory corruption (CVE-2026-65341)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash (CVE-2026-65351)\n  * webkitgtk: Validate the full FeatureList array once in OpenTypeVerticalData findFeature (CVE-2026-83596)\n  * chromium-browser: skia: chromium-browser: Information leak in Skia (CVE-2026-84359)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected process termination (CVE-2026-84635)\n  * webkitgtk: Processing maliciously crafted web content may disclose sensitive user information (CVE-2026-64753)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -425,6 +425,322 @@
     {
       "url": "https://errata.almalinux.org/9/ALSA-2026-69098.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2023-4860.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2024-7966.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2024-8193.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2024-8198.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2024-8636.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2024-9123.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2025-0436.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2025-0444.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-10009.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-10011.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-10012.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-10020.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-10925.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-10941.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-10977.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-10985.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-10993.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-11024.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-11039.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-11057.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-11099.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-11121.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-11124.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-11159.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-11663.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-11675.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-13781.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-13820.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-13841.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-13885.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-13971.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-14387.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-14389.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-14410.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-14414.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-14419.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-14427.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-14429.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-15766.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-15774.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-16417.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-17653.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-17702.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-17712.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-17745.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-17757.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-17771.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-17914.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-17992.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-19160.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-3538.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-3909.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-3931.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-4460.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-5870.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-6298.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-6364.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-7353.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-78914.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-78958.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-79112.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-79144.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-79147.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-7920.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-7923.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-7949.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-85049.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-8510.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-8579.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-91733.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-91740.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-91747.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-9892.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-9893.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-9909.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-9923.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-9981.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-9983.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-9998.html",
+      "type": "REPORT"
     }
   ]
 }

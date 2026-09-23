@@ -1,0 +1,126 @@
+{
+  "id": "ALSA-2026:68549",
+  "summary": "Important: firefox security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "firefox"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "140.15.0-1.el8_10.alma.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-16365",
+    "CVE-2026-75874",
+    "CVE-2026-84121",
+    "CVE-2026-84145",
+    "CVE-2026-84119",
+    "CVE-2026-84120",
+    "CVE-2026-84131",
+    "CVE-2026-84124",
+    "CVE-2026-84122",
+    "CVE-2026-84143"
+  ],
+  "published": "2026-09-17T00:00:00Z",
+  "modified": "2026-09-23T10:20:16Z",
+  "details": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.  \n\nSecurity Fix(es):  \n\n  * firefox: thunderbird: Privilege escalation in the DOM: Workers component (CVE-2026-16365)\n  * firefox: thunderbird: Sandbox escape in the Remote Settings Client component (CVE-2026-75874)\n  * firefox: Sandbox escape due to use-after-free in the DOM: Security component (CVE-2026-84121)\n  * firefox: Internally found bugs fixed in Firefox 155, Firefox ESR 153.2, Firefox ESR 140.15 and Firefox ESR 115.40 (CVE-2026-84145)\n  * firefox: Sandbox escape due to use-after-free in the DOM: Navigation component (CVE-2026-84119)\n  * firefox: Use-after-free in the Audio/Video component (CVE-2026-84120)\n  * firefox: Privilege escalation due to invalid pointer in the Graphics component (CVE-2026-84131)\n  * firefox: Use-after-free in the DOM: Core & HTML component (CVE-2026-84124)\n  * firefox: Use-after-free in the Audio/Video component (CVE-2026-84122)\n  * firefox: Internally found bugs fixed in Firefox 155, Firefox ESR 153.2 and Firefox ESR 140.15 (CVE-2026-84143)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:68549",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-16365",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-75874",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-84119",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-84120",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-84121",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-84122",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-84124",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-84131",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-84143",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-84145",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2503504",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2517832",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2526753",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2526760",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2526764",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2526765",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2526767",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2526778",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2526781",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-68549.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

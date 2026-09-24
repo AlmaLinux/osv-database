@@ -1,0 +1,274 @@
+{
+  "id": "ALSA-2026:71016",
+  "summary": "Important: kernel-rt security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.167.1.rt7.508.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.167.1.rt7.508.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-debug"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.167.1.rt7.508.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-debug-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.167.1.rt7.508.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-debug-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.167.1.rt7.508.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-debug-modules"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.167.1.rt7.508.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-debug-modules-extra"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.167.1.rt7.508.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.167.1.rt7.508.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-modules"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.167.1.rt7.508.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-modules-extra"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.167.1.rt7.508.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-43370",
+    "CVE-2026-63831",
+    "CVE-2026-64564",
+    "CVE-2026-72261",
+    "CVE-2026-80844",
+    "CVE-2026-81000",
+    "CVE-2026-89846"
+  ],
+  "published": "2026-09-23T00:00:00Z",
+  "modified": "2026-09-24T09:13:12Z",
+  "details": "The kernel-rt packages provide the Real Time Linux Kernel, which enables fine-tuning for systems with extremely high determinism requirements.  \n\nSecurity Fix(es):  \n\n  * kernel: drm/amdgpu: Fix use-after-free race in VM acquire (CVE-2026-43370)\n  * kernel: mac802154: llsec: add skb_cow_data() before in-place crypto (CVE-2026-63831)\n  * kernel: sctp: don't free the ASCONF's own transport in DEL-IP processing (CVE-2026-64564)\n  * kernel: ASoC: SOF: ipc3-control: Validate size in snd_sof_update_control (CVE-2026-72261)\n  * kernel: xfrm: ah6: validate routing header segments_left (CVE-2026-80844)\n  * kernel: net: tun: bound receive headroom (CVE-2026-81000)\n  * kernel: scsi: qla2xxx: Bound rsp_info_len to avoid OOB sense-data read (CVE-2026-89846)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * sctp: prevent peer transport count overflow [almalinux-8.10.z] (JIRA:AlmaLinux-216297)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:71016",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-43370",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-63831",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-64564",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-72261",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-80844",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-81000",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-89846",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2468244",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2502243",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2510890",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2516527",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2528676",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2532176",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2535391",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-71016.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

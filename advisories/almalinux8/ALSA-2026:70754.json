@@ -1,0 +1,124 @@
+{
+  "id": "ALSA-2026:70754",
+  "summary": "Critical: unbound security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3-unbound"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.2-5.14.el8_10.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "unbound"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.2-5.14.el8_10.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "unbound-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.2-5.14.el8_10.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "unbound-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.2-5.14.el8_10.4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-82717",
+    "CVE-2026-81634",
+    "CVE-2026-81642"
+  ],
+  "published": "2026-09-23T00:00:00Z",
+  "modified": "2026-09-24T09:30:20Z",
+  "details": "The unbound packages provide a validating, recursive, and caching DNS or DNSSEC resolver.   \n\nSecurity Fix(es):  \n\n  * unbound: Unbound: Remote Code Execution Vulnerability in CNAME Synthesis (CVE-2026-82717)\n  * unbound: Unbound: Heap buffer overflow via malicious DNSSEC response (CVE-2026-81634)\n  * unbound: Unbound: Heap buffer overflow and possible Remote Code Execution when digesting DNSKEY (CVE-2026-81642)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:70754",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-81634",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-81642",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-82717",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2535051",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2535054",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2535059",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-70754.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

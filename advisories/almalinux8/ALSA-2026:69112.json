@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2026:69112",
+  "summary": "Important: perl-DBI:1.641 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "perl-DBI"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.641-10.module_el8.10.0+4282+4ee1dbd0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-73194"
+  ],
+  "published": "2026-09-21T00:00:00Z",
+  "modified": "2026-09-24T09:35:43Z",
+  "details": "The perl-DBI package provides the standard database interface module for the Perl programming language. It implements a database-independent interface, meaning it defines a consistent set of methods, variables, and conventions for database operations.  \n\nSecurity Fix(es):  \n\n  * perl-DBI: DBI for Perl: Heap out-of-bounds write via unvalidated numeric placeholder (CVE-2026-73194)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:69112",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-73194",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2516959",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-69112.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

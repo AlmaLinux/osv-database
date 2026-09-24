@@ -1,0 +1,108 @@
+{
+  "id": "ALSA-2026:70641",
+  "summary": "Important: skopeo security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "skopeo"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.22.2-8.el9_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "skopeo-tests"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.22.2-8.el9_8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-56858",
+    "CVE-2026-33818",
+    "CVE-2026-56860",
+    "CVE-2026-56853",
+    "CVE-2026-56862"
+  ],
+  "published": "2026-09-23T00:00:00Z",
+  "modified": "2026-09-24T09:36:33Z",
+  "details": "Command line utility to inspect images and repositories directly on Docker registries without the need to pull them.  \n\nSecurity Fix(es):  \n\n  * skopeo: Go html/template: Cross-Site Scripting via pathological input (CVE-2026-56858)\n  * skopeo: Go encoding/asn1: Denial of Service via excessive recursion in Unmarshal (CVE-2026-33818)\n  * skopeo: golang net/url: Denial of Service from quadratic complexity in path resolution (CVE-2026-56860)\n  * skopeo: Go net/[http:](http:) Unencrypted HTTP/2 connections vulnerable to Denial of Service (CVE-2026-56853)\n  * skopeo: Golang crypto/tls: Denial of Service via indefinite KeyUpdate messages (CVE-2026-56862)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:70641",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-11395",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-33818",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-56853",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-56858",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-56860",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-56862",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2515815",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2515820",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2515827",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2515838",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2515839",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-70641.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

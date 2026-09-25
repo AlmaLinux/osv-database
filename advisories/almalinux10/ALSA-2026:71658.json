@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2026:71658",
+  "summary": "Important: python-cryptography security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "python3-cryptography"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "43.0.0-4.el10_2.5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-69249"
+  ],
+  "published": "2026-09-24T00:00:00Z",
+  "modified": "2026-09-25T13:22:57Z",
+  "details": "Python is an interpreted, interactive, object-oriented programming language, which includes modules, classes, exceptions, very high level dynamic data types and dynamic typing. Python supports interfaces to many system calls and libraries, as well as to various windowing systems.  \n\nSecurity Fix(es):  \n\n  * python-cryptography: python-cryptography: Duplicate self-signed intermediates can cause exponential path-building (CVE-2026-69249)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:71658",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-69249",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2510815",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-71658.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

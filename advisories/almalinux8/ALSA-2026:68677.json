@@ -166,7 +166,7 @@
     "CVE-2026-59084"
   ],
   "published": "2026-09-17T00:00:00Z",
-  "modified": "2026-09-18T07:50:52Z",
+  "modified": "2026-09-25T12:35:22Z",
   "details": "Apache Tomcat is a servlet container for the Java Servlet and JavaServer Pages (JSP) technologies.  \n\nSecurity Fix(es):  \n\n  * tomcat-coyote: Apache Tomcat: Authentication bypass via digest authentication (CVE-2026-43512)\n  * tomcat-coyote: Apache Tomcat: HTTP/2 request headers not validated (CVE-2026-41293)\n  * tomcat-coyote: Apache Tomcat: Information disclosure due to HTTP Authentication Header exposure during WebSocket authentication. (CVE-2026-42498)\n  * tomcat-coyote: tomcat: Improper Authorization allows security bypass (CVE-2026-43515)\n  * tomcat-catalina: Apache Tomcat: Improper Handling of Case Sensitivity in LockOutRealm (CVE-2026-43513)\n  * tomcat: Apache Tomcat: Authentication bypass via missing critical step in JNDIRealm GSSAPI configuration (CVE-2026-55957)\n  * tomcat: Apache Tomcat: Security constraint bypass via improper URL encoding in rewrite valve (CVE-2026-59083)\n  * tomcat: Apache Tomcat: Insufficient documentation for EncryptInterceptor may lead to insecure configurations (CVE-2026-59084)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -240,6 +240,90 @@
     {
       "url": "https://errata.almalinux.org/8/ALSA-2026-68677.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2024-52316.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2024-54677.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2025-46701.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2025-55668.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2025-55754.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2025-61795.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2025-66614.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-24733.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-24880.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-25854.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-29145.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-34483.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-34487.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-41284.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-43514.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-50229.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-53404.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-53434.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-55276.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-55955.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-55956.html",
+      "type": "REPORT"
     }
   ]
 }

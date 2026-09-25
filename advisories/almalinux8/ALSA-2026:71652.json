@@ -1,0 +1,292 @@
+{
+  "id": "ALSA-2026:71652",
+  "summary": "Important: firefox security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "firefox"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "140.16.0-1.el8_10.alma.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-92024",
+    "CVE-2026-92019",
+    "CVE-2026-92026",
+    "CVE-2026-92031",
+    "CVE-2026-92032",
+    "CVE-2026-92010",
+    "CVE-2026-92006",
+    "CVE-2026-92011",
+    "CVE-2026-92027",
+    "CVE-2026-92028",
+    "CVE-2026-92015",
+    "CVE-2026-92013",
+    "CVE-2026-92016",
+    "CVE-2026-92012",
+    "CVE-2026-92022",
+    "CVE-2026-92014",
+    "CVE-2026-92018",
+    "CVE-2026-92021",
+    "CVE-2026-92005",
+    "CVE-2026-92017",
+    "CVE-2026-92009",
+    "CVE-2026-92020",
+    "CVE-2026-92008",
+    "CVE-2026-92030",
+    "CVE-2026-92007",
+    "CVE-2026-92025",
+    "CVE-2026-92029",
+    "CVE-2026-92023"
+  ],
+  "published": "2026-09-24T00:00:00Z",
+  "modified": "2026-09-25T12:06:25Z",
+  "details": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.  \n\nSecurity Fix(es):  \n\n  * firefox: thunderbird: Use-after-free in the SVG component (CVE-2026-92024)\n  * firefox: thunderbird: Mitigation bypass in the Remote Settings Client component (CVE-2026-92019)\n  * firefox: thunderbird: Use-after-free in the Networking component (CVE-2026-92026)\n  * firefox: thunderbird: Information disclosure in the Graphics: ImageLib component (CVE-2026-92031)\n  * firefox: thunderbird: Sandbox escape due to invalid pointer in the Graphics component (CVE-2026-92032)\n  * firefox: thunderbird: Privilege escalation due to incorrect boundary conditions in the Graphics: CanvasWebGL component (CVE-2026-92010)\n  * firefox: thunderbird: Privilege escalation due to incorrect boundary conditions in the Graphics: CanvasWebGL component (CVE-2026-92006)\n  * firefox: thunderbird: Privilege escalation due to incorrect boundary conditions in the Graphics: CanvasWebGL component (CVE-2026-92011)\n  * firefox: thunderbird: Use-after-free in the DOM: Streams component (CVE-2026-92027)\n  * firefox: thunderbird: Use-after-free in the DOM: Core & HTML component (CVE-2026-92028)\n  * firefox: thunderbird: Privilege escalation in the WebExtensions component (CVE-2026-92015)\n  * firefox: thunderbird: Privilege escalation due to incorrect boundary conditions in the Graphics: CanvasWebGL component (CVE-2026-92013)\n  * firefox: thunderbird: Use-after-free in the Disability Access APIs component (CVE-2026-92016)\n  * firefox: thunderbird: Privilege escalation due to incorrect boundary conditions in the Graphics: CanvasWebGL component (CVE-2026-92012)\n  * firefox: thunderbird: Use-after-free in the DOM: HTML Parser component (CVE-2026-92022)\n  * firefox: thunderbird: Privilege escalation due to incorrect boundary conditions in the Graphics component (CVE-2026-92014)\n  * firefox: thunderbird: Sandbox escape in the DOM: Core & HTML component (CVE-2026-92018)\n  * firefox: thunderbird: Use-after-free in the JavaScript Engine: JIT component (CVE-2026-92021)\n  * firefox: thunderbird: Use-after-free in the Audio/Video: Web Codecs component (CVE-2026-92005)\n  * firefox: thunderbird: Privilege escalation in the DOM: Service Workers component (CVE-2026-92017)\n  * firefox: thunderbird: Privilege escalation due to incorrect boundary conditions in the Graphics: CanvasWebGL component (CVE-2026-92009)\n  * firefox: thunderbird: Privilege escalation due to incorrect boundary conditions in the Graphics: WebRender component (CVE-2026-92020)\n  * firefox: thunderbird: Privilege escalation due to incorrect boundary conditions in the Graphics: CanvasWebGL component (CVE-2026-92008)\n  * firefox: thunderbird: Mitigation bypass in the DOM: Copy & Paste and Drag & Drop component (CVE-2026-92030)\n  * firefox: thunderbird: Privilege escalation due to incorrect boundary conditions in the Graphics: CanvasWebGL component (CVE-2026-92007)\n  * firefox: thunderbird: Use-after-free in the DOM: Navigation component (CVE-2026-92025)\n  * firefox: thunderbird: Use-after-free in the SVG component (CVE-2026-92029)\n  * firefox: thunderbird: Use-after-free in the XML component (CVE-2026-92023)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:71652",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92005",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92006",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92007",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92008",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92009",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92010",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92011",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92012",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92013",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92014",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92015",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92016",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92017",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92018",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92019",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92020",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92021",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92022",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92023",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92024",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92025",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92026",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92027",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92028",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92029",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92030",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92031",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92032",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533737",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533740",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533741",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533742",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533743",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533747",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533751",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533753",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533757",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533758",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533760",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533762",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533764",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533769",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533770",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533771",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533773",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533774",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533778",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533779",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533781",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533786",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533790",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533791",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533792",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533793",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533797",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533799",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-71652.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

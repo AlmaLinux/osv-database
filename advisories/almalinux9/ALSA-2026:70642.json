@@ -1,0 +1,432 @@
+{
+  "id": "ALSA-2026:70642",
+  "summary": "Important: thunderbird security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "thunderbird"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "140.16.0-1.el9_8.alma.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-16365",
+    "CVE-2026-75874",
+    "CVE-2026-84121",
+    "CVE-2026-84145",
+    "CVE-2026-84119",
+    "CVE-2026-84120",
+    "CVE-2026-84131",
+    "CVE-2026-84124",
+    "CVE-2026-84122",
+    "CVE-2026-84143",
+    "CVE-2026-84639",
+    "CVE-2026-84641",
+    "CVE-2026-84640",
+    "CVE-2026-92024",
+    "CVE-2026-92019",
+    "CVE-2026-92026",
+    "CVE-2026-92031",
+    "CVE-2026-92032",
+    "CVE-2026-92010",
+    "CVE-2026-92006",
+    "CVE-2026-92011",
+    "CVE-2026-92027",
+    "CVE-2026-92028",
+    "CVE-2026-92015",
+    "CVE-2026-92013",
+    "CVE-2026-92016",
+    "CVE-2026-92012",
+    "CVE-2026-92022",
+    "CVE-2026-92014",
+    "CVE-2026-92018",
+    "CVE-2026-92021",
+    "CVE-2026-92005",
+    "CVE-2026-92017",
+    "CVE-2026-92009",
+    "CVE-2026-92020",
+    "CVE-2026-92008",
+    "CVE-2026-92030",
+    "CVE-2026-92007",
+    "CVE-2026-92025",
+    "CVE-2026-92029",
+    "CVE-2026-92023",
+    "CVE-2026-92240",
+    "CVE-2026-92239",
+    "CVE-2026-92238"
+  ],
+  "published": "2026-09-23T00:00:00Z",
+  "modified": "2026-09-25T13:13:32Z",
+  "details": "Mozilla Thunderbird is a standalone mail and newsgroup client.  \n\nSecurity Fix(es):  \n\n  * firefox: thunderbird: Privilege escalation in the DOM: Workers component (CVE-2026-16365)\n  * firefox: thunderbird: Sandbox escape in the Remote Settings Client component (CVE-2026-75874)\n  * firefox: Sandbox escape due to use-after-free in the DOM: Security component (CVE-2026-84121)\n  * firefox: Internally found bugs fixed in Firefox 155, Firefox ESR 153.2, Firefox ESR 140.15 and Firefox ESR 115.40 (CVE-2026-84145)\n  * firefox: Sandbox escape due to use-after-free in the DOM: Navigation component (CVE-2026-84119)\n  * firefox: Use-after-free in the Audio/Video component (CVE-2026-84120)\n  * firefox: Privilege escalation due to invalid pointer in the Graphics component (CVE-2026-84131)\n  * firefox: Use-after-free in the DOM: Core & HTML component (CVE-2026-84124)\n  * firefox: Use-after-free in the Audio/Video component (CVE-2026-84122)\n  * firefox: Internally found bugs fixed in Firefox 155, Firefox ESR 153.2 and Firefox ESR 140.15 (CVE-2026-84143)\n  * thunderbird: Uninitialized memory in MIME parsing (CVE-2026-84639)\n  * thunderbird: Information disclosure due to malicious IMAP server response (CVE-2026-84641)\n  * thunderbird: One byte overflow read in mail parser (CVE-2026-84640)\n  * firefox: thunderbird: Use-after-free in the SVG component (CVE-2026-92024)\n  * firefox: thunderbird: Mitigation bypass in the Remote Settings Client component (CVE-2026-92019)\n  * firefox: thunderbird: Use-after-free in the Networking component (CVE-2026-92026)\n  * firefox: thunderbird: Information disclosure in the Graphics: ImageLib component (CVE-2026-92031)\n  * firefox: thunderbird: Sandbox escape due to invalid pointer in the Graphics component (CVE-2026-92032)\n  * firefox: thunderbird: Privilege escalation due to incorrect boundary conditions in the Graphics: CanvasWebGL component (CVE-2026-92010)\n  * firefox: thunderbird: Privilege escalation due to incorrect boundary conditions in the Graphics: CanvasWebGL component (CVE-2026-92006)\n  * firefox: thunderbird: Privilege escalation due to incorrect boundary conditions in the Graphics: CanvasWebGL component (CVE-2026-92011)\n  * firefox: thunderbird: Use-after-free in the DOM: Streams component (CVE-2026-92027)\n  * firefox: thunderbird: Use-after-free in the DOM: Core & HTML component (CVE-2026-92028)\n  * firefox: thunderbird: Privilege escalation in the WebExtensions component (CVE-2026-92015)\n  * firefox: thunderbird: Privilege escalation due to incorrect boundary conditions in the Graphics: CanvasWebGL component (CVE-2026-92013)\n  * firefox: thunderbird: Use-after-free in the Disability Access APIs component (CVE-2026-92016)\n  * firefox: thunderbird: Privilege escalation due to incorrect boundary conditions in the Graphics: CanvasWebGL component (CVE-2026-92012)\n  * firefox: thunderbird: Use-after-free in the DOM: HTML Parser component (CVE-2026-92022)\n  * firefox: thunderbird: Privilege escalation due to incorrect boundary conditions in the Graphics component (CVE-2026-92014)\n  * firefox: thunderbird: Sandbox escape in the DOM: Core & HTML component (CVE-2026-92018)\n  * firefox: thunderbird: Use-after-free in the JavaScript Engine: JIT component (CVE-2026-92021)\n  * firefox: thunderbird: Use-after-free in the Audio/Video: Web Codecs component (CVE-2026-92005)\n  * firefox: thunderbird: Privilege escalation in the DOM: Service Workers component (CVE-2026-92017)\n  * firefox: thunderbird: Privilege escalation due to incorrect boundary conditions in the Graphics: CanvasWebGL component (CVE-2026-92009)\n  * firefox: thunderbird: Privilege escalation due to incorrect boundary conditions in the Graphics: WebRender component (CVE-2026-92020)\n  * firefox: thunderbird: Privilege escalation due to incorrect boundary conditions in the Graphics: CanvasWebGL component (CVE-2026-92008)\n  * firefox: thunderbird: Mitigation bypass in the DOM: Copy & Paste and Drag & Drop component (CVE-2026-92030)\n  * firefox: thunderbird: Privilege escalation due to incorrect boundary conditions in the Graphics: CanvasWebGL component (CVE-2026-92007)\n  * firefox: thunderbird: Use-after-free in the DOM: Navigation component (CVE-2026-92025)\n  * firefox: thunderbird: Use-after-free in the SVG component (CVE-2026-92029)\n  * firefox: thunderbird: Use-after-free in the XML component (CVE-2026-92023)\n  * thunderbird: Out-of-bounds read in IMAP response parser (CVE-2026-92240)\n  * thunderbird: Thunderbird: Out-of-bounds read via maliciously constructed IMAP line (CVE-2026-92239)\n  * thunderbird: Thunderbird: Memory safety violations via maliciously crafted mail headers (CVE-2026-92238)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:70642",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-16365",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-75874",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-84119",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-84120",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-84121",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-84122",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-84124",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-84131",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-84143",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-84145",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-84639",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-84640",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-84641",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92005",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92006",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92007",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92008",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92009",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92010",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92011",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92012",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92013",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92014",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92015",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92016",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92017",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92018",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92019",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92020",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92021",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92022",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92023",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92024",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92025",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92026",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92027",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92028",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92029",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92030",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92031",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92032",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92238",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92239",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92240",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2503504",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2517832",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2526753",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2526760",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2526764",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2526765",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2526767",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2526778",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2526781",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2527113",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2527115",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2527116",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533737",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533740",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533741",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533742",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533743",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533747",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533751",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533753",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533757",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533758",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533760",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533762",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533764",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533769",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533770",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533771",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533773",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533774",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533778",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533779",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533781",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533786",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533790",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533791",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533792",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533793",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533797",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533799",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2534187",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2534197",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2534199",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-70642.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

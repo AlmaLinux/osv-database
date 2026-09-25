@@ -166,7 +166,7 @@
     "CVE-2026-59084"
   ],
   "published": "2026-09-17T00:00:00Z",
-  "modified": "2026-09-18T13:18:16Z",
+  "modified": "2026-09-25T11:13:09Z",
   "details": "Apache Tomcat is a servlet container for the Java Servlet and JavaServer Pages (JSP) technologies.  \n\nSecurity Fix(es):  \n\n  * Apache Tomcat: Apache Tomcat: Improper Input Validation vulnerability due to incomplete fix (CVE-2026-32990)\n  * tomcat-coyote: Apache Tomcat: Authentication bypass via digest authentication (CVE-2026-43512)\n  * tomcat-coyote: Apache Tomcat: HTTP/2 request headers not validated (CVE-2026-41293)\n  * tomcat-coyote: Apache Tomcat: Information disclosure due to HTTP Authentication Header exposure during WebSocket authentication. (CVE-2026-42498)\n  * tomcat-coyote: tomcat: Improper Authorization allows security bypass (CVE-2026-43515)\n  * tomcat-catalina: Apache Tomcat: Improper Handling of Case Sensitivity in LockOutRealm (CVE-2026-43513)\n  * tomcat: Apache Tomcat: Security constraint bypass via improper URL encoding in rewrite valve (CVE-2026-59083)\n  * tomcat: Apache Tomcat: Insufficient documentation for EncryptInterceptor may lead to insecure configurations (CVE-2026-59084)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * Tomcat fails to respond to client connections when using Java 8 [almalinux-9.8] (JIRA:AlmaLinux-257456)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -240,6 +240,38 @@
     {
       "url": "https://errata.almalinux.org/9/ALSA-2026-68660.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-41284.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-43514.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-50229.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-53404.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-53434.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-55276.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-55955.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-55956.html",
+      "type": "REPORT"
     }
   ]
 }

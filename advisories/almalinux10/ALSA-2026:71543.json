@@ -1,0 +1,76 @@
+{
+  "id": "ALSA-2026:71543",
+  "summary": "Important: cockpit-image-builder security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "cockpit-image-builder"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "94.4-1.el10_2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-75899",
+    "CVE-2026-75975",
+    "CVE-2026-76172",
+    "CVE-2026-84292"
+  ],
+  "published": "2026-09-24T00:00:00Z",
+  "modified": "2026-09-26T14:59:10Z",
+  "details": "The image-builder-frontend generates custom images suitable for deploying systems or uploading to the cloud. It integrates into Cockpit as a frontend for osbuild.  \n\nSecurity Fix(es):  \n\n  * fast-uri: fast-uri: Server-Side Request Forgery via repeated hostname percent-decoding (CVE-2026-75899)\n  * fast-uri: fast-uri: Server-side request forgery via malformed IPv6 normalization (CVE-2026-75975)\n  * fast-uri: fast-uri: URI parsing flaw enables server-side request forgery and redirects (CVE-2026-76172)\n  * fast-uri: fast-uri: Authority Injection via Unvalidated Port Serialization (CVE-2026-84292)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:71543",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-75899",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-75975",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-76172",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-84292",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2521778",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2521779",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2521798",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2527747",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-71543.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

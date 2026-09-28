@@ -1,0 +1,73 @@
+{
+  "id": "ALSA-2026:72448",
+  "summary": "Important: expat security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "expat"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.0-4.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "expat-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.0-4.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-66046",
+    "CVE-2026-93990"
+  ],
+  "published": "2026-09-28T00:00:00Z",
+  "modified": "2026-09-28T16:20:42Z",
+  "details": "Expat is a C library for parsing XML documents.  \n\nSecurity Fix(es):  \n\n  * expat: Expat: Denial of Service via quadratic complexity in attribute processing (CVE-2026-66046)\n  * expat: Expat: XML Injection via Malformed UTF-16 Input (CVE-2026-93990)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:72448",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-66046",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-93990",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2538967",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-72448.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

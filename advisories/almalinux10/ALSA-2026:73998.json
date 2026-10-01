@@ -1,0 +1,172 @@
+{
+  "id": "ALSA-2026:73998",
+  "summary": "Important: gvfs security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "gvfs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.54.4-4.el10_2.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "gvfs-client"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.54.4-4.el10_2.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "gvfs-fuse"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.54.4-4.el10_2.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "gvfs-goa"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.54.4-4.el10_2.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "gvfs-gphoto2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.54.4-4.el10_2.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "gvfs-mtp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.54.4-4.el10_2.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "gvfs-smb"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.54.4-4.el10_2.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-84268",
+    "CVE-2026-88924"
+  ],
+  "published": "2026-09-30T00:00:00Z",
+  "modified": "2026-10-01T09:26:40Z",
+  "details": "GVFS is the GNOME Desktop Virtual File System layer that allows users to easily access local and remote data using File Transfer Protocol (FTP), Secure Shell File Transfer Protocol (SFTP), Web Distributed Authoring and Versioning (WebDAV), Common Internet File System (CIFS), Server Message Block (SMB), and other protocols. GVFS integrates with the GNOME I/O (GIO) abstraction layer.  \n\nSecurity Fix(es):  \n\n  * gvfs: SFTP: heap-based buffer overflow in read_reply() (CVE-2026-84268)\n  * gvfs: gvfs-admin socket ownership race permits local root (CVE-2026-88924)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:73998",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-84268",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-88924",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2526485",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2531456",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-73998.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -119,7 +119,7 @@
     "CVE-2026-64753"
   ],
   "published": "2026-09-21T00:00:00Z",
-  "modified": "2026-09-22T21:58:50Z",
+  "modified": "2026-09-30T21:23:11Z",
   "details": "WebKitGTK is the port of the portable web rendering engine WebKit to the GTK platform.  \n\nSecurity Fix(es):  \n\n  * chromium-browser: Skia in Google Chrome: Sandbox escape via crafted HTML page (CVE-2026-19154)\n  * chromium-browser: skia: Skia: Sandbox escape via out-of-bounds write in Chromium (CVE-2026-19173)\n  * chromium-browser: Skia in Google Chrome: Cross-origin data leakage via uninitialized use (CVE-2026-19161)\n  * chromium-browser: Skia: Arbitrary code execution via crafted HTML page (CVE-2026-19176)\n  * chromium-browser: Chromium: Information leak allows web origin policy bypass (CVE-2026-76041)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash (CVE-2026-28984)\n  * webkitgtk: Visiting a website may lead to an app denial-of-service (CVE-2026-43804)\n  * webkitgtk: Websites may know if the user has visited a given link (CVE-2026-64713)\n  * webkitgtk: Maliciously crafted web content may violate iframe sandboxing policy (CVE-2026-64728)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected process termination (CVE-2026-64787)\n  * webkitgtk: Visiting a website that frames malicious content may lead to UI spoofing (CVE-2026-64730)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash (CVE-2026-64757)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash (CVE-2026-64783)\n  * webkitgtk: use-after-free of JSCValue function parameters (CVE-2026-78376)\n  * chromium-browser: Skia: Information disclosure via out-of-bounds read in crafted media file (CVE-2026-79020)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash (CVE-2026-43795)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected process crash (CVE-2026-64715)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash (CVE-2026-64718)\n  * webkitgtk: Visiting a maliciously crafted website may leak sensitive data (CVE-2026-64778)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash (CVE-2026-64779)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash (CVE-2026-64780)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash (CVE-2026-64782)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash (CVE-2026-64784)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash (CVE-2026-65331)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash (CVE-2026-65332)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash (CVE-2026-65334)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash (CVE-2026-65335)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash (CVE-2026-65336)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash (CVE-2026-65337)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash (CVE-2026-65338)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash (CVE-2026-65340)\n  * webkitgtk: Processing maliciously crafted web content may lead to memory corruption (CVE-2026-65341)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash (CVE-2026-65351)\n  * webkitgtk: Validate the full FeatureList array once in OpenTypeVerticalData findFeature (CVE-2026-83596)\n  * chromium-browser: skia: chromium-browser: Information leak in Skia (CVE-2026-84359)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected process termination (CVE-2026-84635)\n  * webkitgtk: Processing maliciously crafted web content may disclose sensitive user information (CVE-2026-64753)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -127,7 +127,435 @@
       "type": "ADVISORY"
     },
     {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-7532",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-10502",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-8901",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-9478",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-0908",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-10018",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-10019",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-10881",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-10883",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-10889",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-10907",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-10913",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-10914",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-10919",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-10929",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-10930",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-10955",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-10974",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-10979",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-10994",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-10999",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-11004",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-11005",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-11040",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-11043",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-11044",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-11051",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-11055",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-11061",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-11065",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-11066",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-11087",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-11088",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-11090",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-11104",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-11109",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-11110",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-11111",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-11113",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-11123",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-11137",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-11138",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-11191",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-11268",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-13780",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-13819",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-13833",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-13834",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-13859",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-13877",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-13883",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-13975",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-14044",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-14125",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-14152",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-14382",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-14384",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-14385",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-14386",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-14388",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-14390",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-14391",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-14396",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-14397",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-14398",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-14400",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-14401",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-14402",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-14411",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-14412",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-14413",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-14418",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-14425",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-15109",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-16413",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-16419",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-17655",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-17667",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-17668",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-17671",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-17675",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-17676",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-17677",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-17678",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-17682",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-17683",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-17687",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-17689",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-17691",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-17695",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-17697",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-17701",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-17704",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-17714",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-17717",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-17718",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-17721",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-17740",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-17750",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-17785",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-17790",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-17801",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-17811",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-17832",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-17847",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-17891",
+      "type": "REPORT"
+    },
+    {
       "url": "https://access.redhat.com/security/cve/CVE-2026-19154",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-19157",
       "type": "REPORT"
     },
     {
@@ -147,11 +575,51 @@
       "type": "REPORT"
     },
     {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-3536",
+      "type": "REPORT"
+    },
+    {
       "url": "https://access.redhat.com/security/cve/CVE-2026-43795",
       "type": "REPORT"
     },
     {
       "url": "https://access.redhat.com/security/cve/CVE-2026-43804",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-4448",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-4452",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-4464",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-5275",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-5277",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-5283",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-5868",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-5879",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-6296",
       "type": "REPORT"
     },
     {
@@ -251,7 +719,23 @@
       "type": "REPORT"
     },
     {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-7340",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-7354",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-7359",
+      "type": "REPORT"
+    },
+    {
       "url": "https://access.redhat.com/security/cve/CVE-2026-76041",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-76046",
       "type": "REPORT"
     },
     {
@@ -259,7 +743,135 @@
       "type": "REPORT"
     },
     {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-78904",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-78905",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-78906",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-78965",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-78978",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-78989",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-7900",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-7901",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-79019",
+      "type": "REPORT"
+    },
+    {
       "url": "https://access.redhat.com/security/cve/CVE-2026-79020",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-7903",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-79043",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-79048",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-79118",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-79120",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-79127",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-79130",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-79131",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-79138",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-79142",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-79149",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-79188",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-79189",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-79229",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-79230",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-79240",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-79269",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-79270",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-79275",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-79282",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-79285",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-7942",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-7943",
       "type": "REPORT"
     },
     {
@@ -275,6 +887,802 @@
       "type": "REPORT"
     },
     {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-8519",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-8525",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-8554",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-8556",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-8567",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9877",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9878",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9879",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9882",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9899",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9900",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9901",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9904",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9908",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9910",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9911",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9913",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9914",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9915",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9916",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9924",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9925",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9926",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9927",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9928",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9932",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9935",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9940",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9941",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9942",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9944",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9946",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9953",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9965",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9969",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9975",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9982",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9999",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2388151",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2391109",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2397874",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2431128",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2444613",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2449382",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2449388",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2449406",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2453681",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2453693",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2453696",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2456737",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2456779",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2458783",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2463664",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2463670",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2463691",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2467315",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2467337",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2467362",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2467399",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2467432",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2477634",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2477635",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2477663",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2477670",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2477687",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2482977",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2482984",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2482986",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2482987",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2482995",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2482997",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2482999",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2483000",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2483001",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2483007",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2483011",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2483012",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2483013",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2483014",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2483015",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2483016",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2483018",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2483027",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2483028",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2483036",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2483039",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2483041",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2483042",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2483049",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2483057",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2483058",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2483059",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2483060",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2483067",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2483068",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2483080",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2483083",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2483088",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2483101",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2483111",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2484968",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2484974",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2484977",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485007",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485037",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485042",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485056",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485060",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485064",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485072",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485077",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485100",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485123",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485126",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485145",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485150",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485153",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485155",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485161",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485185",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485188",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485204",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485214",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485217",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485231",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485237",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485253",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485263",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485275",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485292",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485299",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485300",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485303",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485306",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485319",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485322",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485342",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2495510",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2495520",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2495603",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2495632",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2495688",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2495701",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2495718",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2495732",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2495747",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2495770",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2495802",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2496258",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2496271",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2496273",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2496274",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2496277",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2496280",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2496286",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2496291",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2496294",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2496295",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2496296",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2496297",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2496301",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2496302",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2496305",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2496309",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2496310",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2496312",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2498347",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2505974",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2505976",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2508694",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2508701",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2508707",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2508713",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2508716",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2508724",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2508735",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2508739",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2508762",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2508767",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2508778",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2508795",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2508807",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2508812",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2508833",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2508836",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2508849",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2508852",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2508883",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2508895",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2508906",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2508951",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2508966",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2508971",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2508975",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2508979",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2508982",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2508983",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2509003",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2509006",
+      "type": "REPORT"
+    },
+    {
       "url": "https://bugzilla.redhat.com/2512231",
       "type": "REPORT"
     },
@@ -287,11 +1695,19 @@
       "type": "REPORT"
     },
     {
+      "url": "https://bugzilla.redhat.com/2512296",
+      "type": "REPORT"
+    },
+    {
       "url": "https://bugzilla.redhat.com/2512360",
       "type": "REPORT"
     },
     {
       "url": "https://bugzilla.redhat.com/2518263",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2518265",
       "type": "REPORT"
     },
     {
@@ -331,7 +1747,115 @@
       "type": "REPORT"
     },
     {
+      "url": "https://bugzilla.redhat.com/2523795",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2523835",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2523850",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2523858",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2523859",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2523865",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2523872",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2523875",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2523893",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2523917",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2523926",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2523942",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2523950",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2523998",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2524034",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2524044",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2524048",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2524055",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2524057",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2524059",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2524066",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2524082",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2524088",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2524091",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2524096",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2524102",
+      "type": "REPORT"
+    },
+    {
       "url": "https://bugzilla.redhat.com/2524106",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2524111",
       "type": "REPORT"
     },
     {

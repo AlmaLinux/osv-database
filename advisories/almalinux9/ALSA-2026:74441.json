@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2026:74441",
+  "summary": "Important: libpcap security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libpcap"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "14:1.10.0-4.el9_8.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libpcap-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "14:1.10.0-4.el9_8.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-0799"
+  ],
+  "published": "2026-10-01T00:00:00Z",
+  "modified": "2026-10-02T12:38:51Z",
+  "details": "The libpcap packages provide a portable framework for low-level network monitoring. The libpcap library provides network statistics collection, security monitoring, and network debugging.  \n\nSecurity Fix(es):  \n\n  * libpcap: libpcap: Out-of-bounds read and write vulnerability allows arbitrary memory access (CVE-2026-0799)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:74441",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-0799",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2529093",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-74441.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

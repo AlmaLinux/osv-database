@@ -463,7 +463,7 @@
     "CVE-2026-80212"
   ],
   "published": "2026-09-28T00:00:00Z",
-  "modified": "2026-09-29T08:47:17Z",
+  "modified": "2026-10-02T20:10:56Z",
   "details": "Ruby is an extensible, interpreted, object-oriented, scripting language. It has features to process text files and to perform system management tasks.  \n\nSecurity Fix(es):  \n\n  * resolv: resolv gem: Denial of Service via uncontrolled memory growth from crafted DNS responses (CVE-2026-80212)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -472,6 +472,10 @@
     },
     {
       "url": "https://access.redhat.com/security/cve/CVE-2026-80212",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2525066",
       "type": "REPORT"
     },
     {

@@ -1,0 +1,95 @@
+{
+  "id": "ALSA-2026:75575",
+  "summary": "Important: gimp security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gimp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.0.4-4.el9_8.14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gimp-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.0.4-4.el9_8.14"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-90947",
+    "CVE-2026-90948",
+    "CVE-2026-92248",
+    "CVE-2026-97185"
+  ],
+  "published": "2026-10-05T00:00:00Z",
+  "modified": "2026-10-06T09:59:28Z",
+  "details": "The GIMP (GNU Image Manipulation Program) is an image composition and editing program. GIMP provides a large image manipulation toolbox, including channel operations and layers, effects, sub-pixel imaging and anti-aliasing, and conversions, all with multi-level undo.  \n\nSecurity Fix(es):  \n\n  * gimp: gimp: out-of-bounds write in lighting effects plugin via crafted preset file (CVE-2026-90947)\n  * gimp: gimp: heap-based buffer overflow in ICO loader via integer overflow in embedded PNG dimensions (CVE-2026-90948)\n  * gimp: integer overflow when generating a thumbnail preview for a PSD file (CVE-2026-92248)\n  * gimp: gimp: out-of-bounds write in GIMPressionist plugin via crafted preset file (CVE-2026-97185)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:75575",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-90947",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-90948",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92248",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-97185",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533005",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533008",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2534282",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2539980",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-75575.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

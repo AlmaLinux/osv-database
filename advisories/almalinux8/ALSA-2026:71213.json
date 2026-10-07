@@ -488,7 +488,7 @@
     "CVE-2026-89846"
   ],
   "published": "2026-09-23T00:00:00Z",
-  "modified": "2026-09-24T09:38:42Z",
+  "modified": "2026-10-06T14:07:39Z",
   "details": "The kernel packages contain the Linux kernel, the core of any Linux operating system.  \n\nSecurity Fix(es):  \n\n  * kernel: drm/amdgpu: Fix use-after-free race in VM acquire (CVE-2026-43370)\n  * kernel: mac802154: llsec: add skb_cow_data() before in-place crypto (CVE-2026-63831)\n  * kernel: sctp: don't free the ASCONF's own transport in DEL-IP processing (CVE-2026-64564)\n  * kernel: ASoC: SOF: ipc3-control: Validate size in snd_sof_update_control (CVE-2026-72261)\n  * kernel: xfrm: ah6: validate routing header segments_left (CVE-2026-80844)\n  * kernel: net: tun: bound receive headroom (CVE-2026-81000)\n  * kernel: scsi: qla2xxx: Bound rsp_info_len to avoid OOB sense-data read (CVE-2026-89846)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * sctp: prevent peer transport count overflow [almalinux-8.10.z] (JIRA:AlmaLinux-216297)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -554,6 +554,10 @@
     {
       "url": "https://errata.almalinux.org/8/ALSA-2026-71213.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-74469.html",
+      "type": "REPORT"
     }
   ]
 }

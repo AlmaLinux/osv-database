@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2026:76733",
+  "summary": "Important: rust-rpm-sequoia security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "rpm-sequoia"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.2.1-1.el9_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "rpm-sequoia-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.2.1-1.el9_8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-42784"
+  ],
+  "published": "2026-10-06T00:00:00Z",
+  "modified": "2026-10-06T19:13:15Z",
+  "details": "An implementation of the RPM PGP interface using Sequoia.  \n\nSecurity Fix(es):  \n\n  * sequoia-openpgp: sequoia-openpgp: Cryptographic integrity compromise via key flag confusion (CVE-2026-42784)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:76733",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-42784",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2464122",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-76733.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

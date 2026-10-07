@@ -285,7 +285,7 @@
     "CVE-2026-89846"
   ],
   "published": "2026-09-24T00:00:00Z",
-  "modified": "2026-10-05T09:42:10Z",
+  "modified": "2026-10-06T15:40:26Z",
   "details": "The kernel packages contain the Linux kernel, the core of any Linux operating system.  \n\nSecurity Fix(es):  \n\n  * kernel: block: zero non-PI portion of auto integrity buffer (CVE-2026-23007)\n  * kernel: netfilter: ebtables SNAT target writes to shared memory pages during ARP hardware address rewrite (CVE-2026-53266)\n  * kernel: mac802154: llsec: add skb_cow_data() before in-place crypto (CVE-2026-63831)\n  * kernel: blk-cgroup: fix UAF in __blkcg_rstat_flush() (CVE-2026-63802)\n  * kernel: block: don't overwrite bip_vcnt in bio_integrity_copy_user() (CVE-2026-64053)\n  * kernel: smb: client: fix double-free in SMB2_flush() replay (CVE-2026-64383)\n  * kernel: sctp: don't free the ASCONF's own transport in DEL-IP processing (CVE-2026-64564)\n  * kernel: ALSA: timer: drain a slave's callback before its master detaches it (CVE-2026-68201)\n  * kernel: selinux: check connect-related permissions on TCP Fast Open (CVE-2026-72243)\n  * kernel: netfilter: nf_conntrack_sip: widen NAT rewrite delta to s32 in sip_help_tcp() (CVE-2026-74569)\n  * kernel: xfrm: ah6: validate routing header segments_left (CVE-2026-80844)\n  * kernel: net: tun: bound receive headroom (CVE-2026-81000)\n  * kernel: scsi: qla2xxx: Bound rsp_info_len to avoid OOB sense-data read (CVE-2026-89846)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * kernel module .ko ELF files with non-zero sh_addr section addresses [almalinux-10.2.z] (JIRA:AlmaLinux-159298)\n  * sctp: prevent peer transport count overflow [almalinux-10.2.z] (JIRA:AlmaLinux-216247)\n  * [AlmaLinux 10] bnxt_en: RX queue restart failed: err=-95 [almalinux-10.2.z] (JIRA:AlmaLinux-247283)\n  * RHIVOS - S32G: backport missing fixes to 10.2 (JIRA:AlmaLinux-259788)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -399,6 +399,10 @@
     {
       "url": "https://errata.almalinux.org/10/ALSA-2026-71233.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-74469.html",
+      "type": "REPORT"
     }
   ]
 }

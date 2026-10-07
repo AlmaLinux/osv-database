@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2026:76735",
+  "summary": "Important: rust-sequoia-sqv security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "sequoia-sqv"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.3.0.2-1.el10_2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-42784"
+  ],
+  "published": "2026-10-06T00:00:00Z",
+  "modified": "2026-10-07T07:32:46Z",
+  "details": "A simple OpenPGP signature verification program.  \n\nSecurity Fix(es):  \n\n  * sequoia-openpgp: sequoia-openpgp: Cryptographic integrity compromise via key flag confusion (CVE-2026-42784)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:76735",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-42784",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2464122",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-76735.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

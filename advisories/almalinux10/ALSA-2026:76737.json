@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2026:76737",
+  "summary": "Important: rust-sequoia-sq security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "sequoia-sq"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.0.1-2.el10_2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-42784"
+  ],
+  "published": "2026-10-06T00:00:00Z",
+  "modified": "2026-10-08T06:45:54Z",
+  "details": "Command-line frontends for Sequoia.  \n\nSecurity Fix(es):  \n\n  * sequoia-openpgp: sequoia-openpgp: Cryptographic integrity compromise via key flag confusion (CVE-2026-42784)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * Unbundle capnproto from sequoia-sq [almalinux-10.2.z] (JIRA:AlmaLinux-177547)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:76737",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-42784",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2464122",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-76737.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

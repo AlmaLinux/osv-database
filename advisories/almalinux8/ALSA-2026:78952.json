@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2026:78952",
+  "summary": "Moderate: tftp security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "tftp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.2-28.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "tftp-server"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.2-28.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-85234"
+  ],
+  "published": "2026-10-08T00:00:00Z",
+  "modified": "2026-10-09T07:29:11Z",
+  "details": "The Trivial File Transfer Protocol (TFTP) is typically used only for booting diskless workstations. The tftp packages include the tftp and tftp-server subpackages. The tftp subpackage provides the user interface for TFTP and the tftp-server subpackage provides the server. This allows users to transfer files to and from a remote machine.  \n\nSecurity Fix(es):  \n\n  * tftp: tftp-hpa: Denial of Service due to out-of-bounds read/write in remap engine (CVE-2026-85234)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:78952",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-85234",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2460997",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-78952.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

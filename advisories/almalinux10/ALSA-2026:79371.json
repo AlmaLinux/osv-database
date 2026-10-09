@@ -1,0 +1,188 @@
+{
+  "id": "ALSA-2026:79371",
+  "summary": "Important: dovecot security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "dovecot"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.3.21-19.el10_2.8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "dovecot-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.3.21-19.el10_2.8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "dovecot-mysql"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.3.21-19.el10_2.8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "dovecot-pgsql"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.3.21-19.el10_2.8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "dovecot-pigeonhole"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.3.21-19.el10_2.8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-42391",
+    "CVE-2026-73208",
+    "CVE-2026-27852",
+    "CVE-2026-40019",
+    "CVE-2026-33263",
+    "CVE-2026-33605",
+    "CVE-2026-42007",
+    "CVE-2026-40018"
+  ],
+  "published": "2026-10-08T00:00:00Z",
+  "modified": "2026-10-09T10:10:14Z",
+  "details": "Dovecot is an IMAP server for Linux and other UNIX-like systems, written primarily with security in mind. It also contains a small POP3 server, and supports e-mail in either the maildir or mbox format. The SQL drivers and authentication plug-ins are provided as subpackages.   \n\nSecurity Fix(es):  \n\n  * dovecot: Dovecot: Denial of Service via IMAP ID command with excessive parameters (CVE-2026-42391)\n  * dovecot: Dovecot: Authentication bypass via incorrect OAuth2 token validation (CVE-2026-73208)\n  * dovecot: Dovecot: Denial of service via crafted email headers (CVE-2026-27852)\n  * dovecot: Dovecot: Denial of Service via truncated quoted argument in ManageSieve (CVE-2026-40019)\n  * dovecot: Dovecot: Denial of Service and potential message duplication via connection limit exhaustion (CVE-2026-33263)\n  * dovecot: Dovecot: Denial of Service in ManageSieve login process (CVE-2026-33605)\n  * dovecot: Dovecot: Arbitrary Code Execution via Sieve editheader use-after-free (CVE-2026-42007)\n  * dovecot: Dovecot: MySQL multi-byte escaping wrong (CVE-2026-40018)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:79371",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-27852",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-33263",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-33605",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-40018",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-40019",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-42007",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-42391",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-73208",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2525545",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2525547",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2525557",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2525559",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2525567",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2525576",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2525583",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2525584",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-79371.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

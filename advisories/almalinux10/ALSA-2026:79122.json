@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2026:79122",
+  "summary": "Important: cjose security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "cjose"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.6.2.2-7.el10_2.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "cjose-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.6.2.2-7.el10_2.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-53938"
+  ],
+  "published": "2026-10-08T00:00:00Z",
+  "modified": "2026-10-09T07:21:36Z",
+  "details": "CJose is C library implementing the Javascript Object Signing and Encryption (JOSE).  \n\nSecurity Fix(es):  \n\n  * cjose: cjose: Heap buffer overflow in AES Key Wrap decryption leads to denial of service (CVE-2026-53938)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:79122",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-53938",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2530240",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-79122.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

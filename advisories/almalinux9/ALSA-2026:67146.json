@@ -27,7 +27,7 @@
     "CVE-2026-49855"
   ],
   "published": "2026-09-14T00:00:00Z",
-  "modified": "2026-09-15T08:50:19Z",
+  "modified": "2026-10-09T15:54:48Z",
   "details": "Python is an interpreted, interactive, object-oriented programming language, which includes modules, classes, exceptions, very high level dynamic data types and dynamic typing. Python supports interfaces to many system calls and libraries, as well as to various windowing systems.  \n\nSecurity Fix(es):  \n\n  * tornado: Tornado: Information disclosure via improper handling of credentials during HTTP redirects (CVE-2026-49853)\n  * tornado: Tornado: Denial of Service via uncontrolled gzip decompression memory consumption (CVE-2026-49855)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -45,6 +45,14 @@
     {
       "url": "https://errata.almalinux.org/9/ALSA-2026-67146.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-82397.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-91990.html",
+      "type": "REPORT"
     }
   ]
 }

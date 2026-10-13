@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2026:81517",
+  "summary": "Important: gd security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gd"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.2-3.el9_8.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "gd-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.2-3.el9_8.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-9672"
+  ],
+  "published": "2026-10-12T00:00:00Z",
+  "modified": "2026-10-13T09:14:18Z",
+  "details": "GD is an open source code library for the dynamic creation of images by programmers. GD creates PNG, JPEG, GIF, WebP, XPM, BMP images, among other formats.   \n\nSecurity Fix(es):  \n\n  * libgd: buffer overflow when processing specially crafted GIF file (CVE-2026-9672)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:81517",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9672",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533111",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-81517.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

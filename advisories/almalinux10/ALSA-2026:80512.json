@@ -1,0 +1,142 @@
+{
+  "id": "ALSA-2026:80512",
+  "summary": "Moderate: curl security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "curl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.12.1-4.el10_2.7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libcurl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.12.1-4.el10_2.7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libcurl-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.12.1-4.el10_2.7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libcurl-minimal"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.12.1-4.el10_2.7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-6253",
+    "CVE-2026-5545",
+    "CVE-2026-6429",
+    "CVE-2026-7168",
+    "CVE-2026-10536"
+  ],
+  "published": "2026-10-12T00:00:00Z",
+  "modified": "2026-10-13T09:21:14Z",
+  "details": "The curl packages provide the libcurl library and the curl utility for downloading files from servers using various protocols, including HTTP, FTP, and LDAP.  \n\nSecurity Fix(es):  \n\n  * curl: curl: Proxy credential disclosure via redirects to unauthenticated proxies (CVE-2026-6253)\n  * curl: libcurl: Authentication bypass due to incorrect HTTP Negotiate connection reuse (CVE-2026-5545)\n  * curl: libcurl: Credential leak via reused proxy connection during HTTP redirects (CVE-2026-6429)\n  * curl: libcurl: Information disclosure via incorrect Proxy-Authorization header reuse (CVE-2026-7168)\n  * libcurl: libcurl: Use-after-free vulnerability leading to Denial of Service (CVE-2026-10536)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:80512",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-10536",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-5545",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-6253",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-6429",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-7168",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2461202",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2461204",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2461205",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2476979",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2496766",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-80512.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

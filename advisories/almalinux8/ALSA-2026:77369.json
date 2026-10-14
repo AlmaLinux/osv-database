@@ -1,0 +1,96 @@
+{
+  "id": "ALSA-2026:77369",
+  "summary": "Important: mod_auth_openidc:2.3 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "cjose"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.6.1-5.module_el8.10.0+4297+63ae3533"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "cjose-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.6.1-5.module_el8.10.0+4297+63ae3533"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mod_auth_openidc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.9.4-9.module_el8.10.0+4297+63ae3533"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-54789",
+    "CVE-2026-53938"
+  ],
+  "published": "2026-10-07T00:00:00Z",
+  "modified": "2026-10-14T13:04:21Z",
+  "details": "The mod_auth_openidc is an OpenID Connect authentication module for Apache HTTP Server. It enables an Apache HTTP Server to operate as an OpenID Connect Relying Party and/or OAuth 2.0 Resource Server.   \n\nSecurity Fix(es):  \n\n  * mod_auth_openidc: mod_auth_openidc: Denial of Service via malformed state cookie parsing (CVE-2026-54789)\n  * cjose: cjose: Heap buffer overflow in AES Key Wrap decryption leads to denial of service (CVE-2026-53938)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:77369",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-53938",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-54789",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2521051",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2530240",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-77369.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

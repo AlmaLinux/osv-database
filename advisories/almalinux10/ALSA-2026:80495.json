@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2026:80495",
+  "summary": "Important: flatpak-builder security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "flatpak-builder"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.4-1.el10_2.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-86320"
+  ],
+  "published": "2026-10-12T00:00:00Z",
+  "modified": "2026-10-14T09:08:00Z",
+  "details": "Flatpak-builder is a tool for building flatpaks from sources.  \n\nSecurity Fix(es):  \n\n  * flatpak-builder: Host code execution via `git am` hook execution in patch source extraction (`use-git-am`) (CVE-2026-86320)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:80495",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-86320",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2471023",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-80495.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

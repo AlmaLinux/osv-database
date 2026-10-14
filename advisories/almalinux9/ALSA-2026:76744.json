@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2026:76744",
+  "summary": "Important: opentelemetry-collector security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "opentelemetry-collector"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.158.0-1.el9_8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-84445"
+  ],
+  "published": "2026-10-06T00:00:00Z",
+  "modified": "2026-10-13T12:56:37Z",
+  "details": "Collector with the supported components for a AlmaLinux build of OpenTelemetry  \n\nSecurity Fix(es):  \n\n  * google.golang.org/grpc: gRPC-Go: Denial of Service via malformed RPC requests (CVE-2026-84445)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:76744",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-84445",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2533175",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-76744.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

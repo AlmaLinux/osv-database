@@ -1,0 +1,238 @@
+{
+  "id": "ALSA-2026:73838",
+  "summary": "Important: nodejs:24 security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "nodejs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:24.21.0-1.module_el9.8.0+321+1555b6a2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "nodejs-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:24.21.0-1.module_el9.8.0+321+1555b6a2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "nodejs-docs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:24.21.0-1.module_el9.8.0+321+1555b6a2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "nodejs-full-i18n"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:24.21.0-1.module_el9.8.0+321+1555b6a2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "nodejs-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:24.21.0-1.module_el9.8.0+321+1555b6a2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "nodejs-nodemon"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.14-3.module_el9.8.0+292+f4eaf8b2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "nodejs-packaging"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2021.06-6.module_el9.7.0+209+ecf6523e"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "nodejs-packaging-bundler"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2021.06-6.module_el9.7.0+209+ecf6523e"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "npm"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:11.19.0-1.24.21.0.1.module_el9.8.0+321+1555b6a2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "v8-13.6-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3:13.6.233.17-1.24.21.0.1.module_el9.8.0+321+1555b6a2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-85152",
+    "CVE-2026-84961",
+    "CVE-2026-19534"
+  ],
+  "published": "2026-09-30T00:00:00Z",
+  "modified": "2026-10-15T09:30:13Z",
+  "details": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language.   \n\nSecurity Fix(es):  \n\n  * undici: undici: Authentication bypass via cross-origin cache poisoning due to missing origin isolation (CVE-2026-85152)\n  * undici: undici: TLS certificate validation bypass in BalancedPool via dropped connect options (CVE-2026-84961)\n  * undici: undici: Denial of Service via unrequested WebSocket subprotocol (CVE-2026-19534)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * nodejs:24/nodejs: Rebase to the latest Node.js 24 release [almalinux-9.8.z] (JIRA:AlmaLinux-249189)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:73838",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-19534",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-84961",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-85152",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2528717",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2528735",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2528759",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-73838.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

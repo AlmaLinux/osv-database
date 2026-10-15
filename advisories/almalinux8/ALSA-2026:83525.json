@@ -1,0 +1,58 @@
+{
+  "id": "ALSA-2026:83525",
+  "summary": "Important: lrzsz security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "lrzsz"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.12.20-46.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-105840",
+    "CVE-2026-105841"
+  ],
+  "published": "2026-10-15T00:00:00Z",
+  "modified": "2026-10-15T10:28:38Z",
+  "details": "Lrzsz (consisting of lrz and lsz) is a cosmetically modified zmodem/ymodem/xmodem package built from the public-domain version of the rzsz package. Lrzsz was created to provide a working GNU copylefted Zmodem solution for Linux systems.  \n\nSecurity Fix(es):  \n\n  * lrzsz: lrzsz: Arbitrary file overwrite via absolute path traversal in restricted mode (CVE-2026-105840)\n  * lrzsz: lrzsz: Arbitrary command execution via crafted file names in pipe mode (CVE-2026-105841)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * lrzsz: segfault with -s [almalinux-8.10.z] (JIRA:AlmaLinux-282148)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:83525",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-105840",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-105841",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2546590",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2546595",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-83525.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

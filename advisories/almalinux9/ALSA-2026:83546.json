@@ -1,0 +1,123 @@
+{
+  "id": "ALSA-2026:83546",
+  "summary": "Important: wireshark security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "wireshark"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:3.4.10-9.el9_8.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "wireshark-cli"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:3.4.10-9.el9_8.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "wireshark-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:3.4.10-9.el9_8.5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-76886",
+    "CVE-2026-76880",
+    "CVE-2026-76919",
+    "CVE-2026-76927",
+    "CVE-2026-95387"
+  ],
+  "published": "2026-10-15T00:00:00Z",
+  "modified": "2026-10-16T08:47:51Z",
+  "details": "The wireshark packages contain a network protocol analyzer used to capture and browse the traffic running on a computer network.  \n\nSecurity Fix(es):  \n\n  * wireshark: Wireshark: Denial of Service via C12.22 protocol dissector crash (CVE-2026-76886)\n  * wireshark: Wireshark: Denial of Service via RRC protocol dissector out-of-bounds write (CVE-2026-76880)\n  * wireshark: Wireshark: Denial of Service vulnerability in ESS protocol dissector (CVE-2026-76919)\n  * wireshark: Wireshark: Denial of Service vulnerability in H.245 protocol dissector (CVE-2026-76927)\n  * wireshark: wireshark: Denial of Service via heap-based buffer overflow in SPDY dissector (CVE-2026-95387)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:83546",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-76880",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-76886",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-76919",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-76927",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-95387",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2520079",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2520088",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2520093",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2520103",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2543033",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-83546.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2026:83562",
+  "summary": "Important: rpcbind security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "rpcbind"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.6-7.el9_8.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-94640"
+  ],
+  "published": "2026-10-15T00:00:00Z",
+  "modified": "2026-10-16T08:47:01Z",
+  "details": "The rpcbind utility is a server that converts Remote Procedure Call (RPC) program numbers into universal addresses. It must be running on the host to be able to make RPC calls on a server on that machine.  \n\nSecurity Fix(es):  \n\n  * rpcbind: Unbounded memory allocation in rpcbind statistics tracking allows unauthenticated remote denial of service (CVE-2026-94640)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:83562",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-94640",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2462960",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-83562.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

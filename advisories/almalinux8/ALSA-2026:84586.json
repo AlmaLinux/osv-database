@@ -1,0 +1,95 @@
+{
+  "id": "ALSA-2026:84586",
+  "summary": "Important: libsoup security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libsoup"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.62.3-19.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libsoup-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.62.3-19.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-102556",
+    "CVE-2026-102557",
+    "CVE-2026-102558",
+    "CVE-2026-102559"
+  ],
+  "published": "2026-10-19T00:00:00Z",
+  "modified": "2026-10-19T09:23:28Z",
+  "details": "The libsoup packages provide an HTTP client and server library for GNOME.  \n\nSecurity Fix(es):  \n\n  * libsoup: libsoup: Heap buffer overflow from WebSocket Pong signal type confusion (CVE-2026-102556)\n  * libsoup: libsoup: Heap buffer overflow during WebSocket message reassembly (CVE-2026-102557)\n  * libsoup: libsoup: Heap buffer overflow during WebSocket receive-buffer growth (CVE-2026-102558)\n  * libsoup: libsoup: Heap buffer overflow during WebSocket client-frame masking (CVE-2026-102559)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:84586",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-102556",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-102557",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-102558",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-102559",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2543229",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2543231",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2543274",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2543285",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-84586.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2026:84590",
+  "summary": "Moderate: perl-URI security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "perl-URI"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.73-4.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-19953"
+  ],
+  "published": "2026-10-19T00:00:00Z",
+  "modified": "2026-10-19T09:23:44Z",
+  "details": "This module implements the URI class. Objects of this class represent \"Uniform Resource Identifier references\" as specified in RFC 2396 (and updated by RFC 2732).  \n\nSecurity Fix(es):  \n\n  * URI: URI (for Perl): Security bypass due to incorrect hostname encoding via missing Unicode normalization (CVE-2026-19953)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:84590",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-19953",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2526492",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-84590.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

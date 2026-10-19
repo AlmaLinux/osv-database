@@ -1,0 +1,196 @@
+{
+  "id": "ALSA-2026:84583",
+  "summary": "Critical: webkit2gtk3 security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "webkit2gtk3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.54.1-1.el9_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "webkit2gtk3-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.54.1-1.el9_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "webkit2gtk3-jsc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.54.1-1.el9_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "webkit2gtk3-jsc-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.54.1-1.el9_8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-87596",
+    "CVE-2026-87500",
+    "CVE-2026-87654",
+    "CVE-2026-87621",
+    "CVE-2026-87512",
+    "CVE-2026-87648",
+    "CVE-2026-87602",
+    "CVE-2026-87586",
+    "CVE-2026-87604",
+    "CVE-2026-91738",
+    "CVE-2026-91720"
+  ],
+  "published": "2026-10-19T00:00:00Z",
+  "modified": "2026-10-19T11:43:23Z",
+  "details": "WebKitGTK is the port of the portable web rendering engine WebKit to the GTK platform.  \n\nSecurity Fix(es):  \n\n  * chromium-browser: angle: ANGLE in Google Chrome: Information disclosure via out-of-bounds read (CVE-2026-87596)\n  * chromium-browser: angle: ANGLE in Google Chrome: Arbitrary code execution via crafted HTML page (CVE-2026-87500)\n  * chromium-browser: angle: Chromium: Arbitrary code execution via buffer overflow in ANGLE (CVE-2026-87654)\n  * chromium-browser: angle: Google Chrome (ANGLE): Arbitrary Code Execution vulnerability (CVE-2026-87621)\n  * chromium-browser: angle: Chromium-browser: Arbitrary code execution via use-after-free vulnerability in ANGLE (CVE-2026-87512)\n  * chromium-browser: angle: ANGLE: Arbitrary code execution in Google Chrome due to use-after-free (CVE-2026-87648)\n  * chromium-browser: angle: ANGLE in Google Chrome: Information disclosure via crafted HTML page (CVE-2026-87602)\n  * chromium-browser: angle: ANGLE in Google Chrome: Information disclosure via crafted HTML page (CVE-2026-87586)\n  * chromium-browser: angle: ANGLE in Google Chrome: Arbitrary code execution via out-of-bounds read (CVE-2026-87604)\n  * chromium-browser: angle: chromium-browser: Improper input validation in ANGLE (CVE-2026-91738)\n  * chromium-browser: angle: chromium-browser: Uninitialized resource in ANGLE (CVE-2026-91720)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * webkit2gtk3 2.54.0 regression breaks Eclipse IDE WebKit-based views on CentOS Stream 9 [almalinux-9.8.z] (JIRA:AlmaLinux-274394)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:84583",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-87500",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-87512",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-87586",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-87596",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-87602",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-87604",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-87621",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-87648",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-87654",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-91720",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-91738",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2530272",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2530296",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2530305",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2530333",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2530389",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2530396",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2530447",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2530458",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2530475",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2534404",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2534673",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-84583.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

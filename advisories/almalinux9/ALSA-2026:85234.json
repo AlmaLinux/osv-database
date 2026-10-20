@@ -1,0 +1,115 @@
+{
+  "id": "ALSA-2026:85234",
+  "summary": "Important: resteasy security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "pki-resteasy-client"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.0.26-20.el9_8.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "pki-resteasy-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.0.26-20.el9_8.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "pki-resteasy-jackson2-provider"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.0.26-20.el9_8.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "pki-resteasy-servlet-initializer"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.0.26-20.el9_8.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-89059",
+    "CVE-2026-89058"
+  ],
+  "published": "2026-10-19T00:00:00Z",
+  "modified": "2026-10-20T09:09:26Z",
+  "details": "RESTEasy contains a JBoss project that provides frameworks to help build RESTful Web Services and RESTful Java applications. It is a fully certified and portable implementation of the JAX-RS specification.  \n\nSecurity Fix(es):  \n\n  * resteasy-core: RESTEasy: IIOImageProvider Unbounded Image Decode (Decompression-Bomb DoS) (CVE-2026-89059)\n  * resteasy-core: RESTEasy: CorsFilter Reflects Arbitrary Origin with Credentials under Wildcard Config (CVE-2026-89058)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:85234",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-89058",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-89059",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2519756",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2519775",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-85234.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

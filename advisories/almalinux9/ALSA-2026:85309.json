@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2026:85309",
+  "summary": "Important: bubblewrap security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "bubblewrap"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.6.3-1.el9_8.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-87766"
+  ],
+  "published": "2026-10-19T00:00:00Z",
+  "modified": "2026-10-20T12:12:29Z",
+  "details": "Bubblewrap (/usr/bin/bwrap) is a core execution engine for unprivileged containers that works as a setuid binary on kernels without user namespaces.  \n\nSecurity Fix(es):  \n\n  * bubblewrap: symlink traversal via /oldroot allows writing files outside sandbox during setup (CVE-2026-87766)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:85309",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-87766",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2530542",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-85309.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

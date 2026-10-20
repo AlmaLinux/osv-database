@@ -1,0 +1,143 @@
+{
+  "id": "ALSA-2026:84591",
+  "summary": "Important: emacs security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "emacs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:29.4-14.el10_2.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "emacs-common"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:29.4-14.el10_2.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "emacs-filesystem"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:29.4-14.el10_2.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "emacs-lucid"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:29.4-14.el10_2.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "emacs-nw"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:29.4-14.el10_2.3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-77219",
+    "CVE-2026-79992",
+    "CVE-2026-96442"
+  ],
+  "published": "2026-10-19T00:00:00Z",
+  "modified": "2026-10-19T13:46:18Z",
+  "details": "GNU Emacs is a powerful, customizable, self-documenting text editor. It provides special code editing features, a scripting language (elisp), and the capability to read e-mail and news.  \n\nSecurity Fix(es):  \n\n  * emacs: GNU Emacs: Heap over-read leading to information disclosure via crafted image (CVE-2026-77219)\n  * emacs: emacs: Command injection via crafted filenames in TRAMP (CVE-2026-79992)\n  * emacs: Emacs: arbitrary code execution in Flymake mode (CVE-2026-96442)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:84591",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-77219",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-79992",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-96442",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2521196",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2523665",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2537347",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-84591.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

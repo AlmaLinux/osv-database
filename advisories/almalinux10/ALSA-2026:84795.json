@@ -1,0 +1,87 @@
+{
+  "id": "ALSA-2026:84795",
+  "summary": "Important: librabbitmq security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "librabbitmq"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.14.0-3.el10_2.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "librabbitmq-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.14.0-3.el10_2.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "librabbitmq-tools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.14.0-3.el10_2.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-44236"
+  ],
+  "published": "2026-10-19T00:00:00Z",
+  "modified": "2026-10-19T13:44:47Z",
+  "details": "The librabbitmq packages provide an Advanced Message Queuing Protocol (AMQP) client library that allows you to communicate with AMQP servers using protocol version 0-9-1.  \n\nSecurity Fix(es):  \n\n  * rabbitmq-c: rabbitmq-c: Heap buffer overflow leading to denial of service (CVE-2026-44236)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:84795",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-44236",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2536500",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-84795.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

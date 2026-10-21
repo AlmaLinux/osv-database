@@ -1,0 +1,58 @@
+{
+  "id": "ALSA-2026:85930",
+  "summary": "Important: python-urllib3 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "python3-urllib3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.26.19-4.el10_2.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-97689",
+    "CVE-2026-97687"
+  ],
+  "published": "2026-10-20T00:00:00Z",
+  "modified": "2026-10-21T12:00:39Z",
+  "details": "Python is an interpreted, interactive, object-oriented programming language, which includes modules, classes, exceptions, very high level dynamic data types and dynamic typing. Python supports interfaces to many system calls and libraries, as well as to various windowing systems.  \n\nSecurity Fix(es):  \n\n  * urllib3: urllib3: Denial of Service via unbounded memory allocation in chunk parser (CVE-2026-97689)\n  * urllib3: urllib3: Traffic interception via HTTPS proxy TLS configuration override (CVE-2026-97687)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:85930",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-97687",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-97689",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2543245",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2543255",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-85930.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,438 @@
+{
+  "id": "ALSA-2026:86168",
+  "summary": "Critical: .NET 8.0 security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "aspnetcore-runtime-8.0"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.32-1.el10_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "aspnetcore-runtime-dbg-8.0"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.32-1.el10_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "aspnetcore-targeting-pack-8.0"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.32-1.el10_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "dotnet-apphost-pack-8.0"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.32-1.el10_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "dotnet-hostfxr-8.0"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.32-1.el10_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "dotnet-runtime-8.0"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.32-1.el10_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "dotnet-runtime-dbg-8.0"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.32-1.el10_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "dotnet-sdk-8.0"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.132-1.el10_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "dotnet-sdk-8.0-source-built-artifacts"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.132-1.el10_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "dotnet-sdk-dbg-8.0"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.132-1.el10_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "dotnet-targeting-pack-8.0"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.32-1.el10_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "dotnet-templates-8.0"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.132-1.el10_2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-58280",
+    "CVE-2026-66822",
+    "CVE-2026-69651",
+    "CVE-2026-70159",
+    "CVE-2026-70175",
+    "CVE-2026-70179",
+    "CVE-2026-70181",
+    "CVE-2026-70183",
+    "CVE-2026-70186",
+    "CVE-2026-70188",
+    "CVE-2026-70196",
+    "CVE-2026-88092",
+    "CVE-2026-92707",
+    "CVE-2026-96222",
+    "CVE-2026-96225",
+    "CVE-2026-96230",
+    "CVE-2026-96231",
+    "CVE-2026-96233",
+    "CVE-2026-96236",
+    "CVE-2026-96237",
+    "CVE-2026-96238"
+  ],
+  "published": "2026-10-20T00:00:00Z",
+  "modified": "2026-10-21T14:19:34Z",
+  "details": ".NET is a fast, lightweight and modular platform for creating cross platform applications that work on Linux, macOS and Windows. It particularly focuses on creating console applications, web applications and micro-services. .NET contains a runtime conforming to .NET Standards a set of framework libraries, an SDK containing compilers and a 'dotnet' application to drive everything.  \n\nSDK version: 8.0.132  \nRuntime version: 8.0.32  \n\nSecurity Fix(es):  \n\n  * dotnet10.0: dotnet9.0: dotnet: dotnet8.0: .NET Denial of Service Vulnerability (CVE-2026-58280)\n  * dotnet10.0: dotnet8.0: dotnet9.0: dotnet: .NET Information Disclosure Vulnerability (CVE-2026-66822)\n  * dotnet9.0: dotnet: dotnet10.0: dotnet8.0: .NET Denial of Service Vulnerability (CVE-2026-69651)\n  * dotnet8.0: dotnet10.0: dotnet: dotnet9.0: ASP.NET Core Denial of Service Vulnerability (CVE-2026-70159)\n  * dotnet10.0: dotnet8.0: dotnet9.0: ASP.NET Core Elevation of Privilege Vulnerability (CVE-2026-70175)\n  * dotnet10.0: dotnet8.0: dotnet9.0: ASP.NET Core Elevation of Privilege Vulnerability (CVE-2026-70179)\n  * dotnet9.0: dotnet8.0: dotnet10.0: ASP.NET Core Denial of Service Vulnerability (CVE-2026-70181)\n  * dotnet: dotnet10.0: dotnet9.0: dotnet8.0: ASP.NET Core Elevation of Privilege Vulnerability (CVE-2026-70183)\n  * dotnet10.0: dotnet9.0: dotnet8.0: ASP.NET Core Denial of Service Vulnerability (CVE-2026-70186)\n  * dotnet: ASP.NET Core Security Feature Bypass Vulnerability (CVE-2026-70188)\n  * dotnet9.0: dotnet8.0: dotnet10.0: ASP.NET Core Denial of Service Vulnerability (CVE-2026-70196)\n  * dotnet: ASP.NET Core Tampering Vulnerability (CVE-2026-88092)\n  * dotnet10.0: dotnet8.0: dotnet9.0: dotnet: MessagePack: Nested arrays can blow past buffer length limits (CVE-2026-92707)\n  * dotnet8.0: Active Directory Federation Services (AD FS) Spoofing Vulnerability (CVE-2026-96222)\n  * dotnet: dotnet8.0: dotnet9.0: dotnet10.0: .NET Elevation of Privilege Vulnerability (CVE-2026-96225)\n  * dotnet9.0: dotnet10.0: dotnet8.0: dotnet: ASP.NET Core Remote Code Execution Vulnerability (CVE-2026-96230)\n  * dotnet: dotnet9.0: dotnet10.0: dotnet8.0: .NET Elevation of Privilege Vulnerability (CVE-2026-96231)\n  * dotnet10.0: dotnet: dotnet8.0: dotnet9.0: ASP.NET Core Denial of Service Vulnerability (CVE-2026-96233)\n  * dotnet: dotnet10.0: dotnet9.0: dotnet8.0: ASP.NET Core Denial of Service Vulnerability (CVE-2026-96236)\n  * dotnet8.0: dotnet10.0: dotnet9.0: .NET Remote Code Execution Vulnerability (CVE-2026-96237)\n  * dotnet8.0: dotnet10.0: dotnet9.0: dotnet: .NET Security Feature Bypass Vulnerability (CVE-2026-96238)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * Update .NET 8.0 to SDK 8.0.132 and Runtime 8.0.32 [almalinux-10.2.z] (JIRA:AlmaLinux-277794)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:86168",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-58280",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-66822",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-69651",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-70159",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-70175",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-70179",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-70181",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-70183",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-70186",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-70188",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-70196",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-88092",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92707",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-96222",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-96225",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-96230",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-96231",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-96233",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-96236",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-96237",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-96238",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2548778",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2548781",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2548784",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2548786",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2548787",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2548790",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2548791",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2548792",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2548793",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2548796",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2548798",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2548799",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2548800",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2548802",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2548803",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2548804",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2548805",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2548806",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2548807",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2548808",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2548809",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-86168.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

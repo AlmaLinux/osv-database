@@ -1,0 +1,58 @@
+{
+  "id": "ALSA-2026:85848",
+  "summary": "Important: rust-sequoia-sq security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "sequoia-sq"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.0.1-4.el10_2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-93657",
+    "CVE-2026-93599"
+  ],
+  "published": "2026-10-20T00:00:00Z",
+  "modified": "2026-10-21T12:03:30Z",
+  "details": "Command-line frontends for Sequoia.  \n\nSecurity Fix(es):  \n\n  * hickory-resolver: hickory-resolver: DNSSEC validation bypass allows forged DNS records (CVE-2026-93657)\n  * rustls-webpki: rustls-webpki: Denial of Service via crafted Certificate Revocation List (CVE-2026-93599)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:85848",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-93599",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-93657",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2538208",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2538431",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-85848.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

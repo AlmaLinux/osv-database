@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2026:85959",
+  "summary": "Moderate: fetchmail security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "fetchmail"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.4.38-3.el10_2.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-94184"
+  ],
+  "published": "2026-10-20T00:00:00Z",
+  "modified": "2026-10-21T12:02:02Z",
+  "details": "Fetchmail is a remote mail retrieval and forwarding utility intended for use over on-demand TCP/IP links, like SLIP or PPP connections. Fetchmail supports every remote-mail protocol currently in use on the Internet (POP2, POP3, RPOP, APOP, KPOP, all IMAPs, ESMTP ETRN, IPv6, and IPSEC) for retrieval. Then Fetchmail forwards the mail through SMTP so the user can read it through their favorite mail client.  \n\nSecurity Fix(es):  \n\n  * fetchmail: fetchmail: stack-based buffer overflow in NTLM authentication (fetchmail-SA-2026-01) (CVE-2026-94184)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:85959",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-94184",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2537395",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-85959.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

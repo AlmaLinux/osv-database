@@ -1,0 +1,58 @@
+{
+  "id": "ALSA-2026:84595",
+  "summary": "Moderate: cockpit-files security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "cockpit-files"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "36.1-1.el9_8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-91202",
+    "CVE-2026-91205"
+  ],
+  "published": "2026-10-19T00:00:00Z",
+  "modified": "2026-10-22T08:58:01Z",
+  "details": "A filesystem browser for Cockpit  \n\nSecurity Fix(es):  \n\n  * cockpit-files: cockpit-files: Arbitrary file ownership change via symlink following in privileged paste (CVE-2026-91202)\n  * cockpit-files: cockpit-files: Local attacker can hijack file ownership via symlink race (CVE-2026-91205)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:84595",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-91202",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-91205",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2465834",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2466442",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-84595.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

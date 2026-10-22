@@ -1,0 +1,58 @@
+{
+  "id": "ALSA-2026:86706",
+  "summary": "Moderate: jackson-core security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "pki-jackson-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.21.6-1.el9_8.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-89407",
+    "CVE-2026-89425"
+  ],
+  "published": "2026-10-21T00:00:00Z",
+  "modified": "2026-10-22T08:55:29Z",
+  "details": "Core part of Jackson that defines Streaming API as well as basic shared abstractions.  \n\nSecurity Fix(es):  \n\n  * com.fasterxml.jackson/jackson-core: tools.jackson.core/jackson-core: Jackson-core: Denial of Service via regular expression backtracking (CVE-2026-89407)\n  * com.fasterxml.jackson.core/jackson-core: Jackson-core: Denial of Service via unbounded StringBuilder growth during malformed token processing (CVE-2026-89425)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:86706",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-89407",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-89425",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2538720",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2539084",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-86706.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

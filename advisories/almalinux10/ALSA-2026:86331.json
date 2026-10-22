@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2026:86331",
+  "summary": "Important: glycin-loaders security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "glycin-loaders"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.1-1.el10_2.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-96889"
+  ],
+  "published": "2026-10-20T00:00:00Z",
+  "modified": "2026-10-22T08:58:39Z",
+  "details": "Sandboxed and extendable image decoding.  \n\nSecurity Fix(es):  \n\n  * librsvg: Use-after-free when XML includes have duplicated entities (CVE-2026-96889,RUSTSEC-2026-0305)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:86331",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-96889",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2539279",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-86331.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

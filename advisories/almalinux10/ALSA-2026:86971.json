@@ -1,0 +1,67 @@
+{
+  "id": "ALSA-2026:86971",
+  "summary": "Moderate: cockpit-machines security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "cockpit-machines"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "348.1-1.el10_2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-92768",
+    "CVE-2026-92747",
+    "CVE-2026-92745"
+  ],
+  "published": "2026-10-21T00:00:00Z",
+  "modified": "2026-10-22T08:58:51Z",
+  "details": "Cockpit component for managing libvirt virtual machines.  \n\nSecurity Fix(es):  \n\n  * cockpit-machines: cockpit-machines: Sensitive data exposure via command-line arguments (CVE-2026-92768)\n  * cockpit-machines: cockpit-machines: Sensitive Data Exposure of guest credentials via JSON argument in process list (CVE-2026-92747)\n  * cockpit-machines: cockpit-machines: Information Disclosure of RHSM Offline Token via Process Arguments (CVE-2026-92745)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:86971",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92745",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92747",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-92768",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2469258",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2469260",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2476266",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-86971.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "id": "ALSA-2026:87072",
+  "summary": "Important: php:8.2 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "apcu-panel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.23-1.module_el9.4.0+65+49ff6472"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-pecl-apcu"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.23-1.module_el9.4.0+65+49ff6472"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-pecl-apcu-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.23-1.module_el9.4.0+65+49ff6472"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-pecl-rrd"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.3-4.module_el9.4.0+65+49ff6472"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-pecl-xdebug3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.2-2.module_el9.4.0+65+49ff6472"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "php-pecl-zip"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.22.3-1.module_el9.4.0+65+49ff6472"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-91765",
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+  ],
+  "published": "2026-10-21T00:00:00Z",
+  "modified": "2026-10-22T13:25:39Z",
+  "details": "PHP is an HTML-embedded scripting language commonly used with the Apache HTTP Server.  \n\nSecurity Fix(es):  \n\n  * php: php: Denial of Service via unbounded recursion in SOAP parser (CVE-2026-91765)\n  * php: OOM bailout during request parsing leads to memory corruption and RCE (CVE-2026-109618)\n  * php: fatal error handling retains stale request state leading to use-after-free (CVE-2026-109619)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:87072",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-109618",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-109619",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-91765",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2541646",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2553995",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2554177",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-87072.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

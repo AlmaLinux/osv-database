@@ -1,0 +1,95 @@
+{
+  "id": "ALSA-2026:88188",
+  "summary": "Important: grafana security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "grafana"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.2.10-36.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "grafana-selinux"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.2.10-36.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-78667",
+    "CVE-2026-97031",
+    "CVE-2026-78669",
+    "CVE-2026-111943"
+  ],
+  "published": "2026-10-22T00:00:00Z",
+  "modified": "2026-10-22T20:59:47Z",
+  "details": "Grafana is an open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB.   \n\nSecurity Fix(es):  \n\n  * net/[http:](http:) golang: golang: Denial of Service via crafted HTTP Range headers (CVE-2026-78667)\n  * crypto/tls: golang: crypto/tls: Denial of Service via multiple ECH outer extension references (CVE-2026-97031)\n  * net/[http:](http:) net/http/internal/http2: golang.org/x/net/http2: net/[http:](http:) Denial of Service via excessive HTTP/2 SETTINGS frames (CVE-2026-78669)\n  * crypto/x509: golang: crypto/x509: Man-in-the-middle attacks via untrusted intermediate certificates (CVE-2026-111943)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:88188",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-111943",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-78667",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-78669",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-97031",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2548334",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2548336",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2548344",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2556068",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-88188.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "id": "ALSA-2026:88211",
+  "summary": "Moderate: openssh security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "openssh"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0p1-34.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "openssh-askpass"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0p1-34.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "openssh-cavs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0p1-34.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "openssh-clients"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0p1-34.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "openssh-keycat"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0p1-34.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "openssh-ldap"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0p1-34.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "openssh-server"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0p1-34.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "pam_ssh_agent_auth"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.3-8.34.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-59997",
+    "CVE-2026-59998",
+    "CVE-2026-60001",
+    "CVE-2026-60000",
+    "CVE-2026-73283"
+  ],
+  "published": "2026-10-22T00:00:00Z",
+  "modified": "2026-10-22T20:59:48Z",
+  "details": "OpenSSH is an SSH protocol implementation supported by a number of Linux, UNIX, and similar operating systems. It includes the core files necessary for both the OpenSSH client and server.  \n\nSecurity Fix(es):  \n\n  * openssh: OpenSSH: SFTP security bypass due to command-line argument parsing flaw (CVE-2026-59997)\n  * openssh: OpenSSH: Undocumented GSSAPIStrictAcceptorCheck behavior impacts security in Windows Active Directory (CVE-2026-59998)\n  * openssh: OpenSSH: Brute-force attacks facilitated due to insufficient authentication delay (CVE-2026-60001)\n  * openssh: OpenSSH: Denial of Service via excessive GSSAPI authentication attempts (CVE-2026-60000)\n  * openssh: OpenSSH: Tunnel forwarding restriction bypass (CVE-2026-73283)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:88211",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-59997",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-59998",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-60000",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-60001",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-73283",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2497929",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2497935",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2497938",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2497946",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2514321",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-88211.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

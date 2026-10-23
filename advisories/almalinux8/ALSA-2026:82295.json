@@ -1,0 +1,220 @@
+{
+  "id": "ALSA-2026:82295",
+  "summary": "Important: hplip security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "hplip"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.26.6-3.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "hplip-common"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.26.6-3.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "hplip-gui"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.26.6-3.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "hplip-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.26.6-3.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libsane-hpaio"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.26.6-3.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2020-6923",
+    "CVE-2025-43023",
+    "CVE-2026-91099",
+    "CVE-2026-91098",
+    "CVE-2026-91097",
+    "CVE-2026-91103",
+    "CVE-2026-91106",
+    "CVE-2026-91100",
+    "CVE-2026-91101",
+    "CVE-2026-91104",
+    "CVE-2026-91105",
+    "CVE-2026-91102"
+  ],
+  "published": "2026-10-13T00:00:00Z",
+  "modified": "2026-10-23T12:33:02Z",
+  "details": "The hplip packages contain the Hewlett-Packard Linux Imaging and Printing Project (HPLIP), which provides drivers for Hewlett-Packard printers and multi-function peripherals.  \n\nSecurity Fix(es):  \n\n  * hplip: potential memory buffer overflow (CVE-2020-6923)\n  * hplip: HP Linux Imaging and Printing Software - Use of DSA Key (CVE-2025-43023)\n  * hplip: HPLIP: Multiple vulnerabilities enabling local code execution and privilege escalation (CVE-2026-91099)\n  * hplip: HPLIP: Multiple vulnerabilities allow remote code execution and privilege escalation (CVE-2026-91098)\n  * hplip: HPLIP: Multiple vulnerabilities enable remote code execution and privilege escalation (CVE-2026-91097)\n  * hplip: HPLIP: Multiple vulnerabilities leading to remote code execution, privilege escalation, and denial of service (CVE-2026-91103)\n  * hplip: heap-based buffer overflow can lead to remote code execution (CVE-2026-91106)\n  * hplip: HPLIP: Multiple vulnerabilities allow remote code execution, privilege escalation, and denial of service. (CVE-2026-91100)\n  * hplip: HPLIP: Remote Code Execution and Privilege Escalation Vulnerabilities (CVE-2026-91101)\n  * hplip: heap-based buffer overflow can lead to remote code execution (CVE-2026-91104)\n  * hplip: HPLIP: Remote code execution and privilege escalation vulnerabilities (CVE-2026-91105)\n  * HPLIP: HPLIP: Multiple vulnerabilities could lead to remote code execution (CVE-2026-91102)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:82295",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2020-6923",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-43023",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-91097",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-91098",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-91099",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-91100",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-91101",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-91102",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-91103",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-91104",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-91105",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-91106",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2384011",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2535600",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2535603",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2535607",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2535613",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2535614",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2535615",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2535617",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2535618",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2535621",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2535622",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-82295.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

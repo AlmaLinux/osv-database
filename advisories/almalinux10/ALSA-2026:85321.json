@@ -1448,7 +1448,7 @@
     "CVE-2026-98260"
   ],
   "published": "2026-10-19T00:00:00Z",
-  "modified": "2026-10-20T22:33:24Z",
+  "modified": "2026-10-22T14:10:48Z",
   "details": "The kernel packages contain the Linux kernel, the core of any Linux operating system.  \n\nSecurity Fix(es):  \n\n  * kernel: openvswitch: defer tunnel netdev_put to RCU release (CVE-2026-31678)\n  * kernel: xfrm: espintcp: do not reuse an in-progress partial send (CVE-2026-52935)\n  * kernel: sctp: diag: reject stale associations in dump_one path (CVE-2026-52917)\n  * kernel: tipc: fix slab-use-after-free Read in tipc_aead_decrypt_done (CVE-2026-63801)\n  * kernel: sctp: fix race between sctp_wait_for_connect and peeloff (CVE-2026-63971)\n  * kernel: usb: typec: tcpm: bound altmode_desc[] per iteration in svdm_consume_modes() (CVE-2026-63962)\n  * kernel: sctp: avoid auth_enable sysctl UAF during netns teardown (CVE-2026-68162)\n  * kernel: tipc: clear sock->sk on the failed-insert path in tipc_sk_create() (CVE-2026-68117)\n  * kernel: sctp: auth: verify auth requirement when auth_chunk is NULL (CVE-2026-68300)\n  * kernel: sctp: validate stream count in sctp_process_strreset_inreq() (CVE-2026-68315)\n  * kernel: Bluetooth: hci_sync: Fix advertising data UAFs (CVE-2026-74509)\n  * kernel: sctp: keep chunk->transport in step with the list it is queued on (CVE-2026-74588)\n  * kernel: sctp: validate cookie AUTH state before use (CVE-2026-74752)\n  * kernel: smb: client: reject a tree connect response whose byte count is too small (CVE-2026-89631)\n  * kernel: smb: client: fix OOB read/write from unvalidated DataOffset in coalesce_t2() (CVE-2026-89633)\n  * kernel: signal: Prevent exec() race (CVE-2026-98256)\n  * kernel: exec: Cleanup POSIX timers right after de_thread() (CVE-2026-98260)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * [10.2.z] kselftests: mm: hugepage-mremap: Bail out! mremap: Expected failure, but call succeeded (JIRA:AlmaLinux-181987)\n  * [IBM 10.3 FEAT] zcrypt driver overwrite function - kernel part [almalinux-10.2.z] (JIRA:AlmaLinux-245336)\n  * Batch: z-stream xfrm - rhel-10.2.z (NST-Core-26W38) (JIRA:AlmaLinux-256678)\n  * RHIVOS - [backport] S32G Driver Enablement - USB (JIRA:AlmaLinux-257228)\n  * Fix pending kernel issues for L1VH GA - Kernel (JIRA:AlmaLinux-267038)\n  * Backport 6785011f8b16 (\"ipv4: validate checksum_start before completing checksum\") [almalinux-10.2.z] (JIRA:AlmaLinux-280590)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -1594,6 +1594,10 @@
     {
       "url": "https://errata.almalinux.org/10/ALSA-2026-85321.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-99999.html",
+      "type": "REPORT"
     }
   ]
 }

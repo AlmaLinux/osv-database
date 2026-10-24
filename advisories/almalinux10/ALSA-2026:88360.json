@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2026:88360",
+  "summary": "Important: postgresql18-pgvector security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "postgresql18-pgvector"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.8.7-1.el10_2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-103484"
+  ],
+  "published": "2026-10-22T00:00:00Z",
+  "modified": "2026-10-24T00:43:08Z",
+  "details": "Open-source vector similarity search for Postgres. Supports L2 distance, inner product, and cosine distance  \n\nSecurity Fix(es):  \n\n  * pgvector: pgvector: Arbitrary code execution via out-of-bounds write during IVFFlat index build (CVE-2026-103484)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:88360",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-103484",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2544842",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-88360.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

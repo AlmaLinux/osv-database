@@ -161,7 +161,7 @@
     "CVE-2025-31650"
   ],
   "published": "2025-07-16T00:00:00Z",
-  "modified": "2025-07-21T10:03:39Z",
+  "modified": "2026-10-26T00:11:25Z",
   "details": "Tomcat is the servlet container that is used in the official Reference Implementation for the Java Servlet and JavaServer Pages technologies. The Java Servlet and JavaServer Pages specifications are developed by Sun under the Java Community Process. Tomcat is developed in an open and participatory environment and released under the Apache Software License version 2.0. Tomcat is intended to be a collaboration of the best-of-breed developers from around the world.  \n\nSecurity Fix(es):  \n\n  * tomcat: Incomplete fix for CVE-2024-50379 - RCE due to TOCTOU issue in JSP compilation (CVE-2024-56337)\n  * tomcat: Apache Tomcat: DoS via malformed HTTP/2 PRIORITY_UPDATE frame (CVE-2025-31650)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -187,6 +187,10 @@
     {
       "url": "https://errata.almalinux.org/10/ALSA-2025-11332.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2024-50379.html",
+      "type": "REPORT"
     }
   ]
 }

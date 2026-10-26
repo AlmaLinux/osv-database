@@ -51,7 +51,7 @@
     "CVE-2025-38550"
   ],
   "published": "2025-09-15T00:00:00Z",
-  "modified": "2025-09-26T10:01:17Z",
+  "modified": "2026-10-26T00:13:47Z",
   "details": "The kernel packages contain the Linux kernel, the core of any Linux operating system.  \n\nSecurity Fix(es):  \n\n  * kernel: ublk: make sure ubq->canceling is set when queue is frozen (CVE-2025-22068)\n  * kernel: scsi: lpfc: Use memcpy() for BIOS version (CVE-2025-38332)\n  * kernel: idpf: convert control queue mutex to a spinlock (CVE-2025-38392)\n  * kernel: tcp: Correct signedness in skb remaining space calculation (CVE-2025-38463)\n  * kernel: do_change_type(): refuse to operate on unmounted/not ours mounts (CVE-2025-38498)\n  * kernel: xfrm: interface: fix use-after-free after changing collect_md xfrm interface (CVE-2025-38500)\n  * kernel: ipv6: mcast: Delay put pmc->idev in mld_del_delrec() (CVE-2025-38550)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -117,6 +117,10 @@
     {
       "url": "https://errata.almalinux.org/10/ALSA-2025-15782.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2025-39770.html",
+      "type": "REPORT"
     }
   ]
 }

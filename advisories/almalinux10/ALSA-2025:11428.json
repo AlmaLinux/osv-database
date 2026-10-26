@@ -49,7 +49,7 @@
     "CVE-2025-38089"
   ],
   "published": "2025-07-21T00:00:00Z",
-  "modified": "2025-07-30T08:22:07Z",
+  "modified": "2026-10-26T00:13:47Z",
   "details": "The kernel packages contain the Linux kernel, the core of any Linux operating system.  \n\nSecurity Fix(es):  \n\n  * kernel: media: uvcvideo: Remove dangling pointers (CVE-2024-58002)\n  * kernel: media: uvcvideo: Fix double free in error path (CVE-2024-57980)\n  * kernel: wifi: iwlwifi: limit printed string from FW file (CVE-2025-21905)\n  * kernel: mm/huge_memory: fix dereferencing invalid pmd migration entry (CVE-2025-37958)\n  * kernel: sunrpc: handle SVC_GARBAGE during svc auth processing as auth error (CVE-2025-38089)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -99,6 +99,10 @@
     {
       "url": "https://errata.almalinux.org/10/ALSA-2025-11428.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2025-38425.html",
+      "type": "REPORT"
     }
   ]
 }

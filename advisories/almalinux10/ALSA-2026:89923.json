@@ -1,0 +1,86 @@
+{
+  "id": "ALSA-2026:89923",
+  "summary": "Important: libreswan security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libreswan"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.3.3-1.el10_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libreswan-minimal"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.3.3-1.el10_2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-94453",
+    "CVE-2026-77205",
+    "CVE-2026-77207"
+  ],
+  "published": "2026-10-26T00:00:00Z",
+  "modified": "2026-10-26T21:08:01Z",
+  "details": "Libreswan is an implementation of IPsec and IKE for Linux. IPsec is the Internet Protocol Security and uses strong cryptography to provide both authentication and encryption services. These services allow you to build secure tunnels through untrusted networks such as virtual private network (VPN).  \n\nSecurity Fix(es):  \n\n  * libreswan: IKEv2 Use-After-Free bug when using IKE-over-TCP (CVE-2026-94453)\n  * libreswan: Denial of Service via sending bogus X.509 certificates (CVE-2026-77205)\n  * libreswan: Null Pointer Dereference in PKCS#7 bundle with no CERTS (CVE-2026-77207)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:89923",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-77205",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-77207",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-94453",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2550254",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2550255",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2550258",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-89923.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

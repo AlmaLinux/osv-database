@@ -1,0 +1,67 @@
+{
+  "id": "ALSA-2026:89752",
+  "summary": "Important: oci-seccomp-bpf-hook security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "oci-seccomp-bpf-hook"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.11-3.el10_2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-56853",
+    "CVE-2026-78667",
+    "CVE-2026-111943"
+  ],
+  "published": "2026-10-26T00:00:00Z",
+  "modified": "2026-10-26T21:08:00Z",
+  "details": "OCI Hook to generate seccomp json files based on EBF syscalls used by container oci-seccomp-bpf-hook provides a library for applications looking to use the Container Pod concept popularized by Kubernetes.  \n\nSecurity Fix(es):  \n\n  * net/[http:](http:) golang: Go net/[http:](http:) Unencrypted HTTP/2 connections vulnerable to Denial of Service (CVE-2026-56853)\n  * net/[http:](http:) golang: golang: Denial of Service via crafted HTTP Range headers (CVE-2026-78667)\n  * crypto/x509: golang: crypto/x509: Man-in-the-middle attacks via untrusted intermediate certificates (CVE-2026-111943)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:89752",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-111943",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-56853",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-78667",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2515827",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2548334",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2556068",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-89752.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

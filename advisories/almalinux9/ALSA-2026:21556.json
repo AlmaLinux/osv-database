@@ -1431,7 +1431,7 @@
     "CVE-2026-43303"
   ],
   "published": "2026-05-28T00:00:00Z",
-  "modified": "2026-06-07T22:24:44Z",
+  "modified": "2026-10-26T00:27:29Z",
   "details": "The kernel packages contain the Linux kernel, the core of any Linux operating system.  \n\nSecurity Fix(es):  \n\n  * kernel: proc: use the same treatment to check proc_lseek as ones for proc_read_iter et.al (CVE-2025-38653)\n  * kernel: ima: don't clear IMA_DIGSIG flag when setting or removing non-IMA xattr (CVE-2025-68183)\n  * kernel: nbd: defer config unlock in nbd_genl_connect (CVE-2025-68366)\n  * kernel: crypto: asymmetric_keys - prevent overflow in asymmetric_key_generate_id (CVE-2025-68724)\n  * kernel: iommu: disable SVA when CONFIG_X86 is set (CVE-2025-71089)\n  * kernel: netfilter: nf_tables: release flowtable after rcu grace period on error (CVE-2026-23392)\n  * kernel: netfilter: nf_conntrack_h323: check for zero length in DecodeQ931() (CVE-2026-23455)\n  * kernel: Bluetooth: SCO: Fix use-after-free in sco_recv_frame() due to missing sock_hold (CVE-2026-31408)\n  * kernel: net: sched: act_csum: validate nested VLAN headers (CVE-2026-31684)\n  * kernel: netfilter: ip6t_eui64: reject invalid MAC header for all packets (CVE-2026-31685)\n  * kernel: netfilter: nf_conntrack_helper: pass helper to expect cleanup (CVE-2026-43027)\n  * kernel: Bluetooth: MGMT: validate LTK enc_size on load (CVE-2026-43020)\n  * kernel: HID: wacom: fix out-of-bounds read in wacom_intuos_bt_irq (CVE-2026-43051)\n  * kernel: smb: client: validate the whole DACL before rewriting it in cifsacl (CVE-2026-31709)\n  * kernel: Bluetooth: SCO: fix race conditions in sco_sock_connect() (CVE-2026-43023)\n  * kernel: wifi: brcmfmac: validate bsscfg indices in IF events (CVE-2026-43110)\n  * kernel: netfilter: xt_tcpmss: check remaining length before reading optlen (CVE-2026-43190)\n  * kernel: xfs: fix freemap adjustments when adding xattrs to leaf blocks (CVE-2026-43158)\n  * kernel: mm/page_alloc: clear page->private in free_pages_prepare() (CVE-2026-43303)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -1593,6 +1593,10 @@
     {
       "url": "https://errata.almalinux.org/9/ALSA-2026-21556.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-46195.html",
+      "type": "REPORT"
     }
   ]
 }

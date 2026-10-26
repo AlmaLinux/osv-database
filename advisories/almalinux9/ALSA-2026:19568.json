@@ -1429,7 +1429,7 @@
     "CVE-2026-46333"
   ],
   "published": "2026-05-20T00:00:00Z",
-  "modified": "2026-06-07T18:33:25Z",
+  "modified": "2026-10-26T00:28:07Z",
   "details": "The kernel packages contain the Linux kernel, the core of any Linux operating system.  \n\nSecurity Fix(es):  \n\n  * kernel: net/sched: Make cake_enqueue return NET_XMIT_CN when past buffer_limit (CVE-2025-39766)\n  * kernel: scsi: qla2xxx: Fix improper freeing of purex item (CVE-2025-68741)\n  * kernel: libceph: make decode_pool() more resilient against corrupted osdmaps (CVE-2025-71116)\n  * kernel: libceph: prevent potential out-of-bounds reads in handle_auth_done() (CVE-2026-22984)\n  * kernel: libceph: replace overzealous BUG_ON in osdmap_apply_incremental() (CVE-2026-22990)\n  * kernel: Linux kernel: Denial of Service in libceph OSD client due to unreset sparse-read state (CVE-2026-23136)\n  * kernel: net/sched: cls_u32: use skb_header_pointer_careful() (CVE-2026-23204)\n  * kernel: Linux kernel: Use-after-free in traffic control (act_ct) may lead to denial of service or privilege escalation (CVE-2026-23270)\n  * kernel: Linux kernel KVM: Privilege escalation or denial of service due to improper shadow page table entry handling (CVE-2026-23401)\n  * kernel: nfsd: fix heap overflow in NFSv4.0 LOCK replay cache (CVE-2026-31402)\n  * kernel: can: raw: fix ro->uniq use-after-free in raw_rcv() (CVE-2026-31532)\n  * kernel: usbip: validate number_of_packets in usbip_pack_ret_submit() (CVE-2026-31607)\n  * kernel: md/bitmap: fix GPF in write_page caused by resize race (CVE-2026-43163)\n  * kernel: RDMA/umem: Fix double dma_buf_unpin in failure path (CVE-2026-43128)\n  * kernel: \"Dirty Frag\" is a new universal Local Privilege Escalation (LPE) vulnerability in the Linux kernel (CVE-2026-43284)\n  * kernel: \"Fragnesia\" is a variant of Dirty Frag vulnerability in the ESP/XFRM leading to Local Privilege Escalation (LPE) vulnerability in the Linux kernel (CVE-2026-46300)\n  * kernel: Read root-owned files as an unprivileged user (CVE-2026-46333)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -1575,6 +1575,10 @@
     {
       "url": "https://errata.almalinux.org/9/ALSA-2026-19568.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-43503.html",
+      "type": "REPORT"
     }
   ]
 }

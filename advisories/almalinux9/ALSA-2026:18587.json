@@ -1426,7 +1426,7 @@
     "CVE-2026-23243"
   ],
   "published": "2026-05-19T00:00:00Z",
-  "modified": "2026-06-07T18:33:25Z",
+  "modified": "2026-10-26T00:26:16Z",
   "details": "The kernel packages contain the Linux kernel, the core of any Linux operating system.  \n\nSecurity Fix(es):  \n\n  * kernel: bonding: check xdp prog when set bond mode (CVE-2025-22105)\n  * kernel: block: fix resource leak in blk_register_queue() error path (CVE-2025-37980)\n  * kernel: dmaengine: idxd: fix memory leak in error handling path of idxd_alloc (CVE-2025-38015)\n  * kernel: espintcp: remove encap socket caching to avoid reference leak (CVE-2025-38097)\n  * kernel: bpf: fix ktls panic with sockmap (CVE-2025-38166)\n  * kernel: bpf: Do not include stack ptr register in precision backtracking bookkeeping (CVE-2025-38279)\n  * kernel: nfs: Clean up /proc/net/rpc/nfs when nfs_fs_proc_net_init() fails (CVE-2025-38400)\n  * kernel: nvmet: fix memory leak of bio integrity (CVE-2025-38405)\n  * kernel: netfilter: flowtable: account for Ethernet header in nf_flow_pppoe_proto() (CVE-2025-38441)\n  * kernel: net: vlan: fix VLAN 0 refcount imbalance of toggling filtering during runtime (CVE-2025-38470)\n  * kernel: fs: writeback: fix use-after-free in __mark_inode_dirty() (CVE-2025-39866)\n  * kernel: dm: fix NULL pointer dereference in __dm_suspend() (CVE-2025-40134)\n  * kernel: wifi: mac80211_hwsim: fix typo in frequency notification (CVE-2026-23040)\n  * kernel: Linux kernel: Denial of service and memory corruption in RDMA umad (CVE-2026-23243)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.  \n\nAdditional Changes:  \n\nFor detailed information on changes in this release, see the AlmaLinuxRelease Notes linked from the References section.\n",
   "references": [
     {
@@ -1548,6 +1548,10 @@
     {
       "url": "https://errata.almalinux.org/9/ALSA-2026-18587.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2025-30156.html",
+      "type": "REPORT"
     }
   ]
 }

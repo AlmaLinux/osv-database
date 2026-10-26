@@ -298,7 +298,7 @@
     "CVE-2025-13699"
   ],
   "published": "2026-01-07T00:00:00Z",
-  "modified": "2026-01-12T10:57:59Z",
+  "modified": "2026-10-26T00:25:01Z",
   "details": "MariaDB is a multi-user, multi-threaded SQL database server that is binary compatible with MySQL.   \n\nSecurity Fix(es):  \n\n  * mysql: High Privilege Denial of Service Vulnerability in MySQL Server (CVE-2025-21490)\n  * mariadb: MariaDB Server Crash Due to Empty Backtrace Log (CVE-2023-52969)\n  * mariadb: MariaDB Server Crash (CVE-2023-52971)\n  * mariadb: MariaDB Server Crash via Item_direct_view_ref (CVE-2023-52970)\n  * mysql: mysqldump unspecified vulnerability (CPU Apr 2025) (CVE-2025-30722)\n  * mysql: InnoDB unspecified vulnerability (CPU Apr 2025) (CVE-2025-30693)\n  * mariadb: MariaDB: mariadb-dump utility vulnerable to remote code execution via improper path validation (CVE-2025-13699)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -364,6 +364,10 @@
     {
       "url": "https://errata.almalinux.org/9/ALSA-2026-0247.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-21968.html",
+      "type": "REPORT"
     }
   ]
 }

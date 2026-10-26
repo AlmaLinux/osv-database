@@ -45,7 +45,7 @@
     "CVE-2026-39821"
   ],
   "published": "2026-07-06T00:00:00Z",
-  "modified": "2026-07-22T13:37:57Z",
+  "modified": "2026-10-26T00:18:29Z",
   "details": "Grafana is an open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB.   \n\nSecurity Fix(es):  \n\n  * golang.org/x/net/idna: golang: golang.org/x/net/idna: Privilege escalation via incorrect Punycode label processing (CVE-2026-39821)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -63,6 +63,10 @@
     {
       "url": "https://errata.almalinux.org/10/ALSA-2026-35827.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-25681.html",
+      "type": "REPORT"
     }
   ]
 }

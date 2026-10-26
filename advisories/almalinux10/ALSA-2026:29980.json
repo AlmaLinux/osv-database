@@ -159,7 +159,7 @@
     "CVE-2026-42507"
   ],
   "published": "2026-06-25T00:00:00Z",
-  "modified": "2026-06-27T15:22:02Z",
+  "modified": "2026-10-26T00:17:50Z",
   "details": "The golang packages provide the Go programming language compiler.  \n\nSecurity Fix(es):  \n\n  * net/textproto: golang: Golang net/textproto: Misleading error messages via input injection (CVE-2026-42507)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * Update Go to version 1.26.4+1 [almalinux-10.2.z] (JIRA:AlmaLinux-183347)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -177,6 +177,14 @@
     {
       "url": "https://errata.almalinux.org/10/ALSA-2026-29980.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-27145.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-42504.html",
+      "type": "REPORT"
     }
   ]
 }

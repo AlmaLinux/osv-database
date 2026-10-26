@@ -48,7 +48,7 @@
     "CVE-2026-33382"
   ],
   "published": "2026-08-12T00:00:00Z",
-  "modified": "2026-08-13T08:05:33Z",
+  "modified": "2026-10-26T00:20:19Z",
   "details": "Grafana is an open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB.   \n\nSecurity Fix(es):  \n\n  * grafana: Grafana: Privilege escalation via dashboard overwrite (CVE-2026-33377)\n  * grafana: Grafana Auth Proxy: Unauthorized access due to incorrect IPv6 allow-list default (CVE-2026-33376)\n  * grafana: Grafana: Denial of Service via unbounded memory growth in OAuth login route (CVE-2026-8609)\n  * grafana: Grafana: Denial of Service via excessive memory allocation from large API request payloads (CVE-2026-33382)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * [grafana / rhel-10.2.z] Remove Lua ExclusiveArch macro for Konflux build (JIRA:AlmaLinux-188282)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -90,6 +90,10 @@
     {
       "url": "https://errata.almalinux.org/10/ALSA-2026-54178.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-42127.html",
+      "type": "REPORT"
     }
   ]
 }

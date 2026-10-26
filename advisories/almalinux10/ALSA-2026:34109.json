@@ -223,7 +223,7 @@
     "CVE-2026-34355"
   ],
   "published": "2026-07-01T00:00:00Z",
-  "modified": "2026-07-01T12:00:28Z",
+  "modified": "2026-10-26T00:18:01Z",
   "details": "The httpd packages provide the Apache HTTP Server, a powerful, efficient, and extensible web server.  \n\nSecurity Fix(es):  \n\n  * httpd: incomplete fix for CVE-2023-38709 (CVE-2024-42516)\n  * httpd: NULL pointer dereference via specially crafted request (CVE-2026-29169)\n  * httpd: Apache HTTP Server: Heap-based Buffer Overflow via malicious backend servers (CVE-2026-34356)\n  * httpd: Apache HTTP Server: Buffer Over-read via outbound OCSP requests to attacker-controlled server (CVE-2026-44185)\n  * httpd: Apache HTTP Server: Denial of Service via crafted regular expressions (CVE-2026-44631)\n  * httpd: Apache HTTP Server: Heap-based Buffer Overflow via untrusted content in mod_xml2enc (CVE-2026-42536)\n  * httpd: Apache HTTP Server: Buffer overflow in mod_proxy_html allows security bypass (CVE-2026-34355)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * address Moderate severity issues from httpd 2.4.68 [almalinux-10.2.z] (JIRA:AlmaLinux-184518)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -289,6 +289,30 @@
     {
       "url": "https://errata.almalinux.org/10/ALSA-2026-34109.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-24072.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-33006.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-42535.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-43951.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-44119.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-44186.html",
+      "type": "REPORT"
     }
   ]
 }

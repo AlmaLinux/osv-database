@@ -1442,7 +1442,7 @@
     "CVE-2026-53071"
   ],
   "published": "2026-07-21T00:00:00Z",
-  "modified": "2026-07-24T10:19:17Z",
+  "modified": "2026-10-26T00:19:42Z",
   "details": "The kernel packages contain the Linux kernel, the core of any Linux operating system.  \n\nSecurity Fix(es):  \n\n  * kernel: crypto: af_alg - zero initialize memory allocated via sock_kmalloc (CVE-2025-71113)\n  * kernel: Linux kernel: Denial of Service due to memory leak in tpm2_load_cmd (CVE-2025-71147)\n  * kernel: flex_proportions: make fprop_new_period() hardirq safe (CVE-2026-23168)\n  * kernel: cxl/port: Fix use after free of parent_port in cxl_detach_ep() (CVE-2026-31530)\n  * kernel: xfrm: defensively unhash xfrm_state lists in __xfrm_state_delete (CVE-2026-46116)\n  * kernel: fanotify: fix false positive on permission events (CVE-2026-46150)\n  * kernel: drm: Set old handle to NULL before prime swap in change_handle (CVE-2026-46215)\n  * kernel: drm/xe: Fix error cleanup in xe_exec_queue_create_ioctl() (CVE-2026-52976)\n  * kernel: drm/xe/dma-buf: fix UAF with retry loop (CVE-2026-52950)\n  * kernel: ice: fix double-free of tx_buf skb (CVE-2026-53009)\n  * kernel: Bluetooth: l2cap: Add missing chan lock in l2cap_ecred_reconf_rsp (CVE-2026-53071)\n  * kernel: can: bcm: thrtimer use-after-free during RX operation teardown ()\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * nfsd_file slab cache objects remaining on kmem_cache_shutdown during nfsd teardown while running bz1477872 testcase (JIRA:AlmaLinux-173103)\n  * tools/lib/perf/Makefile: libperf includes appended after CFLAGS causes parallel build race, breaking kernel builds [almalinux-10.2.z] (JIRA:AlmaLinux-183975)\n  * [AlmaLinux10-debug]: BUG: KASAN: slab-use-after-free in __pv_queued_spin_lock_slowpath [almalinux-10.2.z] (JIRA:AlmaLinux-186311)\n  * ice: driver update 2026-06, part 1 [almalinux-10.2.z] (JIRA:AlmaLinux-191324)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -1540,6 +1540,10 @@
     {
       "url": "https://errata.almalinux.org/10/ALSA-2026-42919.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-72123.html",
+      "type": "REPORT"
     }
   ]
 }

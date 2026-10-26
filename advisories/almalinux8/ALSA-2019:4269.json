@@ -123,9 +123,41 @@
     "CVE-2019-16884"
   ],
   "published": "2019-12-17T09:19:28Z",
-  "modified": "2019-12-17T09:19:15Z",
+  "modified": "2026-10-25T23:34:53Z",
   "details": "The container-tools module contains tools for working with containers, notably podman, buildah, skopeo, and runc.\n\nSecurity Fix(es):\n\n* HTTP/2: flood using PING frames results in unbounded memory growth (CVE-2019-9512)\n\n* HTTP/2: flood using HEADERS frames results in unbounded memory growth (CVE-2019-9514)\n\n* runc: AppArmor/SELinux bypass with malicious image that specifies a volume at /proc (CVE-2019-16884)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* avc: podman run --security-opt label=type:svirt_qemu_net_t (BZ#1764318)\n\n* backport json-file logging support to 1.4.2 (BZ#1770176)\n\n* Selinux won't allow SCTP inter pod communication (BZ#1774382)",
   "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2019:4269",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1735645",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1735744",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1744588",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1757214",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1764318",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1770176",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1774382",
+      "type": "REPORT"
+    },
     {
       "url": "https://errata.almalinux.org/8/ALSA-2019-4269.html",
       "type": "ADVISORY"

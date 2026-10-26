@@ -160,7 +160,7 @@
     "CVE-2022-43548"
   ],
   "published": "2022-12-06T00:00:00Z",
-  "modified": "2022-12-07T13:22:28Z",
+  "modified": "2026-10-25T23:45:27Z",
   "details": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nThe following packages have been upgraded to a later upstream version: nodejs (18.12.1), nodejs-nodemon (2.0.20). (BZ#2142818)\n\nSecurity Fix(es):\n\n* nodejs-minimatch: ReDoS via the braceExpand function (CVE-2022-3517)\n* nodejs: DNS rebinding in inspect via invalid octal IP address (CVE-2022-43548)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {
@@ -181,6 +181,10 @@
     },
     {
       "url": "https://bugzilla.redhat.com/2140911",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2142818",
       "type": "REPORT"
     },
     {

@@ -525,9 +525,57 @@
     "CVE-2019-11324"
   ],
   "published": "2019-11-05T17:32:12Z",
-  "modified": "2019-11-05T17:31:55Z",
+  "modified": "2026-10-25T23:34:54Z",
   "details": "Python is an interpreted, interactive, object-oriented programming language that supports modules, classes, exceptions, high-level dynamic data types, and dynamic typing.\n\nSecurity Fix(es):\n\n* numpy: crafted serialized object passed in numpy.load() in pickle python module allows arbitrary code execution (CVE-2019-6446)\n\n* python: CRLF injection via the query part of the url passed to urlopen() (CVE-2019-9740)\n\n* python: CRLF injection via the path part of the url passed to urlopen() (CVE-2019-9947)\n\n* python: Undocumented local_file protocol allows remote attackers to bypass protection mechanisms (CVE-2019-9948)\n\n* python-urllib3: CRLF injection due to not encoding the '\\r\\n' sequence leading to possible attack on internal service (CVE-2019-11236)\n\n* python-urllib3: Certification mishandle when error should be thrown (CVE-2019-11324)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2019:3335",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1667950",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1680967",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1688169",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1695570",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1695572",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1700824",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1700993",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1702473",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1709599",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1718398",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1734126",
+      "type": "REPORT"
+    },
     {
       "url": "https://errata.almalinux.org/8/ALSA-2019-3335.html",
       "type": "ADVISORY"

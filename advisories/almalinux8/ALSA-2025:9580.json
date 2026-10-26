@@ -485,7 +485,7 @@
     "CVE-2025-21764"
   ],
   "published": "2025-06-25T00:00:00Z",
-  "modified": "2025-06-26T18:38:42Z",
+  "modified": "2026-10-25T23:59:02Z",
   "details": "The kernel packages contain the Linux kernel, the core of any Linux operating system.  \n\nSecurity Fix(es):  \n\n  * kernel: cifs: fix double free race when mount fails in cifs_get_root() (CVE-2022-48919)\n  * kernel: security/keys: fix slab-out-of-bounds in key_task_permission (CVE-2024-50301)\n  * kernel: idpf: fix idpf_vc_core_init error path (CVE-2024-53064)\n  * kernel: ndisc: use RCU protection in ndisc_alloc_skb() (CVE-2025-21764)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -523,6 +523,18 @@
     {
       "url": "https://errata.almalinux.org/8/ALSA-2025-9580.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2023-53230.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2025-22116.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2025-38053.html",
+      "type": "REPORT"
     }
   ]
 }

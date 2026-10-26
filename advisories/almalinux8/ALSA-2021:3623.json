@@ -261,9 +261,49 @@
     "CVE-2021-23343"
   ],
   "published": "2021-09-21T12:33:58Z",
-  "modified": "2021-09-21T12:33:58Z",
+  "modified": "2026-10-25T23:39:18Z",
   "details": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nSecurity Fix(es):\n\n* nodejs: Use-after-free on close http2 on stream canceling (CVE-2021-22930)\n\n* nodejs: Use-after-free on close http2 on stream canceling (CVE-2021-22940)\n\n* c-ares: Missing input validation of host names may lead to domain hijacking (CVE-2021-3672)\n\n* nodejs: Improper handling of untypical characters in domain names (CVE-2021-22931)\n\n* nodejs-tar: Insufficient symlink protection allowing arbitrary file creation and overwrite (CVE-2021-32803)\n\n* nodejs-tar: Insufficient absolute path sanitization allowing arbitrary file creation and overwrite (CVE-2021-32804)\n\n* nodejs: Incomplete validation of tls rejectUnauthorized parameter (CVE-2021-22939)\n\n* nodejs-path-parse: ReDoS via splitDeviceRe, splitTailRe and splitPathRe (CVE-2021-23343)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* nodejs:12/nodejs: Make FIPS options always available (BZ#1993927)",
   "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2021:3623",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1956818",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1988342",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1988394",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1990409",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1990415",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1993019",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1993029",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1993039",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1993927",
+      "type": "REPORT"
+    },
     {
       "url": "https://errata.almalinux.org/8/ALSA-2021-3623.html",
       "type": "ADVISORY"

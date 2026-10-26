@@ -146,7 +146,7 @@
     "CVE-2023-23920"
   ],
   "published": "2023-04-12T00:00:00Z",
-  "modified": "2023-04-20T13:00:15Z",
+  "modified": "2026-10-25T23:47:54Z",
   "details": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nThe following packages have been upgraded to a later upstream version: nodejs (14.21.3).\n\nSecurity Fix(es):\n\n* decode-uri-component: improper input validation resulting in DoS (CVE-2022-38900)\n* glob-parent: Regular Expression Denial of Service (CVE-2021-35065)\n* nodejs-minimatch: ReDoS via the braceExpand function (CVE-2022-3517)\n* c-ares: buffer overflow in config_sortlist() due to missing string length check (CVE-2022-4904)\n* http-cache-semantics: Regular Expression Denial of Service (ReDoS) vulnerability (CVE-2022-25881)\n* Node.js: Permissions policies can be bypassed via process.mainModule (CVE-2023-23918)\n* Node.js: insecure loading of ICU data through ICU_DATA environment variable (CVE-2023-23920)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {
@@ -207,6 +207,10 @@
     },
     {
       "url": "https://bugzilla.redhat.com/2172217",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2175826",
       "type": "REPORT"
     },
     {

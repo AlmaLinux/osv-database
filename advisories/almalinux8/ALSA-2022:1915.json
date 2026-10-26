@@ -390,9 +390,37 @@
     "CVE-2020-35452"
   ],
   "published": "2022-05-10T08:07:40Z",
-  "modified": "2022-05-10T08:07:38Z",
+  "modified": "2026-10-25T23:44:11Z",
   "details": "The httpd packages provide the Apache HTTP Server, a powerful, efficient, and extensible web server.\n\nSecurity Fix(es):\n\n* httpd: Request splitting via HTTP/2 method injection and mod_proxy (CVE-2021-33193)\n\n* httpd: mod_proxy_uwsgi: out-of-bounds read via a crafted request uri-path (CVE-2021-36160)\n\n* httpd: possible NULL dereference or SSRF in forward proxy configurations (CVE-2021-44224)\n\n* httpd: Single zero byte stack overflow in mod_auth_digest (CVE-2020-35452)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:1915",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1966724",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1966728",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1984828",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2001046",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2005124",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2034672",
+      "type": "REPORT"
+    },
     {
       "url": "https://errata.almalinux.org/8/ALSA-2022-1915.html",
       "type": "ADVISORY"

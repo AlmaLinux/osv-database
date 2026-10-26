@@ -85,9 +85,141 @@
     "CVE-2020-14040"
   ],
   "published": "2020-11-03T12:27:37Z",
-  "modified": "2020-11-03T19:50:37Z",
+  "modified": "2026-10-25T23:37:52Z",
   "details": "The container-tools module contains tools for working with containers, notably podman, buildah, skopeo, and runc.\n\nSecurity Fix(es):\n\n* containernetworking/plugins: IPv6 router advertisements allow for MitM attacks on IPv4 clusters (CVE-2020-10749)\n\n* QEMU: slirp: networking out-of-bounds read information disclosure vulnerability (CVE-2020-10756)\n\n* golang.org/x/text: possibility to trigger an infinite loop in encoding/unicode could lead to crash (CVE-2020-14040)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2020:4694",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1682970",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1752079",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1785242",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1800815",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1801874",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1804193",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1804195",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1813845",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1814928",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1818694",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1821193",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1822038",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1825789",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1827794",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1833220",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1835986",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1837755",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1847544",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1849557",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1850230",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1853230",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1853652",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1857606",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1858862",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1860126",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1866153",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1866833",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1867447",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1868612",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1872263",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1877463",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1879622",
+      "type": "REPORT"
+    },
     {
       "url": "https://errata.almalinux.org/8/ALSA-2020-4694.html",
       "type": "ADVISORY"

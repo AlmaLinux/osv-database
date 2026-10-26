@@ -162,7 +162,7 @@
     "CVE-2023-32559"
   ],
   "published": "2023-09-26T00:00:00Z",
-  "modified": "2023-09-27T15:20:06Z",
+  "modified": "2026-10-25T23:48:55Z",
   "details": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nThe following packages have been upgraded to a later upstream version: nodejs (18). (BZ#2234409)\n\nSecurity Fix(es):\n\n* nodejs: Permissions policies can be bypassed via Module._load (CVE-2023-32002)\n* nodejs-semver: Regular expression denial of service (CVE-2022-25883)\n* nodejs: Permissions policies can impersonate other modules in using module.constructor.createRequire() (CVE-2023-32006)\n* nodejs: Permissions policies can be bypassed via process.binding (CVE-2023-32559)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {
@@ -199,6 +199,10 @@
     },
     {
       "url": "https://bugzilla.redhat.com/2230956",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2234409",
       "type": "REPORT"
     },
     {

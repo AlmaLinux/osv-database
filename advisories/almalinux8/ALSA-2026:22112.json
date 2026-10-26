@@ -188,7 +188,7 @@
     "CVE-2026-39836"
   ],
   "published": "2026-06-01T00:00:00Z",
-  "modified": "2026-09-29T13:08:10Z",
+  "modified": "2026-10-26T00:02:57Z",
   "details": "Go Toolset provides the Go programming language tools and libraries. Go is alternatively known as golang.   \n\nSecurity Fix(es):  \n\n  * net/mail: golang: net/mail: Denial of Service via pathological email address parsing (CVE-2026-42499)\n  * cmd/go: golang: Go command (cmd/go): Integrity bypass due to checksum validation flaw via malicious module proxy (CVE-2026-42501)\n  * html/template: golang: Go html/template: Cross-Site Scripting via improper URL escaping in meta tag content (CVE-2026-39823)\n  * cmd/go: golang: Go 'go bug' command: Arbitrary file overwrite via symlink attack (CVE-2026-39819)\n  * net/http/internal/http2: golang: golang.org/x/net: Go HTTP/2: Denial of Service via malformed SETTINGS_MAX_FRAME_SIZE frame (CVE-2026-33814)\n  * net/mail: golang: Go net/mail: Denial of Service via crafted email inputs (CVE-2026-39820)\n  * net: golang: Go net package: Denial of Service via long CNAME response in LookupCNAME (CVE-2026-33811)\n  * net/http/httputil: golang: net/http/httputil: ReverseProxy forwards hidden query parameters, potentially bypassing security controls (CVE-2026-39825)\n  * cmd/go: golang: Go tool pack: Arbitrary file write via malicious archive extraction (CVE-2026-39817)\n  * html/template: golang: html/template: Cross-site scripting due to incorrect script tag escaping (CVE-2026-39826)\n  * net: golang: Go net package: Denial of Service via NUL byte in Dial and LookupPort on Windows (CVE-2026-39836)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -246,6 +246,14 @@
     {
       "url": "https://errata.almalinux.org/8/ALSA-2026-22112.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-32288.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-32289.html",
+      "type": "REPORT"
     }
   ]
 }

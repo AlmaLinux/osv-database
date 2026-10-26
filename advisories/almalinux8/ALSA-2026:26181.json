@@ -350,7 +350,7 @@
     "CVE-2026-6473"
   ],
   "published": "2026-06-16T00:00:00Z",
-  "modified": "2026-06-17T09:41:30Z",
+  "modified": "2026-10-26T00:04:07Z",
   "details": "PostgreSQL is an advanced object-relational database management system (DBMS).  \n\nSecurity Fix(es):  \n\n  * postgresql: PostgreSQL: Credential recovery via covert timing channel in MD5 password comparison (CVE-2026-6478)\n  * postgresql: integer overflow can cause an undersized allocation and an out-of-bounds write (CVE-2026-6473)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -370,7 +370,15 @@
       "type": "ADVISORY"
     },
     {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-6472.html",
+      "type": "REPORT"
+    },
+    {
       "url": "https://www.redhat.com/security/data/cve/CVE-2026-6473.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-6474.html",
       "type": "REPORT"
     },
     {
@@ -383,6 +391,14 @@
     },
     {
       "url": "https://www.redhat.com/security/data/cve/CVE-2026-6478.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-6479.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-6637.html",
       "type": "REPORT"
     }
   ]

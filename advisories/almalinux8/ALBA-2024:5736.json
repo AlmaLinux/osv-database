@@ -1,0 +1,47 @@
+{
+  "id": "ALBA-2024:5736",
+  "summary": "Low: ca-certificates bug fix and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "ca-certificates"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2024.2.69_v8.0.303-80.0.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [],
+  "published": "2024-08-21T00:00:00Z",
+  "modified": "2026-10-26T00:39:46Z",
+  "details": "The ca-certificates package contains a set of Certificate Authority (CA) certificates chosen by the Mozilla Foundation for use with the Internet Public Key Infrastructure (PKI).\n\nBug Fix(es) and Enhancement(s):\n\n* Annual 2024 ca-certificates update version 2.69 from NSS 3.101.1 for Firefox 128 [almalinux-8.10] (JIRA:AlmaLinux-44949)\n* ca-certificates: python-certifi: Removal of e-Tugra root certificate [almalinux-8.10.0.z] (JIRA:AlmaLinux-16194)",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHBA-2024:5736",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-37920",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2226586",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALBA-2024-5736.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

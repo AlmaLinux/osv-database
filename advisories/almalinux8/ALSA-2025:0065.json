@@ -483,7 +483,7 @@
     "CVE-2024-53122"
   ],
   "published": "2025-01-08T00:00:00Z",
-  "modified": "2025-01-08T21:27:08Z",
+  "modified": "2026-10-25T23:54:10Z",
   "details": "The kernel packages contain the Linux kernel, the core of any Linux operating system.  \n\nSecurity Fix(es):  \n\n  * kernel: i40e: fix race condition by adding filter's intermediate sync state (CVE-2024-53088)\n  * kernel: mptcp: cope racing subflow creation in mptcp_rcv_space_adjust (CVE-2024-53122)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -509,6 +509,10 @@
     {
       "url": "https://errata.almalinux.org/8/ALSA-2025-0065.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2023-54296.html",
+      "type": "REPORT"
     }
   ]
 }

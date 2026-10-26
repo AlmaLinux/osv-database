@@ -487,7 +487,7 @@
     "CVE-2025-39955"
   ],
   "published": "2025-12-01T00:00:00Z",
-  "modified": "2025-12-03T11:59:02Z",
+  "modified": "2026-10-25T23:59:41Z",
   "details": "The kernel packages contain the Linux kernel, the core of any Linux operating system.  \n\nSecurity Fix(es):  \n\n  * kernel: nfsd: handle get_client_locked() failure in nfsd4_setclientid_confirm() (CVE-2025-38724)\n  * kernel: smb: client: fix race with concurrent opens in rename(2) (CVE-2025-39825)\n  * kernel: mm/memory-failure: fix VM_BUG_ON_PAGE(PagePoisoned(page)) when unpoison memory (CVE-2025-39883)\n  * kernel: e1000e: fix heap overflow in e1000_set_eeprom (CVE-2025-39898)\n  * kernel: nbd: fix incomplete validation of ioctl arg (CVE-2023-53513)\n  * kernel: tcp: Clear tcp_sk(sk)->fastopen_rsk in tcp_disconnect() (CVE-2025-39955)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -545,6 +545,10 @@
     {
       "url": "https://errata.almalinux.org/8/ALSA-2025-22388.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2025-40186.html",
+      "type": "REPORT"
     }
   ]
 }

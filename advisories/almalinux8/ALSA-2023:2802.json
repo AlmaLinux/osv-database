@@ -818,7 +818,7 @@
     "CVE-2022-32189"
   ],
   "published": "2023-05-16T00:00:00Z",
-  "modified": "2023-05-19T22:13:16Z",
+  "modified": "2026-10-25T23:48:31Z",
   "details": "The container-tools module contains tools for working with containers, notably podman, buildah, skopeo, and runc.\n\nSecurity Fix(es):\n\n* golang: net/http: improper sanitization of Transfer-Encoding header (CVE-2022-1705)\n* golang: go/parser: stack exhaustion in all Parse* functions (CVE-2022-1962)\n* golang: net/http: handle server errors after sending GOAWAY (CVE-2022-27664)\n* golang: encoding/xml: stack exhaustion in Decoder.Skip (CVE-2022-28131)\n* golang: io/fs: stack exhaustion in Glob (CVE-2022-30630)\n* golang: compress/gzip: stack exhaustion in Reader.Read (CVE-2022-30631)\n* golang: path/filepath: stack exhaustion in Glob (CVE-2022-30632)\n* golang: encoding/xml: stack exhaustion in Unmarshal (CVE-2022-30633)\n* golang: encoding/gob: stack exhaustion in Decoder.Decode (CVE-2022-30635)\n* golang: net/http/httputil: NewSingleHostReverseProxy - omit X-Forwarded-For not working (CVE-2022-32148)\n* golang: net/http: excessive memory growth in a Go server accepting HTTP/2 requests (CVE-2022-41717)\n* podman: symlink exchange attack in podman export volume (CVE-2023-0778)\n* podman: possible information disclosure and modification (CVE-2022-2989)\n* golang: math/big: decoding big.Float and big.Rat types can panic if the encoded message is too short, potentially allowing a denial of service (CVE-2022-32189)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
     {
@@ -922,6 +922,10 @@
       "type": "REPORT"
     },
     {
+      "url": "https://bugzilla.redhat.com/2115089",
+      "type": "REPORT"
+    },
+    {
       "url": "https://bugzilla.redhat.com/2121445",
       "type": "REPORT"
     },
@@ -930,7 +934,27 @@
       "type": "REPORT"
     },
     {
+      "url": "https://bugzilla.redhat.com/2129766",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2152907",
+      "type": "REPORT"
+    },
+    {
       "url": "https://bugzilla.redhat.com/2161274",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2165610",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2165790",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2166906",
       "type": "REPORT"
     },
     {

@@ -160,7 +160,7 @@
     "CVE-2024-23672"
   ],
   "published": "2024-06-06T00:00:00Z",
-  "modified": "2024-06-06T12:55:40Z",
+  "modified": "2026-10-25T23:52:58Z",
   "details": "Apache Tomcat is a servlet container for the Java Servlet and JavaServer Pages (JSP) technologies.\n\nSecurity Fix(es):\n\n* Apache Tomcat: HTTP/2 header handling DoS (CVE-2024-24549)\n* Apache Tomcat: WebSocket DoS with incomplete closing handshake (CVE-2024-23672)\n\nBug Fix(es):\n\n* Rebase tomcat to version 9.0.87 (JIRA:AlmaLinux-35813)\n* Amend tomcat package's changelog so that fixed CVEs are mentioned explicitly (JIRA:AlmaLinux-38548)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {
@@ -186,6 +186,10 @@
     {
       "url": "https://errata.almalinux.org/8/ALSA-2024-3666.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2022-45143.html",
+      "type": "REPORT"
     }
   ]
 }

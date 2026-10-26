@@ -358,9 +358,253 @@
     "CVE-2020-1722"
   ],
   "published": "2020-11-03T12:25:36Z",
-  "modified": "2022-04-29T15:25:47Z",
+  "modified": "2026-10-25T23:36:44Z",
   "details": "AlmaLinux Identity Management (IdM) is a centralized authentication, identity management, and authorization solution for both traditional and cloud-based enterprise environments. \n\nThe following packages have been upgraded to a later upstream version: ipa (4.8.7), softhsm (2.6.0), opendnssec (2.1.6). (BZ#1759888, BZ#1818765, BZ#1818877)\n\nSecurity Fix(es):\n\n* js-jquery: Cross-site scripting via cross-domain ajax requests (CVE-2015-9251)\n\n* bootstrap: XSS in the data-target attribute (CVE-2016-10735)\n\n* bootstrap: Cross-site Scripting (XSS) in the collapse data-parent attribute (CVE-2018-14040)\n\n* bootstrap: Cross-site Scripting (XSS) in the data-container property of tooltip (CVE-2018-14042)\n\n* bootstrap: XSS in the tooltip data-viewport attribute (CVE-2018-20676)\n\n* bootstrap: XSS in the affix configuration target property (CVE-2018-20677)\n\n* bootstrap: XSS in the tooltip or popover data-template attribute (CVE-2019-8331)\n\n* js-jquery: Prototype pollution in object's prototype leading to denial of service, remote code execution, or property injection (CVE-2019-11358)\n\n* jquery: Cross-site scripting due to improper injQuery.htmlPrefilter method (CVE-2020-11022)\n\n* ipa: No password length restriction leads to denial of service (CVE-2020-1722)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2020:4670",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1399546",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1430365",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1488732",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1585020",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1601614",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1601617",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1651577",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1668082",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1668089",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1668097",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1686454",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1701233",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1701972",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1746830",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1750893",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1751295",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1757045",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1759888",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1768156",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1777806",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1793071",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1801698",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1802471",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1809835",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1810154",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1810179",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1813330",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1816784",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1818765",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1818877",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1828406",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1831732",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1831935",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1832331",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1833266",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1834264",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1834909",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1845211",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1845537",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1845596",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1846352",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1846434",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1847999",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1849914",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1851411",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1852244",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1853263",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1857157",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1858318",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1859213",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1863079",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1863616",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1866291",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1866938",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1868432",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1869311",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1870202",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1874015",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1875348",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1879604",
+      "type": "REPORT"
+    },
     {
       "url": "https://errata.almalinux.org/8/ALSA-2020-4670.html",
       "type": "ADVISORY"

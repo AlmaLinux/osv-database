@@ -180,7 +180,7 @@
     "CVE-2026-39822"
   ],
   "published": "2026-07-13T00:00:00Z",
-  "modified": "2026-07-14T09:10:39Z",
+  "modified": "2026-10-26T00:06:31Z",
   "details": "Go Toolset provides the Go programming language tools and libraries. Go is alternatively known as golang.   \n\nSecurity Fix(es):  \n\n  * golang.org/x/net/idna: golang: golang.org/x/net/idna: Privilege escalation via incorrect Punycode label processing (CVE-2026-39821)\n  * crypto/x509: golang: golang crypto/x509: Denial of Service via excessive processing of DNS SAN entries (CVE-2026-27145)\n  * os: golang: Go os.Root: Symlink following vulnerability allows directory traversal (CVE-2026-39822)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * Update Go to version 1.26.5+1 [almalinux-8.10.z] (JIRA:AlmaLinux-193478)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -214,6 +214,18 @@
     {
       "url": "https://errata.almalinux.org/8/ALSA-2026-38995.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-42504.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-42505.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-42507.html",
+      "type": "REPORT"
     }
   ]
 }

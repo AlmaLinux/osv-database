@@ -487,7 +487,7 @@
     "CVE-2025-39841"
   ],
   "published": "2025-10-27T00:00:00Z",
-  "modified": "2025-10-28T07:55:37Z",
+  "modified": "2026-10-25T23:57:35Z",
   "details": "The kernel packages contain the Linux kernel, the core of any Linux operating system.  \n\nSecurity Fix(es):  \n\n  * kernel: Bluetooth: L2CAP: fix \"bad unlock balance\" in l2cap_disconnect_rsp (CVE-2023-53297)\n  * kernel: efivarfs: Fix slab-out-of-bounds in efivarfs_d_compare (CVE-2025-39817)\n  * kernel: Bluetooth: Fix potential use-after-free when clear keys (CVE-2023-53386)\n  * kernel: Bluetooth: L2CAP: Fix user-after-free (CVE-2022-50386)\n  * kernel: wifi: cfg80211: sme: cap SSID length in __cfg80211_connect_result() (CVE-2025-39849)\n  * kernel: scsi: lpfc: Fix buffer free/clear order in deferred receive path (CVE-2025-39841)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -545,6 +545,10 @@
     {
       "url": "https://errata.almalinux.org/8/ALSA-2025-19102.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2025-22045.html",
+      "type": "REPORT"
     }
   ]
 }

@@ -826,7 +826,7 @@
     "CVE-2022-29162"
   ],
   "published": "2022-11-08T00:00:00Z",
-  "modified": "2023-01-03T12:15:28Z",
+  "modified": "2026-10-25T23:45:15Z",
   "details": "The container-tools module contains tools for working with containers, notably podman, buildah, skopeo, and runc.\n\nSecurity Fix(es):\n\n* cri-o: memory exhaustion on the node when access to the kube api (CVE-2022-1708)\n* golang: crash in a golang.org/x/crypto/ssh server (CVE-2022-27191)\n* runc: incorrect handling of inheritable capabilities (CVE-2022-29162)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
     {
@@ -847,6 +847,10 @@
     },
     {
       "url": "https://bugzilla.redhat.com/2064702",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2076617",
       "type": "REPORT"
     },
     {

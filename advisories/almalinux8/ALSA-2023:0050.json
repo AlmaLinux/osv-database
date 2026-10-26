@@ -144,7 +144,7 @@
     "CVE-2022-43548"
   ],
   "published": "2023-01-09T00:00:00Z",
-  "modified": "2023-01-10T10:25:19Z",
+  "modified": "2026-10-25T23:45:45Z",
   "details": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nThe following packages have been upgraded to a later upstream version: nodejs (14.21.1), nodejs-nodemon (2.0.20).\n\nSecurity Fix(es):\n\n* minimist: prototype pollution (CVE-2021-44906)\n* node-fetch: exposure of sensitive information to an unauthorized actor (CVE-2022-0235)\n* nodejs-minimatch: ReDoS via the braceExpand function (CVE-2022-3517)\n* express: \"qs\" prototype poisoning causes the hang of the node process (CVE-2022-24999)\n* nodejs: DNS rebinding in inspect via invalid octal IP address (CVE-2022-43548)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {
@@ -185,6 +185,10 @@
     },
     {
       "url": "https://bugzilla.redhat.com/2140911",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2142821",
       "type": "REPORT"
     },
     {

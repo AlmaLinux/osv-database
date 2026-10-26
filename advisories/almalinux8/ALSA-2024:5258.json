@@ -1021,7 +1021,7 @@
     "CVE-2024-37298"
   ],
   "published": "2024-08-13T00:00:00Z",
-  "modified": "2024-08-14T16:09:13Z",
+  "modified": "2026-10-25T23:53:19Z",
   "details": "The container-tools module contains tools for working with containers, notably podman, buildah, skopeo, and runc.\n\nSecurity Fix(es):\n\n* golang-fips/openssl: Memory leaks in code encrypting and decrypting RSA payloads (CVE-2024-1394)\n* golang: net/http: memory exhaustion in Request.ParseMultipartForm (CVE-2023-45290)\n* golang: crypto/x509: Verify panics on certificates with an unknown public key algorithm (CVE-2024-24783)\n* golang: net/mail: comments in display names are incorrectly handled (CVE-2024-24784)\n* containers/image: digest type does not guarantee valid type (CVE-2024-3727)\n* golang: archive/zip: Incorrect handling of certain ZIP files (CVE-2024-24789)\n* go-retryablehttp: url might write sensitive information to log file (CVE-2024-6104)\n* gorilla/schema: Potential memory exhaustion attack due to sparse slice deserialization (CVE-2024-37298)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {
@@ -1095,6 +1095,10 @@
     {
       "url": "https://errata.almalinux.org/8/ALSA-2024-5258.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2024-37891.html",
+      "type": "REPORT"
     }
   ]
 }

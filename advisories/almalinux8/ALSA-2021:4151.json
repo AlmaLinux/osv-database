@@ -1040,9 +1040,45 @@
     "CVE-2021-28957"
   ],
   "published": "2021-11-09T08:24:39Z",
-  "modified": "2021-11-09T12:45:07Z",
+  "modified": "2026-10-25T23:42:26Z",
   "details": "Python is an interpreted, interactive, object-oriented programming language, which includes modules, classes, exceptions, very high level dynamic data types and dynamic typing. Python supports interfaces to many system calls and libraries, as well as to various windowing systems.\n\nSecurity Fix(es):\n\n* python: Unsafe use of eval() on data retrieved via HTTP in the test suite (CVE-2020-27619)\n\n* python-jinja2: ReDoS vulnerability in the urlize filter (CVE-2020-28493)\n\n* python-babel: Relative path traversal allows attacker to load arbitrary locale files and execute arbitrary code (CVE-2021-20095, CVE-2021-42771)\n\n* python-pygments: Infinite loop in SML lexer may lead to DoS (CVE-2021-20270)\n\n* python: Web cache poisoning via urllib.parse.parse_qsl and urllib.parse.parse_qs by using a semicolon in query parameters (CVE-2021-23336)\n\n* python-pygments: ReDoS in multiple lexers (CVE-2021-27291)\n\n* python-lxml: Missing input sanitization for formaction HTML5 attributes may lead to XSS (CVE-2021-28957)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2021:4151",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1889886",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1922136",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1928707",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1928904",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1940603",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1941534",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1945483",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1955615",
+      "type": "REPORT"
+    },
     {
       "url": "https://errata.almalinux.org/8/ALSA-2021-4151.html",
       "type": "ADVISORY"

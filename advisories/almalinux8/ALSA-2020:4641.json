@@ -315,9 +315,41 @@
     "CVE-2020-14422"
   ],
   "published": "2020-11-03T12:23:02Z",
-  "modified": "2020-11-03T19:46:00Z",
+  "modified": "2026-10-25T23:38:10Z",
   "details": "Python is an interpreted, interactive, object-oriented programming language, which includes modules, classes, exceptions, very high level dynamic data types and dynamic typing. Python supports interfaces to many system calls and libraries, as well as to various windowing systems.\n\nThe following packages have been upgraded to a later upstream version: python38 (3.8.3). (BZ#1847416)\n\nSecurity Fix(es):\n\n* PyYAML: command execution through python/object/apply constructor in FullLoader (CVE-2019-20477)\n\n* python: infinite loop in the tarfile module via crafted TAR archive (CVE-2019-20907)\n\n* PyYAML: arbitrary command execution through python/object/new when FullLoader is used (CVE-2020-1747)\n\n* python: wrong backtracking in urllib.request.AbstractBasicAuthHandler allows for a ReDoS (CVE-2020-8492)\n\n* python: DoS via inefficiency in IPv{4,6}Interface classes (CVE-2020-14422)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2020:4641",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1806005",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1807367",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1809065",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1815643",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1847416",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1854926",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1856481",
+      "type": "REPORT"
+    },
     {
       "url": "https://errata.almalinux.org/8/ALSA-2020-4641.html",
       "type": "ADVISORY"

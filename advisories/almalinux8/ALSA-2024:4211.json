@@ -507,7 +507,7 @@
     "CVE-2021-47310"
   ],
   "published": "2024-07-02T00:00:00Z",
-  "modified": "2024-07-02T15:12:03Z",
+  "modified": "2026-10-25T23:51:08Z",
   "details": "The kernel packages contain the Linux kernel, the core of any Linux operating system.\n\nSecurity Fix(es):\n\n* kernel: Bluetooth BR/EDR PIN Pairing procedure is vulnerable to an impersonation attack (CVE-2020-26555)\n* kernel:TCP-spoofed ghost ACKs and leak leak initial sequence number (CVE-2023-52881,RHV-2024-1001)\n* kernel: ovl: fix leaked dentry (CVE-2021-46972)\n* kernel: platform/x86: dell-smbios-wmi: Fix oops on rmmod dell_smbios (CVE-2021-47073)\n* kernel: mm/damon/vaddr-test: memory leak in damon_do_test_apply_three_regions() (CVE-2023-52560)\n* kernel: ppp_async: limit MRU to 64K (CVE-2024-26675)\n* kernel: mm/swap: fix race when skipping swapcache (CVE-2024-26759)\n* kernel: net: ip_tunnel: prevent perpetual headroom growth (CVE-2024-26804)\n* kernel: RDMA/mlx5: Fix fortify source warning while accessing Eth segment (CVE-2024-26907)\n* kernel: x86/mm: Disallow vsyscall page read for copy_from_kernel_nofault() (CVE-2024-26906)\n* kernel: powerpc/powernv: Add a null pointer check in opal_event_init() (CVE-2023-52686)\n* kernel: powerpc/imc-pmu: Add a null pointer check in update_events_in_group() (CVE-2023-52675)\n* kernel: KVM: SVM: improper check in svm_set_x2apic_msr_interception allows direct access to host x2apic msrs (CVE-2023-5090)\n* kernel: EDAC/thunderx: Incorrect buffer size in drivers/edac/thunderx_edac.c (CVE-2023-52464)\n* kernel: ipv6: sr: fix possible use-after-free and null-ptr-deref (CVE-2024-26735)\n* kernel: mptcp: fix data re-injection from stale subflow (CVE-2024-26826)\n* kernel: net/bnx2x: Prevent access to a freed page in page_pool (CVE-2024-26859)\n* kernel: crypto: qat - resolve race condition during AER recovery (CVE-2024-26974)\n* kernel: net/mlx5e: fix a potential double-free in fs_any_create_groups (CVE-2023-52667)\n* kernel: net/mlx5: Properly link new fs rules into the tree (CVE-2024-35960)\n* kernel: net/mlx5e: Fix mlx5e_priv_init() cleanup flow (CVE-2024-35959)\n* kernel: net: ena: Fix incorrect descriptor free behavior (CVE-2024-35958)\n* kernel: i40e: Do not use WQ_MEM_RECLAIM flag for workqueue (CVE-2024-36004)\n* kernel: mISDN: fix possible use-after-free in HFC_cleanup() (CVE-2021-47356)\n* kernel: udf: Fix NULL pointer dereference in udf_symlink function (CVE-2021-47353)\n* kernel: net: ti: fix UAF in tlan_remove_one (CVE-2021-47310)\n\nBug Fix(es):\n\n* Kernel panic - kernel BUG at mm/slub.c:376! (JIRA:AlmaLinux-29783)\n* Temporary values in FIPS integrity test should be zeroized [almalinux-8.10.z] (JIRA:AlmaLinux-35361)\n* AlmaLinux8.6 - kernel: s390/cpum_cf: make crypto counters upward compatible (JIRA:AlmaLinux-36048)\n* [AlmaLinux8] blktests block/024 failed (JIRA:AlmaLinux-8130)\n* AlmaLinux8.9: EEH injections results  Error:  Power fault on Port 0 and other call traces(Everest/1050/Shiner) (JIRA:AlmaLinux-14195)\n* Latency spikes with Matrox G200 graphic cards (JIRA:AlmaLinux-36172)\n\nFor more details about the security issue(s), including the impact, \n            a CVSS score, acknowledgments, and other related information, refer to the CVE page(s)\n            listed in the References section.",
   "references": [
     {
@@ -1005,6 +1005,14 @@
     {
       "url": "https://errata.almalinux.org/8/ALSA-2024-4211.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2022-49057.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2024-42159.html",
+      "type": "REPORT"
     }
   ]
 }

@@ -634,15 +634,27 @@
     "CVE-2021-20188"
   ],
   "published": "2021-03-02T18:48:35Z",
-  "modified": "2021-03-02T18:48:35Z",
+  "modified": "2026-10-25T23:39:19Z",
   "details": "The container-tools module contains tools for working with containers, notably podman, buildah, skopeo, and runc.\n\nSecurity Fix(es):\n\n* podman: container users permissions are not respected in privileged containers (CVE-2021-20188)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2021:0706",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1915734",
+      "type": "REPORT"
+    },
     {
       "url": "https://errata.almalinux.org/8/ALSA-2021-0706.html",
       "type": "ADVISORY"
     },
     {
       "url": "https://vulners.com/cve/CVE-2021-20188",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2020-28362.html",
       "type": "REPORT"
     }
   ]

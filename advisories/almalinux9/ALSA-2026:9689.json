@@ -1325,7 +1325,7 @@
     "CVE-2026-34268"
   ],
   "published": "2026-04-23T00:00:00Z",
-  "modified": "2026-04-30T07:26:22Z",
+  "modified": "2026-10-26T00:10:02Z",
   "details": "The OpenJDK 21 packages provide the OpenJDK 21 Java Runtime Environment and the OpenJDK 21 Java Software Development Kit.  \n\nSecurity Fix(es):  \n\n  * JDK: Enhance crypto algorithm support (CVE-2026-22007)\n  * JDK: Improve Kerberos credentialing (CVE-2026-22013)\n  * JDK: Enhance Path Factories Redux (CVE-2026-22016)\n  * JDK: Enhance Zip file reading (CVE-2026-22018)\n  * JDK: Enhance certificate chain validation (CVE-2026-22021)\n  * JDK: Updating FreeType 2.14.1 (CVE-2026-23865)\n  * JDK: Enhance TLS connection handling (CVE-2026-34282)\n  * JDK: Enhance key generation (CVE-2026-34268)\n\n\nBug Fix(es):  \n\n  * When copying files, OpenJDK 21 prefers to use the copy_file_range native function for performance reasons, only falling back to sendfile when this fails. However, in previous OpenJDK 21 releases, a response of EOPNOTSUPP (operation not supported) did not cause the JDK to fall back to sendfile. This is rectified in this release. (AlmaLinux-169617, AlmaLinux-169951, AlmaLinux-169952, AlmaLinux-169942, AlmaLinux-169953, AlmaLinux-169945)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -1375,6 +1375,30 @@
     {
       "url": "https://errata.almalinux.org/9/ALSA-2026-9689.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2025-66293.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-22695.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-22801.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-26740.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-33416.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-33636.html",
+      "type": "REPORT"
     }
   ]
 }

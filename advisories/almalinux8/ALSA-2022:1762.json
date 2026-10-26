@@ -752,7 +752,7 @@
     "CVE-2022-27651"
   ],
   "published": "2022-05-10T00:00:00Z",
-  "modified": "2022-08-03T21:48:40Z",
+  "modified": "2026-10-25T23:42:57Z",
   "details": "The container-tools module contains tools for working with containers, notably podman, buildah, skopeo, and runc.\n\nSecurity Fix(es):\n\n* psgo: Privilege escalation in 'podman top' (CVE-2022-1227)\n\n* prometheus/client_golang: Denial of service using InstrumentHandlerCounter (CVE-2022-21698)\n\n* podman: Default inheritable capabilities for linux container should be empty (CVE-2022-27649)\n\n* crun: Default inheritable capabilities for linux container should be empty (CVE-2022-27650)\n\n* buildah: Default inheritable capabilities for linux container should be empty (CVE-2022-27651)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
     {
@@ -780,7 +780,99 @@
       "type": "REPORT"
     },
     {
+      "url": "https://bugzilla.redhat.com/1861760",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1967642",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1982164",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1982784",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1995900",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1998835",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2000914",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2002721",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2004993",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2005972",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2006678",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2009047",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2009296",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2017266",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2018949",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2023112",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2024229",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2025336",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2030599",
+      "type": "REPORT"
+    },
+    {
       "url": "https://bugzilla.redhat.com/2045880",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2055487",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2059754",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2065292",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2065707",
       "type": "REPORT"
     },
     {
@@ -821,6 +913,10 @@
     },
     {
       "url": "https://vulners.com/cve/CVE-2022-27651",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2020-28851.html",
       "type": "REPORT"
     }
   ]

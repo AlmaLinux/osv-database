@@ -1014,7 +1014,7 @@
     "CVE-2023-29406"
   ],
   "published": "2023-11-14T00:00:00Z",
-  "modified": "2023-11-27T11:53:08Z",
+  "modified": "2026-10-25T23:49:52Z",
   "details": "The container-tools module contains tools for working with containers, notably podman, buildah, skopeo, and runc.\n\nSecurity Fix(es):\n\n* golang: net/http: insufficient sanitization of Host header (CVE-2023-29406)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* could not find symbol `criu_set_lsm_mount_context` in `libcriu.so` (BZ#2242871)",
   "references": [
     {
@@ -1027,6 +1027,10 @@
     },
     {
       "url": "https://bugzilla.redhat.com/2222167",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2242871",
       "type": "REPORT"
     },
     {

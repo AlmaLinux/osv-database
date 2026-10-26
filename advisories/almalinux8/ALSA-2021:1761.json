@@ -770,9 +770,33 @@
     "CVE-2021-3177"
   ],
   "published": "2021-05-18T06:02:07Z",
-  "modified": "2021-05-18T06:01:53Z",
+  "modified": "2026-10-25T23:41:08Z",
   "details": "Python is an interpreted, interactive, object-oriented programming language that supports modules, classes, exceptions, high-level dynamic data types, and dynamic typing. The python27 packages provide a stable release of Python 2.7 with a number of additional utilities and database connectors for MySQL and PostgreSQL.\n\nSecurity Fix(es):\n\n* python: CRLF injection via HTTP request method in httplib/http.client (CVE-2020-26116)\n\n* python-urllib3: CRLF injection via HTTP request method (CVE-2020-26137)\n\n* python-lxml: mXSS due to the use of improper parser (CVE-2020-27783)\n\n* python: Stack-based buffer overflow in PyCArg_repr in _ctypes/callproc.c (CVE-2021-3177)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2021:1761",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1883014",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1883632",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1886754",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1901633",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1918168",
+      "type": "REPORT"
+    },
     {
       "url": "https://errata.almalinux.org/8/ALSA-2021-1761.html",
       "type": "ADVISORY"

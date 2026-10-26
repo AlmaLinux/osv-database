@@ -142,9 +142,41 @@
     "CVE-2021-20232"
   ],
   "published": "2021-11-09T09:23:20Z",
-  "modified": "2021-11-12T10:20:56Z",
+  "modified": "2026-10-25T23:41:43Z",
   "details": "The gnutls packages provide the GNU Transport Layer Security (GnuTLS) library, which implements cryptographic algorithms and protocols such as SSL, TLS, and DTLS.\n\nNettle is a cryptographic library that is designed to fit easily in almost any context: In crypto toolkits for object-oriented languages, such as C++, Python, or Pike, in applications like LSH or GNUPG, or even in kernel space.\n\nThe following packages have been upgraded to a later upstream version: gnutls (3.6.16). (BZ#1956783)\n\nSecurity Fix(es):\n\n* nettle: Remote crash in RSA decryption via manipulated ciphertext (CVE-2021-3580)\n\n* gnutls: Use after free in client key_share extension (CVE-2021-20231)\n\n* gnutls: Use after free in client_send_params in lib/ext/pre_shared_key.c (CVE-2021-20232)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2021:4451",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1776250",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1908110",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1908334",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1922275",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1922276",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1965445",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1967983",
+      "type": "REPORT"
+    },
     {
       "url": "https://errata.almalinux.org/8/ALSA-2021-4451.html",
       "type": "ADVISORY"

@@ -491,7 +491,7 @@
     "CVE-2026-17523"
   ],
   "published": "2026-08-17T00:00:00Z",
-  "modified": "2026-08-18T08:48:01Z",
+  "modified": "2026-10-26T00:08:05Z",
   "details": "The kernel packages contain the Linux kernel, the core of any Linux operating system.  \n\nSecurity Fix(es):  \n\n  * kernel: mm/slub: avoid accessing metadata when pointer is invalid in object_err() (CVE-2025-39902)\n  * kernel: drm/amdkfd: Fix out-of-bounds write in kfd_event_page_set() (CVE-2026-43206)\n  * kernel: crypto: ccp - copy IV using skcipher ivsize (CVE-2026-53016)\n  * kernel: drm/amd/display: Clamp VBIOS HDMI retimer register count to array size (CVE-2026-53136)\n  * kernel: drm/amd/display: Use krealloc_array() in dal_vector_reserve() (CVE-2026-53329)\n  * kernel: drm/amdgpu: zero-initialize GART table on allocation (CVE-2026-53374)\n  * kernel: drm/i915: Fix potential UAF in TTM object purge (CVE-2026-63884)\n  * kernel: drm/amdgpu: fix amdgpu_hmm_range_get_pages (CVE-2026-63879)\n  * kernel: drm/amd/display: Validate payload length and link_index in dc_process_dmub_aux_transfer_async (CVE-2026-64219)\n  * kernel: can:bcm: arbitrary kernel code execution leading to escalate privileges (CVE-2026-17523)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * Backport \"sched/deadline: Fix bandwidth reclaim equation in GRUB\" to AlmaLinux 8.10 (JIRA:AlmaLinux-189997)\n  * vhost: reset the vring metadata cache on vring reconfiguration [almalinux-8.10.z] (JIRA:AlmaLinux-224556)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -581,6 +581,10 @@
     {
       "url": "https://errata.almalinux.org/8/ALSA-2026-55764.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-74580.html",
+      "type": "REPORT"
     }
   ]
 }

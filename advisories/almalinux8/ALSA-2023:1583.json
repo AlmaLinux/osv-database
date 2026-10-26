@@ -164,7 +164,7 @@
     "CVE-2023-24807"
   ],
   "published": "2023-04-04T00:00:00Z",
-  "modified": "2023-04-20T12:25:58Z",
+  "modified": "2026-10-25T23:47:08Z",
   "details": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nThe following packages have been upgraded to a later upstream version: nodejs (18.14.2).\n\nSecurity Fix(es):\n\n* glob-parent: Regular Expression Denial of Service (CVE-2021-35065)\n* http-cache-semantics: Regular Expression Denial of Service (ReDoS) vulnerability (CVE-2022-25881)\n* Node.js: Permissions policies can be bypassed via process.mainModule (CVE-2023-23918)\n* Node.js: Fetch API did not protect against CRLF injection in host headers (CVE-2023-23936)\n* Node.js: insecure loading of ICU data through ICU_DATA environment variable (CVE-2023-23920)\n* Node.js: Regular Expression Denial of Service in Headers fetch API (CVE-2023-24807)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {
@@ -220,8 +220,16 @@
       "type": "REPORT"
     },
     {
+      "url": "https://bugzilla.redhat.com/2178087",
+      "type": "REPORT"
+    },
+    {
       "url": "https://errata.almalinux.org/8/ALSA-2023-1583.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2023-23919.html",
+      "type": "REPORT"
     }
   ]
 }

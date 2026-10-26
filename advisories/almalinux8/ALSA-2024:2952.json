@@ -84,7 +84,7 @@
     "CVE-2023-52323"
   ],
   "published": "2024-05-22T00:00:00Z",
-  "modified": "2024-05-29T14:41:52Z",
+  "modified": "2026-10-25T23:50:06Z",
   "details": "The resource-agents packages provide the Pacemaker and RGManager service managers with a set of scripts. These scripts interface with several services to allow operating in a high-availability (HA) environment.\n\nSecurity Fix(es):\n\n* urllib3: Request body not stripped after redirect from 303 status changes request method to GET (CVE-2023-45803)\n* pycryptodome: side-channel leakage for OAEP decryption in PyCryptodome and pycryptodomex (CVE-2023-52323)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
     {
@@ -97,6 +97,14 @@
     },
     {
       "url": "https://access.redhat.com/security/cve/CVE-2023-52323",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1904465",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2076403",
       "type": "REPORT"
     },
     {

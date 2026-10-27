@@ -1,0 +1,91 @@
+{
+  "id": "ALSA-2026:90424",
+  "summary": "Important: buildah security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "buildah"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.43.4-2.el9_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "buildah-tests"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.43.4-2.el9_8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2025-11395",
+    "CVE-2026-56855",
+    "CVE-2026-78667",
+    "CVE-2026-111943"
+  ],
+  "published": "2026-10-26T00:00:00Z",
+  "modified": "2026-10-27T00:51:26Z",
+  "details": "The buildah package provides a tool for facilitating building OCI container images. Among other things, buildah enables you to: Create a working container, either from scratch or using an image as a starting point; Create an image, either from a working container or using the instructions in a Dockerfile; Build both Docker and OCI images.   \n\nSecurity Fix(es):  \n\n  * podman: Arbitrary file write when importing OCI archive (CVE-2025-11395)\n  * golang.org/x/crypto/ssh: golang.org/x/crypto/ssh: Denial of Service via crafted messages (CVE-2026-56855)\n  * net/[http:](http:) golang: golang: Denial of Service via crafted HTTP Range headers (CVE-2026-78667)\n  * crypto/x509: golang: crypto/x509: Man-in-the-middle attacks via untrusted intermediate certificates (CVE-2026-111943)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:90424",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-11395",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-111943",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-56855",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-78667",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2528050",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2548334",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2556068",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-90424.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

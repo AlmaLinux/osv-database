@@ -1,0 +1,49 @@
+{
+  "id": "ALSA-2026:90523",
+  "summary": "Important: xdg-dbus-proxy security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "xdg-dbus-proxy"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.1.5-4.el10_2.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-94422"
+  ],
+  "published": "2026-10-27T00:00:00Z",
+  "modified": "2026-10-27T19:15:49Z",
+  "details": "xdg-dbus-proxy is a filtering proxy for D-Bus connections. It was originally part of the flatpak project, but it has been broken out as a standalone module to facilitate using it in other contexts.  \n\nSecurity Fix(es):  \n\n  * xdg-dbus-proxy: xdg-dbus-proxy: message filtering bypass via reply serial allows sandbox escape (CVE-2026-94422)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:90523",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-94422",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2542235",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-90523.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2026:91267",
+  "summary": "Important: libXrender security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libXrender"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.9.10-8.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libXrender-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.9.10-8.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-88807"
+  ],
+  "published": "2026-10-27T00:00:00Z",
+  "modified": "2026-10-27T22:23:10Z",
+  "details": "X.Org X11 libXrender runtime library  \n\nSecurity Fix(es):  \n\n  * libXrender: libXrender: Code injection via heap overflow in RenderQueryPictFormats (CVE-2026-88807)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:91267",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-88807",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2537924",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-91267.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

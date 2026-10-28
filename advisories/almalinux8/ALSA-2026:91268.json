@@ -1,0 +1,68 @@
+{
+  "id": "ALSA-2026:91268",
+  "summary": "Moderate: libXi security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libXi"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.10-2.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libXi-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.10-2.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": [
+    "CVE-2026-93543"
+  ],
+  "published": "2026-10-27T00:00:00Z",
+  "modified": "2026-10-27T22:23:10Z",
+  "details": "X.Org X11 libXi runtime library  \n\nSecurity Fix(es):  \n\n  * libXi: libXi: Denial of Service via out-of-bounds read in XI2 class parser (CVE-2026-93543)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:91268",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-93543",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2540529",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-91268.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

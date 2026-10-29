@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2020:4272",
   "summary": "Moderate: nodejs:12 security and bug fix update",
   "affected": [
@@ -98,10 +99,16 @@
       ]
     }
   ],
-  "related": [
+  "upstream": [
+    "CVE-2020-15095",
     "CVE-2020-8116",
     "CVE-2020-8201",
+    "CVE-2020-8252"
+  ],
+  "related": [
     "CVE-2020-15095",
+    "CVE-2020-8116",
+    "CVE-2020-8201",
     "CVE-2020-8252"
   ],
   "published": "2020-10-19T07:13:10Z",

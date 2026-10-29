@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2025:19931",
   "summary": "Moderate: kernel security update",
   "affected": [
@@ -478,10 +479,15 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2025-40300",
+  "upstream": [
+    "CVE-2022-50367",
     "CVE-2023-53178",
-    "CVE-2022-50367"
+    "CVE-2025-40300"
+  ],
+  "related": [
+    "CVE-2022-50367",
+    "CVE-2023-53178",
+    "CVE-2025-40300"
   ],
   "published": "2025-11-10T00:00:00Z",
   "modified": "2025-11-11T14:31:40Z",

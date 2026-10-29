@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2023:5264",
   "summary": "Important: virt:rhel and virt-devel:rhel security and bug fix update",
   "affected": [
@@ -2872,9 +2873,13 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2022-40284",
+    "CVE-2023-3354"
+  ],
   "related": [
-    "CVE-2023-3354",
-    "CVE-2022-40284"
+    "CVE-2022-40284",
+    "CVE-2023-3354"
   ],
   "published": "2023-09-19T00:00:00Z",
   "modified": "2023-09-22T15:41:50Z",

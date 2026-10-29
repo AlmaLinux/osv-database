@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:48790",
   "summary": "Important: osbuild-composer security update",
   "affected": [
@@ -60,12 +61,19 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2026-33186",
-    "CVE-2026-34986",
+  "upstream": [
+    "CVE-2026-32280",
     "CVE-2026-32282",
     "CVE-2026-32283",
-    "CVE-2026-32280"
+    "CVE-2026-33186",
+    "CVE-2026-34986"
+  ],
+  "related": [
+    "CVE-2026-32280",
+    "CVE-2026-32282",
+    "CVE-2026-32283",
+    "CVE-2026-33186",
+    "CVE-2026-34986"
   ],
   "published": "2026-07-30T00:00:00Z",
   "modified": "2026-07-31T12:25:17Z",

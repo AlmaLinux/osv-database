@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2024:3666",
   "summary": "Important: tomcat security and bug fix update",
   "affected": [
@@ -155,9 +156,15 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2022-45143",
+    "CVE-2024-23672",
+    "CVE-2024-24549"
+  ],
   "related": [
-    "CVE-2024-24549",
-    "CVE-2024-23672"
+    "CVE-2022-45143",
+    "CVE-2024-23672",
+    "CVE-2024-24549"
   ],
   "published": "2024-06-06T00:00:00Z",
   "modified": "2026-10-25T23:52:58Z",

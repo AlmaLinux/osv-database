@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2021:4358",
   "summary": "Moderate: glibc security, bug fix, and enhancement update",
   "affected": [
@@ -117,10 +118,15 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2021-35942",
+  "upstream": [
     "CVE-2021-27645",
-    "CVE-2021-33574"
+    "CVE-2021-33574",
+    "CVE-2021-35942"
+  ],
+  "related": [
+    "CVE-2021-27645",
+    "CVE-2021-33574",
+    "CVE-2021-35942"
   ],
   "published": "2021-11-09T09:08:59Z",
   "modified": "2021-11-12T10:21:01Z",

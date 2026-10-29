@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2021:1804",
   "summary": "Moderate: userspace graphics, xorg-x11, and mesa security, bug fix, and enhancement update",
   "affected": [
@@ -269,16 +270,27 @@
       ]
     }
   ],
-  "related": [
+  "upstream": [
+    "CVE-2020-14344",
     "CVE-2020-14345",
     "CVE-2020-14346",
+    "CVE-2020-14347",
     "CVE-2020-14360",
     "CVE-2020-14361",
     "CVE-2020-14362",
     "CVE-2020-14363",
-    "CVE-2020-25712",
+    "CVE-2020-25712"
+  ],
+  "related": [
     "CVE-2020-14344",
-    "CVE-2020-14347"
+    "CVE-2020-14345",
+    "CVE-2020-14346",
+    "CVE-2020-14347",
+    "CVE-2020-14360",
+    "CVE-2020-14361",
+    "CVE-2020-14362",
+    "CVE-2020-14363",
+    "CVE-2020-25712"
   ],
   "published": "2021-05-18T06:07:47Z",
   "modified": "2021-11-12T10:20:56Z",

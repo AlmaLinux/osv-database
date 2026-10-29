@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2022:7110",
   "summary": "Important: kernel security, bug fix, and enhancement update",
   "affected": [
@@ -383,13 +384,22 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2022-2588",
+  "upstream": [
     "CVE-2022-0494",
     "CVE-2022-1353",
     "CVE-2022-23816",
-    "CVE-2022-29900",
     "CVE-2022-23825",
+    "CVE-2022-2588",
+    "CVE-2022-29900",
+    "CVE-2022-29901"
+  ],
+  "related": [
+    "CVE-2022-0494",
+    "CVE-2022-1353",
+    "CVE-2022-23816",
+    "CVE-2022-23825",
+    "CVE-2022-2588",
+    "CVE-2022-29900",
     "CVE-2022-29901"
   ],
   "published": "2022-10-25T00:00:00Z",

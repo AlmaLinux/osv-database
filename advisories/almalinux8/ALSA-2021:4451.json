@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2021:4451",
   "summary": "Moderate: gnutls and nettle security, bug fix, and enhancement update",
   "affected": [
@@ -136,10 +137,15 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2021-3580",
+  "upstream": [
     "CVE-2021-20231",
-    "CVE-2021-20232"
+    "CVE-2021-20232",
+    "CVE-2021-3580"
+  ],
+  "related": [
+    "CVE-2021-20231",
+    "CVE-2021-20232",
+    "CVE-2021-3580"
   ],
   "published": "2021-11-09T09:23:20Z",
   "modified": "2026-10-25T23:41:43Z",

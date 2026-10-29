@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2024:4635",
   "summary": "Important: thunderbird security update",
   "affected": [
@@ -22,10 +23,15 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2024-6604",
+  "upstream": [
     "CVE-2024-6601",
-    "CVE-2024-6603"
+    "CVE-2024-6603",
+    "CVE-2024-6604"
+  ],
+  "related": [
+    "CVE-2024-6601",
+    "CVE-2024-6603",
+    "CVE-2024-6604"
   ],
   "published": "2024-07-18T00:00:00Z",
   "modified": "2024-07-19T10:20:07Z",

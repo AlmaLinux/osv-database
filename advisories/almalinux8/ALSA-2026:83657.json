@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:83657",
   "summary": "Moderate: wireshark security update",
   "affected": [
@@ -60,9 +61,15 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2026-76886",
+  "upstream": [
     "CVE-2026-76880",
+    "CVE-2026-76886",
+    "CVE-2026-76919",
+    "CVE-2026-76927"
+  ],
+  "related": [
+    "CVE-2026-76880",
+    "CVE-2026-76886",
     "CVE-2026-76919",
     "CVE-2026-76927"
   ],

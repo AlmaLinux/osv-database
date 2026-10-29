@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2022:0332",
   "summary": "Critical: samba security and bug fix update",
   "affected": [
@@ -79,9 +80,13 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2020-25717",
+    "CVE-2021-44142"
+  ],
   "related": [
-    "CVE-2021-44142",
-    "CVE-2020-25717"
+    "CVE-2020-25717",
+    "CVE-2021-44142"
   ],
   "published": "2022-01-31T15:40:41Z",
   "modified": "2022-02-01T09:11:06Z",

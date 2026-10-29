@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2023:7884",
   "summary": "Important: postgresql:15 security update",
   "affected": [
@@ -345,12 +346,19 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2023-5869",
-    "CVE-2023-5868",
+  "upstream": [
     "CVE-2023-39417",
-    "CVE-2023-5870",
-    "CVE-2023-39418"
+    "CVE-2023-39418",
+    "CVE-2023-5868",
+    "CVE-2023-5869",
+    "CVE-2023-5870"
+  ],
+  "related": [
+    "CVE-2023-39417",
+    "CVE-2023-39418",
+    "CVE-2023-5868",
+    "CVE-2023-5869",
+    "CVE-2023-5870"
   ],
   "published": "2023-12-20T00:00:00Z",
   "modified": "2023-12-25T09:42:53Z",

@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:33722",
   "summary": "Important: container-tools:rhel8 security, bug fix, and enhancement update",
   "affected": [
@@ -1466,12 +1467,19 @@
       ]
     }
   ],
-  "related": [
+  "upstream": [
     "CVE-2026-25679",
-    "CVE-2026-34986",
+    "CVE-2026-32280",
     "CVE-2026-32281",
     "CVE-2026-32283",
-    "CVE-2026-32280"
+    "CVE-2026-34986"
+  ],
+  "related": [
+    "CVE-2026-25679",
+    "CVE-2026-32280",
+    "CVE-2026-32281",
+    "CVE-2026-32283",
+    "CVE-2026-34986"
   ],
   "published": "2026-06-30T00:00:00Z",
   "modified": "2026-07-03T14:35:00Z",

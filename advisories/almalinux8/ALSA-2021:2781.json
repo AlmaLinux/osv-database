@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2021:2781",
   "summary": "Important: java-11-openjdk security update",
   "affected": [
@@ -231,10 +232,15 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2021-2388",
+  "upstream": [
     "CVE-2021-2341",
-    "CVE-2021-2369"
+    "CVE-2021-2369",
+    "CVE-2021-2388"
+  ],
+  "related": [
+    "CVE-2021-2341",
+    "CVE-2021-2369",
+    "CVE-2021-2388"
   ],
   "published": "2021-07-21T07:28:55Z",
   "modified": "2021-08-11T08:54:00Z",

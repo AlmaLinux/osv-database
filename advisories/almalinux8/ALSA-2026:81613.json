@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:81613",
   "summary": "Important: pcre2 security update",
   "affected": [
@@ -98,11 +99,17 @@
       ]
     }
   ],
-  "related": [
+  "upstream": [
+    "CVE-2026-103111",
     "CVE-2026-86145",
     "CVE-2026-89157",
-    "CVE-2026-89158",
-    "CVE-2026-103111"
+    "CVE-2026-89158"
+  ],
+  "related": [
+    "CVE-2026-103111",
+    "CVE-2026-86145",
+    "CVE-2026-89157",
+    "CVE-2026-89158"
   ],
   "published": "2026-10-12T00:00:00Z",
   "modified": "2026-10-13T09:18:28Z",

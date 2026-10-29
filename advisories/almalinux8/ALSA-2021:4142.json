@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2021:4142",
   "summary": "Low: pcs security, bug fix, and enhancement update",
   "affected": [
@@ -41,9 +42,13 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2020-11023",
+    "CVE-2020-7656"
+  ],
   "related": [
-    "CVE-2020-7656",
-    "CVE-2020-11023"
+    "CVE-2020-11023",
+    "CVE-2020-7656"
   ],
   "published": "2021-11-09T08:21:49Z",
   "modified": "2021-11-12T10:21:02Z",

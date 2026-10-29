@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2023:7714",
   "summary": "Important: postgresql:12 security update",
   "affected": [
@@ -364,10 +365,16 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2023-5869",
-    "CVE-2023-5868",
+  "upstream": [
     "CVE-2023-39417",
+    "CVE-2023-5868",
+    "CVE-2023-5869",
+    "CVE-2023-5870"
+  ],
+  "related": [
+    "CVE-2023-39417",
+    "CVE-2023-5868",
+    "CVE-2023-5869",
     "CVE-2023-5870"
   ],
   "published": "2023-12-11T00:00:00Z",

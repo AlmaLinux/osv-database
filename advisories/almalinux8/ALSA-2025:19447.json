@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2025:19447",
   "summary": "Moderate: kernel security update",
   "affected": [
@@ -478,13 +479,22 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2023-53257",
+  "upstream": [
+    "CVE-2022-50856",
     "CVE-2023-53226",
+    "CVE-2023-53257",
+    "CVE-2023-53751",
+    "CVE-2025-39864"
+  ],
+  "related": [
+    "CVE-2022-50856",
+    "CVE-2023-53226",
+    "CVE-2023-53257",
+    "CVE-2023-53751",
     "CVE-2025-39864"
   ],
   "published": "2025-11-03T00:00:00Z",
-  "modified": "2025-11-07T10:53:58Z",
+  "modified": "2026-10-29T08:26:00Z",
   "details": "The kernel packages contain the Linux kernel, the core of any Linux operating system.  \n\nSecurity Fix(es):  \n\n  * kernel: wifi: mac80211: check S1G action frame size (CVE-2023-53257)\n  * kernel: wifi: mwifiex: Fix OOB and integer underflow when rx packets (CVE-2023-53226)\n  * kernel: wifi: cfg80211: fix use-after-free in cmp_bss() (CVE-2025-39864)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -518,6 +528,14 @@
     {
       "url": "https://errata.almalinux.org/8/ALSA-2025-19447.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2022-50856.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2023-53751.html",
+      "type": "REPORT"
     }
   ]
 }

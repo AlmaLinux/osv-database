@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2022:1915",
   "summary": "Moderate: httpd:2.4 security and bug fix update",
   "affected": [
@@ -383,11 +384,17 @@
       ]
     }
   ],
-  "related": [
+  "upstream": [
+    "CVE-2020-35452",
     "CVE-2021-33193",
     "CVE-2021-36160",
-    "CVE-2021-44224",
-    "CVE-2020-35452"
+    "CVE-2021-44224"
+  ],
+  "related": [
+    "CVE-2020-35452",
+    "CVE-2021-33193",
+    "CVE-2021-36160",
+    "CVE-2021-44224"
   ],
   "published": "2022-05-10T08:07:40Z",
   "modified": "2026-10-25T23:44:11Z",

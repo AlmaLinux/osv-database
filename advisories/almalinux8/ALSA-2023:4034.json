@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2023:4034",
   "summary": "Important: nodejs:16 security update",
   "affected": [
@@ -136,11 +137,17 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2023-32067",
+  "upstream": [
+    "CVE-2023-31124",
     "CVE-2023-31130",
     "CVE-2023-31147",
-    "CVE-2023-31124"
+    "CVE-2023-32067"
+  ],
+  "related": [
+    "CVE-2023-31124",
+    "CVE-2023-31130",
+    "CVE-2023-31147",
+    "CVE-2023-32067"
   ],
   "published": "2023-07-12T00:00:00Z",
   "modified": "2023-07-12T21:11:24Z",

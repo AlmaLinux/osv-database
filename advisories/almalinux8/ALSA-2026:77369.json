@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:77369",
   "summary": "Important: mod_auth_openidc:2.3 security update",
   "affected": [
@@ -60,9 +61,13 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2026-53938",
+    "CVE-2026-54789"
+  ],
   "related": [
-    "CVE-2026-54789",
-    "CVE-2026-53938"
+    "CVE-2026-53938",
+    "CVE-2026-54789"
   ],
   "published": "2026-10-07T00:00:00Z",
   "modified": "2026-10-14T13:04:21Z",

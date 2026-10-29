@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2025:18298",
   "summary": "Moderate: kernel-rt security update",
   "affected": [
@@ -193,10 +194,15 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2025-39757",
+  "upstream": [
+    "CVE-2023-53373",
     "CVE-2025-39751",
-    "CVE-2023-53373"
+    "CVE-2025-39757"
+  ],
+  "related": [
+    "CVE-2023-53373",
+    "CVE-2025-39751",
+    "CVE-2025-39757"
   ],
   "published": "2025-10-20T00:00:00Z",
   "modified": "2025-10-20T12:08:20Z",

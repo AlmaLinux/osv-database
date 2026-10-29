@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:80798",
   "summary": "Moderate: glibc security update",
   "affected": [
@@ -4031,11 +4032,17 @@
       ]
     }
   ],
-  "related": [
+  "upstream": [
+    "CVE-2026-18374",
     "CVE-2026-19542",
     "CVE-2026-77117",
-    "CVE-2026-80489",
-    "CVE-2026-18374"
+    "CVE-2026-80489"
+  ],
+  "related": [
+    "CVE-2026-18374",
+    "CVE-2026-19542",
+    "CVE-2026-77117",
+    "CVE-2026-80489"
   ],
   "published": "2026-10-12T00:00:00Z",
   "modified": "2026-10-13T09:25:03Z",

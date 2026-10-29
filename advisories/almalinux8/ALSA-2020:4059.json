@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2020:4059",
   "summary": "Important: virt:rhel security update",
   "affected": [
@@ -421,9 +422,13 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2020-10756",
+    "CVE-2020-14364"
+  ],
   "related": [
-    "CVE-2020-14364",
-    "CVE-2020-10756"
+    "CVE-2020-10756",
+    "CVE-2020-14364"
   ],
   "published": "2020-09-29T08:09:34Z",
   "modified": "2021-12-23T15:15:25Z",

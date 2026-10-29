@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2025:15785",
   "summary": "Important: kernel security update",
   "affected": [
@@ -478,14 +479,22 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2023-53125",
+    "CVE-2025-38350",
+    "CVE-2025-38392",
+    "CVE-2025-38449",
+    "CVE-2025-38684"
+  ],
   "related": [
     "CVE-2023-53125",
     "CVE-2025-38350",
     "CVE-2025-38392",
-    "CVE-2025-38449"
+    "CVE-2025-38449",
+    "CVE-2025-38684"
   ],
   "published": "2025-09-15T00:00:00Z",
-  "modified": "2025-09-23T12:06:04Z",
+  "modified": "2026-10-29T08:26:01Z",
   "details": "The kernel packages contain the Linux kernel, the core of any Linux operating system.  \n\nSecurity Fix(es):  \n\n  * kernel: net: usb: smsc75xx: Limit packet length to skb->len (CVE-2023-53125)\n  * kernel: net/sched: Always pass notifications when child class becomes empty (CVE-2025-38350)\n  * kernel: idpf: convert control queue mutex to a spinlock (CVE-2025-38392)\n  * kernel: drm/gem: Acquire references on GEM handles for framebuffers (CVE-2025-38449)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -527,6 +536,10 @@
     {
       "url": "https://errata.almalinux.org/8/ALSA-2025-15785.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2025-38684.html",
+      "type": "REPORT"
     }
   ]
 }

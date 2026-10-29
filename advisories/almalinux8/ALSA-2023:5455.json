@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2023:5455",
   "summary": "Important: glibc security update",
   "affected": [
@@ -4069,11 +4070,17 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2023-4911",
+  "upstream": [
     "CVE-2023-4527",
     "CVE-2023-4806",
-    "CVE-2023-4813"
+    "CVE-2023-4813",
+    "CVE-2023-4911"
+  ],
+  "related": [
+    "CVE-2023-4527",
+    "CVE-2023-4806",
+    "CVE-2023-4813",
+    "CVE-2023-4911"
   ],
   "published": "2023-10-05T00:00:00Z",
   "modified": "2023-10-05T23:17:54Z",

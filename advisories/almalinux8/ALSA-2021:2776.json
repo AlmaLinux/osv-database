@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2021:2776",
   "summary": "Important: java-1.8.0-openjdk security update",
   "affected": [
@@ -193,10 +194,15 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2021-2388",
+  "upstream": [
     "CVE-2021-2341",
-    "CVE-2021-2369"
+    "CVE-2021-2369",
+    "CVE-2021-2388"
+  ],
+  "related": [
+    "CVE-2021-2341",
+    "CVE-2021-2369",
+    "CVE-2021-2388"
   ],
   "published": "2021-07-21T07:31:58Z",
   "modified": "2021-08-11T08:54:00Z",

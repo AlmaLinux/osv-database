@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2021:5082",
   "summary": "Important: samba security update",
   "affected": [
@@ -79,9 +80,14 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2020-25717",
+  "upstream": [
     "CVE-2016-2124",
+    "CVE-2020-25717",
+    "CVE-2021-23192"
+  ],
+  "related": [
+    "CVE-2016-2124",
+    "CVE-2020-25717",
     "CVE-2021-23192"
   ],
   "published": "2021-12-13T08:15:38Z",

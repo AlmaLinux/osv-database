@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:8339",
   "summary": "Important: nodejs:20 security update",
   "affected": [
@@ -155,11 +156,17 @@
       ]
     }
   ],
-  "related": [
+  "upstream": [
+    "CVE-2026-21710",
     "CVE-2026-26996",
-    "CVE-2026-27904",
     "CVE-2026-27135",
-    "CVE-2026-21710"
+    "CVE-2026-27904"
+  ],
+  "related": [
+    "CVE-2026-21710",
+    "CVE-2026-26996",
+    "CVE-2026-27135",
+    "CVE-2026-27904"
   ],
   "published": "2026-04-15T00:00:00Z",
   "modified": "2026-04-16T10:12:34Z",

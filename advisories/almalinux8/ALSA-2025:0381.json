@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2025:0381",
   "summary": "Important: .NET 8.0 security update",
   "affected": [
@@ -231,13 +232,17 @@
       ]
     }
   ],
-  "related": [
+  "upstream": [
+    "CVE-2024-11831",
     "CVE-2025-21172",
     "CVE-2025-21173",
-    "CVE-2025-21176",
+    "CVE-2025-21176"
+  ],
+  "related": [
+    "CVE-2024-11831",
+    "CVE-2025-21172",
     "CVE-2025-21173",
-    "CVE-2025-21176",
-    "CVE-2025-21172"
+    "CVE-2025-21176"
   ],
   "published": "2025-01-16T00:00:00Z",
   "modified": "2026-10-25T23:54:31Z",

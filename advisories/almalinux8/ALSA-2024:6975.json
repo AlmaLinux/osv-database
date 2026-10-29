@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2024:6975",
   "summary": "Moderate: python3 security update",
   "affected": [
@@ -136,10 +137,15 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2024-4032",
+    "CVE-2024-6232",
+    "CVE-2024-6923"
+  ],
   "related": [
     "CVE-2024-4032",
-    "CVE-2024-6923",
-    "CVE-2024-6232"
+    "CVE-2024-6232",
+    "CVE-2024-6923"
   ],
   "published": "2024-09-24T00:00:00Z",
   "modified": "2024-09-24T14:01:33Z",

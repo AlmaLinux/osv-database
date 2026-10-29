@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2025:11850",
   "summary": "Moderate: kernel security update",
   "affected": [
@@ -478,13 +479,20 @@
       ]
     }
   ],
-  "related": [
+  "upstream": [
+    "CVE-2022-49977",
     "CVE-2025-21905",
     "CVE-2025-21919",
-    "CVE-2022-49977"
+    "CVE-2025-38393"
+  ],
+  "related": [
+    "CVE-2022-49977",
+    "CVE-2025-21905",
+    "CVE-2025-21919",
+    "CVE-2025-38393"
   ],
   "published": "2025-07-28T00:00:00Z",
-  "modified": "2025-08-06T17:11:33Z",
+  "modified": "2026-10-29T08:23:18Z",
   "details": "The kernel packages contain the Linux kernel, the core of any Linux operating system.  \n\nSecurity Fix(es):  \n\n  * kernel: wifi: iwlwifi: limit printed string from FW file (CVE-2025-21905)\n  * kernel: sched/fair: Fix potential memory corruption in child_cfs_rq_on_list (CVE-2025-21919)\n  * kernel: ftrace: Fix NULL pointer dereference in is_ftrace_trampoline when ftrace is dead (CVE-2022-49977)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -518,6 +526,10 @@
     {
       "url": "https://errata.almalinux.org/8/ALSA-2025-11850.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2025-38393.html",
+      "type": "REPORT"
     }
   ]
 }

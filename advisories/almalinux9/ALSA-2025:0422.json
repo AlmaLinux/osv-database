@@ -880,6 +880,9 @@
   "related": [
     "CVE-2025-21502"
   ],
+  "upstream": [
+    "CVE-2025-21502"
+  ],
   "published": "2025-01-22T00:00:00Z",
   "modified": "2025-01-23T11:15:29Z",
   "details": "The java-17-openjdk packages provide the OpenJDK 17 Java Runtime Environment and the OpenJDK 17 Java Software Development Kit.  \n\nSecurity Fix(es):  \n\n  * JDK: Enhance array handling (CVE-2025-21502)\n\n\nBug Fix(es):  \n\n  * The AlmaLinux OpenJDK packages rely on the copy-jdk-configs package to transfer configuration files to a new updated JDK. With this update, the JDK has been updated to use the latest version of copy-jdk-configs, which has been used for some years on later AlmaLinux versions (AlmaLinux-73867, AlmaLinux-73871, AlmaLinux-73872).\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
@@ -900,5 +903,6 @@
       "url": "https://errata.almalinux.org/9/ALSA-2025-0422.html",
       "type": "ADVISORY"
     }
-  ]
+  ],
+  "schema_version": "1.7.0"
 }

@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2020:1605",
   "summary": "Moderate: python27:2.7 security, bug fix, and enhancement update",
   "affected": [
@@ -535,13 +536,23 @@
       ]
     }
   ],
-  "related": [
+  "upstream": [
+    "CVE-2018-18074",
     "CVE-2018-20060",
     "CVE-2018-20852",
     "CVE-2019-11236",
     "CVE-2019-11324",
     "CVE-2019-16056",
-    "CVE-2018-18074"
+    "CVE-2019-16935"
+  ],
+  "related": [
+    "CVE-2018-18074",
+    "CVE-2018-20060",
+    "CVE-2018-20852",
+    "CVE-2019-11236",
+    "CVE-2019-11324",
+    "CVE-2019-16056",
+    "CVE-2019-16935"
   ],
   "published": "2020-04-28T08:55:59Z",
   "modified": "2026-10-25T23:35:05Z",

@@ -883,6 +883,12 @@
     "CVE-2025-50059",
     "CVE-2025-50106"
   ],
+  "upstream": [
+    "CVE-2025-30749",
+    "CVE-2025-30754",
+    "CVE-2025-50059",
+    "CVE-2025-50106"
+  ],
   "published": "2025-07-15T00:00:00Z",
   "modified": "2025-07-16T12:49:47Z",
   "details": "The java-17-openjdk packages provide the OpenJDK 17 Java Runtime Environment and the OpenJDK 17 Java Software Development Kit.  \n\nSecurity Fix(es):  \n\n  * JDK: Better Glyph drawing (CVE-2025-30749)\n  * JDK: Enhance TLS protocol support (CVE-2025-30754)\n  * JDK: Improve HTTP client header handling (CVE-2025-50059)\n  * JDK: Better Glyph drawing redux (CVE-2025-50106)\n\n\nBug Fix(es):  \n\n  * In AlmaLinuxand AlmaLinux systems, the default graphical display system is Wayland. The use of Wayland in these systems causes a failure in the traditional X11 method that java.awt.Robot uses to take a screen capture, producing a blank image. With this update, the RPM now recommends installing the PipeWire package, which the JDK can use to take screen captures in Wayland systems (AlmaLinux-102668, AlmaLinux-102669, AlmaLinux-102670, AlmaLinux-102672)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
@@ -915,5 +921,6 @@
       "url": "https://errata.almalinux.org/9/ALSA-2025-10867.html",
       "type": "ADVISORY"
     }
-  ]
+  ],
+  "schema_version": "1.7.0"
 }

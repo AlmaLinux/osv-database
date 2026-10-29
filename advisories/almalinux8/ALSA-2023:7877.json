@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2023:7877",
   "summary": "Low: openssl security update",
   "affected": [
@@ -79,10 +80,17 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2023-3446",
+    "CVE-2023-3817",
+    "CVE-2023-5678",
+    "CVE-2024-2408"
+  ],
   "related": [
     "CVE-2023-3446",
     "CVE-2023-3817",
-    "CVE-2023-5678"
+    "CVE-2023-5678",
+    "CVE-2024-2408"
   ],
   "published": "2023-12-19T00:00:00Z",
   "modified": "2026-10-25T23:49:17Z",

@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2021:5236",
   "summary": "Moderate: postgresql:13 security update",
   "affected": [
@@ -402,9 +403,13 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2021-23214",
+    "CVE-2021-3677"
+  ],
   "related": [
-    "CVE-2021-3677",
-    "CVE-2021-23214"
+    "CVE-2021-23214",
+    "CVE-2021-3677"
   ],
   "published": "2021-12-21T09:10:35Z",
   "modified": "2021-12-22T08:23:18Z",

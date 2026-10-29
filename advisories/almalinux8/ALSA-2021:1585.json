@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2021:1585",
   "summary": "Moderate: glibc security, bug fix, and enhancement update",
   "affected": [
@@ -79,12 +80,19 @@
       ]
     }
   ],
-  "related": [
+  "upstream": [
+    "CVE-2016-10228",
     "CVE-2019-25013",
     "CVE-2019-9169",
-    "CVE-2021-3326",
+    "CVE-2020-27618",
+    "CVE-2021-3326"
+  ],
+  "related": [
     "CVE-2016-10228",
-    "CVE-2020-27618"
+    "CVE-2019-25013",
+    "CVE-2019-9169",
+    "CVE-2020-27618",
+    "CVE-2021-3326"
   ],
   "published": "2021-05-18T05:35:07Z",
   "modified": "2021-08-11T08:54:00Z",

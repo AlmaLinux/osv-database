@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2021:2583",
   "summary": "Moderate: python38:3.8 and python38-devel:3.8 security update",
   "affected": [
@@ -725,9 +726,13 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2020-14343",
+    "CVE-2020-1747"
+  ],
   "related": [
-    "CVE-2020-1747",
-    "CVE-2020-14343"
+    "CVE-2020-14343",
+    "CVE-2020-1747"
   ],
   "published": "2021-06-29T13:57:32Z",
   "modified": "2021-08-11T08:54:00Z",

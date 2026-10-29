@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2021:2570",
   "summary": "Important: kernel security and bug fix update",
   "affected": [
@@ -22,9 +23,13 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2020-26541",
+    "CVE-2021-33034"
+  ],
   "related": [
-    "CVE-2021-33034",
-    "CVE-2020-26541"
+    "CVE-2020-26541",
+    "CVE-2021-33034"
   ],
   "published": "2021-06-29T13:42:37Z",
   "modified": "2021-08-11T08:54:00Z",

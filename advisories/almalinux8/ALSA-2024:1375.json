@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2024:1375",
   "summary": "Important: squid:4 security update",
   "affected": [
@@ -98,10 +99,15 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2024-25617",
+  "upstream": [
+    "CVE-2023-50269",
     "CVE-2024-25111",
-    "CVE-2023-50269"
+    "CVE-2024-25617"
+  ],
+  "related": [
+    "CVE-2023-50269",
+    "CVE-2024-25111",
+    "CVE-2024-25617"
   ],
   "published": "2024-03-19T00:00:00Z",
   "modified": "2024-04-12T18:59:09Z",

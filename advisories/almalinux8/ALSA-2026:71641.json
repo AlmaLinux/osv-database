@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:71641",
   "summary": "Important: libxml2 security update",
   "affected": [
@@ -60,12 +61,19 @@
       ]
     }
   ],
-  "related": [
+  "upstream": [
+    "CVE-2026-74860",
     "CVE-2026-86138",
-    "CVE-2026-86143",
     "CVE-2026-86140",
-    "CVE-2026-86144",
-    "CVE-2026-74860"
+    "CVE-2026-86143",
+    "CVE-2026-86144"
+  ],
+  "related": [
+    "CVE-2026-74860",
+    "CVE-2026-86138",
+    "CVE-2026-86140",
+    "CVE-2026-86143",
+    "CVE-2026-86144"
   ],
   "published": "2026-09-24T00:00:00Z",
   "modified": "2026-09-25T12:57:51Z",

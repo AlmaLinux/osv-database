@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2019:4269",
   "summary": "Important: container-tools:rhel8 security and bug fix update",
   "affected": [
@@ -117,10 +118,17 @@
       ]
     }
   ],
-  "related": [
+  "upstream": [
+    "CVE-2019-16884",
+    "CVE-2019-18466",
     "CVE-2019-9512",
-    "CVE-2019-9514",
-    "CVE-2019-16884"
+    "CVE-2019-9514"
+  ],
+  "related": [
+    "CVE-2019-16884",
+    "CVE-2019-18466",
+    "CVE-2019-9512",
+    "CVE-2019-9514"
   ],
   "published": "2019-12-17T09:19:28Z",
   "modified": "2026-10-25T23:34:53Z",

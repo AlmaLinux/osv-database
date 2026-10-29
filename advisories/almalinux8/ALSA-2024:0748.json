@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2024:0748",
   "summary": "Important: container-tools:4.0 security update",
   "affected": [
@@ -858,10 +859,15 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2024-21626",
+  "upstream": [
     "CVE-2023-39326",
-    "CVE-2023-45287"
+    "CVE-2023-45287",
+    "CVE-2024-21626"
+  ],
+  "related": [
+    "CVE-2023-39326",
+    "CVE-2023-45287",
+    "CVE-2024-21626"
   ],
   "published": "2024-02-08T00:00:00Z",
   "modified": "2024-02-12T10:53:48Z",

@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2025:17415",
   "summary": "Moderate: gnutls security, bug fix, and enhancement update",
   "affected": [
@@ -98,9 +99,14 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2025-32990",
+  "upstream": [
     "CVE-2025-32988",
+    "CVE-2025-32990",
+    "CVE-2025-6395"
+  ],
+  "related": [
+    "CVE-2025-32988",
+    "CVE-2025-32990",
     "CVE-2025-6395"
   ],
   "published": "2025-10-07T00:00:00Z",

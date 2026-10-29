@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:28999",
   "summary": "Important: postgresql:12 security update",
   "affected": [
@@ -79,9 +80,19 @@
       ]
     }
   ],
-  "related": [
+  "upstream": [
+    "CVE-2026-6473",
+    "CVE-2026-6475",
+    "CVE-2026-6477",
     "CVE-2026-6478",
-    "CVE-2026-6473"
+    "CVE-2026-6637"
+  ],
+  "related": [
+    "CVE-2026-6473",
+    "CVE-2026-6475",
+    "CVE-2026-6477",
+    "CVE-2026-6478",
+    "CVE-2026-6637"
   ],
   "published": "2026-06-24T00:00:00Z",
   "modified": "2026-10-26T00:06:24Z",

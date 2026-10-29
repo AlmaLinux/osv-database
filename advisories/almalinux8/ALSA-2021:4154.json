@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2021:4154",
   "summary": "Moderate: container-tools:rhel8 security, bug fix, and enhancement update",
   "affected": [
@@ -516,9 +517,13 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2021-20291",
+    "CVE-2021-3602"
+  ],
   "related": [
-    "CVE-2021-3602",
-    "CVE-2021-20291"
+    "CVE-2021-20291",
+    "CVE-2021-3602"
   ],
   "published": "2021-11-09T08:24:51Z",
   "modified": "2026-10-25T23:39:59Z",

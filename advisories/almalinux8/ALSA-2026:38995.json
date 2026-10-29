@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:38995",
   "summary": "Important: go-toolset:rhel8 security, bug fix, and enhancement update",
   "affected": [
@@ -174,10 +175,21 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2026-39821",
+  "upstream": [
     "CVE-2026-27145",
-    "CVE-2026-39822"
+    "CVE-2026-39821",
+    "CVE-2026-39822",
+    "CVE-2026-42504",
+    "CVE-2026-42505",
+    "CVE-2026-42507"
+  ],
+  "related": [
+    "CVE-2026-27145",
+    "CVE-2026-39821",
+    "CVE-2026-39822",
+    "CVE-2026-42504",
+    "CVE-2026-42505",
+    "CVE-2026-42507"
   ],
   "published": "2026-07-13T00:00:00Z",
   "modified": "2026-10-26T00:06:31Z",

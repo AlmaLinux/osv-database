@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2025:10031",
   "summary": "Important: python3.12 security update",
   "affected": [
@@ -155,12 +156,19 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2025-4435",
+  "upstream": [
     "CVE-2024-12718",
+    "CVE-2025-4138",
     "CVE-2025-4330",
-    "CVE-2025-4517",
-    "CVE-2025-4138"
+    "CVE-2025-4435",
+    "CVE-2025-4517"
+  ],
+  "related": [
+    "CVE-2024-12718",
+    "CVE-2025-4138",
+    "CVE-2025-4330",
+    "CVE-2025-4435",
+    "CVE-2025-4517"
   ],
   "published": "2025-07-01T00:00:00Z",
   "modified": "2025-07-01T19:39:28Z",

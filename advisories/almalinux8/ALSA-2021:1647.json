@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2021:1647",
   "summary": "Moderate: samba security, bug fix, and enhancement update",
   "affected": [
@@ -79,10 +80,15 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2020-1472",
+  "upstream": [
     "CVE-2020-14318",
-    "CVE-2020-14323"
+    "CVE-2020-14323",
+    "CVE-2020-1472"
+  ],
+  "related": [
+    "CVE-2020-14318",
+    "CVE-2020-14323",
+    "CVE-2020-1472"
   ],
   "published": "2021-05-18T05:44:25Z",
   "modified": "2021-11-12T10:20:56Z",

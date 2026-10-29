@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:0123",
   "summary": "Moderate: python3.12 security update",
   "affected": [
@@ -155,9 +156,13 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2025-12084",
+    "CVE-2025-8291"
+  ],
   "related": [
-    "CVE-2025-8291",
-    "CVE-2025-12084"
+    "CVE-2025-12084",
+    "CVE-2025-8291"
   ],
   "published": "2026-01-06T00:00:00Z",
   "modified": "2026-01-07T14:18:43Z",

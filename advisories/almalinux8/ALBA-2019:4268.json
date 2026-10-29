@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALBA-2019:4268",
   "summary": "idm:DL1 bug fix update",
   "affected": [
@@ -364,7 +365,14 @@
       ]
     }
   ],
-  "related": [],
+  "upstream": [
+    "CVE-2019-10195",
+    "CVE-2019-14867"
+  ],
+  "related": [
+    "CVE-2019-10195",
+    "CVE-2019-14867"
+  ],
   "published": "2019-12-17T09:19:15Z",
   "modified": "2021-12-15T23:07:54Z",
   "details": "Bug Fix(es):\n\n* IPA upgrade fails for latest ipa package when adtrust is installed (BZ#1773516)",

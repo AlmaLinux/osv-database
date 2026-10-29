@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2023:0050",
   "summary": "Moderate: nodejs:14 security, bug fix, and enhancement update",
   "affected": [
@@ -136,11 +137,18 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2021-44906",
+    "CVE-2022-0235",
+    "CVE-2022-24999",
+    "CVE-2022-3517",
+    "CVE-2022-43548"
+  ],
   "related": [
     "CVE-2021-44906",
     "CVE-2022-0235",
-    "CVE-2022-3517",
     "CVE-2022-24999",
+    "CVE-2022-3517",
     "CVE-2022-43548"
   ],
   "published": "2023-01-09T00:00:00Z",

@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2020:1708",
   "summary": "Moderate: liblouis security and bug fix update",
   "affected": [
@@ -41,10 +42,16 @@
       ]
     }
   ],
-  "related": [
+  "upstream": [
+    "CVE-2018-11577",
     "CVE-2018-11684",
     "CVE-2018-11685",
+    "CVE-2018-12085"
+  ],
+  "related": [
     "CVE-2018-11577",
+    "CVE-2018-11684",
+    "CVE-2018-11685",
     "CVE-2018-12085"
   ],
   "published": "2020-04-28T09:07:17Z",

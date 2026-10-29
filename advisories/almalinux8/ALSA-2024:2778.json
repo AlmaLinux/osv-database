@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2024:2778",
   "summary": "Important: nodejs:20 security update",
   "affected": [
@@ -155,12 +156,19 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2024-25629",
-    "CVE-2024-28182",
+  "upstream": [
     "CVE-2024-22025",
+    "CVE-2024-25629",
+    "CVE-2024-27982",
     "CVE-2024-27983",
-    "CVE-2024-27982"
+    "CVE-2024-28182"
+  ],
+  "related": [
+    "CVE-2024-22025",
+    "CVE-2024-25629",
+    "CVE-2024-27982",
+    "CVE-2024-27983",
+    "CVE-2024-28182"
   ],
   "published": "2024-05-09T00:00:00Z",
   "modified": "2024-05-09T12:14:55Z",

@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:54654",
   "summary": "Important: bind security update",
   "affected": [
@@ -326,12 +327,19 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2026-13321",
+  "upstream": [
+    "CVE-2026-10723",
     "CVE-2026-11622",
     "CVE-2026-11721",
     "CVE-2026-13204",
-    "CVE-2026-10723"
+    "CVE-2026-13321"
+  ],
+  "related": [
+    "CVE-2026-10723",
+    "CVE-2026-11622",
+    "CVE-2026-11721",
+    "CVE-2026-13204",
+    "CVE-2026-13321"
   ],
   "published": "2026-08-13T00:00:00Z",
   "modified": "2026-08-14T08:52:54Z",

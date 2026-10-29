@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:6036",
   "summary": "Moderate: kernel-rt security update",
   "affected": [
@@ -193,10 +194,15 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2025-38180",
+    "CVE-2026-23204",
+    "CVE-2026-23209"
+  ],
   "related": [
     "CVE-2025-38180",
-    "CVE-2026-23209",
-    "CVE-2026-23204"
+    "CVE-2026-23204",
+    "CVE-2026-23209"
   ],
   "published": "2026-03-30T00:00:00Z",
   "modified": "2026-03-30T10:51:16Z",

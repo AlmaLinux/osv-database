@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2021:3816",
   "summary": "Important: httpd:2.4 security update",
   "affected": [
@@ -60,9 +61,13 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2021-26691",
+    "CVE-2021-40438"
+  ],
   "related": [
-    "CVE-2021-40438",
-    "CVE-2021-26691"
+    "CVE-2021-26691",
+    "CVE-2021-40438"
   ],
   "published": "2021-10-12T15:53:03Z",
   "modified": "2022-01-26T07:27:24Z",

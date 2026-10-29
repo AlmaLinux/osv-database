@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2022:7108",
   "summary": "Moderate: sqlite security update",
   "affected": [
@@ -98,9 +99,13 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2020-35525",
+    "CVE-2020-35527"
+  ],
   "related": [
-    "CVE-2020-35527",
-    "CVE-2020-35525"
+    "CVE-2020-35525",
+    "CVE-2020-35527"
   ],
   "published": "2022-10-25T00:00:00Z",
   "modified": "2022-11-14T17:20:14Z",

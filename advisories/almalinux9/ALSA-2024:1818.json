@@ -712,6 +712,12 @@
     "CVE-2024-21085",
     "CVE-2024-21094"
   ],
+  "upstream": [
+    "CVE-2024-21011",
+    "CVE-2024-21068",
+    "CVE-2024-21085",
+    "CVE-2024-21094"
+  ],
   "published": "2024-04-18T00:00:00Z",
   "modified": "2024-04-19T13:03:54Z",
   "details": "The java-1.8.0-openjdk packages provide the OpenJDK 8 Java Runtime Environment and the OpenJDK 8 Java Software Development Kit.\n\nSecurity Fix(es):\n\n* OpenJDK: long Exception message leading to crash (8319851) (CVE-2024-21011)\n* OpenJDK: integer overflow in C1 compiler address generation (8322122) (CVE-2024-21068)\n* OpenJDK: Pack200 excessive memory allocation (8322114) (CVE-2024-21085)\n* OpenJDK: C2 compilation fails with \"Exceeded _node_regs array\" (8317507) (CVE-2024-21094)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
@@ -760,5 +766,6 @@
       "url": "https://errata.almalinux.org/9/ALSA-2024-1818.html",
       "type": "ADVISORY"
     }
-  ]
+  ],
+  "schema_version": "1.7.0"
 }

@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:32992",
   "summary": "Important: python3.12-urllib3 security update",
   "affected": [
@@ -22,9 +23,13 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2026-44431",
+    "CVE-2026-44432"
+  ],
   "related": [
-    "CVE-2026-44432",
-    "CVE-2026-44431"
+    "CVE-2026-44431",
+    "CVE-2026-44432"
   ],
   "published": "2026-06-29T00:00:00Z",
   "modified": "2026-06-29T14:47:43Z",

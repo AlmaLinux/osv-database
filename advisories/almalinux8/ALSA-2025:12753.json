@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2025:12753",
   "summary": "Important: kernel-rt security update",
   "affected": [
@@ -193,13 +194,21 @@
       ]
     }
   ],
-  "related": [
+  "upstream": [
+    "CVE-2022-50020",
     "CVE-2025-21928",
     "CVE-2025-22020",
     "CVE-2025-37890",
     "CVE-2025-38052",
-    "CVE-2025-38079",
-    "CVE-2022-50020"
+    "CVE-2025-38079"
+  ],
+  "related": [
+    "CVE-2022-50020",
+    "CVE-2025-21928",
+    "CVE-2025-22020",
+    "CVE-2025-37890",
+    "CVE-2025-38052",
+    "CVE-2025-38079"
   ],
   "published": "2025-08-04T00:00:00Z",
   "modified": "2025-08-07T10:27:31Z",

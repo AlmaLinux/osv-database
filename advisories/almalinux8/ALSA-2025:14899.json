@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2025:14899",
   "summary": "Important: postgresql:16 security update",
   "affected": [
@@ -345,9 +346,15 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2025-4207",
+    "CVE-2025-8714",
+    "CVE-2025-8715"
+  ],
   "related": [
-    "CVE-2025-8715",
-    "CVE-2025-8714"
+    "CVE-2025-4207",
+    "CVE-2025-8714",
+    "CVE-2025-8715"
   ],
   "published": "2025-08-28T00:00:00Z",
   "modified": "2026-10-25T23:56:22Z",

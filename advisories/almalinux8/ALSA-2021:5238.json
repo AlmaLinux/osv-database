@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2021:5238",
   "summary": "Low: virt:rhel and virt-devel:rhel security update",
   "affected": [
@@ -2131,9 +2132,13 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2021-20257",
+    "CVE-2021-3930"
+  ],
   "related": [
-    "CVE-2021-3930",
-    "CVE-2021-20257"
+    "CVE-2021-20257",
+    "CVE-2021-3930"
   ],
   "published": "2021-12-21T09:11:21Z",
   "modified": "2021-12-23T15:15:26Z",

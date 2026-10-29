@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:91719",
+  "summary": "Important: ignition security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "ignition"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.26.0-1.el9_8.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "ignition-edge"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.26.0-1.el9_8.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "ignition-grub"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.26.0-1.el9_8.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "ignition-validate"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.26.0-1.el9_8.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-111943"
+  ],
+  "related": [
+    "CVE-2026-111943"
+  ],
+  "published": "2026-10-28T00:00:00Z",
+  "modified": "2026-10-29T14:29:57Z",
+  "details": "Ignition is a utility used to manipulate systems during the initramfs. This includes partitioning disks, formatting partitions, writing files (regular files, systemd units, etc.), and configuring users. On first boot, Ignition reads its configuration from a source of truth (remote URL, network metadata service, hypervisor bridge, etc.) and applies the configuration.  \n\nSecurity Fix(es):  \n\n  * crypto/x509: golang: crypto/x509: Man-in-the-middle attacks via untrusted intermediate certificates (CVE-2026-111943)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:91719",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-111943",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2556068",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-91719.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

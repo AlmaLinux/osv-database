@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2024:0811",
   "summary": "Moderate: sudo security update",
   "affected": [
@@ -41,9 +42,14 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2023-28487",
+  "upstream": [
     "CVE-2023-28486",
+    "CVE-2023-28487",
+    "CVE-2023-42465"
+  ],
+  "related": [
+    "CVE-2023-28486",
+    "CVE-2023-28487",
     "CVE-2023-42465"
   ],
   "published": "2024-02-14T00:00:00Z",

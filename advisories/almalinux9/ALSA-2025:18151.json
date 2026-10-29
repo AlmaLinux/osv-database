@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2025:18151",
   "summary": "Important: .NET 9.0 security update",
   "affected": [
@@ -288,10 +289,15 @@
       ]
     }
   ],
-  "related": [
+  "upstream": [
+    "CVE-2025-55247",
     "CVE-2025-55248",
-    "CVE-2025-55315",
-    "CVE-2025-55247"
+    "CVE-2025-55315"
+  ],
+  "related": [
+    "CVE-2025-55247",
+    "CVE-2025-55248",
+    "CVE-2025-55315"
   ],
   "published": "2025-10-15T00:00:00Z",
   "modified": "2025-11-03T08:48:44Z",

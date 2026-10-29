@@ -1005,6 +1005,20 @@
     "CVE-2026-33636",
     "CVE-2026-33416"
   ],
+  "upstream": [
+    "CVE-2026-22007",
+    "CVE-2026-22008",
+    "CVE-2026-22013",
+    "CVE-2026-22016",
+    "CVE-2026-22018",
+    "CVE-2026-22021",
+    "CVE-2026-23865",
+    "CVE-2026-26740",
+    "CVE-2026-33416",
+    "CVE-2026-33636",
+    "CVE-2026-34268",
+    "CVE-2026-34282"
+  ],
   "published": "2026-04-22T00:00:00Z",
   "modified": "2026-04-24T09:58:24Z",
   "details": "The OpenJDK 25 packages provide the OpenJDK 25 Java Runtime Environment and the OpenJDK 25 Java Software Development Kit.  \n\nSecurity Fix(es):  \n\n  * JDK: Enhance crypto algorithm support (CVE-2026-22007)\n  * JDK: Improved Arena allocations (CVE-2026-22008)\n  * JDK: Improve Kerberos credentialing (CVE-2026-22013)\n  * JDK: Enhance Path Factories Redux (CVE-2026-22016)\n  * JDK: Enhance Zip file reading (CVE-2026-22018)\n  * JDK: Enhance certificate chain validation (CVE-2026-22021)\n  * JDK: Updating FreeType 2.14.1 (CVE-2026-23865)\n  * JDK: Enhance TLS connection handling (CVE-2026-34282)\n  * JDK: Enhance key generation (CVE-2026-34268)\n\n\nThis release also updates a number of third-party libraries included in the JDK. The libraries themselves are affected by the following CVEs, but this is not a statement that the JDK itself is affected:  \n\n  * giflib: Denial of Service via buffer overflow in EGifGCBToExtension (CVE-2026-26740)\n  * libpng: Information disclosure and denial of service via out-of-bounds read/write in Neon palette expansion (CVE-2026-33636)\n  * libpng: Arbitrary code execution due to use-after-free vulnerability (CVE-2026-33416)\n\n\nBug Fix(es):  \n\n  * When copying files, OpenJDK 25 prefers to use the copy_file_range native function for performance reasons, only falling back to sendfile when this fails. However, in previous OpenJDK 25 releases, a response of EOPNOTSUPP (operation not supported) did not cause the JDK to fall back to sendfile. This is rectified in this release. (AlmaLinux-169939, AlmaLinux-169937)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
@@ -1069,5 +1083,6 @@
       "url": "https://errata.almalinux.org/9/ALSA-2026-9693.html",
       "type": "ADVISORY"
     }
-  ]
+  ],
+  "schema_version": "1.7.0"
 }

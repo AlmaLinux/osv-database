@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2023:5363",
   "summary": "Important: nodejs:18 security, bug fix, and enhancement update",
   "affected": [
@@ -155,9 +156,15 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2023-32002",
+  "upstream": [
     "CVE-2022-25883",
+    "CVE-2023-32002",
+    "CVE-2023-32006",
+    "CVE-2023-32559"
+  ],
+  "related": [
+    "CVE-2022-25883",
+    "CVE-2023-32002",
     "CVE-2023-32006",
     "CVE-2023-32559"
   ],

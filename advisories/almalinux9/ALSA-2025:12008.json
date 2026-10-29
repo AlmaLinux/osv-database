@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2025:12008",
   "summary": "Important: redis:7 security update",
   "affected": [
@@ -60,10 +61,15 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2025-27151",
+    "CVE-2025-32023",
+    "CVE-2025-48367"
+  ],
   "related": [
     "CVE-2025-27151",
-    "CVE-2025-48367",
-    "CVE-2025-32023"
+    "CVE-2025-32023",
+    "CVE-2025-48367"
   ],
   "published": "2025-07-28T00:00:00Z",
   "modified": "2025-07-29T10:55:40Z",

@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2025:4169",
   "summary": "Important: thunderbird security update",
   "affected": [
@@ -22,9 +23,14 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2025-3029",
+  "upstream": [
     "CVE-2025-3028",
+    "CVE-2025-3029",
+    "CVE-2025-3030"
+  ],
+  "related": [
+    "CVE-2025-3028",
+    "CVE-2025-3029",
     "CVE-2025-3030"
   ],
   "published": "2025-04-24T00:00:00Z",

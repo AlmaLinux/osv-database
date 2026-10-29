@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:73838",
   "summary": "Important: nodejs:24 security, bug fix, and enhancement update",
   "affected": [
@@ -193,10 +194,15 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2026-85152",
+  "upstream": [
+    "CVE-2026-19534",
     "CVE-2026-84961",
-    "CVE-2026-19534"
+    "CVE-2026-85152"
+  ],
+  "related": [
+    "CVE-2026-19534",
+    "CVE-2026-84961",
+    "CVE-2026-85152"
   ],
   "published": "2026-09-30T00:00:00Z",
   "modified": "2026-10-15T09:30:13Z",

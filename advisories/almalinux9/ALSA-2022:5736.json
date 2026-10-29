@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2022:5736",
   "summary": "Important: java-17-openjdk security, bug fix, and enhancement update",
   "affected": [
@@ -440,11 +441,17 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2022-34169",
+  "upstream": [
     "CVE-2022-21540",
     "CVE-2022-21541",
-    "CVE-2022-21549"
+    "CVE-2022-21549",
+    "CVE-2022-34169"
+  ],
+  "related": [
+    "CVE-2022-21540",
+    "CVE-2022-21541",
+    "CVE-2022-21549",
+    "CVE-2022-34169"
   ],
   "published": "2022-07-27T00:00:00Z",
   "modified": "2022-08-05T17:19:02Z",

@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2024:11123",
   "summary": "Important: gstreamer1-plugins-base security update",
   "affected": [
@@ -60,10 +61,15 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2024-47538",
+    "CVE-2024-47607",
+    "CVE-2024-47615"
+  ],
   "related": [
     "CVE-2024-47538",
-    "CVE-2024-47615",
-    "CVE-2024-47607"
+    "CVE-2024-47607",
+    "CVE-2024-47615"
   ],
   "published": "2024-12-16T00:00:00Z",
   "modified": "2024-12-23T08:19:57Z",

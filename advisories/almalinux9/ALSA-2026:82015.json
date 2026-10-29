@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:82015",
   "summary": "Important: xorg-x11-server security update",
   "affected": [
@@ -155,9 +156,14 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2026-93521",
+  "upstream": [
     "CVE-2026-88812",
+    "CVE-2026-93521",
+    "CVE-2026-93523"
+  ],
+  "related": [
+    "CVE-2026-88812",
+    "CVE-2026-93521",
     "CVE-2026-93523"
   ],
   "published": "2026-10-13T00:00:00Z",

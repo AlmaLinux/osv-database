@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2022:5695",
   "summary": "Important: java-11-openjdk security, bug fix, and enhancement update",
   "affected": [
@@ -440,10 +441,15 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2022-34169",
+  "upstream": [
     "CVE-2022-21540",
-    "CVE-2022-21541"
+    "CVE-2022-21541",
+    "CVE-2022-34169"
+  ],
+  "related": [
+    "CVE-2022-21540",
+    "CVE-2022-21541",
+    "CVE-2022-34169"
   ],
   "published": "2022-07-25T00:00:00Z",
   "modified": "2023-09-15T13:41:48Z",

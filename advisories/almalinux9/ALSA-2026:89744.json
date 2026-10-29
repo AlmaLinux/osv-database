@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:89744",
   "summary": "Critical: grafana security update",
   "affected": [
@@ -41,12 +42,19 @@
       ]
     }
   ],
-  "related": [
+  "upstream": [
+    "CVE-2026-111943",
     "CVE-2026-17183",
     "CVE-2026-78667",
-    "CVE-2026-97031",
     "CVE-2026-78669",
-    "CVE-2026-111943"
+    "CVE-2026-97031"
+  ],
+  "related": [
+    "CVE-2026-111943",
+    "CVE-2026-17183",
+    "CVE-2026-78667",
+    "CVE-2026-78669",
+    "CVE-2026-97031"
   ],
   "published": "2026-10-26T00:00:00Z",
   "modified": "2026-10-26T19:23:34Z",

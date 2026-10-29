@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2023:3592",
   "summary": "Important: .NET 7.0 security, bug fix, and enhancement update",
   "affected": [
@@ -212,12 +213,19 @@
       ]
     }
   ],
-  "related": [
+  "upstream": [
+    "CVE-2023-24936",
     "CVE-2023-29331",
     "CVE-2023-29337",
     "CVE-2023-32032",
-    "CVE-2023-33128",
-    "CVE-2023-24936"
+    "CVE-2023-33128"
+  ],
+  "related": [
+    "CVE-2023-24936",
+    "CVE-2023-29331",
+    "CVE-2023-29337",
+    "CVE-2023-32032",
+    "CVE-2023-33128"
   ],
   "published": "2023-06-14T00:00:00Z",
   "modified": "2023-06-23T18:38:25Z",

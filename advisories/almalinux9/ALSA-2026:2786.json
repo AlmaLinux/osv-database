@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:2786",
   "summary": "Moderate: glibc security update",
   "affected": [
@@ -4088,10 +4089,15 @@
       ]
     }
   ],
-  "related": [
+  "upstream": [
+    "CVE-2025-15281",
     "CVE-2026-0861",
-    "CVE-2026-0915",
-    "CVE-2025-15281"
+    "CVE-2026-0915"
+  ],
+  "related": [
+    "CVE-2025-15281",
+    "CVE-2026-0861",
+    "CVE-2026-0915"
   ],
   "published": "2026-02-17T00:00:00Z",
   "modified": "2026-02-18T13:44:36Z",

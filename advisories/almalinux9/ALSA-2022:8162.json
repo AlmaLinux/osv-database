@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2022:8162",
   "summary": "Moderate: 389-ds-base security, bug fix, and enhancement update",
   "affected": [
@@ -60,10 +61,15 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2022-0918",
+    "CVE-2022-0996",
+    "CVE-2022-2850"
+  ],
   "related": [
     "CVE-2022-0918",
-    "CVE-2022-2850",
-    "CVE-2022-0996"
+    "CVE-2022-0996",
+    "CVE-2022-2850"
   ],
   "published": "2022-11-15T00:00:00Z",
   "modified": "2022-11-18T03:52:36Z",

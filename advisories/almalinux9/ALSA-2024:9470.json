@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2024:9470",
   "summary": "Low: cups security update",
   "affected": [
@@ -155,7 +156,12 @@
       ]
     }
   ],
-  "related": [],
+  "upstream": [
+    "CVE-2024-47175"
+  ],
+  "related": [
+    "CVE-2024-47175"
+  ],
   "published": "2024-11-12T00:00:00Z",
   "modified": "2024-11-18T11:53:52Z",
   "details": "The Common UNIX Printing System (CUPS) provides a portable printing layer for Linux, UNIX, and similar operating systems.  \n\nSecurity Fix(es):  \n\n  * cups: libppd: remote command injection via attacker controlled data in PPD file ()\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",

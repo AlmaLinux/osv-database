@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2023:2367",
   "summary": "Moderate: containernetworking-plugins security and bug fix update",
   "affected": [
@@ -22,9 +23,13 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2022-30629",
+    "CVE-2022-41717"
+  ],
   "related": [
-    "CVE-2022-41717",
-    "CVE-2022-30629"
+    "CVE-2022-30629",
+    "CVE-2022-41717"
   ],
   "published": "2023-05-09T00:00:00Z",
   "modified": "2023-05-12T05:41:21Z",

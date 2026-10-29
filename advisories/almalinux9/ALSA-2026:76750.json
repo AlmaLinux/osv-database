@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:76750",
   "summary": "Important: nodejs:22 security update",
   "affected": [
@@ -193,9 +194,13 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2026-19534",
+    "CVE-2026-9496"
+  ],
   "related": [
-    "CVE-2026-9496",
-    "CVE-2026-19534"
+    "CVE-2026-19534",
+    "CVE-2026-9496"
   ],
   "published": "2026-10-06T00:00:00Z",
   "modified": "2026-10-14T15:03:36Z",

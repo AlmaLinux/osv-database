@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2022:8263",
   "summary": "Important: dpdk security and bug fix update",
   "affected": [
@@ -79,9 +80,14 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2022-2132",
+  "upstream": [
     "CVE-2021-3839",
+    "CVE-2022-2132",
+    "CVE-2022-28199"
+  ],
+  "related": [
+    "CVE-2021-3839",
+    "CVE-2022-2132",
     "CVE-2022-28199"
   ],
   "published": "2022-11-15T00:00:00Z",

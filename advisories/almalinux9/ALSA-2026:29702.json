@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:29702",
   "summary": "Important: runc security update",
   "affected": [
@@ -22,10 +23,15 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2026-25679",
+    "CVE-2026-32280",
+    "CVE-2026-32281"
+  ],
   "related": [
     "CVE-2026-25679",
-    "CVE-2026-32281",
-    "CVE-2026-32280"
+    "CVE-2026-32280",
+    "CVE-2026-32281"
   ],
   "published": "2026-06-25T00:00:00Z",
   "modified": "2026-06-29T10:11:10Z",

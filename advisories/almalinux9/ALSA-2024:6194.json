@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2024:6194",
   "summary": "Important: podman security update",
   "affected": [
@@ -98,10 +99,15 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2024-24783",
+    "CVE-2024-37298",
+    "CVE-2024-6104"
+  ],
   "related": [
     "CVE-2024-24783",
-    "CVE-2024-6104",
-    "CVE-2024-37298"
+    "CVE-2024-37298",
+    "CVE-2024-6104"
   ],
   "published": "2024-09-03T00:00:00Z",
   "modified": "2024-09-04T08:19:33Z",

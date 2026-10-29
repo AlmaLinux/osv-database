@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:53329",
   "summary": "Important: kernel security, bug fix, and enhancement update",
   "affected": [
@@ -1409,9 +1410,15 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2026-31530",
+  "upstream": [
     "CVE-2025-54518",
+    "CVE-2026-31530",
+    "CVE-2026-64368",
+    "CVE-2026-64531"
+  ],
+  "related": [
+    "CVE-2025-54518",
+    "CVE-2026-31530",
     "CVE-2026-64368",
     "CVE-2026-64531"
   ],

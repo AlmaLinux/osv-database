@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2025:0693",
   "summary": "Important: redis security update",
   "affected": [
@@ -60,11 +61,18 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2022-24834",
+    "CVE-2023-45145",
+    "CVE-2024-31228",
+    "CVE-2024-31449",
+    "CVE-2024-46981"
+  ],
   "related": [
     "CVE-2022-24834",
     "CVE-2023-45145",
-    "CVE-2024-31449",
     "CVE-2024-31228",
+    "CVE-2024-31449",
     "CVE-2024-46981"
   ],
   "published": "2025-01-27T00:00:00Z",

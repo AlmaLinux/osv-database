@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2022:6582",
   "summary": "Important: kernel-rt security and bug fix update",
   "affected": [
@@ -231,9 +232,13 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2022-2078",
+    "CVE-2022-34918"
+  ],
   "related": [
-    "CVE-2022-34918",
-    "CVE-2022-2078"
+    "CVE-2022-2078",
+    "CVE-2022-34918"
   ],
   "published": "2022-09-20T00:00:00Z",
   "modified": "2022-10-19T06:58:19Z",

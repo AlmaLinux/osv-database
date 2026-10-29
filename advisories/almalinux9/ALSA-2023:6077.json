@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2023:6077",
   "summary": "Moderate: toolbox security update",
   "affected": [
@@ -41,7 +42,14 @@
       ]
     }
   ],
-  "related": [],
+  "upstream": [
+    "CVE-2023-39325",
+    "CVE-2023-44487"
+  ],
+  "related": [
+    "CVE-2023-39325",
+    "CVE-2023-44487"
+  ],
   "published": "2023-10-24T00:00:00Z",
   "modified": "2023-10-25T11:22:46Z",
   "details": "The rhel9/toolbox container image can be used with Toolbox to obtain AlmaLinux based containerized command line environments to aid with development and software testing. Toolbox is built on top of Podman and other standard container technologies from OCI.\n\nThis updates the rhel9/toolbox image in the AlmaLinux container registry.\n\nTo pull this container image, run one of the following commands:\n\n    podman pull registry.AlmaLinux.io/rhel9/toolbox (authenticated)\n    podman pull registry.access.AlmaLinux.com/ubi9/toolbox (unauthenticated)",

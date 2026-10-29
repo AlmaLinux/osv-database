@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:7384",
   "summary": "Critical: cockpit: Unauthenticated remote code execution due to SSH command-line argument injection",
   "affected": [
@@ -154,6 +155,9 @@
         }
       ]
     }
+  ],
+  "upstream": [
+    "CVE-2026-4631"
   ],
   "related": [
     "CVE-2026-4631"

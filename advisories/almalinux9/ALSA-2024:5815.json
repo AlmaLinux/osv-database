@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2024:5815",
   "summary": "Moderate: nodejs:20 security update",
   "affected": [
@@ -155,9 +156,14 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2024-22020",
+  "upstream": [
     "CVE-2024-22018",
+    "CVE-2024-22020",
+    "CVE-2024-36137"
+  ],
+  "related": [
+    "CVE-2024-22018",
+    "CVE-2024-22020",
     "CVE-2024-36137"
   ],
   "published": "2024-08-26T00:00:00Z",

@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2024:2204",
   "summary": "Moderate: libnbd security update",
   "affected": [
@@ -136,9 +137,13 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2023-5215",
+    "CVE-2023-5871"
+  ],
   "related": [
-    "CVE-2023-5871",
-    "CVE-2023-5215"
+    "CVE-2023-5215",
+    "CVE-2023-5871"
   ],
   "published": "2024-04-30T00:00:00Z",
   "modified": "2024-05-07T15:05:26Z",

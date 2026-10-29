@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2023:6266",
   "summary": "Critical: squid security update",
   "affected": [
@@ -22,9 +23,14 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2023-46847",
+  "upstream": [
     "CVE-2023-46846",
+    "CVE-2023-46847",
+    "CVE-2023-46848"
+  ],
+  "related": [
+    "CVE-2023-46846",
+    "CVE-2023-46847",
     "CVE-2023-46848"
   ],
   "published": "2023-11-02T00:00:00Z",

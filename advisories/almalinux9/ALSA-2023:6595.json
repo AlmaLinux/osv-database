@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2023:6595",
   "summary": "Important: linux-firmware security, bug fix, and enhancement update",
   "affected": [
@@ -326,13 +327,21 @@
       ]
     }
   ],
-  "related": [
+  "upstream": [
     "CVE-2022-27635",
+    "CVE-2022-36351",
+    "CVE-2022-38076",
     "CVE-2022-40964",
     "CVE-2022-46329",
+    "CVE-2023-20569"
+  ],
+  "related": [
+    "CVE-2022-27635",
     "CVE-2022-36351",
-    "CVE-2023-20569",
-    "CVE-2022-38076"
+    "CVE-2022-38076",
+    "CVE-2022-40964",
+    "CVE-2022-46329",
+    "CVE-2023-20569"
   ],
   "published": "2023-11-07T00:00:00Z",
   "modified": "2023-11-14T12:15:32Z",

@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2023:6679",
   "summary": "Moderate: curl security update",
   "affected": [
@@ -98,10 +99,16 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2023-27536",
+  "upstream": [
     "CVE-2023-27533",
     "CVE-2023-27534",
+    "CVE-2023-27536",
+    "CVE-2023-27538"
+  ],
+  "related": [
+    "CVE-2023-27533",
+    "CVE-2023-27534",
+    "CVE-2023-27536",
     "CVE-2023-27538"
   ],
   "published": "2023-11-07T00:00:00Z",

@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2024:10787",
   "summary": "Important: postgresql:15 security update",
   "affected": [
@@ -345,10 +346,15 @@
       ]
     }
   ],
-  "related": [
+  "upstream": [
+    "CVE-2024-10976",
     "CVE-2024-10978",
-    "CVE-2024-10979",
-    "CVE-2024-10976"
+    "CVE-2024-10979"
+  ],
+  "related": [
+    "CVE-2024-10976",
+    "CVE-2024-10978",
+    "CVE-2024-10979"
   ],
   "published": "2024-12-04T00:00:00Z",
   "modified": "2024-12-05T14:30:14Z",

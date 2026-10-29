@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2024:0249",
   "summary": "Important: java-21-openjdk security update",
   "affected": [
@@ -440,12 +441,19 @@
       ]
     }
   ],
-  "related": [
+  "upstream": [
     "CVE-2024-20918",
-    "CVE-2024-20952",
     "CVE-2024-20919",
     "CVE-2024-20921",
-    "CVE-2024-20945"
+    "CVE-2024-20945",
+    "CVE-2024-20952"
+  ],
+  "related": [
+    "CVE-2024-20918",
+    "CVE-2024-20919",
+    "CVE-2024-20921",
+    "CVE-2024-20945",
+    "CVE-2024-20952"
   ],
   "published": "2024-01-17T00:00:00Z",
   "modified": "2024-01-20T14:58:07Z",

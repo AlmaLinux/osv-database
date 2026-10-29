@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2024:3826",
   "summary": "Moderate: podman security and bug fix update",
   "affected": [
@@ -98,10 +99,15 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2024-28180",
+  "upstream": [
     "CVE-2023-45290",
-    "CVE-2024-28176"
+    "CVE-2024-28176",
+    "CVE-2024-28180"
+  ],
+  "related": [
+    "CVE-2023-45290",
+    "CVE-2024-28176",
+    "CVE-2024-28180"
   ],
   "published": "2024-06-11T00:00:00Z",
   "modified": "2024-06-14T09:47:46Z",

@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2025:7243",
   "summary": "Moderate: gstreamer1-plugins-base security update",
   "affected": [
@@ -60,9 +61,15 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2024-47542",
+  "upstream": [
     "CVE-2024-47541",
+    "CVE-2024-47542",
+    "CVE-2024-47600",
+    "CVE-2024-47835"
+  ],
+  "related": [
+    "CVE-2024-47541",
+    "CVE-2024-47542",
     "CVE-2024-47600",
     "CVE-2024-47835"
   ],

@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:55772",
   "summary": "Important: haproxy security update",
   "affected": [
@@ -22,9 +23,13 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2026-55203",
+    "CVE-2026-55204"
+  ],
   "related": [
-    "CVE-2026-55204",
-    "CVE-2026-55203"
+    "CVE-2026-55203",
+    "CVE-2026-55204"
   ],
   "published": "2026-08-17T00:00:00Z",
   "modified": "2026-08-18T08:52:02Z",

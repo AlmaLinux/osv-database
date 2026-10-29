@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2023:1469",
   "summary": "Important: kernel-rt security and bug fix update",
   "affected": [
@@ -231,10 +232,15 @@
       ]
     }
   ],
-  "related": [
+  "upstream": [
+    "CVE-2022-4269",
     "CVE-2022-4744",
-    "CVE-2023-0266",
-    "CVE-2022-4269"
+    "CVE-2023-0266"
+  ],
+  "related": [
+    "CVE-2022-4269",
+    "CVE-2022-4744",
+    "CVE-2023-0266"
   ],
   "published": "2023-03-27T00:00:00Z",
   "modified": "2023-03-27T22:27:39Z",

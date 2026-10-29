@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:68011",
   "summary": "Important: microcode_ctl security, bug fix, and enhancement update",
   "affected": [
@@ -22,9 +23,13 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2025-31936",
+    "CVE-2025-35973"
+  ],
   "related": [
-    "CVE-2025-35973",
-    "CVE-2025-31936"
+    "CVE-2025-31936",
+    "CVE-2025-35973"
   ],
   "published": "2026-09-16T00:00:00Z",
   "modified": "2026-09-17T10:38:38Z",

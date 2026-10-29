@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:34359",
   "summary": "Important: opentelemetry-collector security update",
   "affected": [
@@ -22,13 +23,21 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2026-42154",
-    "CVE-2026-42151",
+  "upstream": [
+    "CVE-2026-25681",
+    "CVE-2026-27145",
     "CVE-2026-33811",
     "CVE-2026-39821",
+    "CVE-2026-42151",
+    "CVE-2026-42154"
+  ],
+  "related": [
     "CVE-2026-25681",
-    "CVE-2026-27145"
+    "CVE-2026-27145",
+    "CVE-2026-33811",
+    "CVE-2026-39821",
+    "CVE-2026-42151",
+    "CVE-2026-42154"
   ],
   "published": "2026-07-01T00:00:00Z",
   "modified": "2026-07-07T10:08:08Z",

@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:66341",
   "summary": "Moderate: apr-util security update",
   "affected": [
@@ -174,10 +175,16 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2026-34501",
+  "upstream": [
     "CVE-2025-49506",
     "CVE-2026-32327",
+    "CVE-2026-34501",
+    "CVE-2026-34502"
+  ],
+  "related": [
+    "CVE-2025-49506",
+    "CVE-2026-32327",
+    "CVE-2026-34501",
     "CVE-2026-34502"
   ],
   "published": "2026-09-10T00:00:00Z",

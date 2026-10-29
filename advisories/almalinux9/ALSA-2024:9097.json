@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2024:9097",
   "summary": "Moderate: buildah security update",
   "affected": [
@@ -41,9 +42,13 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2024-24791",
+    "CVE-2024-3727"
+  ],
   "related": [
-    "CVE-2024-3727",
-    "CVE-2024-24791"
+    "CVE-2024-24791",
+    "CVE-2024-3727"
   ],
   "published": "2024-11-12T00:00:00Z",
   "modified": "2024-11-19T06:25:44Z",

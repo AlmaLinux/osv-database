@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2024:3306",
   "summary": "Moderate: kernel security and bug fix update",
   "affected": [
@@ -1181,11 +1182,19 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2024-26643",
+  "upstream": [
     "CVE-2024-26642",
+    "CVE-2024-26643",
     "CVE-2024-26673",
-    "CVE-2024-26804"
+    "CVE-2024-26804",
+    "CVE-2024-35890"
+  ],
+  "related": [
+    "CVE-2024-26642",
+    "CVE-2024-26643",
+    "CVE-2024-26673",
+    "CVE-2024-26804",
+    "CVE-2024-35890"
   ],
   "published": "2024-05-23T00:00:00Z",
   "modified": "2024-11-03T22:11:49Z",

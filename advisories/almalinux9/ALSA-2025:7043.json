@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2025:7043",
   "summary": "Moderate: microcode_ctl security update",
   "affected": [
@@ -22,10 +23,15 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2024-28047",
+    "CVE-2024-31157",
+    "CVE-2024-39279"
+  ],
   "related": [
     "CVE-2024-28047",
-    "CVE-2024-39279",
-    "CVE-2024-31157"
+    "CVE-2024-31157",
+    "CVE-2024-39279"
   ],
   "published": "2025-05-13T00:00:00Z",
   "modified": "2025-07-02T13:47:48Z",

@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2023:3722",
   "summary": "Moderate: openssl security and bug fix update",
   "affected": [
@@ -79,12 +80,19 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2023-2650",
+  "upstream": [
     "CVE-2023-0464",
     "CVE-2023-0465",
     "CVE-2023-0466",
-    "CVE-2023-1255"
+    "CVE-2023-1255",
+    "CVE-2023-2650"
+  ],
+  "related": [
+    "CVE-2023-0464",
+    "CVE-2023-0465",
+    "CVE-2023-0466",
+    "CVE-2023-1255",
+    "CVE-2023-2650"
   ],
   "published": "2023-06-21T00:00:00Z",
   "modified": "2023-06-23T14:32:27Z",

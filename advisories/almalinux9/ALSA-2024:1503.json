@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2024:1503",
   "summary": "Important: nodejs:18 security update",
   "affected": [
@@ -155,10 +156,15 @@
       ]
     }
   ],
-  "related": [
+  "upstream": [
+    "CVE-2023-46809",
     "CVE-2024-21892",
-    "CVE-2024-22019",
-    "CVE-2023-46809"
+    "CVE-2024-22019"
+  ],
+  "related": [
+    "CVE-2023-46809",
+    "CVE-2024-21892",
+    "CVE-2024-22019"
   ],
   "published": "2024-03-25T00:00:00Z",
   "modified": "2024-04-04T09:21:15Z",

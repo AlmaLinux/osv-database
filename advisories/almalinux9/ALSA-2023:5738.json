@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2023:5738",
   "summary": "Important: go-toolset and golang security and bug fix update",
   "affected": [
@@ -155,11 +156,15 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2023-44487",
+  "upstream": [
+    "CVE-2023-29409",
     "CVE-2023-39325",
-    "CVE-2023-44487",
-    "CVE-2023-29409"
+    "CVE-2023-44487"
+  ],
+  "related": [
+    "CVE-2023-29409",
+    "CVE-2023-39325",
+    "CVE-2023-44487"
   ],
   "published": "2023-10-16T00:00:00Z",
   "modified": "2023-10-17T06:57:01Z",

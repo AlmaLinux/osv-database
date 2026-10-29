@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:49838",
   "summary": "Important: osbuild-composer security, bug fix, and enhancement update",
   "affected": [
@@ -60,9 +61,13 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2026-32280",
+    "CVE-2026-32281"
+  ],
   "related": [
-    "CVE-2026-32281",
-    "CVE-2026-32280"
+    "CVE-2026-32280",
+    "CVE-2026-32281"
   ],
   "published": "2026-08-04T00:00:00Z",
   "modified": "2026-08-12T12:01:46Z",

@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2024:4726",
   "summary": "Important: httpd security update",
   "affected": [
@@ -212,12 +213,19 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2024-38475",
+  "upstream": [
+    "CVE-2024-38473",
     "CVE-2024-38474",
+    "CVE-2024-38475",
     "CVE-2024-38477",
-    "CVE-2024-39573",
-    "CVE-2024-38473"
+    "CVE-2024-39573"
+  ],
+  "related": [
+    "CVE-2024-38473",
+    "CVE-2024-38474",
+    "CVE-2024-38475",
+    "CVE-2024-38477",
+    "CVE-2024-39573"
   ],
   "published": "2024-07-23T00:00:00Z",
   "modified": "2024-07-23T22:08:50Z",

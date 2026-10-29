@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2023:4377",
   "summary": "Important: kernel security, bug fix, and enhancement update",
   "affected": [
@@ -896,12 +897,19 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2023-3090",
-    "CVE-2023-35788",
+  "upstream": [
     "CVE-2022-45869",
     "CVE-2023-0458",
-    "CVE-2023-1998"
+    "CVE-2023-1998",
+    "CVE-2023-3090",
+    "CVE-2023-35788"
+  ],
+  "related": [
+    "CVE-2022-45869",
+    "CVE-2023-0458",
+    "CVE-2023-1998",
+    "CVE-2023-3090",
+    "CVE-2023-35788"
   ],
   "published": "2023-08-01T00:00:00Z",
   "modified": "2023-08-08T13:12:29Z",

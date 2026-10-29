@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2025:7178",
   "summary": "Moderate: gstreamer1, gstreamer1-plugins-bad-free, gstreamer1-plugins-ugly-free, and gstreamer1-rtsp-server security update",
   "affected": [
@@ -136,9 +137,13 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2024-0444",
+    "CVE-2024-4453"
+  ],
   "related": [
-    "CVE-2024-4453",
-    "CVE-2024-0444"
+    "CVE-2024-0444",
+    "CVE-2024-4453"
   ],
   "published": "2025-05-13T00:00:00Z",
   "modified": "2025-07-02T13:18:46Z",

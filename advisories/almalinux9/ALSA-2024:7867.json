@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2024:7867",
   "summary": "Important: .NET 6.0 security update",
   "affected": [
@@ -174,12 +175,14 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2024-43483",
+    "CVE-2024-43484",
+    "CVE-2024-43485"
+  ],
   "related": [
-    "CVE-2024-43484",
-    "CVE-2024-43485",
     "CVE-2024-43483",
     "CVE-2024-43484",
-    "CVE-2024-43483",
     "CVE-2024-43485"
   ],
   "published": "2024-10-09T00:00:00Z",

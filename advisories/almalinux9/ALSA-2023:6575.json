@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2023:6575",
   "summary": "Moderate: libtiff security update",
   "affected": [
@@ -60,12 +61,19 @@
       ]
     }
   ],
-  "related": [
+  "upstream": [
+    "CVE-2023-26965",
+    "CVE-2023-26966",
     "CVE-2023-2731",
     "CVE-2023-3316",
-    "CVE-2023-3576",
+    "CVE-2023-3576"
+  ],
+  "related": [
     "CVE-2023-26965",
-    "CVE-2023-26966"
+    "CVE-2023-26966",
+    "CVE-2023-2731",
+    "CVE-2023-3316",
+    "CVE-2023-3576"
   ],
   "published": "2023-11-07T00:00:00Z",
   "modified": "2023-11-14T12:06:49Z",

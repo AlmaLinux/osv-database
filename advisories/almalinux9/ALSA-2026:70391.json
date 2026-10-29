@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:70391",
   "summary": "Important: containernetworking-plugins security update",
   "affected": [
@@ -22,11 +23,18 @@
       ]
     }
   ],
-  "related": [
+  "upstream": [
     "CVE-2026-33818",
-    "CVE-2026-56860",
     "CVE-2026-56853",
     "CVE-2026-56858",
+    "CVE-2026-56860",
+    "CVE-2026-56862"
+  ],
+  "related": [
+    "CVE-2026-33818",
+    "CVE-2026-56853",
+    "CVE-2026-56858",
+    "CVE-2026-56860",
     "CVE-2026-56862"
   ],
   "published": "2026-09-22T00:00:00Z",

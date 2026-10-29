@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:91138",
+  "summary": "Important: yggdrasil security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "yggdrasil"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.4.9.2-1.el10_2.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "yggdrasil-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.4.9.2-1.el10_2.4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-111943",
+    "CVE-2026-78669",
+    "CVE-2026-94440"
+  ],
+  "related": [
+    "CVE-2026-111943",
+    "CVE-2026-78669",
+    "CVE-2026-94440"
+  ],
+  "published": "2026-10-27T00:00:00Z",
+  "modified": "2026-10-29T09:34:37Z",
+  "details": "yggdrasil is a system daemon that subscribes to topics on an MQTT broker and routes any data received on the topics to an appropriate child \"worker\" process, exchanging data with its worker processes through a D-Bus message broker.  \n\nSecurity Fix(es):  \n\n  * net/textproto: mime/multipart: golang: golang: Denial of Service via memory limit bypass in multipart form parsing (CVE-2026-94440)\n  * net/[http:](http:) net/http/internal/http2: golang.org/x/net/http2: net/[http:](http:) Denial of Service via excessive HTTP/2 SETTINGS frames (CVE-2026-78669)\n  * crypto/x509: golang: crypto/x509: Man-in-the-middle attacks via untrusted intermediate certificates (CVE-2026-111943)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:91138",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-111943",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-78669",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-94440",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2548341",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2548344",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2556068",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-91138.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

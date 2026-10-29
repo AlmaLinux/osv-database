@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:47017",
   "summary": "Important: kernel security, bug fix, and enhancement update",
   "affected": [
@@ -1428,12 +1429,21 @@
       ]
     }
   ],
-  "related": [
+  "upstream": [
+    "CVE-2026-31635",
+    "CVE-2026-43500",
     "CVE-2026-46086",
-    "CVE-2026-53006",
     "CVE-2026-52993",
-    "CVE-2026-53281",
-    "CVE-2026-43500"
+    "CVE-2026-53006",
+    "CVE-2026-53281"
+  ],
+  "related": [
+    "CVE-2026-31635",
+    "CVE-2026-43500",
+    "CVE-2026-46086",
+    "CVE-2026-52993",
+    "CVE-2026-53006",
+    "CVE-2026-53281"
   ],
   "published": "2026-07-28T00:00:00Z",
   "modified": "2026-08-25T14:29:15Z",

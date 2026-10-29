@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:88262",
   "summary": "Important: buildah security update",
   "affected": [
@@ -41,11 +42,17 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2025-11395",
+    "CVE-2026-111943",
+    "CVE-2026-78667",
+    "CVE-2026-78669"
+  ],
   "related": [
     "CVE-2025-11395",
+    "CVE-2026-111943",
     "CVE-2026-78667",
-    "CVE-2026-78669",
-    "CVE-2026-111943"
+    "CVE-2026-78669"
   ],
   "published": "2026-10-22T00:00:00Z",
   "modified": "2026-10-22T22:03:46Z",

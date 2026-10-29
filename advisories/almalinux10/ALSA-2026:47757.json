@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:47757",
   "summary": "Important: openssh security update",
   "affected": [
@@ -117,12 +118,19 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2026-55655",
+  "upstream": [
     "CVE-2026-55653",
     "CVE-2026-55654",
-    "CVE-2026-60002",
-    "CVE-2026-59996"
+    "CVE-2026-55655",
+    "CVE-2026-59996",
+    "CVE-2026-60002"
+  ],
+  "related": [
+    "CVE-2026-55653",
+    "CVE-2026-55654",
+    "CVE-2026-55655",
+    "CVE-2026-59996",
+    "CVE-2026-60002"
   ],
   "published": "2026-07-29T00:00:00Z",
   "modified": "2026-07-29T15:47:08Z",

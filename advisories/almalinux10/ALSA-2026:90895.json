@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:90895",
+  "summary": "Important: thunderbird security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "thunderbird"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "153.5.0-1.el10_2.alma.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-45186"
+  ],
+  "related": [
+    "CVE-2026-45186"
+  ],
+  "published": "2026-10-27T00:00:00Z",
+  "modified": "2026-10-29T09:35:42Z",
+  "details": "Mozilla Thunderbird is a standalone mail and newsgroup client.  \n\nSecurity Fix(es):  \n\n  * libexpat: denial of service via crafted XML input (CVE-2026-45186)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * Thunderbird ESR 153 rebase [rhel-10.2.z] (JIRA:RHEL-175207)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:90895",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-45186",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2468575",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-90895.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

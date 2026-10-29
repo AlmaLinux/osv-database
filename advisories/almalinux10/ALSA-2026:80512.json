@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:80512",
   "summary": "Moderate: curl security update",
   "affected": [
@@ -79,12 +80,19 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2026-6253",
+  "upstream": [
+    "CVE-2026-10536",
     "CVE-2026-5545",
+    "CVE-2026-6253",
     "CVE-2026-6429",
-    "CVE-2026-7168",
-    "CVE-2026-10536"
+    "CVE-2026-7168"
+  ],
+  "related": [
+    "CVE-2026-10536",
+    "CVE-2026-5545",
+    "CVE-2026-6253",
+    "CVE-2026-6429",
+    "CVE-2026-7168"
   ],
   "published": "2026-10-12T00:00:00Z",
   "modified": "2026-10-13T09:21:14Z",

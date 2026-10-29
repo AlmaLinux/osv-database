@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:48034",
   "summary": "Important: nodejs24 security update",
   "affected": [
@@ -117,10 +118,15 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2026-13149",
+    "CVE-2026-59873",
+    "CVE-2026-59874"
+  ],
   "related": [
     "CVE-2026-13149",
-    "CVE-2026-59874",
-    "CVE-2026-59873"
+    "CVE-2026-59873",
+    "CVE-2026-59874"
   ],
   "published": "2026-07-29T00:00:00Z",
   "modified": "2026-07-30T13:20:13Z",

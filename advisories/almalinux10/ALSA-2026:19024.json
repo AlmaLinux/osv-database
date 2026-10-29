@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:19024",
   "summary": "Important: gstreamer1-plugins-bad-free, gstreamer1-plugins-base, gstreamer1-plugins-good, and gstreamer1-plugins-ugly-free security update",
   "affected": [
@@ -174,14 +175,23 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2026-2920",
+    "CVE-2026-2921",
+    "CVE-2026-2922",
+    "CVE-2026-2923",
+    "CVE-2026-3082",
+    "CVE-2026-3083",
+    "CVE-2026-3085"
+  ],
   "related": [
     "CVE-2026-2920",
-    "CVE-2026-3082",
-    "CVE-2026-3085",
     "CVE-2026-2921",
-    "CVE-2026-3083",
     "CVE-2026-2922",
-    "CVE-2026-2923"
+    "CVE-2026-2923",
+    "CVE-2026-3082",
+    "CVE-2026-3083",
+    "CVE-2026-3085"
   ],
   "published": "2026-05-19T00:00:00Z",
   "modified": "2026-05-26T12:32:12Z",

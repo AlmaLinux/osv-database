@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:85848",
   "summary": "Important: rust-sequoia-sq security update",
   "affected": [
@@ -22,9 +23,13 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2026-93599",
+    "CVE-2026-93657"
+  ],
   "related": [
-    "CVE-2026-93657",
-    "CVE-2026-93599"
+    "CVE-2026-93599",
+    "CVE-2026-93657"
   ],
   "published": "2026-10-20T00:00:00Z",
   "modified": "2026-10-21T12:03:30Z",

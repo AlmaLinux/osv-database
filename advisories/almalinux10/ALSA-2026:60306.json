@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:60306",
   "summary": "Important: golang security, bug fix, and enhancement update",
   "affected": [
@@ -155,13 +156,21 @@
       ]
     }
   ],
-  "related": [
+  "upstream": [
     "CVE-2026-33818",
-    "CVE-2026-56860",
     "CVE-2026-56853",
     "CVE-2026-56858",
-    "CVE-2026-56862",
-    "CVE-2026-56859"
+    "CVE-2026-56859",
+    "CVE-2026-56860",
+    "CVE-2026-56862"
+  ],
+  "related": [
+    "CVE-2026-33818",
+    "CVE-2026-56853",
+    "CVE-2026-56858",
+    "CVE-2026-56859",
+    "CVE-2026-56860",
+    "CVE-2026-56862"
   ],
   "published": "2026-08-26T00:00:00Z",
   "modified": "2026-08-27T08:19:16Z",

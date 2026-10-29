@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:88336",
   "summary": "Important: podman security update",
   "affected": [
@@ -79,10 +80,15 @@
       ]
     }
   ],
-  "related": [
+  "upstream": [
+    "CVE-2026-111943",
     "CVE-2026-78667",
-    "CVE-2026-78669",
-    "CVE-2026-111943"
+    "CVE-2026-78669"
+  ],
+  "related": [
+    "CVE-2026-111943",
+    "CVE-2026-78667",
+    "CVE-2026-78669"
   ],
   "published": "2026-10-22T00:00:00Z",
   "modified": "2026-10-23T12:19:40Z",

@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:19010",
   "summary": "Important: postgresql16 security update",
   "affected": [
@@ -288,11 +289,17 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2026-2003",
+    "CVE-2026-2004",
+    "CVE-2026-2005",
+    "CVE-2026-2006"
+  ],
   "related": [
     "CVE-2026-2003",
-    "CVE-2026-2006",
     "CVE-2026-2004",
-    "CVE-2026-2005"
+    "CVE-2026-2005",
+    "CVE-2026-2006"
   ],
   "published": "2026-05-19T00:00:00Z",
   "modified": "2026-05-26T12:34:17Z",

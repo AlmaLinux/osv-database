@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:56969",
   "summary": "Important: php8.4 security, bug fix, and enhancement update",
   "affected": [
@@ -478,12 +479,15 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2026-17543",
+    "CVE-2026-17544",
+    "CVE-2026-7260"
+  ],
   "related": [
     "CVE-2026-17543",
     "CVE-2026-17544",
-    "CVE-2026-17543",
-    "CVE-2026-7260",
-    "CVE-2026-17544"
+    "CVE-2026-7260"
   ],
   "published": "2026-08-19T00:00:00Z",
   "modified": "2026-08-20T10:16:36Z",

@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:69125",
   "summary": "Important: curl security update",
   "affected": [
@@ -79,12 +80,20 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2026-8932",
-    "CVE-2026-8926",
+  "upstream": [
+    "CVE-2026-11856",
     "CVE-2026-8458",
     "CVE-2026-8924",
+    "CVE-2026-8926",
+    "CVE-2026-8932",
+    "CVE-2026-9079"
+  ],
+  "related": [
     "CVE-2026-11856",
+    "CVE-2026-8458",
+    "CVE-2026-8924",
+    "CVE-2026-8926",
+    "CVE-2026-8932",
     "CVE-2026-9079"
   ],
   "published": "2026-09-21T00:00:00Z",

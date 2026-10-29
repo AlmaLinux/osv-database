@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:10711",
   "summary": "Important: python3.12 security update",
   "affected": [
@@ -22,9 +23,13 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2026-4786",
+    "CVE-2026-6100"
+  ],
   "related": [
-    "CVE-2026-6100",
-    "CVE-2026-4786"
+    "CVE-2026-4786",
+    "CVE-2026-6100"
   ],
   "published": "2026-04-27T00:00:00Z",
   "modified": "2026-04-30T07:17:02Z",

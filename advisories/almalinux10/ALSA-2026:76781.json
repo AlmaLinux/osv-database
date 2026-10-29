@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:76781",
   "summary": "Moderate: glibc security, bug fix, and enhancement update",
   "affected": [
@@ -4202,11 +4203,17 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2026-6368",
-    "CVE-2026-6791",
+  "upstream": [
     "CVE-2026-19499",
-    "CVE-2026-19542"
+    "CVE-2026-19542",
+    "CVE-2026-6368",
+    "CVE-2026-6791"
+  ],
+  "related": [
+    "CVE-2026-19499",
+    "CVE-2026-19542",
+    "CVE-2026-6368",
+    "CVE-2026-6791"
   ],
   "published": "2026-10-06T00:00:00Z",
   "modified": "2026-10-09T07:41:20Z",

@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:84799",
   "summary": "Important: mariadb11.8 security update",
   "affected": [
@@ -288,10 +289,15 @@
       ]
     }
   ],
-  "related": [
+  "upstream": [
+    "CVE-2026-103111",
     "CVE-2026-86145",
-    "CVE-2026-89161",
-    "CVE-2026-103111"
+    "CVE-2026-89161"
+  ],
+  "related": [
+    "CVE-2026-103111",
+    "CVE-2026-86145",
+    "CVE-2026-89161"
   ],
   "published": "2026-10-19T00:00:00Z",
   "modified": "2026-10-22T09:00:57Z",

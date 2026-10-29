@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2025:13941",
   "summary": "Important: golang security update",
   "affected": [
@@ -79,8 +80,13 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2025-4674",
+    "CVE-2025-47907"
+  ],
   "related": [
-    "CVE-2025-4674"
+    "CVE-2025-4674",
+    "CVE-2025-47907"
   ],
   "published": "2025-08-18T00:00:00Z",
   "modified": "2026-10-26T00:11:44Z",

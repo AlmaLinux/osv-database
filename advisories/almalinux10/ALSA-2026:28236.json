@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2026:28236",
   "summary": "Moderate: libsolv security update",
   "affected": [
@@ -98,10 +99,15 @@
       ]
     }
   ],
-  "related": [
-    "CVE-2026-9150",
+  "upstream": [
+    "CVE-2026-48864",
     "CVE-2026-9149",
-    "CVE-2026-48864"
+    "CVE-2026-9150"
+  ],
+  "related": [
+    "CVE-2026-48864",
+    "CVE-2026-9149",
+    "CVE-2026-9150"
   ],
   "published": "2026-06-23T00:00:00Z",
   "modified": "2026-06-24T09:24:33Z",

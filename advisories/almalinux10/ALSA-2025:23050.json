@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.7.0",
   "id": "ALSA-2025:23050",
   "summary": "Important: tomcat security update",
   "affected": [
@@ -155,10 +156,15 @@
       ]
     }
   ],
+  "upstream": [
+    "CVE-2025-31651",
+    "CVE-2025-55752",
+    "CVE-2025-61795"
+  ],
   "related": [
     "CVE-2025-31651",
-    "CVE-2025-61795",
-    "CVE-2025-55752"
+    "CVE-2025-55752",
+    "CVE-2025-61795"
   ],
   "published": "2025-12-10T00:00:00Z",
   "modified": "2025-12-17T11:40:04Z",

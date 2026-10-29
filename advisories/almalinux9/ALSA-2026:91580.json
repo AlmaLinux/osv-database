@@ -1,0 +1,160 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:91580",
+  "summary": "Important: webkit2gtk3 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "webkit2gtk3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.54.2-0.el9_8.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "webkit2gtk3-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.54.2-0.el9_8.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "webkit2gtk3-jsc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.54.2-0.el9_8.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "webkit2gtk3-jsc-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.54.2-0.el9_8.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-106245",
+    "CVE-2026-106247",
+    "CVE-2026-106293",
+    "CVE-2026-106304",
+    "CVE-2026-95325",
+    "CVE-2026-95331"
+  ],
+  "related": [
+    "CVE-2026-106245",
+    "CVE-2026-106247",
+    "CVE-2026-106293",
+    "CVE-2026-106304",
+    "CVE-2026-95325",
+    "CVE-2026-95331"
+  ],
+  "published": "2026-10-28T00:00:00Z",
+  "modified": "2026-10-29T21:40:32Z",
+  "details": "WebKitGTK is the port of the portable web rendering engine WebKit to the GTK platform.  \n\nSecurity Fix(es):  \n\n  * chromium-browser: angle: Use after free in ANGLE (CVE-2026-95325)\n  * chromium-browser: angle: Out of bounds write in ANGLE (CVE-2026-95331)\n  * chromium-browser: angle: Out of bounds read in ANGLE (CVE-2026-106304)\n  * chromium-browser: angle: Buffer overflow in ANGLE (CVE-2026-106247)\n  * chromium-browser: angle: Type confusion in ANGLE (CVE-2026-106293)\n  * chromium-browser: angle: Uninitialized resource in ANGLE (CVE-2026-106245)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:91580",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-106245",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-106247",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-106293",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-106304",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-95325",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-95331",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2543413",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2543421",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2546829",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2546942",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2546956",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2546958",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-91580.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

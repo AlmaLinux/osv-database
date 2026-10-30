@@ -1,0 +1,372 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:92616",
+  "summary": "Important: httpd:2.4 security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "httpd"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.37-65.module_el8.10.0+4332+2bef2e0d.13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "httpd-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.37-65.module_el8.10.0+4332+2bef2e0d.13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "httpd-filesystem"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.37-65.module_el8.10.0+4332+2bef2e0d.13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "httpd-manual"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.37-65.module_el8.10.0+4332+2bef2e0d.13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "httpd-tools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.37-65.module_el8.10.0+4332+2bef2e0d.13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mod_http2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.15.7-10.module_el8.10.0+4233+8b7d9181.7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mod_http2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.15.7-10.module_el8.10.0+4270+e5f13fdb.7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mod_ldap"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.37-65.module_el8.10.0+4332+2bef2e0d.13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mod_md"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.0.8-8.module_el8.10.0+4295+280de5aa.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mod_proxy_html"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.4.37-65.module_el8.10.0+4332+2bef2e0d.13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mod_session"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.37-65.module_el8.10.0+4332+2bef2e0d.13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mod_ssl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.4.37-65.module_el8.10.0+4332+2bef2e0d.13"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33006",
+    "CVE-2026-46729",
+    "CVE-2026-48005",
+    "CVE-2026-56153",
+    "CVE-2026-56154",
+    "CVE-2026-63045",
+    "CVE-2026-63292",
+    "CVE-2026-63686",
+    "CVE-2026-63718",
+    "CVE-2026-73636",
+    "CVE-2026-73637",
+    "CVE-2026-93546"
+  ],
+  "related": [
+    "CVE-2026-33006",
+    "CVE-2026-46729",
+    "CVE-2026-48005",
+    "CVE-2026-56153",
+    "CVE-2026-56154",
+    "CVE-2026-63045",
+    "CVE-2026-63292",
+    "CVE-2026-63686",
+    "CVE-2026-63718",
+    "CVE-2026-73636",
+    "CVE-2026-73637",
+    "CVE-2026-93546"
+  ],
+  "published": "2026-10-29T00:00:00Z",
+  "modified": "2026-10-30T09:27:39Z",
+  "details": "The httpd packages provide the Apache HTTP Server, a powerful, efficient, and extensible web server.  \n\nSecurity Fix(es):  \n\n  * httpd: mod_auth_digest: timing attack allows a bypass of digest authentication (CVE-2026-33006)\n  * httpd: httpd: HTTP response smuggling via crafted Transfer-Encoding response in mod_proxy_uwsgi (CVE-2026-63718)\n  * httpd: httpd: Denial of Service via integer overflow in mod_dav_fs (CVE-2026-93546)\n  * httpd: httpd: Authentication state corruption via concurrent Digest authentication requests (CVE-2026-73637)\n  * httpd: httpd: unauthorized connection to arbitrary hosts via crafted FTP PASV response (CVE-2026-63045)\n  * httpd: httpd: Arbitrary code execution via oversized Host header in mod_vhost_alias (CVE-2026-63292)\n  * httpd: httpd: mod_heartmonitor: Denial of Service via NULL pointer dereference (CVE-2026-46729)\n  * httpd: httpd: Authentication bypass via credential replay in mod_auth_digest (CVE-2026-73636)\n  * httpd: httpd: Denial of Service via charset conversion failure in mod_xml2enc (CVE-2026-63686)\n  * httpd: httpd: Denial of service via forged Authorization headers in mod_auth_digest (CVE-2026-48005)\n  * httpd: httpd: Denial of Service via mod_rewrite lookahead (CVE-2026-56154)\n  * httpd: httpd: Denial of Service via heap-based buffer overflow in mod_charset_lite (CVE-2026-56153)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * mod_proxy_hcheck: passing health check does not recover worker from its standard error state (PROXY_WORKER_IN_ERROR) (JIRA:RHEL-256797)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:92616",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-33006",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-46729",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-48005",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-56153",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-56154",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-63045",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-63292",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-63686",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-63718",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-73636",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-73637",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-93546",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2465293",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2544781",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2544798",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2544814",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2544823",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2544832",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2544835",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2544849",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2544852",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2544861",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2544869",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2544885",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-92616.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

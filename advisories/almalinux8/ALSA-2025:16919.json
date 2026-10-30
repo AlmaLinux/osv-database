@@ -483,16 +483,18 @@
     "CVE-2022-50087",
     "CVE-2025-22026",
     "CVE-2025-37797",
+    "CVE-2025-37823",
     "CVE-2025-38718"
   ],
   "related": [
     "CVE-2022-50087",
     "CVE-2025-22026",
     "CVE-2025-37797",
+    "CVE-2025-37823",
     "CVE-2025-38718"
   ],
   "published": "2025-09-29T00:00:00Z",
-  "modified": "2025-10-01T09:28:42Z",
+  "modified": "2026-10-30T01:16:17Z",
   "details": "The kernel packages contain the Linux kernel, the core of any Linux operating system.  \n\nSecurity Fix(es):  \n\n  * kernel: nfsd: don't ignore the return code of svc_proc_register() (CVE-2025-22026)\n  * kernel: net_sched: hfsc: Fix a UAF vulnerability in class handling (CVE-2025-37797)\n  * kernel: firmware: arm_scpi: Ensure scpi_info is not assigned if the probe fails (CVE-2022-50087)\n  * kernel: sctp: linearize cloned gso packets in sctp_rcv (CVE-2025-38718)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -534,6 +536,10 @@
     {
       "url": "https://errata.almalinux.org/8/ALSA-2025-16919.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2025-37823.html",
+      "type": "REPORT"
     }
   ]
 }

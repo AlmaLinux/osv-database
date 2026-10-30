@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:92458",
+  "summary": "Important: aspell security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "aspell"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "12:0.60.8-9.el9_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "aspell-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "12:0.60.8-9.el9_8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-103658"
+  ],
+  "related": [
+    "CVE-2026-103658"
+  ],
+  "published": "2026-10-29T00:00:00Z",
+  "modified": "2026-10-30T08:51:33Z",
+  "details": "GNU Aspell is a spell checker designed to eventually replace Ispell. It can either be used as a library or as an independent spell checker.  \n\nSecurity Fix(es):  \n\n  * aspell: aspell: Arbitrary code execution via crafted dictionary file (CVE-2026-103658)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:92458",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-103658",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2550001",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-92458.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

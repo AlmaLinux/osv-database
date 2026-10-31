@@ -2485,6 +2485,7 @@
     "CVE-2021-35268",
     "CVE-2021-35269",
     "CVE-2021-3622",
+    "CVE-2021-3682",
     "CVE-2021-3716",
     "CVE-2021-3748",
     "CVE-2021-39251",
@@ -2516,6 +2517,7 @@
     "CVE-2021-35268",
     "CVE-2021-35269",
     "CVE-2021-3622",
+    "CVE-2021-3682",
     "CVE-2021-3716",
     "CVE-2021-3748",
     "CVE-2021-39251",
@@ -2537,9 +2539,521 @@
     "CVE-2022-0485"
   ],
   "published": "2022-05-10T07:59:57Z",
-  "modified": "2022-05-10T07:59:56Z",
+  "modified": "2026-10-30T18:59:05Z",
   "details": "Kernel-based Virtual Machine (KVM) offers a full virtualization solution for Linux on numerous hardware platforms. The virt:rhel module contains packages which provide user-space components used to run virtual machines using KVM. The packages also provide APIs for managing and interacting with the virtualized systems.\n\nThe following packages have been upgraded to a later upstream version: qemu-kvm (6.2.0), libvirt (8.0.0), libvirt-python (8.0.0), perl-Sys-Virt (8.0.0), seabios (1.15.0), libtpms (0.9.1). (BZ#1997410, BZ#2012802, BZ#2012806, BZ#2012813, BZ#2018392, BZ#2027716, BZ#2029355)\n\nSecurity Fix(es):\n\n* QEMU: virtio-net: heap use-after-free in virtio_net_receive_rcu (CVE-2021-3748)\n\n* ntfs-3g: Out-of-bounds heap buffer access in ntfs_get_attribute_value() due to incorrect check of bytes_in_use value in MFT records (CVE-2021-33285)\n\n* ntfs-3g: Heap buffer overflow triggered by a specially crafted Unicode string (CVE-2021-33286)\n\n* ntfs-3g: Heap buffer overflow in ntfs_attr_pread_i() triggered by specially crafted NTFS attributes (CVE-2021-33287)\n\n* ntfs-3g: Heap buffer overflow triggered by a specially crafted MFT section (CVE-2021-33289)\n\n* ntfs-3g: Heap buffer overflow triggered by a specially crafted NTFS inode pathname (CVE-2021-35266)\n\n* ntfs-3g: Stack buffer overflow triggered when correcting differences between MFT and MFTMirror sections (CVE-2021-35267)\n\n* ntfs-3g: Heap buffer overflow in ntfs_inode_real_open() triggered by a specially crafted NTFS inode (CVE-2021-35268)\n\n* ntfs-3g: Heap buffer overflow in ntfs_attr_setup_flag() triggered by a specially crafted NTFS attribute from MFT (CVE-2021-35269)\n\n* ntfs-3g: NULL pointer dereference in ntfs_extent_inode_open() (CVE-2021-39251)\n\n* ntfs-3g: Out-of-bounds read in ntfs_ie_lookup() (CVE-2021-39252)\n\n* ntfs-3g: Out-of-bounds read in ntfs_runlists_merge_i() (CVE-2021-39253)\n\n* ntfs-3g: Integer overflow in memmove() leading to heap buffer overflow in ntfs_attr_record_resize() (CVE-2021-39254)\n\n* ntfs-3g: Out-of-bounds read ntfs_attr_find_in_attrdef() triggered by an invalid attribute (CVE-2021-39255)\n\n* ntfs-3g: Heap buffer overflow in ntfs_inode_lookup_by_name() (CVE-2021-39256)\n\n* ntfs-3g: Endless recursion from ntfs_attr_pwrite() triggered by an unallocated bitmap (CVE-2021-39257)\n\n* ntfs-3g: Out-of-bounds reads in ntfs_attr_find() and ntfs_external_attr_find() (CVE-2021-39258)\n\n* ntfs-3g: Out-of-bounds access in ntfs_inode_lookup_by_name() caused by an unsanitized attribute length (CVE-2021-39259)\n\n* ntfs-3g: Out-of-bounds access in ntfs_inode_sync_standard_information() (CVE-2021-39260)\n\n* ntfs-3g: Heap buffer overflow in ntfs_compressed_pwrite() (CVE-2021-39261)\n\n* ntfs-3g: Out-of-bounds access in ntfs_decompress() (CVE-2021-39262)\n\n* ntfs-3g: Heap buffer overflow in ntfs_get_attribute_value() caused by an unsanitized attribute (CVE-2021-39263)\n\n* libnbd: nbdcopy: missing error handling may create corrupted destination image (CVE-2022-0485)\n\n* hivex: stack overflow due to recursive call of _get_children() (CVE-2021-3622)\n\n* nbdkit: NBD_OPT_STRUCTURED_REPLY injection on STARTTLS (CVE-2021-3716)\n\n* libvirt: segmentation fault during VM shutdown can lead to vdsm hang (CVE-2021-3975)\n\n* QEMU: NULL pointer dereference in mirror_wait_on_conflicts() in block/mirror.c (CVE-2021-4145)\n\n* QEMU: NULL pointer dereference in pci_write() in hw/acpi/pcihp.c (CVE-2021-4158)\n\n* QEMU: block: fdc: null pointer dereference may lead to guest crash (CVE-2021-20196)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:1759",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1510237",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1677608",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1689202",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1738392",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1743098",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1806857",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1810863",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1836094",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1845468",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1852762",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1867087",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1919210",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1924972",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1926508",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1942275",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1943203",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1953389",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1965140",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1965589",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1965638",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1972515",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1975489",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1975840",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1978574",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1981782",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1982993",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1983684",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1984721",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1985451",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1988104",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1988986",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1989338",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1989520",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1990135",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1994695",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1995865",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1996530",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1997410",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1998514",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1998947",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1998949",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1998950",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2000225",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2001525",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2001608",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2001609",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2001613",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2001616",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2001619",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2001621",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2001623",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2001645",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2001649",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2001650",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2001651",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2001652",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2001653",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2001654",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2001656",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2001658",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2001659",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2001661",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2001662",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2001665",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2001667",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2002607",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2002694",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2002907",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2003071",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2003679",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2004416",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2004812",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2007129",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2009236",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2012385",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2012802",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2012806",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2012813",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2013916",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2017928",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2018173",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2018392",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2020630",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2021778",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2022604",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2022606",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2022607",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2022608",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2023279",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2024326",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2024419",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2025769",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2026834",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2027208",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2027716",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2029355",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2029380",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2029582",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2029612",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2029647",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2030119",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2030435",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2030437",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2030438",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2031035",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2031039",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2031041",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2033279",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2034602",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2035002",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2035177",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2035185",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2035237",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2035714",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2036178",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2037135",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2041480",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2041610",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2043584",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2045945",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2046172",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2050324",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2050697",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2050702",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2054597",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2059311",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2065314",
+      "type": "REPORT"
+    },
     {
       "url": "https://errata.almalinux.org/8/ALSA-2022-1759.html",
       "type": "ADVISORY"
@@ -2658,6 +3172,10 @@
     },
     {
       "url": "https://vulners.com/cve/CVE-2022-0485",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2021-3682.html",
       "type": "REPORT"
     }
   ]

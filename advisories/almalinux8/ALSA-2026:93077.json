@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:93077",
+  "summary": "Critical: python-pillow security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3-pillow"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.1-36.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3-pillow-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.1-36.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3-pillow-doc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.1-36.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3-pillow-tk"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.1-36.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-112393",
+    "CVE-2026-112398",
+    "CVE-2026-112900"
+  ],
+  "related": [
+    "CVE-2026-112393",
+    "CVE-2026-112398",
+    "CVE-2026-112900"
+  ],
+  "published": "2026-10-30T00:00:00Z",
+  "modified": "2026-10-30T21:43:17Z",
+  "details": "Python is an interpreted, interactive, object-oriented programming language, which includes modules, classes, exceptions, very high level dynamic data types and dynamic typing. Python supports interfaces to many system calls and libraries, as well as to various windowing systems.  \n\nSecurity Fix(es):  \n\n  * pillow: Pillow: Heap buffer overflow in _tiffWriteProc when saving TIFF to BytesIO (CVE-2026-112393)\n  * pillow: Pillow: Heap buffer overflow in FlashPix (FPX) JPEG decoding leads to code execution (CVE-2026-112398)\n  * pillow: Pillow: Argument Injection in Ghostscript call, potentially leading into RCE (CVE-2026-112900)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:93077",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-112393",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-112398",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-112900",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2555846",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2555867",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2555889",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-93077.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

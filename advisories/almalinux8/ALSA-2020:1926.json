@@ -486,9 +486,29 @@
     "CVE-2020-10696"
   ],
   "published": "2020-04-28T16:06:48Z",
-  "modified": "2020-04-28T16:06:37Z",
+  "modified": "2026-10-30T18:56:49Z",
   "details": "The container-tools module contains tools for working with containers, notably podman, buildah, skopeo, and runc.\n\nSecurity Fix(es):\n\n* buildah: Crafted input tar file may lead to local file overwrite during image build process (CVE-2020-10696)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* conflicting requests: failed to install container-tools:1.0 (BZ#1813776)\n\n* podman run container error with avc denied (BZ#1816541)",
   "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2020:1926",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1776313",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1813776",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1816541",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1817651",
+      "type": "REPORT"
+    },
     {
       "url": "https://errata.almalinux.org/8/ALSA-2020-1926.html",
       "type": "ADVISORY"

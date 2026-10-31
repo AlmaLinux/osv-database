@@ -338,9 +338,193 @@
     "CVE-2020-1726"
   ],
   "published": "2020-04-28T09:01:00Z",
-  "modified": "2020-04-28T09:00:50Z",
+  "modified": "2026-10-30T18:57:09Z",
   "details": "The container-tools module contains tools for working with containers, notably podman, buildah, skopeo, and runc.\n\nSecurity Fix(es):\n\n* runc: volume mount race condition with shared mounts leads to information leak/integrity manipulation (CVE-2019-19921)\n\n* containers/image: Container images read entire image manifest into memory (CVE-2020-1702)\n\n* podman: incorrectly allows existing files in volumes to be overwritten by a container when it is created (CVE-2020-1726)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2020:1650",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1703245",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1717357",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1731107",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1732704",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1732713",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1748519",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1749999",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1754744",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1754763",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1755119",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1756919",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1757693",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1757845",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1763454",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1766774",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1768930",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1769469",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1771990",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1774755",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1775307",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1776112",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1779834",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1783267",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1783268",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1783270",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1783272",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1783274",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1784267",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1784952",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1788539",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1792796",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1793084",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1793598",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1796107",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1801152",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1802907",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1803496",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1804849",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1805017",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1805212",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1806901",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1808707",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1810053",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1811514",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1813295",
+      "type": "REPORT"
+    },
     {
       "url": "https://errata.almalinux.org/8/ALSA-2020-1650.html",
       "type": "ADVISORY"

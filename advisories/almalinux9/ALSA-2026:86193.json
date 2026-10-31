@@ -292,7 +292,9 @@
     "CVE-2026-96236",
     "CVE-2026-96237",
     "CVE-2026-96238",
-    "CVE-2026-96957"
+    "CVE-2026-96957",
+    "CVE-2026-96958",
+    "CVE-2026-96960"
   ],
   "related": [
     "CVE-2026-102870",
@@ -316,10 +318,12 @@
     "CVE-2026-96236",
     "CVE-2026-96237",
     "CVE-2026-96238",
-    "CVE-2026-96957"
+    "CVE-2026-96957",
+    "CVE-2026-96958",
+    "CVE-2026-96960"
   ],
   "published": "2026-10-20T00:00:00Z",
-  "modified": "2026-10-21T14:17:05Z",
+  "modified": "2026-10-30T19:02:45Z",
   "details": ".NET is a fast, lightweight and modular platform for creating cross platform applications that work on Linux, macOS and Windows. It particularly focuses on creating console applications, web applications and micro-services. .NET contains a runtime conforming to .NET Standards a set of framework libraries, an SDK containing compilers and a 'dotnet' application to drive everything.  \n\nSDK version: 10.0.113  \nRuntime version: 10.0.13  \n\nSecurity Fix(es):  \n\n  * dotnet: dotnet10.0: ASP.NET Core Remote Code Execution Vulnerability (CVE-2026-102870)\n  * dotnet10.0: dotnet9.0: dotnet: dotnet8.0: .NET Denial of Service Vulnerability (CVE-2026-58280)\n  * dotnet10.0: dotnet8.0: dotnet9.0: dotnet: .NET Information Disclosure Vulnerability (CVE-2026-66822)\n  * dotnet9.0: dotnet: dotnet10.0: dotnet8.0: .NET Denial of Service Vulnerability (CVE-2026-69651)\n  * dotnet8.0: dotnet10.0: dotnet: dotnet9.0: ASP.NET Core Denial of Service Vulnerability (CVE-2026-70159)\n  * dotnet10.0: dotnet8.0: dotnet9.0: ASP.NET Core Elevation of Privilege Vulnerability (CVE-2026-70175)\n  * dotnet10.0: dotnet8.0: dotnet9.0: ASP.NET Core Elevation of Privilege Vulnerability (CVE-2026-70179)\n  * dotnet9.0: dotnet8.0: dotnet10.0: ASP.NET Core Denial of Service Vulnerability (CVE-2026-70181)\n  * dotnet: dotnet10.0: dotnet9.0: dotnet8.0: ASP.NET Core Elevation of Privilege Vulnerability (CVE-2026-70183)\n  * dotnet10.0: dotnet9.0: dotnet8.0: ASP.NET Core Denial of Service Vulnerability (CVE-2026-70186)\n  * dotnet: ASP.NET Core Security Feature Bypass Vulnerability (CVE-2026-70188)\n  * dotnet9.0: dotnet8.0: dotnet10.0: ASP.NET Core Denial of Service Vulnerability (CVE-2026-70196)\n  * dotnet: ASP.NET Core Tampering Vulnerability (CVE-2026-88092)\n  * dotnet10.0: dotnet8.0: dotnet9.0: dotnet: MessagePack: Nested arrays can blow past buffer length limits (CVE-2026-92707)\n  * dotnet: dotnet8.0: dotnet9.0: dotnet10.0: .NET Elevation of Privilege Vulnerability (CVE-2026-96225)\n  * dotnet9.0: dotnet10.0: dotnet8.0: dotnet: ASP.NET Core Remote Code Execution Vulnerability (CVE-2026-96230)\n  * dotnet: dotnet9.0: dotnet10.0: dotnet8.0: .NET Elevation of Privilege Vulnerability (CVE-2026-96231)\n  * dotnet10.0: dotnet: dotnet8.0: dotnet9.0: ASP.NET Core Denial of Service Vulnerability (CVE-2026-96233)\n  * dotnet: dotnet10.0: dotnet9.0: dotnet8.0: ASP.NET Core Denial of Service Vulnerability (CVE-2026-96236)\n  * dotnet8.0: dotnet10.0: dotnet9.0: .NET Remote Code Execution Vulnerability (CVE-2026-96237)\n  * dotnet8.0: dotnet10.0: dotnet9.0: dotnet: .NET Security Feature Bypass Vulnerability (CVE-2026-96238)\n  * dotnet10.0: dotnet: .NET Security Feature Bypass Vulnerability (CVE-2026-96957)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * Update .NET 10.0 to SDK 10.0.113 and Runtime 10.0.13 [almalinux-9.8.z] (JIRA:AlmaLinux-277808)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -505,6 +509,14 @@
     {
       "url": "https://errata.almalinux.org/9/ALSA-2026-86193.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-96958.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-96960.html",
+      "type": "REPORT"
     }
   ]
 }

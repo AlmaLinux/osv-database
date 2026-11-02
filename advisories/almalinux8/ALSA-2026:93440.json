@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:93440",
+  "summary": "Important: python-jwt security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3-jwt"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6.1-2.el8_10.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-32597"
+  ],
+  "related": [
+    "CVE-2026-32597"
+  ],
+  "published": "2026-11-02T00:00:00Z",
+  "modified": "2026-11-02T08:49:52Z",
+  "details": "Python is an interpreted, interactive, object-oriented programming language, which includes modules, classes, exceptions, very high level dynamic data types and dynamic typing. Python supports interfaces to many system calls and libraries, as well as to various windowing systems.  \n\nSecurity Fix(es):  \n\n  * pyjwt: PyJWT accepts unknown `crit` header extensions (RFC 7515 ?4.1.11 MUST violation) (CVE-2026-32597)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:93440",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-32597",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2447194",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-93440.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

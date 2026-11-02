@@ -855,9 +855,37 @@
     "CVE-2021-3504"
   ],
   "published": "2021-08-10T11:58:46Z",
-  "modified": "2021-12-23T15:15:26Z",
+  "modified": "2026-11-02T02:01:36Z",
   "details": "Kernel-based Virtual Machine (KVM) offers a full virtualization solution for Linux on numerous hardware platforms. The virt:rhel module contains packages which provide user-space components used to run virtual machines using KVM. The packages also provide APIs for managing and interacting with the virtualized systems.\n\nSecurity Fix(es):\n\n* QEMU: msix: OOB access during mmio operations may lead to DoS (CVE-2020-13754)\n\n* hivex: Buffer overflow when provided invalid node key length (CVE-2021-3504)\n\n* QEMU: net: an assert failure via eth_get_gso_type (CVE-2020-27617)\n\n* QEMU: net: infinite loop in loopback mode may lead to stack overflow (CVE-2021-3416)\n\n* qemu: out-of-bound heap buffer access via an interrupt ID field (CVE-2021-20221)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* cannot restart default network and firewalld: iptables: No chain/target/match by that name. (BZ#1958301)\n\n* RHEL8.4 Nightly[0322] - KVM guest fails to find zipl boot menu index (qemu-kvm) (BZ#1975679)",
   "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2021:3061",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1842363",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1891668",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1924601",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1932827",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1949687",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1958301",
+      "type": "REPORT"
+    },
     {
       "url": "https://errata.almalinux.org/8/ALSA-2021-3061.html",
       "type": "ADVISORY"

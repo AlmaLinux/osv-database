@@ -443,9 +443,53 @@
     "CVE-2021-28965"
   ],
   "published": "2021-06-29T13:58:20Z",
-  "modified": "2022-02-17T11:19:12Z",
+  "modified": "2026-11-02T02:00:33Z",
   "details": "Ruby is an extensible, interpreted, object-oriented, scripting language. It has features to process text files and to perform system management tasks.\n\nThe following packages have been upgraded to a later upstream version: ruby (2.5.9). (BZ#1952626)\n\nSecurity Fix(es):\n\n* ruby: NUL injection vulnerability of File.fnmatch and File.fnmatch? (CVE-2019-15845)\n\n* ruby: Regular expression denial of service vulnerability of WEBrick's Digest authentication (CVE-2019-16201)\n\n* ruby: Code injection via command argument of Shell#test / Shell#[] (CVE-2019-16255)\n\n* rubygem-json: Unsafe object creation vulnerability in JSON (CVE-2020-10663)\n\n* ruby: BasicSocket#read_nonblock method leads to information disclosure (CVE-2020-10933)\n\n* ruby: Potential HTTP request smuggling in WEBrick (CVE-2020-25613)\n\n* ruby: XML round-trip vulnerability in REXML (CVE-2021-28965)\n\n* ruby: HTTP response splitting in WEBrick (CVE-2019-16254)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2021:2587",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1773728",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1789407",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1789556",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1793683",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1827500",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1833291",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1883623",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1947526",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1952626",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1955010",
+      "type": "REPORT"
+    },
     {
       "url": "https://errata.almalinux.org/8/ALSA-2021-2587.html",
       "type": "ADVISORY"

@@ -72,9 +72,57 @@
     "CVE-2020-11993"
   ],
   "published": "2021-05-18T06:08:34Z",
-  "modified": "2022-01-26T07:27:24Z",
+  "modified": "2026-11-02T01:58:27Z",
   "details": "The httpd packages provide the Apache HTTP Server, a powerful, efficient, and extensible web server.\n\nSecurity Fix(es):\n\n* httpd: mod_session_cookie does not respect expiry time (CVE-2018-17199)\n\n* httpd: mod_proxy_uwsgi buffer overflow (CVE-2020-11984)\n\n* httpd: mod_http2 concurrent pool usage (CVE-2020-11993)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2021:1809",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1651376",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1668493",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1680118",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1847585",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1866563",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1866564",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1872828",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1875844",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1891594",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1891829",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1918741",
+      "type": "REPORT"
+    },
     {
       "url": "https://errata.almalinux.org/8/ALSA-2021-1809.html",
       "type": "ADVISORY"

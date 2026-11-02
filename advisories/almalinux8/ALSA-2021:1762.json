@@ -1340,9 +1340,141 @@
     "CVE-2020-29443"
   ],
   "published": "2021-05-18T06:02:26Z",
-  "modified": "2021-12-23T15:15:25Z",
+  "modified": "2026-11-02T02:00:27Z",
   "details": "Kernel-based Virtual Machine (KVM) offers a full virtualization solution for Linux on numerous hardware platforms. The virt:rhel module contains packages which provide user-space components used to run virtual machines using KVM. The packages also provide APIs for managing and interacting with the virtualized systems.\n\nSecurity Fix(es):\n\n* libvirt: double free in qemuAgentGetInterfaces() in qemu_agent.c (CVE-2020-25637)\n\n* QEMU: heap buffer overflow in msix_table_mmio_write() in hw/pci/msix.c (CVE-2020-27821)\n\n* QEMU: ide: atapi: OOB access while processing read commands (CVE-2020-29443)\n\n* QEMU: heap buffer overflow in iscsi_aio_ioctl_cb() in block/iscsi.c may lead to information disclosure (CVE-2020-11947)\n\n* QEMU: reachable assertion failure in net_tx_pkt_add_raw_fragment() in hw/net/net_tx_pkt.c (CVE-2020-16092)\n\n* QEMU: infinite loop in e1000e_write_packet_to_guest() in hw/net/e1000e_core.c (CVE-2020-25707)\n\n* QEMU: assertion failure through usb_packet_unmap() in hw/usb/hcd-ehci.c (CVE-2020-25723)\n\n* QEMU: e1000e: infinite loop scenario in case of null packet descriptor (CVE-2020-28916)\n\n* QEMU: slirp: out-of-bounds access while processing ARP/NCSI packets (CVE-2020-29129, CVE-2020-29130)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2021:1762",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1384241",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1798463",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1828952",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1834281",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1837495",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1843852",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1846975",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1850680",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1859494",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1860283",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1872854",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1874304",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1874780",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1876297",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1876742",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1880418",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1880546",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1881037",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1884531",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1893895",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1898579",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1901837",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1902231",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1902651",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1902960",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1903064",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1910220",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1910267",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1910326",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1912765",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1917446",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1918708",
+      "type": "REPORT"
+    },
     {
       "url": "https://errata.almalinux.org/8/ALSA-2021-1762.html",
       "type": "ADVISORY"

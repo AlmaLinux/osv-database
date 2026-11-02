@@ -196,14 +196,16 @@
   ],
   "upstream": [
     "CVE-2025-39697",
-    "CVE-2025-39971"
+    "CVE-2025-39971",
+    "CVE-2025-39973"
   ],
   "related": [
     "CVE-2025-39697",
-    "CVE-2025-39971"
+    "CVE-2025-39971",
+    "CVE-2025-39973"
   ],
   "published": "2025-11-24T00:00:00Z",
-  "modified": "2025-11-25T09:25:12Z",
+  "modified": "2026-10-30T03:37:00Z",
   "details": "The kernel-rt packages provide the Real Time Linux Kernel, which enables fine-tuning for systems with extremely high determinism requirements.  \n\nSecurity Fix(es):  \n\n  * kernel: NFS: Fix a race when updating an existing write (CVE-2025-39697)\n  * kernel: i40e: fix idx validation in config queues msg (CVE-2025-39971)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -229,6 +231,10 @@
     {
       "url": "https://errata.almalinux.org/8/ALSA-2025-21920.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2025-39973.html",
+      "type": "REPORT"
     }
   ]
 }

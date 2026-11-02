@@ -701,7 +701,7 @@
     "CVE-2023-28756"
   ],
   "published": "2023-11-14T00:00:00Z",
-  "modified": "2023-11-23T09:47:22Z",
+  "modified": "2026-11-02T02:04:02Z",
   "details": "Ruby is an extensible, interpreted, object-oriented, scripting language. It has features to process text files and to perform system management tasks.\n\nSecurity Fix(es):\n\n* ruby/cgi-gem: HTTP response splitting in CGI (CVE-2021-33621)\n* ruby: Buffer overrun in String-to-Float conversion (CVE-2022-28739)\n* ruby: ReDoS vulnerability in URI (CVE-2023-28755)\n* ruby: ReDoS vulnerability in Time (CVE-2023-28756)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
     {
@@ -738,6 +738,10 @@
     },
     {
       "url": "https://bugzilla.redhat.com/2184061",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2210326",
       "type": "REPORT"
     },
     {

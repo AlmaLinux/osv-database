@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:93627",
+  "summary": "Important: wireshark security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "wireshark"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.6.2-22.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "wireshark-cli"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.6.2-22.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "wireshark-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.6.2-22.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-95387"
+  ],
+  "related": [
+    "CVE-2026-95387"
+  ],
+  "published": "2026-11-02T00:00:00Z",
+  "modified": "2026-11-02T14:51:24Z",
+  "details": "The wireshark packages contain a network protocol analyzer used to capture and browse the traffic running on a computer network.  \n\nSecurity Fix(es):  \n\n  * wireshark: wireshark: Denial of Service via heap-based buffer overflow in SPDY dissector (CVE-2026-95387)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:93627",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-95387",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2543033",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-93627.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -2882,7 +2882,7 @@
     "CVE-2023-3354"
   ],
   "published": "2023-09-19T00:00:00Z",
-  "modified": "2026-11-02T02:05:14Z",
+  "modified": "2026-11-02T02:05:15Z",
   "details": "Kernel-based Virtual Machine (KVM) offers a full virtualization solution for Linux on numerous hardware platforms. The virt:rhel module contains packages which provide user-space components used to run virtual machines using KVM. The packages also provide APIs for managing and interacting with the virtualized systems.\n\nSecurity Fix(es):\n\n* QEMU: VNC: improper I/O watch removal in TLS handshake can lead to remote unauthenticated denial of service (CVE-2023-3354)\n* NTFS-3G: buffer overflow issue in NTFS-3G can cause code execution via crafted metadata in an NTFS image (CVE-2022-40284)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* \"No bootable device\" with OS boot disk interface VirtIO-SCSI and with more than 9 VirtIO disks. (BZ#2228485)",
   "references": [
     {

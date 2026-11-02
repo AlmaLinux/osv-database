@@ -1430,6 +1430,7 @@
     }
   ],
   "upstream": [
+    "CVE-2026-52912",
     "CVE-2026-53202",
     "CVE-2026-53264",
     "CVE-2026-53361",
@@ -1437,6 +1438,7 @@
     "CVE-2026-64300"
   ],
   "related": [
+    "CVE-2026-52912",
     "CVE-2026-53202",
     "CVE-2026-53264",
     "CVE-2026-53361",
@@ -1444,7 +1446,7 @@
     "CVE-2026-64300"
   ],
   "published": "2026-08-12T00:00:00Z",
-  "modified": "2026-08-14T10:45:20Z",
+  "modified": "2026-11-01T17:13:00Z",
   "details": "The kernel packages contain the Linux kernel, the core of any Linux operating system.  \n\nSecurity Fix(es):  \n\n  * kernel: accel/ivpu: Fix signed integer truncation in IPC receive (CVE-2026-53202)\n  * kernel: net/sched: act_api: use RCU with deferred freeing for action lifecycle (CVE-2026-53264)\n  * kernel: scsi: target: iscsi: Bound iscsi_encode_text_output() appends to rsp_buf (CVE-2026-63887)\n  * kernel: perf/aux: Fix page UAF in map_range() (CVE-2026-64300)\n  * kernel: af_unix: set gc_in_progress to true in unix_gc() (CVE-2026-53361)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * netfilter: CVE backports for AlmaLinux 10.2.z (JIRA:AlmaLinux-185311)\n  * tlbflush - Windows Driver Verifier catches FLTMGR/Ntfs crashes during KVM 42-VM soak test on AMD EPYC Turin [almalinux-10.2.z] (JIRA:AlmaLinux-214436)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -1486,6 +1488,10 @@
     {
       "url": "https://errata.almalinux.org/10/ALSA-2026-54343.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-52912.html",
+      "type": "REPORT"
     }
   ]
 }

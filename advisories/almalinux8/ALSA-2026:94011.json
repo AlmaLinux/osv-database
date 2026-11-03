@@ -1,0 +1,245 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:94011",
+  "summary": "Important: bind9.16 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "bind9.16"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "32:9.16.23-0.22.el8_10.21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "bind9.16-chroot"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "32:9.16.23-0.22.el8_10.21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "bind9.16-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "32:9.16.23-0.22.el8_10.21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "bind9.16-dnssec-utils"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "32:9.16.23-0.22.el8_10.21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "bind9.16-doc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "32:9.16.23-0.22.el8_10.21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "bind9.16-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "32:9.16.23-0.22.el8_10.21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "bind9.16-license"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "32:9.16.23-0.22.el8_10.21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "bind9.16-utils"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "32:9.16.23-0.22.el8_10.21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3-bind9.16"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "32:9.16.23-0.22.el8_10.21"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-19630",
+    "CVE-2026-19662",
+    "CVE-2026-94300",
+    "CVE-2026-96888",
+    "CVE-2026-97313"
+  ],
+  "related": [
+    "CVE-2026-19630",
+    "CVE-2026-19662",
+    "CVE-2026-94300",
+    "CVE-2026-96888",
+    "CVE-2026-97313"
+  ],
+  "published": "2026-11-02T00:00:00Z",
+  "modified": "2026-11-03T10:30:41Z",
+  "details": "The Berkeley Internet Name Domain (BIND) is an implementation of the Domain Name System (DNS) protocols. BIND includes a DNS server (named); a resolver library (routines for applications to use when interfacing with DNS); and tools for verifying that the DNS server is operating correctly.  \n\nSecurity Fix(es):  \n\n  * bind9: bind: BIND 9: Denial of Service via crafted DNSSEC responses (CVE-2026-19662)\n  * bind: BIND: Denial of Service via unbounded processing of crafted DNS messages (CVE-2026-19630)\n  * bind: bind: Arbitrary code execution via GSS-TSIG UDP message replay (CVE-2026-94300)\n  * bind: bind: Denial of Service via assertion failure during redirect processing (CVE-2026-96888)\n  * bind: bind: Denial of service via assertion failure in RPZ query processing (CVE-2026-97313)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:94011",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-19630",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-19662",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-94300",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-96888",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-97313",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2535445",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2556406",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2556407",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2556413",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2556415",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-94011.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

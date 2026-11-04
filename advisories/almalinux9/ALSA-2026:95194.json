@@ -1,0 +1,270 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:95194",
+  "summary": "Important: webkit2gtk3 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "webkit2gtk3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.54.2-0.el9_8.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "webkit2gtk3-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.54.2-0.el9_8.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "webkit2gtk3-jsc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.54.2-0.el9_8.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "webkit2gtk3-jsc-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.54.2-0.el9_8.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-102325",
+    "CVE-2026-103629",
+    "CVE-2026-106379",
+    "CVE-2026-106399",
+    "CVE-2026-113106",
+    "CVE-2026-118319",
+    "CVE-2026-118340",
+    "CVE-2026-118348",
+    "CVE-2026-118351",
+    "CVE-2026-118354",
+    "CVE-2026-119261",
+    "CVE-2026-119271",
+    "CVE-2026-85049",
+    "CVE-2026-91733",
+    "CVE-2026-91740",
+    "CVE-2026-91747",
+    "CVE-2026-93387"
+  ],
+  "related": [
+    "CVE-2026-102325",
+    "CVE-2026-103629",
+    "CVE-2026-106379",
+    "CVE-2026-106399",
+    "CVE-2026-113106",
+    "CVE-2026-118319",
+    "CVE-2026-118340",
+    "CVE-2026-118348",
+    "CVE-2026-118351",
+    "CVE-2026-118354",
+    "CVE-2026-119261",
+    "CVE-2026-119271",
+    "CVE-2026-85049",
+    "CVE-2026-91733",
+    "CVE-2026-91740",
+    "CVE-2026-91747",
+    "CVE-2026-93387"
+  ],
+  "published": "2026-11-04T00:00:00Z",
+  "modified": "2026-11-04T23:34:59Z",
+  "details": "WebKitGTK is the port of the portable web rendering engine WebKit to the GTK platform.  \n\nSecurity Fix(es):  \n\n  * chromium-browser: skia: chromium-browser: skia: Use after free in Skia (CVE-2026-85049)\n  * chromium-browser: skia: Skia: Cross-origin data disclosure via use-after-free vulnerability (CVE-2026-91747)\n  * chromium-browser: skia: Skia in chromium-browser: Information disclosure via improper state validation (CVE-2026-91733)\n  * chromium-browser: skia: Google Chrome: Cross-origin data disclosure due to uninitialized resource in Skia (CVE-2026-91740)\n  * chromium-browser: skia: Google Chrome Skia: Cross-origin data disclosure via improper state validation (CVE-2026-93387)\n  * chromium-browser: skia: chromium-browser: Uninitialized resource in Skia (CVE-2026-102325)\n  * chromium-browser: skia: Integer overflow in Skia (CVE-2026-103629)\n  * chromium-browser: skia: Uninitialized resource in Skia (CVE-2026-106379)\n  * chromium-browser: skia: Out of bounds read in Skia (CVE-2026-106399)\n  * chromium-browser: skia: Memory corruption in Skia (CVE-2026-113106)\n  * chromium-browser: skia: Improper input validation in Skia (CVE-2026-118348)\n  * chromium-browser: skia: Memory corruption in Skia (CVE-2026-118351)\n  * chromium-browser: skia: Memory corruption in Skia (CVE-2026-118340)\n  * chromium-browser: skia: Improper input validation in Skia (CVE-2026-118354)\n  * chromium-browser: skia: Memory corruption in Skia (CVE-2026-118319)\n  * chromium-browser: skia: Use after free in Skia (CVE-2026-119271)\n  * chromium-browser: skia: Improper input validation in Skia (CVE-2026-119261)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:95194",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-102325",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-103629",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-106379",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-106399",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-113106",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-118319",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-118340",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-118348",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-118351",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-118354",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-119261",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-119271",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-85049",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-91733",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-91740",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-91747",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-93387",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2528197",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2534512",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2534705",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2534759",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2537950",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2543588",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2545277",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2546915",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2547009",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2556522",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2562464",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2562477",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2562479",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2562486",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2562496",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2563744",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2563759",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-95194.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

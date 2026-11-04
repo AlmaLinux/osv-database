@@ -1,0 +1,206 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:94533",
+  "summary": "Important: cockpit security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "cockpit"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "356.4-1.el9_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "cockpit-bridge"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "356.4-1.el9_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "cockpit-doc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "356.4-1.el9_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "cockpit-packagekit"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "356.4-1.el9_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "cockpit-storaged"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "356.4-1.el9_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "cockpit-system"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "356.4-1.el9_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "cockpit-ws"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "356.4-1.el9_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "cockpit-ws-selinux"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "356.4-1.el9_8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-76235",
+    "CVE-2026-91147",
+    "CVE-2026-91149"
+  ],
+  "related": [
+    "CVE-2026-76235",
+    "CVE-2026-91147",
+    "CVE-2026-91149"
+  ],
+  "published": "2026-11-03T00:00:00Z",
+  "modified": "2026-11-04T09:33:24Z",
+  "details": "Cockpit enables users to administer GNU/Linux servers using a web browser. It offers network configuration, log inspection, diagnostic reports, SELinux troubleshooting, interactive command-line sessions, and more.  \n\nSecurity Fix(es):  \n\n  * cockpit: Cockpit: Denial of Service in `cockpit-ws` due to URL-root handling without a trailing slash (CVE-2026-91147)\n  * cockpit: Cockpit: Denial of Service via unbounded connection thread spawning (CVE-2026-91149)\n  * cockpit-ws: cockpit: cockpit-ws: unauthenticated remote memory leak via CockpitLang cookie in send_login_html (CVE-2026-76235)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:94533",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-76235",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-91147",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-91149",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2479230",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2479422",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2519497",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-94533.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:94514",
+  "summary": "Important: freerdp security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "freerdp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.32.2-1.el10_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "freerdp-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.32.2-1.el10_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "freerdp-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.32.2-1.el10_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "freerdp-server"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.32.2-1.el10_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libwinpr"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.32.2-1.el10_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libwinpr-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.32.2-1.el10_2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-109242",
+    "CVE-2026-109676",
+    "CVE-2026-110830",
+    "CVE-2026-110833",
+    "CVE-2026-110837",
+    "CVE-2026-110838",
+    "CVE-2026-110839",
+    "CVE-2026-111378",
+    "CVE-2026-111379",
+    "CVE-2026-111381",
+    "CVE-2026-111382",
+    "CVE-2026-111880",
+    "CVE-2026-114045"
+  ],
+  "related": [
+    "CVE-2026-109242",
+    "CVE-2026-109676",
+    "CVE-2026-110830",
+    "CVE-2026-110833",
+    "CVE-2026-110837",
+    "CVE-2026-110838",
+    "CVE-2026-110839",
+    "CVE-2026-111378",
+    "CVE-2026-111379",
+    "CVE-2026-111381",
+    "CVE-2026-111382",
+    "CVE-2026-111880",
+    "CVE-2026-114045"
+  ],
+  "published": "2026-11-03T00:00:00Z",
+  "modified": "2026-11-04T09:40:08Z",
+  "details": "FreeRDP is a free implementation of the Remote Desktop Protocol (RDP), released under the Apache license. The xfreerdp client can connect to RDP servers such as Microsoft Windows machines, xrdp, and VirtualBox.  \n\nSecurity Fix(es):  \n\n  * freerdp: FreeRDP: Denial of Service via uninitialized progressive tile handling (CVE-2026-109242)\n  * freerdp: FreeRDP 3.0.0-beta1 before 3.32.0 Use-After-Free via Smartcard Connect (CVE-2026-109676)\n  * freerdp: FreeRDP: Unauthenticated keystroke injection via premature input dispatch (CVE-2026-110838)\n  * freerdp: freerdp: Denial of Service via file descriptor exhaustion in serial device handling (CVE-2026-110830)\n  * freerdp: freerdp: Denial of Service via heap-based buffer overflow during MP3 audio decoding (CVE-2026-110837)\n  * freerdp: freerdp: Denial of Service via unbounded memory consumption during RDPDR reassembly (CVE-2026-110833)\n  * freerdp: FreeRDP: Denial of Service via grayscale JPEG clipboard conversion (CVE-2026-110839)\n  * freerdp: freerdp: Denial of Service via memory exhaustion in NLA frame parser (CVE-2026-111378)\n  * freerdp: FreeRDP: Arbitrary code execution via crafted persistent cache file (CVE-2026-111379)\n  * freerdp: freerdp: Arbitrary code execution via crafted persistent cache file (CVE-2026-111381)\n  * freerdp: freerdp: Arbitrary code execution via crafted display frames (CVE-2026-111382)\n  * freerdp: freerdp: Denial of Service via heap out-of-bounds write in NTLM authentication (CVE-2026-111880)\n  * freerdp: FreeRDP: heap buffer overflow in server rdpsnd via crafted audio formats (CVE-2026-114045)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * Rebase FreeRDP to 3.32.2 or newer [rhel-10.2.z] (JIRA:RHEL-277442)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:94514",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-109242",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-109676",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-110830",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-110833",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-110837",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-110838",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-110839",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-111378",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-111379",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-111381",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-111382",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-111880",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-114045",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2549790",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2550539",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2552961",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2552970",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2552978",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2552988",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2552996",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2553907",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2553911",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2553917",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2553920",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2554625",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2557974",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-94514.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

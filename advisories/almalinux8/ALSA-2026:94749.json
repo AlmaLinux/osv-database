@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:94749",
+  "summary": "Important: python-dns security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3-dns"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.15.0-13.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-114605"
+  ],
+  "related": [
+    "CVE-2026-114605"
+  ],
+  "published": "2026-11-03T00:00:00Z",
+  "modified": "2026-11-04T09:36:50Z",
+  "details": "Python is an interpreted, interactive, object-oriented programming language, which includes modules, classes, exceptions, very high level dynamic data types and dynamic typing. Python supports interfaces to many system calls and libraries, as well as to various windowing systems.  \n\nSecurity Fix(es):  \n\n  * dnspython: dnspython: Denial of Service via excessive DNS compression pointer traversal (CVE-2026-114605)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:94749",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-114605",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2559128",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-94749.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

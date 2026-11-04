@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:94485",
+  "summary": "Moderate: cockpit security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "cockpit"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "310.10-1.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "cockpit-bridge"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "310.10-1.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "cockpit-doc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "310.10-1.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "cockpit-system"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "310.10-1.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "cockpit-ws"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "310.10-1.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-76235",
+    "CVE-2026-91147"
+  ],
+  "related": [
+    "CVE-2026-76235",
+    "CVE-2026-91147"
+  ],
+  "published": "2026-11-03T00:00:00Z",
+  "modified": "2026-11-03T12:32:45Z",
+  "details": "Cockpit enables users to administer GNU/Linux servers using a web browser. It offers network configuration, log inspection, diagnostic reports, SELinux troubleshooting, interactive command-line sessions, and more.  \n\nSecurity Fix(es):  \n\n  * cockpit: Cockpit: Denial of Service in `cockpit-ws` due to URL-root handling without a trailing slash (CVE-2026-91147)\n  * cockpit-ws: cockpit: cockpit-ws: unauthenticated remote memory leak via CockpitLang cookie in send_login_html (CVE-2026-76235)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * [cockpit] Overview page should not try to read insights-client.json anymore (JIRA:RHEL-246964)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:94485",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-76235",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-91147",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2479230",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2519497",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-94485.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

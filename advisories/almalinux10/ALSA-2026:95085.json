@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:95085",
+  "summary": "Important: tesseract security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "tesseract"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.3.4-11.el10_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "tesseract-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.3.4-11.el10_2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-88047",
+    "CVE-2026-88048",
+    "CVE-2026-88049",
+    "CVE-2026-88051",
+    "CVE-2026-88052",
+    "CVE-2026-88053"
+  ],
+  "related": [
+    "CVE-2026-88047",
+    "CVE-2026-88048",
+    "CVE-2026-88049",
+    "CVE-2026-88051",
+    "CVE-2026-88052",
+    "CVE-2026-88053"
+  ],
+  "published": "2026-11-04T00:00:00Z",
+  "modified": "2026-11-04T21:05:38Z",
+  "details": "A commercial quality OCR engine originally developed at HP between 1985 and 1995. In 1995, this engine was among the top 3 evaluated by UNLV. It was open-sourced by HP and UNLV in 2005.  \n\nSecurity Fix(es):  \n\n  * tesseract: Tesseract: Heap out-of-bounds write/read leading to information disclosure via crafted data (CVE-2026-88048)\n  * tesseract: Tesseract: Stack buffer overflow via crafted .traineddata file (CVE-2026-88047)\n  * tesseract: Tesseract: Heap out-of-bounds write allows arbitrary code execution or denial of service (CVE-2026-88049)\n  * tesseract: Tesseract: Heap out-of-bounds write via crafted .traineddata model (CVE-2026-88051)\n  * tesseract: Tesseract: Heap out-of-bounds write leads to heap corruption via crafted data file (CVE-2026-88053)\n  * tesseract: Tesseract: Heap out-of-bounds write can lead to arbitrary code execution (CVE-2026-88052)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:95085",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-88047",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-88048",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-88049",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-88051",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-88052",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-88053",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2531546",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2531550",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2531554",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2531566",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2531573",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2531579",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-95085.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -250,7 +250,12 @@
     "CVE-2023-21883",
     "CVE-2023-21887",
     "CVE-2023-21912",
-    "CVE-2023-21917"
+    "CVE-2023-21913",
+    "CVE-2023-21917",
+    "CVE-2023-21963",
+    "CVE-2023-22015",
+    "CVE-2023-22026",
+    "CVE-2023-22028"
   ],
   "related": [
     "CVE-2022-21594",
@@ -289,10 +294,15 @@
     "CVE-2023-21883",
     "CVE-2023-21887",
     "CVE-2023-21912",
-    "CVE-2023-21917"
+    "CVE-2023-21913",
+    "CVE-2023-21917",
+    "CVE-2023-21963",
+    "CVE-2023-22015",
+    "CVE-2023-22026",
+    "CVE-2023-22028"
   ],
   "published": "2023-05-16T00:00:00Z",
-  "modified": "2023-05-22T09:17:55Z",
+  "modified": "2026-11-05T10:21:42Z",
   "details": "MySQL is a multi-user, multi-threaded SQL database server. It consists of the MySQL server daemon (mysqld) and many client programs and libraries.\n\nThe following packages have been upgraded to a later upstream version: mysql (8.0.32). (BZ#2177734, BZ#2177735, BZ#2177736)\n\nSecurity Fix(es):\n\n* mysql: Server: Security: Privileges unspecified vulnerability (CPU Apr 2023) (CVE-2023-21912)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Oct 2022) (CVE-2022-21594)\n* mysql: Server: Stored Procedure unspecified vulnerability (CPU Oct 2022) (CVE-2022-21599)\n* mysql: InnoDB unspecified vulnerability (CPU Oct 2022) (CVE-2022-21604)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Oct 2022) (CVE-2022-21608)\n* mysql: InnoDB unspecified vulnerability (CPU Oct 2022) (CVE-2022-21611)\n* mysql: Server: Connection Handling unspecified vulnerability (CPU Oct 2022) (CVE-2022-21617)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Oct 2022) (CVE-2022-21625)\n* mysql: Server: Security: Privileges unspecified vulnerability (CPU Oct 2022) (CVE-2022-21632)\n* mysql: Server: Replication unspecified vulnerability (CPU Oct 2022) (CVE-2022-21633)\n* mysql: InnoDB unspecified vulnerability (CPU Oct 2022) (CVE-2022-21637)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Oct 2022) (CVE-2022-21640)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Oct 2022) (CVE-2022-39400)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Oct 2022) (CVE-2022-39408)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Oct 2022) (CVE-2022-39410)\n* mysql: Server: DML unspecified vulnerability (CPU Jan 2023) (CVE-2023-21836)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2023) (CVE-2023-21863)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2023) (CVE-2023-21864)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2023) (CVE-2023-21865)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2023) (CVE-2023-21867)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2023) (CVE-2023-21868)\n* mysql: InnoDB unspecified vulnerability (CPU Jan 2023) (CVE-2023-21869)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2023) (CVE-2023-21870)\n* mysql: InnoDB unspecified vulnerability (CPU Jan 2023) (CVE-2023-21871)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2023) (CVE-2023-21873)\n* mysql: Server: Security: Encryption unspecified vulnerability (CPU Jan 2023) (CVE-2023-21875)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2023) (CVE-2023-21876)\n* mysql: InnoDB unspecified vulnerability (CPU Jan 2023) (CVE-2023-21877)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2023) (CVE-2023-21878)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2023) (CVE-2023-21879)\n* mysql: InnoDB unspecified vulnerability (CPU Jan 2023) (CVE-2023-21880)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2023) (CVE-2023-21881)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2023) (CVE-2023-21883)\n* mysql: Server: GIS unspecified vulnerability (CPU Jan 2023) (CVE-2023-21887)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2023) (CVE-2023-21917)\n* mysql: Server: Thread Pooling unspecified vulnerability (CPU Jan 2023) (CVE-2023-21874)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2023) (CVE-2023-21882)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* AlmaLinux8 AppStream and Devel channels missing mecab-devel rpm (BZ#2180411)",
   "references": [
     {
@@ -588,6 +598,14 @@
       "type": "REPORT"
     },
     {
+      "url": "https://bugzilla.redhat.com/2177735",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2180411",
+      "type": "REPORT"
+    },
+    {
       "url": "https://bugzilla.redhat.com/2188110",
       "type": "REPORT"
     },
@@ -598,6 +616,26 @@
     {
       "url": "https://errata.almalinux.org/8/ALSA-2023-3087.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2023-21913.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2023-21963.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2023-22015.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2023-22026.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2023-22028.html",
+      "type": "REPORT"
     }
   ]
 }

@@ -129,9 +129,145 @@
     "CVE-2019-9946"
   ],
   "published": "2019-11-05T17:41:57Z",
-  "modified": "2019-11-05T17:41:43Z",
+  "modified": "2026-11-05T07:51:09Z",
   "details": "The container-tools module contains tools for working with containers, notably podman, buildah, skopeo, and runc.\n\nSecurity Fix(es):\n\n* QEMU: slirp: heap buffer overflow during packet reassembly (CVE-2019-14378)\n\n* containers/image: not enforcing TLS when sending username+password credentials to token servers leading to credential disclosure (CVE-2019-10214)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2019:3403",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1655211",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1661597",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1671023",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1672581",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1674519",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1677251",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1677264",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1689255",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1690514",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1691543",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1692513",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1692712",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1693154",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1693424",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1707220",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1719626",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1719994",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1720646",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1720654",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1721247",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1721638",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1723879",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1728700",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1730281",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1731117",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1732508",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1734745",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1734809",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1737077",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1739961",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1740079",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1741157",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1743685",
+      "type": "REPORT"
+    },
     {
       "url": "https://errata.almalinux.org/8/ALSA-2019-3403.html",
       "type": "ADVISORY"

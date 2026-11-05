@@ -320,9 +320,445 @@
     "CVE-2019-8768"
   ],
   "published": "2019-11-05T17:59:21Z",
-  "modified": "2021-11-12T10:20:55Z",
+  "modified": "2026-11-05T07:52:19Z",
   "details": "GNOME is the default desktop environment of AlmaLinux.\n\nSecurity Fix(es):\n\n* evince: uninitialized memory use in function tiff_document_render() and tiff_document_get_thumbnail() (CVE-2019-11459)\n\n* gvfs: improper authorization in daemon/gvfsdaemon.c in gvfsd (CVE-2019-12795)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2019:3553",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1662193",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1667136",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1667409",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1669391",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1673011",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1674382",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1679127",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1680164",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1685811",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1687949",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1690506",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1696708",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1698520",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1698884",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1698923",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1698929",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1698930",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1704355",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1704360",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1704378",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1705583",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1706793",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1709289",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1709937",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1713080",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1713330",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1713453",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1713685",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1715738",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1715761",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1715765",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1716295",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1716771",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1718133",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1719199",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1719206",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1719208",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1719209",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1719210",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1719213",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1719224",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1719231",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1719235",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1719237",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1719238",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1719241",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1719279",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1719779",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1720481",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1721195",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1721575",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1722047",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1722844",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1723467",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1723836",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1724551",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1725101",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1725107",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1725120",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1725555",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1725741",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1725766",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1725854",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1726093",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1726505",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1726656",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1728277",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1731372",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1735382",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1737326",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1739116",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1739117",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1741547",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1876612",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1876614",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1876616",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1876630",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1876632",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1876634",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1876643",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1876644",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1876645",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1876647",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1876650",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1876653",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1876655",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1876657",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1876664",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1876880",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1876881",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1876882",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1876883",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1876884",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1876887",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1876891",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1876892",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1876893",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1876894",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1876895",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1876897",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1876898",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1876899",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1876900",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1877045",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1877046",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1877047",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1877048",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1877049",
+      "type": "REPORT"
+    },
     {
       "url": "https://errata.almalinux.org/8/ALSA-2019-3553.html",
       "type": "ADVISORY"

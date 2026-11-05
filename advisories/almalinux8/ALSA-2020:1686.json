@@ -49,9 +49,21 @@
     "CVE-2019-1010305"
   ],
   "published": "2020-04-28T09:05:11Z",
-  "modified": "2021-11-12T10:20:55Z",
+  "modified": "2026-11-05T09:02:28Z",
   "details": "The libmspack packages contain a library providing compression and extraction of the Cabinet (CAB) file format used by Microsoft.\n\nSecurity Fix(es):\n\n* libmspack: buffer overflow in function chmd_read_headers() (CVE-2019-1010305)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2020:1686",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1730568",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1736743",
+      "type": "REPORT"
+    },
     {
       "url": "https://errata.almalinux.org/8/ALSA-2020-1686.html",
       "type": "ADVISORY"

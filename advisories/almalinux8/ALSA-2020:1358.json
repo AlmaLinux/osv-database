@@ -431,9 +431,25 @@
     "CVE-2020-7039"
   ],
   "published": "2020-04-07T12:58:04Z",
-  "modified": "2021-12-23T15:15:25Z",
+  "modified": "2026-11-05T09:00:19Z",
   "details": "Kernel-based Virtual Machine (KVM) offers a full virtualization solution for Linux on numerous hardware platforms. The virt:rhel module contains packages which provide user-space components used to run virtual machines using KVM. The packages also provide APIs for managing and interacting with the virtualized systems.\n\nSecurity Fix(es):\n\n* QEMU: block: iscsi: OOB heap access via an unexpected response of iSCSI Server (CVE-2020-1711)\n\n* QEMU: slirp: OOB buffer access while emulating tcp protocols in tcp_emu() (CVE-2020-7039)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* libvirtd: error : virCPUx86UpdateLive:3110 : operation failed: guest CPU doesn't match specification: missing features: fxsr_opt (BZ#1809510)",
   "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2020:1358",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1791551",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1794290",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1809510",
+      "type": "REPORT"
+    },
     {
       "url": "https://errata.almalinux.org/8/ALSA-2020-1358.html",
       "type": "ADVISORY"

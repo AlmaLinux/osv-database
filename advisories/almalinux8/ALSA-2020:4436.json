@@ -49,7 +49,7 @@
     "CVE-2020-10759"
   ],
   "published": "2020-11-03T12:04:30Z",
-  "modified": "2022-07-20T15:43:07Z",
+  "modified": "2026-11-05T09:03:42Z",
   "details": "The gnome-software packages contain an application that makes it easy to add, remove, and update software in the GNOME desktop.\n\nThe appstream-data package provides the distribution specific AppStream metadata required for the GNOME and KDE software centers. \n\nThe fwupd packages provide a service that allows session software to update device firmware.\n\nThe following packages have been upgraded to a later upstream version: gnome-software (3.36.1), fwupd (1.4.2).\n\nSecurity Fix(es):\n\n* fwupd: Possible bypass in signature verification (CVE-2020-10759)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
     {
@@ -61,7 +61,27 @@
       "type": "REPORT"
     },
     {
+      "url": "https://bugzilla.redhat.com/1797932",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1815502",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1839774",
+      "type": "REPORT"
+    },
+    {
       "url": "https://bugzilla.redhat.com/1844316",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1844488",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1845714",
       "type": "REPORT"
     },
     {

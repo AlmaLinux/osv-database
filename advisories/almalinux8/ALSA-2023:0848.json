@@ -826,17 +826,19 @@
     "CVE-2022-31629",
     "CVE-2022-31630",
     "CVE-2022-31631",
-    "CVE-2022-37454"
+    "CVE-2022-37454",
+    "CVE-2022-4900"
   ],
   "related": [
     "CVE-2022-31628",
     "CVE-2022-31629",
     "CVE-2022-31630",
     "CVE-2022-31631",
-    "CVE-2022-37454"
+    "CVE-2022-37454",
+    "CVE-2022-4900"
   ],
   "published": "2023-02-21T00:00:00Z",
-  "modified": "2023-02-21T18:44:47Z",
+  "modified": "2026-11-05T10:20:34Z",
   "details": "PHP is an HTML-embedded scripting language commonly used with the Apache HTTP Server.\n\nThe following packages have been upgraded to a later upstream version: php (8.0). (BZ#2161666)\n\nSecurity Fix(es):\n\n* XKCP: buffer overflow in the SHA-3 reference implementation (CVE-2022-37454)\n* php: standard insecure cookie could be treated as a `__Host-` or `__Secure-` cookie by PHP applications (CVE-2022-31629)\n* php: OOB read due to insufficient input validation in imageloadfont() (CVE-2022-31630)\n* php: Due to an integer overflow PDO::quote() may return unquoted string (CVE-2022-31631)\n* php: phar wrapper can occur dos when using quine gzip file (CVE-2022-31628)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {
@@ -886,6 +888,10 @@
     {
       "url": "https://errata.almalinux.org/8/ALSA-2023-0848.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2022-4900.html",
+      "type": "REPORT"
     }
   ]
 }

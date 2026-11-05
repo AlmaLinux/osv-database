@@ -1001,9 +1001,25 @@
     "CVE-2022-27651"
   ],
   "published": "2022-04-26T13:51:39Z",
-  "modified": "2022-04-28T13:06:09Z",
+  "modified": "2026-11-05T10:16:27Z",
   "details": "The container-tools module contains tools for working with containers, notably podman, buildah, skopeo, and runc.\n\nSecurity Fix(es):\n\n* podman: Default inheritable capabilities for linux container should be empty (CVE-2022-27649)\n\n* buildah: Default inheritable capabilities for linux container should be empty (CVE-2022-27651)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* 3.0 stable stream: podman run --pid=host command causes OCI permission error (BZ#2070961)",
   "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2022:1565",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2066568",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2066840",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2070961",
+      "type": "REPORT"
+    },
     {
       "url": "https://errata.almalinux.org/8/ALSA-2022-1565.html",
       "type": "ADVISORY"

@@ -262,7 +262,7 @@
     "CVE-2022-37436"
   ],
   "published": "2023-02-21T00:00:00Z",
-  "modified": "2023-02-21T18:53:08Z",
+  "modified": "2026-11-05T03:25:16Z",
   "details": "The httpd packages provide the Apache HTTP Server, a powerful, efficient, and extensible web server.\n\nSecurity Fix(es):\n\n* httpd: mod_dav: out-of-bounds read/write of zero byte (CVE-2006-20001)\n* httpd: mod_proxy_ajp: Possible request smuggling (CVE-2022-36760)\n* httpd: mod_proxy: HTTP response splitting (CVE-2022-37436)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* httpd-init fails to create localhost.crt, localhost.key due to \"sscg\" default now creates a /dhparams.pem and is not idempotent if the file /dhparams.pem already exists. (BZ#2165967)",
   "references": [
     {
@@ -291,6 +291,10 @@
     },
     {
       "url": "https://bugzilla.redhat.com/2161777",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2165967",
       "type": "REPORT"
     },
     {

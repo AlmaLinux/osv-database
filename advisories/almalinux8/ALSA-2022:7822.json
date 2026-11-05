@@ -925,7 +925,7 @@
     "CVE-2022-2990"
   ],
   "published": "2022-11-08T00:00:00Z",
-  "modified": "2023-01-03T12:15:28Z",
+  "modified": "2026-11-05T10:20:34Z",
   "details": "The container-tools module contains tools for working with containers, notably podman, buildah, skopeo, and runc.\n\nSecurity Fix(es):\n\n* podman: possible information disclosure and modification (CVE-2022-2989)\n* buildah: possible information disclosure and modification (CVE-2022-2990)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* podman creates lock file in /etc/cni/net.d/cni.lock instead of /run/lock/ (BZ#2125644)\n* (podman image trust) does not support the new trust type \"sigstoreSigned \" (BZ#2125645)\n* podman kill may deadlock (BZ#2125647)\n* Error: runc: exec failed: unable to start container process: open /dev/pts/0: operation not permitted: OCI permission denied [AlmaLinux 8.7] (BZ#2125648)\n* containers-common-1-44 is missing RPM-GPG-KEY-AlmaLinux-beta [AlmaLinux 8.7] (BZ#2125686)\n* ADD Dockerfile reference is not validating HTTP status code [rhel8-8.7.0] (BZ#2129767)\n* Two aardvark-dns instances trying to use the same port on the same interface. [rhel-8.7.0.z] (netavark) (BZ#2130234)\n* containers config.json gets empty after sudden power loss (BZ#2130236)\n* PANIC podman API service endpoint handler panic (BZ#2132412)\n* Podman container got global IPv6 address unexpectedly even when macvlan network is created for pure IPv4 network (BZ#2133390)\n* Skopeo push image to AlmaLinux quay with sigstore was failed (BZ#2136406)\n* Podman push image to AlmaLinux quay with sigstore was failed (BZ#2136433)\n* Buildah push image to AlmaLinux quay with sigstore was failed (BZ#2136438)\n* Two aardvark-dns instances trying to use the same port on the same interface. [rhel-8.8] (aardvark-dns) (BZ#2137295)\n\nEnhancement(s):\n\n* [RFE]Podman support to perform custom actions on unhealthy containers (BZ#2130911)\n* [RFE] python-podman: Podman support to perform custom actions on unhealthy containers (BZ#2132360)\n* Podman volume plugin timeout should be configurable (BZ#2132992)",
   "references": [
     {
@@ -946,6 +946,74 @@
     },
     {
       "url": "https://bugzilla.redhat.com/2121453",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2125644",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2125645",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2125647",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2125648",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2125686",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2129767",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2130234",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2130236",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2130911",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2132360",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2132412",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2132992",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2133390",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2136406",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2136433",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2136438",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2137295",
       "type": "REPORT"
     },
     {

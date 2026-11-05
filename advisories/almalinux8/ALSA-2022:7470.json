@@ -201,7 +201,7 @@
     "CVE-2022-2414"
   ],
   "published": "2022-11-08T00:00:00Z",
-  "modified": "2022-11-23T22:19:30Z",
+  "modified": "2026-11-05T10:19:54Z",
   "details": "The Public Key Infrastructure (PKI) Core contains fundamental packages required by AlmaLinux Certificate System.\n\nSecurity Fix(es):\n\n* pki-core: access to external entities when parsing XML can lead to XXE (CVE-2022-2414)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
     {
@@ -210,6 +210,14 @@
     },
     {
       "url": "https://access.redhat.com/security/cve/CVE-2022-2414",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2013674",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2057162",
       "type": "REPORT"
     },
     {

@@ -288,7 +288,19 @@
     "CVE-2024-20982",
     "CVE-2024-20983",
     "CVE-2024-20984",
-    "CVE-2024-20985"
+    "CVE-2024-20985",
+    "CVE-2024-20993",
+    "CVE-2024-21049",
+    "CVE-2024-21050",
+    "CVE-2024-21051",
+    "CVE-2024-21052",
+    "CVE-2024-21053",
+    "CVE-2024-21055",
+    "CVE-2024-21056",
+    "CVE-2024-21057",
+    "CVE-2024-21061",
+    "CVE-2024-21137",
+    "CVE-2024-21200"
   ],
   "related": [
     "CVE-2022-4899",
@@ -365,10 +377,22 @@
     "CVE-2024-20982",
     "CVE-2024-20983",
     "CVE-2024-20984",
-    "CVE-2024-20985"
+    "CVE-2024-20985",
+    "CVE-2024-20993",
+    "CVE-2024-21049",
+    "CVE-2024-21050",
+    "CVE-2024-21051",
+    "CVE-2024-21052",
+    "CVE-2024-21053",
+    "CVE-2024-21055",
+    "CVE-2024-21056",
+    "CVE-2024-21057",
+    "CVE-2024-21061",
+    "CVE-2024-21137",
+    "CVE-2024-21200"
   ],
   "published": "2024-02-20T00:00:00Z",
-  "modified": "2024-02-28T16:26:23Z",
+  "modified": "2026-11-05T10:21:51Z",
   "details": "MySQL is a multi-user, multi-threaded SQL database server. It consists of the MySQL server daemon (mysqld) and many client programs and libraries.\n\nSecurity Fix(es):\n\n* mysql: InnoDB unspecified vulnerability (CPU Apr 2023) (CVE-2023-21911)\n* mysql: Server: DDL unspecified vulnerability (CPU Apr 2023) (CVE-2023-21919, CVE-2023-21929, CVE-2023-21933)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2023) (CVE-2023-21920, CVE-2023-21935, CVE-2023-21945, CVE-2023-21946, CVE-2023-21976, CVE-2023-21977, CVE-2023-21982)\n* mysql: Server: Components Services unspecified vulnerability (CPU Apr 2023) (CVE-2023-21940, CVE-2023-21947, CVE-2023-21962)\n* mysql: Server: Partition unspecified vulnerability (CPU Apr 2023) (CVE-2023-21953, CVE-2023-21955)\n* mysql: Server: JSON unspecified vulnerability (CPU Apr 2023) (CVE-2023-21966)\n* mysql: Server: DML unspecified vulnerability (CPU Apr 2023) (CVE-2023-21972)\n* mysql: Client programs unspecified vulnerability (CPU Apr 2023) (CVE-2023-21980)\n* mysql: Server: Replication unspecified vulnerability (CPU Jul 2023) (CVE-2023-22005, CVE-2023-22007, CVE-2023-22057)\n* mysql: InnoDB unspecified vulnerability (CPU Jul 2023) (CVE-2023-22008)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Oct 2023) (CVE-2023-22032, CVE-2023-22059, CVE-2023-22064, CVE-2023-22065, CVE-2023-22070, CVE-2023-22078, CVE-2023-22079, CVE-2023-22092, CVE-2023-22103, CVE-2023-22110, CVE-2023-22112)\n* mysql: InnoDB unspecified vulnerability (CPU Jul 2023) (CVE-2023-22033)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Jul 2023) (CVE-2023-22046, CVE-2023-22054, CVE-2023-22056)\n* mysql: Client programs unspecified vulnerability (CPU Jul 2023) (CVE-2023-22053)\n* mysql: Server: DDL unspecified vulnerability (CPU Jul 2023) (CVE-2023-22058)\n* mysql: InnoDB unspecified vulnerability (CPU Oct 2023) (CVE-2023-22066, CVE-2023-22068, CVE-2023-22084, CVE-2023-22097, CVE-2023-22104, CVE-2023-22114)\n* mysql: Server: UDF unspecified vulnerability (CPU Oct 2023) (CVE-2023-22111)\n* mysql: Server: DML unspecified vulnerability (CPU Oct 2023) (CVE-2023-22115)\n* mysql: Server: RAPID unspecified vulnerability (CPU Jan 2024) (CVE-2024-20960)\n* mysql: Server: Security: Encryption unspecified vulnerability (CPU Jan 2024) (CVE-2024-20963)\n* mysql: Server: Security: Privileges unspecified vulnerability (CPU Jan 2024) (CVE-2024-20964)\n* mysql: Server: Replication unspecified vulnerability (CPU Jan 2024) (CVE-2024-20967)\n* mysql: Server: Options unspecified vulnerability (CPU Jan 2024) (CVE-2024-20968)\n* mysql: Server: DDL unspecified vulnerability (CPU Jan 2024) (CVE-2024-20969)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2024) (CVE-2024-20961, CVE-2024-20962, CVE-2024-20965, CVE-2024-20966, CVE-2024-20970, CVE-2024-20971, CVE-2024-20972, CVE-2024-20973, CVE-2024-20974, CVE-2024-20976, CVE-2024-20977, CVE-2024-20978, CVE-2024-20982)\n* mysql: Server: DDL unspecified vulnerability (CPU Jan 2024) (CVE-2024-20981)\n* mysql: Server: DML unspecified vulnerability (CPU Jan 2024) (CVE-2024-20983)\n* mysql: Server : Security : Firewall unspecified vulnerability (CPU Jan 2024) (CVE-2024-20984)\n* mysql: Server: UDF unspecified vulnerability (CPU Jan 2024) (CVE-2024-20985)\n* zstd: mysql: buffer overrun in util.c (CVE-2022-4899)\n* mysql: Server: Security: Privileges unspecified vulnerability (CPU Jul 2023) (CVE-2023-22038)\n* mysql: Server: Pluggable Auth unspecified vulnerability (CPU Jul 2023) (CVE-2023-22048)\n* mysql: Server: Security: Encryption unspecified vulnerability (CPU Oct 2023) (CVE-2023-22113)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Fix for MySQL bug #33630199 in 8.0.32 introduces regression when --set-gtid-purged=OFF (AlmaLinux-22452)",
   "references": [
     {
@@ -978,6 +1002,54 @@
     {
       "url": "https://errata.almalinux.org/8/ALSA-2024-0894.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2024-20993.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2024-21049.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2024-21050.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2024-21051.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2024-21052.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2024-21053.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2024-21055.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2024-21056.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2024-21057.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2024-21061.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2024-21137.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2024-21200.html",
+      "type": "REPORT"
     }
   ]
 }

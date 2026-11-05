@@ -775,7 +775,7 @@
     "CVE-2022-28739"
   ],
   "published": "2022-09-13T00:00:00Z",
-  "modified": "2023-01-03T12:15:28Z",
+  "modified": "2026-11-05T10:17:45Z",
   "details": "Ruby is an extensible, interpreted, object-oriented, scripting language. It has features to process text files and to perform system management tasks.\n\nThe following packages have been upgraded to a later upstream version: ruby (2.7.6). (BZ#2109424)\n\nSecurity Fix(es):\n\n* ruby: Regular expression denial of service vulnerability of Date parsing methods (CVE-2021-41817)\n* ruby: Cookie prefix spoofing in CGI::Cookie.parse (CVE-2021-41819)\n* Ruby: Buffer overrun in String-to-Float conversion (CVE-2022-28739)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {
@@ -804,6 +804,10 @@
     },
     {
       "url": "https://bugzilla.redhat.com/2075687",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2109424",
       "type": "REPORT"
     },
     {

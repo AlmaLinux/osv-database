@@ -3222,7 +3222,7 @@
     "CVE-2022-4144"
   ],
   "published": "2023-01-12T00:00:00Z",
-  "modified": "2023-03-13T16:36:36Z",
+  "modified": "2026-11-05T11:26:52Z",
   "details": "Kernel-based Virtual Machine (KVM) offers a full virtualization solution for\nLinux on numerous hardware platforms. The virt:rhel module contains packages\nwhich provide user-space components used to run virtual machines using KVM. The packages also provide APIs for managing and interacting with the virtualized systems.\n\nSecurity Fix(es):\n\n* QEMU: QXL: qxl_phys2virt unsafe address translation can lead to out-of-bounds read (CVE-2022-4144)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* libvirt kills virtual machine on restart when 2M and 1G hugepages are mounted (BZ#2132176)\n* VMs hung on vnc_clipboard_send (BZ#2148504)",
   "references": [
     {
@@ -3231,6 +3231,10 @@
     },
     {
       "url": "https://access.redhat.com/security/cve/CVE-2022-4144",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2132176",
       "type": "REPORT"
     },
     {

@@ -184,9 +184,25 @@
     "CVE-2019-14378"
   ],
   "published": "2019-11-05T17:52:13Z",
-  "modified": "2019-11-05T17:52:00Z",
+  "modified": "2026-11-05T07:51:08Z",
   "details": "The container-tools module contains tools for working with containers, notably podman, buildah, skopeo, and runc.\n\nSecurity Fix(es):\n\n* QEMU: slirp: heap buffer overflow during packet reassembly (CVE-2019-14378)\n\n* containers/image: not enforcing TLS when sending username+password credentials to token servers leading to credential disclosure (CVE-2019-10214)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2019:3494",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1700877",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1732508",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1734745",
+      "type": "REPORT"
+    },
     {
       "url": "https://errata.almalinux.org/8/ALSA-2019-3494.html",
       "type": "ADVISORY"

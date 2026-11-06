@@ -52,7 +52,7 @@
     "CVE-2024-9403"
   ],
   "published": "2024-10-07T00:00:00Z",
-  "modified": "2024-10-09T08:57:20Z",
+  "modified": "2026-11-05T15:07:25Z",
   "details": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.\n\nSecurity Fix(es):\n\n* firefox: 115.16/128.3 ESR ()\n* firefox: thunderbird: Specially crafted WebTransport requests could lead to denial of service (CVE-2024-9399)\n* firefox: thunderbird: Memory safety bugs fixed in Firefox 131 and Thunderbird 131 (CVE-2024-9403)\n* firefox: thunderbird: Potential directory upload bypass via clickjacking (CVE-2024-9397)\n* firefox: thunderbird: Memory safety bugs fixed in Firefox 131, Firefox ESR 115.16, Firefox ESR 128.3, Thunderbird 131, and Thunderbird 128.3 (CVE-2024-9401)\n* firefox: thunderbird: Memory safety bugs fixed in Firefox 131, Firefox ESR 128.3, Thunderbird 131, and Thunderbird 128.3 (CVE-2024-9402)\n* firefox: thunderbird: External protocol handlers could be enumerated via popups (CVE-2024-9398)\n* firefox: thunderbird: Potential memory corruption during JIT compilation (CVE-2024-9400)\n* firefox: thunderbird: Potential memory corruption may occur when cloning certain objects (CVE-2024-9396)\n* firefox: thunderbird: Cross-origin access to PDF contents through multipart responses (CVE-2024-9393)\n* firefox: thunderbird: Cross-origin access to JSON contents through multipart responses (CVE-2024-9394)\n* firefox: thunderbird: Compromised content process can bypass site isolation (CVE-2024-9392)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {
@@ -108,7 +108,15 @@
       "type": "REPORT"
     },
     {
+      "url": "https://bugzilla.redhat.com/2314430",
+      "type": "REPORT"
+    },
+    {
       "url": "https://bugzilla.redhat.com/2315945",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2315947",
       "type": "REPORT"
     },
     {

@@ -29,7 +29,8 @@
     "CVE-2025-5266",
     "CVE-2025-5267",
     "CVE-2025-5268",
-    "CVE-2025-5269"
+    "CVE-2025-5269",
+    "CVE-2025-5283"
   ],
   "related": [
     "CVE-2025-5263",
@@ -37,10 +38,11 @@
     "CVE-2025-5266",
     "CVE-2025-5267",
     "CVE-2025-5268",
-    "CVE-2025-5269"
+    "CVE-2025-5269",
+    "CVE-2025-5283"
   ],
   "published": "2025-05-29T00:00:00Z",
-  "modified": "2025-05-29T21:11:26Z",
+  "modified": "2026-11-05T16:16:42Z",
   "details": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.  \n\nSecurity Fix(es):  \n\n  * firefox: thunderbird: Clickjacking vulnerability could have led to leaking saved payment card details (CVE-2025-5267)\n  * firefox: thunderbird: Potential local code execution in ?Copy as cURL? command (CVE-2025-5264)\n  * firefox: thunderbird: Memory safety bugs (CVE-2025-5268)\n  * firefox: thunderbird: Script element events leaked cross-origin resource status (CVE-2025-5266)\n  * firefox: thunderbird: Error handling for script execution was incorrectly isolated from web content (CVE-2025-5263)\n  * firefox: thunderbird: Memory safety bug (CVE-2025-5269)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -98,6 +100,10 @@
     {
       "url": "https://errata.almalinux.org/8/ALSA-2025-8308.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2025-5283.html",
+      "type": "REPORT"
     }
   ]
 }

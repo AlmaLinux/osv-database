@@ -100,13 +100,17 @@
     }
   ],
   "upstream": [
-    "CVE-2023-5824"
+    "CVE-2023-49288",
+    "CVE-2023-5824",
+    "CVE-2025-54574"
   ],
   "related": [
-    "CVE-2023-5824"
+    "CVE-2023-49288",
+    "CVE-2023-5824",
+    "CVE-2025-54574"
   ],
   "published": "2023-12-06T00:00:00Z",
-  "modified": "2023-12-14T08:59:00Z",
+  "modified": "2026-11-05T12:40:49Z",
   "details": "Squid is a high-performance proxy caching server for web clients, supporting FTP, Gopher, and HTTP data objects.\n\nSecurity Fix(es):\n\n* squid: DoS against HTTP and HTTPS (CVE-2023-5824)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {
@@ -124,6 +128,14 @@
     {
       "url": "https://errata.almalinux.org/8/ALSA-2023-7668.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2023-49288.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2025-54574.html",
+      "type": "REPORT"
     }
   ]
 }

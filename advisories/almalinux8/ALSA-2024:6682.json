@@ -44,7 +44,7 @@
     "CVE-2024-8387"
   ],
   "published": "2024-09-16T00:00:00Z",
-  "modified": "2024-09-19T12:53:41Z",
+  "modified": "2026-11-05T15:06:16Z",
   "details": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.\n\nSecurity Fix(es):\n\n* firefox: 115.15/128.2 ESR ()\n* mozilla: Type confusion when looking up a property name in a &quot;with&quot; block (CVE-2024-8381)\n* mozilla: Internal event interfaces were exposed to web content when browser EventHandler listener callbacks ran (CVE-2024-8382)\n* mozilla: Firefox did not ask before openings news: links in an external application (CVE-2024-8383)\n* mozilla: Garbage collection could mis-color cross-compartment objects in OOM conditions (CVE-2024-8384)\n* mozilla: WASM type confusion involving ArrayTypes (CVE-2024-8385)\n* mozilla: SelectElements could be shown over another site if popups are allowed (CVE-2024-8386)\n* mozilla: Memory safety bugs fixed in Firefox 130, Firefox ESR 128.2, and Thunderbird 128.2 (CVE-2024-8387)\n* mozilla: Type Confusion in Async Generators in Javascript Engine (CVE-2024-7652)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {
@@ -81,6 +81,10 @@
     },
     {
       "url": "https://access.redhat.com/security/cve/CVE-2024-8387",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2307328",
       "type": "REPORT"
     },
     {

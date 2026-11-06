@@ -157,13 +157,15 @@
     }
   ],
   "upstream": [
-    "CVE-2024-34750"
+    "CVE-2024-34750",
+    "CVE-2024-38286"
   ],
   "related": [
-    "CVE-2024-34750"
+    "CVE-2024-34750",
+    "CVE-2024-38286"
   ],
   "published": "2024-08-21T00:00:00Z",
-  "modified": "2024-08-21T13:21:48Z",
+  "modified": "2026-11-05T12:43:24Z",
   "details": "Apache Tomcat is a servlet container for the Java Servlet and JavaServer Pages (JSP) technologies.\n\nSecurity Fix(es):\n\n* tomcat: Improper Handling of Exceptional Conditions (CVE-2024-34750)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {
@@ -175,7 +177,15 @@
       "type": "REPORT"
     },
     {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-38286",
+      "type": "REPORT"
+    },
+    {
       "url": "https://bugzilla.redhat.com/2295651",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2314686",
       "type": "REPORT"
     },
     {

@@ -25,6 +25,7 @@
   ],
   "upstream": [
     "CVE-2024-2609",
+    "CVE-2024-3302",
     "CVE-2024-3852",
     "CVE-2024-3854",
     "CVE-2024-3857",
@@ -34,6 +35,7 @@
   ],
   "related": [
     "CVE-2024-2609",
+    "CVE-2024-3302",
     "CVE-2024-3852",
     "CVE-2024-3854",
     "CVE-2024-3857",
@@ -42,7 +44,7 @@
     "CVE-2024-3864"
   ],
   "published": "2024-04-18T00:00:00Z",
-  "modified": "2024-04-22T08:21:39Z",
+  "modified": "2026-11-05T12:43:04Z",
   "details": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.\n\nThis update upgrades Firefox to version 115.10.0 ESR.\n\nSecurity Fix(es):\n  \n* GetBoundName in the JIT returned the wrong object (CVE-2024-3852)\n\n* Out-of-bounds-read after mis-optimized switch statement (CVE-2024-3854)\n* Incorrect JITting of arguments led to use-after-free during garbage collection (CVE-2024-3857)\n* Permission prompt input delay could expire when not in focus (CVE-2024-2609)\n* Integer-overflow led to out-of-bounds-read in the OpenType sanitizer (CVE-2024-3859)\n* Potential use-after-free due to AlignedBuffer self-move (CVE-2024-3861)\n* Memory safety bug fixed in Firefox 125, Firefox ESR 115.10, and Thunderbird 115.10 (CVE-2024-3864)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {
@@ -108,6 +110,10 @@
     {
       "url": "https://errata.almalinux.org/8/ALSA-2024-1912.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2024-3302.html",
+      "type": "REPORT"
     }
   ]
 }

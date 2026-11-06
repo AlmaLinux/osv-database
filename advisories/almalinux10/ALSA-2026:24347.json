@@ -44,14 +44,16 @@
   ],
   "upstream": [
     "CVE-2026-37457",
-    "CVE-2026-37459"
+    "CVE-2026-37459",
+    "CVE-2026-37460"
   ],
   "related": [
     "CVE-2026-37457",
-    "CVE-2026-37459"
+    "CVE-2026-37459",
+    "CVE-2026-37460"
   ],
   "published": "2026-06-08T00:00:00Z",
-  "modified": "2026-07-08T11:52:51Z",
+  "modified": "2026-11-05T22:03:31Z",
   "details": "FRRouting is free software that manages TCP/IP based routing protocols. It supports BGP4, OSPFv2, OSPFv3, ISIS, RIP, RIPng, PIM, NHRP, PBR, EIGRP and BFD.   \n\nSecurity Fix(es):  \n\n  * frr: denial of service via crafted FlowSpec component (CVE-2026-37457)\n  * frr: denial of service via crafted BGP UPDATE message (CVE-2026-37459)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -77,6 +79,10 @@
     {
       "url": "https://errata.almalinux.org/10/ALSA-2026-24347.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-37460.html",
+      "type": "REPORT"
     }
   ]
 }

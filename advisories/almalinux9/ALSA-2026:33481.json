@@ -309,13 +309,27 @@
     }
   ],
   "upstream": [
+    "CVE-2026-44168",
+    "CVE-2026-44169",
+    "CVE-2026-44170",
+    "CVE-2026-44171",
+    "CVE-2026-44173",
+    "CVE-2026-48163",
+    "CVE-2026-48165",
     "CVE-2026-49261"
   ],
   "related": [
+    "CVE-2026-44168",
+    "CVE-2026-44169",
+    "CVE-2026-44170",
+    "CVE-2026-44171",
+    "CVE-2026-44173",
+    "CVE-2026-48163",
+    "CVE-2026-48165",
     "CVE-2026-49261"
   ],
   "published": "2026-06-30T00:00:00Z",
-  "modified": "2026-07-02T09:22:02Z",
+  "modified": "2026-11-05T22:05:52Z",
   "details": "MariaDB is a multi-user, multi-threaded SQL database server that is binary compatible with MySQL.   \n\nSecurity Fix(es):  \n\n  * mariadb: MariaDB Server: Arbitrary code execution via wsrep_notify_cmd (CVE-2026-49261)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * [AlmaLinux9] [tracker] Rebase Galera to 26.4.27 MariaDB:11.8 (JIRA:AlmaLinux-140364)\n  * Rebase MariaDB 11.8 to 11.8.8 in AlmaLinux9 (JIRA:AlmaLinux-183085)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -333,6 +347,34 @@
     {
       "url": "https://errata.almalinux.org/9/ALSA-2026-33481.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-44168.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-44169.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-44170.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-44171.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-44173.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-48163.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-48165.html",
+      "type": "REPORT"
     }
   ]
 }

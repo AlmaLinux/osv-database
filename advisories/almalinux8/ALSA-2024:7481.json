@@ -405,14 +405,16 @@
   ],
   "upstream": [
     "CVE-2023-20584",
+    "CVE-2023-31315",
     "CVE-2023-31356"
   ],
   "related": [
     "CVE-2023-20584",
+    "CVE-2023-31315",
     "CVE-2023-31356"
   ],
   "published": "2024-10-02T00:00:00Z",
-  "modified": "2024-10-03T13:08:29Z",
+  "modified": "2026-11-05T11:29:24Z",
   "details": "The linux-firmware packages contain all of the firmware files that are required by various devices to operate.\n\nSecurity Fix(es):\n\n* kernel: hw:amd:IOMMU improperly handles certain special address leading to a loss of guest integrity (CVE-2023-20584)\n* kernel: hw: amd:Incomplete system memory cleanup in SEV firmware corrupt guest private memory (CVE-2023-31356)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
   "references": [
     {
@@ -438,6 +440,10 @@
     {
       "url": "https://errata.almalinux.org/8/ALSA-2024-7481.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2023-31315.html",
+      "type": "REPORT"
     }
   ]
 }

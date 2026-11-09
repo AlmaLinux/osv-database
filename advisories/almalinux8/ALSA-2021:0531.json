@@ -182,9 +182,97 @@
     "CVE-2020-14370"
   ],
   "published": "2021-02-16T07:31:27Z",
-  "modified": "2021-02-16T13:02:13Z",
+  "modified": "2026-11-06T21:47:22Z",
   "details": "The container-tools module contains tools for working with containers, notably podman, buildah, skopeo, and runc.\n\nSecurity Fix(es):\n\n* podman: environment variables leak between containers when started via Varlink or Docker-compatible REST API (CVE-2020-14370)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2021:0531",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1678546",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1701359",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1701361",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1843168",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1846629",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1848150",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1873064",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1873204",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1874268",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1876576",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1877865",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1880987",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1881218",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1883945",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1884668",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1895105",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1897012",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1898911",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1902673",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1903412",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1925928",
+      "type": "REPORT"
+    },
     {
       "url": "https://errata.almalinux.org/8/ALSA-2021-0531.html",
       "type": "ADVISORY"

@@ -24,17 +24,19 @@
     }
   ],
   "upstream": [
+    "CVE-2026-2003",
     "CVE-2026-2004",
     "CVE-2026-2005",
     "CVE-2026-2006"
   ],
   "related": [
+    "CVE-2026-2003",
     "CVE-2026-2004",
     "CVE-2026-2005",
     "CVE-2026-2006"
   ],
   "published": "2026-03-05T00:00:00Z",
-  "modified": "2026-03-06T13:21:48Z",
+  "modified": "2026-11-05T19:53:38Z",
   "details": "PostgreSQL is an advanced Object-Relational database management system (DBMS). The base postgresql package contains the client programs that you'll need to access a PostgreSQL DBMS server, as well as HTML documentation for the whole system. These client programs can be located on the same machine as the PostgreSQL server, or on a remote machine that accesses a PostgreSQL server over a network connection. The PostgreSQL server can be found in the postgresql-server sub-package.  \n\nSecurity Fix(es):  \n\n  * postgresql: PostgreSQL missing validation of multibyte character length executes arbitrary code (CVE-2026-2006)\n  * postgresql: PostgreSQL intarray missing validation of type of input to selectivity estimator executes arbitrary code (CVE-2026-2004)\n  * postgresql: PostgreSQL pgcrypto heap buffer overflow executes arbitrary code (CVE-2026-2005)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -68,6 +70,10 @@
     {
       "url": "https://errata.almalinux.org/10/ALSA-2026-3887.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-2003.html",
+      "type": "REPORT"
     }
   ]
 }

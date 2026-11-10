@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:96215",
+  "summary": "Moderate: patch security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "patch"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.6-12.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-115207"
+  ],
+  "related": [
+    "CVE-2026-115207"
+  ],
+  "published": "2026-11-09T00:00:00Z",
+  "modified": "2026-11-10T08:56:46Z",
+  "details": "The patch program applies diff files to originals. The diff command is used to compare an original to a changed file. Diff lists the changes made to the file. A person who has the original file can then use the patch command with the diff file to add the changes to their original file (patching the file).  \n\nSecurity Fix(es):  \n\n  * patch: Filename validation bypass in reversal fallback allows file creation outside the working directory (CVE-2026-115207)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:96215",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-115207",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2558775",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-96215.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

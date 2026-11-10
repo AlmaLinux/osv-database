@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:96234",
+  "summary": "Important: nodejs:22 security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "nodejs-packaging"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2021.06-6.module_el9.7.0+227+12323393"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "nodejs-packaging-bundler"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2021.06-6.module_el9.7.0+227+12323393"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-102276",
+    "CVE-2026-102278",
+    "CVE-2026-105482",
+    "CVE-2026-106069",
+    "CVE-2026-109383",
+    "CVE-2026-109869",
+    "CVE-2026-87018"
+  ],
+  "related": [
+    "CVE-2026-102276",
+    "CVE-2026-102278",
+    "CVE-2026-105482",
+    "CVE-2026-106069",
+    "CVE-2026-109383",
+    "CVE-2026-109869",
+    "CVE-2026-87018"
+  ],
+  "published": "2026-11-09T00:00:00Z",
+  "modified": "2026-11-09T14:52:39Z",
+  "details": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language.   \n\nSecurity Fix(es):  \n\n  * brace-expansion: brace-expansion: Denial of Service via uncontrolled recursion in nested brace patterns (CVE-2026-102278)\n  * brace-expansion: brace-expansion: Denial of Service via stack exhaustion from crafted brace patterns (CVE-2026-102276)\n  * undici: undici: Denial of Service via unhandled stream error on excessive content encodings (CVE-2026-109869)\n  * undici: undici: Denial of Service via TLS renegotiation with mismatched certificate (CVE-2026-87018)\n  * undici: undici: Certificate validation bypass via dropped TLS options in Agent (CVE-2026-109383)\n  * nodejs: nodejs: TLS certificate hostname bypass via non-canonical IP hostnames (CVE-2026-106069)\n  * nodejs: nodejs: dns.resolve truncates hostnames containing a NUL character (CVE-2026-105482)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * nodejs:22/nodejs: Rebase to the latest Node.js 22 release [rhel-9.8.z] (JIRA:RHEL-302833)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:96234",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-102276",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-102278",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-105482",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-106069",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-109383",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-109869",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-87018",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2542700",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2542707",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2553656",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2553677",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2553678",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2559873",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2559875",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-96234.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

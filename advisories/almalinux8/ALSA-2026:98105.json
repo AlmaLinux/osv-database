@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:98105",
+  "summary": "Important: libimobiledevice security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libimobiledevice"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.0-18.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libimobiledevice-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.0-18.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-116260"
+  ],
+  "related": [
+    "CVE-2026-116260"
+  ],
+  "published": "2026-11-11T00:00:00Z",
+  "modified": "2026-11-11T13:02:38Z",
+  "details": "libimobiledevice is a library for connecting to mobile devices including phones and music players  \n\nSecurity Fix(es):  \n\n  * libimobiledevice: libimobiledevice: Denial of Service via double free in service_receive (CVE-2026-116260)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:98105",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-116260",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2560609",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-98105.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:99849",
+  "summary": "Important: perl-CGI security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "perl-CGI"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.38-3.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-120641",
+    "CVE-2026-120642",
+    "CVE-2026-120650"
+  ],
+  "related": [
+    "CVE-2026-120641",
+    "CVE-2026-120642",
+    "CVE-2026-120650"
+  ],
+  "published": "2026-11-12T00:00:00Z",
+  "modified": "2026-11-12T22:43:20Z",
+  "details": "CGI.pm is a stable, complete and mature solution for processing and preparing HTTP requests and responses. Major features including processing form submissions, file uploads, reading and writing cookies, query string generation and manipulation, and processing and preparing HTTP headers. Some HTML generation utilities are included as well. CGI.pm performs very well in in a vanilla CGI.pm environment and also comes with built-in support for mod_perl and mod_perl2 as well as FastCGI.  \n\nSecurity Fix(es):  \n\n  * perl-cgi: perl-cgi: Denial of Service via unenforced request and upload limits (CVE-2026-120650)\n  * perl-cgi: perl-cgi: arbitrary file write via unsanitized upload filenames (CVE-2026-120641)\n  * perl-cgi: perl-cgi: Security feature bypass via untainted request parameters (CVE-2026-120642)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:99849",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-120641",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-120642",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-120650",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2566595",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2566598",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2566605",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-99849.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

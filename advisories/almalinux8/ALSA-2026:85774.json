@@ -197,6 +197,7 @@
   "upstream": [
     "CVE-2026-52935",
     "CVE-2026-53196",
+    "CVE-2026-64009",
     "CVE-2026-74588",
     "CVE-2026-74752",
     "CVE-2026-89479",
@@ -208,6 +209,7 @@
   "related": [
     "CVE-2026-52935",
     "CVE-2026-53196",
+    "CVE-2026-64009",
     "CVE-2026-74588",
     "CVE-2026-74752",
     "CVE-2026-89479",
@@ -217,7 +219,7 @@
     "CVE-2026-98320"
   ],
   "published": "2026-10-20T00:00:00Z",
-  "modified": "2026-10-20T09:05:02Z",
+  "modified": "2026-11-05T22:02:45Z",
   "details": "The kernel-rt packages provide the Real Time Linux Kernel, which enables fine-tuning for systems with extremely high determinism requirements.  \n\nSecurity Fix(es):  \n\n  * kernel: xfrm: espintcp: do not reuse an in-progress partial send (CVE-2026-52935)\n  * kernel: USB: serial: io_ti: fix heap overflow in get_manuf_info() (CVE-2026-53196)\n  * kernel: sctp: keep chunk->transport in step with the list it is queued on (CVE-2026-74588)\n  * kernel: sctp: validate cookie AUTH state before use (CVE-2026-74752)\n  * kernel: smb: client: reject a tree connect response whose byte count is too small (CVE-2026-89631)\n  * kernel: sctp: stop processing a packet once its association is deleted (CVE-2026-89479)\n  * kernel: perf: Fix addr_filter_ranges lifetime (CVE-2026-93817)\n  * kernel: netfilter: nfnetlink_log: wait for rcu grace period before freeing pernet state (CVE-2026-93288)\n  * kernel: kernel: strparser: use-after-free via msg_timer_work rearm after strp_done() cancellation ()\n  * kernel: netfilter: flowtable: hold reference on ct until flow is released (CVE-2026-98320)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * gfs2 filesystem withdrawal rework [AlmaLinux-8] (JIRA:AlmaLinux-129363)\n  * Batch: z-stream xfrm - almalinux-8.10.z (NST-Core-26W38) (JIRA:AlmaLinux-256684)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -303,6 +305,10 @@
     {
       "url": "https://errata.almalinux.org/8/ALSA-2026-85774.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-64009.html",
+      "type": "REPORT"
     }
   ]
 }

@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:99012",
+  "summary": "Important: gstreamer1-plugins-base security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gstreamer1-plugins-base"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.1-8.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gstreamer1-plugins-base-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.1-8.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-125712"
+  ],
+  "related": [
+    "CVE-2026-125712"
+  ],
+  "published": "2026-11-11T00:00:00Z",
+  "modified": "2026-11-12T07:17:38Z",
+  "details": "GStreamer is a streaming media framework based on graphs of filters which operate on media data. The gstreamer1-plugins-base packages contain a collection of well-maintained base plug-ins.  \n\nSecurity Fix(es):  \n\n  * gst-plugins-base: gst-plugins-base: Missing bounds checks in RTCP SDES packet parsing (CVE-2026-125712)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:99012",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-125712",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2569130",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-99012.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

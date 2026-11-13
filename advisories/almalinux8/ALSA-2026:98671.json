@@ -1,0 +1,215 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:98671",
+  "summary": "Important: nginx:1.24 security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nginx"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.24.0-3.module_el8.10.0+4360+5035a360.6.alma.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nginx-all-modules"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.24.0-3.module_el8.10.0+4360+5035a360.6.alma.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nginx-filesystem"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.24.0-3.module_el8.10.0+4360+5035a360.6.alma.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nginx-mod-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.24.0-3.module_el8.10.0+4360+5035a360.6.alma.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nginx-mod-http-image-filter"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.24.0-3.module_el8.10.0+4360+5035a360.6.alma.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nginx-mod-http-perl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.24.0-3.module_el8.10.0+4360+5035a360.6.alma.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nginx-mod-http-xslt-filter"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.24.0-3.module_el8.10.0+4360+5035a360.6.alma.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nginx-mod-mail"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.24.0-3.module_el8.10.0+4360+5035a360.6.alma.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "nginx-mod-stream"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.24.0-3.module_el8.10.0+4360+5035a360.6.alma.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-15176",
+    "CVE-2026-97205"
+  ],
+  "related": [
+    "CVE-2026-15176",
+    "CVE-2026-97205"
+  ],
+  "published": "2026-11-11T00:00:00Z",
+  "modified": "2026-11-11T11:44:12Z",
+  "details": "nginx is a web and proxy server supporting HTTP and other protocols, with a focus on high concurrency, performance, and low memory usage.   \n\nSecurity Fix(es):  \n\n  * nginx: nginx: heap-based buffer overflow in ngx_http_core_module via alias with rewrite referencing $request_filename (CVE-2026-15176)\n  * nginx: NGINX ngx_http_core_module vulnerability (CVE-2026-97205)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:98671",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-15176",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-97205",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2552352",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2552359",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-98671.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

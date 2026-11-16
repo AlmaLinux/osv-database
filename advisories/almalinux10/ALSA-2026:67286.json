@@ -6,102 +6,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:10",
-        "name": "cargo"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.92.0-2.el10_2.alma.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "clippy"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.92.0-2.el10_2.alma.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "rust"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.92.0-2.el10_2.alma.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "rust-analyzer"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.92.0-2.el10_2.alma.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
         "name": "rust-debugger-common"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.92.0-2.el10_2.alma.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "rust-doc"
       },
       "ranges": [
         {
@@ -177,44 +82,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:10",
-        "name": "rust-std-static"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.92.0-2.el10_2.alma.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "rust-std-static-aarch64-unknown-none-softfloat"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.92.0-2.el10_2.alma.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
         "name": "rust-std-static-wasm32-unknown-unknown"
       },
       "ranges": [
@@ -235,25 +102,6 @@
       "package": {
         "ecosystem": "AlmaLinux:10",
         "name": "rust-std-static-wasm32-wasip1"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.92.0-2.el10_2.alma.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "rust-std-static-x86_64-unknown-none"
       },
       "ranges": [
         {
@@ -306,25 +154,6 @@
           ]
         }
       ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "rustfmt"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.92.0-2.el10_2.alma.1"
-            }
-          ]
-        }
-      ]
     }
   ],
   "upstream": [
@@ -334,7 +163,7 @@
     "CVE-2026-53587"
   ],
   "published": "2026-09-14T00:00:00Z",
-  "modified": "2026-09-15T08:42:54Z",
+  "modified": "2026-09-15T08:42:52Z",
   "details": "Rust is a systems programming language that runs blazingly fast, prevents segfaults, and guarantees thread safety. This package includes the Rust compiler and documentation generator.  \n\nSecurity Fix(es):  \n\n  * libgit2: libgit2: Denial of Service due to heap out-of-bounds read from malicious Git server (CVE-2026-53587)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {

@@ -6,45 +6,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:10",
-        "name": "mariadb-connector-c"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3.4.4-2.el10_2"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
         "name": "mariadb-connector-c-config"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3.4.4-2.el10_2"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "mariadb-connector-c-devel"
       },
       "ranges": [
         {
@@ -78,25 +40,6 @@
           ]
         }
       ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "mariadb-connector-c-test"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3.4.4-2.el10_2"
-            }
-          ]
-        }
-      ]
     }
   ],
   "upstream": [
@@ -106,7 +49,7 @@
     "CVE-2026-44172"
   ],
   "published": "2026-07-22T00:00:00Z",
-  "modified": "2026-07-23T08:41:57Z",
+  "modified": "2026-07-23T08:41:56Z",
   "details": "The MariaDB Native Client library (C driver) is used to connect applications developed in C/C++ to MariaDB and MySQL databases.   \n\nSecurity Fix(es):  \n\n  * mariadb: MariaDB server: SQL injection vulnerability via improper handling of big5 character set with mysql_real_escape_string() (CVE-2026-44172)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {

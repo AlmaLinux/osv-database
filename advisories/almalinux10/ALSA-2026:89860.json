@@ -6,63 +6,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:10",
-        "name": "httpd"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.4.63-13.el10_2.8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "httpd-core"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.4.63-13.el10_2.8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "httpd-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.4.63-13.el10_2.8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
         "name": "httpd-filesystem"
       },
       "ranges": [
@@ -97,120 +40,6 @@
           ]
         }
       ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "httpd-tools"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.4.63-13.el10_2.8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "mod_ldap"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.4.63-13.el10_2.8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "mod_lua"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.4.63-13.el10_2.8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "mod_proxy_html"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:2.4.63-13.el10_2.8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "mod_session"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.4.63-13.el10_2.8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "mod_ssl"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1:2.4.63-13.el10_2.8"
-            }
-          ]
-        }
-      ]
     }
   ],
   "upstream": [
@@ -240,7 +69,7 @@
     "CVE-2026-93546"
   ],
   "published": "2026-10-26T00:00:00Z",
-  "modified": "2026-10-26T19:44:33Z",
+  "modified": "2026-10-26T19:44:27Z",
   "details": "The httpd packages provide the Apache HTTP Server, a powerful, efficient, and extensible web server.  \n\nSecurity Fix(es):  \n\n  * httpd: httpd: HTTP response smuggling via crafted Transfer-Encoding response in mod_proxy_uwsgi (CVE-2026-63718)\n  * httpd: httpd: Denial of Service via integer overflow in mod_dav_fs (CVE-2026-93546)\n  * httpd: httpd: Authentication state corruption via concurrent Digest authentication requests (CVE-2026-73637)\n  * httpd: httpd: unauthorized connection to arbitrary hosts via crafted FTP PASV response (CVE-2026-63045)\n  * httpd: httpd: Arbitrary code execution via oversized Host header in mod_vhost_alias (CVE-2026-63292)\n  * httpd: httpd: mod_heartmonitor: Denial of Service via NULL pointer dereference (CVE-2026-46729)\n  * httpd: httpd: Authentication bypass via credential replay in mod_auth_digest (CVE-2026-73636)\n  * httpd: httpd: Denial of Service via charset conversion failure in mod_xml2enc (CVE-2026-63686)\n  * httpd: httpd: Denial of service via forged Authorization headers in mod_auth_digest (CVE-2026-48005)\n  * httpd: httpd: Denial of Service via mod_rewrite lookahead (CVE-2026-56154)\n  * httpd: httpd: Denial of Service via heap-based buffer overflow in mod_charset_lite (CVE-2026-56153)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {

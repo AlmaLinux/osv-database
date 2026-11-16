@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:97215",
+  "summary": "Important: grafana security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "grafana"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "12.4.3-2.el10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "grafana-selinux"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "12.4.3-2.el10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-27136",
+    "CVE-2026-32280",
+    "CVE-2026-33810"
+  ],
+  "related": [
+    "CVE-2026-27136",
+    "CVE-2026-32280",
+    "CVE-2026-33810"
+  ],
+  "published": "2026-11-10T00:00:00Z",
+  "modified": "2026-11-16T14:20:46Z",
+  "details": "Grafana is an open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB.   \n\nSecurity Fix(es):  \n\n  * crypto/x509: golang: Go crypto/x509: Certificate validation bypass due to incorrect DNS constraint application (CVE-2026-33810)\n  * crypto/x509: crypto/tls: golang: Go: Denial of Service vulnerability in certificate chain building (CVE-2026-32280)\n  * golang.org/x/net/html: golang: golang.org/x/net/html: Cross-Site Scripting via HTML parsing bypass (CVE-2026-27136)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * Rebase to grafana 12.4.3 (JIRA:RHEL-171604)\n  * [grafana / rhel-10.3] Remove Lua ExclusiveArch macro for Konflux build (JIRA:RHEL-188283)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.  \n\nAdditional Changes:  \n\nFor detailed information on changes in this release, see the AlmaLinux 10 Release Notes linked from the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:97215",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-27136",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-32280",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-33810",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2456335",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2456339",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2480757",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-97215.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

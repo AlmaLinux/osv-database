@@ -6,25 +6,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:10",
-        "name": "cockpit"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "356.2-1.el10_2"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
         "name": "cockpit-bridge"
       },
       "ranges": [
@@ -116,44 +97,6 @@
           ]
         }
       ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "cockpit-ws"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "356.2-1.el10_2"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "cockpit-ws-selinux"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "356.2-1.el10_2"
-            }
-          ]
-        }
-      ]
     }
   ],
   "upstream": [
@@ -163,7 +106,7 @@
     "CVE-2026-4802"
   ],
   "published": "2026-05-28T00:00:00Z",
-  "modified": "2026-05-28T14:30:37Z",
+  "modified": "2026-05-28T14:30:36Z",
   "details": "Cockpit enables users to administer GNU/Linux servers using a web browser. It offers network configuration, log inspection, diagnostic reports, SELinux troubleshooting, interactive command-line sessions, and more.  \n\nSecurity Fix(es):  \n\n  * cockpit: Cockpit: Arbitrary command execution via crafted links in system logs UI (CVE-2026-4802)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {

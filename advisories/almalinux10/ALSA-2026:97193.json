@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:97193",
+  "summary": "Important: cockpit-podman security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "cockpit-podman"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "129-1.el10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-2950",
+    "CVE-2026-4800"
+  ],
+  "related": [
+    "CVE-2026-2950",
+    "CVE-2026-4800"
+  ],
+  "published": "2026-11-10T00:00:00Z",
+  "modified": "2026-11-16T14:21:58Z",
+  "details": "The Cockpit user interface for Podman containers.  \n\nSecurity Fix(es):  \n\n  * lodash: lodash: Arbitrary code execution via untrusted input in template imports (CVE-2026-4800)\n  * lodash: Lodash: Prototype pollution allows deletion of built-in prototype properties via array path bypass (CVE-2026-2950)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.  \n\nAdditional Changes:  \n\nFor detailed information on changes in this release, see the AlmaLinux 10 Release Notes linked from the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:97193",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-2950",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-4800",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2453496",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2453499",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-97193.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

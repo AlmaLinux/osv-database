@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:97212",
+  "summary": "Low: edk2 security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "edk2-aarch64"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20260221-7.el10.alma.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "edk2-ovmf"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20260221-7.el10.alma.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "edk2-tools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20260221-7.el10.alma.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "edk2-tools-doc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20260221-7.el10.alma.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-4741"
+  ],
+  "related": [
+    "CVE-2024-4741"
+  ],
+  "published": "2026-11-10T00:00:00Z",
+  "modified": "2026-11-16T14:22:37Z",
+  "details": "EDK (Embedded Development Kit) is a project to enable UEFI support for Virtual Machines. This package contains a sample 64-bit UEFI firmware for QEMU and KVM.   \n\nSecurity Fix(es):  \n\n  * openssl: Use After Free with SSL_free_buffers (CVE-2024-4741)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * [edk2,rhel-10] rebase to edk2-stable202602 (JIRA:RHEL-151719)\n  * edk2/x64: re-enable legacy kernel loader (JIRA:RHEL-182419)\n  * [edk2,rhel-10] Unable to allocate PCI BAR with edk2-20260221-1.el10 (JIRA:RHEL-188305)\n  * [edk2] update dbx database to release 1.6.5 (JIRA:RHEL-193127)\n  * [AlmaLinux 10.3] TDX Secure Boot Setup Mode with OVMF.inteltdx.secboot.fd (JIRA:RHEL-220548)\n  * add shell.efi to aarch64 sub-rpm (JIRA:RHEL-235957)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.  \n\nAdditional Changes:  \n\nFor detailed information on changes in this release, see the AlmaLinux 10 Release Notes linked from the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:97212",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-4741",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2283757",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-97212.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

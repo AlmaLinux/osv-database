@@ -44,25 +44,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:10",
-        "name": "edk2-tools"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "20251114-5.el10_2.2"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
         "name": "edk2-tools-doc"
       },
       "ranges": [
@@ -89,7 +70,7 @@
     "CVE-2026-31790"
   ],
   "published": "2026-07-14T00:00:00Z",
-  "modified": "2026-08-13T08:05:44Z",
+  "modified": "2026-08-13T08:05:43Z",
   "details": "EDK (Embedded Development Kit) is a project to enable UEFI support for Virtual Machines. This package contains a sample 64-bit UEFI firmware for QEMU and KVM.   \n\nSecurity Fix(es):  \n\n  * openssl: openssl: Information Disclosure from Uninitialized Memory via Invalid RSA Public Key (CVE-2026-31790)\n  * openssl: OpenSSL: Denial of Service due to NULL pointer dereference in CMS EnvelopedData processing (CVE-2026-28390)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * edk2/x64: re-enable legacy kernel loader [almalinux-10.2.z] (JIRA:AlmaLinux-182421)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {

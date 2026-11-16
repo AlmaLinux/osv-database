@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:99660",
+  "summary": "Important: xfsprogs security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "xfsprogs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.16.0-2.el10_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "xfsprogs-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.16.0-2.el10_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "xfsprogs-xfs_scrub"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.16.0-2.el10_3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-108472"
+  ],
+  "related": [
+    "CVE-2026-108472"
+  ],
+  "published": "2026-11-12T00:00:00Z",
+  "modified": "2026-11-16T14:21:26Z",
+  "details": "The xfsprogs packages contain a set of utilities to administer the XFS file system, including the mkfs.xfs utility to construct an XFS file system.  \n\nSecurity Fix(es):  \n\n  * xfsprogs: xfsprogs: Local privilege escalation via command injection in xfs_admin (CVE-2026-108472)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:99660",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-108472",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2548925",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-99660.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

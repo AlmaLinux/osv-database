@@ -6,83 +6,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:10",
-        "name": "flatpak"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.16.0-9.el10_2.6"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "flatpak-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.16.0-9.el10_2.6"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "flatpak-libs"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.16.0-9.el10_2.6"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
         "name": "flatpak-selinux"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.16.0-9.el10_2.6"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "flatpak-session-helper"
       },
       "ranges": [
         {
@@ -108,7 +32,7 @@
     "CVE-2026-97024"
   ],
   "published": "2026-10-26T00:00:00Z",
-  "modified": "2026-10-26T19:44:26Z",
+  "modified": "2026-10-26T19:44:22Z",
   "details": "Flatpak is a system for building, distributing, and running sandboxed desktop applications on Linux.  \n\nSecurity Fix(es):  \n\n  * flatpak: flatpak: Arbitrary file deletion in root context via path traversal in deploy directory export/bin (CVE-2026-97023)\n  * flatpak: flatpak: Arbitrary write in root context via path traversal in deploy directory files/etc (CVE-2026-97024)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {

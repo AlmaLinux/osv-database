@@ -6,25 +6,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:10",
-        "name": "go-fdo-server"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.0.1-2.el10_2.4"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
         "name": "go-fdo-server-manufacturer"
       },
       "ranges": [
@@ -95,7 +76,7 @@
     "CVE-2026-56862"
   ],
   "published": "2026-09-02T00:00:00Z",
-  "modified": "2026-09-03T08:45:12Z",
+  "modified": "2026-09-03T08:45:11Z",
   "details": "This package provides a server-side implementation of the FIDO Device Onboard (FDO) specification, written in Go. FDO is an open standard for the late binding of device credentials, allowing for automated and secure on-boarding of devices when they are first powered on in their final location.  \n\nSecurity Fix(es):  \n\n  * crypto/x509: golang: Go crypto/x509: Certificate validation bypass due to incorrect DNS constraint application (CVE-2026-33810)\n  * encoding/asn1: golang: Go encoding/asn1: Denial of Service via excessive recursion in Unmarshal (CVE-2026-33818)\n  * net/url: golang: golang net/url: Denial of Service from quadratic complexity in path resolution (CVE-2026-56860)\n  * net/[http:](http:) golang: Go net/[http:](http:) Unencrypted HTTP/2 connections vulnerable to Denial of Service (CVE-2026-56853)\n  * crypto/tls: golang: Golang crypto/tls: Denial of Service via indefinite KeyUpdate messages (CVE-2026-56862)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {

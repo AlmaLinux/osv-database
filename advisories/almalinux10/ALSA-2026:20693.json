@@ -6,25 +6,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:10",
-        "name": "mysql8.4"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "8.4.9-1.el10_2.alma.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
         "name": "mysql8.4-common"
       },
       "ranges": [
@@ -44,83 +25,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:10",
-        "name": "mysql8.4-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "8.4.9-1.el10_2.alma.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
         "name": "mysql8.4-errmsg"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "8.4.9-1.el10_2.alma.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "mysql8.4-libs"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "8.4.9-1.el10_2.alma.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "mysql8.4-server"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "8.4.9-1.el10_2.alma.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "mysql8.4-test"
       },
       "ranges": [
         {
@@ -199,7 +104,7 @@
     "CVE-2026-35240"
   ],
   "published": "2026-05-26T00:00:00Z",
-  "modified": "2026-05-27T12:56:49Z",
+  "modified": "2026-05-27T12:56:45Z",
   "details": "MySQL is a multi-user, multi-threaded SQL database server. MySQL is a client/server implementation consisting of a server daemon (mysqld) and many different client programs and libraries. The base package contains the standard MySQL client programs and generic MySQL files.  \n\nSecurity Fix(es):  \n\n  * mysql: InnoDB unspecified vulnerability (CPU Apr 2026) (CVE-2026-22004)\n  * mysql: Information Schema unspecified vulnerability (CPU Apr 2026) (CVE-2026-22001)\n  * mysql: Group Replication Plugin unspecified vulnerability (CPU Apr 2026) (CVE-2026-34271)\n  * mysql: Optimizer unspecified vulnerability (CPU Apr 2026) (CVE-2026-22009)\n  * mysql: InnoDB unspecified vulnerability (CPU Apr 2026) (CVE-2026-35237)\n  * mysql: Optimizer unspecified vulnerability (CPU Apr 2026) (CVE-2026-21998)\n  * mysql: Optimizer unspecified vulnerability (CPU Apr 2026) (CVE-2026-22005)\n  * mysql: InnoDB unspecified vulnerability (CPU Apr 2026) (CVE-2026-35238)\n  * mysql: DML unspecified vulnerability (CPU Apr 2026) (CVE-2026-35239)\n  * mysql: Optimizer unspecified vulnerability (CPU Apr 2026) (CVE-2026-22002)\n  * mysql: InnoDB unspecified vulnerability (CPU Apr 2026) (CVE-2026-35236)\n  * mysql: JSON unspecified vulnerability (CPU Apr 2026) (CVE-2026-34308)\n  * mysql: Optimizer unspecified vulnerability (CPU Apr 2026) (CVE-2026-34303)\n  * mysql: Optimizer unspecified vulnerability (CPU Apr 2026) (CVE-2026-35240)\n  * mysql: Optimizer unspecified vulnerability (CPU Apr 2026) (CVE-2026-22017)\n  * mysql: InnoDB unspecified vulnerability (CPU Apr 2026) (CVE-2026-34304)\n  * mysql: Information Schema unspecified vulnerability (CPU Apr 2026) (CVE-2026-22015)\n  * mysql: Group Replication Plugin unspecified vulnerability (CPU Apr 2026) (CVE-2026-34276)\n  * mysql: Group Replication Plugin unspecified vulnerability (CPU Apr 2026) (CVE-2026-34270)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {

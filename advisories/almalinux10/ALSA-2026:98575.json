@@ -1,0 +1,141 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:98575",
+  "summary": "Important: openexr security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "openexr"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.10-12.el10_3.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "openexr-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.10-12.el10_3.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "openexr-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.10-12.el10_3.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-34544",
+    "CVE-2026-59184",
+    "CVE-2026-59189",
+    "CVE-2026-59981",
+    "CVE-2026-59982",
+    "CVE-2026-68515"
+  ],
+  "related": [
+    "CVE-2026-34544",
+    "CVE-2026-59184",
+    "CVE-2026-59189",
+    "CVE-2026-59981",
+    "CVE-2026-59982",
+    "CVE-2026-68515"
+  ],
+  "published": "2026-11-11T00:00:00Z",
+  "modified": "2026-11-16T14:21:09Z",
+  "details": "OpenEXR is an open-source high-dynamic-range floating-point image file format for high-quality image processing and storage. This document presents a brief overview of OpenEXR and explains concepts that are specific to this format. This package containes the binaries for OpenEXR.  \n\nSecurity Fix(es):  \n\n  * OpenEXR: OpenEXR: Memory corruption and Denial of Service via crafted EXR file processing (CVE-2026-34544)\n  * OpenEXR: OpenEXR: Out-of-bounds write vulnerability via crafted EXR files (CVE-2026-59184)\n  * OpenEXR: OpenEXR: Information disclosure and denial of service due to out-of-bounds read (CVE-2026-59189)\n  * OpenEXR: OpenEXR: Denial of Service or Information Disclosure via crafted EXR image file (CVE-2026-59982)\n  * OpenEXR: OpenEXR: Heap out-of-bounds write in exrmultiview via crafted EXR files (CVE-2026-68515)\n  * OpenEXR: OpenEXR: Information disclosure and denial of service via out-of-bounds read (CVE-2026-59981)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:98575",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-34544",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-59184",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-59189",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-59981",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-59982",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-68515",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2454127",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2523654",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2523671",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2523708",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2523747",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2523752",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-98575.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

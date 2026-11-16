@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:98621",
+  "summary": "Important: gstreamer1-plugins-bad-free security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "gstreamer1-plugins-bad-free"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.26.7-9.el10_3.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "gstreamer1-plugins-bad-free-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.26.7-9.el10_3.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "gstreamer1-plugins-bad-free-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.26.7-9.el10_3.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-119777"
+  ],
+  "related": [
+    "CVE-2026-119777"
+  ],
+  "published": "2026-11-11T00:00:00Z",
+  "modified": "2026-11-16T14:21:15Z",
+  "details": "GStreamer is a streaming media framework based on graphs of filters which operate on media data. The gstreamer1-plugins-bad-free package contains a collection of plug-ins for GStreamer.  \n\nSecurity Fix(es):  \n\n  * gstreamer1-plugins-bad-free: gstreamer1-plugins-bad-free: stack buffer overflow in H.266/VVC parser (CVE-2026-119777)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:98621",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-119777",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2564164",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-98621.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:98602",
+  "summary": "Important: guava security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "guava"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "32.1.3-6.el10_3.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "guava-javadoc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "32.1.3-6.el10_3.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "guava-testlib"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "32.1.3-6.el10_3.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-102554"
+  ],
+  "related": [
+    "CVE-2026-102554"
+  ],
+  "published": "2026-11-11T00:00:00Z",
+  "modified": "2026-11-16T14:22:39Z",
+  "details": "Guava is a suite of core and expanded libraries that include utility classes, Google\u2019s collections, io classes, and much much more. This project is a complete packaging of all the Guava libraries into a single jar. Individual portions of Guava can be used by downloading the appropriate module and its dependencies.  \n\nSecurity Fix(es):  \n\n  * com.google.guava/guava: Google Guava: Denial of Service via unthrottled memory allocation during deserialization (CVE-2026-102554)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:98602",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-102554",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2548685",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-98602.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

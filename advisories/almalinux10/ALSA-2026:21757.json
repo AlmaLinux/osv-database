@@ -6,83 +6,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:10",
-        "name": "flatpak"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.16.0-9.el10_2.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "flatpak-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.16.0-9.el10_2.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "flatpak-libs"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.16.0-9.el10_2.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
         "name": "flatpak-selinux"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.16.0-9.el10_2.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "flatpak-session-helper"
       },
       "ranges": [
         {
@@ -108,7 +32,7 @@
     "CVE-2026-34079"
   ],
   "published": "2026-05-28T00:00:00Z",
-  "modified": "2026-05-29T12:28:08Z",
+  "modified": "2026-05-29T12:28:05Z",
   "details": "Flatpak is a system for building, distributing, and running sandboxed desktop applications on Linux.  \n\nSecurity Fix(es):  \n\n  * flatpak: Flatpak: Arbitrary code execution via crafted symlinks in sandbox-expose options (CVE-2026-34078)\n  * flatpak: Flatpak: Arbitrary file deletion on host via improper cache file path validation (CVE-2026-34079)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {

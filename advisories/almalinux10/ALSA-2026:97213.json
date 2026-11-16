@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:97213",
+  "summary": "Important: grafana-pcp security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "grafana-pcp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.1.0-1.el10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-32280",
+    "CVE-2026-33810"
+  ],
+  "related": [
+    "CVE-2026-32280",
+    "CVE-2026-33810"
+  ],
+  "published": "2026-11-10T00:00:00Z",
+  "modified": "2026-11-16T14:20:23Z",
+  "details": "The Grafana plugin for Performance Co-Pilot includes datasources for scalable time series from pmseries and Redis, live PCP metrics and bpftrace scripts from pmdabpftrace, as well as several dashboards.  \n\nSecurity Fix(es):  \n\n  * crypto/x509: golang: Go crypto/x509: Certificate validation bypass due to incorrect DNS constraint application (CVE-2026-33810)\n  * crypto/x509: crypto/tls: golang: Go: Denial of Service vulnerability in certificate chain building (CVE-2026-32280)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * Update to new grafana-pcp release (JIRA:RHEL-169811)\n  * [grafana-pcp / rhel-10.3] Remove Lua ExclusiveArch macro for Konflux build (JIRA:RHEL-188288)\n  * Rebase to grafana-pcp v6.1.0 (JIRA:RHEL-243641)\n  * grafana-pcp: return a clear error when geomap queries lack latitude/longitude labels (JIRA:RHEL-182453)\n  * [RFE] Add grafana-pcp dashboards for AlmaLinux AI (JIRA:RHEL-58940)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.  \n\nAdditional Changes:  \n\nFor detailed information on changes in this release, see the AlmaLinux 10 Release Notes linked from the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:97213",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-32280",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-33810",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2456335",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2456339",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-97213.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

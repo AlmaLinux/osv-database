@@ -6,64 +6,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:10",
-        "name": "polkit"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "125-4.el10_2.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "polkit-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "125-4.el10_2.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
         "name": "polkit-docs"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "125-4.el10_2.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "polkit-libs"
       },
       "ranges": [
         {
@@ -87,7 +30,7 @@
     "CVE-2026-4897"
   ],
   "published": "2026-08-26T00:00:00Z",
-  "modified": "2026-08-26T14:00:54Z",
+  "modified": "2026-08-26T14:00:53Z",
   "details": "The polkit packages provide a component for controlling system-wide privileges. This component provides a uniform and organized way for non-privileged processes to communicate with privileged ones.  \n\nSecurity Fix(es):  \n\n  * polkit: Polkit: Denial of Service via unbounded input processing through standard input (CVE-2026-4897)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {

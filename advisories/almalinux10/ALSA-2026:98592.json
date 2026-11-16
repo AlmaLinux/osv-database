@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:98592",
+  "summary": "Important: go-fdo-client security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "go-fdo-client"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.0-9.el10_3.11"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-56862",
+    "CVE-2026-78669"
+  ],
+  "related": [
+    "CVE-2026-56862",
+    "CVE-2026-78669"
+  ],
+  "published": "2026-11-11T00:00:00Z",
+  "modified": "2026-11-16T14:20:27Z",
+  "details": "go-fdo-client is the device-side implementation of FIDO Device Onboard specification in Go. It provides an FDO client that interacts with FDO manufacturer and owner servers to perform device on-boarding.  \n\nSecurity Fix(es):  \n\n  * crypto/tls: golang: Golang crypto/tls: Denial of Service via indefinite KeyUpdate messages (CVE-2026-56862)\n  * net/[http](http): net/http/internal/http2: golang.org/x/net/http2: net/[http](http): Denial of Service via excessive HTTP/2 SETTINGS frames (CVE-2026-78669)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:98592",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-56862",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-78669",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2515839",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2548344",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-98592.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

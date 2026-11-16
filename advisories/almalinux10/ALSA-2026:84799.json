@@ -6,44 +6,6 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:10",
-        "name": "mariadb11.8"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3:11.8.8-2.el10_2.alma.2"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "mariadb11.8-backup"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3:11.8.8-2.el10_2.alma.2"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
         "name": "mariadb11.8-client-utils"
       },
       "ranges": [
@@ -82,159 +44,7 @@
     {
       "package": {
         "ecosystem": "AlmaLinux:10",
-        "name": "mariadb11.8-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3:11.8.8-2.el10_2.alma.2"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "mariadb11.8-embedded"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3:11.8.8-2.el10_2.alma.2"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "mariadb11.8-embedded-devel"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3:11.8.8-2.el10_2.alma.2"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
         "name": "mariadb11.8-errmsg"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3:11.8.8-2.el10_2.alma.2"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "mariadb11.8-gssapi-server"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3:11.8.8-2.el10_2.alma.2"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "mariadb11.8-oqgraph-engine"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3:11.8.8-2.el10_2.alma.2"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "mariadb11.8-pam"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3:11.8.8-2.el10_2.alma.2"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "mariadb11.8-server"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3:11.8.8-2.el10_2.alma.2"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "mariadb11.8-server-galera"
       },
       "ranges": [
         {
@@ -268,25 +78,6 @@
           ]
         }
       ]
-    },
-    {
-      "package": {
-        "ecosystem": "AlmaLinux:10",
-        "name": "mariadb11.8-test"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3:11.8.8-2.el10_2.alma.2"
-            }
-          ]
-        }
-      ]
     }
   ],
   "upstream": [
@@ -300,7 +91,7 @@
     "CVE-2026-89161"
   ],
   "published": "2026-10-19T00:00:00Z",
-  "modified": "2026-10-22T09:00:57Z",
+  "modified": "2026-10-22T09:00:54Z",
   "details": "MariaDB is a community developed fork from MySQL - a multi-user, multi-threaded SQL database server. It is a client/server implementation consisting of a server daemon (mariadbd) and many different client programs and libraries. The base package contains the standard MariaDB/MySQL client programs and utilities.  \n\nSecurity Fix(es):  \n\n  * pcre2: PCRE2: Out-of-bounds write allows arbitrary code execution via crafted regular expressions (CVE-2026-86145)\n  * pcre2: PCRE2: Memory corruption vulnerability in pcre2_jit_match (CVE-2026-89161)\n  * pcre2: pcre2: Out-of-bounds write via crafted regular expression (CVE-2026-103111)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {

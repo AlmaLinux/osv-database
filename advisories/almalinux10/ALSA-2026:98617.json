@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:98617",
+  "summary": "Important: yggdrasil security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "yggdrasil"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.4.10-1.el10_3.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "yggdrasil-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.4.10-1.el10_3.4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-27145",
+    "CVE-2026-33818",
+    "CVE-2026-56860",
+    "CVE-2026-56862",
+    "CVE-2026-78669"
+  ],
+  "related": [
+    "CVE-2026-27145",
+    "CVE-2026-33818",
+    "CVE-2026-56860",
+    "CVE-2026-56862",
+    "CVE-2026-78669"
+  ],
+  "published": "2026-11-11T00:00:00Z",
+  "modified": "2026-11-16T14:20:29Z",
+  "details": "yggdrasil is a system daemon that subscribes to topics on an MQTT broker and routes any data received on the topics to an appropriate child \"worker\" process, exchanging data with its worker processes through a D-Bus message broker.  \n\nSecurity Fix(es):  \n\n  * crypto/x509: golang: golang crypto/x509: Denial of Service via excessive processing of DNS SAN entries (CVE-2026-27145)\n  * encoding/asn1: golang: Go encoding/asn1: Denial of Service via excessive recursion in Unmarshal (CVE-2026-33818)\n  * net/url: golang: golang net/url: Denial of Service from quadratic complexity in path resolution (CVE-2026-56860)\n  * crypto/tls: golang: Golang crypto/tls: Denial of Service via indefinite KeyUpdate messages (CVE-2026-56862)\n  * net/[http](http): net/http/internal/http2: golang.org/x/net/http2: net/[http](http): Denial of Service via excessive HTTP/2 SETTINGS frames (CVE-2026-78669)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:98617",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-27145",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-33818",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-56860",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-56862",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-78669",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2484207",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2515815",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2515820",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2515839",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2548344",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-98617.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:97284",
+  "summary": "Important: git-lfs security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "git-lfs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.7.1-6.el10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-32281",
+    "CVE-2026-33810"
+  ],
+  "related": [
+    "CVE-2026-32281",
+    "CVE-2026-33810"
+  ],
+  "published": "2026-11-10T00:00:00Z",
+  "modified": "2026-11-16T14:20:23Z",
+  "details": "Git Large File Storage (LFS) replaces large files such as audio samples, videos, datasets, and graphics with text pointers inside Git, while storing the file contents on a remote server.  \n\nSecurity Fix(es):  \n\n  * crypto/x509: golang: Go crypto/x509: Denial of Service via inefficient certificate chain validation (CVE-2026-32281)\n  * crypto/x509: golang: Go crypto/x509: Certificate validation bypass due to incorrect DNS constraint application (CVE-2026-33810)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.  \n\nAdditional Changes:  \n\nFor detailed information on changes in this release, see the AlmaLinux 10 Release Notes linked from the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:97284",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-32281",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-33810",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2456333",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2456335",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-97284.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

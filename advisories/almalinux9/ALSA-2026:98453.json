@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:98453",
+  "summary": "Important: libsoup security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libsoup"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.72.0-17.el9_9.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libsoup-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.72.0-17.el9_9.6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-102556",
+    "CVE-2026-102557",
+    "CVE-2026-102558",
+    "CVE-2026-102559",
+    "CVE-2026-102560",
+    "CVE-2026-15709",
+    "CVE-2026-15711"
+  ],
+  "related": [
+    "CVE-2026-102556",
+    "CVE-2026-102557",
+    "CVE-2026-102558",
+    "CVE-2026-102559",
+    "CVE-2026-102560",
+    "CVE-2026-15709",
+    "CVE-2026-15711"
+  ],
+  "published": "2026-11-11T00:00:00Z",
+  "modified": "2026-11-16T14:10:00Z",
+  "details": "The libsoup packages provide an HTTP client and server library for GNOME.  \n\nSecurity Fix(es):  \n\n  * SoupWebsocketExtensionDeflate: libsoup: libsoup: WebSocket permessage-deflate Unbounded Decompression Remote Denial of Service (CVE-2026-15709)\n  * libsoup: SoupWebsocketConnection: libsoup: WebSocket remote denial of service via oversized control frame protocol violation (CVE-2026-15711)\n  * libsoup: libsoup: Heap buffer overflow from WebSocket Pong signal type confusion (CVE-2026-102556)\n  * libsoup: libsoup: Heap buffer overflow during WebSocket message reassembly (CVE-2026-102557)\n  * libsoup: libsoup: Heap buffer overflow during WebSocket receive-buffer growth (CVE-2026-102558)\n  * libsoup: libsoup: Heap buffer overflow during WebSocket client-frame masking (CVE-2026-102559)\n  * libsoup: libsoup: Heap buffer overflow during outgoing permessage-deflate buffer growth (CVE-2026-102560)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:98453",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-102556",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-102557",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-102558",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-102559",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-102560",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-15709",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-15711",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2499922",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2499924",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2543229",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2543231",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2543274",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2543285",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2543296",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-98453.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

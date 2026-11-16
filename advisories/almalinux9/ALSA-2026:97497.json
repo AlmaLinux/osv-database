@@ -1,0 +1,227 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:97497",
+  "summary": "Moderate: unbound security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "python3-unbound"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.26.1-1.el9_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "unbound"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.26.1-1.el9_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "unbound-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.26.1-1.el9_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "unbound-dracut"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.26.1-1.el9_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "unbound-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.26.1-1.el9_9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-42923",
+    "CVE-2026-42955",
+    "CVE-2026-42960",
+    "CVE-2026-44608",
+    "CVE-2026-44687",
+    "CVE-2026-46582",
+    "CVE-2026-50045",
+    "CVE-2026-50046",
+    "CVE-2026-50243",
+    "CVE-2026-50248",
+    "CVE-2026-52863",
+    "CVE-2026-54478",
+    "CVE-2026-55708",
+    "CVE-2026-55717",
+    "CVE-2026-56416",
+    "CVE-2026-56444"
+  ],
+  "related": [
+    "CVE-2026-42923",
+    "CVE-2026-42955",
+    "CVE-2026-42960",
+    "CVE-2026-44608",
+    "CVE-2026-44687",
+    "CVE-2026-46582",
+    "CVE-2026-50045",
+    "CVE-2026-50046",
+    "CVE-2026-50243",
+    "CVE-2026-50248",
+    "CVE-2026-52863",
+    "CVE-2026-54478",
+    "CVE-2026-55708",
+    "CVE-2026-55717",
+    "CVE-2026-56416",
+    "CVE-2026-56444"
+  ],
+  "published": "2026-11-10T00:00:00Z",
+  "modified": "2026-11-16T14:09:56Z",
+  "details": "The unbound packages provide a validating, recursive, and caching DNS or DNSSEC resolver.   \n\nSecurity Fix(es):  \n\n  * unbound: Unbound DNS Cache Poisoning via Promiscuous Additional Section RRSet Acceptance (CVE-2026-42960)\n  * unbound: Unbound DNSSEC Validator NSEC3 Hash Calculation Limit Bypass via Negative Cache Code Path Leading to DoS (CVE-2026-42923)\n  * unbound: Unbound: Denial of Service due to locking inconsistency during RPZ XFR reload (CVE-2026-44608)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * Update to latest 1.26 [rhel-9] (JIRA:RHEL-246537)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.  \n\nAdditional Changes:  \n\nFor detailed information on changes in this release, see the AlmaLinux 9 Release Notes linked from the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:97497",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-42923",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-42960",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-44608",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2479821",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2479825",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2480126",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-97497.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-42955.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-44687.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-46582.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-50045.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-50046.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-50243.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-50248.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-52863.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-54478.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-55708.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-55717.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-56416.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-56444.html",
+      "type": "REPORT"
+    }
+  ]
+}

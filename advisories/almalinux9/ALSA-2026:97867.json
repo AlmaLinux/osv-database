@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:97867",
+  "summary": "Important: sos security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "sos"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.11.2-7.el9_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "sos-audit"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.11.2-7.el9_9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-79655"
+  ],
+  "related": [
+    "CVE-2026-79655"
+  ],
+  "published": "2026-11-10T00:00:00Z",
+  "modified": "2026-11-16T14:10:46Z",
+  "details": "The sos package contains a set of utilities that gather information from system hardware, logs, and configuration files. The information can then be used for diagnostic purposes and debugging.  \n\nSecurity Fix(es):  \n\n  * sos: sos: path traversal in sos clean tar extraction via unvalidated symlink/hardlink targets leads to arbitrary file write (CVE-2026-79655)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * Hydra to GraphQL migration and sos upload [rhel-9.9.z] (JIRA:RHEL-290949)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:97867",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-79655",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2523363",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-97867.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:98504",
+  "summary": "Important: libXi security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libXi"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.10-8.el9_9.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "libXi-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.10-8.el9_9.3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-109089",
+    "CVE-2026-109090",
+    "CVE-2026-93543"
+  ],
+  "related": [
+    "CVE-2026-109089",
+    "CVE-2026-109090",
+    "CVE-2026-93543"
+  ],
+  "published": "2026-11-11T00:00:00Z",
+  "modified": "2026-11-16T14:10:05Z",
+  "details": "X.Org X11 libXi runtime library  \n\nSecurity Fix(es):  \n\n  * libXi: libXi: Denial of Service via out-of-bounds read in XI2 class parser (CVE-2026-93543)\n  * libXi: libXi: Arbitrary code execution via oversized DEVICE_ENABLE reply (CVE-2026-109090)\n  * libXi: libXi: Arbitrary code execution via DEVICE_RESOLUTION heap-based buffer overflow (CVE-2026-109089)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:98504",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-109089",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-109090",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-93543",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2540529",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2562069",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2562191",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-98504.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

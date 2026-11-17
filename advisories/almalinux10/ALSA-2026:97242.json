@@ -1,0 +1,196 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:97242",
+  "summary": "Moderate: bind security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "bind"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "32:9.18.33-29.el10_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "bind-chroot"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "32:9.18.33-29.el10_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "bind-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "32:9.18.33-29.el10_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "bind-dnssec-utils"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "32:9.18.33-29.el10_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "bind-doc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "32:9.18.33-29.el10_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "bind-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "32:9.18.33-29.el10_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "bind-license"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "32:9.18.33-29.el10_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "bind-utils"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "32:9.18.33-29.el10_3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-3592",
+    "CVE-2026-5950"
+  ],
+  "related": [
+    "CVE-2026-3592",
+    "CVE-2026-5950"
+  ],
+  "published": "2026-11-10T00:00:00Z",
+  "modified": "2026-11-17T10:33:03Z",
+  "details": "The Berkeley Internet Name Domain (BIND) is an implementation of the Domain Name System (DNS) protocols. BIND includes a DNS server (named); a resolver library (routines for applications to use when interfacing with DNS); and tools for verifying that the DNS server is operating correctly.  \n\nSecurity Fix(es):  \n\n  * bind: Amplification vulnerabilities via self-pointed glue records (CVE-2026-3592)\n  * bind: Unbounded resend loop in BIND 9 resolver (CVE-2026-5950)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * [BUG] Bind DNS forwarder when configured to allow stale answers fails to provide resonse of 3 layer CNAME when TTL abruptly changes to 0 [rhel-10] (JIRA:RHEL-142289)\n  * [rhel-10] Bind 9.18.33 DNSSEC Key Rollover with KASP Causes ZSK Key To Be Removed Prematurely (JIRA:RHEL-144421)\n  * bind: New root trust anchor key for DNSSEC [rhel-10.3] (JIRA:RHEL-255748)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.  \n\nAdditional Changes:  \n\nFor detailed information on changes in this release, see the AlmaLinux 10 Release Notes linked from the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:97242",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-3592",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-5950",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2479768",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2479773",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-97242.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

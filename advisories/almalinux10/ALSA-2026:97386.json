@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:97386",
+  "summary": "Important: go-fdo-client security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "go-fdo-client"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.0-9.el10_3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-25679",
+    "CVE-2026-27137",
+    "CVE-2026-33811",
+    "CVE-2026-39821"
+  ],
+  "related": [
+    "CVE-2026-25679",
+    "CVE-2026-27137",
+    "CVE-2026-33811",
+    "CVE-2026-39821"
+  ],
+  "published": "2026-11-10T00:00:00Z",
+  "modified": "2026-11-17T10:30:22Z",
+  "details": "go-fdo-client is the device-side implementation of FIDO Device Onboard specification in Go. It provides an FDO client that interacts with FDO manufacturer and owner servers to perform device on-boarding.  \n\nSecurity Fix(es):  \n\n  * crypto/x509: Incorrect enforcement of email constraints in crypto/x509 (CVE-2026-27137)\n  * net/url: Incorrect parsing of IPv6 host literals in net/url (CVE-2026-25679)\n  * net: golang: Go net package: Denial of Service via long CNAME response in LookupCNAME (CVE-2026-33811)\n  * golang.org/x/net/idna: golang: net/[http](http): golang.org/x/net/idna: Privilege escalation via incorrect Punycode label processing (CVE-2026-39821)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.  \n\nAdditional Changes:  \n\nFor detailed information on changes in this release, see the AlmaLinux 10 Release Notes linked from the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:97386",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-25679",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-27137",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-33811",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-39821",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2445345",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2445356",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2467822",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2480756",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-97386.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

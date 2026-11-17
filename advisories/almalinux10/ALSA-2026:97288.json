@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:97288",
+  "summary": "Important: yggdrasil security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "yggdrasil"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.4.10-1.el10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "yggdrasil-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.4.10-1.el10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-27137"
+  ],
+  "related": [
+    "CVE-2026-27137"
+  ],
+  "published": "2026-11-10T00:00:00Z",
+  "modified": "2026-11-17T10:29:32Z",
+  "details": "yggdrasil is a system daemon that subscribes to topics on an MQTT broker and routes any data received on the topics to an appropriate child \"worker\" process, exchanging data with its worker processes through a D-Bus message broker.  \n\nSecurity Fix(es):  \n\n  * crypto/x509: Incorrect enforcement of email constraints in crypto/x509 (CVE-2026-27137)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * [Azure][AlmaLinux-10][yggd]failed to publish message: not Connected (JIRA:RHEL-135848)\n  * Set the MQTT LastWill message each time the client connects to the broker (JIRA:RHEL-166873)\n  * Yggdrasil: add \"client-id\" subcommand to yggctl (JIRA:RHEL-178895)\n  * Yggdrasil SQL Injection Through DBus (JIRA:RHEL-90808)\n  * fix: set HTTP client timeout and max idle connection timeout (JIRA:RHEL-168913)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.  \n\nAdditional Changes:  \n\nFor detailed information on changes in this release, see the AlmaLinux 10 Release Notes linked from the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:97288",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-27137",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2445345",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-97288.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

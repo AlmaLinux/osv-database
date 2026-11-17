@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:97328",
+  "summary": "Important: oci-seccomp-bpf-hook security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "oci-seccomp-bpf-hook"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.3.0-2.el10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33811"
+  ],
+  "related": [
+    "CVE-2026-33811"
+  ],
+  "published": "2026-11-10T00:00:00Z",
+  "modified": "2026-11-17T10:30:32Z",
+  "details": "OCI Hook to generate seccomp json files based on EBF syscalls used by container oci-seccomp-bpf-hook provides a library for applications looking to use the Container Pod concept popularized by Kubernetes.  \n\nSecurity Fix(es):  \n\n  * net: golang: Go net package: Denial of Service via long CNAME response in LookupCNAME (CVE-2026-33811)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * oci-seccomp-bpf-hook - update to the latest upstream release (JIRA:RHEL-212011)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.  \n\nAdditional Changes:  \n\nFor detailed information on changes in this release, see the AlmaLinux 10 Release Notes linked from the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:97328",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-33811",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2467822",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-97328.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

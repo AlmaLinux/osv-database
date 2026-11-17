@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:97578",
+  "summary": "Important: buildah security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "buildah"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.43.2-3.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "buildah-tests"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.43.2-3.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33811",
+    "CVE-2026-46597"
+  ],
+  "related": [
+    "CVE-2026-33811",
+    "CVE-2026-46597"
+  ],
+  "published": "2026-11-10T00:00:00Z",
+  "modified": "2026-11-17T10:20:13Z",
+  "details": "The buildah package provides a tool for facilitating building OCI container images. Among other things, buildah enables you to: Create a working container, either from scratch or using an image as a starting point; Create an image, either from a working container or using the instructions in a Dockerfile; Build both Docker and OCI images.   \n\nSecurity Fix(es):  \n\n  * net: golang: Go net package: Denial of Service via long CNAME response in LookupCNAME (CVE-2026-33811)\n  * golang.org/x/crypto/ssh: golang.org/x/crypto/ssh: Denial of Service via crafted AES-GCM packet decoder inputs (CVE-2026-46597)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * Update buildah to 1.43.1 [rhel-9.9] (JIRA:RHEL-170519)\n  * Rebase buildah to 1.43.1 [rhel-9.9] (JIRA:RHEL-170601)\n  * update to the latest upstream release (JIRA:RHEL-185739)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.  \n\nAdditional Changes:  \n\nFor detailed information on changes in this release, see the AlmaLinux 9 Release Notes linked from the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:97578",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-33811",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-46597",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2467822",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2480678",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-97578.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

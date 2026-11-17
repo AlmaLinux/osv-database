@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:97533",
+  "summary": "Important: podman security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "podman"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6:5.8.5-2.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "podman-docker"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6:5.8.5-2.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "podman-plugins"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6:5.8.5-2.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "podman-remote"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6:5.8.5-2.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "podman-tests"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6:5.8.5-2.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-46597"
+  ],
+  "related": [
+    "CVE-2026-46597"
+  ],
+  "published": "2026-11-10T00:00:00Z",
+  "modified": "2026-11-17T10:22:14Z",
+  "details": "The podman tool manages pods, container images, and containers. It is part of the libpod library, which is for applications that use container pods. Container pods is a concept in Kubernetes.  \n\nSecurity Fix(es):  \n\n  * golang.org/x/crypto/ssh: golang.org/x/crypto/ssh: Denial of Service via crafted AES-GCM packet decoder inputs (CVE-2026-46597)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * When using `--mount` in `podman run` results can be inconsistent, especially on /var/tmp (JIRA:RHEL-154348)\n  * [RFE] SELinux confined users unable to start podman.socket systemd user service (JIRA:RHEL-132875)\n  * [RFE] Mounting of NFS Quadlet volume fails with permission denied (JIRA:RHEL-145863)\n  * [RFE] podman API socket to support TLS/mTLS (JIRA:RHEL-91221)\n  * Rebase podman to the latest upstream release [rhel-9.9] (JIRA:RHEL-168737)\n  * podman does not clean up all files and leaves orphaned files consuming disk space [rhel-9.9] (JIRA:RHEL-173976)\n  * [FJ9.8 Bug]: [REG]The \"podman-remote save\" command fails for rootless users. (JIRA:RHEL-186006)\n  * podman: rebase to 5.8.5 (JIRA:RHEL-212537)\n  * [FJ9.9 Bug]: [REG]The \"podman rm\" command can accidentally delete containers even though it is mounted by Buildah when used by a rootless user in remote. (JIRA:RHEL-211092)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.  \n\nAdditional Changes:  \n\nFor detailed information on changes in this release, see the AlmaLinux 9 Release Notes linked from the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:97533",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-46597",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2480678",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-97533.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,1000 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:98455",
+  "summary": "Critical: webkit2gtk3 security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "webkit2gtk3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.54.2-2.el9_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "webkit2gtk3-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.54.2-2.el9_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "webkit2gtk3-jsc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.54.2-2.el9_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "webkit2gtk3-jsc-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.54.2-2.el9_9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-4860",
+    "CVE-2024-7966",
+    "CVE-2024-8193",
+    "CVE-2024-8198",
+    "CVE-2024-8636",
+    "CVE-2024-9123",
+    "CVE-2025-0436",
+    "CVE-2025-0444",
+    "CVE-2026-10009",
+    "CVE-2026-10011",
+    "CVE-2026-10012",
+    "CVE-2026-10020",
+    "CVE-2026-102325",
+    "CVE-2026-103629",
+    "CVE-2026-106379",
+    "CVE-2026-106399",
+    "CVE-2026-10925",
+    "CVE-2026-10941",
+    "CVE-2026-10977",
+    "CVE-2026-10985",
+    "CVE-2026-10993",
+    "CVE-2026-11024",
+    "CVE-2026-11039",
+    "CVE-2026-11057",
+    "CVE-2026-11099",
+    "CVE-2026-11121",
+    "CVE-2026-11124",
+    "CVE-2026-11159",
+    "CVE-2026-113106",
+    "CVE-2026-11663",
+    "CVE-2026-11675",
+    "CVE-2026-118319",
+    "CVE-2026-118340",
+    "CVE-2026-118348",
+    "CVE-2026-118351",
+    "CVE-2026-118354",
+    "CVE-2026-119261",
+    "CVE-2026-119271",
+    "CVE-2026-13781",
+    "CVE-2026-13820",
+    "CVE-2026-13841",
+    "CVE-2026-13885",
+    "CVE-2026-13971",
+    "CVE-2026-14387",
+    "CVE-2026-14389",
+    "CVE-2026-14410",
+    "CVE-2026-14414",
+    "CVE-2026-14419",
+    "CVE-2026-14427",
+    "CVE-2026-14429",
+    "CVE-2026-15766",
+    "CVE-2026-15774",
+    "CVE-2026-16417",
+    "CVE-2026-17653",
+    "CVE-2026-17702",
+    "CVE-2026-17712",
+    "CVE-2026-17745",
+    "CVE-2026-17757",
+    "CVE-2026-17771",
+    "CVE-2026-17914",
+    "CVE-2026-17992",
+    "CVE-2026-19160",
+    "CVE-2026-3538",
+    "CVE-2026-3931",
+    "CVE-2026-4460",
+    "CVE-2026-5870",
+    "CVE-2026-6298",
+    "CVE-2026-6364",
+    "CVE-2026-65333",
+    "CVE-2026-7353",
+    "CVE-2026-78914",
+    "CVE-2026-78958",
+    "CVE-2026-79112",
+    "CVE-2026-79144",
+    "CVE-2026-79147",
+    "CVE-2026-7920",
+    "CVE-2026-7923",
+    "CVE-2026-7949",
+    "CVE-2026-84359",
+    "CVE-2026-8510",
+    "CVE-2026-8579",
+    "CVE-2026-91733",
+    "CVE-2026-91740",
+    "CVE-2026-9892",
+    "CVE-2026-9893",
+    "CVE-2026-9909",
+    "CVE-2026-9923",
+    "CVE-2026-9981",
+    "CVE-2026-9983",
+    "CVE-2026-9998"
+  ],
+  "related": [
+    "CVE-2023-4860",
+    "CVE-2024-7966",
+    "CVE-2024-8193",
+    "CVE-2024-8198",
+    "CVE-2024-8636",
+    "CVE-2024-9123",
+    "CVE-2025-0436",
+    "CVE-2025-0444",
+    "CVE-2026-10009",
+    "CVE-2026-10011",
+    "CVE-2026-10012",
+    "CVE-2026-10020",
+    "CVE-2026-102325",
+    "CVE-2026-103629",
+    "CVE-2026-106379",
+    "CVE-2026-106399",
+    "CVE-2026-10925",
+    "CVE-2026-10941",
+    "CVE-2026-10977",
+    "CVE-2026-10985",
+    "CVE-2026-10993",
+    "CVE-2026-11024",
+    "CVE-2026-11039",
+    "CVE-2026-11057",
+    "CVE-2026-11099",
+    "CVE-2026-11121",
+    "CVE-2026-11124",
+    "CVE-2026-11159",
+    "CVE-2026-113106",
+    "CVE-2026-11663",
+    "CVE-2026-11675",
+    "CVE-2026-118319",
+    "CVE-2026-118340",
+    "CVE-2026-118348",
+    "CVE-2026-118351",
+    "CVE-2026-118354",
+    "CVE-2026-119261",
+    "CVE-2026-119271",
+    "CVE-2026-13781",
+    "CVE-2026-13820",
+    "CVE-2026-13841",
+    "CVE-2026-13885",
+    "CVE-2026-13971",
+    "CVE-2026-14387",
+    "CVE-2026-14389",
+    "CVE-2026-14410",
+    "CVE-2026-14414",
+    "CVE-2026-14419",
+    "CVE-2026-14427",
+    "CVE-2026-14429",
+    "CVE-2026-15766",
+    "CVE-2026-15774",
+    "CVE-2026-16417",
+    "CVE-2026-17653",
+    "CVE-2026-17702",
+    "CVE-2026-17712",
+    "CVE-2026-17745",
+    "CVE-2026-17757",
+    "CVE-2026-17771",
+    "CVE-2026-17914",
+    "CVE-2026-17992",
+    "CVE-2026-19160",
+    "CVE-2026-3538",
+    "CVE-2026-3931",
+    "CVE-2026-4460",
+    "CVE-2026-5870",
+    "CVE-2026-6298",
+    "CVE-2026-6364",
+    "CVE-2026-65333",
+    "CVE-2026-7353",
+    "CVE-2026-78914",
+    "CVE-2026-78958",
+    "CVE-2026-79112",
+    "CVE-2026-79144",
+    "CVE-2026-79147",
+    "CVE-2026-7920",
+    "CVE-2026-7923",
+    "CVE-2026-7949",
+    "CVE-2026-84359",
+    "CVE-2026-8510",
+    "CVE-2026-8579",
+    "CVE-2026-91733",
+    "CVE-2026-91740",
+    "CVE-2026-9892",
+    "CVE-2026-9893",
+    "CVE-2026-9909",
+    "CVE-2026-9923",
+    "CVE-2026-9981",
+    "CVE-2026-9983",
+    "CVE-2026-9998"
+  ],
+  "published": "2026-11-11T00:00:00Z",
+  "modified": "2026-11-17T10:22:55Z",
+  "details": "WebKitGTK is the port of the portable web rendering engine WebKit to the GTK platform.  \n\nSecurity Fix(es):  \n\n  * chromium-browser: skia: chromium-browser: skia: Inappropriate implementation in Skia (CVE-2023-4860)\n  * chromium-browser: skia: chromium-browser: skia: Out of bounds memory access in Skia in Google Chrome allows a remote attacker who had compromised the renderer process to perform out of bounds memory access via a crafted HTML page (CVE-2024-7966)\n  * chromium: skia: chromium: skia: Heap buffer overflow in Skia (CVE-2024-8193)\n  * chromium: skia: chromium: skia: Heap buffer overflow in Skia (CVE-2024-8198)\n  * chromium: skia: chromium: skia: Heap buffer overflow in Skia (CVE-2024-8636)\n  * chromium-browser: skia: chromium-browser: skia: Integer overflow in Skia in Google Chrome (CVE-2024-9123)\n  * chromium-browser: skia: chromium-browser: skia: Integer overflow in Skia (CVE-2025-0436)\n  * chromium-browser: skia: chromium-browser: skia: Use after free in Skia (CVE-2025-0444)\n  * chromium-browser: skia: chromium-browser: skia: Integer overflow in Skia (CVE-2026-3538)\n  * chromium-browser: skia: chromium-browser: skia: Heap buffer overflow in Skia (CVE-2026-3931)\n  * chromium-browser: skia: chromium-browser: skia: Out of bounds read in Skia (CVE-2026-4460)\n  * chromium-browser: skia: chromium-browser: skia: Integer overflow in Skia (CVE-2026-5870)\n  * chromium-browser: skia: chromium-browser: skia: Out of bounds read in Skia (CVE-2026-6364)\n  * chromium-browser: skia: chromium-browser: skia: Heap buffer overflow in Skia (CVE-2026-6298)\n  * chromium-browser: skia: chromium-browser: skia: Heap buffer overflow in Skia (CVE-2026-7353)\n  * chromium-browser: skia: chromium-browser: skia: Out of bounds read in Skia (CVE-2026-7949)\n  * chromium-browser: skia: chromium-browser: skia: Out of bounds write in Skia (CVE-2026-7923)\n  * chromium-browser: skia: chromium-browser: skia: Use after free in Skia (CVE-2026-7920)\n  * chromium-browser: skia: chromium-browser: skia: Integer overflow in Skia (CVE-2026-8510)\n  * chromium-browser: skia: chromium-browser: skia: Insufficient validation of untrusted input in Skia (CVE-2026-8579)\n  * chromium-browser: skia: chromium-browser: skia: Use after free in Skia (CVE-2026-9923)\n  * chromium-browser: skia: chromium-browser: skia: Insufficient validation of untrusted input in Skia (CVE-2026-10020)\n  * chromium-browser: skia: chromium-browser: skia: Integer overflow in Skia (CVE-2026-9909)\n  * chromium-browser: skia: chromium-browser: skia: Use after free in Skia (CVE-2026-10012)\n  * chromium-browser: skia: chromium-browser: skia: Use after free in Skia (CVE-2026-9893)\n  * chromium-browser: skia: chromium-browser: skia: Inappropriate implementation in Skia (CVE-2026-9981)\n  * chromium-browser: skia: chromium-browser: skia: Integer overflow in Skia (CVE-2026-9998)\n  * chromium-browser: skia: chromium-browser: skia: Inappropriate implementation in Skia (CVE-2026-10011)\n  * chromium-browser: skia: chromium-browser: skia: Inappropriate implementation in Skia (CVE-2026-9892)\n  * chromium-browser: skia: chromium-browser: skia: Type Confusion in Skia (CVE-2026-9983)\n  * chromium-browser: skia: chromium-browser: skia: Integer overflow in Skia (CVE-2026-10009)\n  * chromium-browser: skia: chromium-browser: skia: Out of bounds read in Skia (CVE-2026-10985)\n  * chromium-browser: skia: chromium-browser: skia: Heap buffer overflow in Skia (CVE-2026-10993)\n  * chromium-browser: skia: chromium-browser: skia: Stack buffer overflow in Skia (CVE-2026-11024)\n  * chromium-browser: skia: chromium-browser: skia: Insufficient validation of untrusted input in Skia (CVE-2026-11121)\n  * chromium-browser: skia: chromium-browser: skia: Uninitialized Use in Skia (CVE-2026-11057)\n  * chromium-browser: skia: chromium-browser: skia: Heap buffer overflow in Skia (CVE-2026-11124)\n  * chromium-browser: skia: chromium-browser: skia: Uninitialized Use in Skia (CVE-2026-11039)\n  * chromium-browser: skia: chromium-browser: skia: Uninitialized Use in Skia (CVE-2026-11159)\n  * chromium-browser: skia: chromium-browser: skia: Uninitialized Use in Skia (CVE-2026-10977)\n  * chromium-browser: skia: chromium-browser: skia: Out of bounds write in Skia (CVE-2026-10925)\n  * chromium-browser: skia: chromium-browser: skia: Out of bounds memory access in Skia (CVE-2026-10941)\n  * chromium-browser: skia: chromium-browser: skia: Vulnerability in Skia (CVE-2026-11099)\n  * chromium-browser: skia: chromium-browser: skia: Use after free in Skia (CVE-2026-11663)\n  * chromium-browser: skia: chromium-browser: skia: Insufficient validation of untrusted input in Skia (CVE-2026-11675)\n  * chromium-browser: skia: chromium-browser: skia: Integer overflow in Skia (CVE-2026-13841)\n  * chromium-browser: skia: chromium-browser: skia: Uninitialized Use in Skia (CVE-2026-13971)\n  * chromium-browser: skia: chromium-browser: skia: Out of bounds read in Skia (CVE-2026-13820)\n  * chromium-browser: skia: chromium-browser: skia: Use after free in Skia (CVE-2026-13885)\n  * chromium-browser: skia: chromium-browser: skia: Insufficient validation of untrusted input in Skia (CVE-2026-13781)\n  * chromium-browser: skia: chromium-browser: skia: Insufficient validation of untrusted input in Skia (CVE-2026-14414)\n  * chromium-browser: skia: chromium-browser: skia: Integer overflow in Skia (CVE-2026-14389)\n  * chromium-browser: skia: chromium-browser: skia: Integer overflow in Skia (CVE-2026-14387)\n  * chromium-browser: skia: chromium-browser: skia: Inappropriate implementation in Skia (CVE-2026-14410)\n  * chromium-browser: skia: chromium-browser: skia: Use after free in Skia (CVE-2026-14419)\n  * chromium-browser: skia: chromium-browser: skia: Insufficient validation of untrusted input in Skia (CVE-2026-14429)\n  * chromium-browser: skia: chromium-browser: skia: Heap buffer overflow in Skia (CVE-2026-14427)\n  * chromium-browser: skia: chromium-browser: skia: Uninitialized Use in Skia (CVE-2026-15766)\n  * chromium-browser: skia: chromium-browser: skia: Use after free in Skia (CVE-2026-15774)\n  * chromium-browser: skia: chromium-browser: skia: Information disclosure via uninitialized use in Skia (CVE-2026-16417)\n  * chromium-browser: skia: chromium-browser: skia: Inappropriate implementation in Skia (CVE-2026-17702)\n  * chromium-browser: skia: chromium-browser: skia: Uninitialized Use in Skia (CVE-2026-17757)\n  * chromium-browser: skia: chromium-browser: skia: Side-channel information leakage in Skia (CVE-2026-17914)\n  * chromium-browser: skia: chromium-browser: skia: Uninitialized Use in Skia (CVE-2026-17992)\n  * chromium-browser: skia: chromium-browser: skia: Out of bounds read in Skia (CVE-2026-17745)\n  * chromium-browser: skia: chromium-browser: skia: Race in Skia (CVE-2026-17712)\n  * chromium-browser: skia: chromium-browser: skia: Uninitialized Use in Skia (CVE-2026-17771)\n  * chromium-browser: skia: chromium-browser: skia: Use after free in Skia (CVE-2026-17653)\n  * chromium-browser: skia: chromium-browser: skia: Information disclosure via uninitialized use in Google Chrome (CVE-2026-19160)\n  * chromium-browser: skia: chromium-browser: Out of bounds read in Skia (CVE-2026-79112)\n  * chromium-browser: skia: chromium-browser: skia: Information disclosure via uninitialized resource in Skia (CVE-2026-78914)\n  * chromium-browser: skia: chromium-browser: skia: Information leak via crafted HTML page in Google Chrome (CVE-2026-79147)\n  * chromium-browser: skia: chromium-browser: Uninitialized resource in Skia (CVE-2026-78958)\n  * chromium-browser: skia: chromium-browser: Information leak in Skia (CVE-2026-79144)\n  * webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash (CVE-2026-65333)\n  * chromium-browser: skia: chromium-browser: Information leak in Skia (CVE-2026-84359)\n  * chromium-browser: skia: Skia in chromium-browser: Information disclosure via improper state validation (CVE-2026-91733)\n  * chromium-browser: skia: Google Chrome: Cross-origin data disclosure due to uninitialized resource in Skia (CVE-2026-91740)\n  * chromium-browser: skia: chromium-browser: Uninitialized resource in Skia (CVE-2026-102325)\n  * chromium-browser: skia: Integer overflow in Skia (CVE-2026-103629)\n  * chromium-browser: skia: Uninitialized resource in Skia (CVE-2026-106379)\n  * chromium-browser: skia: Out of bounds read in Skia (CVE-2026-106399)\n  * chromium-browser: skia: Memory corruption in Skia (CVE-2026-113106)\n  * chromium-browser: skia: Improper input validation in Skia (CVE-2026-118348)\n  * chromium-browser: skia: Memory corruption in Skia (CVE-2026-118351)\n  * chromium-browser: skia: Memory corruption in Skia (CVE-2026-118340)\n  * chromium-browser: skia: Improper input validation in Skia (CVE-2026-118354)\n  * chromium-browser: skia: Memory corruption in Skia (CVE-2026-118319)\n  * chromium-browser: skia: Use after free in Skia (CVE-2026-119271)\n  * chromium-browser: skia: Improper input validation in Skia (CVE-2026-119261)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * webkit2gtk3 2.54.0 regression breaks Eclipse IDE WebKit-based views on CentOS Stream 9 (JIRA:RHEL-271317)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:98455",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2023-4860",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-7966",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-8193",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-8198",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-8636",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2024-9123",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-0436",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2025-0444",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-10009",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-10011",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-10012",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-10020",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-102325",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-103629",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-106379",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-106399",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-10925",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-10941",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-10977",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-10985",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-10993",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-11024",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-11039",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-11057",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-11099",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-11121",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-11124",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-11159",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-113106",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-11663",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-11675",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-118319",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-118340",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-118348",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-118351",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-118354",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-119261",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-119271",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-13781",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-13820",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-13841",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-13885",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-13971",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-14387",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-14389",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-14410",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-14414",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-14419",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-14427",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-14429",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-15766",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-15774",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-16417",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-17653",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-17702",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-17712",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-17745",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-17757",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-17771",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-17914",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-17992",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-19160",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-3538",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-3931",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-4460",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-5870",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-6298",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-6364",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-65333",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-7353",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-78914",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-78958",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-79112",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-79144",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-79147",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-7920",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-7923",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-7949",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-84359",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-8510",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-8579",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-91733",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-91740",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9892",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9893",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9909",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9923",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9981",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9983",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-9998",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2298302",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2307088",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2308415",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2308417",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2311665",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2314571",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2338161",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2343797",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2444617",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2446868",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2449412",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2456802",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2458786",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2458798",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2463657",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2467316",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2467351",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2467385",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2477624",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2477666",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2482973",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2482975",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2483023",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2483035",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2483045",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2483056",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2483062",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2483070",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2483103",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2483108",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2483114",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2484949",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2484981",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2484992",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485015",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485036",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485043",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485071",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485081",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485236",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485289",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485352",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485638",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2486642",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2486644",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2495548",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2495557",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2495595",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2495605",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2495660",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2496263",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2496264",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2496275",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2496282",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2496283",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2496304",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2496308",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2500647",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2500689",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2505966",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2508687",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2508726",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2508773",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2508809",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2508884",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2508941",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2508949",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2508987",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2512341",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2523847",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2523904",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2523912",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2523958",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2524104",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2524577",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2527168",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2534705",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2534759",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2543588",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2545277",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2546915",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2547009",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2556522",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2562464",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2562477",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2562479",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2562486",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2562496",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2563744",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2563759",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-98455.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:97229",
+  "summary": "Important: skopeo security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "skopeo"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3:1.24.0-2.el10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "skopeo-tests"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3:1.24.0-2.el10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-41567"
+  ],
+  "related": [
+    "CVE-2026-41567"
+  ],
+  "published": "2026-11-10T00:00:00Z",
+  "modified": "2026-11-18T13:19:01Z",
+  "details": "The skopeo command lets you inspect images from container image registries, get images and image layers, and use signatures to create and verify files.   \n\nSecurity Fix(es):  \n\n  * docker: Moby/Docker Engine: Arbitrary Code Execution via malicious container image and compressed archive upload (CVE-2026-41567)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * update to the latest upstream release (JIRA:RHEL-185735)\n  * skopeo: Bump epoch to preserve upgrade path (JIRA:RHEL-220536)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.  \n\nAdditional Changes:  \n\nFor detailed information on changes in this release, see the AlmaLinux 10 Release Notes linked from the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:97229",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-41567",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485356",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-97229.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:100542",
+  "summary": "Important: python-oauthlib security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3-oauthlib"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.0-2.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-118669"
+  ],
+  "related": [
+    "CVE-2026-118669"
+  ],
+  "published": "2026-11-19T00:00:00Z",
+  "modified": "2026-11-21T16:20:56Z",
+  "details": "Python is an interpreted, interactive, object-oriented programming language, which includes modules, classes, exceptions, very high level dynamic data types and dynamic typing. Python supports interfaces to many system calls and libraries, as well as to various windowing systems.  \n\nSecurity Fix(es):  \n\n  * oauthlib: oauthlib: privilege escalation via client identity confusion in token grant handlers (CVE-2026-118669)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:100542",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-118669",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2563201",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-100542.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

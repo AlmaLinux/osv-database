@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:100511",
+  "summary": "Important: libpcap security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libpcap"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "14:1.9.1-7.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "libpcap-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "14:1.9.1-7.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-6554"
+  ],
+  "related": [
+    "CVE-2026-6554"
+  ],
+  "published": "2026-11-19T00:00:00Z",
+  "modified": "2026-11-21T16:20:54Z",
+  "details": "The libpcap packages provide a portable framework for low-level network monitoring. The libpcap library provides network statistics collection, security monitoring, and network debugging.  \n\nSecurity Fix(es):  \n\n  * libpcap: libpcap: Denial of Service via infinite loop in BPF interpreter (CVE-2026-6554)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:100511",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-6554",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2529091",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-100511.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

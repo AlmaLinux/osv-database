@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:100509",
+  "summary": "Moderate: gfs2-utils security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gfs2-utils"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.0-14.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-71220",
+    "CVE-2026-71221"
+  ],
+  "related": [
+    "CVE-2026-71220",
+    "CVE-2026-71221"
+  ],
+  "published": "2026-11-19T00:00:00Z",
+  "modified": "2026-11-21T16:20:53Z",
+  "details": "The gfs2-utils packages contain utilities for creating, checking, modifying, and correcting any inconsistencies in GFS2 global file systems.  \n\nSecurity Fix(es):  \n\n  * gfs2-utils: gfs2-utils: stack out-of-bounds write via unchecked height in savemeta (CVE-2026-71221)\n  * gfs2-utils: gfs2-utils: stack out-of-bounds write via unchecked di_height in gfs2_edit (CVE-2026-71220)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:100509",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-71220",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-71221",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2511396",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2511398",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-100509.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

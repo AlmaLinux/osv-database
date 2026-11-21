@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:100519",
+  "summary": "Important: unbound security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3-unbound"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.2-5.14.el8_10.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "unbound"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.2-5.14.el8_10.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "unbound-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.2-5.14.el8_10.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "unbound-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.2-5.14.el8_10.5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33278"
+  ],
+  "related": [
+    "CVE-2026-33278"
+  ],
+  "published": "2026-11-19T00:00:00Z",
+  "modified": "2026-11-21T16:20:57Z",
+  "details": "The unbound packages provide a validating, recursive, and caching DNS or DNSSEC resolver.   \n\nSecurity Fix(es):  \n\n  * unbound: Unbound DNSSEC Validator Use-After-Free via Deep Copy Pointer Overwrite Leading to DoS and Possible Remote Code Execution (CVE-2026-33278)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:100519",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-33278",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2479808",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-100519.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:100675",
+  "summary": "Important: qt5-qt3d security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "qt5-qt3d"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.15.3-2.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "qt5-qt3d-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.15.3-2.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "qt5-qt3d-examples"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.15.3-2.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-111487"
+  ],
+  "related": [
+    "CVE-2026-111487"
+  ],
+  "published": "2026-11-19T00:00:00Z",
+  "modified": "2026-11-21T16:08:10Z",
+  "details": "Qt 3D provides functionality for near-realtime simulation systems with support for 2D and 3D rendering in both Qt C++ and Qt Quick applications).  \n\nSecurity Fix(es):  \n\n  * qt3d: qt: arbitrary code execution via out-of-bounds write in Qt3D assimp plugin (CVE-2026-111487)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:100675",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-111487",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2564104",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-100675.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:100498",
+  "summary": "Important: gnome-remote-desktop security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "gnome-remote-desktop"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.1.8-7.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-109832",
+    "CVE-2026-96541"
+  ],
+  "related": [
+    "CVE-2026-109832",
+    "CVE-2026-96541"
+  ],
+  "published": "2026-11-19T00:00:00Z",
+  "modified": "2026-11-21T16:20:53Z",
+  "details": "GNOME Remote Desktop is a remote desktop and screen sharing service for the GNOME desktop environment.  \n\nSecurity Fix(es):  \n\n  * gnome-remote-desktop: gnome-remote-desktop: unauthenticated RDP sockets lack a handshake deadline (CVE-2026-96541)\n  * gnome-remote-desktop: Busy-Wait DoS in VNC TLS I/O Handlers (GNUTLS_E_AGAIN / GNUTLS_E_INTERRUPTED) (CVE-2026-109832)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:100498",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-109832",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-96541",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2539385",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2550352",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-100498.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

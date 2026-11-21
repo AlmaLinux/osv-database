@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:100681",
+  "summary": "Important: expat security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "expat"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.3-2.el10_3.8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "expat-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.3-2.el10_3.8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-113351",
+    "CVE-2026-115506",
+    "CVE-2026-117610",
+    "CVE-2026-118370"
+  ],
+  "related": [
+    "CVE-2026-113351",
+    "CVE-2026-115506",
+    "CVE-2026-117610",
+    "CVE-2026-118370"
+  ],
+  "published": "2026-11-19T00:00:00Z",
+  "modified": "2026-11-21T18:14:44Z",
+  "details": "Expat is a C library for parsing XML documents.  \n\nSecurity Fix(es):  \n\n  * expat: expat: Denial of Service via improper memory tracking in XML_ParserReset (CVE-2026-113351)\n  * expat: expat: Denial of Service via delayed entity amplification detection (CVE-2026-115506)\n  * expat: expat: Denial of Service via NULL pointer dereference in external entity parsing (CVE-2026-117610)\n  * expat: expat: Denial of Service via integer overflow during XML attribute parsing (CVE-2026-118370)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:100681",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-113351",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-115506",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-117610",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-118370",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2556110",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2562538",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2562544",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-100681.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

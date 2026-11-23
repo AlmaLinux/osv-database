@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:97562",
+  "summary": "Important: skopeo security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "skopeo"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3:1.22.2-4.el9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "skopeo-tests"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3:1.22.2-4.el9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33811",
+    "CVE-2026-41567"
+  ],
+  "related": [
+    "CVE-2026-33811",
+    "CVE-2026-41567"
+  ],
+  "published": "2026-11-10T00:00:00Z",
+  "modified": "2026-11-23T08:41:29Z",
+  "details": "The skopeo command lets you inspect images from container image registries, get images and image layers, and use signatures to create and verify files.   \n\nSecurity Fix(es):  \n\n  * net: golang: Go net package: Denial of Service via long CNAME response in LookupCNAME (CVE-2026-33811)\n  * docker: Moby/Docker Engine: Arbitrary Code Execution via malicious container image and compressed archive upload (CVE-2026-41567)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * Update skopeo to 1.22.2 [rhel-9.9] (JIRA:RHEL-170520)\n  * update to the latest upstream release (JIRA:RHEL-185740)\n  * switch skopeo to sustaining-engineering GitLab release-1.22 branch and bump epoch (JIRA:RHEL-220456)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.  \n\nAdditional Changes:  \n\nFor detailed information on changes in this release, see the AlmaLinux 9 Release Notes linked from the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:97562",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-33811",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-41567",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2467822",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2485356",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-97562.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

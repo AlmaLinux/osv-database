@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:102159",
+  "summary": "Important: libgsf security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libgsf"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.14.53-2.el10_3.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "libgsf-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.14.53-2.el10_3.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-116124"
+  ],
+  "related": [
+    "CVE-2026-116124"
+  ],
+  "published": "2026-11-23T00:00:00Z",
+  "modified": "2026-11-23T07:35:52Z",
+  "details": "A library for reading and writing structured files (e.g. MS OLE and Zip)  \n\nSecurity Fix(es):  \n\n  * libgsf: libgsf: Arbitrary code execution via heap-based buffer overflow in OLE2 parser (CVE-2026-116124)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:102159",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-116124",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2560528",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-102159.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

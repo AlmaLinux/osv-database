@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:98060",
+  "summary": "Important: nodejs26 security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "nodejs26"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:26.8.2-1.el10_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "nodejs26-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:26.8.2-1.el10_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "nodejs26-docs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:26.8.2-1.el10_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "nodejs26-full-i18n"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:26.8.2-1.el10_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "nodejs26-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:26.8.2-1.el10_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "nodejs26-npm"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:11.19.1-1.26.8.2.1.el10_3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-19534",
+    "CVE-2026-84961",
+    "CVE-2026-85152"
+  ],
+  "related": [
+    "CVE-2026-19534",
+    "CVE-2026-84961",
+    "CVE-2026-85152"
+  ],
+  "published": "2026-11-11T00:00:00Z",
+  "modified": "2026-11-23T11:43:33Z",
+  "details": "Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.  \n\nSecurity Fix(es):  \n\n  * undici: undici: Authentication bypass via cross-origin cache poisoning due to missing origin isolation (CVE-2026-85152)\n  * undici: undici: TLS certificate validation bypass in BalancedPool via dropped connect options (CVE-2026-84961)\n  * undici: undici: Denial of Service via unrequested WebSocket subprotocol (CVE-2026-19534)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * Update Node.js 26 spec file for Rust package integration [rhel-10.3.z] (JIRA:RHEL-256956)\n  * nodejs26: Rebase to the latest Node.js 26 release [rhel-10.3.z] (JIRA:RHEL-262243)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:98060",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-19534",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-84961",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-85152",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2528717",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2528735",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2528759",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-98060.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

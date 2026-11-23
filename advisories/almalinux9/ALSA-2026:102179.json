@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:102179",
+  "summary": "Important: xdg-desktop-portal security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "xdg-desktop-portal"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12.6-1.el9_9.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-55888"
+  ],
+  "related": [
+    "CVE-2026-55888"
+  ],
+  "published": "2026-11-23T00:00:00Z",
+  "modified": "2026-11-23T16:09:28Z",
+  "details": "The xdg-desktop-portal packages provide a portal front-end service to flatpak. Thesis service exposes a series of D-Bus interfaces known as portals under a well-known name (org.freedesktop.portal.Desktop) and object path (/org/freedesktop/portal/desktop). The portal interfaces include APIs for file access, opening URIs, printing and others.  \n\nSecurity Fix(es):  \n\n  * xdg-desktop-portal: xdg-desktop-portal: Unauthorized host file access via unvalidated FileChooser filenames (CVE-2026-55888)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:102179",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-55888",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2559766",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-102179.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

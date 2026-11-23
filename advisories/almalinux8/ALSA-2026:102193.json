@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:102193",
+  "summary": "Important: mingw-expat security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mingw32-expat"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.0-7.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "mingw64-expat"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.0-7.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-115506",
+    "CVE-2026-117610",
+    "CVE-2026-118370",
+    "CVE-2026-45186",
+    "CVE-2026-66046",
+    "CVE-2026-76641",
+    "CVE-2026-77214",
+    "CVE-2026-93990"
+  ],
+  "related": [
+    "CVE-2026-115506",
+    "CVE-2026-117610",
+    "CVE-2026-118370",
+    "CVE-2026-45186",
+    "CVE-2026-66046",
+    "CVE-2026-76641",
+    "CVE-2026-77214",
+    "CVE-2026-93990"
+  ],
+  "published": "2026-11-23T00:00:00Z",
+  "modified": "2026-11-23T08:05:25Z",
+  "details": "Expat is a C library for parsing XML documents. The mingw-expat packages provide a port of the Expat library for MinGW.   \n\nSecurity Fix(es):  \n\n  * libexpat: denial of service via crafted XML input (CVE-2026-45186)\n  * expat: Expat: Denial of Service via quadratic complexity in attribute processing (CVE-2026-66046)\n  * expat: Expat: Denial of Service via XML external entity parsing (CVE-2026-76641)\n  * expat: Expat: XML Injection via Malformed UTF-16 Input (CVE-2026-93990)\n  * expat: expat: Information disclosure via heap buffer over-read in XML_ParseBuffer (CVE-2026-77214)\n  * expat: expat: Denial of Service via delayed entity amplification detection (CVE-2026-115506)\n  * expat: expat: Denial of Service via NULL pointer dereference in external entity parsing (CVE-2026-117610)\n  * expat: expat: Denial of Service via integer overflow during XML attribute parsing (CVE-2026-118370)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:102193",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-115506",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-117610",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-118370",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-45186",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-66046",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-76641",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-77214",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-93990",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2468575",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2517901",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2538967",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2547476",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2562538",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2562544",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-102193.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

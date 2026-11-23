@@ -1,0 +1,188 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:102154",
+  "summary": "Important: fence-agents security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "fence-agents-all"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.2.1-129.el8_10.32"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "fence-agents-amt-ws"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.2.1-129.el8_10.32"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "fence-agents-apc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.2.1-129.el8_10.32"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "fence-agents-apc-snmp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.2.1-129.el8_10.32"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "fence-agents-bladecenter"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.2.1-129.el8_10.32"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "fence-agents-brocade"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.2.1-129.el8_10.32"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-118669",
+    "CVE-2026-119194",
+    "CVE-2026-119195",
+    "CVE-2026-119196",
+    "CVE-2026-119197"
+  ],
+  "related": [
+    "CVE-2026-118669",
+    "CVE-2026-119194",
+    "CVE-2026-119195",
+    "CVE-2026-119196",
+    "CVE-2026-119197"
+  ],
+  "published": "2026-11-23T00:00:00Z",
+  "modified": "2026-11-23T07:36:06Z",
+  "details": "The fence-agents packages provide a collection of scripts for handling remote power management for cluster devices. They allow failed or unreachable nodes to be forcibly restarted and removed from the cluster.   \n\nSecurity Fix(es):  \n\n  * oauthlib: oauthlib: privilege escalation via client identity confusion in token grant handlers (CVE-2026-118669)\n  * pyasn1: pyasn1: Denial of Service via quadratic processing of fragmented ASN.1 data (CVE-2026-119195)\n  * pyasn1: pyasn1: Denial of Service via hash collisions in schemaless decoding (CVE-2026-119194)\n  * pyasn1: pyasn1: Denial of Service via constructed bit string decoding (CVE-2026-119196)\n  * pyasn1: pyasn1: Denial of Service via quadratic complexity in binary REAL decoding (CVE-2026-119197)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:102154",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-118669",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-119194",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-119195",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-119196",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-119197",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2563201",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2563663",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2563664",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2563666",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2564170",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-102154.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

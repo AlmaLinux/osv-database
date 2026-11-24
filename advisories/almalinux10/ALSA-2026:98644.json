@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:98644",
+  "summary": "Important: gstreamer1-plugins-good security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "gstreamer1-plugins-good"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.26.7-10.el10_3.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "gstreamer1-plugins-good-gtk"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.26.7-10.el10_3.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-121629"
+  ],
+  "related": [
+    "CVE-2026-121629"
+  ],
+  "published": "2026-11-11T00:00:00Z",
+  "modified": "2026-11-24T08:31:47Z",
+  "details": "GStreamer is a streaming media framework based on graphs of filters which operate on media data. The gstreamer1-plugins-good packages contain a collection of well-supported plug-ins of good quality and under the LGPL license.  \n\nSecurity Fix(es):  \n\n  * gst-plugins-good: gst-plugins-good: Local file disclosure via unvalidated file:// URIs in adaptivedemux2 manifest handling (CVE-2026-121629)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:98644",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-121629",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2565965",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-98644.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

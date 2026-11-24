@@ -1,0 +1,159 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:102714",
+  "summary": "Critical: ruby4.0 security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "ruby4.0"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.10-39.el10_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "ruby4.0-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.10-39.el10_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "ruby4.0-doc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.10-39.el10_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "ruby4.0-rubygem-mysql2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.5.7-39.el10_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "ruby4.0-rubygem-pg"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6.3-39.el10_3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-110264",
+    "CVE-2026-132825",
+    "CVE-2026-93577",
+    "CVE-2026-97229"
+  ],
+  "related": [
+    "CVE-2026-110264",
+    "CVE-2026-132825",
+    "CVE-2026-93577",
+    "CVE-2026-97229"
+  ],
+  "published": "2026-11-24T00:00:00Z",
+  "modified": "2026-11-24T08:25:17Z",
+  "details": "Ruby is the interpreted scripting language for quick and easy object-oriented programming. It has many features to process text files and to do system management tasks (as in Perl). It is simple, straight-forward, and extensible.  \n\nSecurity Fix(es):  \n\n  * ruby: integer overflow issue in regular expression compiler (CVE-2026-93577)\n  * ruby: integer overflow issue in CI/CD regular expression compiler (CVE-2026-97229)\n  * ruby: integer overflow issue in regular expression compiler (CVE-2026-110264)\n  * ruby: ruby: Heap-based buffer overflow via string case conversion (CVE-2026-132825)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * ruby4.0: Rebase to the latest Ruby 4.0 release [rhel-10] (JIRA:RHEL-260673)\n  * ruby4.0: Rebase to the latest Ruby 4.0 release [rhel-10.3.z] (JIRA:RHEL-312591)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:102714",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-110264",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-132825",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-93577",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-97229",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2539842",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2550153",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2558632",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2576211",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-102714.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

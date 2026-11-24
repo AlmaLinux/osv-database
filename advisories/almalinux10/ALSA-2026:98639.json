@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:98639",
+  "summary": "Important: grafana security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "grafana"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "12.4.3-3.el10_3.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "grafana-selinux"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "12.4.3-3.el10_3.6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-100105",
+    "CVE-2026-116591",
+    "CVE-2026-88967"
+  ],
+  "related": [
+    "CVE-2026-100105",
+    "CVE-2026-116591",
+    "CVE-2026-88967"
+  ],
+  "published": "2026-11-11T00:00:00Z",
+  "modified": "2026-11-24T08:29:50Z",
+  "details": "Grafana is an open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB.   \n\nSecurity Fix(es):  \n\n  * grafana: Azure Monitor data source could leak its Azure access token (CVE-2026-88967)\n  * github.com/klauspost/compress/zstd: klauspost/compress: Denial of Service via crafted zstd compressed input (CVE-2026-116591)\n  * grafana: Grafana: Information disclosure via legacy schema switch in contact points (CVE-2026-100105)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:98639",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-100105",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-116591",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-88967",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2554113",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2561461",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2563003",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-98639.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

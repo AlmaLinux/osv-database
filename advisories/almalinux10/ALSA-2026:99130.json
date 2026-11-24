@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:99130",
+  "summary": "Important: mutter security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "mutter"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "49.4-6.el10_3.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "mutter-common"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "49.4-6.el10_3.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "mutter-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "49.4-6.el10_3.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-108094"
+  ],
+  "related": [
+    "CVE-2026-108094"
+  ],
+  "published": "2026-11-11T00:00:00Z",
+  "modified": "2026-11-24T08:32:23Z",
+  "details": "Mutter is a compositing window manager that displays and manages desktop through OpenGL. It combines the window-management logic inherited from the Metacity window manager with a display engine that uses the Clutter toolkit.   \n\nSecurity Fix(es):  \n\n  * mutter: mutter: client-triggered use-after-free in Wayland color-management ICC image description path (CVE-2026-108094)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:99130",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-108094",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2549511",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-99130.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

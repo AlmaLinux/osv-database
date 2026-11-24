@@ -1,0 +1,296 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:102586",
+  "summary": "Moderate: golang security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "go-toolset"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.27.4-1.el9_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "golang"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.27.4-1.el9_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "golang-bin"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.27.4-1.el9_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "golang-docs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.27.4-1.el9_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "golang-misc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.27.4-1.el9_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "golang-race"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.27.4-1.el9_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "golang-src"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.27.4-1.el9_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "golang-tests"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.27.4-1.el9_9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-97033",
+    "CVE-2026-97034",
+    "CVE-2026-97035",
+    "CVE-2026-97036",
+    "CVE-2026-97037",
+    "CVE-2026-97038",
+    "CVE-2026-97039",
+    "CVE-2026-97040",
+    "CVE-2026-97041",
+    "CVE-2026-97042",
+    "CVE-2026-97043",
+    "CVE-2026-97054"
+  ],
+  "related": [
+    "CVE-2026-97033",
+    "CVE-2026-97034",
+    "CVE-2026-97035",
+    "CVE-2026-97036",
+    "CVE-2026-97037",
+    "CVE-2026-97038",
+    "CVE-2026-97039",
+    "CVE-2026-97040",
+    "CVE-2026-97041",
+    "CVE-2026-97042",
+    "CVE-2026-97043",
+    "CVE-2026-97054"
+  ],
+  "published": "2026-11-23T00:00:00Z",
+  "modified": "2026-11-24T08:16:21Z",
+  "details": "The golang packages provide the Go programming language compiler.  \n\nSecurity Fix(es):  \n\n  * cmd/go: golang: cmd/go: arbitrary command execution via untrusted GCC spec files (CVE-2026-97034)\n  * cmd/go: cmd/compile: golang: golang: arbitrary code execution via crafted cgo compiler directives (CVE-2026-97043)\n  * cmd/go: golang: cmd/go: arbitrary code execution via crafted cgo directives (CVE-2026-97035)\n  * net/[http](http): golang: net/[http](http): Denial of Service via race condition when handling oversized HTTP/1 requests (CVE-2026-97054)\n  * cmd/go: golang: cmd/go: Arbitrary code execution via unsafe cgo compiler and linker flags (CVE-2026-97033)\n  * cmd/compile: cmd/link: golang: golang: Arbitrary code execution via external linker flag injection (CVE-2026-97041)\n  * cmd/go: cmd/link: golang: golang: Arbitrary code execution via crafted .syso files (CVE-2026-97040)\n  * cmd/go: golang: cmd/go: arbitrary code execution via malicious cgo linker flags (CVE-2026-97037)\n  * cmd/go: golang: cmd/go: arbitrary code execution via crafted cgo linker flags (CVE-2026-97036)\n  * cmd/go: golang: cmd/go: Arbitrary code execution via crafted linker inputs (CVE-2026-97038)\n  * cmd/go: golang: cmd/go: arbitrary code execution via crafted pkg-config directives (CVE-2026-97039)\n  * cmd/cgo: cmd/compile: cmd/link: golang: Go: Arbitrary code execution via unsafe linker arguments on Windows (CVE-2026-97042)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * Update Go to version 1.27.4+1 [rhel-9.9] (JIRA:RHEL-311805)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:102586",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-97033",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-97034",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-97035",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-97036",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-97037",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-97038",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-97039",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-97040",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-97041",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-97042",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-97043",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-97054",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2571442",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2571443",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2571444",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2571445",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2571446",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2571447",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2571448",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2571449",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2571450",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2571451",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2571452",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2571453",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-102586.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:102296",
+  "summary": "Important: podman security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "podman"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6:5.8.5-5.el9_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "podman-docker"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6:5.8.5-5.el9_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "podman-plugins"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6:5.8.5-5.el9_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "podman-remote"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6:5.8.5-5.el9_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "podman-tests"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6:5.8.5-5.el9_9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-111943",
+    "CVE-2026-17106",
+    "CVE-2026-19730",
+    "CVE-2026-56853",
+    "CVE-2026-78667",
+    "CVE-2026-94603",
+    "CVE-2026-97031"
+  ],
+  "related": [
+    "CVE-2026-111943",
+    "CVE-2026-17106",
+    "CVE-2026-19730",
+    "CVE-2026-56853",
+    "CVE-2026-78667",
+    "CVE-2026-94603",
+    "CVE-2026-97031"
+  ],
+  "published": "2026-11-23T00:00:00Z",
+  "modified": "2026-11-24T08:15:56Z",
+  "details": "The podman tool manages pods, container images, and containers. It is part of the libpod library, which is for applications that use container pods. Container pods is a concept in Kubernetes.  \n\nSecurity Fix(es):  \n\n  * podman: podman: Quadlet install --replace non-truncating write retains removed host-access directives (CVE-2026-19730)\n  * net/[http](http): golang: Go net/[http](http): Unencrypted HTTP/2 connections vulnerable to Denial of Service (CVE-2026-56853)\n  * github.com/moby/go-archive: moby/go-archive: Arbitrary file write via link following in tar extraction (CVE-2026-17106)\n  * podman: podman: The `podman run` command can be instructed to disable almost all sandboxing - including user-requested sandboxing - by image annotation (CVE-2026-94603)\n  * net/[http](http): golang: golang: Denial of Service via crafted HTTP Range headers (CVE-2026-78667)\n  * crypto/tls: golang: crypto/tls: Denial of Service via multiple ECH outer extension references (CVE-2026-97031)\n  * crypto/x509: golang: crypto/x509: Man-in-the-middle attacks via untrusted intermediate certificates (CVE-2026-111943)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:102296",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-111943",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-17106",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-19730",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-56853",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-78667",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-94603",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-97031",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2508234",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2515827",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2518147",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2542566",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2548334",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2548336",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2556068",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-102296.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

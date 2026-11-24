@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:102494",
+  "summary": "Important: netpbm security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "netpbm"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.82.00-10.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "netpbm-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.82.00-10.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "netpbm-doc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.82.00-10.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "netpbm-progs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.82.00-10.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-120432",
+    "CVE-2026-120433",
+    "CVE-2026-120436"
+  ],
+  "related": [
+    "CVE-2026-120432",
+    "CVE-2026-120433",
+    "CVE-2026-120436"
+  ],
+  "published": "2026-11-23T00:00:00Z",
+  "modified": "2026-11-24T08:22:03Z",
+  "details": "The netpbm packages contain tools and a library to manipulate the Netpbm graphics file formats, and tools for conversion of other graphics formats to and from Netpbm.  \n\nSecurity Fix(es):  \n\n  * netpbm: netpbm: Arbitrary code execution via crafted PICT file in picttoppm (CVE-2026-120433)\n  * netpbm: netpbm: Arbitrary code execution via integer overflow in winicontopam (CVE-2026-120432)\n  * netpbm: netpbm: Arbitrary code execution via integer overflow in jbigtopnm (CVE-2026-120436)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:102494",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-120432",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-120433",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-120436",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2565263",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2565314",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2565322",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-102494.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

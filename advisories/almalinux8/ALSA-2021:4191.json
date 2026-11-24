@@ -1961,9 +1961,101 @@
     "CVE-2021-3667"
   ],
   "published": "2021-11-09T08:35:34Z",
-  "modified": "2021-12-23T15:15:26Z",
+  "modified": "2026-11-23T18:13:37Z",
   "details": "Kernel-based Virtual Machine (KVM) offers a full virtualization solution for Linux on numerous hardware platforms. The virt:rhel module contains packages which provide user-space components used to run virtual machines using KVM. The packages also provide APIs for managing and interacting with the virtualized systems.\n\nSecurity Fix(es):\n\n* QEMU: net: e1000e: use-after-free while sending packets (CVE-2020-15859)\n\n* QEMU: slirp: invalid pointer initialization may lead to information disclosure (bootp) (CVE-2021-3592)\n\n* QEMU: slirp: invalid pointer initialization may lead to information disclosure (udp6) (CVE-2021-3593)\n\n* QEMU: slirp: invalid pointer initialization may lead to information disclosure (udp) (CVE-2021-3594)\n\n* QEMU: slirp: invalid pointer initialization may lead to information disclosure (tftp) (CVE-2021-3595)\n\n* libvirt: Insecure sVirt label generation (CVE-2021-3631)\n\n* libvirt: Improper locking on ACL failure in virStoragePoolLookupByTargetPath API (CVE-2021-3667)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2021:4191",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1855250",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1859168",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1929357",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1932823",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1933640",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1934509",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1939418",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1942805",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1961562",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1967329",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1967496",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1967716",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1967914",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1969848",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1970484",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1970487",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1970489",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1970491",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1977726",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1982134",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1986094",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1994041",
+      "type": "REPORT"
+    },
     {
       "url": "https://errata.almalinux.org/8/ALSA-2021-4191.html",
       "type": "ADVISORY"

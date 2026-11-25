@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:100640",
+  "summary": "Important: skopeo security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "skopeo"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3:1.22.2-6.el9_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "skopeo-tests"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3:1.22.2-6.el9_9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-111943",
+    "CVE-2026-78667",
+    "CVE-2026-97031"
+  ],
+  "related": [
+    "CVE-2026-111943",
+    "CVE-2026-78667",
+    "CVE-2026-97031"
+  ],
+  "published": "2026-11-19T00:00:00Z",
+  "modified": "2026-11-25T12:12:08Z",
+  "details": "The skopeo command lets you inspect images from container image registries, get images and image layers, and use signatures to create and verify files.   \n\nSecurity Fix(es):  \n\n  * net/[http](http): golang: golang: Denial of Service via crafted HTTP Range headers (CVE-2026-78667)\n  * crypto/tls: golang: crypto/tls: Denial of Service via multiple ECH outer extension references (CVE-2026-97031)\n  * crypto/x509: golang: crypto/x509: Man-in-the-middle attacks via untrusted intermediate certificates (CVE-2026-111943)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * Drop libtrust_openssl build tag for golang-1.27 compatibility [rhel-9.9.z] (JIRA:RHEL-299628)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:100640",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-111943",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-78667",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-97031",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2548334",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2548336",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2556068",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-100640.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

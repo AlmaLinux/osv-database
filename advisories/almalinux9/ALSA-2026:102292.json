@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:102292",
+  "summary": "Important: containernetworking-plugins security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "containernetworking-plugins"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.9.1-4.el9_9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-78660",
+    "CVE-2026-78667",
+    "CVE-2026-97031"
+  ],
+  "related": [
+    "CVE-2026-78660",
+    "CVE-2026-78667",
+    "CVE-2026-97031"
+  ],
+  "published": "2026-11-23T00:00:00Z",
+  "modified": "2026-11-25T10:29:38Z",
+  "details": "The Container Network Interface (CNI) project consists of a specification and libraries for writing plug-ins for configuring network interfaces in Linux containers, along with a number of supported plug-ins. CNI concerns itself only with network connectivity of containers and removing allocated resources when the container is deleted.   \n\nSecurity Fix(es):  \n\n  * net/[http](http): golang: golang: Denial of Service via crafted HTTP Range headers (CVE-2026-78667)\n  * crypto/tls: golang: crypto/tls: Denial of Service via multiple ECH outer extension references (CVE-2026-97031)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:102292",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2548334",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2548336",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-102292.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-78660.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-78667.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-97031.html",
+      "type": "REPORT"
+    }
+  ]
+}

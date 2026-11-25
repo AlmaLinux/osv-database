@@ -24,13 +24,15 @@
     }
   ],
   "upstream": [
-    "CVE-2025-11395"
+    "CVE-2025-11395",
+    "CVE-2026-78660"
   ],
   "related": [
-    "CVE-2025-11395"
+    "CVE-2025-11395",
+    "CVE-2026-78660"
   ],
   "published": "2026-11-02T00:00:00Z",
-  "modified": "2026-11-02T09:13:44Z",
+  "modified": "2026-11-25T02:59:08Z",
   "details": "The podman tool manages pods, container images, and containers. It is part of the libpod library, which is for applications that use container pods. Container pods is a concept in Kubernetes.  \n\nSecurity Fix(es):  \n\n  * podman: Arbitrary file write when importing OCI archive (CVE-2025-11395)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -44,6 +46,10 @@
     {
       "url": "https://errata.almalinux.org/10/ALSA-2026-93464.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-78660.html",
+      "type": "REPORT"
     }
   ]
 }

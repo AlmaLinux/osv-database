@@ -45,15 +45,19 @@
   "upstream": [
     "CVE-2026-109089",
     "CVE-2026-109090",
+    "CVE-2026-93541",
+    "CVE-2026-93542",
     "CVE-2026-93543"
   ],
   "related": [
     "CVE-2026-109089",
     "CVE-2026-109090",
+    "CVE-2026-93541",
+    "CVE-2026-93542",
     "CVE-2026-93543"
   ],
   "published": "2026-11-11T00:00:00Z",
-  "modified": "2026-11-16T14:21:14Z",
+  "modified": "2026-11-25T02:59:23Z",
   "details": "X.Org X11 libXi runtime library  \n\nSecurity Fix(es):  \n\n  * libXi: libXi: Denial of Service via out-of-bounds read in XI2 class parser (CVE-2026-93543)\n  * libXi: libXi: Arbitrary code execution via oversized DEVICE_ENABLE reply (CVE-2026-109090)\n  * libXi: libXi: Arbitrary code execution via DEVICE_RESOLUTION heap-based buffer overflow (CVE-2026-109089)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
   "references": [
     {
@@ -87,6 +91,14 @@
     {
       "url": "https://errata.almalinux.org/10/ALSA-2026-98611.html",
       "type": "ADVISORY"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-93541.html",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://www.redhat.com/security/data/cve/CVE-2026-93542.html",
+      "type": "REPORT"
     }
   ]
 }

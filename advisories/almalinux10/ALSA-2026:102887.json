@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:102887",
+  "summary": "Important: cifs-utils security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "cifs-utils"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.7-2.el10_3.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "cifs-utils-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.7-2.el10_3.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "pam_cifscreds"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.7-2.el10_3.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-104715"
+  ],
+  "related": [
+    "CVE-2026-104715"
+  ],
+  "published": "2026-11-24T00:00:00Z",
+  "modified": "2026-11-25T09:15:39Z",
+  "details": "The SMB/CIFS protocol is a standard file sharing protocol widely deployed on Microsoft Windows machines. The cifs-utils packages contain tools for mounting shares on Linux using the SMB/CIFS protocol. The tools in this package work in conjunction with support in the kernel to allow one to mount a SMB/CIFS share onto a client and use it as if it were a standard Linux file system.  \n\nSecurity Fix(es):  \n\n  * cifs-utils: mount.cifs credential-file option injection allows local privilege boundary bypass (CVE-2026-104715)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:102887",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-104715",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2545023",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-102887.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

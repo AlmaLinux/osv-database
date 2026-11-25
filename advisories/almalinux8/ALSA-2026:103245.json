@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:103245",
+  "summary": "Important: python-botocore security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "python3-botocore"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.9.1-2.el8_10.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [],
+  "related": [],
+  "published": "2026-11-24T00:00:00Z",
+  "modified": "2026-11-25T09:12:08Z",
+  "details": "Python is an interpreted, interactive, object-oriented programming language, which includes modules, classes, exceptions, very high level dynamic data types and dynamic typing. Python supports interfaces to many system calls and libraries, as well as to various windowing systems.  \n\nSecurity Fix(es):  \n\n  * python-botocore: Distrust eMudhra intermediate CA certificates due to security concerns (BZ#2563310)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:103245",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2563310",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-103245.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

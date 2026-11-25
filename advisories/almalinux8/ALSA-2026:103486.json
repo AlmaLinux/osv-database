@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:103486",
+  "summary": "Moderate: openssl security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "openssl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.1.1k-19.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "openssl-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.1.1k-19.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "openssl-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.1.1k-19.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "openssl-perl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.1.1k-19.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-35189",
+    "CVE-2026-54872",
+    "CVE-2026-75806"
+  ],
+  "related": [
+    "CVE-2026-35189",
+    "CVE-2026-54872",
+    "CVE-2026-75806"
+  ],
+  "published": "2026-11-25T00:00:00Z",
+  "modified": "2026-11-25T11:49:24Z",
+  "details": "OpenSSL is a toolkit that implements the Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocols, as well as a full-strength general-purpose cryptography library.  \n\nSecurity Fix(es):  \n\n  * openssl: openssl: Denial of Service via excessive memory allocation in CRL distribution point processing (CVE-2026-35189)\n  * openssl: OpenSSL: Private key recovery via timing side-channel in generic elliptic curve operations (CVE-2026-54872)\n  * openssl: OpenSSL: Denial of Service via undersized DTLS record (CVE-2026-75806)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:103486",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-35189",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-54872",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-75806",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2543242",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2543250",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2543260",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-103486.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

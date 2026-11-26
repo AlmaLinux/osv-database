@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:102948",
+  "summary": "Moderate: cockpit-machines security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:9",
+        "name": "cockpit-machines"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "355.2-1.el9_9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-113495",
+    "CVE-2026-113496"
+  ],
+  "related": [
+    "CVE-2026-113495",
+    "CVE-2026-113496"
+  ],
+  "published": "2026-11-24T00:00:00Z",
+  "modified": "2026-11-26T10:37:00Z",
+  "details": "Cockpit component for managing libvirt virtual machines.  \n\nSecurity Fix(es):  \n\n  * cockpit-machines: cockpit-appstream: RHSM access-token disclosure through image helper command-line arguments (CVE-2026-113495)\n  * cockpit-machines: cockpit-appstream: VNC console password disclosure through virt-xml command-line arguments (CVE-2026-113496)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:102948",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-113495",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-113496",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2556057",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2556058",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/9/ALSA-2026-102948.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

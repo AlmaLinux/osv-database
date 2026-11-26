@@ -49,9 +49,21 @@
     "CVE-2021-20201"
   ],
   "published": "2021-05-18T06:24:46Z",
-  "modified": "2021-11-12T10:20:56Z",
+  "modified": "2026-11-25T18:43:33Z",
   "details": "The Simple Protocol for Independent Computing Environments (SPICE) is a remote display system built for virtual environments which allows the user to view a computing 'desktop' environment not only on the machine where it is running, but from anywhere on the Internet and from a wide variety of machine architectures.\n\nSecurity Fix(es):\n\n* spice: Client initiated renegotiation denial of service (CVE-2021-20201)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2021:1924",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1904459",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1921846",
+      "type": "REPORT"
+    },
     {
       "url": "https://errata.almalinux.org/8/ALSA-2021-1924.html",
       "type": "ADVISORY"

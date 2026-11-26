@@ -1,0 +1,254 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:103838",
+  "summary": "Critical: kernel-rt security, bug fix, and enhancement update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.190.1.rt7.531.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.190.1.rt7.531.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-debug"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.190.1.rt7.531.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-debug-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.190.1.rt7.531.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-debug-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.190.1.rt7.531.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-debug-modules"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.190.1.rt7.531.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-debug-modules-extra"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.190.1.rt7.531.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.190.1.rt7.531.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-modules"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.190.1.rt7.531.el8_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:8",
+        "name": "kernel-rt-modules-extra"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.18.0-553.190.1.rt7.531.el8_10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-63916",
+    "CVE-2026-98741",
+    "CVE-2026-99236",
+    "CVE-2026-99362"
+  ],
+  "related": [
+    "CVE-2026-63916",
+    "CVE-2026-98741",
+    "CVE-2026-99236",
+    "CVE-2026-99362"
+  ],
+  "published": "2026-11-26T00:00:00Z",
+  "modified": "2026-11-26T21:12:05Z",
+  "details": "The kernel-rt packages provide the Real Time Linux Kernel, which enables fine-tuning for systems with extremely high determinism requirements.  \n\nSecurity Fix(es):  \n\n  * kernel: HID: wacom: Fix OOB write in wacom_hid_set_device_mode() (CVE-2026-63916)\n  * kernel: ALSA: ua101: reject mismatched capture/playback packet sizes (CVE-2026-98741)\n  * kernel: kernel: privilege escalation via incomplete event filter expressions (CVE-2026-99236)\n  * kernel: kernel: Out-of-bounds write in nfsd via crafted SEQUENCE compound requests (CVE-2026-99362)\n\n\nBug Fix(es) and Enhancement(s):  \n\n  * kswapd0 loops in do_shrink_slab holding shrinker_rwsem after list_lru_count_one returns a negative nr_items as unsigned long, system hangs (JIRA:RHEL-300411)\n  * [AlmaLinux 8] vlan-tagged GSO packets are dropped in __dev_queue_xmit with SKB_DROP_REASON_SKB_BAD_GSO (JIRA:RHEL-307055)\n  * AlmaLinux 8 error in device recovery while iscsi is in use (JIRA:RHEL-307720)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:103838",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-63916",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-98741",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-99236",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-99362",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2502316",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2555081",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2565258",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2576719",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/8/ALSA-2026-103838.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

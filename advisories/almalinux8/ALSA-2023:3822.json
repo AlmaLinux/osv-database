@@ -2880,7 +2880,7 @@
     "CVE-2023-2700"
   ],
   "published": "2023-06-27T00:00:00Z",
-  "modified": "2023-07-15T00:08:41Z",
+  "modified": "2026-11-26T17:26:37Z",
   "details": "Kernel-based Virtual Machine (KVM) offers a full virtualization solution for Linux on numerous hardware platforms. The virt:rhel module contains packages which provide user-space components used to run virtual machines using KVM. The packages also provide APIs for managing and interacting with the virtualized systems.\n\nSecurity Fix(es):\n\n* libvirt: Memory leak in virPCIVirtualFunctionList cleanup (CVE-2023-2700)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Logs are spammed with ' Domain id=7 is tainted: custom-ga-command' message (BZ#2180030)\n* [qemu] snapshot is failing with error libvirt.libvirtError: internal error: QEMU monitor reply exceeds buffer size (10485760 bytes) (BZ#2181575)",
   "references": [
     {
@@ -2889,6 +2889,14 @@
     },
     {
       "url": "https://access.redhat.com/security/cve/CVE-2023-2700",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2180030",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2181575",
       "type": "REPORT"
     },
     {

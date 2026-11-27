@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.7.0",
+  "id": "ALSA-2026:103408",
+  "summary": "Important: gnome-remote-desktop security update",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "AlmaLinux:10",
+        "name": "gnome-remote-desktop"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "49.3-20.el10_3.alma.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-132858"
+  ],
+  "related": [
+    "CVE-2026-132858"
+  ],
+  "published": "2026-11-24T00:00:00Z",
+  "modified": "2026-11-26T10:39:39Z",
+  "details": "GNOME Remote Desktop is a remote desktop and screen sharing service for the GNOME desktop environment.  \n\nSecurity Fix(es):  \n\n  * gdm: Missing authorization on CreateRemoteDisplay allows autologin as arbitrary users, including root (CVE-2026-132858)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2026:103408",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://access.redhat.com/security/cve/CVE-2026-132858",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/2576292",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://errata.almalinux.org/10/ALSA-2026-103408.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

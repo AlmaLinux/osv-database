@@ -70,9 +70,41 @@
     "CVE-2021-30641"
   ],
   "published": "2021-11-09T08:52:38Z",
-  "modified": "2022-01-26T07:27:24Z",
+  "modified": "2026-11-26T17:22:14Z",
   "details": "The httpd packages provide the Apache HTTP Server, a powerful, efficient, and extensible web server.\n\nSecurity Fix(es):\n\n* httpd: mod_session: NULL pointer dereference when parsing Cookie header (CVE-2021-26690)\n\n* httpd: Unexpected URL matching with 'MergeSlashes OFF' (CVE-2021-30641)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
   "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2021:4257",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1905613",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1934741",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1935742",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1937334",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1952557",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1966729",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1966743",
+      "type": "REPORT"
+    },
     {
       "url": "https://errata.almalinux.org/8/ALSA-2021-4257.html",
       "type": "ADVISORY"

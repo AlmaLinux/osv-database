@@ -201,9 +201,37 @@
     "CVE-2020-8608"
   ],
   "published": "2020-04-07T09:15:36Z",
-  "modified": "2020-04-07T09:15:25Z",
+  "modified": "2026-11-26T17:24:44Z",
   "details": "The container-tools module contains tools for working with containers, notably podman, buildah, skopeo, and runc.\n\nSecurity Fix(es):\n\n* QEMU: Slirp: potential OOB access due to unsafe snprintf() usages (CVE-2020-8608)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* useradd and groupadd fail under rootless Buildah and podman [stream-container-tools-rhel8-rhel-8.1.1] (BZ#1803495)\n\n* Podman support for FIPS Mode requires a bind mount inside the container [stream-container-tools-rhel8-rhel-8.1.1/buildah] (BZ#1804188)\n\n* Podman support for FIPS Mode requires a bind mount inside the container [stream-container-tools-rhel8-rhel-8.1.1/podman] (BZ#1804194)\n\n* fuse-overlayfs segfault [stream-container-tools-rhel8-rhel-8.1.1/fuse-overlayfs] (BZ#1805016)\n\n* buildah COPY command is slow when .dockerignore file is not present [stream-container-tools-rhel8-rhel-8.1.1/buildah] (BZ#1806119)",
   "references": [
+    {
+      "url": "https://access.redhat.com/errata/RHSA-2020:1379",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1798453",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1803495",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1804188",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1804194",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1805016",
+      "type": "REPORT"
+    },
+    {
+      "url": "https://bugzilla.redhat.com/1806119",
+      "type": "REPORT"
+    },
     {
       "url": "https://errata.almalinux.org/8/ALSA-2020-1379.html",
       "type": "ADVISORY"
